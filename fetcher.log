@@ -1051,3 +1051,90 @@
 [2023-04-19 00:52:07] INFO root fetch - main [MainThread]: End processing [astronomer-cosmos]: success
 [2023-04-19 00:52:07] INFO root fetch - main [MainThread]: End processing [docmaptools]: success
 [2023-04-19 00:52:07] INFO root fetch - main [MainThread]: Store serial: [17762834]
+[2023-04-19 00:57:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17762834]
+[2023-04-19 00:57:16] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-19 00:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hiddifypanel
+[2023-04-19 00:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: griptape-tools
+[2023-04-19 00:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-image
+[2023-04-19 00:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mb-pytorch
+[2023-04-19 00:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 00:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantconnect-stubs
+[2023-04-19 00:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spellbot
+[2023-04-19 00:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reflutter
+[2023-04-19 00:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wtt01
+[2023-04-19 00:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FPfits
+[2023-04-19 00:57:16] INFO root fetch - processPackages [griptape-tools]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-19 00:57:16] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182252] Old Version: [1.0.202304182245]
+[2023-04-19 00:57:16] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-19 00:57:16] INFO root fetch - processPackages [reflutter]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-19 00:57:16] INFO root fetch - processPackages [wtt01]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-04-19 00:57:16] WARNING root fetch - processPackages [FPfits]: Skipping, unable to determine old version
+[2023-04-19 00:57:16] INFO root fetch - processPackages [FPfits]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 00:57:16] INFO root fetch - main [MainThread]: End processing [FPfits] error
+[2023-04-19 00:57:16] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-04-19 00:57:16] INFO root fetch - processPackages [spellbot]: New version: [8.9.1] Old Version: [8.9.0]
+[2023-04-19 00:57:16] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-19 00:57:16] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-04-19 00:57:16] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-04-19 00:57:16] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230419/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-04-19 00:57:16] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.0.dev6] Old Version: [4.0.0.dev58]
+[2023-04-19 00:57:16] ERROR root fetch - processPackages [fastapi-ecommerce-ext]: Unable to fetch info: No such project/version 'fastapi-ecommerce-ext' 0.1.7
+[2023-04-19 00:57:16] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Start processing: Hunabku
+[2023-04-19 00:57:16] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext] error
+[2023-04-19 00:57:16] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/82/62/b7c347ad5ab23d4ee53378c794eafe247762642061e10d49cf5d8bffb489/mb_pytorch-1.0.202304182252-py3-none-any.whl
+[2023-04-19 00:57:16] INFO root fetch - processPackages [reflutter]: executing diffoscope
+[2023-04-19 00:57:16] INFO root fetch - processPackages [reflutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflutter-0.7.2.tar.gz tmp/reflutter-0.7.3.tar.gz --markdown 20230419/r/reflutter/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-19 00:57:16] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/4e/a5/0d6c98256fd44d5cf6ed6b16bc1414f3d12a27bda0bf2ecb29e95e44f96e/spellbot-8.9.0.tar.gz
+[2023-04-19 00:57:16] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-04-19 00:57:16] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230419/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-04-19 00:57:16] ERROR root fetch - processPackages [fastapi-ecommerce-ext]: Unable to fetch info: No such project/version 'fastapi-ecommerce-ext' 0.1.8
+[2023-04-19 00:57:16] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Start processing: ipfsclient
+[2023-04-19 00:57:16] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext] error
+[2023-04-19 00:57:16] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/55/42/46fbdd50dbeae58fc12f7546c1bd78f0990f8e7d145d7de5ac2857d53a3b/hiddifypanel-4.0.0.dev58-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-19 00:57:16] WARNING root fetch - processPackages [ipfsclient]: Skipping, unable to determine old version
+[2023-04-19 00:57:16] INFO root fetch - processPackages [ipfsclient]: Start processing: hagis
+[2023-04-19 00:57:16] INFO root fetch - main [MainThread]: End processing [ipfsclient] error
+[2023-04-19 00:57:16] INFO root fetch - processPackages [Hunabku]: New version: [0.0.9] Old Version: [0.0.8a0]
+[2023-04-19 00:57:16] INFO root fetch - processPackages [wtt01]: Downloading https://files.pythonhosted.org/packages/19/9c/7c010da618fe7b779819a056c2ed42b856a9fb14843c65ecd4965ee4d8f3/wtt01-0.3.0.tar.gz
+[2023-04-19 00:57:17] INFO root fetch - processPackages [hagis]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 00:57:17] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-04-19 00:57:17] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.2.8.tar.gz tmp/hagis-0.2.9.tar.gz --markdown 20230419/h/hagis/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 00:57:17] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 00:57:17] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182245-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182252-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182245-1.0.202304182252/diff.md --exclude *.pyd
+[2023-04-19 00:57:17] INFO root fetch - processPackages [Hunabku]: Downloading https://files.pythonhosted.org/packages/3e/68/63a8e491432835d8572d2adf9d4f19b0777c41ab10102083bafdaeed455f/Hunabku-0.0.8a0.tar.gz
+[2023-04-19 00:57:17] INFO root fetch - processPackages [wtt01]: executing diffoscope
+[2023-04-19 00:57:17] INFO root fetch - processPackages [wtt01]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtt01-0.2.8.tar.gz tmp/wtt01-0.3.0.tar.gz --markdown 20230419/w/wtt01/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-04-19 00:57:17] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/cc/3c/8019fb435e891eae955476aa9adc8173198bfba33542f782bb8b2db2cab5/spellbot-8.9.1.tar.gz
+[2023-04-19 00:57:17] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/7a/46/e438d0f0ada417d7252fc43a3446f8a502b836923b78b7640d8489400322/griptape_tools-0.7.0.tar.gz
+[2023-04-19 00:57:17] INFO root fetch - processPackages [spellbot]: executing diffoscope
+[2023-04-19 00:57:17] INFO root fetch - processPackages [spellbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spellbot-8.9.0.tar.gz tmp/spellbot-8.9.1.tar.gz --markdown 20230419/s/spellbot/8.9.0-8.9.1/diff.md --exclude *.pyd
+[2023-04-19 00:57:17] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-04-19 00:57:17] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.6.0.tar.gz tmp/griptape_tools-0.7.0.tar.gz --markdown 20230419/g/griptape-tools/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-19 00:57:17] INFO root fetch - processPackages [Hunabku]: Downloading https://files.pythonhosted.org/packages/4b/29/60f42929be38a9c63d22a6219d9ca9294644abc34e86791d203f65e7ea3f/Hunabku-0.0.9.tar.gz
+[2023-04-19 00:57:17] INFO root fetch - processPackages [Hunabku]: executing diffoscope
+[2023-04-19 00:57:17] INFO root fetch - processPackages [Hunabku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hunabku-0.0.8a0.tar.gz tmp/Hunabku-0.0.9.tar.gz --markdown 20230419/H/Hunabku/0.0.8a0-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 00:57:18] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-19 00:57:18] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.0.dev58-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.0.dev6-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230419/h/hiddifypanel/4.0.0.dev58-4.0.0.dev6/diff.md --exclude *.pyd
+[2023-04-19 00:57:18] INFO root fetch - processPackages [cdk8s-image]: Start processing: FPfits
+[2023-04-19 00:57:18] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-04-19 00:57:18] INFO root fetch - processPackages [FPfits]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 00:57:18] INFO root fetch - processPackages [FPfits]: Downloading https://files.pythonhosted.org/packages/d1/b6/3de605dc7517c85a840b1b0b4e9ee4d6222611009ce0fc6bb73fda598360/FPfits-0.0.2.tar.gz
+[2023-04-19 00:57:18] INFO root fetch - processPackages [hagis]: Start processing: cdk8s-plus-25
+[2023-04-19 00:57:18] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-04-19 00:57:18] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-04-19 00:57:18] INFO root fetch - main [MainThread]: End processing [reflutter]: success
+[2023-04-19 00:57:18] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-04-19 00:57:18] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.0.tar.gz tmp/cdk8s-plus-25-2.7.1.tar.gz --markdown 20230419/c/cdk8s-plus-25/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-04-19 00:57:18] INFO root fetch - processPackages [FPfits]: Downloading https://files.pythonhosted.org/packages/da/b9/d04ba368aae00dd99016aa04f4b7334440614f8caca3c18244f9a250b894/FPfits-0.0.3.tar.gz
+[2023-04-19 00:57:18] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 00:57:18] INFO root fetch - main [MainThread]: End processing [wtt01]: success
+[2023-04-19 00:57:18] INFO root fetch - processPackages [FPfits]: executing diffoscope
+[2023-04-19 00:57:18] INFO root fetch - processPackages [FPfits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPfits-0.0.2.tar.gz tmp/FPfits-0.0.3.tar.gz --markdown 20230419/F/FPfits/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 00:57:19] INFO root fetch - main [MainThread]: End processing [Hunabku]: success
+[2023-04-19 00:57:19] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-04-19 00:57:19] INFO root fetch - main [MainThread]: End processing [FPfits]: success
+[2023-04-19 00:57:19] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-04-19 00:57:20] INFO root fetch - main [MainThread]: End processing [spellbot]: success
+[2023-04-19 00:57:22] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-04-19 00:57:34] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-19 00:57:34] INFO root fetch - main [MainThread]: Store serial: [17762894]
