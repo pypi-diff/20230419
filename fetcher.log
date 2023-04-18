@@ -1440,3 +1440,22 @@
 [2023-04-19 01:23:39] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
 [2023-04-19 01:23:48] INFO root fetch - main [MainThread]: End processing [mlflow-skinny]: success
 [2023-04-19 01:23:48] INFO root fetch - main [MainThread]: Store serial: [17763045]
+[2023-04-19 01:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17763045]
+[2023-04-19 01:29:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-19 01:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trailwatch
+[2023-04-19 01:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2023-04-19 01:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: griptape-flow
+[2023-04-19 01:29:06] INFO root fetch - processPackages [trailwatch]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-19 01:29:06] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182323] Old Version: [1.0.202304182252]
+[2023-04-19 01:29:06] WARNING root fetch - processPackages [griptape-flow]: Skipping, unable to determine old version
+[2023-04-19 01:29:06] INFO root fetch - main [MainThread]: End processing [griptape-flow] error
+[2023-04-19 01:29:06] INFO root fetch - processPackages [trailwatch]: Downloading https://files.pythonhosted.org/packages/61/8b/40a01a66cb7ca73c68db7fc5ad1602e65ad6f6ea5c66427ba7e94340d788/trailwatch-0.1.0.tar.gz
+[2023-04-19 01:29:06] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/7c/e5/913aba37fa59e0202aedea3a2359d35455256318ec4c14703c36d82fdfdd/mb_pytorch-1.0.202304182323-py3-none-any.whl
+[2023-04-19 01:29:06] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 01:29:06] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182252-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182323-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182252-1.0.202304182323/diff.md --exclude *.pyd
+[2023-04-19 01:29:06] INFO root fetch - processPackages [trailwatch]: Downloading https://files.pythonhosted.org/packages/e0/04/3548373309c3e871078f6f1211abbc90f4e67caf5d0b92a8fd6c3b4458e5/trailwatch-0.2.0.tar.gz
+[2023-04-19 01:29:06] INFO root fetch - processPackages [trailwatch]: executing diffoscope
+[2023-04-19 01:29:06] INFO root fetch - processPackages [trailwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailwatch-0.1.0.tar.gz tmp/trailwatch-0.2.0.tar.gz --markdown 20230419/t/trailwatch/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 01:29:07] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 01:29:07] INFO root fetch - main [MainThread]: End processing [trailwatch]: success
+[2023-04-19 01:29:07] INFO root fetch - main [MainThread]: Store serial: [17763056]
