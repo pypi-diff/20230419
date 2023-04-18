@@ -1326,3 +1326,58 @@
 [2023-04-19 01:13:14] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
 [2023-04-19 01:13:15] INFO root fetch - main [MainThread]: End processing [dito]: success
 [2023-04-19 01:13:15] INFO root fetch - main [MainThread]: Store serial: [17762985]
+[2023-04-19 01:18:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17762985]
+[2023-04-19 01:18:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-19 01:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salt
+[2023-04-19 01:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autoprotocol
+[2023-04-19 01:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meshed
+[2023-04-19 01:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hagis
+[2023-04-19 01:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vutils-python
+[2023-04-19 01:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prince
+[2023-04-19 01:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-04-19 01:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wtt02
+[2023-04-19 01:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlflow
+[2023-04-19 01:18:24] INFO root fetch - processPackages [hagis]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 01:18:24] INFO root fetch - processPackages [salt]: New version: [3006.0rc3] Old Version: [3006.0rc2]
+[2023-04-19 01:18:24] INFO root fetch - processPackages [vutils-python]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-19 01:18:24] INFO root fetch - processPackages [prince]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-19 01:18:24] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-19 01:18:24] INFO root fetch - processPackages [wtt02]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-19 01:18:24] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.280] Old Version: [0.3.279]
+[2023-04-19 01:18:24] INFO root fetch - processPackages [mlflow]: New version: [2.3.0] Old Version: [2.2.2]
+[2023-04-19 01:18:24] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-04-19 01:18:24] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.2.8.tar.gz tmp/hagis-0.2.9.tar.gz --markdown 20230419/h/hagis/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 01:18:24] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2023-04-19 01:18:24] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20230419/m/meshed/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-19 01:18:24] INFO root fetch - processPackages [autoprotocol]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-04-19 01:18:24] INFO root fetch - processPackages [prince]: executing diffoscope
+[2023-04-19 01:18:24] INFO root fetch - processPackages [prince]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prince-0.8.3.tar.gz tmp/prince-0.9.0.tar.gz --markdown 20230419/p/prince/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 01:18:24] INFO root fetch - processPackages [salt]: Downloading https://files.pythonhosted.org/packages/bf/5d/55fca957800cbc4d47b6c15c0197795b5cbaee07dac6ebb1dc3b53bff99c/salt-3006.0rc2.tar.gz
+[2023-04-19 01:18:24] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/40/7a/83ec0f4d34170464088e18b36d7e8f62997c9b28ef3b2c23d6547dc63b96/pepperize.cdk-ses-smtp-credentials-0.3.280.tar.gz
+[2023-04-19 01:18:24] INFO root fetch - processPackages [vutils-python]: Downloading https://files.pythonhosted.org/packages/73/df/7d577436bb72e34d3af784d9c91ff7864fbeb9818aa41e836a48c9508221/vutils-python-0.2.0.tar.gz
+[2023-04-19 01:18:24] INFO root fetch - processPackages [mlflow]: Downloading https://files.pythonhosted.org/packages/b5/68/e82f08d62b401444c192000f551957b6fa513637f2981c1c314199567127/mlflow-2.2.2.tar.gz
+[2023-04-19 01:18:24] INFO root fetch - processPackages [wtt02]: Downloading https://files.pythonhosted.org/packages/79/23/a2c1a844fd05ae42f8a2d193eb050825db644af2cd1511f6122fc02d62cc/wtt02-0.2.3.tar.gz
+[2023-04-19 01:18:24] INFO root fetch - processPackages [autoprotocol]: Downloading https://files.pythonhosted.org/packages/3f/12/5781423ce731d9b4caf19c31bd495b5c100f54f638a52d858010f0a7669b/autoprotocol-9.1.0.tar.gz
+[2023-04-19 01:18:24] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-04-19 01:18:24] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.279.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.280.tar.gz --markdown 20230419/p/pepperize.cdk-ses-smtp-credentials/0.3.279-0.3.280/diff.md --exclude *.pyd
+[2023-04-19 01:18:24] WARNING root fetch - processPackages [salt]: Skipping package: exceeds size limit 20313049>=10485760
+[2023-04-19 01:18:24] INFO root fetch - main [MainThread]: End processing [salt] error
+[2023-04-19 01:18:24] WARNING root fetch - processPackages [mlflow]: Skipping package: exceeds size limit 17226345>=10485760
+[2023-04-19 01:18:24] INFO root fetch - main [MainThread]: End processing [mlflow] error
+[2023-04-19 01:18:24] INFO root fetch - processPackages [wtt02]: Downloading https://files.pythonhosted.org/packages/c3/4c/0c899f42319c2f57f42edc66290599360280d3a443aff15e79936f511a43/wtt02-0.2.4.tar.gz
+[2023-04-19 01:18:24] INFO root fetch - processPackages [wtt02]: executing diffoscope
+[2023-04-19 01:18:24] INFO root fetch - processPackages [vutils-python]: Downloading https://files.pythonhosted.org/packages/4a/2e/90725233f98fa8d8c9aef381100c811772e0777c5fecb5391c5e6dde7caa/vutils-python-0.2.1.tar.gz
+[2023-04-19 01:18:24] INFO root fetch - processPackages [wtt02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtt02-0.2.3.tar.gz tmp/wtt02-0.2.4.tar.gz --markdown 20230419/w/wtt02/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-19 01:18:25] INFO root fetch - processPackages [vutils-python]: executing diffoscope
+[2023-04-19 01:18:25] INFO root fetch - processPackages [vutils-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vutils-python-0.2.0.tar.gz tmp/vutils-python-0.2.1.tar.gz --markdown 20230419/v/vutils-python/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-19 01:18:25] INFO root fetch - processPackages [autoprotocol]: Downloading https://files.pythonhosted.org/packages/b3/5c/db74c0bb16f0f2099a337c2284a9eb28f4dc5acd09d6d4223d4845566291/autoprotocol-9.1.1.tar.gz
+[2023-04-19 01:18:25] INFO root fetch - processPackages [autoprotocol]: executing diffoscope
+[2023-04-19 01:18:25] INFO root fetch - processPackages [autoprotocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoprotocol-9.1.0.tar.gz tmp/autoprotocol-9.1.1.tar.gz --markdown 20230419/a/autoprotocol/9.1.0-9.1.1/diff.md --exclude *.pyd
+[2023-04-19 01:18:25] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-04-19 01:18:25] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-04-19 01:18:25] INFO root fetch - main [MainThread]: End processing [prince]: success
+[2023-04-19 01:18:25] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2023-04-19 01:18:26] INFO root fetch - main [MainThread]: End processing [wtt02]: success
+[2023-04-19 01:18:26] INFO root fetch - main [MainThread]: End processing [vutils-python]: success
+[2023-04-19 01:18:26] INFO root fetch - main [MainThread]: End processing [autoprotocol]: success
+[2023-04-19 01:18:26] INFO root fetch - main [MainThread]: Store serial: [17763016]
