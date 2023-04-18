@@ -753,3 +753,106 @@
 [2023-04-19 00:35:51] INFO root fetch - main [MainThread]: End processing [grpc-load-balancer]: success
 [2023-04-19 00:35:55] INFO root fetch - main [MainThread]: End processing [open-data-project]: success
 [2023-04-19 00:35:55] INFO root fetch - main [MainThread]: Store serial: [17762662]
+[2023-04-19 00:40:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17762662]
+[2023-04-19 00:41:04] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-19 00:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-dactyl
+[2023-04-19 00:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2023-04-19 00:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amazon-textract-textractor
+[2023-04-19 00:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-airflow-providers-fastetl
+[2023-04-19 00:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hiddifypanel
+[2023-04-19 00:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hspylib
+[2023-04-19 00:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: viso-sdk-python
+[2023-04-19 00:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chemex
+[2023-04-19 00:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tinote
+[2023-04-19 00:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sopel-8ball
+[2023-04-19 00:41:04] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 00:41:04] INFO root fetch - processPackages [tinote]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-19 00:41:04] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182236] Old Version: [1.0.202304182230]
+[2023-04-19 00:41:04] INFO root fetch - processPackages [sopel-8ball]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-19 00:41:04] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.0.dev6] Old Version: [4.0.0.dev56]
+[2023-04-19 00:41:04] INFO root fetch - processPackages [py-dactyl]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-19 00:41:04] INFO root fetch - processPackages [tinote]: executing diffoscope
+[2023-04-19 00:41:04] INFO root fetch - processPackages [tinote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinote-1.1.2.tar.gz tmp/tinote-1.1.3.tar.gz --markdown 20230419/t/tinote/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-19 00:41:04] INFO root fetch - processPackages [chemex]: New version: [2022.3.2] Old Version: [2022.3.1]
+[2023-04-19 00:41:04] INFO root fetch - processPackages [viso-sdk-python]: New version: [0.0.5] Old Version: [0.0.4.dev0]
+[2023-04-19 00:41:04] INFO root fetch - processPackages [amazon-textract-textractor]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-19 00:41:04] INFO root fetch - processPackages [hspylib]: New version: [0.9.23] Old Version: [0.9.22]
+[2023-04-19 00:41:04] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/ea/d2/a0d2bc74c191469fb1e23509688b11d0aa5ca7bfda6371d5bbdf0128f84a/hiddifypanel-4.0.0.dev56-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-19 00:41:04] INFO root fetch - processPackages [sopel-8ball]: Downloading https://files.pythonhosted.org/packages/c9/42/e1ed192a9136d070d393f8ce797578f1d85aa1be5a8d2fc93c94f3f84cb1/sopel-8ball-0.3.0.tar.gz
+[2023-04-19 00:41:04] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/b5/c5/a0bfc42d2069ffe33548dac522953168cccdfa2bd7cacf4cfe56472875df/mb_pytorch-1.0.202304182236-py3-none-any.whl
+[2023-04-19 00:41:04] INFO root fetch - processPackages [py-dactyl]: Downloading https://files.pythonhosted.org/packages/19/2e/2913a551ac6927eaa79c0cfc24be6d119db09cd6cd3128cf9948c1da7905/py-dactyl-2.0.0.tar.gz
+[2023-04-19 00:41:04] INFO root fetch - processPackages [amazon-textract-textractor]: Downloading https://files.pythonhosted.org/packages/9a/af/57f49acd78806eb174899d61d16863a2a5c9f34d8d03a4973eb0536f4b17/amazon-textract-textractor-1.2.0.tar.gz
+[2023-04-19 00:41:04] INFO root fetch - processPackages [viso-sdk-python]: Downloading https://files.pythonhosted.org/packages/1d/4f/12c604a239a8b515ab8506d3352fb27e0d738e61da0b7d2e85e0a6bc3b0f/viso-sdk-python-0.0.4.dev0.tar.gz
+[2023-04-19 00:41:04] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Downloading https://files.pythonhosted.org/packages/d4/f8/baf9fc62b93aeb50681580f8298179926c73ad768fa3910640c56d6c583e/apache-airflow-providers-fastetl-0.0.9.tar.gz
+[2023-04-19 00:41:04] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/9a/aa/de6dd6d06a6c7b1d105e1a6cd5b023a280216a7fc26d69f8b6fe0e3e9851/hspylib-0.9.22.tar.gz
+[2023-04-19 00:41:04] INFO root fetch - processPackages [sopel-8ball]: executing diffoscope
+[2023-04-19 00:41:04] INFO root fetch - processPackages [sopel-8ball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sopel-8ball-0.3.0.tar.gz tmp/sopel-8ball-0.3.1.tar.gz --markdown 20230419/s/sopel-8ball/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-19 00:41:04] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 00:41:04] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182230-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182236-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182230-1.0.202304182236/diff.md --exclude *.pyd
+[2023-04-19 00:41:04] INFO root fetch - processPackages [chemex]: Downloading https://files.pythonhosted.org/packages/69/77/5b6051d080e98bd19fdbdb98ed089218b9894419a48dac30e93fdddfcc82/chemex-2022.3.2.tar.gz
+[2023-04-19 00:41:04] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: executing diffoscope
+[2023-04-19 00:41:04] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-fastetl-0.0.8.tar.gz tmp/apache-airflow-providers-fastetl-0.0.9.tar.gz --markdown 20230419/a/apache-airflow-providers-fastetl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 00:41:04] INFO root fetch - processPackages [amazon-textract-textractor]: Downloading https://files.pythonhosted.org/packages/c8/a3/db85bca7c6acbdc5aa683838f8ff4694b5417dc2b3f2b8d7705e413f820f/amazon-textract-textractor-1.3.0.tar.gz
+[2023-04-19 00:41:04] INFO root fetch - processPackages [py-dactyl]: Downloading https://files.pythonhosted.org/packages/6d/c9/321bdc77b2a0012607841248bc332179ae4a9153467fd8c22c4f5a8c33a1/py-dactyl-2.0.1.tar.gz
+[2023-04-19 00:41:04] INFO root fetch - processPackages [chemex]: executing diffoscope
+[2023-04-19 00:41:04] INFO root fetch - processPackages [chemex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemex-2022.3.1.tar.gz tmp/chemex-2022.3.2.tar.gz --markdown 20230419/c/chemex/2022.3.1-2022.3.2/diff.md --exclude *.pyd
+[2023-04-19 00:41:04] INFO root fetch - processPackages [viso-sdk-python]: Downloading https://files.pythonhosted.org/packages/78/eb/19559f73f79d4d9bfd76e689285430c7cea52aa5348584600bb17f286fd2/viso-sdk-python-0.0.5.tar.gz
+[2023-04-19 00:41:04] INFO root fetch - processPackages [hspylib]: Downloading https://files.pythonhosted.org/packages/8f/df/44665e29eaf1932d6c04fa68c0fbd4eb9231dd909256647ad29c0c25f8ae/hspylib-0.9.23.tar.gz
+[2023-04-19 00:41:05] INFO root fetch - processPackages [py-dactyl]: executing diffoscope
+[2023-04-19 00:41:05] INFO root fetch - processPackages [py-dactyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-dactyl-2.0.0.tar.gz tmp/py-dactyl-2.0.1.tar.gz --markdown 20230419/p/py-dactyl/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-19 00:41:05] INFO root fetch - processPackages [amazon-textract-textractor]: executing diffoscope
+[2023-04-19 00:41:05] INFO root fetch - processPackages [amazon-textract-textractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-textract-textractor-1.2.0.tar.gz tmp/amazon-textract-textractor-1.3.0.tar.gz --markdown 20230419/a/amazon-textract-textractor/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-19 00:41:05] INFO root fetch - processPackages [viso-sdk-python]: executing diffoscope
+[2023-04-19 00:41:05] INFO root fetch - processPackages [viso-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viso-sdk-python-0.0.4.dev0.tar.gz tmp/viso-sdk-python-0.0.5.tar.gz --markdown 20230419/v/viso-sdk-python/0.0.4.dev0-0.0.5/diff.md --exclude *.pyd
+[2023-04-19 00:41:05] INFO root fetch - processPackages [hspylib]: executing diffoscope
+[2023-04-19 00:41:05] INFO root fetch - processPackages [hspylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-0.9.22.tar.gz tmp/hspylib-0.9.23.tar.gz --markdown 20230419/h/hspylib/0.9.22-0.9.23/diff.md --exclude *.pyd
+[2023-04-19 00:41:05] INFO root fetch - processPackages [tinote]: Start processing: returnn
+[2023-04-19 00:41:05] INFO root fetch - main [MainThread]: End processing [tinote]: success
+[2023-04-19 00:41:05] INFO root fetch - processPackages [returnn]: New version: [1.20230418.5121] Old Version: [1.20230418.225432]
+[2023-04-19 00:41:05] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-19 00:41:05] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230418.225432.tar.gz tmp/returnn-1.20230418.5121.tar.gz --markdown 20230419/r/returnn/1.20230418.225432-1.20230418.5121/diff.md --exclude *.pyd
+[2023-04-19 00:41:06] INFO root fetch - processPackages [sopel-8ball]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 00:41:06] INFO root fetch - main [MainThread]: End processing [sopel-8ball]: success
+[2023-04-19 00:41:06] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 00:41:06] INFO root fetch - processPackages [mb-pytorch]: Start processing: mb-pytorch
+[2023-04-19 00:41:06] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 00:41:06] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 00:41:06] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-ecommerce-ext-0.1.1.tar.gz tmp/fastapi-ecommerce-ext-0.1.2.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 00:41:06] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182240] Old Version: [1.0.202304182236]
+[2023-04-19 00:41:06] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-19 00:41:06] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.0.dev56-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.0.dev6-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230419/h/hiddifypanel/4.0.0.dev56-4.0.0.dev6/diff.md --exclude *.pyd
+[2023-04-19 00:41:06] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/08/db/adf3f2c25e991cddc00784708efde7ecb556a44833ef1bfeb2edaf6bed85/mb_pytorch-1.0.202304182240-py3-none-any.whl
+[2023-04-19 00:41:06] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 00:41:06] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182236-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182240-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182236-1.0.202304182240/diff.md --exclude *.pyd
+[2023-04-19 00:41:06] INFO root fetch - processPackages [amazon-textract-textractor]: Start processing: wafermap
+[2023-04-19 00:41:06] INFO root fetch - main [MainThread]: End processing [amazon-textract-textractor]: success
+[2023-04-19 00:41:06] INFO root fetch - processPackages [wafermap]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-19 00:41:06] INFO root fetch - processPackages [wafermap]: executing diffoscope
+[2023-04-19 00:41:06] INFO root fetch - processPackages [wafermap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-0.1.0.tar.gz tmp/wafermap-0.2.0.tar.gz --markdown 20230419/w/wafermap/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 00:41:07] INFO root fetch - processPackages [hspylib]: Start processing: fitting-and-plotting
+[2023-04-19 00:41:07] INFO root fetch - main [MainThread]: End processing [hspylib]: success
+[2023-04-19 00:41:07] WARNING root fetch - processPackages [fitting-and-plotting]: Skipping, unable to determine old version
+[2023-04-19 00:41:07] INFO root fetch - processPackages [fitting-and-plotting]: Start processing: hspylib-hqt
+[2023-04-19 00:41:07] INFO root fetch - main [MainThread]: End processing [fitting-and-plotting] error
+[2023-04-19 00:41:07] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Start processing: gEconpy
+[2023-04-19 00:41:07] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-fastetl]: success
+[2023-04-19 00:41:07] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Start processing: chitchatcli
+[2023-04-19 00:41:07] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 00:41:07] WARNING root fetch - processPackages [hspylib-hqt]: Skipping, unable to determine old version
+[2023-04-19 00:41:07] INFO root fetch - main [MainThread]: End processing [hspylib-hqt] error
+[2023-04-19 00:41:07] WARNING root fetch - processPackages [chitchatcli]: Skipping, unable to determine old version
+[2023-04-19 00:41:07] INFO root fetch - main [MainThread]: End processing [chitchatcli] error
+[2023-04-19 00:41:07] INFO root fetch - processPackages [gEconpy]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-19 00:41:07] INFO root fetch - main [MainThread]: End processing [py-dactyl]: success
+[2023-04-19 00:41:07] INFO root fetch - processPackages [gEconpy]: Downloading https://files.pythonhosted.org/packages/8e/0a/eed4c117df63518e23857959dd0b673af4dc7850e119eaa2588c0ba875fd/gEconpy-1.1.0.tar.gz
+[2023-04-19 00:41:07] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 00:41:08] INFO root fetch - processPackages [gEconpy]: Downloading https://files.pythonhosted.org/packages/1b/8d/d0f1934e3585e80b6bbeeab22bb317a6c56a85e9c4a58cd42145dd6fb0cb/gEconpy-1.2.0.tar.gz
+[2023-04-19 00:41:08] INFO root fetch - main [MainThread]: End processing [chemex]: success
+[2023-04-19 00:41:08] INFO root fetch - processPackages [gEconpy]: executing diffoscope
+[2023-04-19 00:41:08] INFO root fetch - processPackages [gEconpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gEconpy-1.1.0.tar.gz tmp/gEconpy-1.2.0.tar.gz --markdown 20230419/g/gEconpy/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-19 00:41:09] INFO root fetch - main [MainThread]: End processing [wafermap]: success
+[2023-04-19 00:41:09] INFO root fetch - main [MainThread]: End processing [viso-sdk-python]: success
+[2023-04-19 00:41:10] INFO root fetch - main [MainThread]: End processing [gEconpy]: success
+[2023-04-19 00:41:10] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-19 00:41:25] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-19 00:41:25] INFO root fetch - main [MainThread]: Store serial: [17762727]
