@@ -1603,3 +1603,39 @@
 [2023-04-19 01:44:44] INFO root fetch - main [MainThread]: End processing [NEMO-billing]: success
 [2023-04-19 01:44:45] INFO root fetch - main [MainThread]: End processing [pycallflow]: success
 [2023-04-19 01:44:45] INFO root fetch - main [MainThread]: Store serial: [17763139]
+[2023-04-19 01:49:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17763139]
+[2023-04-19 01:49:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-19 01:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: returnn
+[2023-04-19 01:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2023-04-19 01:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: not1mm
+[2023-04-19 01:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mb-pytorch
+[2023-04-19 01:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-botting-core
+[2023-04-19 01:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansys-fluent-parametric
+[2023-04-19 01:49:54] INFO root fetch - processPackages [not1mm]: New version: [23.4.6] Old Version: [23.4.5]
+[2023-04-19 01:49:54] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182334] Old Version: [1.0.202304182323]
+[2023-04-19 01:49:54] INFO root fetch - processPackages [ml-botting-core]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-19 01:49:54] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182334] Old Version: [1.0.202304182323]
+[2023-04-19 01:49:54] INFO root fetch - processPackages [returnn]: New version: [1.20230419.2603] Old Version: [1.20230418.5121]
+[2023-04-19 01:49:54] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-04-19 01:49:54] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.4.5.tar.gz tmp/not1mm-23.4.6.tar.gz --markdown 20230419/n/not1mm/23.4.5-23.4.6/diff.md --exclude *.pyd
+[2023-04-19 01:49:54] INFO root fetch - processPackages [ansys-fluent-parametric]: New version: [0.7.dev1] Old Version: [0.7.dev0]
+[2023-04-19 01:49:54] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 01:49:54] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182323-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182334-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182323-1.0.202304182334/diff.md --exclude *.pyd
+[2023-04-19 01:49:54] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 01:49:54] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182323-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182334-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182323-1.0.202304182334/diff.md --exclude *.pyd
+[2023-04-19 01:49:55] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/03/a4/261d7517adfd78ff40e806cb86a4d6802b64bbcde59cf65222083d3364f3/returnn-1.20230419.2603.tar.gz
+[2023-04-19 01:49:55] INFO root fetch - processPackages [ml-botting-core]: executing diffoscope
+[2023-04-19 01:49:55] INFO root fetch - processPackages [ml-botting-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_botting_core-0.0.7.tar.gz tmp/ml_botting_core-0.0.9.tar.gz --markdown 20230419/m/ml-botting-core/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 01:49:55] INFO root fetch - processPackages [ansys-fluent-parametric]: Downloading https://files.pythonhosted.org/packages/f6/00/2d553ac18f1478d017eaa04dd9adf77cf0edff3f6ab95d2f19e2a36ed08a/ansys_fluent_parametric-0.7.dev0.tar.gz
+[2023-04-19 01:49:55] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-19 01:49:55] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230418.5121.tar.gz tmp/returnn-1.20230419.2603.tar.gz --markdown 20230419/r/returnn/1.20230418.5121-1.20230419.2603/diff.md --exclude *.pyd
+[2023-04-19 01:49:56] INFO root fetch - processPackages [ansys-fluent-parametric]: Downloading https://files.pythonhosted.org/packages/f4/10/5edb553b44ad69a2e21426362b96df43c91eecd51205a3c90188d4c6deb6/ansys_fluent_parametric-0.7.dev1.tar.gz
+[2023-04-19 01:49:56] INFO root fetch - main [MainThread]: End processing [ml-botting-core]: success
+[2023-04-19 01:49:56] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 01:49:56] INFO root fetch - processPackages [ansys-fluent-parametric]: executing diffoscope
+[2023-04-19 01:49:56] INFO root fetch - processPackages [ansys-fluent-parametric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_fluent_parametric-0.7.dev0.tar.gz tmp/ansys_fluent_parametric-0.7.dev1.tar.gz --markdown 20230419/a/ansys-fluent-parametric/0.7.dev0-0.7.dev1/diff.md --exclude *.pyd
+[2023-04-19 01:49:56] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 01:49:57] INFO root fetch - main [MainThread]: End processing [ansys-fluent-parametric]: success
+[2023-04-19 01:49:57] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-04-19 01:50:00] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-19 01:50:00] INFO root fetch - main [MainThread]: Store serial: [17763153]
