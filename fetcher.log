@@ -669,3 +669,87 @@
 [2023-04-19 00:30:33] INFO root fetch - main [MainThread]: End processing [basedmypy]: success
 [2023-04-19 00:30:39] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
 [2023-04-19 00:30:39] INFO root fetch - main [MainThread]: Store serial: [17762598]
+[2023-04-19 00:35:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17762598]
+[2023-04-19 00:35:48] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-pytorch
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stability-sdk
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyZelectrode
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: icecube-skywriter
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ape-cairo
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybeef
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ryanair-py
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: open-data-project
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vutils-testing
+[2023-04-19 00:35:48] INFO root fetch - processPackages [icecube-skywriter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 00:35:48] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 00:35:48] INFO root fetch - processPackages [PyZelectrode]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-04-19 00:35:48] INFO root fetch - processPackages [stability-sdk]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ryanair-py]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-19 00:35:48] INFO root fetch - processPackages [vutils-testing]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 00:35:48] INFO root fetch - processPackages [pybeef]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-19 00:35:48] INFO root fetch - processPackages [open-data-project]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ape-cairo]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-19 00:35:48] INFO root fetch - processPackages [stability-sdk]: executing diffoscope
+[2023-04-19 00:35:48] INFO root fetch - processPackages [stability-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stability-sdk-0.5.0.tar.gz tmp/stability-sdk-0.6.0.tar.gz --markdown 20230419/s/stability-sdk/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-19 00:35:48] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182230] Old Version: [1.0.202304182227]
+[2023-04-19 00:35:48] INFO root fetch - processPackages [icecube-skywriter]: Downloading https://files.pythonhosted.org/packages/81/dd/b38a7ee0123629dd7517081fbabc96a4255b1e5040ff7a06066dfef6cfb4/icecube-skywriter-0.0.1.tar.gz
+[2023-04-19 00:35:48] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/ee/a2/9041c79a00984be32834a277d54dfe73a93ea7380c12f42c7c970667e4f1/fastapi-ecommerce-ext-0.1.2.tar.gz
+[2023-04-19 00:35:48] INFO root fetch - processPackages [open-data-project]: Downloading https://files.pythonhosted.org/packages/33/ac/51c25a934b7717826ba4794a54ab5a14d33c8d4dea5b972091a4ccd0baeb/open_data_project-0.1.1.tar.gz
+[2023-04-19 00:35:48] INFO root fetch - processPackages [PyZelectrode]: Downloading https://files.pythonhosted.org/packages/8d/10/44060bdaa6f022d500cafdf4809f5cbab92440fc2d726ea179b5c00c7c88/PyZelectrode-0.0.3.tar.gz
+[2023-04-19 00:35:48] INFO root fetch - processPackages [vutils-testing]: Downloading https://files.pythonhosted.org/packages/f8/d4/040a7ae3f30fc62cbb57dd23a3b589a2e8ed2ec37187fd7f2f5dd8c437da/vutils-testing-1.0.1.tar.gz
+[2023-04-19 00:35:48] INFO root fetch - processPackages [pybeef]: Downloading https://files.pythonhosted.org/packages/d0/36/71b08a6261c3b190da9b651b944f5d9ae981de45bac7a83083f35deeea57/pybeef-0.0.7-py3-none-any.whl
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ape-cairo]: Downloading https://files.pythonhosted.org/packages/34/64/5686f97950260ab7bbb3561bebee0e89dbd42cc68c4a8018c7f290c5cf02/ape-cairo-0.6.0.tar.gz
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ryanair-py]: Downloading https://files.pythonhosted.org/packages/8c/a3/a0a28840fab6869b26575f0cc0fdf616ab298020e845203a89a59d7dd193/ryanair-py-2.1.0.tar.gz
+[2023-04-19 00:35:48] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 00:35:48] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-ecommerce-ext-0.1.1.tar.gz tmp/fastapi-ecommerce-ext-0.1.2.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 00:35:48] INFO root fetch - processPackages [vutils-testing]: executing diffoscope
+[2023-04-19 00:35:48] INFO root fetch - processPackages [vutils-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vutils-testing-1.0.0.tar.gz tmp/vutils-testing-1.0.1.tar.gz --markdown 20230419/v/vutils-testing/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 00:35:48] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/f7/a3/1893a6a7f7a54161fb8b227f3012c940202930fde8d435017f4a411c34e0/mb_pytorch-1.0.202304182230-py3-none-any.whl
+[2023-04-19 00:35:48] INFO root fetch - processPackages [pybeef]: executing diffoscope
+[2023-04-19 00:35:48] INFO root fetch - processPackages [pybeef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybeef-0.0.6-py3-none-any.whl.zip tmp/pybeef-0.0.7-py3-none-any.whl.zip --markdown 20230419/p/pybeef/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-19 00:35:48] INFO root fetch - processPackages [icecube-skywriter]: Downloading https://files.pythonhosted.org/packages/33/26/2fb34b58fc513ab268d764916940564189bcd8d3f9586aa2c2befdccdd3d/icecube-skywriter-0.0.2.tar.gz
+[2023-04-19 00:35:48] INFO root fetch - processPackages [ape-cairo]: Downloading https://files.pythonhosted.org/packages/be/42/49ff4501c4c55b2dc80cb7f62b47d3910e921a03e2d4f06a58cbf3a9ea2f/ape-cairo-0.6.1.tar.gz
+[2023-04-19 00:35:48] INFO root fetch - processPackages [PyZelectrode]: Downloading https://files.pythonhosted.org/packages/2b/a1/1d3d7ef2f459dfbb8cd938edaae6b83ac8d6be6c1724a78b5432c1f166bc/PyZelectrode-0.1.0.tar.gz
+[2023-04-19 00:35:49] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 00:35:49] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182227-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182230-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182227-1.0.202304182230/diff.md --exclude *.pyd
+[2023-04-19 00:35:49] INFO root fetch - processPackages [icecube-skywriter]: executing diffoscope
+[2023-04-19 00:35:49] INFO root fetch - processPackages [icecube-skywriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icecube-skywriter-0.0.1.tar.gz tmp/icecube-skywriter-0.0.2.tar.gz --markdown 20230419/i/icecube-skywriter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 00:35:49] INFO root fetch - processPackages [ape-cairo]: executing diffoscope
+[2023-04-19 00:35:49] INFO root fetch - processPackages [ape-cairo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-cairo-0.6.0.tar.gz tmp/ape-cairo-0.6.1.tar.gz --markdown 20230419/a/ape-cairo/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-19 00:35:49] INFO root fetch - processPackages [PyZelectrode]: executing diffoscope
+[2023-04-19 00:35:49] INFO root fetch - processPackages [PyZelectrode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyZelectrode-0.0.3.tar.gz tmp/PyZelectrode-0.1.0.tar.gz --markdown 20230419/P/PyZelectrode/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-04-19 00:35:49] INFO root fetch - processPackages [ryanair-py]: Downloading https://files.pythonhosted.org/packages/a2/ad/1407a614a6cb5cecfeac9e70d82e6b560b633dcc09fd85cc7907a9a48fef/ryanair-py-2.2.0.tar.gz
+[2023-04-19 00:35:49] INFO root fetch - processPackages [open-data-project]: Downloading https://files.pythonhosted.org/packages/e9/bb/10f20c9c41ac0167efe8957fc122e9cef5b607785741e6428040c0687b30/open_data_project-0.1.2.tar.gz
+[2023-04-19 00:35:49] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Start processing: sopel-8ball
+[2023-04-19 00:35:49] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 00:35:50] INFO root fetch - processPackages [ryanair-py]: executing diffoscope
+[2023-04-19 00:35:50] INFO root fetch - processPackages [ryanair-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryanair-py-2.1.0.tar.gz tmp/ryanair-py-2.2.0.tar.gz --markdown 20230419/r/ryanair-py/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-19 00:35:50] INFO root fetch - processPackages [sopel-8ball]: New version: [0.4.0.dev0] Old Version: [0.3.1]
+[2023-04-19 00:35:50] INFO root fetch - processPackages [pybeef]: Start processing: grpc-load-balancer
+[2023-04-19 00:35:50] INFO root fetch - main [MainThread]: End processing [pybeef]: success
+[2023-04-19 00:35:50] INFO root fetch - processPackages [vutils-testing]: Start processing: python-textbelt
+[2023-04-19 00:35:50] INFO root fetch - main [MainThread]: End processing [vutils-testing]: success
+[2023-04-19 00:35:50] INFO root fetch - processPackages [grpc-load-balancer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 00:35:50] INFO root fetch - processPackages [sopel-8ball]: Downloading https://files.pythonhosted.org/packages/4f/65/0d9c1b5247a9a1eff46d0d3c436356c20e46fd390b26a0d02f1a715d0e52/sopel-8ball-0.3.1.tar.gz
+[2023-04-19 00:35:50] WARNING root fetch - processPackages [python-textbelt]: Skipping, unable to determine old version
+[2023-04-19 00:35:50] INFO root fetch - main [MainThread]: End processing [python-textbelt] error
+[2023-04-19 00:35:50] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 00:35:50] INFO root fetch - main [MainThread]: End processing [PyZelectrode]: success
+[2023-04-19 00:35:50] INFO root fetch - processPackages [grpc-load-balancer]: Downloading https://files.pythonhosted.org/packages/2b/69/90b7848c230cacd3bf8cbe141b245939591e75897860e052de5c8ab94350/grpc_load_balancer-0.0.2.tar.gz
+[2023-04-19 00:35:50] INFO root fetch - main [MainThread]: End processing [ape-cairo]: success
+[2023-04-19 00:35:50] INFO root fetch - processPackages [sopel-8ball]: Downloading https://files.pythonhosted.org/packages/80/b0/51543ea83fc54f2e08d70c1d524cfd205151494ed5c3065a897c19c119ed/sopel-8ball-0.4.0.dev0.tar.gz
+[2023-04-19 00:35:50] INFO root fetch - main [MainThread]: End processing [icecube-skywriter]: success
+[2023-04-19 00:35:50] INFO root fetch - processPackages [grpc-load-balancer]: Downloading https://files.pythonhosted.org/packages/c9/40/4e7f5cfc8c5e03b63dd1e95cf42e95719ad0064a9b7578dce20886a8037f/grpc_load_balancer-0.0.3.tar.gz
+[2023-04-19 00:35:50] INFO root fetch - processPackages [sopel-8ball]: executing diffoscope
+[2023-04-19 00:35:50] INFO root fetch - processPackages [sopel-8ball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sopel-8ball-0.3.1.tar.gz tmp/sopel-8ball-0.4.0.dev0.tar.gz --markdown 20230419/s/sopel-8ball/0.3.1-0.4.0.dev0/diff.md --exclude *.pyd
+[2023-04-19 00:35:50] INFO root fetch - processPackages [open-data-project]: executing diffoscope
+[2023-04-19 00:35:50] INFO root fetch - processPackages [open-data-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_data_project-0.1.1.tar.gz tmp/open_data_project-0.1.2.tar.gz --markdown 20230419/o/open-data-project/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 00:35:50] INFO root fetch - processPackages [grpc-load-balancer]: executing diffoscope
+[2023-04-19 00:35:50] INFO root fetch - processPackages [grpc-load-balancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpc_load_balancer-0.0.2.tar.gz tmp/grpc_load_balancer-0.0.3.tar.gz --markdown 20230419/g/grpc-load-balancer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 00:35:51] INFO root fetch - main [MainThread]: End processing [stability-sdk]: success
+[2023-04-19 00:35:51] INFO root fetch - main [MainThread]: End processing [ryanair-py]: success
+[2023-04-19 00:35:51] INFO root fetch - main [MainThread]: End processing [sopel-8ball]: success
+[2023-04-19 00:35:51] INFO root fetch - main [MainThread]: End processing [grpc-load-balancer]: success
+[2023-04-19 00:35:55] INFO root fetch - main [MainThread]: End processing [open-data-project]: success
+[2023-04-19 00:35:55] INFO root fetch - main [MainThread]: Store serial: [17762662]
