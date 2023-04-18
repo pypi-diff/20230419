@@ -338,3 +338,98 @@
 [2023-04-19 00:08:57] INFO root fetch - main [MainThread]: End processing [chichitk]: success
 [2023-04-19 00:08:57] INFO root fetch - main [MainThread]: End processing [jupyverse]: success
 [2023-04-19 00:08:57] INFO root fetch - main [MainThread]: Store serial: [17762408]
+[2023-04-19 00:14:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17762408]
+[2023-04-19 00:14:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-19 00:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tiff-inspector
+[2023-04-19 00:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccxt
+[2023-04-19 00:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-04-19 00:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raster-tools
+[2023-04-19 00:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantconnect-stubs
+[2023-04-19 00:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 00:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nlptoolssna
+[2023-04-19 00:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kolena-client
+[2023-04-19 00:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mb-pytorch
+[2023-04-19 00:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: telebot-against-war
+[2023-04-19 00:14:06] INFO root fetch - processPackages [tiff-inspector]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 00:14:06] INFO root fetch - processPackages [raster-tools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-19 00:14:06] INFO root fetch - processPackages [kolena-client]: New version: [0.64.0] Old Version: [0.0.1]
+[2023-04-19 00:14:06] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 00:14:06] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182210] Old Version: [1.0.202304182200]
+[2023-04-19 00:14:06] INFO root fetch - processPackages [nlptoolssna]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-19 00:14:06] INFO root fetch - processPackages [telebot-against-war]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-19 00:14:06] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 00:14:06] INFO root fetch - processPackages [ccxt]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-04-19 00:14:07] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-04-19 00:14:07] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-04-19 00:14:07] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230419/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-04-19 00:14:07] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/7c/1c/45f55ea0ed1d49ed222e709ec11ffc7c58126e751dd7594066751a7693f0/fastapi-ecommerce-ext-0.1.0.tar.gz
+[2023-04-19 00:14:07] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-04-19 00:14:07] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230419/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 00:14:07] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/7f/ea/1862792d367d88b7dafd9e24f37dc6f69b4dd85f548d0ba2fdeb2262c2c5/kolena_client-0.0.1.tar.gz
+[2023-04-19 00:14:07] INFO root fetch - processPackages [tiff-inspector]: Downloading https://files.pythonhosted.org/packages/7f/8a/777a63016d7df9c83cd2ff68208be6d113a90c6f489e20f5d22cfab95f34/tiff-inspector-0.1.0.tar.gz
+[2023-04-19 00:14:07] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-04-19 00:14:07] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.8.tar.gz tmp/ccxt-3.0.9.tar.gz --markdown 20230419/c/ccxt/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-04-19 00:14:07] INFO root fetch - processPackages [raster-tools]: Downloading https://files.pythonhosted.org/packages/0c/85/22ef9794612b32547362c0b80cf55e91e9c8980a7528c0551b3c09d8414c/raster-tools-0.1.3.tar.gz
+[2023-04-19 00:14:07] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/43/de/ebd68e99e2bc768ba60e017ce7b6e5caf61a588abeefcd6b5473fdbc7599/nlptoolssna-0.3.1.tar.gz
+[2023-04-19 00:14:07] INFO root fetch - processPackages [telebot-against-war]: Downloading https://files.pythonhosted.org/packages/1d/15/e45c823009e03d7d742dadfbaa9af56d98587fcc518165c2011e00173b73/telebot_against_war-0.6.1.tar.gz
+[2023-04-19 00:14:07] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/25/ab/aec6b4999433fb4691213501e7de74ae5887c168afad2d08a3d3b2f87021/mb_pytorch-1.0.202304182210-py3-none-any.whl
+[2023-04-19 00:14:07] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 00:14:07] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182200-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182210-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182200-1.0.202304182210/diff.md --exclude *.pyd
+[2023-04-19 00:14:07] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/1d/70/8f703eea9fda03ba83e2990649e513ffc2f0eb319c2caf5753e4fd3217bc/kolena_client-0.64.0.tar.gz
+[2023-04-19 00:14:07] INFO root fetch - processPackages [raster-tools]: Downloading https://files.pythonhosted.org/packages/8d/fb/371774bac168996aa425623800c124d125493895e2fd573621b97c329c93/raster-tools-0.1.4.tar.gz
+[2023-04-19 00:14:07] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-04-19 00:14:07] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.3.1.tar.gz tmp/nlptoolssna-0.3.2.tar.gz --markdown 20230419/n/nlptoolssna/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-19 00:14:07] INFO root fetch - processPackages [telebot-against-war]: Downloading https://files.pythonhosted.org/packages/87/8f/de57b5c0b43c67421e434b2bcc0a372977c62548e3f8334ceccdcdc9c8e8/telebot_against_war-0.6.2.tar.gz
+[2023-04-19 00:14:07] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/52/c1/206a6569843dec49467810e84c92209134123e37b105d1995356af4282fb/fastapi-ecommerce-ext-0.1.1.tar.gz
+[2023-04-19 00:14:07] INFO root fetch - processPackages [tiff-inspector]: Downloading https://files.pythonhosted.org/packages/c4/3b/629dec5527282c968bc8b9d715f299eb98206ad5f45bb16c9ad4fc1b16b1/tiff-inspector-0.1.1.tar.gz
+[2023-04-19 00:14:07] INFO root fetch - processPackages [kolena-client]: executing diffoscope
+[2023-04-19 00:14:07] INFO root fetch - processPackages [kolena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena_client-0.0.1.tar.gz tmp/kolena_client-0.64.0.tar.gz --markdown 20230419/k/kolena-client/0.0.1-0.64.0/diff.md --exclude *.pyd
+[2023-04-19 00:14:07] INFO root fetch - processPackages [raster-tools]: executing diffoscope
+[2023-04-19 00:14:07] INFO root fetch - processPackages [raster-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raster-tools-0.1.3.tar.gz tmp/raster-tools-0.1.4.tar.gz --markdown 20230419/r/raster-tools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-19 00:14:07] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 00:14:07] INFO root fetch - processPackages [telebot-against-war]: executing diffoscope
+[2023-04-19 00:14:07] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-ecommerce-ext-0.1.0.tar.gz tmp/fastapi-ecommerce-ext-0.1.1.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 00:14:07] INFO root fetch - processPackages [telebot-against-war]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebot_against_war-0.6.1.tar.gz tmp/telebot_against_war-0.6.2.tar.gz --markdown 20230419/t/telebot-against-war/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-19 00:14:07] INFO root fetch - processPackages [tiff-inspector]: executing diffoscope
+[2023-04-19 00:14:07] INFO root fetch - processPackages [tiff-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiff-inspector-0.1.0.tar.gz tmp/tiff-inspector-0.1.1.tar.gz --markdown 20230419/t/tiff-inspector/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 00:14:08] INFO root fetch - processPackages [mb-pytorch]: Start processing: beka
+[2023-04-19 00:14:08] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 00:14:08] INFO root fetch - processPackages [beka]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-19 00:14:09] INFO root fetch - processPackages [tiff-inspector]: Start processing: spei-python
+[2023-04-19 00:14:09] INFO root fetch - main [MainThread]: End processing [tiff-inspector]: success
+[2023-04-19 00:14:09] INFO root fetch - processPackages [kolena-client]: Start processing: nlptoolssna
+[2023-04-19 00:14:09] INFO root fetch - main [MainThread]: End processing [kolena-client]: success
+[2023-04-19 00:14:09] INFO root fetch - processPackages [spei-python]: New version: [0.5.36] Old Version: [0.5.35]
+[2023-04-19 00:14:09] INFO root fetch - processPackages [nlptoolssna]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-19 00:14:09] INFO root fetch - processPackages [beka]: Downloading https://files.pythonhosted.org/packages/1e/1f/0ce813d781c690bcbccf6674999a21d0a541c6e4f409efe0f2082fae2b8e/beka-0.4.1.tar.gz
+[2023-04-19 00:14:09] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Start processing: audclas
+[2023-04-19 00:14:09] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-04-19 00:14:09] WARNING root fetch - processPackages [audclas]: Skipping, unable to determine old version
+[2023-04-19 00:14:09] INFO root fetch - processPackages [audclas]: Start processing: tsp-planner
+[2023-04-19 00:14:09] INFO root fetch - main [MainThread]: End processing [audclas] error
+[2023-04-19 00:14:09] WARNING root fetch - processPackages [tsp-planner]: Skipping, unable to determine old version
+[2023-04-19 00:14:09] INFO root fetch - processPackages [tsp-planner]: Start processing: page-dewarp
+[2023-04-19 00:14:09] INFO root fetch - main [MainThread]: End processing [tsp-planner] error
+[2023-04-19 00:14:09] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 00:14:09] INFO root fetch - processPackages [spei-python]: Downloading https://files.pythonhosted.org/packages/e3/19/968ca20107eb459c7d7c5620848316d4182e8215fe9ce335e214b7d0cdaf/spei_python-0.5.36.tar.gz
+[2023-04-19 00:14:09] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/d9/6f/fdd30455deefc1da5e6927176e3089f5ab47b0ad603ce1ab51f74a60b0fa/nlptoolssna-0.3.3.tar.gz
+[2023-04-19 00:14:09] INFO root fetch - main [MainThread]: End processing [telebot-against-war]: success
+[2023-04-19 00:14:09] INFO root fetch - processPackages [page-dewarp]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-19 00:14:09] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-04-19 00:14:09] INFO root fetch - processPackages [spei-python]: executing diffoscope
+[2023-04-19 00:14:09] INFO root fetch - processPackages [spei-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spei_python-0.5.35.tar.gz tmp/spei_python-0.5.36.tar.gz --markdown 20230419/s/spei-python/0.5.35-0.5.36/diff.md --exclude *.pyd
+[2023-04-19 00:14:09] INFO root fetch - processPackages [beka]: Downloading https://files.pythonhosted.org/packages/c4/b0/2a90f45227244c28c4159c93f28a6e6b251622dab635de1eb0cfd3093399/beka-0.4.2.tar.gz
+[2023-04-19 00:14:09] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-04-19 00:14:09] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.3.2.tar.gz tmp/nlptoolssna-0.3.3.tar.gz --markdown 20230419/n/nlptoolssna/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-19 00:14:09] INFO root fetch - processPackages [page-dewarp]: Downloading https://files.pythonhosted.org/packages/e6/71/c64986d72db7a2f139bca7cd3638e77e8a369f6f8a19023e09de4ae0167c/page_dewarp-0.1.4.tar.gz
+[2023-04-19 00:14:09] WARNING root fetch - processPackages [page-dewarp]: Skipping package: exceeds size limit 10895345>=10485760
+[2023-04-19 00:14:09] INFO root fetch - main [MainThread]: End processing [page-dewarp] error
+[2023-04-19 00:14:09] INFO root fetch - processPackages [beka]: executing diffoscope
+[2023-04-19 00:14:09] INFO root fetch - processPackages [beka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beka-0.4.1.tar.gz tmp/beka-0.4.2.tar.gz --markdown 20230419/b/beka/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-19 00:14:10] INFO root fetch - main [MainThread]: End processing [spei-python]: success
+[2023-04-19 00:14:10] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-04-19 00:14:10] INFO root fetch - main [MainThread]: End processing [raster-tools]: success
+[2023-04-19 00:14:11] INFO root fetch - main [MainThread]: End processing [beka]: success
+[2023-04-19 00:14:12] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-04-19 00:14:15] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-04-19 00:14:15] INFO root fetch - main [MainThread]: Store serial: [17762457]
