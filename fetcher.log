@@ -956,3 +956,98 @@
 [2023-04-19 00:46:38] INFO root fetch - main [MainThread]: End processing [foxglove-schemas-protobuf]: success
 [2023-04-19 00:46:55] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-19 00:46:55] INFO root fetch - main [MainThread]: Store serial: [17762778]
+[2023-04-19 00:51:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17762778]
+[2023-04-19 00:52:03] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-19 00:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-25
+[2023-04-19 00:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-24
+[2023-04-19 00:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unsupported-python
+[2023-04-19 00:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 00:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipfsclient
+[2023-04-19 00:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airflow-metrics-gbq
+[2023-04-19 00:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modal-client
+[2023-04-19 00:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: griptape-core
+[2023-04-19 00:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: subgpt
+[2023-04-19 00:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyTrack-lib
+[2023-04-19 00:52:04] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-04-19 00:52:04] INFO root fetch - processPackages [airflow-metrics-gbq]: New version: [0.0.3a0] Old Version: [0.0.2]
+[2023-04-19 00:52:04] WARNING root fetch - processPackages [unsupported-python]: Skipping, unable to determine old version
+[2023-04-19 00:52:04] INFO root fetch - processPackages [unsupported-python]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 00:52:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-19 00:52:04] INFO root fetch - main [MainThread]: End processing [unsupported-python] error
+[2023-04-19 00:52:04] INFO root fetch - processPackages [PyTrack-lib]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-04-19 00:52:04] WARNING root fetch - processPackages [subgpt]: Skipping, unable to determine old version
+[2023-04-19 00:52:04] INFO root fetch - processPackages [subgpt]: Start processing: reflutter
+[2023-04-19 00:52:04] INFO root fetch - main [MainThread]: End processing [subgpt] error
+[2023-04-19 00:52:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-19 00:52:04] INFO root fetch - processPackages [griptape-core]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-19 00:52:04] INFO root fetch - processPackages [modal-client]: New version: [0.48.1943] Old Version: [0.48.1935]
+[2023-04-19 00:52:04] WARNING root fetch - processPackages [ipfsclient]: Skipping, unable to determine old version
+[2023-04-19 00:52:04] INFO root fetch - processPackages [ipfsclient]: Start processing: FPfits
+[2023-04-19 00:52:04] INFO root fetch - main [MainThread]: End processing [ipfsclient] error
+[2023-04-19 00:52:04] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-04-19 00:52:04] INFO root fetch - processPackages [reflutter]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-19 00:52:04] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/9f/ff/70922bb08a0e56b38d06bcbef73000d1c512ac3de61f990a09b8c883e35e/cdk8s-plus-24-2.7.0.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/e6/15/debd9c64cea69e62704ef2e75e84d2ffeb20521e902d0e798e278f64ddd1/fastapi_ecommerce_ext-0.1.5.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e7/4a/3aa2776282db7b178c896cf2b46f1d2cbafd447f88d918f2ed187b2bd7ea/modal_client-0.48.1943-py3-none-any.whl
+[2023-04-19 00:52:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/e6/15/debd9c64cea69e62704ef2e75e84d2ffeb20521e902d0e798e278f64ddd1/fastapi_ecommerce_ext-0.1.5.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [airflow-metrics-gbq]: Downloading https://files.pythonhosted.org/packages/11/21/aa6ddc7383519d8579f8576c11f0156ae0bc42cedec5bad0c3492e5243f5/airflow_metrics_gbq-0.0.2.tar.gz
+[2023-04-19 00:52:04] WARNING root fetch - processPackages [FPfits]: Skipping, unable to determine old version
+[2023-04-19 00:52:04] INFO root fetch - processPackages [FPfits]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 00:52:04] INFO root fetch - main [MainThread]: End processing [FPfits] error
+[2023-04-19 00:52:04] INFO root fetch - processPackages [PyTrack-lib]: Downloading https://files.pythonhosted.org/packages/e1/72/ac45ca2a3f661fcada6f40c8825d840a95424e6312bd2c3b5c9d21895a76/PyTrack-lib-2.0.6.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [griptape-core]: Downloading https://files.pythonhosted.org/packages/74/7c/48f58f7d97a7bb9b82c37e832e00a57b598d8613c32a69bb1e2fc7a92c10/griptape_core-0.9.2.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-19 00:52:04] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/f6/7a/83e81eb8d0bc69e9312cda5223c5a722593e64ab188013bd03c27e66549c/cdk8s-plus-25-2.7.0.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [reflutter]: Downloading https://files.pythonhosted.org/packages/55/f7/9ecc5a7c2401f202fc40ab7f01f22ba54ffbf890e2b21019494cb24ae185/reflutter-0.7.2.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-04-19 00:52:04] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.48.1935-py3-none-any.whl.zip tmp/modal_client-0.48.1943-py3-none-any.whl.zip --markdown 20230419/m/modal-client/0.48.1935-0.48.1943/diff.md --exclude *.pyd
+[2023-04-19 00:52:04] INFO root fetch - processPackages [griptape-core]: executing diffoscope
+[2023-04-19 00:52:04] INFO root fetch - processPackages [griptape-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_core-0.9.1.tar.gz tmp/griptape_core-0.9.2.tar.gz --markdown 20230419/g/griptape-core/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-19 00:52:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/db/1f/83b9341ebaaa63387161f5e42b5cf544c0d533e333369f8d7dc36619e288/fastapi_ecommerce_ext-0.1.6.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/db/1f/83b9341ebaaa63387161f5e42b5cf544c0d533e333369f8d7dc36619e288/fastapi_ecommerce_ext-0.1.6.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/db/1f/83b9341ebaaa63387161f5e42b5cf544c0d533e333369f8d7dc36619e288/fastapi_ecommerce_ext-0.1.6.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [PyTrack-lib]: Downloading https://files.pythonhosted.org/packages/7a/de/ba7257868f80ccc64aeddf7e853e017351c080f51d0a279ea865f5858529/PyTrack-lib-2.0.7.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [airflow-metrics-gbq]: Downloading https://files.pythonhosted.org/packages/74/95/5b7b3441b551364c37209d07739ea0797ca9447209b392f6f2c3002f92ff/airflow_metrics_gbq-0.0.3a0.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [reflutter]: Downloading https://files.pythonhosted.org/packages/0f/ff/2f9011cd9d32dd74415bffa099feb0c1e50ce5907b0adc1328cde6b266c8/reflutter-0.7.3.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 00:52:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.1.5.tar.gz tmp/fastapi_ecommerce_ext-0.1.6.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-19 00:52:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 00:52:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.1.5.tar.gz tmp/fastapi_ecommerce_ext-0.1.6.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-19 00:52:04] INFO root fetch - processPackages [PyTrack-lib]: executing diffoscope
+[2023-04-19 00:52:04] INFO root fetch - processPackages [PyTrack-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTrack-lib-2.0.6.tar.gz tmp/PyTrack-lib-2.0.7.tar.gz --markdown 20230419/P/PyTrack-lib/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-04-19 00:52:04] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/11/d2/f09af8f18bae4f8112795c12cd5b357da7e86a9a5b3922034dcca2b6fdc5/cdk8s-plus-24-2.7.1.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/91/de/3f2211627c8f8fbd916173771944364270ff2d8ffa9742e8c61063a1de4f/cdk8s-plus-25-2.7.1.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [airflow-metrics-gbq]: executing diffoscope
+[2023-04-19 00:52:04] INFO root fetch - processPackages [airflow-metrics-gbq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_metrics_gbq-0.0.2.tar.gz tmp/airflow_metrics_gbq-0.0.3a0.tar.gz --markdown 20230419/a/airflow-metrics-gbq/0.0.2-0.0.3a0/diff.md --exclude *.pyd
+[2023-04-19 00:52:04] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/3c/cc/7f24b715a197785bb4bd5a61988a3968060aeb1d00fde7f551d094f320fd/fastapi_ecommerce_ext-0.1.7.tar.gz
+[2023-04-19 00:52:04] INFO root fetch - processPackages [reflutter]: executing diffoscope
+[2023-04-19 00:52:04] INFO root fetch - processPackages [reflutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflutter-0.7.2.tar.gz tmp/reflutter-0.7.3.tar.gz --markdown 20230419/r/reflutter/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-19 00:52:05] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 00:52:05] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.1.6.tar.gz tmp/fastapi_ecommerce_ext-0.1.7.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-19 00:52:05] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-04-19 00:52:05] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.0.tar.gz tmp/cdk8s-plus-24-2.7.1.tar.gz --markdown 20230419/c/cdk8s-plus-24/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-04-19 00:52:05] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-04-19 00:52:05] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.0.tar.gz tmp/cdk8s-plus-25-2.7.1.tar.gz --markdown 20230419/c/cdk8s-plus-25/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-04-19 00:52:06] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Start processing: docmaptools
+[2023-04-19 00:52:06] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 00:52:06] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Start processing: astronomer-cosmos
+[2023-04-19 00:52:06] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 00:52:06] INFO root fetch - processPackages [astronomer-cosmos]: New version: [0.6.1] Old Version: [0.6.0.dev0]
+[2023-04-19 00:52:06] INFO root fetch - processPackages [docmaptools]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-19 00:52:06] INFO root fetch - main [MainThread]: End processing [griptape-core]: success
+[2023-04-19 00:52:06] INFO root fetch - main [MainThread]: End processing [reflutter]: success
+[2023-04-19 00:52:06] INFO root fetch - main [MainThread]: End processing [airflow-metrics-gbq]: success
+[2023-04-19 00:52:06] INFO root fetch - processPackages [astronomer-cosmos]: executing diffoscope
+[2023-04-19 00:52:06] INFO root fetch - processPackages [astronomer-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer_cosmos-0.6.0.dev0.tar.gz tmp/astronomer_cosmos-0.6.1.tar.gz --markdown 20230419/a/astronomer-cosmos/0.6.0.dev0-0.6.1/diff.md --exclude *.pyd
+[2023-04-19 00:52:06] INFO root fetch - main [MainThread]: End processing [PyTrack-lib]: success
+[2023-04-19 00:52:06] INFO root fetch - processPackages [docmaptools]: Downloading https://files.pythonhosted.org/packages/5c/d4/278e07bf405652aca2459d60dc393e9bb555b9f9f5a549b12a61a0607b67/docmaptools-0.5.0.tar.gz
+[2023-04-19 00:52:06] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 00:52:06] INFO root fetch - processPackages [docmaptools]: Downloading https://files.pythonhosted.org/packages/eb/88/da3bfa087fedb4cdda88deb77e3caa86d68baf0c29b58ef755c7415d96d3/docmaptools-0.6.0.tar.gz
+[2023-04-19 00:52:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-04-19 00:52:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-04-19 00:52:06] INFO root fetch - processPackages [docmaptools]: executing diffoscope
+[2023-04-19 00:52:06] INFO root fetch - processPackages [docmaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmaptools-0.5.0.tar.gz tmp/docmaptools-0.6.0.tar.gz --markdown 20230419/d/docmaptools/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-19 00:52:07] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-04-19 00:52:07] INFO root fetch - main [MainThread]: End processing [astronomer-cosmos]: success
+[2023-04-19 00:52:07] INFO root fetch - main [MainThread]: End processing [docmaptools]: success
+[2023-04-19 00:52:07] INFO root fetch - main [MainThread]: Store serial: [17762834]
