@@ -856,3 +856,103 @@
 [2023-04-19 00:41:10] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-04-19 00:41:25] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-19 00:41:25] INFO root fetch - main [MainThread]: Store serial: [17762727]
+[2023-04-19 00:46:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17762727]
+[2023-04-19 00:46:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-19 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c65beka
+[2023-04-19 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2023-04-19 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiddifypanel
+[2023-04-19 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: headscale-api
+[2023-04-19 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-image
+[2023-04-19 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vocode
+[2023-04-19 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-hilo
+[2023-04-19 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mb-pytorch
+[2023-04-19 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: foxglove-schemas-flatbuffer
+[2023-04-19 00:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ml-botting-core
+[2023-04-19 00:46:34] INFO root fetch - processPackages [headscale-api]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-04-19 00:46:34] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182244] Old Version: [1.0.202304182242]
+[2023-04-19 00:46:34] INFO root fetch - processPackages [python-hilo]: New version: [2023.4.4] Old Version: [2023.4.3]
+[2023-04-19 00:46:34] INFO root fetch - processPackages [ml-botting-core]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-19 00:46:34] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.0.dev6] Old Version: [4.0.0.dev56]
+[2023-04-19 00:46:34] INFO root fetch - processPackages [vocode]: New version: [0.1.98] Old Version: [0.1.97]
+[2023-04-19 00:46:34] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182244] Old Version: [1.0.202304182242]
+[2023-04-19 00:46:34] INFO root fetch - processPackages [c65beka]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 00:46:34] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-19 00:46:34] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.0.dev56-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.0.dev6-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230419/h/hiddifypanel/4.0.0.dev56-4.0.0.dev6/diff.md --exclude *.pyd
+[2023-04-19 00:46:34] INFO root fetch - processPackages [foxglove-schemas-flatbuffer]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-19 00:46:34] INFO root fetch - processPackages [ml-botting-core]: executing diffoscope
+[2023-04-19 00:46:34] INFO root fetch - processPackages [ml-botting-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_botting_core-0.0.7.tar.gz tmp/ml_botting_core-0.0.9.tar.gz --markdown 20230419/m/ml-botting-core/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 00:46:34] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-04-19 00:46:34] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/6b/07/60d0caf125394c568c07e2a3f8a7ffccf8b75c3fc0236c63bf6584a42daa/mb_pytorch-1.0.202304182242-py3-none-any.whl
+[2023-04-19 00:46:34] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/6b/07/60d0caf125394c568c07e2a3f8a7ffccf8b75c3fc0236c63bf6584a42daa/mb_pytorch-1.0.202304182242-py3-none-any.whl
+[2023-04-19 00:46:34] INFO root fetch - processPackages [vocode]: Downloading https://files.pythonhosted.org/packages/24/1c/335d783145c5dbaf58baef153e176d3442698f5a66278f0008a78beda769/vocode-0.1.97.tar.gz
+[2023-04-19 00:46:34] INFO root fetch - processPackages [python-hilo]: Downloading https://files.pythonhosted.org/packages/2c/e6/cfc53ce1a150beb4ef0ad5f4d89c5001e5e904e66a826b78000a9070a5bd/python_hilo-2023.4.3.tar.gz
+[2023-04-19 00:46:34] INFO root fetch - processPackages [c65beka]: Downloading https://files.pythonhosted.org/packages/18/62/25170231e61c7f9cb9bfe10b81338b8c0593945b530b64009fcc7657beb7/c65beka-1.0.0.tar.gz
+[2023-04-19 00:46:34] INFO root fetch - processPackages [foxglove-schemas-flatbuffer]: Downloading https://files.pythonhosted.org/packages/56/90/4e7b6689b5f28a6a3e0070d826a0655275f5a90b1290258329773cef1e74/foxglove-schemas-flatbuffer-0.0.1.tar.gz
+[2023-04-19 00:46:34] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-04-19 00:46:34] INFO root fetch - processPackages [headscale-api]: Downloading https://files.pythonhosted.org/packages/2f/7f/58a05338324a9415fcefa2e83729b95820badddeea20548cbd8073ca310b/headscale_api-0.2.0.tar.gz
+[2023-04-19 00:46:34] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/0e/f2/375e345e99341e353457659c83c7aba08990d30dc3910702710f76565c7c/mb_pytorch-1.0.202304182244-py3-none-any.whl
+[2023-04-19 00:46:34] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/0e/f2/375e345e99341e353457659c83c7aba08990d30dc3910702710f76565c7c/mb_pytorch-1.0.202304182244-py3-none-any.whl
+[2023-04-19 00:46:34] INFO root fetch - processPackages [headscale-api]: executing diffoscope
+[2023-04-19 00:46:34] INFO root fetch - processPackages [headscale-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headscale_api-0.1.4.tar.gz tmp/headscale_api-0.2.0.tar.gz --markdown 20230419/h/headscale-api/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 00:46:34] INFO root fetch - processPackages [python-hilo]: Downloading https://files.pythonhosted.org/packages/eb/b8/096bae1aece3d10cb6495cf2d40ad7317481327d0bdc403cded58117898e/python_hilo-2023.4.4.tar.gz
+[2023-04-19 00:46:34] INFO root fetch - processPackages [c65beka]: Downloading https://files.pythonhosted.org/packages/21/95/df5b1b2481ac17b2fad2c69c024001b97e386cdca0af6edd877f9deed5d9/c65beka-1.0.1.tar.gz
+[2023-04-19 00:46:34] INFO root fetch - processPackages [foxglove-schemas-flatbuffer]: Downloading https://files.pythonhosted.org/packages/33/5f/59d72c726d08a93a94451aa45db5f7126e78d1098ebf982b7517d1db480e/foxglove-schemas-flatbuffer-0.1.0.tar.gz
+[2023-04-19 00:46:34] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 00:46:34] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182242-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182244-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182242-1.0.202304182244/diff.md --exclude *.pyd
+[2023-04-19 00:46:34] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 00:46:34] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182242-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182244-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182242-1.0.202304182244/diff.md --exclude *.pyd
+[2023-04-19 00:46:34] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-04-19 00:46:35] INFO root fetch - processPackages [python-hilo]: executing diffoscope
+[2023-04-19 00:46:35] INFO root fetch - processPackages [python-hilo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_hilo-2023.4.3.tar.gz tmp/python_hilo-2023.4.4.tar.gz --markdown 20230419/p/python-hilo/2023.4.3-2023.4.4/diff.md --exclude *.pyd
+[2023-04-19 00:46:35] INFO root fetch - processPackages [c65beka]: executing diffoscope
+[2023-04-19 00:46:35] INFO root fetch - processPackages [c65beka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c65beka-1.0.0.tar.gz tmp/c65beka-1.0.1.tar.gz --markdown 20230419/c/c65beka/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 00:46:35] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-04-19 00:46:35] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230419/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-04-19 00:46:35] INFO root fetch - processPackages [foxglove-schemas-flatbuffer]: executing diffoscope
+[2023-04-19 00:46:35] INFO root fetch - processPackages [foxglove-schemas-flatbuffer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxglove-schemas-flatbuffer-0.0.1.tar.gz tmp/foxglove-schemas-flatbuffer-0.1.0.tar.gz --markdown 20230419/f/foxglove-schemas-flatbuffer/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-19 00:46:35] INFO root fetch - processPackages [ml-botting-core]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 00:46:35] INFO root fetch - main [MainThread]: End processing [ml-botting-core]: success
+[2023-04-19 00:46:35] INFO root fetch - processPackages [vocode]: Downloading https://files.pythonhosted.org/packages/9b/68/4e26c8902b37e36c68a46d8b570691b84e7d37f260fb090e9ca714c682b2/vocode-0.1.98.tar.gz
+[2023-04-19 00:46:35] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-19 00:46:35] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/32/80/47f5c2a6327f404bda151170a3b06d25d779fa1e7c748c5e321d09c3f4f3/fastapi-ecommerce-ext-0.1.3.tar.gz
+[2023-04-19 00:46:36] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/51/7f/bd38049801c4f2cc43f091fab9c271218f2ba282d2c34cb35bccd4f30852/fastapi_ecommerce_ext-0.1.4.tar.gz
+[2023-04-19 00:46:36] INFO root fetch - processPackages [vocode]: executing diffoscope
+[2023-04-19 00:46:36] INFO root fetch - processPackages [vocode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocode-0.1.97.tar.gz tmp/vocode-0.1.98.tar.gz --markdown 20230419/v/vocode/0.1.97-0.1.98/diff.md --exclude *.pyd
+[2023-04-19 00:46:36] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 00:46:36] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-ecommerce-ext-0.1.3.tar.gz tmp/fastapi_ecommerce_ext-0.1.4.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-19 00:46:36] INFO root fetch - processPackages [headscale-api]: Start processing: historical-timelines
+[2023-04-19 00:46:36] INFO root fetch - main [MainThread]: End processing [headscale-api]: success
+[2023-04-19 00:46:36] INFO root fetch - processPackages [mb-pytorch]: Start processing: foxglove-schemas-protobuf
+[2023-04-19 00:46:36] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 00:46:36] INFO root fetch - processPackages [historical-timelines]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 00:46:36] INFO root fetch - processPackages [mb-pytorch]: Start processing: mb-pytorch
+[2023-04-19 00:46:36] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 00:46:36] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182245] Old Version: [1.0.202304182244]
+[2023-04-19 00:46:36] INFO root fetch - processPackages [foxglove-schemas-protobuf]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-04-19 00:46:36] INFO root fetch - processPackages [historical-timelines]: Downloading https://files.pythonhosted.org/packages/13/93/e1d129042a340b9b992cc8f76441a087dfa68e7ccef6420b8fd15236e3b9/historical_timelines-0.2.1.tar.gz
+[2023-04-19 00:46:36] INFO root fetch - processPackages [python-hilo]: Start processing: cdk8s
+[2023-04-19 00:46:36] INFO root fetch - main [MainThread]: End processing [python-hilo]: success
+[2023-04-19 00:46:36] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/b8/a6/11764da90c8e0b377ed2eb589d38e49d59477a8f1ead233ca790c1041974/mb_pytorch-1.0.202304182245-py3-none-any.whl
+[2023-04-19 00:46:36] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-04-19 00:46:36] INFO root fetch - main [MainThread]: End processing [c65beka]: success
+[2023-04-19 00:46:36] INFO root fetch - processPackages [foxglove-schemas-protobuf]: Downloading https://files.pythonhosted.org/packages/97/d6/7fbe94774cbf189e16dd1536baa7c9404476836cf084bbf3593fb9cfb91b/foxglove-schemas-protobuf-0.0.3.tar.gz
+[2023-04-19 00:46:36] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-04-19 00:46:36] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-04-19 00:46:36] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.8.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230419/c/cdk8s/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-04-19 00:46:36] INFO root fetch - processPackages [historical-timelines]: Downloading https://files.pythonhosted.org/packages/63/d3/384843f2e55b9d26342bbbe2461fe93073eb277caae21385e0052f2d5231/historical_timelines-0.2.2.tar.gz
+[2023-04-19 00:46:36] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 00:46:36] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182244-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182245-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182244-1.0.202304182245/diff.md --exclude *.pyd
+[2023-04-19 00:46:37] INFO root fetch - processPackages [historical-timelines]: executing diffoscope
+[2023-04-19 00:46:37] INFO root fetch - processPackages [historical-timelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/historical_timelines-0.2.1.tar.gz tmp/historical_timelines-0.2.2.tar.gz --markdown 20230419/h/historical-timelines/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 00:46:37] INFO root fetch - main [MainThread]: End processing [foxglove-schemas-flatbuffer]: success
+[2023-04-19 00:46:37] INFO root fetch - processPackages [foxglove-schemas-protobuf]: Downloading https://files.pythonhosted.org/packages/6c/5f/bdd803548694fb0019b3d36b7f1db713389c2d4c546154b44d5e5872dc17/foxglove-schemas-protobuf-0.1.0.tar.gz
+[2023-04-19 00:46:37] INFO root fetch - processPackages [foxglove-schemas-protobuf]: executing diffoscope
+[2023-04-19 00:46:37] INFO root fetch - processPackages [foxglove-schemas-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxglove-schemas-protobuf-0.0.3.tar.gz tmp/foxglove-schemas-protobuf-0.1.0.tar.gz --markdown 20230419/f/foxglove-schemas-protobuf/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-04-19 00:46:37] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 00:46:38] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-04-19 00:46:38] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 00:46:38] INFO root fetch - main [MainThread]: End processing [historical-timelines]: success
+[2023-04-19 00:46:38] INFO root fetch - main [MainThread]: End processing [vocode]: success
+[2023-04-19 00:46:38] INFO root fetch - main [MainThread]: End processing [foxglove-schemas-protobuf]: success
+[2023-04-19 00:46:55] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-19 00:46:55] INFO root fetch - main [MainThread]: Store serial: [17762778]
