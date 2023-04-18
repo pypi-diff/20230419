@@ -506,3 +506,75 @@
 [2023-04-19 00:19:27] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
 [2023-04-19 00:20:01] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
 [2023-04-19 00:20:01] INFO root fetch - main [MainThread]: Store serial: [17762494]
+[2023-04-19 00:25:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17762494]
+[2023-04-19 00:25:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-19 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lale
+[2023-04-19 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2023-04-19 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MLandPattern
+[2023-04-19 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audclas
+[2023-04-19 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nlptoolssna
+[2023-04-19 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mb-pytorch
+[2023-04-19 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pylity
+[2023-04-19 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: one-block
+[2023-04-19 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modal-client
+[2023-04-19 00:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stability-sdk
+[2023-04-19 00:25:10] INFO root fetch - processPackages [MLandPattern]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-19 00:25:10] INFO root fetch - processPackages [lale]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-04-19 00:25:10] WARNING root fetch - processPackages [audclas]: Skipping, unable to determine old version
+[2023-04-19 00:25:10] INFO root fetch - processPackages [audclas]: Start processing: csr
+[2023-04-19 00:25:10] INFO root fetch - main [MainThread]: End processing [audclas] error
+[2023-04-19 00:25:10] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182221] Old Version: [1.0.202304182219]
+[2023-04-19 00:25:10] INFO root fetch - processPackages [one-block]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 00:25:10] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182221] Old Version: [1.0.202304182219]
+[2023-04-19 00:25:10] INFO root fetch - processPackages [stability-sdk]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-19 00:25:10] INFO root fetch - processPackages [pylity]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 00:25:10] INFO root fetch - processPackages [nlptoolssna]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-19 00:25:10] INFO root fetch - processPackages [csr]: New version: [0.5.0a1] Old Version: [0.4.3]
+[2023-04-19 00:25:10] INFO root fetch - processPackages [modal-client]: New version: [0.48.1935] Old Version: [0.48.1932]
+[2023-04-19 00:25:10] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/b9/7e/84acf542c2c25f2553d3e64fa2b4c3c26636abcfb5baabc878dd468bdb83/mb_pytorch-1.0.202304182219-py3-none-any.whl
+[2023-04-19 00:25:10] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/b9/7e/84acf542c2c25f2553d3e64fa2b4c3c26636abcfb5baabc878dd468bdb83/mb_pytorch-1.0.202304182219-py3-none-any.whl
+[2023-04-19 00:25:10] INFO root fetch - processPackages [lale]: Downloading https://files.pythonhosted.org/packages/ce/b0/4b2027f41d82d795e656410dc24d51f1482e922026cceeab684ff4e84fc4/lale-0.7.7.tar.gz
+[2023-04-19 00:25:10] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/41/38/8f959bd53b8d88f7fbcef63127aeec80a377a689be5ad8d7ac44f3b23ab9/MLandPattern-0.1.7-py3-none-any.whl
+[2023-04-19 00:25:11] INFO root fetch - processPackages [pylity]: Downloading https://files.pythonhosted.org/packages/6b/b2/315346ececccc4a21ae8ab917394587c50419f43f5d02e82ec3695273044/pylity-0.0.9.tar.gz
+[2023-04-19 00:25:11] INFO root fetch - processPackages [one-block]: Downloading https://files.pythonhosted.org/packages/3c/86/789e54490b223acde8f45d3a0b6566be70116444da5d0eb473b2728b9dc0/one_block-0.1.1.tar.gz
+[2023-04-19 00:25:11] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/00/cd/105dba46f74e49c672fa5f298ead8f5efbcd6890a2d1771f2fba0b8ee95a/modal_client-0.48.1935-py3-none-any.whl
+[2023-04-19 00:25:11] INFO root fetch - processPackages [stability-sdk]: Downloading https://files.pythonhosted.org/packages/d9/a6/b3fd40377637d3e07f04f7b72d9839611ef6bf9f28ed689c92f3acb80f27/stability-sdk-0.5.0.tar.gz
+[2023-04-19 00:25:11] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/d7/da/ed9460b52b915f809979c1e1bf63a5febc4c10acd4284a750206d8462488/nlptoolssna-0.3.4.tar.gz
+[2023-04-19 00:25:11] INFO root fetch - processPackages [csr]: Downloading https://files.pythonhosted.org/packages/36/43/f5f70754d00d37ee40beb58200a09b5e8845ea865e5a47ad36a0c089e925/csr-0.4.3.tar.gz
+[2023-04-19 00:25:11] INFO root fetch - processPackages [MLandPattern]: executing diffoscope
+[2023-04-19 00:25:11] INFO root fetch - processPackages [MLandPattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLandPattern-0.1.6-py3-none-any.whl.zip tmp/MLandPattern-0.1.7-py3-none-any.whl.zip --markdown 20230419/M/MLandPattern/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-19 00:25:11] INFO root fetch - processPackages [lale]: Downloading https://files.pythonhosted.org/packages/4a/9f/1d91decced9b4455a23ccca2b1010790ba4b57eec761fd1121b8c4207499/lale-0.7.8.tar.gz
+[2023-04-19 00:25:11] INFO root fetch - processPackages [pylity]: executing diffoscope
+[2023-04-19 00:25:11] INFO root fetch - processPackages [pylity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylity-0.0.8.tar.gz tmp/pylity-0.0.9.tar.gz --markdown 20230419/p/pylity/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 00:25:11] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/3e/c4/f5217361be3035a707ccfc83827ce151c4b199d5d5848ffa38df023cba1b/mb_pytorch-1.0.202304182221-py3-none-any.whl
+[2023-04-19 00:25:11] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-04-19 00:25:11] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.48.1932-py3-none-any.whl.zip tmp/modal_client-0.48.1935-py3-none-any.whl.zip --markdown 20230419/m/modal-client/0.48.1932-0.48.1935/diff.md --exclude *.pyd
+[2023-04-19 00:25:11] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/3e/c4/f5217361be3035a707ccfc83827ce151c4b199d5d5848ffa38df023cba1b/mb_pytorch-1.0.202304182221-py3-none-any.whl
+[2023-04-19 00:25:11] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-04-19 00:25:11] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.3.3.tar.gz tmp/nlptoolssna-0.3.4.tar.gz --markdown 20230419/n/nlptoolssna/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-19 00:25:11] INFO root fetch - processPackages [stability-sdk]: Downloading https://files.pythonhosted.org/packages/8d/e6/c460fad8dbc67bc41e0b272bf88487787e7de37854784f65924878c43a5f/stability-sdk-0.6.0.tar.gz
+[2023-04-19 00:25:11] INFO root fetch - processPackages [one-block]: Downloading https://files.pythonhosted.org/packages/5c/f8/994f6c86db34368fa5fc8542d45882924519e0d4940bed1ae082eb8c92c5/one_block-0.1.2.tar.gz
+[2023-04-19 00:25:11] INFO root fetch - processPackages [csr]: Downloading https://files.pythonhosted.org/packages/af/01/8c1dde75cb2c6cb3189a23d4c421d99396cc016928c68c7ed138d76366e4/csr-0.5.0a1.tar.gz
+[2023-04-19 00:25:11] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 00:25:11] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182219-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182221-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182219-1.0.202304182221/diff.md --exclude *.pyd
+[2023-04-19 00:25:11] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 00:25:11] INFO root fetch - processPackages [lale]: executing diffoscope
+[2023-04-19 00:25:11] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182219-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182221-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182219-1.0.202304182221/diff.md --exclude *.pyd
+[2023-04-19 00:25:11] INFO root fetch - processPackages [lale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lale-0.7.7.tar.gz tmp/lale-0.7.8.tar.gz --markdown 20230419/l/lale/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-04-19 00:25:11] INFO root fetch - processPackages [stability-sdk]: executing diffoscope
+[2023-04-19 00:25:11] INFO root fetch - processPackages [stability-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stability-sdk-0.5.0.tar.gz tmp/stability-sdk-0.6.0.tar.gz --markdown 20230419/s/stability-sdk/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-19 00:25:11] INFO root fetch - processPackages [one-block]: executing diffoscope
+[2023-04-19 00:25:11] INFO root fetch - processPackages [one-block]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one_block-0.1.1.tar.gz tmp/one_block-0.1.2.tar.gz --markdown 20230419/o/one-block/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 00:25:11] INFO root fetch - processPackages [csr]: executing diffoscope
+[2023-04-19 00:25:11] INFO root fetch - processPackages [csr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csr-0.4.3.tar.gz tmp/csr-0.5.0a1.tar.gz --markdown 20230419/c/csr/0.4.3-0.5.0a1/diff.md --exclude *.pyd
+[2023-04-19 00:25:12] INFO root fetch - main [MainThread]: End processing [MLandPattern]: success
+[2023-04-19 00:25:12] INFO root fetch - main [MainThread]: End processing [pylity]: success
+[2023-04-19 00:25:13] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 00:25:13] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 00:25:13] INFO root fetch - main [MainThread]: End processing [stability-sdk]: success
+[2023-04-19 00:25:13] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-04-19 00:25:13] INFO root fetch - main [MainThread]: End processing [one-block]: success
+[2023-04-19 00:25:13] INFO root fetch - main [MainThread]: End processing [csr]: success
+[2023-04-19 00:25:13] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-04-19 00:25:18] INFO root fetch - main [MainThread]: End processing [lale]: success
+[2023-04-19 00:25:18] INFO root fetch - main [MainThread]: Store serial: [17762530]
