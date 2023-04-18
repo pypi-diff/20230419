@@ -1,0 +1,146 @@
+[2023-04-19 00:03:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17762221]
+[2023-04-19 00:03:32] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-19 00:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-radiance
+[2023-04-19 00:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2023-04-19 00:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sloth-framework
+[2023-04-19 00:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatgpt4-cli
+[2023-04-19 00:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reign-airflow-utils
+[2023-04-19 00:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codecombat
+[2023-04-19 00:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spimdisasm
+[2023-04-19 00:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: casadi
+[2023-04-19 00:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: funcx-endpoint
+[2023-04-19 00:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tapipy
+[2023-04-19 00:03:32] INFO root fetch - processPackages [sloth-framework]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 00:03:32] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182200] Old Version: [1.0.202304182158]
+[2023-04-19 00:03:32] WARNING root fetch - processPackages [codecombat]: Skipping, unable to determine old version
+[2023-04-19 00:03:32] INFO root fetch - processPackages [codecombat]: Start processing: lbt-dragonfly
+[2023-04-19 00:03:32] INFO root fetch - processPackages [reign-airflow-utils]: New version: [0.1.4] Old Version: [0.1.0]
+[2023-04-19 00:03:32] INFO root fetch - main [MainThread]: End processing [codecombat] error
+[2023-04-19 00:03:32] INFO root fetch - processPackages [funcx-endpoint]: New version: [2.0.1a2] Old Version: [2.0.1a1]
+[2023-04-19 00:03:32] INFO root fetch - processPackages [chatgpt4-cli]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-04-19 00:03:32] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 00:03:32] INFO root fetch - processPackages [spimdisasm]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-19 00:03:32] INFO root fetch - processPackages [casadi]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-04-19 00:03:32] INFO root fetch - processPackages [tapipy]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-04-19 00:03:32] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-04-19 00:03:32] INFO root fetch - processPackages [spimdisasm]: executing diffoscope
+[2023-04-19 00:03:32] INFO root fetch - processPackages [spimdisasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spimdisasm-1.9.1.tar.gz tmp/spimdisasm-1.9.2.tar.gz --markdown 20230419/s/spimdisasm/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-19 00:03:32] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/a6/91/49cbf04ff90aa1a5128df673a58eb16beceb437bf2c77fcc4a85b28e6b67/mb_pytorch-1.0.202304182158-py3-none-any.whl
+[2023-04-19 00:03:32] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/dc/5c/87af05d1f8929a7336f4480c88ebc06a2ccd2a57b1d1caac997421e3247a/sloth-framework-0.1.1.tar.gz
+[2023-04-19 00:03:32] INFO root fetch - processPackages [reign-airflow-utils]: Downloading https://files.pythonhosted.org/packages/7d/8f/e390313da90d923bfb7a6a5f0fb00139cb8a43854a3ad35f7ef8acca0e93/reign_airflow_utils-0.1.0.tar.gz
+[2023-04-19 00:03:32] INFO root fetch - processPackages [casadi]: Downloading https://files.pythonhosted.org/packages/13/8d/a911277c69d8f8869c44a19995812fcf1f459ab3526c30fda111daa15d76/casadi-3.6.0.tar.gz
+[2023-04-19 00:03:32] INFO root fetch - processPackages [funcx-endpoint]: Downloading https://files.pythonhosted.org/packages/50/5a/4ee187e7f009a83eeea38f96de11c10e5858fc2ef4cd5a2f482f3410bf0c/funcx-endpoint-2.0.1a2.tar.gz
+[2023-04-19 00:03:32] INFO root fetch - processPackages [chatgpt4-cli]: Downloading https://files.pythonhosted.org/packages/b2/35/495a7e597479221b89c693ee543620ab1b10bc3c7faaadb32b26d9f852ee/chatgpt4-cli-1.5.0.tar.gz
+[2023-04-19 00:03:32] INFO root fetch - processPackages [tapipy]: Downloading https://files.pythonhosted.org/packages/0a/f4/08cbd309b4d5b3ff291fcc599f79d0ea8fb65fa77535e2c88f2e024318a7/tapipy-1.3.3.tar.gz
+[2023-04-19 00:03:32] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-04-19 00:03:32] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230419/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 00:03:32] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/04/a1/7fe67eb2d6bd2ac5f2e72dfec835421b93d9eb3afc787b6ad8db47dd4696/sloth-framework-0.1.2.tar.gz
+[2023-04-19 00:03:32] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-04-19 00:03:32] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230419/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-04-19 00:03:32] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/09/9a/7cd056a3af030195d37458e456f17616a8c3ddd1e35a8c2c6b26233efdda/mb_pytorch-1.0.202304182200-py3-none-any.whl
+[2023-04-19 00:03:32] INFO root fetch - processPackages [funcx-endpoint]: executing diffoscope
+[2023-04-19 00:03:32] INFO root fetch - processPackages [funcx-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcx-endpoint-2.0.1a1.tar.gz tmp/funcx-endpoint-2.0.1a2.tar.gz --markdown 20230419/f/funcx-endpoint/2.0.1a1-2.0.1a2/diff.md --exclude *.pyd
+[2023-04-19 00:03:32] INFO root fetch - processPackages [chatgpt4-cli]: executing diffoscope
+[2023-04-19 00:03:32] INFO root fetch - processPackages [chatgpt4-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt4-cli-1.4.9.tar.gz tmp/chatgpt4-cli-1.5.0.tar.gz --markdown 20230419/c/chatgpt4-cli/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-04-19 00:03:32] INFO root fetch - processPackages [reign-airflow-utils]: Downloading https://files.pythonhosted.org/packages/89/ea/6994e538ba154458fbdda211b16114a6b01f84b7a0a79ccc557a9627f103/reign_airflow_utils-0.1.4.tar.gz
+[2023-04-19 00:03:32] INFO root fetch - processPackages [tapipy]: executing diffoscope
+[2023-04-19 00:03:32] INFO root fetch - processPackages [tapipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapipy-1.3.2.tar.gz tmp/tapipy-1.3.3.tar.gz --markdown 20230419/t/tapipy/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-04-19 00:03:32] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 00:03:32] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182158-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182200-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182158-1.0.202304182200/diff.md --exclude *.pyd
+[2023-04-19 00:03:32] INFO root fetch - processPackages [reign-airflow-utils]: executing diffoscope
+[2023-04-19 00:03:32] INFO root fetch - processPackages [reign-airflow-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reign_airflow_utils-0.1.0.tar.gz tmp/reign_airflow_utils-0.1.4.tar.gz --markdown 20230419/r/reign-airflow-utils/0.1.0-0.1.4/diff.md --exclude *.pyd
+[2023-04-19 00:03:33] INFO root fetch - processPackages [sloth-framework]: executing diffoscope
+[2023-04-19 00:03:33] INFO root fetch - processPackages [sloth-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sloth-framework-0.1.1.tar.gz tmp/sloth-framework-0.1.2.tar.gz --markdown 20230419/s/sloth-framework/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 00:03:33] INFO root fetch - processPackages [casadi]: Downloading https://files.pythonhosted.org/packages/64/e3/76ef2830d06d88704eeb01492dfc008e43930436f7c00794448cb498ac06/casadi-3.6.1-cp27-none-manylinux2010_x86_64.whl
+[2023-04-19 00:03:33] WARNING root fetch - processPackages [casadi]: Skipping package: exceeds size limit 52472196>=10485760
+[2023-04-19 00:03:33] INFO root fetch - processPackages [casadi]: Start processing: dragonfly-uwg
+[2023-04-19 00:03:33] INFO root fetch - main [MainThread]: End processing [casadi] error
+[2023-04-19 00:03:33] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-04-19 00:03:33] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-04-19 00:03:33] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-04-19 00:03:33] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-04-19 00:03:33] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230419/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-04-19 00:03:34] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: transparentlogs-pymerkle
+[2023-04-19 00:03:34] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-04-19 00:03:34] INFO root fetch - processPackages [transparentlogs-pymerkle]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 00:03:34] INFO root fetch - processPackages [funcx-endpoint]: Start processing: dallinger
+[2023-04-19 00:03:34] INFO root fetch - main [MainThread]: End processing [funcx-endpoint]: success
+[2023-04-19 00:03:34] INFO root fetch - processPackages [dallinger]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-04-19 00:03:34] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: mb-pytorch
+[2023-04-19 00:03:34] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-04-19 00:03:34] INFO root fetch - processPackages [chatgpt4-cli]: Start processing: pulumi-akamai
+[2023-04-19 00:03:34] INFO root fetch - main [MainThread]: End processing [chatgpt4-cli]: success
+[2023-04-19 00:03:34] INFO root fetch - processPackages [transparentlogs-pymerkle]: Downloading https://files.pythonhosted.org/packages/1c/48/b043a6504d05718cfbc5eb45981306266485ffe77264756fca8d5df9941b/transparentlogs_pymerkle-0.0.1.tar.gz
+[2023-04-19 00:03:34] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182200] Old Version: [1.0.202304182158]
+[2023-04-19 00:03:34] INFO root fetch - processPackages [pulumi-akamai]: New version: [4.4.0a1681843117] Old Version: [4.4.0a1680909501]
+[2023-04-19 00:03:34] INFO root fetch - processPackages [mb-pytorch]: Start processing: modal-client
+[2023-04-19 00:03:34] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 00:03:34] INFO root fetch - processPackages [modal-client]: New version: [0.48.1932] Old Version: [0.48.1929]
+[2023-04-19 00:03:34] INFO root fetch - processPackages [dallinger]: Downloading https://files.pythonhosted.org/packages/7e/61/fb13e853ead724a13138ac00cda56e8d696e57c99a32a68a9574e78f463e/dallinger-9.5.0.tar.gz
+[2023-04-19 00:03:34] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 00:03:34] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182158-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182200-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182158-1.0.202304182200/diff.md --exclude *.pyd
+[2023-04-19 00:03:34] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-04-19 00:03:34] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-4.4.0a1680909501.tar.gz tmp/pulumi_akamai-4.4.0a1681843117.tar.gz --markdown 20230419/p/pulumi-akamai/4.4.0a1680909501-4.4.0a1681843117/diff.md --exclude *.pyd
+[2023-04-19 00:03:34] INFO root fetch - processPackages [spimdisasm]: Start processing: lbt-honeybee
+[2023-04-19 00:03:34] INFO root fetch - main [MainThread]: End processing [spimdisasm]: success
+[2023-04-19 00:03:34] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-04-19 00:03:34] INFO root fetch - processPackages [reign-airflow-utils]: Start processing: cdk8s-plus-26
+[2023-04-19 00:03:34] INFO root fetch - main [MainThread]: End processing [reign-airflow-utils]: success
+[2023-04-19 00:03:34] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/61/20/7a738099f89e0e6e6b0bed01e51683c1c33805e25e99eb8f9ceaab2b38a0/modal_client-0.48.1932-py3-none-any.whl
+[2023-04-19 00:03:34] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-04-19 00:03:34] INFO root fetch - processPackages [transparentlogs-pymerkle]: Downloading https://files.pythonhosted.org/packages/39/43/8c9c52436c308406333008c6eaf86f3d7eec46c7524fc8ce3a1c8662d2ae/transparentlogs_pymerkle-0.0.2.tar.gz
+[2023-04-19 00:03:34] INFO root fetch - processPackages [transparentlogs-pymerkle]: executing diffoscope
+[2023-04-19 00:03:34] INFO root fetch - processPackages [transparentlogs-pymerkle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transparentlogs_pymerkle-0.0.1.tar.gz tmp/transparentlogs_pymerkle-0.0.2.tar.gz --markdown 20230419/t/transparentlogs-pymerkle/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 00:03:34] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-04-19 00:03:34] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.48.1929-py3-none-any.whl.zip tmp/modal_client-0.48.1932-py3-none-any.whl.zip --markdown 20230419/m/modal-client/0.48.1929-0.48.1932/diff.md --exclude *.pyd
+[2023-04-19 00:03:35] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/2b/83/93bae4bfa808701dd051174636e758a15029b117681e1808661a61b83815/cdk8s-plus-26-2.3.2.tar.gz
+[2023-04-19 00:03:35] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-04-19 00:03:35] INFO root fetch - processPackages [dallinger]: Downloading https://files.pythonhosted.org/packages/35/8e/a4368bf1421ee86a8a0eabd80cb1e54b90dea5d9246c4f6b16df08515b74/dallinger-9.6.0.tar.gz
+[2023-04-19 00:03:35] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-04-19 00:03:35] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-04-19 00:03:35] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230419/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-04-19 00:03:35] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-04-19 00:03:35] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.1.tar.gz tmp/cdk8s-plus-26-2.3.2.tar.gz --markdown 20230419/c/cdk8s-plus-26/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-04-19 00:03:35] INFO root fetch - processPackages [dallinger]: executing diffoscope
+[2023-04-19 00:03:35] INFO root fetch - processPackages [dallinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dallinger-9.5.0.tar.gz tmp/dallinger-9.6.0.tar.gz --markdown 20230419/d/dallinger/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-04-19 00:03:36] INFO root fetch - processPackages [mb-pytorch]: Start processing: audclas
+[2023-04-19 00:03:36] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 00:03:36] WARNING root fetch - processPackages [audclas]: Skipping, unable to determine old version
+[2023-04-19 00:03:36] INFO root fetch - processPackages [audclas]: Start processing: lbt-dragonfly
+[2023-04-19 00:03:36] INFO root fetch - main [MainThread]: End processing [audclas] error
+[2023-04-19 00:03:36] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-04-19 00:03:36] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-04-19 00:03:36] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230419/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-04-19 00:03:36] INFO root fetch - processPackages [tapipy]: Start processing: SrbAI
+[2023-04-19 00:03:36] INFO root fetch - main [MainThread]: End processing [tapipy]: success
+[2023-04-19 00:03:36] INFO root fetch - processPackages [SrbAI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 00:03:36] INFO root fetch - processPackages [dragonfly-uwg]: Start processing: dragonfly-energy
+[2023-04-19 00:03:36] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-04-19 00:03:36] INFO root fetch - processPackages [SrbAI]: executing diffoscope
+[2023-04-19 00:03:36] INFO root fetch - processPackages [SrbAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SrbAI-0.0.8.tar.gz tmp/SrbAI-0.0.9.tar.gz --markdown 20230419/S/SrbAI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 00:03:36] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-19 00:03:37] INFO root fetch - processPackages [lbt-honeybee]: Start processing: odoo12-addon-web-dashboard-tile
+[2023-04-19 00:03:37] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-04-19 00:03:37] INFO root fetch - processPackages [odoo12-addon-web-dashboard-tile]: New version: [12.0.2.0.0.99.dev1] Old Version: [12.0.1.0.2]
+[2023-04-19 00:03:37] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-04-19 00:03:37] INFO root fetch - processPackages [transparentlogs-pymerkle]: Start processing: i9-everywhere-client
+[2023-04-19 00:03:37] INFO root fetch - main [MainThread]: End processing [transparentlogs-pymerkle]: success
+[2023-04-19 00:03:37] INFO root fetch - main [MainThread]: End processing [sloth-framework]: success
+[2023-04-19 00:03:37] INFO root fetch - processPackages [odoo12-addon-web-dashboard-tile]: Downloading https://files.pythonhosted.org/packages/8b/23/9ba0168ec0ff58609c028e66df194e14cb090f3aa05f4e539cb8adb0ecac/odoo12_addon_web_dashboard_tile-12.0.1.0.2-py3-none-any.whl
+[2023-04-19 00:03:37] WARNING root fetch - processPackages [i9-everywhere-client]: Skipping, unable to determine old version
+[2023-04-19 00:03:37] INFO root fetch - main [MainThread]: End processing [i9-everywhere-client] error
+[2023-04-19 00:03:37] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-04-19 00:03:37] INFO root fetch - processPackages [odoo12-addon-web-dashboard-tile]: Downloading https://files.pythonhosted.org/packages/36/3f/4228afea9489ed6df12d6c4b0208f20580d16a6a677368c85d5573e3a7f7/odoo12_addon_web_dashboard_tile-12.0.2.0.0.99.dev1-py3-none-any.whl
+[2023-04-19 00:03:37] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-04-19 00:03:37] INFO root fetch - processPackages [odoo12-addon-web-dashboard-tile]: executing diffoscope
+[2023-04-19 00:03:37] INFO root fetch - processPackages [odoo12-addon-web-dashboard-tile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_web_dashboard_tile-12.0.1.0.2-py3-none-any.whl.zip tmp/odoo12_addon_web_dashboard_tile-12.0.2.0.0.99.dev1-py3-none-any.whl.zip --markdown 20230419/o/odoo12-addon-web-dashboard-tile/12.0.1.0.2-12.0.2.0.0.99.dev1/diff.md --exclude *.pyd
+[2023-04-19 00:03:37] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-04-19 00:03:37] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-04-19 00:03:37] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230419/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-19 00:03:38] INFO root fetch - main [MainThread]: End processing [SrbAI]: success
+[2023-04-19 00:03:38] INFO root fetch - main [MainThread]: End processing [odoo12-addon-web-dashboard-tile]: success
+[2023-04-19 00:03:39] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-04-19 00:03:39] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-04-19 00:03:39] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-04-19 00:03:41] INFO root fetch - main [MainThread]: End processing [dallinger]: success
+[2023-04-19 00:03:41] INFO root fetch - main [MainThread]: Store serial: [17762300]
