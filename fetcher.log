@@ -1528,3 +1528,78 @@
 [2023-04-19 01:39:32] INFO root fetch - main [MainThread]: End processing [vofotensors]: success
 [2023-04-19 01:39:33] INFO root fetch - main [MainThread]: End processing [faker-file]: success
 [2023-04-19 01:39:33] INFO root fetch - main [MainThread]: Store serial: [17763101]
+[2023-04-19 01:44:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17763101]
+[2023-04-19 01:44:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-19 01:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 01:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NEMO-billing
+[2023-04-19 01:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mediaify
+[2023-04-19 01:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apinator
+[2023-04-19 01:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycallflow
+[2023-04-19 01:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: marvin
+[2023-04-19 01:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansys-fluent-visualization
+[2023-04-19 01:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TapisCL-ICICLE
+[2023-04-19 01:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quasinet
+[2023-04-19 01:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zephony
+[2023-04-19 01:44:41] INFO root fetch - processPackages [marvin]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-04-19 01:44:41] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 01:44:41] INFO root fetch - processPackages [pycallflow]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-19 01:44:41] INFO root fetch - processPackages [TapisCL-ICICLE]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-04-19 01:44:41] INFO root fetch - processPackages [quasinet]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-19 01:44:41] WARNING root fetch - processPackages [apinator]: Skipping, unable to determine old version
+[2023-04-19 01:44:41] INFO root fetch - processPackages [apinator]: Start processing: mvmlib
+[2023-04-19 01:44:41] INFO root fetch - main [MainThread]: End processing [apinator] error
+[2023-04-19 01:44:41] INFO root fetch - processPackages [NEMO-billing]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-04-19 01:44:41] INFO root fetch - processPackages [mediaify]: New version: [2.0.0] Old Version: [1.4.1]
+[2023-04-19 01:44:41] INFO root fetch - processPackages [ansys-fluent-visualization]: New version: [0.7.dev1] Old Version: [0.7.dev0]
+[2023-04-19 01:44:41] INFO root fetch - processPackages [zephony]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-04-19 01:44:41] INFO root fetch - processPackages [mvmlib]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-04-19 01:44:41] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/2d/6a/04bb9a63a7aa4331a56ab79c882b17bfb59e3a62ae963b96a1bb8da41ca8/fastapi_ecommerce_ext-0.2.1.tar.gz
+[2023-04-19 01:44:41] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/bf/ef/1008ec05facb95261501246dadfde064edfb235345bb05e6a38349987e7b/quasinet-0.1.3.tar.gz
+[2023-04-19 01:44:41] INFO root fetch - processPackages [marvin]: Downloading https://files.pythonhosted.org/packages/43/24/7c75776a04f6d31d8dc1caef92ee0ff2e157c436fb2e92a47882c2cbb568/marvin-0.7.5.tar.gz
+[2023-04-19 01:44:41] INFO root fetch - processPackages [pycallflow]: Downloading https://files.pythonhosted.org/packages/4e/1e/e0fd088d5e42006d1793dacab964b244e11bb21e64cc9254068eb42f0d45/pycallflow-0.1.0.tar.gz
+[2023-04-19 01:44:41] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/31/c8/c4a33bb0aeaaab5c2ad73617ca149902b96ea3cc43e6d47f8a9ca8af0fd4/TapisCL-ICICLE-0.0.28.tar.gz
+[2023-04-19 01:44:41] INFO root fetch - processPackages [mediaify]: Downloading https://files.pythonhosted.org/packages/9d/c0/3b0c145f828f1fb54f239b380527a80400377eea83b8bf231f6d3989f6b9/mediaify-1.4.1.tar.gz
+[2023-04-19 01:44:41] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/32/41/63b8142ac70e2cb96abc946aab3af28a7e2f1656a5eaed5a875232a524bd/NEMO_billing-2.0.1-py3-none-any.whl
+[2023-04-19 01:44:42] INFO root fetch - processPackages [ansys-fluent-visualization]: Downloading https://files.pythonhosted.org/packages/b9/4f/7b174c126fe955003dae27419918e73132f96c3dd88e524b0db5d831f545/ansys_fluent_visualization-0.7.dev0.tar.gz
+[2023-04-19 01:44:42] INFO root fetch - processPackages [mvmlib]: Downloading https://files.pythonhosted.org/packages/04/8c/ff3a72198c929e92cc35d5f39b02f7120940a14ab2ed0a9214a6b3fd1c37/mvmlib-0.5.7.tar.gz
+[2023-04-19 01:44:42] WARNING root fetch - processPackages [marvin]: Skipping package: exceeds size limit 15854863>=10485760
+[2023-04-19 01:44:42] INFO root fetch - processPackages [marvin]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 01:44:42] INFO root fetch - main [MainThread]: End processing [marvin] error
+[2023-04-19 01:44:42] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408130>=10485760
+[2023-04-19 01:44:42] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-04-19 01:44:42] WARNING root fetch - processPackages [mediaify]: Skipping package: exceeds size limit 13484106>=10485760
+[2023-04-19 01:44:42] INFO root fetch - main [MainThread]: End processing [mediaify] error
+[2023-04-19 01:44:42] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/25/fc/2c8476b699dbf95d4bb27f4b9ef0f67ea923406f77570aae30d0a99459aa/zephony-0.8.1.tar.gz
+[2023-04-19 01:44:42] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 01:44:42] INFO root fetch - processPackages [TapisCL-ICICLE]: executing diffoscope
+[2023-04-19 01:44:42] INFO root fetch - processPackages [TapisCL-ICICLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TapisCL-ICICLE-0.0.27.tar.gz tmp/TapisCL-ICICLE-0.0.28.tar.gz --markdown 20230419/T/TapisCL-ICICLE/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-04-19 01:44:42] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/17/23/88f40c5e71985b4225d7aa01e66daba041aacff2bbb17975a4bfbbfa8aed/fastapi_ecommerce_ext-0.2.2.tar.gz
+[2023-04-19 01:44:42] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/98/f8/5acbdc9f5e91f25d3c109a12334a65df65b08801c5ed4f97be50f5ba30e9/NEMO_billing-2.1.0-py3-none-any.whl
+[2023-04-19 01:44:42] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/17/23/88f40c5e71985b4225d7aa01e66daba041aacff2bbb17975a4bfbbfa8aed/fastapi_ecommerce_ext-0.2.2.tar.gz
+[2023-04-19 01:44:42] INFO root fetch - processPackages [ansys-fluent-visualization]: Downloading https://files.pythonhosted.org/packages/1d/95/c9febef2f9785b2039127b8cc0a2938bc041634a5baa0d0c5fd2cd582d7a/ansys_fluent_visualization-0.7.dev1.tar.gz
+[2023-04-19 01:44:42] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 01:44:42] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.2.1.tar.gz tmp/fastapi_ecommerce_ext-0.2.2.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 01:44:42] INFO root fetch - processPackages [pycallflow]: Downloading https://files.pythonhosted.org/packages/f7/4b/8ff3662b448f07a4737503636856c77bda434b7d9c45981d3abea5c805ef/pycallflow-0.2.0.tar.gz
+[2023-04-19 01:44:42] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 01:44:42] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.2.1.tar.gz tmp/fastapi_ecommerce_ext-0.2.2.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 01:44:42] INFO root fetch - processPackages [NEMO-billing]: executing diffoscope
+[2023-04-19 01:44:42] INFO root fetch - processPackages [NEMO-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_billing-2.0.1-py3-none-any.whl.zip tmp/NEMO_billing-2.1.0-py3-none-any.whl.zip --markdown 20230419/N/NEMO-billing/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-04-19 01:44:42] INFO root fetch - processPackages [mvmlib]: Downloading https://files.pythonhosted.org/packages/a3/b5/79bc4587dceffe86e28d24a5eecdbdad7377e68fd21144b1c584dd729d26/mvmlib-0.5.8.tar.gz
+[2023-04-19 01:44:42] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/35/3c/05ea992af0402117582743352f4731daf63ced4594fe71f3aa7cda19cc44/zephony-0.9.1.tar.gz
+[2023-04-19 01:44:42] INFO root fetch - processPackages [ansys-fluent-visualization]: executing diffoscope
+[2023-04-19 01:44:42] INFO root fetch - processPackages [ansys-fluent-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_fluent_visualization-0.7.dev0.tar.gz tmp/ansys_fluent_visualization-0.7.dev1.tar.gz --markdown 20230419/a/ansys-fluent-visualization/0.7.dev0-0.7.dev1/diff.md --exclude *.pyd
+[2023-04-19 01:44:42] INFO root fetch - processPackages [pycallflow]: executing diffoscope
+[2023-04-19 01:44:42] INFO root fetch - processPackages [pycallflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycallflow-0.1.0.tar.gz tmp/pycallflow-0.2.0.tar.gz --markdown 20230419/p/pycallflow/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 01:44:42] INFO root fetch - processPackages [mvmlib]: executing diffoscope
+[2023-04-19 01:44:42] INFO root fetch - processPackages [mvmlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvmlib-0.5.7.tar.gz tmp/mvmlib-0.5.8.tar.gz --markdown 20230419/m/mvmlib/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-04-19 01:44:43] INFO root fetch - processPackages [zephony]: executing diffoscope
+[2023-04-19 01:44:43] INFO root fetch - processPackages [zephony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zephony-0.8.1.tar.gz tmp/zephony-0.9.1.tar.gz --markdown 20230419/z/zephony/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-04-19 01:44:43] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 01:44:43] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 01:44:43] INFO root fetch - main [MainThread]: End processing [ansys-fluent-visualization]: success
+[2023-04-19 01:44:43] INFO root fetch - main [MainThread]: End processing [TapisCL-ICICLE]: success
+[2023-04-19 01:44:44] INFO root fetch - main [MainThread]: End processing [zephony]: success
+[2023-04-19 01:44:44] INFO root fetch - main [MainThread]: End processing [mvmlib]: success
+[2023-04-19 01:44:44] INFO root fetch - main [MainThread]: End processing [NEMO-billing]: success
+[2023-04-19 01:44:45] INFO root fetch - main [MainThread]: End processing [pycallflow]: success
+[2023-04-19 01:44:45] INFO root fetch - main [MainThread]: Store serial: [17763139]
