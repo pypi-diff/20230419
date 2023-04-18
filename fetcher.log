@@ -1639,3 +1639,13 @@
 [2023-04-19 01:49:57] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2023-04-19 01:50:00] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-04-19 01:50:00] INFO root fetch - main [MainThread]: Store serial: [17763153]
+[2023-04-19 01:55:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17763153]
+[2023-04-19 01:55:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-04-19 01:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-ocs-observation-portal
+[2023-04-19 01:55:09] INFO root fetch - processPackages [django-ocs-observation-portal]: New version: [4.7.0] Old Version: [4.6.0]
+[2023-04-19 01:55:09] INFO root fetch - processPackages [django-ocs-observation-portal]: Downloading https://files.pythonhosted.org/packages/54/0a/2b8fe49a286578ebfa23358cef1655b7afdd5f9cee429826b861441abb8c/django_ocs_observation_portal-4.6.0.tar.gz
+[2023-04-19 01:55:09] INFO root fetch - processPackages [django-ocs-observation-portal]: Downloading https://files.pythonhosted.org/packages/10/f5/e209e52d0cdf9980e205d96cc0c6f0438816e7c1cbbbc5458570772f1072/django_ocs_observation_portal-4.7.0.tar.gz
+[2023-04-19 01:55:10] INFO root fetch - processPackages [django-ocs-observation-portal]: executing diffoscope
+[2023-04-19 01:55:10] INFO root fetch - processPackages [django-ocs-observation-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ocs_observation_portal-4.6.0.tar.gz tmp/django_ocs_observation_portal-4.7.0.tar.gz --markdown 20230419/d/django-ocs-observation-portal/4.6.0-4.7.0/diff.md --exclude *.pyd
+[2023-04-19 01:55:13] INFO root fetch - main [MainThread]: End processing [django-ocs-observation-portal]: success
+[2023-04-19 01:55:13] INFO root fetch - main [MainThread]: Store serial: [17763157]
