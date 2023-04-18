@@ -578,3 +578,94 @@
 [2023-04-19 00:25:13] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-04-19 00:25:18] INFO root fetch - main [MainThread]: End processing [lale]: success
 [2023-04-19 00:25:18] INFO root fetch - main [MainThread]: Store serial: [17762530]
+[2023-04-19 00:30:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17762530]
+[2023-04-19 00:30:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-19 00:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: veritas
+[2023-04-19 00:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: almapiwrapper
+[2023-04-19 00:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: routingblocks
+[2023-04-19 00:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arelle-release
+[2023-04-19 00:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyquil
+[2023-04-19 00:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: icecube-skywriter
+[2023-04-19 00:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mb-pytorch
+[2023-04-19 00:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flyteidl
+[2023-04-19 00:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: almapiwrapper
+[2023-04-19 00:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: persisty
+[2023-04-19 00:30:26] INFO root fetch - processPackages [veritas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 00:30:26] INFO root fetch - processPackages [almapiwrapper]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-04-19 00:30:26] WARNING root fetch - processPackages [icecube-skywriter]: Skipping, unable to determine old version
+[2023-04-19 00:30:26] INFO root fetch - processPackages [icecube-skywriter]: Start processing: gretel-client
+[2023-04-19 00:30:26] INFO root fetch - main [MainThread]: End processing [icecube-skywriter] error
+[2023-04-19 00:30:26] INFO root fetch - processPackages [almapiwrapper]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-04-19 00:30:26] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182227] Old Version: [1.0.202304182221]
+[2023-04-19 00:30:26] INFO root fetch - processPackages [arelle-release]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-04-19 00:30:26] INFO root fetch - processPackages [persisty]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-19 00:30:26] INFO root fetch - processPackages [flyteidl]: New version: [1.4.2] Old Version: [1.4.0]
+[2023-04-19 00:30:26] INFO root fetch - processPackages [routingblocks]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 00:30:26] INFO root fetch - processPackages [pyquil]: New version: [4.0.0rc9] Old Version: [4.0.0rc8]
+[2023-04-19 00:30:26] INFO root fetch - processPackages [gretel-client]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-19 00:30:26] INFO root fetch - processPackages [pyquil]: executing diffoscope
+[2023-04-19 00:30:26] INFO root fetch - processPackages [pyquil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquil-4.0.0rc8.tar.gz tmp/pyquil-4.0.0rc9.tar.gz --markdown 20230419/p/pyquil/4.0.0rc8-4.0.0rc9/diff.md --exclude *.pyd
+[2023-04-19 00:30:26] INFO root fetch - processPackages [almapiwrapper]: Downloading https://files.pythonhosted.org/packages/41/87/e8f3d7e57480040dcc2a9e4ad1ff0a61eb5926a8ad89e326b1b44d1e8a83/almapiwrapper-0.8.6.tar.gz
+[2023-04-19 00:30:26] INFO root fetch - processPackages [almapiwrapper]: Downloading https://files.pythonhosted.org/packages/41/87/e8f3d7e57480040dcc2a9e4ad1ff0a61eb5926a8ad89e326b1b44d1e8a83/almapiwrapper-0.8.6.tar.gz
+[2023-04-19 00:30:26] INFO root fetch - processPackages [flyteidl]: Downloading https://files.pythonhosted.org/packages/75/eb/49929957766f64f757b2bebc1b9fc949ae99959441c37f1e46f9acf1f120/flyteidl-1.4.0.tar.gz
+[2023-04-19 00:30:26] INFO root fetch - processPackages [gretel-client]: Downloading https://files.pythonhosted.org/packages/e5/5d/8a847bf48b60125db05cd6355d7daadcb9591a064a9b0ffa21bbd8f6aaf9/gretel-client-0.9.2.tar.gz
+[2023-04-19 00:30:26] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/7b/45/8850734f9fd9c6c72263cfe88f913c943075b5901c875ee89107cbb20a0d/mb_pytorch-1.0.202304182227-py3-none-any.whl
+[2023-04-19 00:30:26] INFO root fetch - processPackages [persisty]: Downloading https://files.pythonhosted.org/packages/59/b9/6d7172704fa8515476f62f3069f49cff6e7be54c2de86a58682fe1fd65ee/persisty-0.0.8.tar.gz
+[2023-04-19 00:30:26] INFO root fetch - processPackages [veritas]: Downloading https://files.pythonhosted.org/packages/27/70/8fad591c5dd8471786dd4f4271e3a7ca5b3a05d74b620c004b99d92b8d92/veritas-0.1.8.tar.gz
+[2023-04-19 00:30:26] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/06/2d/f1b66256abdb195187068c0e7af1aabc8793ce41a43c433a068559e713bf/arelle-release-2.7.1.tar.gz
+[2023-04-19 00:30:26] INFO root fetch - processPackages [routingblocks]: Downloading https://files.pythonhosted.org/packages/f4/ee/a8c804c20ce35e03ffc757b1d044dfa93db659c9a7b974d69da4de2c0339/routingblocks-0.1.9.tar.gz
+[2023-04-19 00:30:27] INFO root fetch - processPackages [persisty]: executing diffoscope
+[2023-04-19 00:30:27] INFO root fetch - processPackages [persisty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persisty-0.0.7.tar.gz tmp/persisty-0.0.8.tar.gz --markdown 20230419/p/persisty/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-19 00:30:27] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 00:30:27] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182221-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182227-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182221-1.0.202304182227/diff.md --exclude *.pyd
+[2023-04-19 00:30:27] INFO root fetch - processPackages [almapiwrapper]: Downloading https://files.pythonhosted.org/packages/1f/d8/1aace8c2bccdff561133e6519565f36c11c26f0aced77d89c96fd76f0fa7/almapiwrapper-0.9.0.tar.gz
+[2023-04-19 00:30:27] INFO root fetch - processPackages [almapiwrapper]: Downloading https://files.pythonhosted.org/packages/1f/d8/1aace8c2bccdff561133e6519565f36c11c26f0aced77d89c96fd76f0fa7/almapiwrapper-0.9.0.tar.gz
+[2023-04-19 00:30:27] INFO root fetch - processPackages [veritas]: Downloading https://files.pythonhosted.org/packages/b5/b9/52a68ebac5387e080bf10b8760169c29fe575831826ab0257beee8b05993/veritas-0.1.9.tar.gz
+[2023-04-19 00:30:27] INFO root fetch - processPackages [almapiwrapper]: executing diffoscope
+[2023-04-19 00:30:27] INFO root fetch - processPackages [almapiwrapper]: executing diffoscope
+[2023-04-19 00:30:27] INFO root fetch - processPackages [almapiwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almapiwrapper-0.8.6.tar.gz tmp/almapiwrapper-0.9.0.tar.gz --markdown 20230419/a/almapiwrapper/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 00:30:27] INFO root fetch - processPackages [almapiwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almapiwrapper-0.8.6.tar.gz tmp/almapiwrapper-0.9.0.tar.gz --markdown 20230419/a/almapiwrapper/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 00:30:27] INFO root fetch - processPackages [routingblocks]: executing diffoscope
+[2023-04-19 00:30:27] INFO root fetch - processPackages [routingblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routingblocks-0.1.8.tar.gz tmp/routingblocks-0.1.9.tar.gz --markdown 20230419/r/routingblocks/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 00:30:27] INFO root fetch - processPackages [flyteidl]: Downloading https://files.pythonhosted.org/packages/77/fe/4f2ecc59fa289c7edad9cf160b9cb3880fe136bddb7fe641fdc31457efb4/flyteidl-1.4.2.tar.gz
+[2023-04-19 00:30:27] INFO root fetch - processPackages [veritas]: executing diffoscope
+[2023-04-19 00:30:27] INFO root fetch - processPackages [veritas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veritas-0.1.8.tar.gz tmp/veritas-0.1.9.tar.gz --markdown 20230419/v/veritas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 00:30:27] WARNING root fetch - processPackages [gretel-client]: Skipping package: exceeds size limit 30354563>=10485760
+[2023-04-19 00:30:27] INFO root fetch - processPackages [gretel-client]: Start processing: tinote
+[2023-04-19 00:30:27] INFO root fetch - main [MainThread]: End processing [gretel-client] error
+[2023-04-19 00:30:27] INFO root fetch - processPackages [tinote]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-19 00:30:27] INFO root fetch - processPackages [flyteidl]: executing diffoscope
+[2023-04-19 00:30:27] INFO root fetch - processPackages [flyteidl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyteidl-1.4.0.tar.gz tmp/flyteidl-1.4.2.tar.gz --markdown 20230419/f/flyteidl/1.4.0-1.4.2/diff.md --exclude *.pyd
+[2023-04-19 00:30:27] INFO root fetch - processPackages [tinote]: Downloading https://files.pythonhosted.org/packages/3b/df/62bc631a367ec07233a530a050d25fb69effed53492ab65d91607cd159aa/tinote-1.1.3.tar.gz
+[2023-04-19 00:30:27] INFO root fetch - processPackages [tinote]: executing diffoscope
+[2023-04-19 00:30:27] INFO root fetch - processPackages [tinote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinote-1.1.2.tar.gz tmp/tinote-1.1.3.tar.gz --markdown 20230419/t/tinote/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-19 00:30:28] INFO root fetch - processPackages [arelle-release]: executing diffoscope
+[2023-04-19 00:30:28] INFO root fetch - processPackages [arelle-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arelle-release-2.7.0.tar.gz tmp/arelle-release-2.7.1.tar.gz --markdown 20230419/a/arelle-release/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-04-19 00:30:28] INFO root fetch - processPackages [mb-pytorch]: Start processing: c65chewie
+[2023-04-19 00:30:28] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 00:30:28] INFO root fetch - processPackages [c65chewie]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-19 00:30:28] INFO root fetch - processPackages [c65chewie]: Downloading https://files.pythonhosted.org/packages/ca/bc/b05cf339054880453aa1f7430faa5a08e4e71c43a012baf38188e23f157d/c65chewie-1.0.3.tar.gz
+[2023-04-19 00:30:28] INFO root fetch - processPackages [veritas]: Start processing: basedmypy
+[2023-04-19 00:30:28] INFO root fetch - main [MainThread]: End processing [veritas]: success
+[2023-04-19 00:30:28] INFO root fetch - processPackages [almapiwrapper]: Start processing: freeflux
+[2023-04-19 00:30:28] INFO root fetch - main [MainThread]: End processing [almapiwrapper]: success
+[2023-04-19 00:30:28] INFO root fetch - processPackages [basedmypy]: New version: [1.8.0rc1] Old Version: [1.7.0rc1]
+[2023-04-19 00:30:28] WARNING root fetch - processPackages [freeflux]: Skipping, unable to determine old version
+[2023-04-19 00:30:28] INFO root fetch - main [MainThread]: End processing [freeflux] error
+[2023-04-19 00:30:28] INFO root fetch - processPackages [basedmypy]: Downloading https://files.pythonhosted.org/packages/f0/c0/dfdbdd9232f133ba054147dc029d3821b9f5b9ffbd907e799b677fb67ceb/basedmypy-1.7.0rc1.tar.gz
+[2023-04-19 00:30:28] INFO root fetch - main [MainThread]: End processing [almapiwrapper]: success
+[2023-04-19 00:30:28] INFO root fetch - processPackages [c65chewie]: Downloading https://files.pythonhosted.org/packages/44/e6/a52ed2540a803f6e8edefaabb02156c39f75559ff0327ee3c60415a316e1/c65chewie-1.0.4.tar.gz
+[2023-04-19 00:30:29] INFO root fetch - main [MainThread]: End processing [persisty]: success
+[2023-04-19 00:30:29] INFO root fetch - processPackages [c65chewie]: executing diffoscope
+[2023-04-19 00:30:29] INFO root fetch - processPackages [c65chewie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c65chewie-1.0.3.tar.gz tmp/c65chewie-1.0.4.tar.gz --markdown 20230419/c/c65chewie/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-19 00:30:29] INFO root fetch - main [MainThread]: End processing [tinote]: success
+[2023-04-19 00:30:29] INFO root fetch - main [MainThread]: End processing [flyteidl]: success
+[2023-04-19 00:30:29] INFO root fetch - processPackages [basedmypy]: Downloading https://files.pythonhosted.org/packages/77/93/de18826da8b189d7a9ea4e8183fd9ac892ceee15e5e37bf2727f332632a3/basedmypy-1.8.0rc1-py3-none-any.whl
+[2023-04-19 00:30:30] INFO root fetch - main [MainThread]: End processing [pyquil]: success
+[2023-04-19 00:30:30] INFO root fetch - processPackages [basedmypy]: executing diffoscope
+[2023-04-19 00:30:30] INFO root fetch - processPackages [basedmypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basedmypy-1.7.0rc1.tar.gz tmp/basedmypy-1.8.0rc1-py3-none-any.whl.zip --markdown 20230419/b/basedmypy/1.7.0rc1-1.8.0rc1/diff.md --exclude *.pyd
+[2023-04-19 00:30:30] INFO root fetch - main [MainThread]: End processing [c65chewie]: success
+[2023-04-19 00:30:30] INFO root fetch - main [MainThread]: End processing [routingblocks]: success
+[2023-04-19 00:30:33] INFO root fetch - main [MainThread]: End processing [basedmypy]: success
+[2023-04-19 00:30:39] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
+[2023-04-19 00:30:39] INFO root fetch - main [MainThread]: Store serial: [17762598]
