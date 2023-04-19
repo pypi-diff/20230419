@@ -8530,3 +8530,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 08:59:45] INFO root fetch - main [MainThread]: End processing [pysequoia]: success
 [2023-04-19 09:00:17] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-19 09:00:17] INFO root fetch - main [MainThread]: Store serial: [17766815]
+[2023-04-19 09:05:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766815]
+[2023-04-19 09:05:26] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-19 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi_amis_admin
+[2023-04-19 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sampledb
+[2023-04-19 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drb-driver-webdav
+[2023-04-19 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seqio-nightly
+[2023-04-19 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-models-nightly
+[2023-04-19 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2023-04-19 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xh-cpu-usage-simulator
+[2023-04-19 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Direct-Download
+[2023-04-19 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-product-multi-barcode
+[2023-04-19 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lnschema_bionty
+[2023-04-19 09:05:26] INFO root fetch - processPackages [fastapi_amis_admin]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-04-19 09:05:26] INFO root fetch - processPackages [sampledb]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-19 09:05:26] INFO root fetch - processPackages [xh-cpu-usage-simulator]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-19 09:05:26] INFO root fetch - processPackages [drb-driver-webdav]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-19 09:05:26] INFO root fetch - processPackages [Direct-Download]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-19 09:05:26] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-19 09:05:26] INFO root fetch - processPackages [odoo-addon-product-multi-barcode]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-04-19 09:05:26] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-04-19 09:05:26] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-04-19 09:05:26] INFO root fetch - processPackages [cg]: New version: [28.0.3] Old Version: [28.0.2]
+[2023-04-19 09:05:26] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/30/ae/40f281f3c1b91b6d8ecd45584f7eb8e18097545fcc48166977f07c8d4537/fastapi_amis_admin-0.5.4.tar.gz
+[2023-04-19 09:05:26] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-04-19 09:05:26] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230419/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-04-19 09:05:26] INFO root fetch - processPackages [sampledb]: Downloading https://files.pythonhosted.org/packages/c3/d3/ba4fbe1e93c5973353b06ea95a683e0fb95c7bf660c322c9d5c4818f1b82/sampledb-0.8.1.tar.gz
+[2023-04-19 09:05:26] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-04-19 09:05:26] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230419/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-04-19 09:05:26] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-04-19 09:05:26] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230419/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 09:05:26] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/0a/d5/ae9e81462004b14608888117613cc391b50833151f07245d3937a0ea7120/cg-28.0.2.tar.gz
+[2023-04-19 09:05:26] INFO root fetch - processPackages [odoo-addon-product-multi-barcode]: Downloading https://files.pythonhosted.org/packages/a1/5a/935b7ff138de79de53e55cf404c226de34967f517f1ae750c6340fc15d56/odoo_addon_product_multi_barcode-16.0.1.0.0.4-py3-none-any.whl
+[2023-04-19 09:05:26] INFO root fetch - processPackages [xh-cpu-usage-simulator]: Downloading https://files.pythonhosted.org/packages/9f/9e/57aef5e68846d4ed96bec1f22409e5d4a07e5e8ce22b3a0dcbbdc6601267/xh-cpu-usage-simulator-0.0.5.tar.gz
+[2023-04-19 09:05:26] INFO root fetch - processPackages [drb-driver-webdav]: Downloading https://files.pythonhosted.org/packages/90/19/5d7d953e980122b848fbaf05b7d10425d272c21f4fbc1041cd37c6bd6bf4/drb-driver-webdav-1.1.0.tar.gz
+[2023-04-19 09:05:26] INFO root fetch - processPackages [Direct-Download]: Downloading https://files.pythonhosted.org/packages/1d/00/fc1d68b634c51f57d239b106d1ee3767d30a7becedfb348a3be98c269222/Direct_Download-0.4.2.tar.gz
+[2023-04-19 09:05:26] INFO root fetch - processPackages [xh-cpu-usage-simulator]: executing diffoscope
+[2023-04-19 09:05:26] INFO root fetch - processPackages [xh-cpu-usage-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-cpu-usage-simulator-0.0.4.tar.gz tmp/xh-cpu-usage-simulator-0.0.5.tar.gz --markdown 20230419/x/xh-cpu-usage-simulator/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-19 09:05:26] INFO root fetch - processPackages [odoo-addon-product-multi-barcode]: Downloading https://files.pythonhosted.org/packages/7c/3f/2c6b686d6245210ae95ece9d8e12a6fac94ee2dede2d5c4021429687b54d/odoo_addon_product_multi_barcode-16.0.1.0.0.5-py3-none-any.whl
+[2023-04-19 09:05:26] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/fe/98/0a0118d71c6b5f33918b17dc0f96f911fc2fe04c10bb42824aeaad151b42/fastapi_amis_admin-0.5.5.tar.gz
+[2023-04-19 09:05:26] INFO root fetch - processPackages [fastapi_amis_admin]: executing diffoscope
+[2023-04-19 09:05:26] INFO root fetch - processPackages [fastapi_amis_admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin-0.5.4.tar.gz tmp/fastapi_amis_admin-0.5.5.tar.gz --markdown 20230419/f/fastapi_amis_admin/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-04-19 09:05:26] INFO root fetch - processPackages [drb-driver-webdav]: Downloading https://files.pythonhosted.org/packages/c9/22/9fc8c60b8b64b10affc18ba9c38195f9930b1cc5c98ef94393d943b70ce6/drb-driver-webdav-1.2.0.tar.gz
+[2023-04-19 09:05:26] INFO root fetch - processPackages [Direct-Download]: Downloading https://files.pythonhosted.org/packages/60/f4/68aba8e36aee59a49fd3766d7cc07948eb95648a832876a9a57f36ba7f55/Direct-Download-0.4.3.tar.gz
+[2023-04-19 09:05:26] INFO root fetch - processPackages [odoo-addon-product-multi-barcode]: executing diffoscope
+[2023-04-19 09:05:26] INFO root fetch - processPackages [odoo-addon-product-multi-barcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_multi_barcode-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_product_multi_barcode-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-product-multi-barcode/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-04-19 09:05:26] INFO root fetch - processPackages [drb-driver-webdav]: executing diffoscope
+[2023-04-19 09:05:26] INFO root fetch - processPackages [drb-driver-webdav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-webdav-1.1.0.tar.gz tmp/drb-driver-webdav-1.2.0.tar.gz --markdown 20230419/d/drb-driver-webdav/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-19 09:05:27] INFO root fetch - processPackages [Direct-Download]: executing diffoscope
+[2023-04-19 09:05:27] INFO root fetch - processPackages [Direct-Download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Direct_Download-0.4.2.tar.gz tmp/Direct-Download-0.4.3.tar.gz --markdown 20230419/D/Direct-Download/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-19 09:05:27] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/08/1e/45e2be5510d040cbb64ab5d16882b217ca7bd609ac5357a774c3e1a6250a/cg-28.0.3.tar.gz
+[2023-04-19 09:05:27] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-19 09:05:27] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-28.0.2.tar.gz tmp/cg-28.0.3.tar.gz --markdown 20230419/c/cg/28.0.2-28.0.3/diff.md --exclude *.pyd
+[2023-04-19 09:05:27] INFO root fetch - processPackages [sampledb]: Downloading https://files.pythonhosted.org/packages/c4/34/df88919267ed7af4854ffeeaf3d3aa4fb500a4fdab9dbdde957dcd24a019/sampledb-0.9.0.tar.gz
+[2023-04-19 09:05:28] INFO root fetch - processPackages [xh-cpu-usage-simulator]: Start processing: pysequoia
+[2023-04-19 09:05:28] INFO root fetch - main [MainThread]: End processing [xh-cpu-usage-simulator]: success
+[2023-04-19 09:05:28] INFO root fetch - processPackages [sampledb]: executing diffoscope
+[2023-04-19 09:05:28] INFO root fetch - processPackages [sampledb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampledb-0.8.1.tar.gz tmp/sampledb-0.9.0.tar.gz --markdown 20230419/s/sampledb/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 09:05:28] INFO root fetch - processPackages [pysequoia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 09:05:28] INFO root fetch - processPackages [lnschema_bionty]: Start processing: windbg-copilot
+[2023-04-19 09:05:28] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-04-19 09:05:28] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 09:05:28] INFO root fetch - processPackages [pysequoia]: executing diffoscope
+[2023-04-19 09:05:28] INFO root fetch - processPackages [pysequoia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysequoia-0.1.8.tar.gz tmp/pysequoia-0.1.9.tar.gz --markdown 20230419/p/pysequoia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 09:05:28] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-04-19 09:05:28] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-04-19 09:05:28] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230419/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 09:05:28] INFO root fetch - processPackages [Direct-Download]: Start processing: empack
+[2023-04-19 09:05:28] INFO root fetch - main [MainThread]: End processing [Direct-Download]: success
+[2023-04-19 09:05:28] INFO root fetch - processPackages [empack]: New version: [3.0.0] Old Version: [2.0.9]
+[2023-04-19 09:05:28] INFO root fetch - processPackages [drb-driver-webdav]: Start processing: gdal2numpy
+[2023-04-19 09:05:28] INFO root fetch - main [MainThread]: End processing [drb-driver-webdav]: success
+[2023-04-19 09:05:28] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 09:05:28] INFO root fetch - processPackages [odoo-addon-product-multi-barcode]: Start processing: haki-crawler
+[2023-04-19 09:05:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-multi-barcode]: success
+[2023-04-19 09:05:28] INFO root fetch - processPackages [empack]: Downloading https://files.pythonhosted.org/packages/51/28/f2837b888ba28b5b80e41b2579a3f6d4f5e7ab6d5a5b7c068ea889df2612/empack-2.0.9.tar.gz
+[2023-04-19 09:05:28] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-04-19 09:05:28] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230419/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 09:05:28] INFO root fetch - processPackages [haki-crawler]: New version: [0.6] Old Version: [0.5]
+[2023-04-19 09:05:29] INFO root fetch - processPackages [empack]: Downloading https://files.pythonhosted.org/packages/6e/0d/560b366508d31457bf8a936ef16de50e74e2e883b4ec7de91df78056b8f7/empack-3.0.0-py2.py3-none-any.whl
+[2023-04-19 09:05:29] INFO root fetch - processPackages [haki-crawler]: Downloading https://files.pythonhosted.org/packages/88/af/583d418c0c5cfaca2c6003cd9d99b1662c2def36af631ba7743853fd2d8d/haki_crawler-0.6.tar.gz
+[2023-04-19 09:05:29] INFO root fetch - processPackages [empack]: executing diffoscope
+[2023-04-19 09:05:29] INFO root fetch - processPackages [empack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empack-2.0.9.tar.gz tmp/empack-3.0.0-py2.py3-none-any.whl.zip --markdown 20230419/e/empack/2.0.9-3.0.0/diff.md --exclude *.pyd
+[2023-04-19 09:05:29] INFO root fetch - processPackages [haki-crawler]: executing diffoscope
+[2023-04-19 09:05:29] INFO root fetch - processPackages [haki-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haki_crawler-0.5.tar.gz tmp/haki_crawler-0.6.tar.gz --markdown 20230419/h/haki-crawler/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-19 09:05:29] INFO root fetch - processPackages [windbg-copilot]: Start processing: dcg-analytics-log
+[2023-04-19 09:05:29] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-04-19 09:05:29] WARNING root fetch - processPackages [dcg-analytics-log]: Skipping, unable to determine old version
+[2023-04-19 09:05:29] INFO root fetch - main [MainThread]: End processing [dcg-analytics-log] error
+[2023-04-19 09:05:30] INFO root fetch - main [MainThread]: End processing [fastapi_amis_admin]: success
+[2023-04-19 09:05:30] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-04-19 09:05:30] INFO root fetch - main [MainThread]: End processing [haki-crawler]: success
+[2023-04-19 09:05:30] INFO root fetch - main [MainThread]: End processing [empack]: success
+[2023-04-19 09:05:30] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-04-19 09:05:33] INFO root fetch - main [MainThread]: End processing [sampledb]: success
+[2023-04-19 09:05:38] INFO root fetch - main [MainThread]: End processing [pysequoia]: success
+[2023-04-19 09:05:40] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-04-19 09:05:41] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-19 09:05:41] INFO root fetch - main [MainThread]: Store serial: [17766860]
