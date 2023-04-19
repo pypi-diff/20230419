@@ -22027,3 +22027,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 20:28:14] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
 [2023-04-19 20:28:14] INFO root fetch - main [MainThread]: End processing [quantplay]: success
 [2023-04-19 20:28:14] INFO root fetch - main [MainThread]: Store serial: [17775124]
+[2023-04-19 20:33:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17775124]
+[2023-04-19 20:33:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snappi
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edge-orm
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebib
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-somconnexio
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: traker
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DonutLib
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: powergridsim
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tictacbot
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DonutLib
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sydney-py
+[2023-04-19 20:33:23] INFO root fetch - processPackages [edge-orm]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-04-19 20:33:23] INFO root fetch - processPackages [traker]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ebib]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-04-19 20:33:23] ERROR root fetch - processPackages [DonutLib]: Unable to get metadata: No such project 'DonutLib'
+[2023-04-19 20:33:23] INFO root fetch - processPackages [DonutLib]: Start processing: ccf
+[2023-04-19 20:33:23] INFO root fetch - main [MainThread]: End processing [DonutLib] error
+[2023-04-19 20:33:23] INFO root fetch - processPackages [powergridsim]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-04-19 20:33:23] ERROR root fetch - processPackages [DonutLib]: Unable to get metadata: No such project 'DonutLib'
+[2023-04-19 20:33:23] INFO root fetch - processPackages [tictacbot]: New version: [1.1] Old Version: [1.0]
+[2023-04-19 20:33:23] INFO root fetch - main [MainThread]: End processing [DonutLib] error
+[2023-04-19 20:33:23] INFO root fetch - processPackages [snappi]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-19 20:33:23] INFO root fetch - processPackages [odoo12-addon-somconnexio]: New version: [12.0.2.1.9] Old Version: [12.0.2.1.8]
+[2023-04-19 20:33:23] INFO root fetch - processPackages [sydney-py]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ccf]: New version: [4.0.0rc2] Old Version: [4.0.0rc1]
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ebib]: Downloading https://files.pythonhosted.org/packages/40/c3/775fe8b44bfa2d33906df6d732995afad15c1259821dd8f9d71f7eb0ab28/ebib-1.1.4.tar.gz
+[2023-04-19 20:33:23] INFO root fetch - processPackages [edge-orm]: Downloading https://files.pythonhosted.org/packages/19/62/8632c1d8f882e17e4ce96b9c9bb82c1b0fc52621b587cdfa6b9ce4231d74/edge_orm-0.6.5.tar.gz
+[2023-04-19 20:33:23] INFO root fetch - processPackages [traker]: Downloading https://files.pythonhosted.org/packages/dc/c0/b39ce3c76f9872bbc634eb6d7eeef4476ea01abe7ed90b84dda7c567e853/traker-0.1.2.tar.gz
+[2023-04-19 20:33:23] INFO root fetch - processPackages [powergridsim]: Downloading https://files.pythonhosted.org/packages/a9/03/7433da5a6d41c7f50aec13737f8b304d82bd44978c77007196de5e8878bf/powergridsim-0.0.1.tar.gz
+[2023-04-19 20:33:23] INFO root fetch - processPackages [odoo12-addon-somconnexio]: Downloading https://files.pythonhosted.org/packages/fb/f8/c18a5108d554bdde11e93bdab929dad36be5f7ece677a1757878a161d4a1/odoo12-addon-somconnexio-12.0.2.1.8.tar.gz
+[2023-04-19 20:33:23] INFO root fetch - processPackages [tictacbot]: Downloading https://files.pythonhosted.org/packages/02/30/f78f737e71cd0aae8fa7194c04eca3876a995a45a39c6281d2835d37edd0/tictacbot-1.0.tar.gz
+[2023-04-19 20:33:23] INFO root fetch - processPackages [edge-orm]: executing diffoscope
+[2023-04-19 20:33:23] INFO root fetch - processPackages [edge-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_orm-0.6.4.tar.gz tmp/edge_orm-0.6.5.tar.gz --markdown 20230419/e/edge-orm/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/a8/6d/27e3b9df0659423db1734281bad0543b9700f391a8e58159d40893f20000/ccf-4.0.0rc1-py3-none-any.whl
+[2023-04-19 20:33:23] INFO root fetch - processPackages [snappi]: executing diffoscope
+[2023-04-19 20:33:23] INFO root fetch - processPackages [snappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snappi-0.9.7.tar.gz tmp/snappi-0.9.8.tar.gz --markdown 20230419/s/snappi/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ebib]: Downloading https://files.pythonhosted.org/packages/35/c4/5a6f595a2036242a381ce194ed6bd8bd1d8fd118694d1fd786ae7334c962/ebib-1.2.0.tar.gz
+[2023-04-19 20:33:23] INFO root fetch - processPackages [traker]: Downloading https://files.pythonhosted.org/packages/50/d2/673d8d717e5ca00ab63fa43904b52e06aa1018b9ccb05e51f5d1304cfccf/traker-0.1.3.tar.gz
+[2023-04-19 20:33:23] INFO root fetch - processPackages [powergridsim]: Downloading https://files.pythonhosted.org/packages/09/a4/c9dd18e102249c682cab7016827f43233b23197c7f1c98750c93d5eafa9b/powergridsim-1.0.0.tar.gz
+[2023-04-19 20:33:23] INFO root fetch - processPackages [sydney-py]: executing diffoscope
+[2023-04-19 20:33:23] INFO root fetch - processPackages [sydney-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydney_py-0.8.0.tar.gz tmp/sydney_py-0.9.0.tar.gz --markdown 20230419/s/sydney-py/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 20:33:23] INFO root fetch - processPackages [tictacbot]: Downloading https://files.pythonhosted.org/packages/3b/b5/ed4601bd12a9f86cd7d9d5438245778d5910cc6477bb98d01515cf71e448/tictacbot-1.1-py3-none-any.whl
+[2023-04-19 20:33:23] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/42/3e/2de1190cbfcf051f4c41dc3c0a14cf51523844b9da29b818b93fcf8f0a43/ccf-4.0.0rc2-py3-none-any.whl
+[2023-04-19 20:33:24] INFO root fetch - processPackages [odoo12-addon-somconnexio]: Downloading https://files.pythonhosted.org/packages/5a/e4/62b9ab665239604d6e9eb2f5d739e534ab7967d4fb65a7d15b4b8e6db714/odoo12-addon-somconnexio-12.0.2.1.9.tar.gz
+[2023-04-19 20:33:24] INFO root fetch - processPackages [ebib]: executing diffoscope
+[2023-04-19 20:33:24] INFO root fetch - processPackages [ebib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebib-1.1.4.tar.gz tmp/ebib-1.2.0.tar.gz --markdown 20230419/e/ebib/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-04-19 20:33:24] INFO root fetch - processPackages [traker]: executing diffoscope
+[2023-04-19 20:33:24] INFO root fetch - processPackages [traker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traker-0.1.2.tar.gz tmp/traker-0.1.3.tar.gz --markdown 20230419/t/traker/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-19 20:33:24] INFO root fetch - processPackages [powergridsim]: executing diffoscope
+[2023-04-19 20:33:24] INFO root fetch - processPackages [powergridsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powergridsim-0.0.1.tar.gz tmp/powergridsim-1.0.0.tar.gz --markdown 20230419/p/powergridsim/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-19 20:33:24] INFO root fetch - processPackages [tictacbot]: executing diffoscope
+[2023-04-19 20:33:24] INFO root fetch - processPackages [tictacbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tictacbot-1.0.tar.gz tmp/tictacbot-1.1-py3-none-any.whl.zip --markdown 20230419/t/tictacbot/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-19 20:33:24] INFO root fetch - processPackages [ccf]: executing diffoscope
+[2023-04-19 20:33:24] INFO root fetch - processPackages [ccf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccf-4.0.0rc1-py3-none-any.whl.zip tmp/ccf-4.0.0rc2-py3-none-any.whl.zip --markdown 20230419/c/ccf/4.0.0rc1-4.0.0rc2/diff.md --exclude *.pyd
+[2023-04-19 20:33:24] INFO root fetch - processPackages [odoo12-addon-somconnexio]: executing diffoscope
+[2023-04-19 20:33:24] INFO root fetch - processPackages [odoo12-addon-somconnexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12-addon-somconnexio-12.0.2.1.8.tar.gz tmp/odoo12-addon-somconnexio-12.0.2.1.9.tar.gz --markdown 20230419/o/odoo12-addon-somconnexio/12.0.2.1.8-12.0.2.1.9/diff.md --exclude *.pyd
+[2023-04-19 20:33:25] INFO root fetch - main [MainThread]: End processing [sydney-py]: success
+[2023-04-19 20:33:25] INFO root fetch - main [MainThread]: End processing [tictacbot]: success
+[2023-04-19 20:33:25] INFO root fetch - main [MainThread]: End processing [ccf]: success
+[2023-04-19 20:33:25] INFO root fetch - main [MainThread]: End processing [edge-orm]: success
+[2023-04-19 20:33:26] INFO root fetch - main [MainThread]: End processing [traker]: success
+[2023-04-19 20:33:26] INFO root fetch - main [MainThread]: End processing [snappi]: success
+[2023-04-19 20:33:26] INFO root fetch - main [MainThread]: End processing [powergridsim]: success
+[2023-04-19 20:33:26] INFO root fetch - main [MainThread]: End processing [ebib]: success
+[2023-04-19 20:33:28] INFO root fetch - main [MainThread]: End processing [odoo12-addon-somconnexio]: success
+[2023-04-19 20:33:28] INFO root fetch - main [MainThread]: Store serial: [17775157]
