@@ -13420,3 +13420,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 12:47:33] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-04-19 12:47:53] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-19 12:47:53] INFO root fetch - main [MainThread]: Store serial: [17769845]
+[2023-04-19 12:52:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17769845]
+[2023-04-19 12:53:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-19 12:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: piknik
+[2023-04-19 12:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gama-config
+[2023-04-19 12:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpforecaster
+[2023-04-19 12:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gama-cli
+[2023-04-19 12:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synthesized
+[2023-04-19 12:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shep
+[2023-04-19 12:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BraAndKet
+[2023-04-19 12:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opentrain
+[2023-04-19 12:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lovematch
+[2023-04-19 12:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: realesrgan-ncnn-py
+[2023-04-19 12:53:02] INFO root fetch - processPackages [gama-cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-19 12:53:02] INFO root fetch - processPackages [gama-config]: New version: [1.9.0] Old Version: [1.10.2]
+[2023-04-19 12:53:02] INFO root fetch - processPackages [realesrgan-ncnn-py]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-04-19 12:53:02] INFO root fetch - processPackages [piknik]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-19 12:53:02] INFO root fetch - processPackages [BraAndKet]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-19 12:53:02] INFO root fetch - processPackages [opentrain]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 12:53:02] INFO root fetch - processPackages [shep]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-19 12:53:02] INFO root fetch - processPackages [lovematch]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-19 12:53:02] INFO root fetch - processPackages [synthesized]: New version: [2.6rc2] Old Version: [2.6rc1]
+[2023-04-19 12:53:02] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 12:53:02] INFO root fetch - processPackages [gama-config]: Downloading https://files.pythonhosted.org/packages/e1/be/c51b7b37dd8bc7c5bc8cfbab0174a0f5892db99e1cb5a80f75537fea3e3d/gama_config-1.10.2.tar.gz
+[2023-04-19 12:53:02] INFO root fetch - processPackages [BraAndKet]: Downloading https://files.pythonhosted.org/packages/8a/ed/4f80f5236b93ede73eef622f1b34cb97740e860efd98d1f6c0bc4815b961/BraAndKet-0.8.1.tar.gz
+[2023-04-19 12:53:02] INFO root fetch - processPackages [shep]: Downloading https://files.pythonhosted.org/packages/e9/d9/dd12ff6665b35a21b02bde3328c950942cb513b293ebb260541984f913f2/shep-0.3.3.tar.gz
+[2023-04-19 12:53:02] INFO root fetch - processPackages [realesrgan-ncnn-py]: Downloading https://files.pythonhosted.org/packages/8f/ac/07b8f7efcc803f4ae4e6a0a6c76226aefa38eb5446dc52e4ed0d699c2c46/realesrgan_ncnn_py-0.0.0.1-cp39-cp39-win_amd64.whl
+[2023-04-19 12:53:02] INFO root fetch - processPackages [opentrain]: Downloading https://files.pythonhosted.org/packages/87/e1/7f157935dcc7fd5940e4be1ebe5e81970f937ad45ceb6014f8cb1e45a73a/opentrain-0.0.1.tar.gz
+[2023-04-19 12:53:02] INFO root fetch - processPackages [gama-cli]: executing diffoscope
+[2023-04-19 12:53:02] INFO root fetch - processPackages [gama-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_cli-1.8.0.tar.gz tmp/gama_cli-1.9.0.tar.gz --markdown 20230419/g/gama-cli/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-19 12:53:02] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-04-19 12:53:02] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.8.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230419/g/gpforecaster/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 12:53:02] INFO root fetch - processPackages [BraAndKet]: Downloading https://files.pythonhosted.org/packages/27/d9/647a8470a4908877f803ed436994df8baf94ba9dd127265143448348e808/BraAndKet-0.8.2.tar.gz
+[2023-04-19 12:53:02] INFO root fetch - processPackages [lovematch]: Downloading https://files.pythonhosted.org/packages/21/ef/3f87a8487f694d7d04dc861f9887d1bae29d17833bb58a4ccf68e08abde4/lovematch-1.1.0.tar.gz
+[2023-04-19 12:53:03] INFO root fetch - processPackages [piknik]: Downloading https://files.pythonhosted.org/packages/94/7b/105baf5d7aeb66cc5557bee854f8ef5649c4ca8c14fb16ea77a08bc233c4/piknik-0.3.2.tar.gz
+[2023-04-19 12:53:03] INFO root fetch - processPackages [shep]: executing diffoscope
+[2023-04-19 12:53:03] INFO root fetch - processPackages [shep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shep-0.3.2.tar.gz tmp/shep-0.3.3.tar.gz --markdown 20230419/s/shep/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-19 12:53:03] INFO root fetch - processPackages [opentrain]: Downloading https://files.pythonhosted.org/packages/aa/48/628ebcd41ad7cec103b2bf3795028549da302295571c38cc09f4440778aa/opentrain-0.0.2.tar.gz
+[2023-04-19 12:53:03] INFO root fetch - processPackages [BraAndKet]: executing diffoscope
+[2023-04-19 12:53:03] INFO root fetch - processPackages [BraAndKet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BraAndKet-0.8.1.tar.gz tmp/BraAndKet-0.8.2.tar.gz --markdown 20230419/B/BraAndKet/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-19 12:53:03] INFO root fetch - processPackages [piknik]: executing diffoscope
+[2023-04-19 12:53:03] INFO root fetch - processPackages [piknik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piknik-0.3.1.tar.gz tmp/piknik-0.3.2.tar.gz --markdown 20230419/p/piknik/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-19 12:53:03] INFO root fetch - processPackages [gama-config]: executing diffoscope
+[2023-04-19 12:53:03] INFO root fetch - processPackages [gama-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_config-1.10.2.tar.gz tmp/gama_config-1.9.0.tar.gz --markdown 20230419/g/gama-config/1.10.2-1.9.0/diff.md --exclude *.pyd
+[2023-04-19 12:53:03] INFO root fetch - processPackages [lovematch]: Downloading https://files.pythonhosted.org/packages/1b/03/e389389ec2d13c6e4640466b1e9a6d1ccbaf0902039cd602a3c4a4b1ca2a/lovematch-1.2.0.tar.gz
+[2023-04-19 12:53:03] INFO root fetch - processPackages [opentrain]: executing diffoscope
+[2023-04-19 12:53:03] INFO root fetch - processPackages [opentrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentrain-0.0.1.tar.gz tmp/opentrain-0.0.2.tar.gz --markdown 20230419/o/opentrain/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 12:53:03] INFO root fetch - processPackages [realesrgan-ncnn-py]: Downloading https://files.pythonhosted.org/packages/06/56/47d7c9fb5e47920f0b0a53f61ad3e097700f5614de3e5761f8974de82b8c/realesrgan_ncnn_py-0.0.0.2-cp310-cp310-win_amd64.whl
+[2023-04-19 12:53:03] INFO root fetch - processPackages [lovematch]: executing diffoscope
+[2023-04-19 12:53:03] INFO root fetch - processPackages [lovematch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovematch-1.1.0.tar.gz tmp/lovematch-1.2.0.tar.gz --markdown 20230419/l/lovematch/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-19 12:53:03] WARNING root fetch - processPackages [realesrgan-ncnn-py]: Skipping package: exceeds size limit 43923001>=10485760
+[2023-04-19 12:53:03] INFO root fetch - processPackages [realesrgan-ncnn-py]: Start processing: driveup
+[2023-04-19 12:53:03] INFO root fetch - main [MainThread]: End processing [realesrgan-ncnn-py] error
+[2023-04-19 12:53:03] INFO root fetch - processPackages [synthesized]: Downloading https://files.pythonhosted.org/packages/da/c8/524b117ce26a029108888eec8a7a16f0204e5cf2957b4068741023a35bce/synthesized-2.6rc1-cp39-cp39-win_amd64.whl
+[2023-04-19 12:53:03] WARNING root fetch - processPackages [driveup]: Skipping, unable to determine old version
+[2023-04-19 12:53:03] INFO root fetch - main [MainThread]: End processing [driveup] error
+[2023-04-19 12:53:04] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-04-19 12:53:04] INFO root fetch - main [MainThread]: End processing [shep]: success
+[2023-04-19 12:53:04] INFO root fetch - main [MainThread]: End processing [gama-config]: success
+[2023-04-19 12:53:04] INFO root fetch - processPackages [synthesized]: Downloading https://files.pythonhosted.org/packages/4a/29/95feb8a43a5cf44cb89ed77aaec516e4217944d309d1cdd0400e3c2fb6cb/synthesized-2.6rc2-cp39-cp39-win_amd64.whl
+[2023-04-19 12:53:04] INFO root fetch - main [MainThread]: End processing [piknik]: success
+[2023-04-19 12:53:04] INFO root fetch - main [MainThread]: End processing [lovematch]: success
+[2023-04-19 12:53:04] INFO root fetch - main [MainThread]: End processing [opentrain]: success
+[2023-04-19 12:53:04] INFO root fetch - main [MainThread]: End processing [gama-cli]: success
+[2023-04-19 12:53:04] INFO root fetch - main [MainThread]: End processing [BraAndKet]: success
+[2023-04-19 12:53:05] INFO root fetch - processPackages [synthesized]: executing diffoscope
+[2023-04-19 12:53:05] INFO root fetch - processPackages [synthesized]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthesized-2.6rc1-cp39-cp39-win_amd64.whl.zip tmp/synthesized-2.6rc2-cp39-cp39-win_amd64.whl.zip --markdown 20230419/s/synthesized/2.6rc1-2.6rc2/diff.md --exclude *.pyd
+[2023-04-19 12:53:07] INFO root fetch - main [MainThread]: End processing [synthesized]: success
+[2023-04-19 12:53:07] INFO root fetch - main [MainThread]: Store serial: [17769892]
