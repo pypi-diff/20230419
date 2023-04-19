@@ -17803,3 +17803,112 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 16:45:38] INFO root fetch - main [MainThread]: End processing [vegafusion-python-embed]: success
 [2023-04-19 16:46:20] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
 [2023-04-19 16:46:20] INFO root fetch - main [MainThread]: Store serial: [17772434]
+[2023-04-19 16:51:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17772434]
+[2023-04-19 16:51:32] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-19 16:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FYP-clustering
+[2023-04-19 16:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-04-19 16:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vocably
+[2023-04-19 16:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auraboros
+[2023-04-19 16:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: postgres-data-faker
+[2023-04-19 16:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MotorDeCalidad
+[2023-04-19 16:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nodezator
+[2023-04-19 16:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: musicli
+[2023-04-19 16:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qontract-reconcile
+[2023-04-19 16:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finbourne-insights-sdk-preview
+[2023-04-19 16:51:33] INFO root fetch - processPackages [FYP-clustering]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 16:51:33] INFO root fetch - processPackages [vocably]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 16:51:33] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-19 16:51:33] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-19 16:51:33] INFO root fetch - processPackages [postgres-data-faker]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-19 16:51:33] INFO root fetch - processPackages [musicli]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 16:51:33] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: New version: [0.0.496] Old Version: [0.0.471]
+[2023-04-19 16:51:33] INFO root fetch - processPackages [nodezator]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-19 16:51:33] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-19 16:51:33] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-19 16:51:33] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-04-19 16:51:33] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230419/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-19 16:51:33] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-19 16:51:33] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230419/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-19 16:51:33] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-19 16:51:33] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230419/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-19 16:51:33] INFO root fetch - processPackages [FYP-clustering]: Downloading https://files.pythonhosted.org/packages/10/94/992316fab6598244a8872b1e8fdd5f49dd44aa50a86c1dfe3372c639966d/FYP_clustering-0.0.1.tar.gz
+[2023-04-19 16:51:33] INFO root fetch - processPackages [vocably]: Downloading https://files.pythonhosted.org/packages/43/dd/75b1ea31cbe8ec32cdcbe7fce9850d297646aa3f681a5e18e3d2e940a84b/vocably-0.0.8.tar.gz
+[2023-04-19 16:51:33] INFO root fetch - processPackages [musicli]: Downloading https://files.pythonhosted.org/packages/78/5e/5bea6ce5abe3eaae866347809af0cf81c3ef2e36e54292c34f6643ca603a/musicli-0.0.3.tar.gz
+[2023-04-19 16:51:33] INFO root fetch - processPackages [nodezator]: Downloading https://files.pythonhosted.org/packages/89/cc/472746135b5b5354997f86741673d727c57670733d97262e481e6c59feb6/nodezator-1.3.8.tar.gz
+[2023-04-19 16:51:33] INFO root fetch - processPackages [musicli]: executing diffoscope
+[2023-04-19 16:51:33] INFO root fetch - processPackages [musicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicli-0.0.2.tar.gz tmp/musicli-0.0.3.tar.gz --markdown 20230419/m/musicli/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 16:51:33] INFO root fetch - processPackages [postgres-data-faker]: Downloading https://files.pythonhosted.org/packages/e6/bb/58b9c94278963fabe42eb04dfd1be37d564d2d7d64d148a5ee5227a33565/postgres_data_faker-1.1.1.tar.gz
+[2023-04-19 16:51:33] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-19 16:51:33] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230419/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-19 16:51:33] INFO root fetch - processPackages [postgres-data-faker]: executing diffoscope
+[2023-04-19 16:51:33] INFO root fetch - processPackages [postgres-data-faker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgres_data_faker-1.1.0.tar.gz tmp/postgres_data_faker-1.1.1.tar.gz --markdown 20230419/p/postgres-data-faker/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-19 16:51:33] INFO root fetch - processPackages [FYP-clustering]: Downloading https://files.pythonhosted.org/packages/cf/ec/796f35ec51f34590e433368d24aee3ed2fe381b8c5fabbbe1b82f6ba206f/FYP_clustering-0.0.2.tar.gz
+[2023-04-19 16:51:33] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/6c/ae/1616483036e4751e73e429f314127341bfbe22a6aa54bc7427b691c738c0/finbourne-insights-sdk-preview-0.0.496.tar.gz
+[2023-04-19 16:51:33] INFO root fetch - processPackages [FYP-clustering]: executing diffoscope
+[2023-04-19 16:51:33] INFO root fetch - processPackages [FYP-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FYP_clustering-0.0.1.tar.gz tmp/FYP_clustering-0.0.2.tar.gz --markdown 20230419/F/FYP-clustering/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 16:51:33] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: executing diffoscope
+[2023-04-19 16:51:33] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-insights-sdk-preview-0.0.471.tar.gz tmp/finbourne-insights-sdk-preview-0.0.496.tar.gz --markdown 20230419/f/finbourne-insights-sdk-preview/0.0.471-0.0.496/diff.md --exclude *.pyd
+[2023-04-19 16:51:33] INFO root fetch - processPackages [vocably]: Downloading https://files.pythonhosted.org/packages/d8/01/31cd4d97dfb7fac85502d8a45639c9da7f5e0ee9e9fd02426787e6eb9003/vocably-0.0.9-py3-none-any.whl
+[2023-04-19 16:51:33] INFO root fetch - processPackages [vocably]: executing diffoscope
+[2023-04-19 16:51:33] INFO root fetch - processPackages [vocably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocably-0.0.8.tar.gz tmp/vocably-0.0.9-py3-none-any.whl.zip --markdown 20230419/v/vocably/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:51:34] INFO root fetch - processPackages [MotorDeCalidad]: Start processing: pymodelextractor
+[2023-04-19 16:51:34] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-04-19 16:51:34] INFO root fetch - processPackages [pymodelextractor]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-19 16:51:34] INFO root fetch - processPackages [musicli]: Start processing: gdsfactory
+[2023-04-19 16:51:34] INFO root fetch - main [MainThread]: End processing [musicli]: success
+[2023-04-19 16:51:34] INFO root fetch - processPackages [gdsfactory]: New version: [6.9.0] Old Version: [6.88.0]
+[2023-04-19 16:51:34] INFO root fetch - processPackages [postgres-data-faker]: Start processing: EnergyCapSdk
+[2023-04-19 16:51:34] INFO root fetch - main [MainThread]: End processing [postgres-data-faker]: success
+[2023-04-19 16:51:34] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/4c/9f/b677e1ee1e60f669b967379289966fc30651c56c0edfde4a2df8d2bf1389/gdsfactory-6.88.0.tar.gz
+[2023-04-19 16:51:34] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2302.4510] Old Version: [8.2302.4509]
+[2023-04-19 16:51:34] INFO root fetch - processPackages [pymodelextractor]: executing diffoscope
+[2023-04-19 16:51:34] INFO root fetch - processPackages [pymodelextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodelextractor-0.9.8.tar.gz tmp/pymodelextractor-0.9.9.tar.gz --markdown 20230419/p/pymodelextractor/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-19 16:51:34] INFO root fetch - processPackages [FYP-clustering]: Start processing: returnn
+[2023-04-19 16:51:34] INFO root fetch - main [MainThread]: End processing [FYP-clustering]: success
+[2023-04-19 16:51:35] INFO root fetch - processPackages [returnn]: New version: [1.20230419.94650] Old Version: [1.20230419.74255]
+[2023-04-19 16:51:35] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/51/e1/bea9be10e53a3f646a2bc569ab98aa0db7b687da72ac78a2d51eac5c8a5e/gdsfactory-6.9.0.tar.gz
+[2023-04-19 16:51:35] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-19 16:51:35] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230419.74255.tar.gz tmp/returnn-1.20230419.94650.tar.gz --markdown 20230419/r/returnn/1.20230419.74255-1.20230419.94650/diff.md --exclude *.pyd
+[2023-04-19 16:51:35] INFO root fetch - processPackages [vocably]: Start processing: airgiant
+[2023-04-19 16:51:35] INFO root fetch - main [MainThread]: End processing [vocably]: success
+[2023-04-19 16:51:35] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/43/9f/6b2d49384283f32a19f6818ae70361142dbfc699dcfa547fbcf8e6b70d7f/EnergyCapSdk-8.2302.4510.tar.gz
+[2023-04-19 16:51:35] INFO root fetch - processPackages [airgiant]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-04-19 16:51:35] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-04-19 16:51:35] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2302.4509.tar.gz tmp/EnergyCapSdk-8.2302.4510.tar.gz --markdown 20230419/E/EnergyCapSdk/8.2302.4509-8.2302.4510/diff.md --exclude *.pyd
+[2023-04-19 16:51:35] INFO root fetch - processPackages [airgiant]: Downloading https://files.pythonhosted.org/packages/e5/16/0ab734b4a893a31a8f2195ccbcde60e625eee20f65791d9ed9eff07a3e2c/airgiant-0.0.5.tar.gz
+[2023-04-19 16:51:35] INFO root fetch - processPackages [nodezator]: Downloading https://files.pythonhosted.org/packages/99/7b/72d3c378ebff4cf51dd2bfdac1b9cac17c74502f27093d0410e7694750a6/nodezator-1.3.9.tar.gz
+[2023-04-19 16:51:35] INFO root fetch - processPackages [airgiant]: executing diffoscope
+[2023-04-19 16:51:35] INFO root fetch - processPackages [airgiant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airgiant-0.0.3.tar.gz tmp/airgiant-0.0.5.tar.gz --markdown 20230419/a/airgiant/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-04-19 16:51:35] WARNING root fetch - processPackages [gdsfactory]: Skipping package: exceeds size limit 11141129>=10485760
+[2023-04-19 16:51:35] INFO root fetch - processPackages [gdsfactory]: Start processing: k1lib
+[2023-04-19 16:51:35] INFO root fetch - main [MainThread]: End processing [gdsfactory] error
+[2023-04-19 16:51:35] INFO root fetch - processPackages [k1lib]: New version: [1.3.3.3] Old Version: [1.3.3.2]
+[2023-04-19 16:51:35] INFO root fetch - processPackages [auraboros]: Start processing: tap-exact
+[2023-04-19 16:51:35] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-19 16:51:35] INFO root fetch - processPackages [tap-exact]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-04-19 16:51:35] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/fb/3a/7895d012c94c887dba4f1f652edfa904e9c57f0115027d86603bd46cde3e/k1lib-1.3.3.2-py3-none-any.whl
+[2023-04-19 16:51:35] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/fa/d4/554fb5787496387a3d9a83e96e5f7b2bf5bfae3e3190a16ef80c8ca757f1/tap_exact-0.1.3.tar.gz
+[2023-04-19 16:51:35] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Start processing: onnxoptimizer
+[2023-04-19 16:51:35] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
+[2023-04-19 16:51:35] INFO root fetch - processPackages [onnxoptimizer]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 16:51:35] INFO root fetch - processPackages [onnxoptimizer]: Downloading https://files.pythonhosted.org/packages/a2/c2/8fcbecf89c52ca3beaccbed4aedb05eb9aa2bf232e18987942b3e1d3f227/onnxoptimizer-0.3.8.tar.gz
+[2023-04-19 16:51:35] WARNING root fetch - processPackages [onnxoptimizer]: Skipping package: exceeds size limit 18462997>=10485760
+[2023-04-19 16:51:35] INFO root fetch - main [MainThread]: End processing [onnxoptimizer] error
+[2023-04-19 16:51:36] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/e0/ae/fbae1f22309bf4f86c4fbd377599e165f19a7a5c98c50293b4ad69cdac8b/tap_exact-0.2.0.tar.gz
+[2023-04-19 16:51:36] INFO root fetch - processPackages [tap-exact]: executing diffoscope
+[2023-04-19 16:51:36] INFO root fetch - processPackages [tap-exact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_exact-0.1.3.tar.gz tmp/tap_exact-0.2.0.tar.gz --markdown 20230419/t/tap-exact/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 16:51:36] INFO root fetch - main [MainThread]: End processing [airgiant]: success
+[2023-04-19 16:51:36] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/9b/58/ddedadcf68adaea1d851ef9d1b4741d3a65f0a3a2ae9c81e275ab4c7a80c/k1lib-1.3.3.3-py3-none-any.whl
+[2023-04-19 16:51:36] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-04-19 16:51:36] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.3.2-py3-none-any.whl.zip tmp/k1lib-1.3.3.3-py3-none-any.whl.zip --markdown 20230419/k/k1lib/1.3.3.2-1.3.3.3/diff.md --exclude *.pyd
+[2023-04-19 16:51:37] INFO root fetch - main [MainThread]: End processing [pymodelextractor]: success
+[2023-04-19 16:51:37] INFO root fetch - main [MainThread]: End processing [tap-exact]: success
+[2023-04-19 16:51:37] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-19 16:51:37] INFO root fetch - processPackages [nodezator]: executing diffoscope
+[2023-04-19 16:51:37] INFO root fetch - processPackages [nodezator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodezator-1.3.8.tar.gz tmp/nodezator-1.3.9.tar.gz --markdown 20230419/n/nodezator/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-19 16:51:38] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-04-19 16:51:39] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-19 16:51:39] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-19 16:51:42] INFO root fetch - main [MainThread]: End processing [nodezator]: success
+[2023-04-19 16:52:06] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-04-19 16:52:06] INFO root fetch - main [MainThread]: Store serial: [17772499]
