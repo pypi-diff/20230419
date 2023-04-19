@@ -6944,3 +6944,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 07:02:30] INFO root fetch - main [MainThread]: End processing [viqi-api]: success
 [2023-04-19 07:02:42] INFO root fetch - main [MainThread]: End processing [ms-entropy]: success
 [2023-04-19 07:02:42] INFO root fetch - main [MainThread]: Store serial: [17766004]
+[2023-04-19 07:07:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766004]
+[2023-04-19 07:07:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-19 07:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylovelace
+[2023-04-19 07:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pd-db-wrangler
+[2023-04-19 07:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dahlia
+[2023-04-19 07:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-cruddy-framework
+[2023-04-19 07:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tflite-model-maker-nightly
+[2023-04-19 07:07:50] INFO root fetch - processPackages [pylovelace]: New version: [2023.1.1] Old Version: [0.0.3]
+[2023-04-19 07:07:50] INFO root fetch - processPackages [pd-db-wrangler]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 07:07:50] INFO root fetch - processPackages [dahlia]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-04-19 07:07:50] INFO root fetch - processPackages [fastapi-cruddy-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 07:07:50] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202304180508] Old Version: [0.4.3.dev202304170517]
+[2023-04-19 07:07:50] INFO root fetch - processPackages [pd-db-wrangler]: executing diffoscope
+[2023-04-19 07:07:50] INFO root fetch - processPackages [pd-db-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pd_db_wrangler-0.8.0.tar.gz tmp/pd_db_wrangler-0.9.0.tar.gz --markdown 20230419/p/pd-db-wrangler/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 07:07:50] INFO root fetch - processPackages [pylovelace]: Downloading https://files.pythonhosted.org/packages/eb/bf/cd8cc9af591da0061c4df5f55528503130a86f523969bef0c91a45446965/pylovelace-0.0.3.zip
+[2023-04-19 07:07:50] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-04-19 07:07:50] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202304170517.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202304180508.tar.gz --markdown 20230419/t/tflite-model-maker-nightly/0.4.3.dev202304170517-0.4.3.dev202304180508/diff.md --exclude *.pyd
+[2023-04-19 07:07:50] INFO root fetch - processPackages [dahlia]: Downloading https://files.pythonhosted.org/packages/20/ba/c8105b1bc05ff84924af40fbc126b69eaac8f98d09620c716da15bf4d0a3/dahlia-2.3.1.tar.gz
+[2023-04-19 07:07:50] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/42/cf/ab76e6d9347a6ad42b9fa537b6285bf61f469bcc21324b6fd6ca9edfba97/fastapi_cruddy_framework-0.0.9.tar.gz
+[2023-04-19 07:07:51] INFO root fetch - processPackages [fastapi-cruddy-framework]: executing diffoscope
+[2023-04-19 07:07:51] INFO root fetch - processPackages [fastapi-cruddy-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cruddy_framework-0.0.8.tar.gz tmp/fastapi_cruddy_framework-0.0.9.tar.gz --markdown 20230419/f/fastapi-cruddy-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 07:07:51] INFO root fetch - processPackages [pylovelace]: Downloading https://files.pythonhosted.org/packages/18/da/862bed0432a33438391a579919898d6246cb9324d518d91e8be678311fa8/pylovelace-2023.1.1-py3-none-any.whl
+[2023-04-19 07:07:51] INFO root fetch - processPackages [dahlia]: Downloading https://files.pythonhosted.org/packages/95/9c/654412743e89565c4997f0559275eee5fe9db1e2108f7ca1f77d72c51a89/dahlia-2.3.2.tar.gz
+[2023-04-19 07:07:51] INFO root fetch - processPackages [pylovelace]: executing diffoscope
+[2023-04-19 07:07:51] INFO root fetch - processPackages [pylovelace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylovelace-0.0.3.zip tmp/pylovelace-2023.1.1-py3-none-any.whl.zip --markdown 20230419/p/pylovelace/0.0.3-2023.1.1/diff.md --exclude *.pyd
+[2023-04-19 07:07:51] INFO root fetch - processPackages [dahlia]: executing diffoscope
+[2023-04-19 07:07:51] INFO root fetch - processPackages [dahlia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dahlia-2.3.1.tar.gz tmp/dahlia-2.3.2.tar.gz --markdown 20230419/d/dahlia/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-04-19 07:07:52] INFO root fetch - main [MainThread]: End processing [pd-db-wrangler]: success
+[2023-04-19 07:07:52] INFO root fetch - main [MainThread]: End processing [fastapi-cruddy-framework]: success
+[2023-04-19 07:07:52] INFO root fetch - main [MainThread]: End processing [pylovelace]: success
+[2023-04-19 07:07:54] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-04-19 07:08:04] INFO root fetch - main [MainThread]: End processing [dahlia]: success
+[2023-04-19 07:08:04] INFO root fetch - main [MainThread]: Store serial: [17766018]
