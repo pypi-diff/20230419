@@ -7359,3 +7359,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 07:23:49] INFO root fetch - main [MainThread]: End processing [pycentroid]: success
 [2023-04-19 07:23:49] INFO root fetch - main [MainThread]: End processing [pycentroid]: success
 [2023-04-19 07:23:49] INFO root fetch - main [MainThread]: Store serial: [17766164]
+[2023-04-19 07:28:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766164]
+[2023-04-19 07:28:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-19 07:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promsoft-weight-calc-interface
+[2023-04-19 07:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: badgie
+[2023-04-19 07:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xh-dict-utils
+[2023-04-19 07:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qtdark
+[2023-04-19 07:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: extract-json-from-string
+[2023-04-19 07:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secsgem
+[2023-04-19 07:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioforma
+[2023-04-19 07:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xj-recycle
+[2023-04-19 07:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chatblade
+[2023-04-19 07:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crazy-thursday
+[2023-04-19 07:28:58] INFO root fetch - processPackages [badgie]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-19 07:28:58] INFO root fetch - processPackages [bioforma]: New version: [0.1.0a0] Old Version: [0.0.0]
+[2023-04-19 07:28:58] INFO root fetch - processPackages [promsoft-weight-calc-interface]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-19 07:28:58] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 07:28:58] WARNING root fetch - processPackages [extract-json-from-string]: Skipping, unable to determine old version
+[2023-04-19 07:28:58] INFO root fetch - processPackages [extract-json-from-string]: Start processing: odoo-addons-oca-multi-company
+[2023-04-19 07:28:58] INFO root fetch - main [MainThread]: End processing [extract-json-from-string] error
+[2023-04-19 07:28:58] INFO root fetch - processPackages [qtdark]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-19 07:28:58] INFO root fetch - processPackages [xj-recycle]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-19 07:28:58] INFO root fetch - processPackages [secsgem]: New version: [0.2.0a4] Old Version: [0.2.0a3]
+[2023-04-19 07:28:58] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-19 07:28:58] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-19 07:28:58] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230419/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 07:28:58] INFO root fetch - processPackages [chatblade]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-19 07:28:58] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: New version: [16.0.20230419.0] Old Version: [16.0.20230302.0]
+[2023-04-19 07:28:58] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-19 07:28:58] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230419/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-19 07:28:58] INFO root fetch - processPackages [xj-recycle]: Downloading https://files.pythonhosted.org/packages/97/e6/30883fafda131a56c54e5d825aefa7f379d74dfc519cfd9fe3c30243d519/xj_recycle-1.0.3.tar.gz
+[2023-04-19 07:28:58] INFO root fetch - processPackages [qtdark]: Downloading https://files.pythonhosted.org/packages/41/72/a2dc769bbfb6468752652297846a42278018d9b975075baf1e2eb7c59d58/qtdark-0.1.4.tar.gz
+[2023-04-19 07:28:58] INFO root fetch - processPackages [secsgem]: Downloading https://files.pythonhosted.org/packages/fd/6b/a40708358fbb1d6f64743e6245f6d38ce46aab7ee5e6c0c404f86a1fc4fb/secsgem-0.2.0a3.tar.gz
+[2023-04-19 07:28:58] INFO root fetch - processPackages [bioforma]: Downloading https://files.pythonhosted.org/packages/3f/2b/88f399e8ddd9ca1c39ec2d9e58b2964df4aeb4ea711423ef33b134d8f042/bioforma-0.0.0.tar.gz
+[2023-04-19 07:28:58] INFO root fetch - processPackages [qtdark]: executing diffoscope
+[2023-04-19 07:28:58] INFO root fetch - processPackages [qtdark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtdark-0.1.3.tar.gz tmp/qtdark-0.1.4.tar.gz --markdown 20230419/q/qtdark/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-19 07:28:58] INFO root fetch - processPackages [chatblade]: Downloading https://files.pythonhosted.org/packages/08/14/ceb7f7d0d948321361b47d113274eb753ab63a4dc4eecf545a0b463465cc/chatblade-0.2.2.tar.gz
+[2023-04-19 07:28:58] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/fa/53/17a95fd12c5618fb815ee53496cef540887231cbe30bf8ef8289fa9ae810/odoo_addons_oca_multi_company-16.0.20230302.0-py3-none-any.whl
+[2023-04-19 07:28:59] INFO root fetch - processPackages [badgie]: Downloading https://files.pythonhosted.org/packages/de/11/6f8782d2d2e145bc4956dfb4e510b8943af5620b40be0f80b0ee22e2064a/badgie-0.5.0.tar.gz
+[2023-04-19 07:28:59] INFO root fetch - processPackages [badgie]: executing diffoscope
+[2023-04-19 07:28:59] INFO root fetch - processPackages [badgie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badgie-0.4.0.tar.gz tmp/badgie-0.5.0.tar.gz --markdown 20230419/b/badgie/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-19 07:28:59] INFO root fetch - processPackages [chatblade]: Downloading https://files.pythonhosted.org/packages/23/b9/31ee0c050069c212d09027129e37fb0e5392c1827770bfe046977cac9340/chatblade-0.2.3.tar.gz
+[2023-04-19 07:28:59] INFO root fetch - processPackages [bioforma]: Downloading https://files.pythonhosted.org/packages/a3/a5/5f39dbd5a3931206f1e04a552f3bdfc2839709f4da8db0403af44fca22f0/bioforma-0.1.0a0.tar.gz
+[2023-04-19 07:28:59] INFO root fetch - processPackages [xj-recycle]: Downloading https://files.pythonhosted.org/packages/a6/dd/1048cc7f6499bb4fb267b1d90662a155adf1ec62c84730d6d698fe839bbf/xj_recycle-1.0.4.tar.gz
+[2023-04-19 07:28:59] INFO root fetch - processPackages [promsoft-weight-calc-interface]: Downloading https://files.pythonhosted.org/packages/e0/9e/bc24d2763383cadd2b796716243500bff3178d2c57f765b437dc930a74c6/promsoft_weight_calc_interface-0.1.5.tar.gz
+[2023-04-19 07:28:59] INFO root fetch - processPackages [xj-recycle]: executing diffoscope
+[2023-04-19 07:28:59] INFO root fetch - processPackages [xj-recycle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_recycle-1.0.3.tar.gz tmp/xj_recycle-1.0.4.tar.gz --markdown 20230419/x/xj-recycle/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-19 07:28:59] INFO root fetch - processPackages [promsoft-weight-calc-interface]: executing diffoscope
+[2023-04-19 07:28:59] INFO root fetch - processPackages [promsoft-weight-calc-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promsoft_weight_calc_interface-0.1.4.tar.gz tmp/promsoft_weight_calc_interface-0.1.5.tar.gz --markdown 20230419/p/promsoft-weight-calc-interface/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-19 07:28:59] INFO root fetch - processPackages [chatblade]: executing diffoscope
+[2023-04-19 07:28:59] INFO root fetch - processPackages [chatblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatblade-0.2.2.tar.gz tmp/chatblade-0.2.3.tar.gz --markdown 20230419/c/chatblade/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-19 07:28:59] INFO root fetch - processPackages [bioforma]: executing diffoscope
+[2023-04-19 07:28:59] INFO root fetch - processPackages [bioforma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioforma-0.0.0.tar.gz tmp/bioforma-0.1.0a0.tar.gz --markdown 20230419/b/bioforma/0.0.0-0.1.0a0/diff.md --exclude *.pyd
+[2023-04-19 07:28:59] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/63/61/526625dced587812f1c2a578eed5fcdfe85dcd8603f7ad8478b6302ad034/odoo_addons_oca_multi_company-16.0.20230419.0-py3-none-any.whl
+[2023-04-19 07:28:59] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: executing diffoscope
+[2023-04-19 07:28:59] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_multi_company-16.0.20230302.0-py3-none-any.whl.zip tmp/odoo_addons_oca_multi_company-16.0.20230419.0-py3-none-any.whl.zip --markdown 20230419/o/odoo-addons-oca-multi-company/16.0.20230302.0-16.0.20230419.0/diff.md --exclude *.pyd
+[2023-04-19 07:28:59] INFO root fetch - processPackages [secsgem]: Downloading https://files.pythonhosted.org/packages/15/98/677469fbf505e02b35a216691015a6990b038bf368f6a6cef20c8852b640/secsgem-0.2.0a4.tar.gz
+[2023-04-19 07:28:59] INFO root fetch - processPackages [secsgem]: executing diffoscope
+[2023-04-19 07:28:59] INFO root fetch - processPackages [secsgem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secsgem-0.2.0a3.tar.gz tmp/secsgem-0.2.0a4.tar.gz --markdown 20230419/s/secsgem/0.2.0a3-0.2.0a4/diff.md --exclude *.pyd
+[2023-04-19 07:29:00] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-19 07:29:00] INFO root fetch - main [MainThread]: End processing [qtdark]: success
+[2023-04-19 07:29:00] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-19 07:29:00] INFO root fetch - main [MainThread]: End processing [badgie]: success
+[2023-04-19 07:29:00] INFO root fetch - main [MainThread]: End processing [xj-recycle]: success
+[2023-04-19 07:29:00] INFO root fetch - main [MainThread]: End processing [promsoft-weight-calc-interface]: success
+[2023-04-19 07:29:00] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-multi-company]: success
+[2023-04-19 07:29:01] INFO root fetch - main [MainThread]: End processing [bioforma]: success
+[2023-04-19 07:29:01] INFO root fetch - main [MainThread]: End processing [chatblade]: success
+[2023-04-19 07:29:03] INFO root fetch - main [MainThread]: End processing [secsgem]: success
+[2023-04-19 07:29:03] INFO root fetch - main [MainThread]: Store serial: [17766246]
