@@ -20447,3 +20447,97 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 18:57:21] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
 [2023-04-19 18:57:22] INFO root fetch - main [MainThread]: End processing [safir]: success
 [2023-04-19 18:57:22] INFO root fetch - main [MainThread]: Store serial: [17774112]
+[2023-04-19 19:02:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17774112]
+[2023-04-19 19:02:31] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-19 19:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyjunkerpro
+[2023-04-19 19:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tupa123
+[2023-04-19 19:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-config
+[2023-04-19 19:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datadog-cdk-constructs-v2
+[2023-04-19 19:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whylabs-client
+[2023-04-19 19:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: goodai-ltm
+[2023-04-19 19:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: diycrate
+[2023-04-19 19:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: urchin
+[2023-04-19 19:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sherlockpipe
+[2023-04-19 19:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spconv-cu117
+[2023-04-19 19:02:31] INFO root fetch - processPackages [ovos-config]: New version: [0.0.8a5] Old Version: [0.0.8a4]
+[2023-04-19 19:02:31] INFO root fetch - processPackages [whylabs-client]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-19 19:02:31] INFO root fetch - processPackages [pyjunkerpro]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-04-19 19:02:31] INFO root fetch - processPackages [urchin]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-04-19 19:02:31] INFO root fetch - processPackages [datadog-cdk-constructs-v2]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-04-19 19:02:31] INFO root fetch - processPackages [diycrate]: New version: [0.2.9.1] Old Version: [0.2.9]
+[2023-04-19 19:02:31] INFO root fetch - processPackages [tupa123]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-19 19:02:31] INFO root fetch - processPackages [spconv-cu117]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-04-19 19:02:31] INFO root fetch - processPackages [sherlockpipe]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-19 19:02:31] INFO root fetch - processPackages [ovos-config]: executing diffoscope
+[2023-04-19 19:02:31] INFO root fetch - processPackages [ovos-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_config-0.0.8a4-py3-none-any.whl.zip tmp/ovos-config-0.0.8a5.tar.gz --markdown 20230419/o/ovos-config/0.0.8a4-0.0.8a5/diff.md --exclude *.pyd
+[2023-04-19 19:02:31] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-04-19 19:02:31] WARNING root fetch - processPackages [goodai-ltm]: Skipping, unable to determine old version
+[2023-04-19 19:02:31] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.3.8.tar.gz tmp/tupa123-1.3.9.tar.gz --markdown 20230419/t/tupa123/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-19 19:02:31] INFO root fetch - processPackages [goodai-ltm]: Start processing: point-cloud-utils
+[2023-04-19 19:02:31] INFO root fetch - main [MainThread]: End processing [goodai-ltm] error
+[2023-04-19 19:02:31] INFO root fetch - processPackages [point-cloud-utils]: New version: [0.29.5] Old Version: [0.29.3]
+[2023-04-19 19:02:31] INFO root fetch - processPackages [whylabs-client]: Downloading https://files.pythonhosted.org/packages/fd/40/4e07021483a0ee4df532d97e78ca220f5fddc7bf5afa53e17bc1881a1dec/whylabs-client-0.4.5.tar.gz
+[2023-04-19 19:02:31] INFO root fetch - processPackages [sherlockpipe]: executing diffoscope
+[2023-04-19 19:02:31] INFO root fetch - processPackages [sherlockpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlockpipe-0.9.6.tar.gz tmp/sherlockpipe-0.9.7.tar.gz --markdown 20230419/s/sherlockpipe/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-19 19:02:31] WARNING root fetch - processPackages [diycrate]: fallback to get urls: [0.2.9]
+[2023-04-19 19:02:31] INFO root fetch - processPackages [point-cloud-utils]: Downloading https://files.pythonhosted.org/packages/83/da/28008ecee52219620e088915683ef0f46cabaed33fd1e335b6f1a1f77dee/point-cloud-utils-0.29.3.tar.gz
+[2023-04-19 19:02:31] INFO root fetch - processPackages [datadog-cdk-constructs-v2]: Downloading https://files.pythonhosted.org/packages/20/f8/c36cff67e19545e197acdf3407f5d1c4fdbfbba4b3e1fdf0e27dbf7457b6/datadog-cdk-constructs-v2-1.5.0.tar.gz
+[2023-04-19 19:02:31] WARNING root fetch - processPackages [diycrate]: None
+[2023-04-19 19:02:31] WARNING root fetch - processPackages [diycrate]: None
+[2023-04-19 19:02:31] INFO root fetch - processPackages [urchin]: Downloading https://files.pythonhosted.org/packages/6c/db/6baa96d77b071694082184ca2e9d532ad66cd0be854cca2a7da370fc9c9c/urchin-0.0.26.tar.gz
+[2023-04-19 19:02:31] WARNING root fetch - processPackages [diycrate]: unable to get url for both version [0.2.9]
+[2023-04-19 19:02:31] INFO root fetch - processPackages [spconv-cu117]: Downloading https://files.pythonhosted.org/packages/d9/2e/a7d2c6976857d75a46154e73c7bec137d6bd0364a0df89a3d82a99206d71/spconv_cu117-2.3.5-cp39-cp39-win_amd64.whl
+[2023-04-19 19:02:31] WARNING root fetch - processPackages [diycrate]: None
+[2023-04-19 19:02:31] INFO root fetch - processPackages [diycrate]: Start processing: socs
+[2023-04-19 19:02:31] INFO root fetch - main [MainThread]: End processing [diycrate] error
+[2023-04-19 19:02:31] INFO root fetch - processPackages [pyjunkerpro]: Downloading https://files.pythonhosted.org/packages/59/07/5e541ee3a82f462adc9c6646ab11f0af011994fc7440199159297c41fcdc/pyjunkerpro-1.0.4.tar.gz
+[2023-04-19 19:02:31] INFO root fetch - processPackages [socs]: New version: [0.4.2] Old Version: [0.4.1rc0]
+[2023-04-19 19:02:31] INFO root fetch - processPackages [pyjunkerpro]: executing diffoscope
+[2023-04-19 19:02:31] INFO root fetch - processPackages [pyjunkerpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjunkerpro-1.0.2.tar.gz tmp/pyjunkerpro-1.0.4.tar.gz --markdown 20230419/p/pyjunkerpro/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-04-19 19:02:31] INFO root fetch - processPackages [point-cloud-utils]: Downloading https://files.pythonhosted.org/packages/a2/24/fc58540d2daf7bc6d053392833bb98151bccb8df03ca17b8e6760440e87c/point-cloud-utils-0.29.5.tar.gz
+[2023-04-19 19:02:31] INFO root fetch - processPackages [datadog-cdk-constructs-v2]: Downloading https://files.pythonhosted.org/packages/97/f8/84d56c8462233db1c9c33884639faf214469f90603023ebb8025d8c069fb/datadog-cdk-constructs-v2-1.6.0.tar.gz
+[2023-04-19 19:02:31] INFO root fetch - processPackages [socs]: Downloading https://files.pythonhosted.org/packages/af/a0/81d4e817b01993bfc6da01bccbd8b1a274e7ef131da430b85f9942e91857/socs-0.4.1rc0.tar.gz
+[2023-04-19 19:02:31] INFO root fetch - processPackages [whylabs-client]: Downloading https://files.pythonhosted.org/packages/c2/25/8d736614df6d59e3ebea7a30a9ff4c4d4457279cc4f11210c2ecd3f10f15/whylabs-client-0.4.6.tar.gz
+[2023-04-19 19:02:31] INFO root fetch - processPackages [urchin]: Downloading https://files.pythonhosted.org/packages/84/fc/48107b0bcc7689be628c70b778a439634786f7453d673f5698de7ba13498/urchin-0.0.27.tar.gz
+[2023-04-19 19:02:31] INFO root fetch - processPackages [point-cloud-utils]: executing diffoscope
+[2023-04-19 19:02:31] INFO root fetch - processPackages [point-cloud-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/point-cloud-utils-0.29.3.tar.gz tmp/point-cloud-utils-0.29.5.tar.gz --markdown 20230419/p/point-cloud-utils/0.29.3-0.29.5/diff.md --exclude *.pyd
+[2023-04-19 19:02:31] INFO root fetch - processPackages [datadog-cdk-constructs-v2]: executing diffoscope
+[2023-04-19 19:02:31] INFO root fetch - processPackages [datadog-cdk-constructs-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog-cdk-constructs-v2-1.5.0.tar.gz tmp/datadog-cdk-constructs-v2-1.6.0.tar.gz --markdown 20230419/d/datadog-cdk-constructs-v2/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-04-19 19:02:31] INFO root fetch - processPackages [whylabs-client]: executing diffoscope
+[2023-04-19 19:02:31] INFO root fetch - processPackages [whylabs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylabs-client-0.4.5.tar.gz tmp/whylabs-client-0.4.6.tar.gz --markdown 20230419/w/whylabs-client/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-04-19 19:02:31] INFO root fetch - processPackages [urchin]: executing diffoscope
+[2023-04-19 19:02:31] INFO root fetch - processPackages [urchin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urchin-0.0.26.tar.gz tmp/urchin-0.0.27.tar.gz --markdown 20230419/u/urchin/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-04-19 19:02:32] WARNING root fetch - processPackages [spconv-cu117]: Skipping package: exceeds size limit 66271807>=10485760
+[2023-04-19 19:02:32] INFO root fetch - processPackages [spconv-cu117]: Start processing: autoplot
+[2023-04-19 19:02:32] INFO root fetch - main [MainThread]: End processing [spconv-cu117] error
+[2023-04-19 19:02:32] INFO root fetch - processPackages [autoplot]: New version: [0.5.1] Old Version: [0.4.1]
+[2023-04-19 19:02:32] INFO root fetch - processPackages [autoplot]: Downloading https://files.pythonhosted.org/packages/cf/19/00d650c96f2d81adc667fac11fea9acaf8f47604924edaf15e55f39d5ea9/autoplot-0.4.1.tar.gz
+[2023-04-19 19:02:32] INFO root fetch - processPackages [socs]: Downloading https://files.pythonhosted.org/packages/d4/44/8a66536589fb463dcb2e4673d76c533df4d6838a218ec84101d81733edcf/socs-0.4.2.tar.gz
+[2023-04-19 19:02:32] INFO root fetch - processPackages [autoplot]: Downloading https://files.pythonhosted.org/packages/1e/62/19f056e8a9f6dea64756e4e74a74dcfa98e5eb808391f747f78e5385aac6/autoplot-0.5.1.tar.gz
+[2023-04-19 19:02:32] INFO root fetch - processPackages [tupa123]: Start processing: datadog-cdk-constructs
+[2023-04-19 19:02:32] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-04-19 19:02:32] INFO root fetch - processPackages [autoplot]: executing diffoscope
+[2023-04-19 19:02:32] INFO root fetch - processPackages [autoplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoplot-0.4.1.tar.gz tmp/autoplot-0.5.1.tar.gz --markdown 20230419/a/autoplot/0.4.1-0.5.1/diff.md --exclude *.pyd
+[2023-04-19 19:02:32] INFO root fetch - processPackages [socs]: executing diffoscope
+[2023-04-19 19:02:32] INFO root fetch - processPackages [socs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socs-0.4.1rc0.tar.gz tmp/socs-0.4.2.tar.gz --markdown 20230419/s/socs/0.4.1rc0-0.4.2/diff.md --exclude *.pyd
+[2023-04-19 19:02:32] INFO root fetch - processPackages [ovos-config]: Start processing: dbdemos
+[2023-04-19 19:02:32] INFO root fetch - main [MainThread]: End processing [ovos-config]: success
+[2023-04-19 19:02:32] INFO root fetch - processPackages [dbdemos]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-19 19:02:32] INFO root fetch - processPackages [datadog-cdk-constructs]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-04-19 19:02:32] INFO root fetch - processPackages [dbdemos]: Downloading https://files.pythonhosted.org/packages/8f/7f/da99da25b0a22c8ccfa37ba5c03a452f056568763606da850d4cc1186233/dbdemos-0.3.0-py3-none-any.whl
+[2023-04-19 19:02:32] INFO root fetch - processPackages [datadog-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/4d/28/27f773c985b5900d0e4279abedda92ddd4e08483c372feb655d210615969/datadog-cdk-constructs-0.8.6.tar.gz
+[2023-04-19 19:02:32] WARNING root fetch - processPackages [dbdemos]: Skipping package: exceeds size limit 22384989>=10485760
+[2023-04-19 19:02:32] INFO root fetch - main [MainThread]: End processing [dbdemos] error
+[2023-04-19 19:02:32] INFO root fetch - main [MainThread]: End processing [pyjunkerpro]: success
+[2023-04-19 19:02:33] INFO root fetch - processPackages [datadog-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/5c/67/931e3f2057d9352f41ed243d5bee5ed0560151b351c9d1a662eb97fe40b8/datadog-cdk-constructs-0.9.0.tar.gz
+[2023-04-19 19:02:33] INFO root fetch - processPackages [datadog-cdk-constructs]: executing diffoscope
+[2023-04-19 19:02:33] INFO root fetch - processPackages [datadog-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog-cdk-constructs-0.8.6.tar.gz tmp/datadog-cdk-constructs-0.9.0.tar.gz --markdown 20230419/d/datadog-cdk-constructs/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 19:02:33] INFO root fetch - main [MainThread]: End processing [datadog-cdk-constructs-v2]: success
+[2023-04-19 19:02:33] INFO root fetch - main [MainThread]: End processing [sherlockpipe]: success
+[2023-04-19 19:02:33] INFO root fetch - main [MainThread]: End processing [urchin]: success
+[2023-04-19 19:02:33] INFO root fetch - main [MainThread]: End processing [point-cloud-utils]: success
+[2023-04-19 19:02:33] INFO root fetch - main [MainThread]: End processing [autoplot]: success
+[2023-04-19 19:02:34] INFO root fetch - main [MainThread]: End processing [socs]: success
+[2023-04-19 19:02:34] INFO root fetch - main [MainThread]: End processing [datadog-cdk-constructs]: success
+[2023-04-19 19:02:36] INFO root fetch - main [MainThread]: End processing [whylabs-client]: success
+[2023-04-19 19:02:36] INFO root fetch - main [MainThread]: Store serial: [17774178]
