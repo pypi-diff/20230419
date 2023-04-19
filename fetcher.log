@@ -4392,3 +4392,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 03:29:49] INFO root fetch - main [MainThread]: End processing [pulumi]: success
 [2023-04-19 03:29:49] INFO root fetch - main [MainThread]: End processing [multidirectional-graph]: success
 [2023-04-19 03:29:49] INFO root fetch - main [MainThread]: Store serial: [17764655]
+[2023-04-19 03:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17764655]
+[2023-04-19 03:34:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-19 03:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tjax
+[2023-04-19 03:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lezargus
+[2023-04-19 03:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sesg
+[2023-04-19 03:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-stdlib
+[2023-04-19 03:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sadie-antibody
+[2023-04-19 03:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-numpy
+[2023-04-19 03:34:58] INFO root fetch - processPackages [sesg]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-19 03:34:58] INFO root fetch - processPackages [lezargus]: New version: [0.0.1.dev1] Old Version: [0.0.1.dev0]
+[2023-04-19 03:34:58] INFO root fetch - processPackages [sadie-antibody]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-19 03:34:58] INFO root fetch - processPackages [tjax]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-04-19 03:34:58] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 03:34:58] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 03:34:59] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-04-19 03:34:59] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230419/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 03:34:59] INFO root fetch - processPackages [lezargus]: Downloading https://files.pythonhosted.org/packages/c2/74/8f3a5a49809ef564d5855db080a007b3d59df546ae77fe3e6e14f5b6284b/lezargus-0.0.1.dev0.tar.gz
+[2023-04-19 03:34:59] INFO root fetch - processPackages [sadie-antibody]: Downloading https://files.pythonhosted.org/packages/d8/39/066844212558a737ee4d085fae3f9aca98eb5b08de2e4a99e3f196dcccb5/sadie_antibody-0.5.8.tar.gz
+[2023-04-19 03:34:59] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/0a/6a/2363c88006dd7f98956bcd37716a18eff3b3138599af4e6dbde76d22d085/tjax-0.8.4.tar.gz
+[2023-04-19 03:34:59] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-04-19 03:34:59] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230419/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 03:34:59] WARNING root fetch - processPackages [sadie-antibody]: Skipping package: exceeds size limit 61441922>=10485760
+[2023-04-19 03:34:59] INFO root fetch - main [MainThread]: End processing [sadie-antibody] error
+[2023-04-19 03:34:59] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/0b/a1/142d1ab906121a354fb8674b1bc2794560f6a2ab824022da1741dfd369ee/sesg-0.0.7.tar.gz
+[2023-04-19 03:34:59] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-04-19 03:34:59] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.6.tar.gz tmp/sesg-0.0.7.tar.gz --markdown 20230419/s/sesg/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-19 03:34:59] INFO root fetch - processPackages [lezargus]: Downloading https://files.pythonhosted.org/packages/16/c1/cc6f7d2d5d335772f7ec1043fc4a58d2d6ab8f8ac1d93eb8c6b92bf13d33/lezargus-0.0.1.dev1.tar.gz
+[2023-04-19 03:34:59] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/be/f1/ce1970f050f673ae52c304257120a380736f531fee4d81b57ab0f24b506f/tjax-0.9.0.tar.gz
+[2023-04-19 03:34:59] INFO root fetch - processPackages [lezargus]: executing diffoscope
+[2023-04-19 03:34:59] INFO root fetch - processPackages [lezargus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lezargus-0.0.1.dev0.tar.gz tmp/lezargus-0.0.1.dev1.tar.gz --markdown 20230419/l/lezargus/0.0.1.dev0-0.0.1.dev1/diff.md --exclude *.pyd
+[2023-04-19 03:34:59] INFO root fetch - processPackages [tjax]: executing diffoscope
+[2023-04-19 03:34:59] INFO root fetch - processPackages [tjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tjax-0.8.4.tar.gz tmp/tjax-0.9.0.tar.gz --markdown 20230419/t/tjax/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 03:35:00] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-04-19 03:35:00] INFO root fetch - main [MainThread]: End processing [lezargus]: success
+[2023-04-19 03:35:00] INFO root fetch - main [MainThread]: End processing [tjax]: success
+[2023-04-19 03:35:01] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-04-19 03:35:01] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-04-19 03:35:01] INFO root fetch - main [MainThread]: Store serial: [17764673]
