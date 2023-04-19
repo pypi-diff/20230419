@@ -14315,3 +14315,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 13:53:12] INFO root fetch - main [MainThread]: End processing [resolwe]: success
 [2023-04-19 13:53:17] INFO root fetch - main [MainThread]: End processing [staffology]: success
 [2023-04-19 13:53:17] INFO root fetch - main [MainThread]: Store serial: [17770397]
+[2023-04-19 13:58:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17770397]
+[2023-04-19 13:58:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-19 13:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-firstock
+[2023-04-19 13:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chaostoolkit-reliably
+[2023-04-19 13:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: code-loader
+[2023-04-19 13:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dkredis
+[2023-04-19 13:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: areixio
+[2023-04-19 13:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: a3dj
+[2023-04-19 13:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: msgraph-sdk
+[2023-04-19 13:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelreport
+[2023-04-19 13:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RobertCommonIO
+[2023-04-19 13:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CustomIntents
+[2023-04-19 13:58:27] WARNING root fetch - processPackages [test-firstock]: Skipping, unable to determine old version
+[2023-04-19 13:58:27] INFO root fetch - processPackages [test-firstock]: Start processing: judoscale
+[2023-04-19 13:58:27] INFO root fetch - main [MainThread]: End processing [test-firstock] error
+[2023-04-19 13:58:27] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 13:58:27] WARNING root fetch - processPackages [a3dj]: Skipping, unable to determine old version
+[2023-04-19 13:58:27] INFO root fetch - processPackages [a3dj]: Start processing: xh-cpu-usage-simulator
+[2023-04-19 13:58:27] INFO root fetch - main [MainThread]: End processing [a3dj] error
+[2023-04-19 13:58:27] INFO root fetch - processPackages [RobertCommonIO]: New version: [0.1.37] Old Version: [0.1.36]
+[2023-04-19 13:58:27] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 13:58:27] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-19 13:58:27] INFO root fetch - processPackages [msgraph-sdk]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-04-19 13:58:27] WARNING root fetch - processPackages [modelreport]: Skipping, unable to determine old version
+[2023-04-19 13:58:27] INFO root fetch - processPackages [CustomIntents]: New version: [1.0.0] Old Version: [0.8.2]
+[2023-04-19 13:58:27] INFO root fetch - processPackages [dkredis]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-19 13:58:27] INFO root fetch - processPackages [modelreport]: Start processing: ifd-python
+[2023-04-19 13:58:27] INFO root fetch - main [MainThread]: End processing [modelreport] error
+[2023-04-19 13:58:27] INFO root fetch - processPackages [judoscale]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-19 13:58:27] INFO root fetch - processPackages [xh-cpu-usage-simulator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 13:58:27] INFO root fetch - processPackages [ifd-python]: New version: [7.6.6] Old Version: [7.6.5]
+[2023-04-19 13:58:27] INFO root fetch - processPackages [xh-cpu-usage-simulator]: executing diffoscope
+[2023-04-19 13:58:27] INFO root fetch - processPackages [xh-cpu-usage-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-cpu-usage-simulator-0.0.8.tar.gz tmp/xh-cpu-usage-simulator-0.0.9.tar.gz --markdown 20230419/x/xh-cpu-usage-simulator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 13:58:27] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/c4/91/5a3b1feda3385e907a43cbf462c489d3515930893925430b210d5c7cf7ec/areixio-0.2.8.tar.gz
+[2023-04-19 13:58:27] INFO root fetch - processPackages [dkredis]: Downloading https://files.pythonhosted.org/packages/b2/5c/74b963a048b2dd4f1eb29e4e4564ef0d3607434d954fc2ef2dcd45403e75/dkredis-0.1.8.tar.gz
+[2023-04-19 13:58:27] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/32/df/58422a4f470f2c9c9d486c7b83bf6c238d72841a2ae64f0b7c88350a6b01/chaostoolkit-reliably-0.9.3.tar.gz
+[2023-04-19 13:58:27] INFO root fetch - processPackages [CustomIntents]: Downloading https://files.pythonhosted.org/packages/4e/01/f9b9fd91d22a9933049b1e54f5492ee7942acb53d263999384e0ec65bc7a/CustomIntents-0.8.2.tar.gz
+[2023-04-19 13:58:27] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/fa/40/6c78ae15bbd68953e81d576d9b8a3f55e3bfa56ff77f2732a30d48950859/ifd_python-7.6.6.tar.gz
+[2023-04-19 13:58:27] INFO root fetch - processPackages [msgraph-sdk]: Downloading https://files.pythonhosted.org/packages/a8/2e/de35f275de1d2df32a7905faa17d1b6ad66c96c89d5821256e533411d3de/msgraph-sdk-1.0.0a8.tar.gz
+[2023-04-19 13:58:27] INFO root fetch - processPackages [judoscale]: Downloading https://files.pythonhosted.org/packages/ac/75/e4c113b3d20a7cd124aa79d0a3a71939976f8b23834b59b58ae3c4608951/judoscale-1.3.0.tar.gz
+[2023-04-19 13:58:27] INFO root fetch - processPackages [dkredis]: executing diffoscope
+[2023-04-19 13:58:27] INFO root fetch - processPackages [dkredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkredis-0.1.7.tar.gz tmp/dkredis-0.1.8.tar.gz --markdown 20230419/d/dkredis/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-19 13:58:27] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-04-19 13:58:27] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-7.6.5.tar.gz tmp/ifd_python-7.6.6.tar.gz --markdown 20230419/i/ifd-python/7.6.5-7.6.6/diff.md --exclude *.pyd
+[2023-04-19 13:58:27] INFO root fetch - processPackages [RobertCommonIO]: Downloading https://files.pythonhosted.org/packages/20/46/ba7420197a9f290a488d84abee11d73f5dfec8f2fae50ab5374a743907ce/RobertCommonIO-0.1.37.tar.gz
+[2023-04-19 13:58:27] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-04-19 13:58:27] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code-loader-0.2.8.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230419/c/code-loader/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 13:58:27] INFO root fetch - processPackages [judoscale]: Downloading https://files.pythonhosted.org/packages/56/4c/f3d6f1a626cd45e6ffc5828c6da1db774f08c14bf843448f8d7fbe58313c/judoscale-1.4.0.tar.gz
+[2023-04-19 13:58:27] INFO root fetch - processPackages [RobertCommonIO]: executing diffoscope
+[2023-04-19 13:58:27] INFO root fetch - processPackages [RobertCommonIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonIO-0.1.36.tar.gz tmp/RobertCommonIO-0.1.37.tar.gz --markdown 20230419/R/RobertCommonIO/0.1.36-0.1.37/diff.md --exclude *.pyd
+[2023-04-19 13:58:27] INFO root fetch - processPackages [judoscale]: executing diffoscope
+[2023-04-19 13:58:27] INFO root fetch - processPackages [judoscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/judoscale-1.3.0.tar.gz tmp/judoscale-1.4.0.tar.gz --markdown 20230419/j/judoscale/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-19 13:58:27] INFO root fetch - processPackages [CustomIntents]: Downloading https://files.pythonhosted.org/packages/e8/32/6dbc684df7b58468454d6d52b8c1be50c4f6514050e17136243cad77fe76/CustomIntents-1.0.0.tar.gz
+[2023-04-19 13:58:27] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/b8/c5/810c74691ec477bb4963d5199f379e4a81d6cce5b71db42bc848f3477e16/chaostoolkit-reliably-0.9.4.tar.gz
+[2023-04-19 13:58:27] INFO root fetch - processPackages [CustomIntents]: executing diffoscope
+[2023-04-19 13:58:27] INFO root fetch - processPackages [CustomIntents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CustomIntents-0.8.2.tar.gz tmp/CustomIntents-1.0.0.tar.gz --markdown 20230419/C/CustomIntents/0.8.2-1.0.0/diff.md --exclude *.pyd
+[2023-04-19 13:58:27] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-04-19 13:58:27] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230419/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-19 13:58:28] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/b6/2c/9db3134c3fd073a3fdfaf56d0fb236a19d3888fb5a806ebdfb891c5dc09b/areixio-0.2.9.tar.gz
+[2023-04-19 13:58:28] INFO root fetch - processPackages [msgraph-sdk]: Downloading https://files.pythonhosted.org/packages/85/a9/65d3cfcdd7cf16f8bdebca0b7cd07f871628a0ed3f8f9178fb546ad5df66/msgraph-sdk-1.0.0a9.tar.gz
+[2023-04-19 13:58:28] INFO root fetch - processPackages [xh-cpu-usage-simulator]: Start processing: kodexa
+[2023-04-19 13:58:28] INFO root fetch - main [MainThread]: End processing [xh-cpu-usage-simulator]: success
+[2023-04-19 13:58:28] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-04-19 13:58:28] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-04-19 13:58:28] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230419/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-04-19 13:58:28] INFO root fetch - processPackages [dkredis]: Start processing: speech2speech
+[2023-04-19 13:58:28] INFO root fetch - main [MainThread]: End processing [dkredis]: success
+[2023-04-19 13:58:28] INFO root fetch - processPackages [speech2speech]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-19 13:58:28] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-04-19 13:58:28] INFO root fetch - processPackages [speech2speech]: Downloading https://files.pythonhosted.org/packages/4a/5c/7672e421cfd1aaf7c97e6f1ae4d7258128fbfd74b0b230cbfd93627093b0/speech2speech-0.4.0.tar.gz
+[2023-04-19 13:58:29] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-04-19 13:58:29] INFO root fetch - processPackages [speech2speech]: executing diffoscope
+[2023-04-19 13:58:29] INFO root fetch - processPackages [speech2speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speech2speech-0.3.0.tar.gz tmp/speech2speech-0.4.0.tar.gz --markdown 20230419/s/speech2speech/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-19 13:58:29] INFO root fetch - main [MainThread]: End processing [RobertCommonIO]: success
+[2023-04-19 13:58:29] INFO root fetch - processPackages [msgraph-sdk]: executing diffoscope
+[2023-04-19 13:58:29] INFO root fetch - processPackages [msgraph-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgraph-sdk-1.0.0a8.tar.gz tmp/msgraph-sdk-1.0.0a9.tar.gz --markdown 20230419/m/msgraph-sdk/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-04-19 13:58:29] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-04-19 13:58:29] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-04-19 13:58:29] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.8.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230419/a/areixio/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 13:58:29] INFO root fetch - main [MainThread]: End processing [judoscale]: success
+[2023-04-19 13:58:29] INFO root fetch - main [MainThread]: End processing [CustomIntents]: success
+[2023-04-19 13:58:29] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-04-19 13:58:30] INFO root fetch - main [MainThread]: End processing [speech2speech]: success
+[2023-04-19 13:58:39] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-04-19 14:01:29] ERROR root fetch - processPackages [msgraph-sdk]: Timeout during execution of pkgdiff
+[2023-04-19 14:01:29] INFO root fetch - main [MainThread]: End processing [msgraph-sdk] error
+[2023-04-19 14:01:29] INFO root fetch - main [MainThread]: Store serial: [17770445]
