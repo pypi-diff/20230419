@@ -1818,3 +1818,62 @@
 [2023-04-19 02:05:44] INFO root fetch - main [MainThread]: End processing [e2eAIOK]: success
 [2023-04-19 02:05:48] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-04-19 02:05:48] INFO root fetch - main [MainThread]: Store serial: [17763238]
+[2023-04-19 02:10:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17763238]
+[2023-04-19 02:10:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 02:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2023-04-19 02:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchlayers-nightly
+[2023-04-19 02:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drep
+[2023-04-19 02:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-redis
+[2023-04-19 02:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tccli
+[2023-04-19 02:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-rest-framework-signature
+[2023-04-19 02:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: constructs
+[2023-04-19 02:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: servey
+[2023-04-19 02:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-aws-discord-notifiers
+[2023-04-19 02:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openbb-nightly
+[2023-04-19 02:10:57] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230418] Old Version: [0.0.8.dev20230417]
+[2023-04-19 02:10:57] INFO root fetch - processPackages [servey]: New version: [2.8.0] Old Version: [2.7.9]
+[2023-04-19 02:10:57] INFO root fetch - processPackages [django-rest-framework-signature]: New version: [1.4.4.dev1] Old Version: [1.4.3.dev1]
+[2023-04-19 02:10:57] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 02:10:57] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-19 02:10:57] INFO root fetch - processPackages [openbb-nightly]: New version: [3.0.0rc2.dev20230418] Old Version: [3.0.0rc2.dev20230417]
+[2023-04-19 02:10:57] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-04-19 02:10:57] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1681776438] Old Version: [1681690032]
+[2023-04-19 02:10:57] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-04-19 02:10:57] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2023-04-19 02:10:57] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-3.0.0rc2.dev20230417.tar.gz tmp/openbb_nightly-3.0.0rc2.dev20230418.tar.gz --markdown 20230419/o/openbb-nightly/3.0.0rc2.dev20230417-3.0.0rc2.dev20230418/diff.md --exclude *.pyd
+[2023-04-19 02:10:57] INFO root fetch - processPackages [servey]: executing diffoscope
+[2023-04-19 02:10:57] INFO root fetch - processPackages [servey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servey-2.7.9.tar.gz tmp/servey-2.8.0.tar.gz --markdown 20230419/s/servey/2.7.9-2.8.0/diff.md --exclude *.pyd
+[2023-04-19 02:10:57] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-04-19 02:10:57] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230419/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-04-19 02:10:57] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-04-19 02:10:57] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230419/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-19 02:10:57] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-04-19 02:10:57] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230419/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-04-19 02:10:57] INFO root fetch - processPackages [django-rest-framework-signature]: Downloading https://files.pythonhosted.org/packages/9b/61/c78913e4c43a7f28e1ca695f1859339f7a5bef3cde971c0b637340b5b9cb/django-rest-framework-signature-1.4.3.dev1.tar.gz
+[2023-04-19 02:10:57] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/1f/64/0f76689ff1e02164079090b69673a2ab9da2b0e94b48be19475538795088/jaxutils-nightly-0.0.8.dev20230418.tar.gz
+[2023-04-19 02:10:57] INFO root fetch - processPackages [drep]: New version: [3.4.3] Old Version: [3.4.2]
+[2023-04-19 02:10:57] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-04-19 02:10:57] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.8.tar.gz tmp/cdk-aws-discord-notifiers-0.0.9.tar.gz --markdown 20230419/c/cdk-aws-discord-notifiers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 02:10:57] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/96/ed/459539ad7017031385b9d30a66feaa2b2b12b58c3cc86c176bf244bb65c8/torchlayers-nightly-1681776438.tar.gz
+[2023-04-19 02:10:57] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-04-19 02:10:57] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230417.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230418.tar.gz --markdown 20230419/j/jaxutils-nightly/0.0.8.dev20230417-0.0.8.dev20230418/diff.md --exclude *.pyd
+[2023-04-19 02:10:57] INFO root fetch - processPackages [drep]: Downloading https://files.pythonhosted.org/packages/21/b9/d7d4088f41c98c5f7a26487b8fe77e8df09f9b6407aa6eded188afab9d62/drep-3.4.2.tar.gz
+[2023-04-19 02:10:57] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-04-19 02:10:57] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1681690032.tar.gz tmp/torchlayers-nightly-1681776438.tar.gz --markdown 20230419/t/torchlayers-nightly/1681690032-1681776438/diff.md --exclude *.pyd
+[2023-04-19 02:10:57] INFO root fetch - processPackages [django-rest-framework-signature]: Downloading https://files.pythonhosted.org/packages/22/97/4dd28d8480fd57fe8f15257207dfd17053da5d3253d67288b4c28935491d/django-rest-framework-signature-1.4.4.dev1.tar.gz
+[2023-04-19 02:10:58] INFO root fetch - processPackages [django-rest-framework-signature]: executing diffoscope
+[2023-04-19 02:10:58] INFO root fetch - processPackages [django-rest-framework-signature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-rest-framework-signature-1.4.3.dev1.tar.gz tmp/django-rest-framework-signature-1.4.4.dev1.tar.gz --markdown 20230419/d/django-rest-framework-signature/1.4.3.dev1-1.4.4.dev1/diff.md --exclude *.pyd
+[2023-04-19 02:10:58] INFO root fetch - processPackages [drep]: Downloading https://files.pythonhosted.org/packages/a3/d4/e39a8f198eb0d691749a19ebb076663e493e3e4a21b9a4cc37c5607c6362/drep-3.4.3.tar.gz
+[2023-04-19 02:10:58] INFO root fetch - processPackages [drep]: executing diffoscope
+[2023-04-19 02:10:58] INFO root fetch - processPackages [drep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drep-3.4.2.tar.gz tmp/drep-3.4.3.tar.gz --markdown 20230419/d/drep/3.4.2-3.4.3/diff.md --exclude *.pyd
+[2023-04-19 02:10:59] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-04-19 02:10:59] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-04-19 02:10:59] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-04-19 02:10:59] INFO root fetch - main [MainThread]: End processing [django-rest-framework-signature]: success
+[2023-04-19 02:10:59] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-04-19 02:10:59] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-04-19 02:10:59] INFO root fetch - main [MainThread]: End processing [drep]: success
+[2023-04-19 02:11:00] INFO root fetch - main [MainThread]: End processing [servey]: success
+[2023-04-19 02:11:04] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-04-19 02:11:10] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2023-04-19 02:11:10] INFO root fetch - main [MainThread]: Store serial: [17763266]
