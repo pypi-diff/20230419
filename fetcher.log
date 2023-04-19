@@ -10101,3 +10101,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 10:42:43] INFO root fetch - main [MainThread]: End processing [fiduswriter]: success
 [2023-04-19 10:42:43] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2023-04-19 10:42:43] INFO root fetch - main [MainThread]: Store serial: [17767937]
+[2023-04-19 10:47:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17767937]
+[2023-04-19 10:47:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-19 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oarepo-model-builder
+[2023-04-19 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-04-19 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythogen
+[2023-04-19 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opensesame-core
+[2023-04-19 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phm-feature
+[2023-04-19 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tff-nightly
+[2023-04-19 10:47:52] INFO root fetch - processPackages [phm-feature]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 10:47:52] INFO root fetch - processPackages [oarepo-model-builder]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-04-19 10:47:52] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a5] Old Version: [4.0.0a3]
+[2023-04-19 10:47:52] INFO root fetch - processPackages [pythogen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 10:47:52] INFO root fetch - processPackages [kcli]: New version: [99.0.202304190844] Old Version: [99.0.202304172130]
+[2023-04-19 10:47:52] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230419] Old Version: [0.0.1.dev20230418]
+[2023-04-19 10:47:52] INFO root fetch - processPackages [phm-feature]: Downloading https://files.pythonhosted.org/packages/8d/6a/9bfd593856df66060624ec4363d99e822ce0e401f2ee3805841bc33105ef/phm_feature-0.1.0.tar.gz
+[2023-04-19 10:47:53] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/42/3e/bd20b88d0e998c47d4cd4a8f5752d7147d28866434db727f275c00413e40/opensesame_core-4.0.0a3.tar.gz
+[2023-04-19 10:47:53] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/48/3e/eac273da1103a200129011044b18d51ccfccd6907915ce6033be8583b016/pythogen-0.1.8.tar.gz
+[2023-04-19 10:47:53] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-04-19 10:47:53] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-3.2.8.tar.gz tmp/oarepo-model-builder-3.2.9.tar.gz --markdown 20230419/o/oarepo-model-builder/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-04-19 10:47:53] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/a4/99/aa076a48b28eed94b28245eaed4e0c076022913d18d7d66c7215931fe85d/tff_nightly-0.0.1.dev20230419-py2.py3-none-any.whl
+[2023-04-19 10:47:53] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/27/9b/c4e9ee928e876c6f808534cb37105caecdd85612d479a4d799373c1fb739/kcli-99.0.202304190844-py3-none-any.whl
+[2023-04-19 10:47:53] INFO root fetch - processPackages [phm-feature]: Downloading https://files.pythonhosted.org/packages/d1/ef/1fb495bb7d266cb9bc487f80a9add00f56a2ff9870310182f8cac0e65207/phm_feature-0.1.1.tar.gz
+[2023-04-19 10:47:53] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-19 10:47:53] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304172130-py3-none-any.whl.zip tmp/kcli-99.0.202304190844-py3-none-any.whl.zip --markdown 20230419/k/kcli/99.0.202304172130-99.0.202304190844/diff.md --exclude *.pyd
+[2023-04-19 10:47:53] INFO root fetch - processPackages [phm-feature]: executing diffoscope
+[2023-04-19 10:47:53] INFO root fetch - processPackages [phm-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phm_feature-0.1.0.tar.gz tmp/phm_feature-0.1.1.tar.gz --markdown 20230419/p/phm-feature/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 10:47:53] INFO root fetch - processPackages [pythogen]: Downloading https://files.pythonhosted.org/packages/03/0b/5ab5f47d2b0ccac1ff22db3f9bf4792249988f69499046a2bfd29059e576/pythogen-0.1.9.tar.gz
+[2023-04-19 10:47:53] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-04-19 10:47:53] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230418-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230419-py2.py3-none-any.whl.zip --markdown 20230419/t/tff-nightly/0.0.1.dev20230418-0.0.1.dev20230419/diff.md --exclude *.pyd
+[2023-04-19 10:47:53] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18335907>=10485760
+[2023-04-19 10:47:53] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-04-19 10:47:53] INFO root fetch - processPackages [pythogen]: executing diffoscope
+[2023-04-19 10:47:53] INFO root fetch - processPackages [pythogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythogen-0.1.8.tar.gz tmp/pythogen-0.1.9.tar.gz --markdown 20230419/p/pythogen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 10:47:54] INFO root fetch - main [MainThread]: End processing [phm-feature]: success
+[2023-04-19 10:47:54] INFO root fetch - main [MainThread]: End processing [pythogen]: success
+[2023-04-19 10:47:55] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-04-19 10:47:56] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-04-19 10:48:00] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-19 10:48:00] INFO root fetch - main [MainThread]: Store serial: [17767953]
