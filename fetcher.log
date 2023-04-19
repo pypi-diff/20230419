@@ -21226,3 +21226,98 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 19:34:44] INFO root fetch - main [MainThread]: End processing [bbot]: success
 [2023-04-19 19:34:57] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2023-04-19 19:34:57] INFO root fetch - main [MainThread]: Store serial: [17774603]
+[2023-04-19 19:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17774603]
+[2023-04-19 19:40:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-19 19:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdv
+[2023-04-19 19:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docker-composer-v2
+[2023-04-19 19:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyterranetes
+[2023-04-19 19:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-Ayra
+[2023-04-19 19:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: novalabs-backtest
+[2023-04-19 19:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pe-configurator
+[2023-04-19 19:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: supergood
+[2023-04-19 19:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crazy-thursday
+[2023-04-19 19:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libdeeplake
+[2023-04-19 19:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twb-project
+[2023-04-19 19:40:06] INFO root fetch - processPackages [pyterranetes]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 19:40:06] INFO root fetch - processPackages [py-Ayra]: New version: [7.4] Old Version: [7.2]
+[2023-04-19 19:40:06] INFO root fetch - processPackages [docker-composer-v2]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-04-19 19:40:06] INFO root fetch - processPackages [pe-configurator]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 19:40:06] INFO root fetch - processPackages [novalabs-backtest]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-19 19:40:06] INFO root fetch - processPackages [supergood]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 19:40:06] INFO root fetch - processPackages [twb-project]: New version: [0.7.3a9] Old Version: [0.7.3a8]
+[2023-04-19 19:40:06] INFO root fetch - processPackages [sdv]: New version: [1.0.1.dev0] Old Version: [1.0.0rc0]
+[2023-04-19 19:40:06] INFO root fetch - processPackages [libdeeplake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 19:40:06] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-19 19:40:06] INFO root fetch - processPackages [libdeeplake]: Downloading https://files.pythonhosted.org/packages/90/d1/8cba2118c890778e1a4faa696a73b8e9aafdf7592d045c088c972941ad5f/libdeeplake-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-19 19:40:06] INFO root fetch - processPackages [pyterranetes]: Downloading https://files.pythonhosted.org/packages/f6/d7/193259fb4b33c8c85959b671f5e11ab9b7b284ffbe6326504bd89e29f94b/pyterranetes-0.8.0.tar.gz
+[2023-04-19 19:40:06] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-19 19:40:06] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230419/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-19 19:40:06] INFO root fetch - processPackages [docker-composer-v2]: Downloading https://files.pythonhosted.org/packages/91/d5/0febf660b71f4c10c43a764e67969eb3724ff99802b5e604d266b94f876a/docker_composer_v2-0.8.5.tar.gz
+[2023-04-19 19:40:06] INFO root fetch - processPackages [pe-configurator]: Downloading https://files.pythonhosted.org/packages/fa/09/a03e0aca4caf0f354d8f7193fffc9f534d44db997ea90aaf1e9f1a45a76e/pe-configurator-0.1.2.tar.gz
+[2023-04-19 19:40:06] INFO root fetch - processPackages [twb-project]: Downloading https://files.pythonhosted.org/packages/58/2e/49e97bb4ea6435378d18c6bddd5740ade1b6ad290d5fbd8df93c121ac404/twb_project-0.7.3a8.tar.gz
+[2023-04-19 19:40:06] INFO root fetch - processPackages [supergood]: Downloading https://files.pythonhosted.org/packages/28/c5/3ab705df57f14777b495ed9b8a66063bb41031ac2e1904bc97a9acd97948/supergood-1.0.8.tar.gz
+[2023-04-19 19:40:06] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/9a/6c/a893c1019a756aedbc9f9573f35d3280b9d11057937728bed08474613204/py-Ayra-7.2.tar.gz
+[2023-04-19 19:40:06] WARNING root fetch - processPackages [libdeeplake]: Skipping package: exceeds size limit 20849540>=10485760
+[2023-04-19 19:40:06] INFO root fetch - processPackages [libdeeplake]: Start processing: ebib
+[2023-04-19 19:40:06] INFO root fetch - main [MainThread]: End processing [libdeeplake] error
+[2023-04-19 19:40:06] INFO root fetch - processPackages [ebib]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-19 19:40:07] INFO root fetch - processPackages [sdv]: Downloading https://files.pythonhosted.org/packages/46/b0/ced1414279498bca7b87186659028712d1386679297ff8cc618baa1778f6/sdv-1.0.1.dev0.tar.gz
+[2023-04-19 19:40:07] INFO root fetch - processPackages [supergood]: Downloading https://files.pythonhosted.org/packages/e0/90/107e6f9e2341cc77260c782fc2d59e333377258cf316bda0948a905e1413/supergood-1.0.9.tar.gz
+[2023-04-19 19:40:07] INFO root fetch - processPackages [novalabs-backtest]: executing diffoscope
+[2023-04-19 19:40:07] INFO root fetch - processPackages [novalabs-backtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novalabs-backtest-1.1.8.tar.gz tmp/novalabs-backtest-1.1.9.tar.gz --markdown 20230419/n/novalabs-backtest/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-19 19:40:07] INFO root fetch - processPackages [docker-composer-v2]: Downloading https://files.pythonhosted.org/packages/ce/22/d3965d0c487ed7afb78192777737f8ab20295bd6e08602bbff5d112409c7/docker_composer_v2-0.8.6.tar.gz
+[2023-04-19 19:40:07] INFO root fetch - processPackages [ebib]: Downloading https://files.pythonhosted.org/packages/65/e3/35d7c9c23c90eaa6f2979a4426eb7103de1d8049e4d8c524b610bb905d53/ebib-1.1.1.tar.gz
+[2023-04-19 19:40:07] INFO root fetch - processPackages [pe-configurator]: executing diffoscope
+[2023-04-19 19:40:07] INFO root fetch - processPackages [pe-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pe-configurator-0.1.1.tar.gz tmp/pe-configurator-0.1.2.tar.gz --markdown 20230419/p/pe-configurator/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 19:40:07] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/1c/f6/9f023407b82f3518214d44677ac972c591577a801551b3f1fa359c53e55b/py-Ayra-7.4.tar.gz
+[2023-04-19 19:40:07] INFO root fetch - processPackages [twb-project]: Downloading https://files.pythonhosted.org/packages/57/80/c80eddcfca6d946b9c7d086f93f81fd229dbe11f4cd665f3f9463c1b948e/twb_project-0.7.3a9.tar.gz
+[2023-04-19 19:40:07] INFO root fetch - processPackages [sdv]: executing diffoscope
+[2023-04-19 19:40:07] INFO root fetch - processPackages [sdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdv-1.0.0rc0.tar.gz tmp/sdv-1.0.1.dev0.tar.gz --markdown 20230419/s/sdv/1.0.0rc0-1.0.1.dev0/diff.md --exclude *.pyd
+[2023-04-19 19:40:07] INFO root fetch - processPackages [supergood]: executing diffoscope
+[2023-04-19 19:40:07] INFO root fetch - processPackages [supergood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supergood-1.0.8.tar.gz tmp/supergood-1.0.9.tar.gz --markdown 20230419/s/supergood/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 19:40:07] INFO root fetch - processPackages [docker-composer-v2]: executing diffoscope
+[2023-04-19 19:40:07] INFO root fetch - processPackages [docker-composer-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_composer_v2-0.8.5.tar.gz tmp/docker_composer_v2-0.8.6.tar.gz --markdown 20230419/d/docker-composer-v2/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-04-19 19:40:07] INFO root fetch - processPackages [pyterranetes]: Downloading https://files.pythonhosted.org/packages/6d/94/6c438c7fb2e27f8a850d83654e2545023716cd296c67222f04613bb6f33a/pyterranetes-0.9.0.tar.gz
+[2023-04-19 19:40:07] INFO root fetch - processPackages [ebib]: executing diffoscope
+[2023-04-19 19:40:07] INFO root fetch - processPackages [ebib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebib-1.1.0.tar.gz tmp/ebib-1.1.1.tar.gz --markdown 20230419/e/ebib/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-19 19:40:07] INFO root fetch - processPackages [py-Ayra]: executing diffoscope
+[2023-04-19 19:40:07] INFO root fetch - processPackages [py-Ayra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayra-7.2.tar.gz tmp/py-Ayra-7.4.tar.gz --markdown 20230419/p/py-Ayra/7.2-7.4/diff.md --exclude *.pyd
+[2023-04-19 19:40:07] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-04-19 19:40:07] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.7.3a8.tar.gz tmp/twb_project-0.7.3a9.tar.gz --markdown 20230419/t/twb-project/0.7.3a8-0.7.3a9/diff.md --exclude *.pyd
+[2023-04-19 19:40:07] INFO root fetch - processPackages [pyterranetes]: executing diffoscope
+[2023-04-19 19:40:07] INFO root fetch - processPackages [pyterranetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyterranetes-0.8.0.tar.gz tmp/pyterranetes-0.9.0.tar.gz --markdown 20230419/p/pyterranetes/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 19:40:08] INFO root fetch - processPackages [crazy-thursday]: Start processing: pyjunkerpro
+[2023-04-19 19:40:08] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-19 19:40:08] INFO root fetch - processPackages [pyjunkerpro]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-04-19 19:40:08] INFO root fetch - processPackages [pyjunkerpro]: executing diffoscope
+[2023-04-19 19:40:08] INFO root fetch - processPackages [pyjunkerpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjunkerpro-1.0.2.tar.gz tmp/pyjunkerpro-1.0.4.tar.gz --markdown 20230419/p/pyjunkerpro/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-04-19 19:40:08] INFO root fetch - processPackages [novalabs-backtest]: Start processing: chatgpt-proxy
+[2023-04-19 19:40:08] INFO root fetch - main [MainThread]: End processing [novalabs-backtest]: success
+[2023-04-19 19:40:08] INFO root fetch - processPackages [chatgpt-proxy]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-19 19:40:08] INFO root fetch - processPackages [chatgpt-proxy]: executing diffoscope
+[2023-04-19 19:40:08] INFO root fetch - processPackages [chatgpt-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-proxy-0.2.2.tar.gz tmp/chatgpt-proxy-0.2.3.tar.gz --markdown 20230419/c/chatgpt-proxy/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-19 19:40:09] INFO root fetch - processPackages [pe-configurator]: Start processing: cfscanner
+[2023-04-19 19:40:09] INFO root fetch - main [MainThread]: End processing [pe-configurator]: success
+[2023-04-19 19:40:09] WARNING root fetch - processPackages [cfscanner]: Skipping, unable to determine old version
+[2023-04-19 19:40:09] INFO root fetch - processPackages [cfscanner]: Start processing: pdm-conda
+[2023-04-19 19:40:09] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-04-19 19:40:09] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.0b0] Old Version: [0.8.1b3]
+[2023-04-19 19:40:09] INFO root fetch - processPackages [supergood]: Start processing: sidewinder-db
+[2023-04-19 19:40:09] INFO root fetch - main [MainThread]: End processing [supergood]: success
+[2023-04-19 19:40:09] INFO root fetch - processPackages [sidewinder-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 19:40:09] INFO root fetch - main [MainThread]: End processing [pyterranetes]: success
+[2023-04-19 19:40:09] INFO root fetch - processPackages [sidewinder-db]: executing diffoscope
+[2023-04-19 19:40:09] INFO root fetch - processPackages [sidewinder-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidewinder-db-0.0.8.tar.gz tmp/sidewinder-db-0.0.9.tar.gz --markdown 20230419/s/sidewinder-db/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 19:40:09] INFO root fetch - main [MainThread]: End processing [ebib]: success
+[2023-04-19 19:40:09] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/96/c5/eda9674a4d4b7b79e1eb413d714c2cd4277ea27433f203a7ac825e9005eb/pdm_conda-0.9.0b0.tar.gz
+[2023-04-19 19:40:09] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-04-19 19:40:09] INFO root fetch - main [MainThread]: End processing [pyjunkerpro]: success
+[2023-04-19 19:40:09] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2023-04-19 19:40:09] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.8.1b3.tar.gz tmp/pdm_conda-0.9.0b0.tar.gz --markdown 20230419/p/pdm-conda/0.8.1b3-0.9.0b0/diff.md --exclude *.pyd
+[2023-04-19 19:40:09] INFO root fetch - main [MainThread]: End processing [docker-composer-v2]: success
+[2023-04-19 19:40:10] INFO root fetch - main [MainThread]: End processing [py-Ayra]: success
+[2023-04-19 19:40:10] INFO root fetch - main [MainThread]: End processing [chatgpt-proxy]: success
+[2023-04-19 19:40:10] INFO root fetch - main [MainThread]: End processing [sidewinder-db]: success
+[2023-04-19 19:40:10] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2023-04-19 19:40:12] INFO root fetch - main [MainThread]: End processing [sdv]: success
+[2023-04-19 19:40:12] INFO root fetch - main [MainThread]: Store serial: [17774670]
