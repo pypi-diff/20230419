@@ -8219,3 +8219,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 08:28:12] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-04-19 08:28:14] INFO root fetch - main [MainThread]: End processing [twb-project]: success
 [2023-04-19 08:28:14] INFO root fetch - main [MainThread]: Store serial: [17766652]
+[2023-04-19 08:33:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766652]
+[2023-04-19 08:33:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-19 08:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p-template-res
+[2023-04-19 08:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-sale-coupon-partner
+[2023-04-19 08:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tulp
+[2023-04-19 08:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-sale-promotion
+[2023-04-19 08:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lesscode-py
+[2023-04-19 08:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netpackAIO
+[2023-04-19 08:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain
+[2023-04-19 08:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cli-aws-mfa
+[2023-04-19 08:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-sale-order-report-product-image
+[2023-04-19 08:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-sale-order-report-product-image
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo14-addon-sale-coupon-partner]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev2]
+[2023-04-19 08:33:26] INFO root fetch - processPackages [tulp]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-04-19 08:33:26] INFO root fetch - processPackages [netpackAIO]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo14-addon-sale-order-report-product-image]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-04-19 08:33:26] INFO root fetch - processPackages [p-template-res]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo14-addons-oca-sale-promotion]: New version: [14.0.20230418.0] Old Version: [14.0.20230210.0]
+[2023-04-19 08:33:26] INFO root fetch - processPackages [cli-aws-mfa]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo-addon-sale-order-report-product-image]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-04-19 08:33:26] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-04-19 08:33:26] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 08:33:26] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-04-19 08:33:26] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230419/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo14-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/d7/ca/c10a5ffa32f0bbc686f7ea98b43b8f3227d9c40ffd7d21102b6de07f43b2/odoo14_addons_oca_sale_promotion-14.0.20230210.0-py3-none-any.whl
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo14-addon-sale-coupon-partner]: Downloading https://files.pythonhosted.org/packages/5f/71/5ff66f9d2781406e3d5c1d14f0e7dd1b732110fc73bcb4eeb7e16731bdff/odoo14_addon_sale_coupon_partner-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-04-19 08:33:26] INFO root fetch - processPackages [cli-aws-mfa]: Downloading https://files.pythonhosted.org/packages/a5/b3/4231f0a825ebcba8ea4f8baf5e139526967f161629698e63f419cc1044bd/cli-aws-mfa-0.0.1.tar.gz
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo14-addon-sale-order-report-product-image]: Downloading https://files.pythonhosted.org/packages/ef/30/5aec5c67b78d35743cd208c9bd73e59e2a2004ad4c889a4cd17bf0e81d81/odoo14_addon_sale_order_report_product_image-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo-addon-sale-order-report-product-image]: Downloading https://files.pythonhosted.org/packages/31/02/c0fcf75a60a6c3b31e5f266f0f2abee718179eea607d155cd65345023e14/odoo_addon_sale_order_report_product_image-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-19 08:33:26] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-04-19 08:33:26] INFO root fetch - processPackages [netpackAIO]: Downloading https://files.pythonhosted.org/packages/48/3b/5219c1859ce01e12c7712eaa2c60dbecf896bc17cb07e4111d60675d1069/netpackAIO-0.0.3.tar.gz
+[2023-04-19 08:33:26] INFO root fetch - processPackages [tulp]: Downloading https://files.pythonhosted.org/packages/5d/99/e2157e2266d5db14ada56bf3dcd98123974884d7d721bb563304b51be9e2/tulp-0.4.5.tar.gz
+[2023-04-19 08:33:26] INFO root fetch - processPackages [netpackAIO]: executing diffoscope
+[2023-04-19 08:33:26] INFO root fetch - processPackages [netpackAIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netpackAIO-0.0.2.tar.gz tmp/netpackAIO-0.0.3.tar.gz --markdown 20230419/n/netpackAIO/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 08:33:26] INFO root fetch - processPackages [tulp]: executing diffoscope
+[2023-04-19 08:33:26] INFO root fetch - processPackages [tulp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tulp-0.4.4.tar.gz tmp/tulp-0.4.5.tar.gz --markdown 20230419/t/tulp/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-04-19 08:33:26] INFO root fetch - processPackages [p-template-res]: executing diffoscope
+[2023-04-19 08:33:26] INFO root fetch - processPackages [p-template-res]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-res-0.1.8.tar.gz tmp/p-template-res-0.1.9.tar.gz --markdown 20230419/p/p-template-res/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 08:33:26] INFO root fetch - processPackages [cli-aws-mfa]: Downloading https://files.pythonhosted.org/packages/58/e7/4ab307bdcd740e766f5200712999c2641962ac05638f2637732b81f1b83f/cli-aws-mfa-0.0.2.tar.gz
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo14-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/d8/a6/11a0f3e448e8529f535ba473c8dd33cbdc253a721ea7650a6c430e94474d/odoo14_addons_oca_sale_promotion-14.0.20230418.0-py3-none-any.whl
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo14-addon-sale-order-report-product-image]: Downloading https://files.pythonhosted.org/packages/3c/14/5473a3473c89d7a33b464bf071806cc00404d10a6f9456c6cca28f0698ed/odoo14_addon_sale_order_report_product_image-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo-addon-sale-order-report-product-image]: Downloading https://files.pythonhosted.org/packages/b1/0e/a7e7b44529fc760c9b7bb2e3c3ca75a4caacfa30fff65c4696bc692ec2ee/odoo_addon_sale_order_report_product_image-16.0.1.0.0.3-py3-none-any.whl
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo14-addon-sale-coupon-partner]: Downloading https://files.pythonhosted.org/packages/ae/c8/365ca073d3779068eb0bd022041a6e55316d146cbaca605be1be080ea0db/odoo14_addon_sale_coupon_partner-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-04-19 08:33:26] INFO root fetch - processPackages [cli-aws-mfa]: executing diffoscope
+[2023-04-19 08:33:26] INFO root fetch - processPackages [cli-aws-mfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli-aws-mfa-0.0.1.tar.gz tmp/cli-aws-mfa-0.0.2.tar.gz --markdown 20230419/c/cli-aws-mfa/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo14-addons-oca-sale-promotion]: executing diffoscope
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo14-addons-oca-sale-promotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_sale_promotion-14.0.20230210.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_sale_promotion-14.0.20230418.0-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addons-oca-sale-promotion/14.0.20230210.0-14.0.20230418.0/diff.md --exclude *.pyd
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo-addon-sale-order-report-product-image]: executing diffoscope
+[2023-04-19 08:33:26] INFO root fetch - processPackages [odoo-addon-sale-order-report-product-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_report_product_image-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_order_report_product_image-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-sale-order-report-product-image/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-04-19 08:33:27] INFO root fetch - processPackages [odoo14-addon-sale-order-report-product-image]: executing diffoscope
+[2023-04-19 08:33:27] INFO root fetch - processPackages [odoo14-addon-sale-order-report-product-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_report_product_image-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_report_product_image-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-sale-order-report-product-image/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-04-19 08:33:27] INFO root fetch - processPackages [odoo14-addon-sale-coupon-partner]: executing diffoscope
+[2023-04-19 08:33:27] INFO root fetch - processPackages [odoo14-addon-sale-coupon-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_coupon_partner-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_coupon_partner-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-sale-coupon-partner/14.0.1.0.1.dev2-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-04-19 08:33:27] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-04-19 08:33:27] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-04-19 08:33:27] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230419/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 08:33:28] INFO root fetch - processPackages [netpackAIO]: Start processing: windbg-copilot
+[2023-04-19 08:33:28] INFO root fetch - main [MainThread]: End processing [netpackAIO]: success
+[2023-04-19 08:33:28] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-19 08:33:28] INFO root fetch - processPackages [p-template-res]: Start processing: bridgecrew
+[2023-04-19 08:33:28] INFO root fetch - main [MainThread]: End processing [p-template-res]: success
+[2023-04-19 08:33:28] INFO root fetch - processPackages [odoo14-addons-oca-sale-promotion]: Start processing: cli-aws-mfa
+[2023-04-19 08:33:28] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-sale-promotion]: success
+[2023-04-19 08:33:28] INFO root fetch - main [MainThread]: End processing [cli-aws-mfa]: success
+[2023-04-19 08:33:28] INFO root fetch - processPackages [cli-aws-mfa]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 08:33:28] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-04-19 08:33:28] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-19 08:33:28] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-04-19 08:33:28] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.7.tar.gz tmp/windbg_copilot-1.0.8.tar.gz --markdown 20230419/w/windbg-copilot/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-19 08:33:28] INFO root fetch - main [MainThread]: End processing [tulp]: success
+[2023-04-19 08:33:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-report-product-image]: success
+[2023-04-19 08:33:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-coupon-partner]: success
+[2023-04-19 08:33:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-report-product-image]: success
+[2023-04-19 08:33:28] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-19 08:33:28] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230419/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-19 08:33:28] INFO root fetch - processPackages [cli-aws-mfa]: Downloading https://files.pythonhosted.org/packages/11/d6/70d8a931065e0fd6cfdbfcaecae1af310531f53bcd799cdd93baa7bccbe0/cli-aws-mfa-0.0.3.tar.gz
+[2023-04-19 08:33:28] INFO root fetch - processPackages [cli-aws-mfa]: executing diffoscope
+[2023-04-19 08:33:28] INFO root fetch - processPackages [cli-aws-mfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli-aws-mfa-0.0.2.tar.gz tmp/cli-aws-mfa-0.0.3.tar.gz --markdown 20230419/c/cli-aws-mfa/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 08:33:29] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-04-19 08:33:29] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-04-19 08:33:29] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-19 08:33:29] INFO root fetch - main [MainThread]: End processing [cli-aws-mfa]: success
+[2023-04-19 08:33:32] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-04-19 08:33:32] INFO root fetch - main [MainThread]: Store serial: [17766688]
