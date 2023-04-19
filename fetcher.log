@@ -14402,3 +14402,180 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 14:01:29] ERROR root fetch - processPackages [msgraph-sdk]: Timeout during execution of pkgdiff
 [2023-04-19 14:01:29] INFO root fetch - main [MainThread]: End processing [msgraph-sdk] error
 [2023-04-19 14:01:29] INFO root fetch - main [MainThread]: Store serial: [17770445]
+[2023-04-19 14:06:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17770445]
+[2023-04-19 14:06:41] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-04-19 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Jvav
+[2023-04-19 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deltafi
+[2023-04-19 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c65faucet
+[2023-04-19 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shooju-ts
+[2023-04-19 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torcheval-nightly
+[2023-04-19 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vmware-aria-operations-integration-sdk-lib
+[2023-04-19 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-admin-thumbnails
+[2023-04-19 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ema-workbench
+[2023-04-19 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auth-lib-profcomff
+[2023-04-19 14:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meilisearch-tui
+[2023-04-19 14:06:41] INFO root fetch - processPackages [Jvav]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-19 14:06:41] INFO root fetch - processPackages [deltafi]: New version: [0.99.8] Old Version: [0.99.7]
+[2023-04-19 14:06:41] INFO root fetch - processPackages [shooju-ts]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 14:06:41] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk-lib]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-04-19 14:06:41] INFO root fetch - processPackages [auth-lib-profcomff]: New version: [2023.4.19] Old Version: [2023.3.16.2]
+[2023-04-19 14:06:41] INFO root fetch - processPackages [meilisearch-tui]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-19 14:06:41] INFO root fetch - processPackages [ema-workbench]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-04-19 14:06:41] INFO root fetch - processPackages [django-admin-thumbnails]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-19 14:06:41] INFO root fetch - processPackages [c65faucet]: New version: [1.0.48] Old Version: [1.0.47]
+[2023-04-19 14:06:41] INFO root fetch - processPackages [torcheval-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-19 14:06:41] INFO root fetch - processPackages [auth-lib-profcomff]: Downloading https://files.pythonhosted.org/packages/48/58/f62318e2825fe0844c3eaf384cef3d21e31f5880cf25bd8a6363d22e7860/auth_lib_profcomff-2023.3.16.2.tar.gz
+[2023-04-19 14:06:41] INFO root fetch - processPackages [shooju-ts]: Downloading https://files.pythonhosted.org/packages/99/f7/e19c6a1dfa37673079ce1933c7d959f77eceec776c419c94be30ea4fd090/shooju-ts-0.1.8.tar.gz
+[2023-04-19 14:06:41] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk-lib]: Downloading https://files.pythonhosted.org/packages/a5/da/e6c5fa42069be2fc9989fd4384bdb66bb30e41ed137f12cd90a0a2101d47/vmware-aria-operations-integration-sdk-lib-0.7.1.tar.gz
+[2023-04-19 14:06:41] INFO root fetch - processPackages [ema-workbench]: Downloading https://files.pythonhosted.org/packages/b7/af/5f1600b1b42e0f2a9851243db53b376f23fe0380e0656f05c70d9f04e591/ema_workbench-2.3.0.tar.gz
+[2023-04-19 14:06:41] INFO root fetch - processPackages [django-admin-thumbnails]: Downloading https://files.pythonhosted.org/packages/46/e1/d3c2beae588ff8236fbe7dff7cd67c38f588c65fe14da5ce2bace720caef/django-admin-thumbnails-0.2.6.tar.gz
+[2023-04-19 14:06:41] INFO root fetch - processPackages [c65faucet]: Downloading https://files.pythonhosted.org/packages/8c/41/6341c2c0f61448f8b9a58886c34d15b2c516d9a6d5aa220db394fd10f7a8/c65faucet-1.0.48.tar.gz
+[2023-04-19 14:06:41] WARNING root fetch - processPackages [ema-workbench]: Skipping package: exceeds size limit 24602011>=10485760
+[2023-04-19 14:06:41] INFO root fetch - processPackages [ema-workbench]: Start processing: localstack-core
+[2023-04-19 14:06:41] INFO root fetch - main [MainThread]: End processing [ema-workbench] error
+[2023-04-19 14:06:41] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2023-04-19 14:06:41] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-0.99.7.tar.gz tmp/deltafi-0.99.8.tar.gz --markdown 20230419/d/deltafi/0.99.7-0.99.8/diff.md --exclude *.pyd
+[2023-04-19 14:06:41] INFO root fetch - processPackages [meilisearch-tui]: Downloading https://files.pythonhosted.org/packages/5f/4a/f416fafeb1266980d03edcbc3d2e33e1b76fbc9e050f63ca58f3ce3a39c8/meilisearch_tui-0.7.1.tar.gz
+[2023-04-19 14:06:41] INFO root fetch - processPackages [Jvav]: executing diffoscope
+[2023-04-19 14:06:41] INFO root fetch - processPackages [Jvav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jvav-1.2.8.tar.gz tmp/Jvav-1.2.9.tar.gz --markdown 20230419/J/Jvav/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-19 14:06:41] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230419120326] Old Version: [2.0.3.dev20230419110919]
+[2023-04-19 14:06:42] INFO root fetch - processPackages [c65faucet]: executing diffoscope
+[2023-04-19 14:06:42] INFO root fetch - processPackages [c65faucet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c65faucet-1.0.47.tar.gz tmp/c65faucet-1.0.48.tar.gz --markdown 20230419/c/c65faucet/1.0.47-1.0.48/diff.md --exclude *.pyd
+[2023-04-19 14:06:42] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2023-04-19 14:06:42] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2023.4.8.tar.gz tmp/torcheval-nightly-2023.4.9.tar.gz --markdown 20230419/t/torcheval-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-19 14:06:42] INFO root fetch - processPackages [auth-lib-profcomff]: Downloading https://files.pythonhosted.org/packages/19/06/8ea3e3a5378088ba76ec42bbe1e6562994e7d55fe557048aa862c6e6b14d/auth_lib_profcomff-2023.4.19.tar.gz
+[2023-04-19 14:06:42] INFO root fetch - processPackages [meilisearch-tui]: executing diffoscope
+[2023-04-19 14:06:42] INFO root fetch - processPackages [meilisearch-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch_tui-0.7.0.tar.gz tmp/meilisearch_tui-0.7.1.tar.gz --markdown 20230419/m/meilisearch-tui/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-19 14:06:42] INFO root fetch - processPackages [django-admin-thumbnails]: Downloading https://files.pythonhosted.org/packages/8f/53/c2d8e247c9e6fde04a3f6cc97dbc07a43c1910bc5460cc9b821c1de3e834/django-admin-thumbnails-0.2.7.tar.gz
+[2023-04-19 14:06:42] INFO root fetch - processPackages [auth-lib-profcomff]: executing diffoscope
+[2023-04-19 14:06:42] INFO root fetch - processPackages [auth-lib-profcomff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth_lib_profcomff-2023.3.16.2.tar.gz tmp/auth_lib_profcomff-2023.4.19.tar.gz --markdown 20230419/a/auth-lib-profcomff/2023.3.16.2-2023.4.19/diff.md --exclude *.pyd
+[2023-04-19 14:06:42] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk-lib]: Downloading https://files.pythonhosted.org/packages/a3/2b/7a4aadde5e1f98daf6183ba994c48cd06e6f56580a674d0308da80c18eb0/vmware-aria-operations-integration-sdk-lib-0.7.2.tar.gz
+[2023-04-19 14:06:42] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/f9/e8/bd34c4141a080084187fc57a29db026bea1399cb91958633d578dfcc531e/localstack-core-2.0.3.dev20230419120326.tar.gz
+[2023-04-19 14:06:42] INFO root fetch - processPackages [django-admin-thumbnails]: executing diffoscope
+[2023-04-19 14:06:42] INFO root fetch - processPackages [django-admin-thumbnails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-thumbnails-0.2.6.tar.gz tmp/django-admin-thumbnails-0.2.7.tar.gz --markdown 20230419/d/django-admin-thumbnails/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-19 14:06:42] INFO root fetch - processPackages [shooju-ts]: Downloading https://files.pythonhosted.org/packages/a1/3b/5b7b89c97fe9d7f725ff7e5a519caafbcde67a27c3c2a6512e1e261f6957/shooju-ts-0.1.9.tar.gz
+[2023-04-19 14:06:42] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk-lib]: executing diffoscope
+[2023-04-19 14:06:42] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmware-aria-operations-integration-sdk-lib-0.7.1.tar.gz tmp/vmware-aria-operations-integration-sdk-lib-0.7.2.tar.gz --markdown 20230419/v/vmware-aria-operations-integration-sdk-lib/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-04-19 14:06:42] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-19 14:06:42] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230419110919.tar.gz tmp/localstack-core-2.0.3.dev20230419120326.tar.gz --markdown 20230419/l/localstack-core/2.0.3.dev20230419110919-2.0.3.dev20230419120326/diff.md --exclude *.pyd
+[2023-04-19 14:06:42] INFO root fetch - processPackages [shooju-ts]: executing diffoscope
+[2023-04-19 14:06:42] INFO root fetch - processPackages [shooju-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shooju-ts-0.1.8.tar.gz tmp/shooju-ts-0.1.9.tar.gz --markdown 20230419/s/shooju-ts/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 14:06:43] INFO root fetch - processPackages [Jvav]: Start processing: eea.volto.policy
+[2023-04-19 14:06:43] INFO root fetch - main [MainThread]: End processing [Jvav]: success
+[2023-04-19 14:06:43] INFO root fetch - processPackages [eea.volto.policy]: New version: [2.2] Old Version: [2.1]
+[2023-04-19 14:06:43] INFO root fetch - processPackages [meilisearch-tui]: Start processing: gardener-cicd-base
+[2023-04-19 14:06:43] INFO root fetch - main [MainThread]: End processing [meilisearch-tui]: success
+[2023-04-19 14:06:43] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2036.0] Old Version: [1.2035.0]
+[2023-04-19 14:06:43] INFO root fetch - processPackages [django-admin-thumbnails]: Start processing: gardener-cicd-cli
+[2023-04-19 14:06:43] INFO root fetch - main [MainThread]: End processing [django-admin-thumbnails]: success
+[2023-04-19 14:06:43] INFO root fetch - processPackages [deltafi]: Start processing: gardener-cicd-dso
+[2023-04-19 14:06:43] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2023-04-19 14:06:43] INFO root fetch - processPackages [auth-lib-profcomff]: Start processing: gardener-cicd-libs
+[2023-04-19 14:06:43] INFO root fetch - main [MainThread]: End processing [auth-lib-profcomff]: success
+[2023-04-19 14:06:43] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2036.0] Old Version: [1.2035.0]
+[2023-04-19 14:06:43] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2036.0] Old Version: [1.2035.0]
+[2023-04-19 14:06:43] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2036.0] Old Version: [1.2035.0]
+[2023-04-19 14:06:43] INFO root fetch - processPackages [eea.volto.policy]: Downloading https://files.pythonhosted.org/packages/60/71/37f541f5820f495c4ab9f895752ee65898089a70b7bf5488c388e86cdacc/eea.volto.policy-2.1.zip
+[2023-04-19 14:06:43] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/f2/a6/3e52ef54d319f390aba9916b05f570ca893cd173ba87b5ca48f657f37a63/gardener-cicd-base-1.2035.0.tar.gz
+[2023-04-19 14:06:43] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/d7/3e/827569e4b7e86e4efbef84986db90a7e17643e9a3614853e20c28bf9a0e9/gardener-cicd-libs-1.2035.0.tar.gz
+[2023-04-19 14:06:43] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/23/0e/308ad2257a78431673b0ea2faeeff993950186f72005bdffbbd3243d128a/gardener-cicd-dso-1.2035.0.tar.gz
+[2023-04-19 14:06:43] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/f4/f9/b90438249b0c7ddf9e84b33a3b24d393ab63310811ac22767d89a028c847/gardener-cicd-cli-1.2035.0.tar.gz
+[2023-04-19 14:06:43] INFO root fetch - processPackages [eea.volto.policy]: Downloading https://files.pythonhosted.org/packages/6f/6c/0223728424fce6b3b99797d7194e55414926b93e7433673c5c06dc5dd111/eea.volto.policy-2.2.zip
+[2023-04-19 14:06:44] INFO root fetch - processPackages [eea.volto.policy]: executing diffoscope
+[2023-04-19 14:06:44] INFO root fetch - processPackages [eea.volto.policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.volto.policy-2.1.zip tmp/eea.volto.policy-2.2.zip --markdown 20230419/e/eea.volto.policy/2.1-2.2/diff.md --exclude *.pyd
+[2023-04-19 14:06:44] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/f1/fb/cca9be81049b381310f4cbbb9018059a46e94bde358205ef3ea85c4a1309/gardener-cicd-base-1.2036.0.tar.gz
+[2023-04-19 14:06:44] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/43/52/41f9c580abd86b619b34b7d94eacefc135a8306e1cf839de692941473bfe/gardener-cicd-dso-1.2036.0.tar.gz
+[2023-04-19 14:06:44] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ea/94/5b96cae9abc9e74af84dc1530a407ead95dfb6838f0903028efda9dfbfda/gardener-cicd-libs-1.2036.0.tar.gz
+[2023-04-19 14:06:44] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/f7/f0/1cbcdb58aeb746823259596ff6521dc2ba1a1bcccc379547854f6193bca1/gardener-cicd-cli-1.2036.0.tar.gz
+[2023-04-19 14:06:44] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-04-19 14:06:44] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2035.0.tar.gz tmp/gardener-cicd-base-1.2036.0.tar.gz --markdown 20230419/g/gardener-cicd-base/1.2035.0-1.2036.0/diff.md --exclude *.pyd
+[2023-04-19 14:06:44] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-04-19 14:06:44] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2035.0.tar.gz tmp/gardener-cicd-dso-1.2036.0.tar.gz --markdown 20230419/g/gardener-cicd-dso/1.2035.0-1.2036.0/diff.md --exclude *.pyd
+[2023-04-19 14:06:44] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-04-19 14:06:44] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2035.0.tar.gz tmp/gardener-cicd-cli-1.2036.0.tar.gz --markdown 20230419/g/gardener-cicd-cli/1.2035.0-1.2036.0/diff.md --exclude *.pyd
+[2023-04-19 14:06:44] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-04-19 14:06:44] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2035.0.tar.gz tmp/gardener-cicd-libs-1.2036.0.tar.gz --markdown 20230419/g/gardener-cicd-libs/1.2035.0-1.2036.0/diff.md --exclude *.pyd
+[2023-04-19 14:06:44] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk-lib]: Start processing: gardener-cicd-whd
+[2023-04-19 14:06:44] INFO root fetch - main [MainThread]: End processing [vmware-aria-operations-integration-sdk-lib]: success
+[2023-04-19 14:06:44] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2036.0] Old Version: [1.2035.0]
+[2023-04-19 14:06:45] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/ec/9f/8f155fafb30b9ddb1fc93cccd5bb1ef6a91e9822160f0b2d3f3c9185bdd6/gardener-cicd-whd-1.2035.0.tar.gz
+[2023-04-19 14:06:45] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/83/d4/e19bb711a40b2cfe140181cf886fd90d57e309958addd18e2f7a38a7472b/gardener-cicd-whd-1.2036.0.tar.gz
+[2023-04-19 14:06:45] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-04-19 14:06:45] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2035.0.tar.gz tmp/gardener-cicd-whd-1.2036.0.tar.gz --markdown 20230419/g/gardener-cicd-whd/1.2035.0-1.2036.0/diff.md --exclude *.pyd
+[2023-04-19 14:06:45] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: gardener-oci
+[2023-04-19 14:06:45] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-04-19 14:06:45] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-04-19 14:06:45] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: dkredis
+[2023-04-19 14:06:45] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-04-19 14:06:45] INFO root fetch - processPackages [dkredis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 14:06:45] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-04-19 14:06:45] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230419/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-04-19 14:06:45] INFO root fetch - processPackages [torcheval-nightly]: Start processing: blissdata
+[2023-04-19 14:06:45] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2023-04-19 14:06:45] INFO root fetch - processPackages [blissdata]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-19 14:06:45] INFO root fetch - processPackages [dkredis]: Downloading https://files.pythonhosted.org/packages/16/43/5e3aa25e3fcdc7d124b83376da3cea5e986c0997a9d24a425651fe44f171/dkredis-0.1.9.tar.gz
+[2023-04-19 14:06:45] INFO root fetch - processPackages [c65faucet]: Start processing: Pequena
+[2023-04-19 14:06:45] INFO root fetch - main [MainThread]: End processing [c65faucet]: success
+[2023-04-19 14:06:45] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 14:06:45] INFO root fetch - processPackages [blissdata]: Downloading https://files.pythonhosted.org/packages/b6/b3/17c26c79250cbb86cd302fe86eb31d80d382c363b68446e7236d4870981b/blissdata-0.3.2.tar.gz
+[2023-04-19 14:06:45] INFO root fetch - processPackages [shooju-ts]: Start processing: label-studio
+[2023-04-19 14:06:45] INFO root fetch - main [MainThread]: End processing [shooju-ts]: success
+[2023-04-19 14:06:46] INFO root fetch - processPackages [eea.volto.policy]: Start processing: huble
+[2023-04-19 14:06:46] INFO root fetch - main [MainThread]: End processing [eea.volto.policy]: success
+[2023-04-19 14:06:46] INFO root fetch - processPackages [label-studio]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-04-19 14:06:46] INFO root fetch - processPackages [huble]: New version: [0.2.294] Old Version: [0.2.293]
+[2023-04-19 14:06:46] INFO root fetch - processPackages [dkredis]: executing diffoscope
+[2023-04-19 14:06:46] INFO root fetch - processPackages [dkredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkredis-0.1.8.tar.gz tmp/dkredis-0.1.9.tar.gz --markdown 20230419/d/dkredis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 14:06:46] INFO root fetch - processPackages [label-studio]: Downloading https://files.pythonhosted.org/packages/d2/19/2106b6e98db7f23d81fe8f65cae14bb4273908592fd5239286644259cc54/label-studio-1.7.2.tar.gz
+[2023-04-19 14:06:46] INFO root fetch - processPackages [Pequena]: Downloading https://files.pythonhosted.org/packages/1a/0d/94f7f5ccf3ed4b3b4ce8a71942f7c73192a7e3de437e42b142cc0709e9ff/Pequena-0.0.8.tar.gz
+[2023-04-19 14:06:46] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/92/2b/60ae6b580940322d6bc4315316c0bb58bea16f6e47d4e89e507aa92921aa/huble-0.2.294.tar.gz
+[2023-04-19 14:06:46] INFO root fetch - processPackages [blissdata]: Downloading https://files.pythonhosted.org/packages/21/f3/faf07088785a897604bc0096e5c72ac0f3f0eb615078b7a708ca5cdd286d/blissdata-0.3.3.tar.gz
+[2023-04-19 14:06:46] WARNING root fetch - processPackages [label-studio]: Skipping package: exceeds size limit 45965337>=10485760
+[2023-04-19 14:06:46] INFO root fetch - processPackages [label-studio]: Start processing: planetmint
+[2023-04-19 14:06:46] INFO root fetch - main [MainThread]: End processing [label-studio] error
+[2023-04-19 14:06:46] INFO root fetch - processPackages [planetmint]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-04-19 14:06:46] INFO root fetch - processPackages [blissdata]: executing diffoscope
+[2023-04-19 14:06:46] INFO root fetch - processPackages [blissdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blissdata-0.3.2.tar.gz tmp/blissdata-0.3.3.tar.gz --markdown 20230419/b/blissdata/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-19 14:06:46] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-19 14:06:46] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.293.tar.gz tmp/huble-0.2.294.tar.gz --markdown 20230419/h/huble/0.2.293-0.2.294/diff.md --exclude *.pyd
+[2023-04-19 14:06:46] INFO root fetch - processPackages [Pequena]: Downloading https://files.pythonhosted.org/packages/a9/29/f92c0e12f19a9e76b3c52185e76befc5bbd8cdaed78b5afcd3f134ba094d/Pequena-0.0.9.tar.gz
+[2023-04-19 14:06:46] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-04-19 14:06:46] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230419/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 14:06:46] INFO root fetch - processPackages [planetmint]: Downloading https://files.pythonhosted.org/packages/d1/53/fd1d8d905f2b3674b1db97b047a8113371a7a019de5bd30d9bde27a6a883/planetmint-2.4.4.tar.gz
+[2023-04-19 14:06:46] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: idun-guardian-client
+[2023-04-19 14:06:46] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-04-19 14:06:46] INFO root fetch - processPackages [idun-guardian-client]: New version: [1.1b15] Old Version: [1.1.2]
+[2023-04-19 14:06:46] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: pandoc
+[2023-04-19 14:06:46] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-04-19 14:06:46] INFO root fetch - processPackages [pandoc]: New version: [2.4b0] Old Version: [2.3]
+[2023-04-19 14:06:46] INFO root fetch - processPackages [planetmint]: executing diffoscope
+[2023-04-19 14:06:46] INFO root fetch - processPackages [planetmint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmint-2.4.3.tar.gz tmp/planetmint-2.4.4.tar.gz --markdown 20230419/p/planetmint/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-04-19 14:06:46] INFO root fetch - processPackages [pandoc]: Downloading https://files.pythonhosted.org/packages/c5/2f/19a65b7cb6b8d1000c6934a904f7b1f52c33b63115d6dce231738b0712f3/pandoc-2.3.tar.gz
+[2023-04-19 14:06:47] INFO root fetch - processPackages [idun-guardian-client]: Downloading https://files.pythonhosted.org/packages/9b/9c/110f252af1854c4899d8541afbd4109becdfc6b4343b2665ed21db5d243c/idun_guardian_client-1.1b15.tar.gz
+[2023-04-19 14:06:47] INFO root fetch - processPackages [gardener-oci]: Start processing: tkdial
+[2023-04-19 14:06:47] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-04-19 14:06:47] INFO root fetch - processPackages [dkredis]: Start processing: preprocessing-pgp
+[2023-04-19 14:06:47] INFO root fetch - main [MainThread]: End processing [dkredis]: success
+[2023-04-19 14:06:47] INFO root fetch - processPackages [pandoc]: Downloading https://files.pythonhosted.org/packages/1d/c1/b8955646dd0b1a46c43e79aeb9a036223445a68e704e549ad32946936730/pandoc-2.4b0.tar.gz
+[2023-04-19 14:06:47] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post2.dev7] Old Version: [0.2.9.post1.dev7]
+[2023-04-19 14:06:47] INFO root fetch - processPackages [idun-guardian-client]: executing diffoscope
+[2023-04-19 14:06:47] INFO root fetch - processPackages [idun-guardian-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idun_guardian_client-1.1.2.tar.gz tmp/idun_guardian_client-1.1b15.tar.gz --markdown 20230419/i/idun-guardian-client/1.1.2-1.1b15/diff.md --exclude *.pyd
+[2023-04-19 14:06:47] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/51/27/a2808b4700bc570b5ad065ffee9a4c7cb5e6565315af0c440d1819c8b799/preprocessing-pgp-0.2.9.post1.dev7.tar.gz
+[2023-04-19 14:06:47] INFO root fetch - processPackages [tkdial]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-19 14:06:47] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857357>=10485760
+[2023-04-19 14:06:47] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-04-19 14:06:47] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-04-19 14:06:47] INFO root fetch - processPackages [pandoc]: executing diffoscope
+[2023-04-19 14:06:47] INFO root fetch - processPackages [pandoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandoc-2.3.tar.gz tmp/pandoc-2.4b0.tar.gz --markdown 20230419/p/pandoc/2.3-2.4b0/diff.md --exclude *.pyd
+[2023-04-19 14:06:47] INFO root fetch - processPackages [tkdial]: Downloading https://files.pythonhosted.org/packages/50/7b/10e655dd03ea17d4b4650e7ecca7848a2b4af4fef2322e9333da5d51effd/tkdial-0.0.6.tar.gz
+[2023-04-19 14:06:47] INFO root fetch - processPackages [tkdial]: executing diffoscope
+[2023-04-19 14:06:47] INFO root fetch - processPackages [tkdial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkdial-0.0.5.tar.gz tmp/tkdial-0.0.6.tar.gz --markdown 20230419/t/tkdial/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-19 14:06:47] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-04-19 14:06:48] INFO root fetch - main [MainThread]: End processing [blissdata]: success
+[2023-04-19 14:06:48] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-19 14:06:48] INFO root fetch - main [MainThread]: End processing [planetmint]: success
+[2023-04-19 14:06:48] INFO root fetch - main [MainThread]: End processing [idun-guardian-client]: success
+[2023-04-19 14:06:48] INFO root fetch - main [MainThread]: End processing [tkdial]: success
+[2023-04-19 14:06:53] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-19 14:07:01] INFO root fetch - main [MainThread]: End processing [pandoc]: success
+[2023-04-19 14:07:01] INFO root fetch - main [MainThread]: Store serial: [17770542]
