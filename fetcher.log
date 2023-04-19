@@ -19381,3 +19381,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 17:57:18] INFO root fetch - main [MainThread]: End processing [structureboost]: success
 [2023-04-19 17:57:28] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
 [2023-04-19 17:57:28] INFO root fetch - main [MainThread]: Store serial: [17773310]
+[2023-04-19 18:02:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17773310]
+[2023-04-19 18:02:37] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-19 18:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kicad-package-manager
+[2023-04-19 18:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-web-advanced-search
+[2023-04-19 18:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 18:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crunch-cli
+[2023-04-19 18:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansible-builder
+[2023-04-19 18:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: johnnycanencrypt
+[2023-04-19 18:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: griptape
+[2023-04-19 18:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: labxpipe
+[2023-04-19 18:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: confidenceinterval
+[2023-04-19 18:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hiddifypanel
+[2023-04-19 18:02:37] INFO root fetch - processPackages [crunch-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-19 18:02:37] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: New version: [15.0.1.1.2] Old Version: [15.0.1.1.1]
+[2023-04-19 18:02:37] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-19 18:02:37] WARNING root fetch - processPackages [griptape]: Skipping, unable to determine old version
+[2023-04-19 18:02:37] INFO root fetch - processPackages [griptape]: Start processing: adata
+[2023-04-19 18:02:37] INFO root fetch - main [MainThread]: End processing [griptape] error
+[2023-04-19 18:02:37] INFO root fetch - processPackages [kicad-package-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 18:02:37] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.1] Old Version: [4.0.0.dev63]
+[2023-04-19 18:02:37] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-04-19 18:02:37] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-0.8.1.tar.gz tmp/crunch-cli-0.9.0.tar.gz --markdown 20230419/c/crunch-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 18:02:37] INFO root fetch - processPackages [ansible-builder]: New version: [3.0.0.0b1] Old Version: [1.2.0]
+[2023-04-19 18:02:37] INFO root fetch - processPackages [confidenceinterval]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 18:02:37] INFO root fetch - processPackages [labxpipe]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-19 18:02:37] INFO root fetch - processPackages [johnnycanencrypt]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 18:02:37] INFO root fetch - processPackages [adata]: New version: [0.0.3b0] Old Version: [0.0.2b0]
+[2023-04-19 18:02:37] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-19 18:02:37] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 18:02:37] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.0.dev63-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230419/h/hiddifypanel/4.0.0.dev63-4.0.1/diff.md --exclude *.pyd
+[2023-04-19 18:02:37] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.2.5.tar.gz tmp/fastapi_ecommerce_ext-0.2.6.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-19 18:02:37] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: Downloading https://files.pythonhosted.org/packages/e4/38/67a2e210f9adcec8fb7557dd139ccf33dc64f86b041ac7bf0d64a0754a0c/odoo_addon_web_advanced_search-15.0.1.1.1-py3-none-any.whl
+[2023-04-19 18:02:38] INFO root fetch - processPackages [ansible-builder]: Downloading https://files.pythonhosted.org/packages/45/ed/6ce94d6b28789d8c21cd4d0ba92899688164e883b1bd5660d4e40a974fea/ansible-builder-1.2.0.tar.gz
+[2023-04-19 18:02:38] INFO root fetch - processPackages [confidenceinterval]: Downloading https://files.pythonhosted.org/packages/29/63/961eeb16af92de8645963835230ee922a9fb81e6eac06fbf98c22874bcb2/confidenceinterval-1.0.0.tar.gz
+[2023-04-19 18:02:38] INFO root fetch - processPackages [johnnycanencrypt]: Downloading https://files.pythonhosted.org/packages/6c/fe/30deb1c9167533347ad7c90a14955db64524d96db97462241ab0f44a3b32/johnnycanencrypt-0.8.0.tar.gz
+[2023-04-19 18:02:38] INFO root fetch - processPackages [labxpipe]: Downloading https://files.pythonhosted.org/packages/25/62/e426342fbe18f0ff784bf27429e94d54db19fcb26c5475902919cfbc0a92/labxpipe-0.5.0.tar.gz
+[2023-04-19 18:02:38] INFO root fetch - processPackages [kicad-package-manager]: executing diffoscope
+[2023-04-19 18:02:38] INFO root fetch - processPackages [kicad-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kicad_package_manager-0.0.8.tar.gz tmp/kicad_package_manager-0.0.9.tar.gz --markdown 20230419/k/kicad-package-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 18:02:38] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/08/04/1ce82abfa3505ddcbc5c69cdad2335ccc92a2234ac6117f2256eb661637f/adata-0.0.3b0.tar.gz
+[2023-04-19 18:02:38] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: Downloading https://files.pythonhosted.org/packages/38/cc/babe7f19d3eb9431b456cf9abae99da2910a8d3d249f484e08f38996e619/odoo_addon_web_advanced_search-15.0.1.1.2-py3-none-any.whl
+[2023-04-19 18:02:38] INFO root fetch - processPackages [ansible-builder]: Downloading https://files.pythonhosted.org/packages/93/82/cd8e2d7fc02f7e0807711dc93af5cd7de81995724c7ddd1e50cdc0eac998/ansible-builder-3.0.0.0b1.tar.gz
+[2023-04-19 18:02:38] INFO root fetch - processPackages [confidenceinterval]: Downloading https://files.pythonhosted.org/packages/c5/9c/c342fc0931be7ad0001a594702f43a3eae5383b482325b7db500de3b1bbd/confidenceinterval-1.0.1.tar.gz
+[2023-04-19 18:02:38] INFO root fetch - processPackages [labxpipe]: Downloading https://files.pythonhosted.org/packages/a3/95/901e726c73936e1502dc87aac9ad159641ba9a1700eea8ab982b5cc512e3/labxpipe-0.6.0.tar.gz
+[2023-04-19 18:02:38] INFO root fetch - processPackages [confidenceinterval]: executing diffoscope
+[2023-04-19 18:02:38] INFO root fetch - processPackages [confidenceinterval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confidenceinterval-1.0.0.tar.gz tmp/confidenceinterval-1.0.1.tar.gz --markdown 20230419/c/confidenceinterval/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 18:02:38] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-04-19 18:02:38] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.2b0.tar.gz tmp/adata-0.0.3b0.tar.gz --markdown 20230419/a/adata/0.0.2b0-0.0.3b0/diff.md --exclude *.pyd
+[2023-04-19 18:02:38] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: executing diffoscope
+[2023-04-19 18:02:38] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_advanced_search-15.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_web_advanced_search-15.0.1.1.2-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-web-advanced-search/15.0.1.1.1-15.0.1.1.2/diff.md --exclude *.pyd
+[2023-04-19 18:02:38] INFO root fetch - processPackages [ansible-builder]: executing diffoscope
+[2023-04-19 18:02:38] INFO root fetch - processPackages [ansible-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-builder-1.2.0.tar.gz tmp/ansible-builder-3.0.0.0b1.tar.gz --markdown 20230419/a/ansible-builder/1.2.0-3.0.0.0b1/diff.md --exclude *.pyd
+[2023-04-19 18:02:38] INFO root fetch - processPackages [johnnycanencrypt]: Downloading https://files.pythonhosted.org/packages/75/60/e39c277a8b222977f7228108570419830ccf12858d28477ffa0d13ede49a/johnnycanencrypt-0.9.0.tar.gz
+[2023-04-19 18:02:38] INFO root fetch - processPackages [labxpipe]: executing diffoscope
+[2023-04-19 18:02:38] INFO root fetch - processPackages [labxpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labxpipe-0.5.0.tar.gz tmp/labxpipe-0.6.0.tar.gz --markdown 20230419/l/labxpipe/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-19 18:02:38] INFO root fetch - processPackages [johnnycanencrypt]: executing diffoscope
+[2023-04-19 18:02:38] INFO root fetch - processPackages [johnnycanencrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnnycanencrypt-0.8.0.tar.gz tmp/johnnycanencrypt-0.9.0.tar.gz --markdown 20230419/j/johnnycanencrypt/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 18:02:39] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Start processing: osmosispy
+[2023-04-19 18:02:39] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 18:02:39] INFO root fetch - processPackages [osmosispy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-19 18:02:39] INFO root fetch - processPackages [crunch-cli]: Start processing: fasdr
+[2023-04-19 18:02:39] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-04-19 18:02:39] INFO root fetch - processPackages [osmosispy]: executing diffoscope
+[2023-04-19 18:02:39] INFO root fetch - processPackages [osmosispy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmosispy-0.0.6.tar.gz tmp/osmosispy-0.0.7.tar.gz --markdown 20230419/o/osmosispy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-19 18:02:39] WARNING root fetch - processPackages [fasdr]: Skipping, unable to determine old version
+[2023-04-19 18:02:39] INFO root fetch - main [MainThread]: End processing [fasdr] error
+[2023-04-19 18:02:39] INFO root fetch - main [MainThread]: End processing [kicad-package-manager]: success
+[2023-04-19 18:02:39] INFO root fetch - main [MainThread]: End processing [confidenceinterval]: success
+[2023-04-19 18:02:40] INFO root fetch - main [MainThread]: End processing [labxpipe]: success
+[2023-04-19 18:02:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-advanced-search]: success
+[2023-04-19 18:02:40] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-04-19 18:02:40] INFO root fetch - main [MainThread]: End processing [johnnycanencrypt]: success
+[2023-04-19 18:02:41] INFO root fetch - main [MainThread]: End processing [ansible-builder]: success
+[2023-04-19 18:02:46] INFO root fetch - main [MainThread]: End processing [osmosispy]: success
+[2023-04-19 18:02:56] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-19 18:02:56] INFO root fetch - main [MainThread]: Store serial: [17773370]
