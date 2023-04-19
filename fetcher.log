@@ -6378,3 +6378,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 06:13:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-service-kanban]: success
 [2023-04-19 06:13:46] INFO root fetch - main [MainThread]: End processing [twb-project]: success
 [2023-04-19 06:13:46] INFO root fetch - main [MainThread]: Store serial: [17765687]
+[2023-04-19 06:18:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765687]
+[2023-04-19 06:18:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-19 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FYP-crawler
+[2023-04-19 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: einops
+[2023-04-19 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gdsfactory
+[2023-04-19 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: umjunsik
+[2023-04-19 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dynamobase
+[2023-04-19 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: loopgpt
+[2023-04-19 06:18:55] WARNING root fetch - processPackages [umjunsik]: Skipping, unable to determine old version
+[2023-04-19 06:18:55] INFO root fetch - main [MainThread]: End processing [umjunsik] error
+[2023-04-19 06:18:55] INFO root fetch - processPackages [loopgpt]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-19 06:18:55] INFO root fetch - processPackages [einops]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-19 06:18:55] WARNING root fetch - processPackages [FYP-crawler]: Skipping, unable to determine old version
+[2023-04-19 06:18:55] INFO root fetch - main [MainThread]: End processing [FYP-crawler] error
+[2023-04-19 06:18:55] INFO root fetch - processPackages [dynamobase]: New version: [1.0.0] Old Version: [0.2.2]
+[2023-04-19 06:18:55] INFO root fetch - processPackages [gdsfactory]: New version: [6.9.0] Old Version: [6.87.0]
+[2023-04-19 06:18:55] INFO root fetch - processPackages [einops]: Downloading https://files.pythonhosted.org/packages/84/c4/7d572f80556a6db6cbf2c3443881cf86c4470049975cdc38e9cb73c060f5/einops-0.6.0.tar.gz
+[2023-04-19 06:18:55] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/61/17/b048718d4bc430cfa0b26920020d0e66a9d587505e4855d40fda3f258f3c/gdsfactory-6.87.0.tar.gz
+[2023-04-19 06:18:55] INFO root fetch - processPackages [dynamobase]: Downloading https://files.pythonhosted.org/packages/ea/dd/9018041470ccc1442a0463025af852d42af74be21f034465e8ae76220137/dynamobase-0.2.2.tar.gz
+[2023-04-19 06:18:55] INFO root fetch - processPackages [loopgpt]: Downloading https://files.pythonhosted.org/packages/54/8c/17870b63dabbf73a061ee0573639630a7f2e0d2e51e782a8383653bb8e47/loopgpt-0.0.7.tar.gz
+[2023-04-19 06:18:55] INFO root fetch - processPackages [einops]: Downloading https://files.pythonhosted.org/packages/ac/09/9d5fb513bda4845044802b389e0e1ecddb47b01a7934d33d3b406adf5073/einops-0.6.1.tar.gz
+[2023-04-19 06:18:55] INFO root fetch - processPackages [dynamobase]: Downloading https://files.pythonhosted.org/packages/cb/2c/b7d3c95df15e19b49751694156227cb3f9ad2833a35bbcd81d8682fcb7a9/dynamobase-1.0.0.tar.gz
+[2023-04-19 06:18:55] INFO root fetch - processPackages [loopgpt]: executing diffoscope
+[2023-04-19 06:18:55] INFO root fetch - processPackages [loopgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loopgpt-0.0.6.tar.gz tmp/loopgpt-0.0.7.tar.gz --markdown 20230419/l/loopgpt/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-19 06:18:55] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/51/e1/bea9be10e53a3f646a2bc569ab98aa0db7b687da72ac78a2d51eac5c8a5e/gdsfactory-6.9.0.tar.gz
+[2023-04-19 06:18:55] INFO root fetch - processPackages [einops]: executing diffoscope
+[2023-04-19 06:18:55] INFO root fetch - processPackages [einops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/einops-0.6.0.tar.gz tmp/einops-0.6.1.tar.gz --markdown 20230419/e/einops/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-19 06:18:55] INFO root fetch - processPackages [dynamobase]: executing diffoscope
+[2023-04-19 06:18:55] INFO root fetch - processPackages [dynamobase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamobase-0.2.2.tar.gz tmp/dynamobase-1.0.0.tar.gz --markdown 20230419/d/dynamobase/0.2.2-1.0.0/diff.md --exclude *.pyd
+[2023-04-19 06:18:55] WARNING root fetch - processPackages [gdsfactory]: Skipping package: exceeds size limit 11141129>=10485760
+[2023-04-19 06:18:55] INFO root fetch - main [MainThread]: End processing [gdsfactory] error
+[2023-04-19 06:18:56] INFO root fetch - main [MainThread]: End processing [dynamobase]: success
+[2023-04-19 06:18:56] INFO root fetch - main [MainThread]: End processing [loopgpt]: success
+[2023-04-19 06:18:56] INFO root fetch - main [MainThread]: End processing [einops]: success
+[2023-04-19 06:18:56] INFO root fetch - main [MainThread]: Store serial: [17765712]
