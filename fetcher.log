@@ -17698,3 +17698,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 16:39:50] INFO root fetch - main [MainThread]: End processing [libmata]: success
 [2023-04-19 16:39:52] INFO root fetch - main [MainThread]: End processing [plone.restapi]: success
 [2023-04-19 16:39:52] INFO root fetch - main [MainThread]: Store serial: [17772363]
+[2023-04-19 16:44:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17772363]
+[2023-04-19 16:45:02] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-19 16:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaaql-middleware-python
+[2023-04-19 16:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musicli
+[2023-04-19 16:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: etm-dgraham
+[2023-04-19 16:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: navigator-auth
+[2023-04-19 16:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pmotif-lib
+[2023-04-19 16:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deprempy
+[2023-04-19 16:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hive-maia
+[2023-04-19 16:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vegafusion-python-embed
+[2023-04-19 16:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skillsnetwork-authoring-extension
+[2023-04-19 16:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: generic-connection-pool
+[2023-04-19 16:45:02] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.6.6] Old Version: [4.6.5]
+[2023-04-19 16:45:02] INFO root fetch - processPackages [navigator-auth]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-19 16:45:02] INFO root fetch - processPackages [hive-maia]: New version: [1.1.2a0] Old Version: [1.1.1]
+[2023-04-19 16:45:02] WARNING root fetch - processPackages [pmotif-lib]: Skipping, unable to determine old version
+[2023-04-19 16:45:02] INFO root fetch - processPackages [deprempy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-19 16:45:02] INFO root fetch - processPackages [pmotif-lib]: Start processing: slpkg
+[2023-04-19 16:45:02] INFO root fetch - main [MainThread]: End processing [pmotif-lib] error
+[2023-04-19 16:45:02] INFO root fetch - processPackages [musicli]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 16:45:02] INFO root fetch - processPackages [skillsnetwork-authoring-extension]: New version: [0.5.6rc1] Old Version: [0.5.5rc1]
+[2023-04-19 16:45:02] INFO root fetch - processPackages [etm-dgraham]: New version: [4.9.7] Old Version: [4.9.6]
+[2023-04-19 16:45:02] INFO root fetch - processPackages [vegafusion-python-embed]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-19 16:45:02] INFO root fetch - processPackages [generic-connection-pool]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-19 16:45:02] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-04-19 16:45:02] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.6.5.tar.gz tmp/jaaql-middleware-python-4.6.6.tar.gz --markdown 20230419/j/jaaql-middleware-python/4.6.5-4.6.6/diff.md --exclude *.pyd
+[2023-04-19 16:45:02] INFO root fetch - processPackages [slpkg]: New version: [4.7.9] Old Version: [4.7.8]
+[2023-04-19 16:45:02] INFO root fetch - processPackages [musicli]: Downloading https://files.pythonhosted.org/packages/fb/e9/3a5916b8a6f4cd24db4ba8bfe45cd8d328d18a6b5753d5bd5df07720e49f/musicli-0.0.1.tar.gz
+[2023-04-19 16:45:02] INFO root fetch - processPackages [deprempy]: Downloading https://files.pythonhosted.org/packages/87/8d/25d423e34ae80441e709cc8246f7183d75f993dd895ac8587cd656cb6073/deprempy-0.0.5.tar.gz
+[2023-04-19 16:45:02] INFO root fetch - processPackages [hive-maia]: Downloading https://files.pythonhosted.org/packages/6f/27/13762175128c4a5a9d9423fa4d001b050fe2a330dee567b8f8f19e48ed1f/hive-maia-1.1.2a0.tar.gz
+[2023-04-19 16:45:02] INFO root fetch - processPackages [skillsnetwork-authoring-extension]: Downloading https://files.pythonhosted.org/packages/92/78/73fb0660f91b9496ac2c638e0a465cdd6e93ebcac6635ccbc5865ec77db5/skillsnetwork-authoring-extension-0.5.5rc1.tar.gz
+[2023-04-19 16:45:02] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/ca/90/a597c3304ea0cbc03edb649d49de2ecead58613fa23228dc01d6ab6992e4/etm-dgraham-4.9.6.tar.gz
+[2023-04-19 16:45:02] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/7f/2a/3b149f4072824b67de0d9236ac4aca4130f38cd334429324eea69bf9b60e/vegafusion_python_embed-1.2.1.tar.gz
+[2023-04-19 16:45:02] INFO root fetch - processPackages [generic-connection-pool]: Downloading https://files.pythonhosted.org/packages/d5/df/a0d7fb65b04b468103c46c5c259365ad8bfc5c19103e0e275b5aca02cf91/generic_connection_pool-0.1.1.tar.gz
+[2023-04-19 16:45:02] INFO root fetch - processPackages [hive-maia]: executing diffoscope
+[2023-04-19 16:45:02] INFO root fetch - processPackages [hive-maia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hive-maia-1.1.1.tar.gz tmp/hive-maia-1.1.2a0.tar.gz --markdown 20230419/h/hive-maia/1.1.1-1.1.2a0/diff.md --exclude *.pyd
+[2023-04-19 16:45:02] INFO root fetch - processPackages [deprempy]: executing diffoscope
+[2023-04-19 16:45:02] INFO root fetch - processPackages [deprempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deprempy-0.0.4.tar.gz tmp/deprempy-0.0.5.tar.gz --markdown 20230419/d/deprempy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-19 16:45:02] INFO root fetch - processPackages [navigator-auth]: executing diffoscope
+[2023-04-19 16:45:02] INFO root fetch - processPackages [navigator-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_auth-0.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_auth-0.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230419/n/navigator-auth/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-19 16:45:02] INFO root fetch - processPackages [musicli]: Downloading https://files.pythonhosted.org/packages/6b/f1/7b910c97c1d10601562bce243b8f8ffb9158d0c7bf041f4decfdbe8b1e9c/musicli-0.0.2.tar.gz
+[2023-04-19 16:45:02] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/40/51/4a31fad03452f2cb28838b685bedae3e2bdfbef347e0a93f333143e87e18/slpkg-4.7.9.tar.gz
+[2023-04-19 16:45:02] INFO root fetch - processPackages [musicli]: executing diffoscope
+[2023-04-19 16:45:02] INFO root fetch - processPackages [musicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicli-0.0.1.tar.gz tmp/musicli-0.0.2.tar.gz --markdown 20230419/m/musicli/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 16:45:02] INFO root fetch - processPackages [skillsnetwork-authoring-extension]: Downloading https://files.pythonhosted.org/packages/a2/7a/147ac82b04cdb20d3fa0e482cdbb56806729e616d54bfcbe0301169302fe/skillsnetwork-authoring-extension-0.5.6rc1.tar.gz
+[2023-04-19 16:45:02] INFO root fetch - processPackages [generic-connection-pool]: Downloading https://files.pythonhosted.org/packages/53/c6/cfa9ff82e9cc8e67ae985d176eeb53610f787324256a7057b7d5df64314c/generic_connection_pool-0.2.0.tar.gz
+[2023-04-19 16:45:02] INFO root fetch - processPackages [slpkg]: executing diffoscope
+[2023-04-19 16:45:02] INFO root fetch - processPackages [slpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slpkg-4.7.8.tar.gz tmp/slpkg-4.7.9.tar.gz --markdown 20230419/s/slpkg/4.7.8-4.7.9/diff.md --exclude *.pyd
+[2023-04-19 16:45:02] INFO root fetch - processPackages [skillsnetwork-authoring-extension]: executing diffoscope
+[2023-04-19 16:45:02] INFO root fetch - processPackages [skillsnetwork-authoring-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillsnetwork-authoring-extension-0.5.5rc1.tar.gz tmp/skillsnetwork-authoring-extension-0.5.6rc1.tar.gz --markdown 20230419/s/skillsnetwork-authoring-extension/0.5.5rc1-0.5.6rc1/diff.md --exclude *.pyd
+[2023-04-19 16:45:02] INFO root fetch - processPackages [generic-connection-pool]: executing diffoscope
+[2023-04-19 16:45:02] INFO root fetch - processPackages [generic-connection-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic_connection_pool-0.1.1.tar.gz tmp/generic_connection_pool-0.2.0.tar.gz --markdown 20230419/g/generic-connection-pool/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 16:45:03] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/23/a7/73d34def7b81da50f7fc86f1d707ce66a359621e6c84284b9c8c7dde6a23/etm-dgraham-4.9.7.tar.gz
+[2023-04-19 16:45:03] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/02/d1/4de6cd23f313699cefb3be08e942dfdd1040eba3aa09f37b5d5e5461436e/vegafusion_python_embed-1.2.2.tar.gz
+[2023-04-19 16:45:03] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-04-19 16:45:03] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-4.9.6.tar.gz tmp/etm-dgraham-4.9.7.tar.gz --markdown 20230419/e/etm-dgraham/4.9.6-4.9.7/diff.md --exclude *.pyd
+[2023-04-19 16:45:03] INFO root fetch - processPackages [hive-maia]: Start processing: twb-project
+[2023-04-19 16:45:03] INFO root fetch - main [MainThread]: End processing [hive-maia]: success
+[2023-04-19 16:45:03] INFO root fetch - processPackages [twb-project]: New version: [0.7.3a7] Old Version: [0.7.3a6]
+[2023-04-19 16:45:04] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-04-19 16:45:04] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.7.3a6.tar.gz tmp/twb_project-0.7.3a7.tar.gz --markdown 20230419/t/twb-project/0.7.3a6-0.7.3a7/diff.md --exclude *.pyd
+[2023-04-19 16:45:04] INFO root fetch - processPackages [musicli]: Start processing: melizalab-tools
+[2023-04-19 16:45:04] INFO root fetch - main [MainThread]: End processing [musicli]: success
+[2023-04-19 16:45:04] INFO root fetch - processPackages [deprempy]: Start processing: flask-redis-ex
+[2023-04-19 16:45:04] INFO root fetch - main [MainThread]: End processing [deprempy]: success
+[2023-04-19 16:45:04] INFO root fetch - processPackages [melizalab-tools]: New version: [2023.4.19] Old Version: [2023.3.2]
+[2023-04-19 16:45:04] INFO root fetch - processPackages [generic-connection-pool]: Start processing: vegafusion
+[2023-04-19 16:45:04] INFO root fetch - main [MainThread]: End processing [generic-connection-pool]: success
+[2023-04-19 16:45:04] ERROR root fetch - processPackages [flask-redis-ex]: Unable to get metadata: No such project 'flask-redis-ex'
+[2023-04-19 16:45:04] INFO root fetch - processPackages [flask-redis-ex]: Start processing: RegScale-CLI
+[2023-04-19 16:45:04] INFO root fetch - main [MainThread]: End processing [flask-redis-ex] error
+[2023-04-19 16:45:04] INFO root fetch - processPackages [vegafusion]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-19 16:45:04] INFO root fetch - processPackages [RegScale-CLI]: New version: [4.26.0] Old Version: [4.25.1]
+[2023-04-19 16:45:04] INFO root fetch - processPackages [melizalab-tools]: Downloading https://files.pythonhosted.org/packages/25/55/ad74cded959c7b971ad2fd69bf9a5f042e493d0a3f2f4454a90cedbd4c57/melizalab-tools-2023.3.2.tar.gz
+[2023-04-19 16:45:04] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/68/d5/b1fc72848b9ef817f32ba4e33edabee3eaa9cbe9291aa0534c353eabe5f9/vegafusion-1.2.1.tar.gz
+[2023-04-19 16:45:04] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/08/f9/294c4e144c25f3ec199f9c0ce34ba9ca326237828fe26834a73ac4517f31/RegScale_CLI-4.25.1-py3-none-any.whl
+[2023-04-19 16:45:04] INFO root fetch - processPackages [melizalab-tools]: Downloading https://files.pythonhosted.org/packages/e4/a6/d44e9d2e1e41c28f8931d8ecf2d31e207ca545383c14e173d845ed48c0fc/melizalab-tools-2023.4.19.tar.gz
+[2023-04-19 16:45:04] INFO root fetch - processPackages [melizalab-tools]: executing diffoscope
+[2023-04-19 16:45:04] INFO root fetch - processPackages [melizalab-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melizalab-tools-2023.3.2.tar.gz tmp/melizalab-tools-2023.4.19.tar.gz --markdown 20230419/m/melizalab-tools/2023.3.2-2023.4.19/diff.md --exclude *.pyd
+[2023-04-19 16:45:04] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/e8/67/ed54b553221dacc4f34a5016cfe3e118ee499bb6d59a729678a818b0544d/vegafusion-1.2.2.tar.gz
+[2023-04-19 16:45:04] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/1b/9f/b496adca6f6707370012c88d1a791f3ed8087624cef280b56078d50593fd/RegScale_CLI-4.26.0-py3-none-any.whl
+[2023-04-19 16:45:05] INFO root fetch - processPackages [vegafusion-python-embed]: executing diffoscope
+[2023-04-19 16:45:05] INFO root fetch - processPackages [vegafusion-python-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion_python_embed-1.2.1.tar.gz tmp/vegafusion_python_embed-1.2.2.tar.gz --markdown 20230419/v/vegafusion-python-embed/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-19 16:45:05] INFO root fetch - processPackages [vegafusion]: executing diffoscope
+[2023-04-19 16:45:05] INFO root fetch - processPackages [vegafusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-1.2.1.tar.gz tmp/vegafusion-1.2.2.tar.gz --markdown 20230419/v/vegafusion/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-19 16:45:05] INFO root fetch - processPackages [etm-dgraham]: Start processing: vegafusion-jupyter
+[2023-04-19 16:45:05] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-04-19 16:45:05] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-04-19 16:45:05] INFO root fetch - processPackages [vegafusion-jupyter]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-19 16:45:05] INFO root fetch - processPackages [RegScale-CLI]: executing diffoscope
+[2023-04-19 16:45:05] INFO root fetch - processPackages [RegScale-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RegScale_CLI-4.25.1-py3-none-any.whl.zip tmp/RegScale_CLI-4.26.0-py3-none-any.whl.zip --markdown 20230419/R/RegScale-CLI/4.25.1-4.26.0/diff.md --exclude *.pyd
+[2023-04-19 16:45:05] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/f1/aa/c63dfbde6b015eadf1150b156f6ca75bc60d93f450a6b1ac9c0d394f64c1/vegafusion-jupyter-1.2.1.tar.gz
+[2023-04-19 16:45:05] INFO root fetch - main [MainThread]: End processing [slpkg]: success
+[2023-04-19 16:45:06] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-04-19 16:45:06] INFO root fetch - main [MainThread]: End processing [melizalab-tools]: success
+[2023-04-19 16:45:06] INFO root fetch - main [MainThread]: End processing [skillsnetwork-authoring-extension]: success
+[2023-04-19 16:45:06] INFO root fetch - main [MainThread]: End processing [navigator-auth]: success
+[2023-04-19 16:45:06] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/f8/d4/b736bc99556774b4e47cdfb8b710ba1930049f71cbb663655ba438a04319/vegafusion-jupyter-1.2.2.tar.gz
+[2023-04-19 16:45:06] INFO root fetch - main [MainThread]: End processing [vegafusion]: success
+[2023-04-19 16:45:07] INFO root fetch - processPackages [vegafusion-jupyter]: executing diffoscope
+[2023-04-19 16:45:07] INFO root fetch - processPackages [vegafusion-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-jupyter-1.2.1.tar.gz tmp/vegafusion-jupyter-1.2.2.tar.gz --markdown 20230419/v/vegafusion-jupyter/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-19 16:45:07] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
+[2023-04-19 16:45:38] INFO root fetch - main [MainThread]: End processing [vegafusion-python-embed]: success
+[2023-04-19 16:46:20] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
+[2023-04-19 16:46:20] INFO root fetch - main [MainThread]: Store serial: [17772434]
