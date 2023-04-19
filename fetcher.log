@@ -20188,3 +20188,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 18:41:05] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-04-19 18:41:09] INFO root fetch - main [MainThread]: End processing [imgui]: success
 [2023-04-19 18:41:09] INFO root fetch - main [MainThread]: Store serial: [17773881]
+[2023-04-19 18:46:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17773881]
+[2023-04-19 18:46:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-19 18:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goodai-ltm
+[2023-04-19 18:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: axdd-person-client
+[2023-04-19 18:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fooder
+[2023-04-19 18:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trame-xterm
+[2023-04-19 18:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbsqlclone
+[2023-04-19 18:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jina
+[2023-04-19 18:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hiddifypanel
+[2023-04-19 18:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rlcard
+[2023-04-19 18:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spconv-cu116
+[2023-04-19 18:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: func-kit
+[2023-04-19 18:46:24] INFO root fetch - processPackages [trame-xterm]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-19 18:46:24] INFO root fetch - processPackages [fooder]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 18:46:24] INFO root fetch - processPackages [dbsqlclone]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 18:46:24] WARNING root fetch - processPackages [goodai-ltm]: Skipping, unable to determine old version
+[2023-04-19 18:46:24] INFO root fetch - processPackages [goodai-ltm]: Start processing: micropython-dps310
+[2023-04-19 18:46:24] INFO root fetch - main [MainThread]: End processing [goodai-ltm] error
+[2023-04-19 18:46:24] INFO root fetch - processPackages [axdd-person-client]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-19 18:46:24] INFO root fetch - processPackages [rlcard]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-19 18:46:24] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-04-19 18:46:24] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-19 18:46:24] INFO root fetch - processPackages [spconv-cu116]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-04-19 18:46:24] INFO root fetch - processPackages [func-kit]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-19 18:46:24] WARNING root fetch - processPackages [micropython-dps310]: Skipping, unable to determine old version
+[2023-04-19 18:46:24] INFO root fetch - processPackages [micropython-dps310]: Start processing: xopt
+[2023-04-19 18:46:24] INFO root fetch - main [MainThread]: End processing [micropython-dps310] error
+[2023-04-19 18:46:24] INFO root fetch - processPackages [trame-xterm]: Downloading https://files.pythonhosted.org/packages/93/39/775ca826eee9ee3145b73141e84fee6c2a81ba5528ea22e3fdb5db25d99f/trame-xterm-0.1.2.tar.gz
+[2023-04-19 18:46:24] INFO root fetch - processPackages [dbsqlclone]: Downloading https://files.pythonhosted.org/packages/5c/3b/25d077adf5009895ff92187030733c4f9d9d67c733a8adf52441ed94deb9/dbsqlclone-0.1.8-py3-none-any.whl
+[2023-04-19 18:46:24] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-19 18:46:24] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230419/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-19 18:46:24] INFO root fetch - processPackages [rlcard]: Downloading https://files.pythonhosted.org/packages/5f/30/b0bc973a177585eb0d038761548d482a317894bd347772852a77adb1d145/rlcard-1.1.0.tar.gz
+[2023-04-19 18:46:24] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/a0/e1/8853679d58725e63c09138e63932993f1ad05d6dd03deaa60c881020ddf8/hiddifypanel-4.0.4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-19 18:46:24] INFO root fetch - processPackages [spconv-cu116]: Downloading https://files.pythonhosted.org/packages/23/61/eac042cc011347cf5c8293427f3cdf55ada4a7cadeaee2169a801f8af950/spconv_cu116-2.3.5-cp39-cp39-win_amd64.whl
+[2023-04-19 18:46:24] INFO root fetch - processPackages [xopt]: New version: [1.3.0] Old Version: [1.2.6]
+[2023-04-19 18:46:24] INFO root fetch - processPackages [axdd-person-client]: Downloading https://files.pythonhosted.org/packages/38/06/a1983fc05c7fddc6bb20b746de8f7c943fd5a64d3627d5a747dffa326c84/axdd-person-client-1.1.2.tar.gz
+[2023-04-19 18:46:24] INFO root fetch - processPackages [fooder]: Downloading https://files.pythonhosted.org/packages/7b/b8/4e837799716558448b78fe43e8cc1f561b865411e391d9024c1bf5ff6df4/fooder-0.0.3.tar.gz
+[2023-04-19 18:46:24] INFO root fetch - processPackages [fooder]: executing diffoscope
+[2023-04-19 18:46:24] INFO root fetch - processPackages [fooder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fooder-0.0.2.tar.gz tmp/fooder-0.0.3.tar.gz --markdown 20230419/f/fooder/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 18:46:24] INFO root fetch - processPackages [axdd-person-client]: executing diffoscope
+[2023-04-19 18:46:24] INFO root fetch - processPackages [axdd-person-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axdd-person-client-1.1.1.tar.gz tmp/axdd-person-client-1.1.2.tar.gz --markdown 20230419/a/axdd-person-client/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-19 18:46:24] WARNING root fetch - processPackages [spconv-cu116]: Skipping package: exceeds size limit 68116984>=10485760
+[2023-04-19 18:46:24] INFO root fetch - main [MainThread]: End processing [spconv-cu116] error
+[2023-04-19 18:46:24] INFO root fetch - processPackages [func-kit]: Downloading https://files.pythonhosted.org/packages/2c/64/67f9f7a0bea23474c84c86ebe63344da2ed47e001e41395d063ce079df3b/func_kit-0.1.4.tar.gz
+[2023-04-19 18:46:24] INFO root fetch - processPackages [trame-xterm]: Downloading https://files.pythonhosted.org/packages/39/9a/c6168dfb4dcaff42a9e2bc280584992c04ee744873fbb6442e75043f6131/trame-xterm-0.1.3.tar.gz
+[2023-04-19 18:46:24] INFO root fetch - processPackages [xopt]: Downloading https://files.pythonhosted.org/packages/2f/e5/62b5bc9068af192ca674a966aa5eca3049e67f438dcb3bc28d5c76da1268/xopt-1.2.6.tar.gz
+[2023-04-19 18:46:24] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-19 18:46:24] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.3-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.4-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230419/h/hiddifypanel/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-04-19 18:46:24] INFO root fetch - processPackages [func-kit]: executing diffoscope
+[2023-04-19 18:46:24] INFO root fetch - processPackages [func-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func_kit-0.1.3.tar.gz tmp/func_kit-0.1.4.tar.gz --markdown 20230419/f/func-kit/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-19 18:46:24] INFO root fetch - processPackages [trame-xterm]: executing diffoscope
+[2023-04-19 18:46:24] INFO root fetch - processPackages [trame-xterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-xterm-0.1.2.tar.gz tmp/trame-xterm-0.1.3.tar.gz --markdown 20230419/t/trame-xterm/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-19 18:46:24] INFO root fetch - processPackages [rlcard]: Downloading https://files.pythonhosted.org/packages/d4/d2/6bb5b8d6743c7846a03187cf7d5d7cb73cee94aa129a57f449310bdf33be/rlcard-1.2.0.tar.gz
+[2023-04-19 18:46:24] INFO root fetch - processPackages [rlcard]: executing diffoscope
+[2023-04-19 18:46:24] INFO root fetch - processPackages [rlcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlcard-1.1.0.tar.gz tmp/rlcard-1.2.0.tar.gz --markdown 20230419/r/rlcard/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-19 18:46:24] INFO root fetch - processPackages [xopt]: Downloading https://files.pythonhosted.org/packages/76/93/93b0c0134f510b6df9f14ea06a2d6553df127aa05da03ab1a80f29b8085e/xopt-1.3.0.tar.gz
+[2023-04-19 18:46:24] INFO root fetch - processPackages [dbsqlclone]: Downloading https://files.pythonhosted.org/packages/97/66/ab70f5efb866ced4bd1cb01cad991391c38de6937f1f060ec3ab1791a180/dbsqlclone-0.1.9-py3-none-any.whl
+[2023-04-19 18:46:25] INFO root fetch - processPackages [xopt]: executing diffoscope
+[2023-04-19 18:46:25] INFO root fetch - processPackages [xopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xopt-1.2.6.tar.gz tmp/xopt-1.3.0.tar.gz --markdown 20230419/x/xopt/1.2.6-1.3.0/diff.md --exclude *.pyd
+[2023-04-19 18:46:25] INFO root fetch - processPackages [dbsqlclone]: executing diffoscope
+[2023-04-19 18:46:25] INFO root fetch - processPackages [dbsqlclone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbsqlclone-0.1.8-py3-none-any.whl.zip tmp/dbsqlclone-0.1.9-py3-none-any.whl.zip --markdown 20230419/d/dbsqlclone/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 18:46:26] INFO root fetch - main [MainThread]: End processing [func-kit]: success
+[2023-04-19 18:46:26] INFO root fetch - main [MainThread]: End processing [fooder]: success
+[2023-04-19 18:46:26] INFO root fetch - main [MainThread]: End processing [trame-xterm]: success
+[2023-04-19 18:46:26] INFO root fetch - main [MainThread]: End processing [dbsqlclone]: success
+[2023-04-19 18:46:26] INFO root fetch - main [MainThread]: End processing [axdd-person-client]: success
+[2023-04-19 18:46:26] INFO root fetch - main [MainThread]: End processing [xopt]: success
+[2023-04-19 18:46:27] INFO root fetch - main [MainThread]: End processing [rlcard]: success
+[2023-04-19 18:46:28] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-19 18:46:42] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-19 18:46:42] INFO root fetch - main [MainThread]: Store serial: [17774007]
