@@ -13644,3 +13644,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 13:08:57] INFO root fetch - main [MainThread]: End processing [sdkit]: success
 [2023-04-19 13:08:57] INFO root fetch - main [MainThread]: End processing [huble]: success
 [2023-04-19 13:08:57] INFO root fetch - main [MainThread]: Store serial: [17769993]
+[2023-04-19 13:14:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17769993]
+[2023-04-19 13:14:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-19 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-nano
+[2023-04-19 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-chronos
+[2023-04-19 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Jvav
+[2023-04-19 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2023-04-19 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-serving
+[2023-04-19 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hiddifypanel
+[2023-04-19 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: akerbp.mlops
+[2023-04-19 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mkdocs-roamlinks-plugin
+[2023-04-19 13:14:06] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230419110919] Old Version: [2.0.3.dev20230418202015]
+[2023-04-19 13:14:06] INFO root fetch - processPackages [Jvav]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-19 13:14:06] INFO root fetch - processPackages [bigdl-nano]: New version: [2.3.0b20230419] Old Version: [2.3.0b20230418]
+[2023-04-19 13:14:06] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.0.dev61] Old Version: [4.0.0.dev60]
+[2023-04-19 13:14:06] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.3.0b20230419] Old Version: [2.3.0b20230418]
+[2023-04-19 13:14:06] INFO root fetch - processPackages [bigdl-serving]: New version: [2.3.0b20230419] Old Version: [2.3.0b20230418]
+[2023-04-19 13:14:06] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.0.1a9] Old Version: [3.0.1a8]
+[2023-04-19 13:14:06] INFO root fetch - processPackages [mkdocs-roamlinks-plugin]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-19 13:14:07] INFO root fetch - processPackages [Jvav]: executing diffoscope
+[2023-04-19 13:14:07] INFO root fetch - processPackages [Jvav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jvav-1.2.8.tar.gz tmp/Jvav-1.2.9.tar.gz --markdown 20230419/J/Jvav/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-19 13:14:07] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/0f/60/fc910eeccdd22152393ee821c266a4cf1c9a7267aedcb0274c36f2c7ac18/localstack-core-2.0.3.dev20230419110919.tar.gz
+[2023-04-19 13:14:07] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/ac/27/2a42d7670cc81d1c15997a019d2f873a302a580d7497099221b452a87790/hiddifypanel-4.0.0.dev61-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-19 13:14:07] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/36/71/82f73f807f2bda99c1c45ef2457122db492f905ebeb607a74986e240c74d/bigdl_serving-2.3.0b20230419-py2.py3-none-any.whl
+[2023-04-19 13:14:07] INFO root fetch - processPackages [mkdocs-roamlinks-plugin]: Downloading https://files.pythonhosted.org/packages/d9/80/b7b8f0226d834830a706742a80da0a05b25f26f95418e8517e7b0b072d11/mkdocs-roamlinks-plugin-0.3.0.tar.gz
+[2023-04-19 13:14:07] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/78/9c/f4ec222282c8607837f8c2a9fbef73256c2b2006af2c82dde25537b0b10d/bigdl_nano-2.3.0b20230419-py3-none-win_amd64.whl
+[2023-04-19 13:14:07] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/8a/78/f67be83258900984df14614cb4f5b3feb8a580875e634b88e7e5a14d393d/bigdl_chronos-2.3.0b20230419-py3-none-win_amd64.whl
+[2023-04-19 13:14:07] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/26/61/3c4af665359f4ebf31e65df9273b9727b862189ab95fa316e3c50d339fde/akerbp.mlops-3.0.1a9.tar.gz
+[2023-04-19 13:14:07] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-04-19 13:14:07] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.3.0b20230418-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.3.0b20230419-py2.py3-none-any.whl.zip --markdown 20230419/b/bigdl-serving/2.3.0b20230418-2.3.0b20230419/diff.md --exclude *.pyd
+[2023-04-19 13:14:07] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-04-19 13:14:07] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.3.0b20230418-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.3.0b20230419-py3-none-win_amd64.whl.zip --markdown 20230419/b/bigdl-chronos/2.3.0b20230418-2.3.0b20230419/diff.md --exclude *.pyd
+[2023-04-19 13:14:07] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-19 13:14:07] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230418202015.tar.gz tmp/localstack-core-2.0.3.dev20230419110919.tar.gz --markdown 20230419/l/localstack-core/2.0.3.dev20230418202015-2.0.3.dev20230419110919/diff.md --exclude *.pyd
+[2023-04-19 13:14:07] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-04-19 13:14:07] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.0.1a8.tar.gz tmp/akerbp.mlops-3.0.1a9.tar.gz --markdown 20230419/a/akerbp.mlops/3.0.1a8-3.0.1a9/diff.md --exclude *.pyd
+[2023-04-19 13:14:07] INFO root fetch - processPackages [mkdocs-roamlinks-plugin]: Downloading https://files.pythonhosted.org/packages/9f/46/84c510cdb657486a9d312478590618885423d277ecb1b65d4dfff4b4cf38/mkdocs-roamlinks-plugin-0.3.1.tar.gz
+[2023-04-19 13:14:07] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-04-19 13:14:07] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.3.0b20230418-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.3.0b20230419-py3-none-win_amd64.whl.zip --markdown 20230419/b/bigdl-nano/2.3.0b20230418-2.3.0b20230419/diff.md --exclude *.pyd
+[2023-04-19 13:14:07] INFO root fetch - processPackages [mkdocs-roamlinks-plugin]: executing diffoscope
+[2023-04-19 13:14:07] INFO root fetch - processPackages [mkdocs-roamlinks-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-roamlinks-plugin-0.3.0.tar.gz tmp/mkdocs-roamlinks-plugin-0.3.1.tar.gz --markdown 20230419/m/mkdocs-roamlinks-plugin/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-19 13:14:08] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-04-19 13:14:08] INFO root fetch - main [MainThread]: End processing [Jvav]: success
+[2023-04-19 13:14:08] INFO root fetch - main [MainThread]: End processing [mkdocs-roamlinks-plugin]: success
+[2023-04-19 13:14:08] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-19 13:14:08] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.0.dev60-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.0.dev61-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230419/h/hiddifypanel/4.0.0.dev60-4.0.0.dev61/diff.md --exclude *.pyd
+[2023-04-19 13:14:08] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-04-19 13:14:09] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-04-19 13:14:10] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-04-19 13:14:13] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-19 13:14:26] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-19 13:14:26] INFO root fetch - main [MainThread]: Store serial: [17770021]
