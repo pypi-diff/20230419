@@ -9553,3 +9553,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 10:04:44] INFO root fetch - main [MainThread]: End processing [kolla]: success
 [2023-04-19 10:05:27] INFO root fetch - main [MainThread]: End processing [kolla-ansible]: success
 [2023-04-19 10:05:27] INFO root fetch - main [MainThread]: Store serial: [17767547]
+[2023-04-19 10:10:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17767547]
+[2023-04-19 10:10:37] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-19 10:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chemex
+[2023-04-19 10:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: returnn
+[2023-04-19 10:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Pygmenu
+[2023-04-19 10:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hacking
+[2023-04-19 10:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unitn-course-scraper
+[2023-04-19 10:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gitlab-runner-tart-driver
+[2023-04-19 10:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyglove
+[2023-04-19 10:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: funding-service-design-utils
+[2023-04-19 10:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rasa
+[2023-04-19 10:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jillw
+[2023-04-19 10:10:37] INFO root fetch - processPackages [hacking]: New version: [6.0.0] Old Version: [5.0.0]
+[2023-04-19 10:10:37] WARNING root fetch - processPackages [Pygmenu]: Skipping, unable to determine old version
+[2023-04-19 10:10:37] INFO root fetch - processPackages [Pygmenu]: Start processing: unitn-course-scraper
+[2023-04-19 10:10:37] INFO root fetch - main [MainThread]: End processing [Pygmenu] error
+[2023-04-19 10:10:37] INFO root fetch - processPackages [unitn-course-scraper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 10:10:37] INFO root fetch - processPackages [chemex]: New version: [2022.3.3] Old Version: [2022.3.2]
+[2023-04-19 10:10:37] INFO root fetch - processPackages [gitlab-runner-tart-driver]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 10:10:37] INFO root fetch - processPackages [jillw]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-19 10:10:37] INFO root fetch - processPackages [returnn]: New version: [1.20230419.94650] Old Version: [1.20230419.74255]
+[2023-04-19 10:10:37] INFO root fetch - processPackages [rasa]: New version: [3.5.4] Old Version: [3.5.3]
+[2023-04-19 10:10:37] INFO root fetch - processPackages [funding-service-design-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 10:10:37] INFO root fetch - processPackages [unitn-course-scraper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 10:10:37] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230419] Old Version: [0.3.1.dev20230418]
+[2023-04-19 10:10:38] INFO root fetch - processPackages [hacking]: Downloading https://files.pythonhosted.org/packages/8d/94/d46c1019bdcce298d538bc8af8166d0e788cba0d4974e71adcb0a96d893e/hacking-5.0.0.tar.gz
+[2023-04-19 10:10:38] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Downloading https://files.pythonhosted.org/packages/61/b2/88709be47aac711bbb344eec4a38884b814d3ffa71e5c09f481de426539f/gitlab-runner-tart-driver-0.1.1.tar.gz
+[2023-04-19 10:10:38] INFO root fetch - processPackages [unitn-course-scraper]: Downloading https://files.pythonhosted.org/packages/1d/30/6c2dc0e54ee1b5025ba26e0ca842f6000aaf74fd2f8d6242569decdd0a85/unitn_course_scraper-0.0.9.tar.gz
+[2023-04-19 10:10:38] INFO root fetch - processPackages [unitn-course-scraper]: Downloading https://files.pythonhosted.org/packages/1d/30/6c2dc0e54ee1b5025ba26e0ca842f6000aaf74fd2f8d6242569decdd0a85/unitn_course_scraper-0.0.9.tar.gz
+[2023-04-19 10:10:38] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/78/2d/dfb0deec146e42dea71a83b9788c56271ef6dd8ec249722552d48c9855bf/returnn-1.20230419.94650.tar.gz
+[2023-04-19 10:10:38] INFO root fetch - processPackages [jillw]: Downloading https://files.pythonhosted.org/packages/dc/9b/c14eca89f4e2a2d6138ecdb641d59154bd20d2b99e83bb002f4687bde6d6/jillw-0.2.3.tar.gz
+[2023-04-19 10:10:38] INFO root fetch - processPackages [funding-service-design-utils]: executing diffoscope
+[2023-04-19 10:10:38] INFO root fetch - processPackages [funding-service-design-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funding-service-design-utils-1.0.8.tar.gz tmp/funding-service-design-utils-1.0.9.tar.gz --markdown 20230419/f/funding-service-design-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 10:10:38] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/a3/c4/e2392b8dcb2bef0b69a69392bb98e70a1f6c2615531f255469ed7611d989/pyglove-0.3.1.dev20230419.tar.gz
+[2023-04-19 10:10:38] INFO root fetch - processPackages [unitn-course-scraper]: executing diffoscope
+[2023-04-19 10:10:38] INFO root fetch - processPackages [unitn-course-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitn_course_scraper-0.0.8.tar.gz tmp/unitn_course_scraper-0.0.9.tar.gz --markdown 20230419/u/unitn-course-scraper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 10:10:38] INFO root fetch - processPackages [unitn-course-scraper]: executing diffoscope
+[2023-04-19 10:10:38] INFO root fetch - processPackages [unitn-course-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitn_course_scraper-0.0.8.tar.gz tmp/unitn_course_scraper-0.0.9.tar.gz --markdown 20230419/u/unitn-course-scraper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 10:10:38] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-19 10:10:38] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230419.74255.tar.gz tmp/returnn-1.20230419.94650.tar.gz --markdown 20230419/r/returnn/1.20230419.74255-1.20230419.94650/diff.md --exclude *.pyd
+[2023-04-19 10:10:38] INFO root fetch - processPackages [chemex]: Downloading https://files.pythonhosted.org/packages/38/24/6f1bcf046793f3c282d5e739f01be09769fc22c7a674f8896bb280fd9f21/chemex-2022.3.3.tar.gz
+[2023-04-19 10:10:38] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/32/88/64024cd3db0528be7e9159eda1fd4818509e6398ffffed31d5f874658add/rasa-3.5.3.tar.gz
+[2023-04-19 10:10:38] INFO root fetch - processPackages [chemex]: executing diffoscope
+[2023-04-19 10:10:38] INFO root fetch - processPackages [chemex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemex-2022.3.2.tar.gz tmp/chemex-2022.3.3.tar.gz --markdown 20230419/c/chemex/2022.3.2-2022.3.3/diff.md --exclude *.pyd
+[2023-04-19 10:10:38] INFO root fetch - processPackages [hacking]: Downloading https://files.pythonhosted.org/packages/1e/1b/f8c55bd3a5d8efda20f1a0ec10f99618c43cf500cad302bd5317ccd17d52/hacking-6.0.0.tar.gz
+[2023-04-19 10:10:38] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Downloading https://files.pythonhosted.org/packages/ed/ff/ac4dd881c620a38171c89c479b18f81eb62594a28072a3311361bc8a0183/gitlab-runner-tart-driver-0.1.2.tar.gz
+[2023-04-19 10:10:38] INFO root fetch - processPackages [hacking]: executing diffoscope
+[2023-04-19 10:10:38] INFO root fetch - processPackages [hacking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacking-5.0.0.tar.gz tmp/hacking-6.0.0.tar.gz --markdown 20230419/h/hacking/5.0.0-6.0.0/diff.md --exclude *.pyd
+[2023-04-19 10:10:38] INFO root fetch - processPackages [jillw]: Downloading https://files.pythonhosted.org/packages/a7/2e/021a78882b9dde36248be257564e4b72be580a9cfb3dc969c7fca1e68f38/jillw-0.2.4.tar.gz
+[2023-04-19 10:10:38] INFO root fetch - processPackages [gitlab-runner-tart-driver]: executing diffoscope
+[2023-04-19 10:10:38] INFO root fetch - processPackages [gitlab-runner-tart-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab-runner-tart-driver-0.1.1.tar.gz tmp/gitlab-runner-tart-driver-0.1.2.tar.gz --markdown 20230419/g/gitlab-runner-tart-driver/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 10:10:38] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/d1/53/d32ff1613a137ff903136c70234d6c88b5d1f5aa062c08fcf4dc34eaf702/rasa-3.5.4.tar.gz
+[2023-04-19 10:10:38] INFO root fetch - processPackages [jillw]: executing diffoscope
+[2023-04-19 10:10:38] INFO root fetch - processPackages [jillw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jillw-0.2.3.tar.gz tmp/jillw-0.2.4.tar.gz --markdown 20230419/j/jillw/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-19 10:10:38] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-04-19 10:10:38] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230418.tar.gz tmp/pyglove-0.3.1.dev20230419.tar.gz --markdown 20230419/p/pyglove/0.3.1.dev20230418-0.3.1.dev20230419/diff.md --exclude *.pyd
+[2023-04-19 10:10:38] INFO root fetch - processPackages [rasa]: executing diffoscope
+[2023-04-19 10:10:38] INFO root fetch - processPackages [rasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa-3.5.3.tar.gz tmp/rasa-3.5.4.tar.gz --markdown 20230419/r/rasa/3.5.3-3.5.4/diff.md --exclude *.pyd
+[2023-04-19 10:10:40] INFO root fetch - processPackages [unitn-course-scraper]: Start processing: cg
+[2023-04-19 10:10:40] INFO root fetch - main [MainThread]: End processing [unitn-course-scraper]: success
+[2023-04-19 10:10:40] INFO root fetch - processPackages [cg]: New version: [29.0.0] Old Version: [28.0.5]
+[2023-04-19 10:10:40] INFO root fetch - processPackages [jillw]: Start processing: pina-mathlab
+[2023-04-19 10:10:40] INFO root fetch - main [MainThread]: End processing [jillw]: success
+[2023-04-19 10:10:40] INFO root fetch - processPackages [pina-mathlab]: New version: [0.0.2.dev0] Old Version: [0.0.1]
+[2023-04-19 10:10:40] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Start processing: eQTac
+[2023-04-19 10:10:40] INFO root fetch - main [MainThread]: End processing [gitlab-runner-tart-driver]: success
+[2023-04-19 10:10:40] INFO root fetch - main [MainThread]: End processing [unitn-course-scraper]: success
+[2023-04-19 10:10:40] INFO root fetch - processPackages [eQTac]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-19 10:10:40] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/9f/5b/f63a9e82509a8f45ac72e4f8e2696587b817e82751fc56c401f1fdd51143/cg-28.0.5.tar.gz
+[2023-04-19 10:10:40] INFO root fetch - processPackages [pina-mathlab]: Downloading https://files.pythonhosted.org/packages/fb/26/510f4fc093726085e288986284b4d42a82234de85ca9671541a3524ff44a/pina-mathlab-0.0.1.tar.gz
+[2023-04-19 10:10:40] INFO root fetch - processPackages [eQTac]: Downloading https://files.pythonhosted.org/packages/b8/08/386ff511caa383b08751f0823a89ad763cbb7ddc1327608a3ba5d9bce5f3/eQTac-1.0.2.tar.gz
+[2023-04-19 10:10:40] INFO root fetch - main [MainThread]: End processing [hacking]: success
+[2023-04-19 10:10:40] INFO root fetch - main [MainThread]: End processing [chemex]: success
+[2023-04-19 10:10:40] INFO root fetch - main [MainThread]: End processing [funding-service-design-utils]: success
+[2023-04-19 10:10:40] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/9c/a7/f4df9dc6bb8eb9b6c9374343475174e6bc11e57ef08c04c3f93f9a017e11/cg-29.0.0.tar.gz
+[2023-04-19 10:10:40] INFO root fetch - processPackages [pina-mathlab]: Downloading https://files.pythonhosted.org/packages/6a/c1/f7a6ebda6e8aa0c37594e9e6d500a6ae4c193da8fda16392d9f92dbc8948/pina-mathlab-0.0.2.dev0.tar.gz
+[2023-04-19 10:10:40] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-19 10:10:40] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-28.0.5.tar.gz tmp/cg-29.0.0.tar.gz --markdown 20230419/c/cg/28.0.5-29.0.0/diff.md --exclude *.pyd
+[2023-04-19 10:10:40] INFO root fetch - processPackages [eQTac]: Downloading https://files.pythonhosted.org/packages/1a/fe/24be637b24163c3ce6274c281fd430e12ef427b1a6cef4ac789294955a31/eQTac-1.0.3.tar.gz
+[2023-04-19 10:10:40] INFO root fetch - processPackages [pina-mathlab]: executing diffoscope
+[2023-04-19 10:10:40] INFO root fetch - processPackages [pina-mathlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pina-mathlab-0.0.1.tar.gz tmp/pina-mathlab-0.0.2.dev0.tar.gz --markdown 20230419/p/pina-mathlab/0.0.1-0.0.2.dev0/diff.md --exclude *.pyd
+[2023-04-19 10:10:40] INFO root fetch - processPackages [eQTac]: executing diffoscope
+[2023-04-19 10:10:40] INFO root fetch - processPackages [eQTac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eQTac-1.0.2.tar.gz tmp/eQTac-1.0.3.tar.gz --markdown 20230419/e/eQTac/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-19 10:10:41] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-04-19 10:10:41] INFO root fetch - main [MainThread]: End processing [eQTac]: success
+[2023-04-19 10:10:42] INFO root fetch - main [MainThread]: End processing [rasa]: success
+[2023-04-19 10:10:42] INFO root fetch - main [MainThread]: End processing [pina-mathlab]: success
+[2023-04-19 10:10:42] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-19 10:10:51] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-19 10:10:51] INFO root fetch - main [MainThread]: Store serial: [17767590]
