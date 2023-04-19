@@ -4935,3 +4935,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 04:12:18] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
 [2023-04-19 04:12:19] INFO root fetch - main [MainThread]: End processing [toxicTrig]: success
 [2023-04-19 04:12:19] INFO root fetch - main [MainThread]: Store serial: [17764951]
+[2023-04-19 04:17:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17764951]
+[2023-04-19 04:17:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-19 04:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datadog-checks-base
+[2023-04-19 04:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yookassa-async
+[2023-04-19 04:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pawnlib
+[2023-04-19 04:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lytool
+[2023-04-19 04:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asie-api
+[2023-04-19 04:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asie-api
+[2023-04-19 04:17:27] INFO root fetch - processPackages [datadog-checks-base]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-04-19 04:17:27] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 04:17:27] INFO root fetch - processPackages [lytool]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-19 04:17:27] INFO root fetch - processPackages [yookassa-async]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 04:17:27] INFO root fetch - processPackages [asie-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 04:17:27] INFO root fetch - processPackages [asie-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 04:17:27] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-19 04:17:27] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230419/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 04:17:27] INFO root fetch - processPackages [asie-api]: Downloading https://files.pythonhosted.org/packages/63/ae/6f412b68ee0449c4e9da4ea596e63ba8c4261106a79b406bab6930cc8df0/asie_api-0.0.1-py3-none-any.whl
+[2023-04-19 04:17:27] INFO root fetch - processPackages [asie-api]: Downloading https://files.pythonhosted.org/packages/63/ae/6f412b68ee0449c4e9da4ea596e63ba8c4261106a79b406bab6930cc8df0/asie_api-0.0.1-py3-none-any.whl
+[2023-04-19 04:17:27] INFO root fetch - processPackages [yookassa-async]: Downloading https://files.pythonhosted.org/packages/59/3d/666bc956117088e358ebae820f8f44796fb2361ff7be0986fcab5479868f/yookassa_async-0.1.0.tar.gz
+[2023-04-19 04:17:27] INFO root fetch - processPackages [lytool]: Downloading https://files.pythonhosted.org/packages/d5/15/09cfba51f237539eab8ec1833e10ee0cff0bab4a44754e0119974f90ab19/lytool-0.0.7.tar.gz
+[2023-04-19 04:17:28] INFO root fetch - processPackages [datadog-checks-base]: executing diffoscope
+[2023-04-19 04:17:28] INFO root fetch - processPackages [datadog-checks-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_base-9.5.0-py2.py3-none-any.whl.zip tmp/datadog_checks_base-9.6.0-py2.py3-none-any.whl.zip --markdown 20230419/d/datadog-checks-base/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-04-19 04:17:28] INFO root fetch - processPackages [asie-api]: Downloading https://files.pythonhosted.org/packages/bd/06/b231b1f4ff582c35157a5a97bc9aa8c4ea3a58ffe9877b5d9bbbfd647504/asie_api-0.0.2-py3-none-any.whl
+[2023-04-19 04:17:28] INFO root fetch - processPackages [asie-api]: Downloading https://files.pythonhosted.org/packages/bd/06/b231b1f4ff582c35157a5a97bc9aa8c4ea3a58ffe9877b5d9bbbfd647504/asie_api-0.0.2-py3-none-any.whl
+[2023-04-19 04:17:28] INFO root fetch - processPackages [yookassa-async]: Downloading https://files.pythonhosted.org/packages/da/9c/b1ba91586e813fd2fcef7690372126b5d92584cee5cb09e14687a103dbcb/yookassa_async-0.1.1.tar.gz
+[2023-04-19 04:17:28] INFO root fetch - processPackages [lytool]: Downloading https://files.pythonhosted.org/packages/f9/2a/ea324443c9f000230f929152fdd7e8a9074de38ecf50161af6b74fd8b763/lytool-0.0.8.tar.gz
+[2023-04-19 04:17:28] INFO root fetch - processPackages [asie-api]: executing diffoscope
+[2023-04-19 04:17:28] INFO root fetch - processPackages [asie-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asie_api-0.0.1-py3-none-any.whl.zip tmp/asie_api-0.0.2-py3-none-any.whl.zip --markdown 20230419/a/asie-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 04:17:28] INFO root fetch - processPackages [asie-api]: executing diffoscope
+[2023-04-19 04:17:28] INFO root fetch - processPackages [asie-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asie_api-0.0.1-py3-none-any.whl.zip tmp/asie_api-0.0.2-py3-none-any.whl.zip --markdown 20230419/a/asie-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 04:17:28] INFO root fetch - processPackages [yookassa-async]: executing diffoscope
+[2023-04-19 04:17:28] INFO root fetch - processPackages [yookassa-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yookassa_async-0.1.0.tar.gz tmp/yookassa_async-0.1.1.tar.gz --markdown 20230419/y/yookassa-async/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 04:17:28] INFO root fetch - processPackages [lytool]: executing diffoscope
+[2023-04-19 04:17:28] INFO root fetch - processPackages [lytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytool-0.0.7.tar.gz tmp/lytool-0.0.8.tar.gz --markdown 20230419/l/lytool/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-19 04:17:29] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-19 04:17:29] INFO root fetch - main [MainThread]: End processing [asie-api]: success
+[2023-04-19 04:17:29] INFO root fetch - main [MainThread]: End processing [asie-api]: success
+[2023-04-19 04:17:29] INFO root fetch - main [MainThread]: End processing [lytool]: success
+[2023-04-19 04:17:30] INFO root fetch - main [MainThread]: End processing [datadog-checks-base]: success
+[2023-04-19 04:17:31] INFO root fetch - main [MainThread]: End processing [yookassa-async]: success
+[2023-04-19 04:17:31] INFO root fetch - main [MainThread]: Store serial: [17764972]
