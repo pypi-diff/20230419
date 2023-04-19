@@ -14654,3 +14654,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 14:12:14] INFO root fetch - main [MainThread]: End processing [hhb]: success
 [2023-04-19 14:12:16] INFO root fetch - main [MainThread]: End processing [alphaz]: success
 [2023-04-19 14:12:16] INFO root fetch - main [MainThread]: Store serial: [17770587]
+[2023-04-19 14:17:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17770587]
+[2023-04-19 14:17:26] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-19 14:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gptdeploy
+[2023-04-19 14:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-feedback-govuk
+[2023-04-19 14:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nitrado
+[2023-04-19 14:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autohooks-plugin-isort
+[2023-04-19 14:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sarus-data-spec-public
+[2023-04-19 14:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: artistools
+[2023-04-19 14:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nitrado
+[2023-04-19 14:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coretex
+[2023-04-19 14:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: magic-duckdb
+[2023-04-19 14:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: matter-api-client
+[2023-04-19 14:17:26] INFO root fetch - processPackages [nitrado]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-19 14:17:26] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-19 14:17:26] INFO root fetch - processPackages [artistools]: New version: [2023.4.19] Old Version: [2022.8.23]
+[2023-04-19 14:17:26] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.0.1.dev3] Old Version: [3.0.1.dev2]
+[2023-04-19 14:17:26] INFO root fetch - processPackages [django-feedback-govuk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-19 14:17:26] INFO root fetch - processPackages [autohooks-plugin-isort]: New version: [23.4.0] Old Version: [22.8.0]
+[2023-04-19 14:17:26] INFO root fetch - processPackages [nitrado]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-19 14:17:26] INFO root fetch - processPackages [matter-api-client]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-19 14:17:26] INFO root fetch - processPackages [magic-duckdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 14:17:26] INFO root fetch - processPackages [coretex]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 14:17:26] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/94/47/5e2fa3c574eb06a62cb37fa8ba6647e9fdf611d1f2a5b6001d5aca277c64/nitrado-1.0.4.tar.gz
+[2023-04-19 14:17:26] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/94/47/5e2fa3c574eb06a62cb37fa8ba6647e9fdf611d1f2a5b6001d5aca277c64/nitrado-1.0.4.tar.gz
+[2023-04-19 14:17:27] INFO root fetch - processPackages [artistools]: Downloading https://files.pythonhosted.org/packages/15/ca/e155f6588886c279780f1110834772a1b76c642b6cfd8fbd14f4c1620a5f/artistools-2022.8.23.tar.gz
+[2023-04-19 14:17:27] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/18/a8/85e75ab3cca32462754484301448a81a8cb1e0dabaab5b796290cfc039f8/sarus_data_spec_public-3.0.1.dev3.tar.gz
+[2023-04-19 14:17:27] INFO root fetch - processPackages [autohooks-plugin-isort]: Downloading https://files.pythonhosted.org/packages/c7/d0/9e482a851b2a0fd236cf32b2bb00a69bb559b654f488e811dfc137eac81d/autohooks-plugin-isort-22.8.0.tar.gz
+[2023-04-19 14:17:27] INFO root fetch - processPackages [django-feedback-govuk]: Downloading https://files.pythonhosted.org/packages/14/83/3eb3a9e8f80e6f81afdae04d223cc26d1122a221932c5c0db01eba7bb23a/django_feedback_govuk-0.1.2.tar.gz
+[2023-04-19 14:17:27] INFO root fetch - processPackages [matter-api-client]: Downloading https://files.pythonhosted.org/packages/fd/7a/6b08c21cc7b0994dc594bd110973ae20976e3723828833b82e2189e46b93/matter_api_client-1.0.0-py3-none-any.whl
+[2023-04-19 14:17:27] INFO root fetch - processPackages [magic-duckdb]: executing diffoscope
+[2023-04-19 14:17:27] INFO root fetch - processPackages [magic-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_duckdb-0.1.8-py3-none-any.whl.zip tmp/magic_duckdb-0.1.9-py3-none-any.whl.zip --markdown 20230419/m/magic-duckdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 14:17:27] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-04-19 14:17:27] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.0.1.dev2.tar.gz tmp/sarus_data_spec_public-3.0.1.dev3.tar.gz --markdown 20230419/s/sarus-data-spec-public/3.0.1.dev2-3.0.1.dev3/diff.md --exclude *.pyd
+[2023-04-19 14:17:27] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/90/ff/0e9cdd00f88c95a38bb2c3b00b5f95db5e8e36c72d3241a35dfcdcbb564a/nitrado-1.0.5.tar.gz
+[2023-04-19 14:17:27] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/90/ff/0e9cdd00f88c95a38bb2c3b00b5f95db5e8e36c72d3241a35dfcdcbb564a/nitrado-1.0.5.tar.gz
+[2023-04-19 14:17:27] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-04-19 14:17:27] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-0.0.8.tar.gz tmp/coretex-0.0.9.tar.gz --markdown 20230419/c/coretex/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 14:17:27] INFO root fetch - processPackages [django-feedback-govuk]: Downloading https://files.pythonhosted.org/packages/ad/49/5ee8a4a8173a94017d6e7ed55a8d23f556ffe660acd2886097ccc289f851/django_feedback_govuk-0.1.3.tar.gz
+[2023-04-19 14:17:27] INFO root fetch - processPackages [matter-api-client]: Downloading https://files.pythonhosted.org/packages/f7/1e/58bd04bfb182f94051d6d560da058e403b6c489e443632d4a6ac99d62a36/matter_api_client-1.1.0-py3-none-any.whl
+[2023-04-19 14:17:27] INFO root fetch - processPackages [autohooks-plugin-isort]: Downloading https://files.pythonhosted.org/packages/da/f6/00103875d43218c405f29954cf9894f2e7fbbd20a4295ebb3ea674566b5b/autohooks_plugin_isort-23.4.0.tar.gz
+[2023-04-19 14:17:27] INFO root fetch - processPackages [django-feedback-govuk]: executing diffoscope
+[2023-04-19 14:17:27] INFO root fetch - processPackages [django-feedback-govuk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_feedback_govuk-0.1.2.tar.gz tmp/django_feedback_govuk-0.1.3.tar.gz --markdown 20230419/d/django-feedback-govuk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-19 14:17:27] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-04-19 14:17:27] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.4.tar.gz tmp/nitrado-1.0.5.tar.gz --markdown 20230419/n/nitrado/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-19 14:17:27] INFO root fetch - processPackages [matter-api-client]: executing diffoscope
+[2023-04-19 14:17:27] INFO root fetch - processPackages [matter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matter_api_client-1.0.0-py3-none-any.whl.zip tmp/matter_api_client-1.1.0-py3-none-any.whl.zip --markdown 20230419/m/matter-api-client/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-19 14:17:27] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-04-19 14:17:27] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.4.tar.gz tmp/nitrado-1.0.5.tar.gz --markdown 20230419/n/nitrado/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-19 14:17:27] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-19 14:17:27] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230419/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-19 14:17:27] INFO root fetch - processPackages [autohooks-plugin-isort]: executing diffoscope
+[2023-04-19 14:17:27] INFO root fetch - processPackages [autohooks-plugin-isort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autohooks-plugin-isort-22.8.0.tar.gz tmp/autohooks_plugin_isort-23.4.0.tar.gz --markdown 20230419/a/autohooks-plugin-isort/22.8.0-23.4.0/diff.md --exclude *.pyd
+[2023-04-19 14:17:27] INFO root fetch - processPackages [artistools]: Downloading https://files.pythonhosted.org/packages/7c/f0/ebf6a96cf01022dbe87fa1e676472252c86aa7459d4d172ac8a10ecb4d7d/artistools-2023.4.19.tar.gz
+[2023-04-19 14:17:27] INFO root fetch - processPackages [artistools]: executing diffoscope
+[2023-04-19 14:17:27] INFO root fetch - processPackages [artistools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artistools-2022.8.23.tar.gz tmp/artistools-2023.4.19.tar.gz --markdown 20230419/a/artistools/2022.8.23-2023.4.19/diff.md --exclude *.pyd
+[2023-04-19 14:17:28] INFO root fetch - processPackages [magic-duckdb]: Start processing: izy
+[2023-04-19 14:17:28] INFO root fetch - main [MainThread]: End processing [magic-duckdb]: success
+[2023-04-19 14:17:28] INFO root fetch - processPackages [izy]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-19 14:17:28] INFO root fetch - processPackages [izy]: Downloading https://files.pythonhosted.org/packages/9a/52/516740ff3ee449af1e276b53de4ebc5ccc9dde33dcbd6ebe47eb9b269c80/izy-0.5.0.tar.gz
+[2023-04-19 14:17:28] INFO root fetch - processPackages [matter-api-client]: Start processing: get-certificate-chain
+[2023-04-19 14:17:28] INFO root fetch - main [MainThread]: End processing [matter-api-client]: success
+[2023-04-19 14:17:28] INFO root fetch - processPackages [get-certificate-chain]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-19 14:17:28] INFO root fetch - processPackages [izy]: executing diffoscope
+[2023-04-19 14:17:28] INFO root fetch - processPackages [izy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izy-0.4.0.tar.gz tmp/izy-0.5.0.tar.gz --markdown 20230419/i/izy/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-19 14:17:29] INFO root fetch - processPackages [nitrado]: Start processing: radarplt
+[2023-04-19 14:17:29] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-04-19 14:17:29] INFO root fetch - processPackages [autohooks-plugin-isort]: Start processing: aioshelly
+[2023-04-19 14:17:29] INFO root fetch - main [MainThread]: End processing [autohooks-plugin-isort]: success
+[2023-04-19 14:17:29] INFO root fetch - processPackages [radarplt]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-19 14:17:29] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-04-19 14:17:29] INFO root fetch - main [MainThread]: End processing [django-feedback-govuk]: success
+[2023-04-19 14:17:29] INFO root fetch - processPackages [get-certificate-chain]: Downloading https://files.pythonhosted.org/packages/38/3c/0509c6a977ad82aacc746e93dbb7fc21e28c96de59aa1fce17281ea25581/get_certificate_chain-0.1.4.tar.gz
+[2023-04-19 14:17:29] INFO root fetch - processPackages [aioshelly]: New version: [5.3.2] Old Version: [5.3.1]
+[2023-04-19 14:17:29] INFO root fetch - processPackages [get-certificate-chain]: executing diffoscope
+[2023-04-19 14:17:29] INFO root fetch - processPackages [get-certificate-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_certificate_chain-0.1.3.tar.gz tmp/get_certificate_chain-0.1.4.tar.gz --markdown 20230419/g/get-certificate-chain/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-19 14:17:29] INFO root fetch - processPackages [aioshelly]: Downloading https://files.pythonhosted.org/packages/09/97/83984e757775b1222f058fd2aa9fab1aa7feed5a20d2dbe12fabeef6aa3c/aioshelly-5.3.1.tar.gz
+[2023-04-19 14:17:29] INFO root fetch - processPackages [radarplt]: executing diffoscope
+[2023-04-19 14:17:29] INFO root fetch - processPackages [radarplt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radarplt-1.0.2.tar.gz tmp/radarplt-1.0.3.tar.gz --markdown 20230419/r/radarplt/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-19 14:17:29] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-19 14:17:29] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-04-19 14:17:29] INFO root fetch - processPackages [aioshelly]: Downloading https://files.pythonhosted.org/packages/64/35/24efee799d88d0c7e80e703b14dfc9dbac838eb8f9d6b2ed047092935004/aioshelly-5.3.2.tar.gz
+[2023-04-19 14:17:29] INFO root fetch - processPackages [aioshelly]: executing diffoscope
+[2023-04-19 14:17:29] INFO root fetch - processPackages [aioshelly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioshelly-5.3.1.tar.gz tmp/aioshelly-5.3.2.tar.gz --markdown 20230419/a/aioshelly/5.3.1-5.3.2/diff.md --exclude *.pyd
+[2023-04-19 14:17:30] INFO root fetch - main [MainThread]: End processing [get-certificate-chain]: success
+[2023-04-19 14:17:30] INFO root fetch - main [MainThread]: End processing [radarplt]: success
+[2023-04-19 14:17:30] INFO root fetch - main [MainThread]: End processing [izy]: success
+[2023-04-19 14:17:30] INFO root fetch - main [MainThread]: End processing [aioshelly]: success
+[2023-04-19 14:17:31] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-04-19 14:17:33] INFO root fetch - main [MainThread]: End processing [artistools]: success
+[2023-04-19 14:17:33] INFO root fetch - main [MainThread]: Store serial: [17770622]
