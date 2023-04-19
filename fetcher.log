@@ -16861,3 +16861,154 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 16:01:59] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
 [2023-04-19 16:02:03] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-19 16:02:03] INFO root fetch - main [MainThread]: Store serial: [17771852]
+[2023-04-19 16:07:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17771852]
+[2023-04-19 16:07:13] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-04-19 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: returnn
+[2023-04-19 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: r2diaphora
+[2023-04-19 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alacorder
+[2023-04-19 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djdantic
+[2023-04-19 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ztfimg
+[2023-04-19 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-mh
+[2023-04-19 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trading-strategy
+[2023-04-19 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: e-models
+[2023-04-19 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alas-ce0-client
+[2023-04-19 16:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: phenospy
+[2023-04-19 16:07:13] INFO root fetch - processPackages [pytest-mh]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 16:07:13] INFO root fetch - processPackages [trading-strategy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-19 16:07:13] INFO root fetch - processPackages [ztfimg]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-19 16:07:13] INFO root fetch - processPackages [phenospy]: New version: [0.15] Old Version: [0.14]
+[2023-04-19 16:07:13] INFO root fetch - processPackages [djdantic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 16:07:13] INFO root fetch - processPackages [e-models]: New version: [1.1.1] Old Version: [1.1]
+[2023-04-19 16:07:13] INFO root fetch - processPackages [r2diaphora]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 16:07:13] INFO root fetch - processPackages [alas-ce0-client]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-04-19 16:07:13] INFO root fetch - processPackages [returnn]: New version: [1.20230419.94650] Old Version: [1.20230419.74255]
+[2023-04-19 16:07:13] INFO root fetch - processPackages [alacorder]: New version: [79.4.9] Old Version: [79.4.8]
+[2023-04-19 16:07:13] INFO root fetch - processPackages [ztfimg]: Downloading https://files.pythonhosted.org/packages/48/af/c60694f29ce2a2fae15d5ebed0961deb44dffb7f34a51e7b7827c4d405f9/ztfimg-0.7.0.tar.gz
+[2023-04-19 16:07:13] INFO root fetch - processPackages [phenospy]: Downloading https://files.pythonhosted.org/packages/4c/ca/f3f76124c122c41719cddb19f113d4f323cf151df1d2b572ebe5f63745a2/phenospy-0.14.tar.gz
+[2023-04-19 16:07:13] INFO root fetch - processPackages [trading-strategy]: executing diffoscope
+[2023-04-19 16:07:13] INFO root fetch - processPackages [trading-strategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading_strategy-0.9.0.tar.gz tmp/trading_strategy-0.9.1.tar.gz --markdown 20230419/t/trading-strategy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-19 16:07:13] INFO root fetch - processPackages [alas-ce0-client]: executing diffoscope
+[2023-04-19 16:07:13] INFO root fetch - processPackages [alas-ce0-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alas-ce0-client-4.0.8.tar.gz tmp/alas-ce0-client-4.0.9.tar.gz --markdown 20230419/a/alas-ce0-client/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:07:13] INFO root fetch - processPackages [pytest-mh]: Downloading https://files.pythonhosted.org/packages/a5/c9/00439f10d6766e801dcdc3dc7450e2fd26611852f9a2883e347740578d32/pytest_mh-1.0.0.tar.gz
+[2023-04-19 16:07:13] INFO root fetch - processPackages [r2diaphora]: Downloading https://files.pythonhosted.org/packages/99/5c/8de0786619f6e711c3034c28ffb39856218b8bd34e8e2abcc7ed19a1b5cb/r2diaphora-0.2.2.tar.gz
+[2023-04-19 16:07:13] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/88/22/c9aa0b10748408764928cf0af9f3447f06fac8c6db08ba9a54a5703619c0/djdantic-0.0.9.tar.gz
+[2023-04-19 16:07:13] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/8d/98/e4199e4c6395ec497df17853a55ee1f555dfbcbf818e5658869a00fd0d61/e-models-1.1.1.tar.gz
+[2023-04-19 16:07:13] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/58/e5/9a998b918acca7eb02c55431d66306d5bfe8b884375cd8f4631509fad0cf/alacorder-79.4.9.tar.gz
+[2023-04-19 16:07:13] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-19 16:07:13] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230419.74255.tar.gz tmp/returnn-1.20230419.94650.tar.gz --markdown 20230419/r/returnn/1.20230419.74255-1.20230419.94650/diff.md --exclude *.pyd
+[2023-04-19 16:07:13] INFO root fetch - processPackages [pytest-mh]: Downloading https://files.pythonhosted.org/packages/d9/6e/27aa8781d20d849d165b7da48f6ae87316f42fac3db7e2200ed0964a3231/pytest_mh-1.0.1.tar.gz
+[2023-04-19 16:07:13] INFO root fetch - processPackages [djdantic]: executing diffoscope
+[2023-04-19 16:07:13] INFO root fetch - processPackages [djdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djdantic-0.0.8.tar.gz tmp/djdantic-0.0.9.tar.gz --markdown 20230419/d/djdantic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:07:13] INFO root fetch - processPackages [r2diaphora]: executing diffoscope
+[2023-04-19 16:07:13] INFO root fetch - processPackages [r2diaphora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2diaphora-0.2.1.tar.gz tmp/r2diaphora-0.2.2.tar.gz --markdown 20230419/r/r2diaphora/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 16:07:13] INFO root fetch - processPackages [e-models]: executing diffoscope
+[2023-04-19 16:07:13] INFO root fetch - processPackages [e-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-models-1.1.tar.gz tmp/e-models-1.1.1.tar.gz --markdown 20230419/e/e-models/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-04-19 16:07:13] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-19 16:07:13] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.4.8.tar.gz tmp/alacorder-79.4.9.tar.gz --markdown 20230419/a/alacorder/79.4.8-79.4.9/diff.md --exclude *.pyd
+[2023-04-19 16:07:13] INFO root fetch - processPackages [phenospy]: Downloading https://files.pythonhosted.org/packages/29/7a/1d1f70ec4cb8a9422004d142bfe97b2e654960247f63a92701b7a21016d7/phenospy-0.15.tar.gz
+[2023-04-19 16:07:14] INFO root fetch - processPackages [pytest-mh]: executing diffoscope
+[2023-04-19 16:07:14] INFO root fetch - processPackages [pytest-mh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_mh-1.0.0.tar.gz tmp/pytest_mh-1.0.1.tar.gz --markdown 20230419/p/pytest-mh/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 16:07:14] INFO root fetch - processPackages [ztfimg]: Downloading https://files.pythonhosted.org/packages/fc/65/f25728ef732173e5055ac05b19aecbf67fa84195649cab94dab4c04e6453/ztfimg-0.8.0.tar.gz
+[2023-04-19 16:07:14] INFO root fetch - processPackages [phenospy]: executing diffoscope
+[2023-04-19 16:07:14] INFO root fetch - processPackages [phenospy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenospy-0.14.tar.gz tmp/phenospy-0.15.tar.gz --markdown 20230419/p/phenospy/0.14-0.15/diff.md --exclude *.pyd
+[2023-04-19 16:07:14] INFO root fetch - processPackages [ztfimg]: executing diffoscope
+[2023-04-19 16:07:14] INFO root fetch - processPackages [ztfimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ztfimg-0.7.0.tar.gz tmp/ztfimg-0.8.0.tar.gz --markdown 20230419/z/ztfimg/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-19 16:07:15] INFO root fetch - processPackages [alas-ce0-client]: Start processing: odoo-models-connect
+[2023-04-19 16:07:15] INFO root fetch - main [MainThread]: End processing [alas-ce0-client]: success
+[2023-04-19 16:07:15] INFO root fetch - processPackages [djdantic]: Start processing: geoapivietnam
+[2023-04-19 16:07:15] INFO root fetch - main [MainThread]: End processing [djdantic]: success
+[2023-04-19 16:07:15] INFO root fetch - processPackages [odoo-models-connect]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-19 16:07:15] INFO root fetch - processPackages [geoapivietnam]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-19 16:07:15] INFO root fetch - processPackages [odoo-models-connect]: Downloading https://files.pythonhosted.org/packages/49/5a/ca1cca3ba5a6a92c20c33cb403c028626adc8b5aeece7aae2cfe59fcecf3/odoo_models_connect-0.1.7.tar.gz
+[2023-04-19 16:07:15] INFO root fetch - processPackages [geoapivietnam]: Downloading https://files.pythonhosted.org/packages/32/7d/9ba5e0f6bc9878d750705905afba6ee4f41ea889211693d5b4b486a00d05/geoapivietnam-0.3.3-py3-none-any.whl
+[2023-04-19 16:07:15] INFO root fetch - processPackages [r2diaphora]: Start processing: polar-route
+[2023-04-19 16:07:15] INFO root fetch - main [MainThread]: End processing [r2diaphora]: success
+[2023-04-19 16:07:15] INFO root fetch - processPackages [odoo-models-connect]: Downloading https://files.pythonhosted.org/packages/20/0e/aaa67d0effa7a1be8b2c87d0762b0296216c6a706b6163d5ab99f4931ba9/odoo_models_connect-0.1.8.tar.gz
+[2023-04-19 16:07:15] INFO root fetch - processPackages [geoapivietnam]: executing diffoscope
+[2023-04-19 16:07:15] INFO root fetch - processPackages [geoapivietnam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoapivietnam-0.3.2-py3-none-any.whl.zip tmp/geoapivietnam-0.3.3-py3-none-any.whl.zip --markdown 20230419/g/geoapivietnam/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-19 16:07:15] INFO root fetch - processPackages [polar-route]: New version: [0.1.0] Old Version: [0.0.15]
+[2023-04-19 16:07:15] INFO root fetch - processPackages [odoo-models-connect]: executing diffoscope
+[2023-04-19 16:07:15] INFO root fetch - processPackages [odoo-models-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_models_connect-0.1.7.tar.gz tmp/odoo_models_connect-0.1.8.tar.gz --markdown 20230419/o/odoo-models-connect/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-19 16:07:15] INFO root fetch - processPackages [polar-route]: Downloading https://files.pythonhosted.org/packages/86/d7/6d9147587c71b9befd1360ff2d1b13acb529b836c8d90d8da23465c57cdc/polar_route-0.0.15.tar.gz
+[2023-04-19 16:07:15] INFO root fetch - processPackages [e-models]: Start processing: newsworthycharts
+[2023-04-19 16:07:15] INFO root fetch - main [MainThread]: End processing [e-models]: success
+[2023-04-19 16:07:15] INFO root fetch - processPackages [pytest-mh]: Start processing: oarepo-cli
+[2023-04-19 16:07:15] INFO root fetch - main [MainThread]: End processing [pytest-mh]: success
+[2023-04-19 16:07:16] INFO root fetch - processPackages [newsworthycharts]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-19 16:07:16] INFO root fetch - processPackages [oarepo-cli]: New version: [11.0.8] Old Version: [11.0.7]
+[2023-04-19 16:07:16] INFO root fetch - processPackages [ztfimg]: Start processing: wc-django-celery-unicall
+[2023-04-19 16:07:16] INFO root fetch - main [MainThread]: End processing [ztfimg]: success
+[2023-04-19 16:07:16] WARNING root fetch - processPackages [wc-django-celery-unicall]: Skipping, unable to determine old version
+[2023-04-19 16:07:16] INFO root fetch - processPackages [wc-django-celery-unicall]: Start processing: postgres-data-faker
+[2023-04-19 16:07:16] INFO root fetch - main [MainThread]: End processing [wc-django-celery-unicall] error
+[2023-04-19 16:07:16] WARNING root fetch - processPackages [postgres-data-faker]: Skipping, unable to determine old version
+[2023-04-19 16:07:16] INFO root fetch - processPackages [postgres-data-faker]: Start processing: jaaql-middleware-python
+[2023-04-19 16:07:16] INFO root fetch - main [MainThread]: End processing [postgres-data-faker] error
+[2023-04-19 16:07:16] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.6.4] Old Version: [4.6.3]
+[2023-04-19 16:07:16] INFO root fetch - processPackages [phenospy]: Start processing: girder-slicer-cli-web
+[2023-04-19 16:07:16] INFO root fetch - main [MainThread]: End processing [phenospy]: success
+[2023-04-19 16:07:16] INFO root fetch - processPackages [girder-slicer-cli-web]: New version: [1.3.3.dev4] Old Version: [1.3.3.dev2]
+[2023-04-19 16:07:16] INFO root fetch - processPackages [polar-route]: Downloading https://files.pythonhosted.org/packages/5f/14/8b5420e0b62993a527360b05c2344767455d3a57553e79f6a04c2e514310/polar_route-0.1.0.tar.gz
+[2023-04-19 16:07:16] INFO root fetch - processPackages [newsworthycharts]: executing diffoscope
+[2023-04-19 16:07:16] INFO root fetch - processPackages [newsworthycharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newsworthycharts-1.9.1.tar.gz tmp/newsworthycharts-1.9.2.tar.gz --markdown 20230419/n/newsworthycharts/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-19 16:07:16] INFO root fetch - processPackages [girder-slicer-cli-web]: Downloading https://files.pythonhosted.org/packages/1a/8b/ac785ffab22a368a833b2f8da4e2e8b529872f400a34b19c332e96de62ba/girder-slicer-cli-web-1.3.3.dev4.tar.gz
+[2023-04-19 16:07:16] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-04-19 16:07:16] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.0.7.tar.gz tmp/oarepo-cli-11.0.8.tar.gz --markdown 20230419/o/oarepo-cli/11.0.7-11.0.8/diff.md --exclude *.pyd
+[2023-04-19 16:07:16] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/00/5b/17cd608a233b3dd8c16a2b83dcea7959f69f76e74b94fa5cdd05b2fdd4b4/jaaql-middleware-python-4.6.4.tar.gz
+[2023-04-19 16:07:16] INFO root fetch - processPackages [polar-route]: executing diffoscope
+[2023-04-19 16:07:16] INFO root fetch - processPackages [polar-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polar_route-0.0.15.tar.gz tmp/polar_route-0.1.0.tar.gz --markdown 20230419/p/polar-route/0.0.15-0.1.0/diff.md --exclude *.pyd
+[2023-04-19 16:07:16] INFO root fetch - processPackages [girder-slicer-cli-web]: executing diffoscope
+[2023-04-19 16:07:16] INFO root fetch - processPackages [girder-slicer-cli-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-slicer-cli-web-1.3.3.dev2.tar.gz tmp/girder-slicer-cli-web-1.3.3.dev4.tar.gz --markdown 20230419/g/girder-slicer-cli-web/1.3.3.dev2-1.3.3.dev4/diff.md --exclude *.pyd
+[2023-04-19 16:07:16] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-04-19 16:07:16] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.6.3.tar.gz tmp/jaaql-middleware-python-4.6.4.tar.gz --markdown 20230419/j/jaaql-middleware-python/4.6.3-4.6.4/diff.md --exclude *.pyd
+[2023-04-19 16:07:17] INFO root fetch - processPackages [odoo-models-connect]: Start processing: RepRepBuild
+[2023-04-19 16:07:17] INFO root fetch - main [MainThread]: End processing [odoo-models-connect]: success
+[2023-04-19 16:07:17] INFO root fetch - processPackages [RepRepBuild]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-19 16:07:17] INFO root fetch - processPackages [geoapivietnam]: Start processing: bowtie-json-schema
+[2023-04-19 16:07:17] INFO root fetch - main [MainThread]: End processing [geoapivietnam]: success
+[2023-04-19 16:07:17] INFO root fetch - processPackages [bowtie-json-schema]: New version: [0.9.1] Old Version: [0.84.0]
+[2023-04-19 16:07:17] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/7e/93/5874c93d2fe02063a8bb881a20e2b80b1676e26824d30cd018a7682acd10/bowtie_json_schema-0.84.0.tar.gz
+[2023-04-19 16:07:17] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/6c/81/dea0445aec19283ed9ad39fd867cdbdadb5e85087dc4c9caddf33c74632a/RepRepBuild-0.7.1.tar.gz
+[2023-04-19 16:07:17] INFO root fetch - processPackages [newsworthycharts]: Start processing: tupa123
+[2023-04-19 16:07:17] INFO root fetch - main [MainThread]: End processing [newsworthycharts]: success
+[2023-04-19 16:07:18] INFO root fetch - processPackages [RepRepBuild]: executing diffoscope
+[2023-04-19 16:07:18] INFO root fetch - processPackages [RepRepBuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepRepBuild-0.7.0.tar.gz tmp/RepRepBuild-0.7.1.tar.gz --markdown 20230419/R/RepRepBuild/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-19 16:07:18] INFO root fetch - processPackages [tupa123]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-19 16:07:18] INFO root fetch - processPackages [polar-route]: Start processing: newsworthycharts
+[2023-04-19 16:07:18] INFO root fetch - main [MainThread]: End processing [polar-route]: success
+[2023-04-19 16:07:18] INFO root fetch - processPackages [newsworthycharts]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-19 16:07:18] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2023-04-19 16:07:18] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-0.84.0.tar.gz tmp/bowtie_json_schema-0.9.1.tar.gz --markdown 20230419/b/bowtie-json-schema/0.84.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-19 16:07:18] INFO root fetch - processPackages [newsworthycharts]: executing diffoscope
+[2023-04-19 16:07:18] INFO root fetch - processPackages [newsworthycharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newsworthycharts-1.9.1.tar.gz tmp/newsworthycharts-1.9.2.tar.gz --markdown 20230419/n/newsworthycharts/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-19 16:07:18] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/39/6a/5b4cb1a12b6ed03eaf941019fb186a72cbf1ec893019f3690a05db65c76c/tupa123-1.3.9.tar.gz
+[2023-04-19 16:07:18] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-04-19 16:07:18] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.3.8.tar.gz tmp/tupa123-1.3.9.tar.gz --markdown 20230419/t/tupa123/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-19 16:07:18] INFO root fetch - processPackages [girder-slicer-cli-web]: Start processing: lcwc
+[2023-04-19 16:07:18] INFO root fetch - main [MainThread]: End processing [girder-slicer-cli-web]: success
+[2023-04-19 16:07:18] INFO root fetch - processPackages [lcwc]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-19 16:07:19] INFO root fetch - processPackages [oarepo-cli]: Start processing: basaran
+[2023-04-19 16:07:19] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-04-19 16:07:19] INFO root fetch - processPackages [lcwc]: Downloading https://files.pythonhosted.org/packages/a5/a6/e48b1086bb56360929d021a7c00515f51497c71add5dca6122c59a3e3014/lcwc-0.3.1.tar.gz
+[2023-04-19 16:07:19] INFO root fetch - processPackages [basaran]: New version: [0.16.0] Old Version: [0.15.3]
+[2023-04-19 16:07:19] INFO root fetch - processPackages [RepRepBuild]: Start processing: pypreql
+[2023-04-19 16:07:19] INFO root fetch - main [MainThread]: End processing [RepRepBuild]: success
+[2023-04-19 16:07:19] INFO root fetch - processPackages [basaran]: executing diffoscope
+[2023-04-19 16:07:19] INFO root fetch - processPackages [basaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basaran-0.15.3.tar.gz tmp/basaran-0.16.0.tar.gz --markdown 20230419/b/basaran/0.15.3-0.16.0/diff.md --exclude *.pyd
+[2023-04-19 16:07:19] INFO root fetch - processPackages [lcwc]: Downloading https://files.pythonhosted.org/packages/6e/b6/bc6350452f010f24606350951b274fa3671ce1478e1644f965f594a7a246/lcwc-0.3.2.tar.gz
+[2023-04-19 16:07:19] INFO root fetch - processPackages [pypreql]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-04-19 16:07:19] INFO root fetch - main [MainThread]: End processing [trading-strategy]: success
+[2023-04-19 16:07:19] INFO root fetch - processPackages [lcwc]: executing diffoscope
+[2023-04-19 16:07:19] INFO root fetch - processPackages [lcwc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcwc-0.3.1.tar.gz tmp/lcwc-0.3.2.tar.gz --markdown 20230419/l/lcwc/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-19 16:07:19] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2023-04-19 16:07:19] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-19 16:07:19] INFO root fetch - main [MainThread]: End processing [newsworthycharts]: success
+[2023-04-19 16:07:19] INFO root fetch - processPackages [pypreql]: executing diffoscope
+[2023-04-19 16:07:19] INFO root fetch - processPackages [pypreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypreql-0.0.1rc8.tar.gz tmp/pypreql-0.0.1rc9.tar.gz --markdown 20230419/p/pypreql/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-04-19 16:07:20] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-04-19 16:07:20] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-04-19 16:07:20] INFO root fetch - main [MainThread]: End processing [lcwc]: success
+[2023-04-19 16:07:20] INFO root fetch - main [MainThread]: End processing [basaran]: success
+[2023-04-19 16:07:21] INFO root fetch - main [MainThread]: End processing [pypreql]: success
+[2023-04-19 16:07:26] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-19 16:07:26] INFO root fetch - main [MainThread]: Store serial: [17771930]
