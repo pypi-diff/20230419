@@ -8071,3 +8071,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 08:16:52] INFO root fetch - main [MainThread]: End processing [viddiffusion]: success
 [2023-04-19 08:17:31] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-19 08:17:31] INFO root fetch - main [MainThread]: Store serial: [17766581]
+[2023-04-19 08:22:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766581]
+[2023-04-19 08:22:40] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-19 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xh-dict-utils
+[2023-04-19 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starsaiot-monit
+[2023-04-19 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osais
+[2023-04-19 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: windbg-copilot
+[2023-04-19 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pretext
+[2023-04-19 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xh-dict-utils
+[2023-04-19 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twb-project
+[2023-04-19 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalkpy
+[2023-04-19 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scBC
+[2023-04-19 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tinybird-cli
+[2023-04-19 08:22:40] INFO root fetch - processPackages [starsaiot-monit]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-19 08:22:40] INFO root fetch - processPackages [osais]: New version: [1.0.37] Old Version: [1.0.36]
+[2023-04-19 08:22:40] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-19 08:22:40] INFO root fetch - processPackages [twb-project]: New version: [0.7.3a4] Old Version: [0.7.3a3]
+[2023-04-19 08:22:40] INFO root fetch - processPackages [scBC]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-19 08:22:40] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 08:22:40] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 08:22:40] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230419] Old Version: [1.5.3.dev20230418]
+[2023-04-19 08:22:40] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-04-19 08:22:40] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-19 08:22:40] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-19 08:22:40] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230419/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-19 08:22:41] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/6d/ed/c2fcde46857517cc80cba02fead6db70b10b2784c857353d629eabc17441/windbg_copilot-1.0.7.tar.gz
+[2023-04-19 08:22:41] INFO root fetch - processPackages [starsaiot-monit]: Downloading https://files.pythonhosted.org/packages/d6/46/a29424aed9a0915fa4d367265d64294f7ece13086deee2cc6f5fa82c768c/starsaiot-monit-1.2.8.tar.gz
+[2023-04-19 08:22:41] INFO root fetch - processPackages [scBC]: Downloading https://files.pythonhosted.org/packages/19/33/71ca439f73ce5f3ef2b7efe2095b0dd876b2f2eff605fb3e8aca6bd371cc/scBC-0.3.0.tar.gz
+[2023-04-19 08:22:41] INFO root fetch - processPackages [twb-project]: Downloading https://files.pythonhosted.org/packages/f0/26/b3a35dabe37da05e298d142d5e984525da61a45c5c6c1dfae32b4e5ae0d5/twb_project-0.7.3a4.tar.gz
+[2023-04-19 08:22:41] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/23/93/6a7039e4650ebb39ce23da8e299ef07c7a8cd2a751b9b1c0c7cec1e9b716/pretext-1.5.3.dev20230419.tar.gz
+[2023-04-19 08:22:41] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-04-19 08:22:41] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230419/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-04-19 08:22:41] INFO root fetch - processPackages [osais]: Downloading https://files.pythonhosted.org/packages/b1/a1/fc7a8617287542c890c6a44d52ead53f369819ad8db56c0046bd883ad33d/osais-1.0.37.tar.gz
+[2023-04-19 08:22:41] INFO root fetch - processPackages [scBC]: executing diffoscope
+[2023-04-19 08:22:41] INFO root fetch - processPackages [scBC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scBC-0.2.1.tar.gz tmp/scBC-0.3.0.tar.gz --markdown 20230419/s/scBC/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-19 08:22:41] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-04-19 08:22:41] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.6.tar.gz tmp/windbg_copilot-1.0.7.tar.gz --markdown 20230419/w/windbg-copilot/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-19 08:22:41] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-04-19 08:22:41] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.7.3a3.tar.gz tmp/twb_project-0.7.3a4.tar.gz --markdown 20230419/t/twb-project/0.7.3a3-0.7.3a4/diff.md --exclude *.pyd
+[2023-04-19 08:22:41] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-19 08:22:41] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230419/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 08:22:41] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-19 08:22:41] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230419/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 08:22:41] INFO root fetch - processPackages [osais]: executing diffoscope
+[2023-04-19 08:22:41] INFO root fetch - processPackages [osais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osais-1.0.36.tar.gz tmp/osais-1.0.37.tar.gz --markdown 20230419/o/osais/1.0.36-1.0.37/diff.md --exclude *.pyd
+[2023-04-19 08:22:41] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-04-19 08:22:41] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230418.tar.gz tmp/pretext-1.5.3.dev20230419.tar.gz --markdown 20230419/p/pretext/1.5.3.dev20230418-1.5.3.dev20230419/diff.md --exclude *.pyd
+[2023-04-19 08:22:41] INFO root fetch - processPackages [starsaiot-monit]: Downloading https://files.pythonhosted.org/packages/fc/0b/c09f8c3370147eafe5032c8dbcf11c438057a479ecd7b517dd9b4300ef72/starsaiot-monit-1.2.9.tar.gz
+[2023-04-19 08:22:41] INFO root fetch - processPackages [starsaiot-monit]: executing diffoscope
+[2023-04-19 08:22:41] INFO root fetch - processPackages [starsaiot-monit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starsaiot-monit-1.2.8.tar.gz tmp/starsaiot-monit-1.2.9.tar.gz --markdown 20230419/s/starsaiot-monit/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-19 08:22:42] INFO root fetch - processPackages [windbg-copilot]: Start processing: pylovelace.kernel
+[2023-04-19 08:22:42] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-04-19 08:22:42] INFO root fetch - processPackages [pylovelace.kernel]: New version: [2023.1.1] Old Version: [2023.1.0]
+[2023-04-19 08:22:42] INFO root fetch - processPackages [scBC]: Start processing: Slpapy
+[2023-04-19 08:22:42] INFO root fetch - main [MainThread]: End processing [scBC]: success
+[2023-04-19 08:22:42] INFO root fetch - processPackages [Slpapy]: New version: [0.1.17] Old Version: [0.1.15]
+[2023-04-19 08:22:42] INFO root fetch - processPackages [twb-project]: Start processing: ifcfg
+[2023-04-19 08:22:42] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-04-19 08:22:42] INFO root fetch - processPackages [pylovelace.kernel]: Downloading https://files.pythonhosted.org/packages/e1/86/8e5af302b1dc953ef9241df71ad63c8bc6fade03b2e417fb52430d18d94d/pylovelace.kernel-2023.1.0-py3-none-any.whl
+[2023-04-19 08:22:42] INFO root fetch - processPackages [ifcfg]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-19 08:22:42] INFO root fetch - processPackages [xh-dict-utils]: Start processing: pysequoia
+[2023-04-19 08:22:42] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-19 08:22:42] INFO root fetch - main [MainThread]: End processing [osais]: success
+[2023-04-19 08:22:42] INFO root fetch - processPackages [pysequoia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 08:22:43] INFO root fetch - main [MainThread]: End processing [starsaiot-monit]: success
+[2023-04-19 08:22:43] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/ca/86/3883cee490318f8db9608974d5861bd9af7d4d629fc488f763ccd6dcce24/Slpapy-0.1.17.tar.gz
+[2023-04-19 08:22:43] INFO root fetch - processPackages [ifcfg]: Downloading https://files.pythonhosted.org/packages/04/4d/7b09d6b01baf4f0e0027bc2e8f02ff49f4474d303c65d364ac3a8361cf13/ifcfg-0.9.3.tar.gz
+[2023-04-19 08:22:43] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-19 08:22:43] INFO root fetch - processPackages [pylovelace.kernel]: Downloading https://files.pythonhosted.org/packages/2c/36/1ed38a2f02b53bd24f478c4d07b74a8399f383d1b3c2fe0fd8f067ab882a/pylovelace.kernel-2023.1.1-py3-none-any.whl
+[2023-04-19 08:22:43] INFO root fetch - processPackages [pysequoia]: Downloading https://files.pythonhosted.org/packages/f5/c7/a23c02f671946ab4d1c8e12b564caa0513f98e3bc2a8c856930adfe5a8c9/pysequoia-0.1.8.tar.gz
+[2023-04-19 08:22:43] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-04-19 08:22:43] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.1.15.tar.gz tmp/Slpapy-0.1.17.tar.gz --markdown 20230419/S/Slpapy/0.1.15-0.1.17/diff.md --exclude *.pyd
+[2023-04-19 08:22:43] INFO root fetch - processPackages [pylovelace.kernel]: executing diffoscope
+[2023-04-19 08:22:43] INFO root fetch - processPackages [pylovelace.kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylovelace.kernel-2023.1.0-py3-none-any.whl.zip tmp/pylovelace.kernel-2023.1.1-py3-none-any.whl.zip --markdown 20230419/p/pylovelace.kernel/2023.1.0-2023.1.1/diff.md --exclude *.pyd
+[2023-04-19 08:22:43] INFO root fetch - processPackages [ifcfg]: Downloading https://files.pythonhosted.org/packages/d3/a9/bb0e032a8841c77b4a7f6a3f5c3973979f99834017b1840885659ff317f9/ifcfg-0.9.4-py2-none-any.whl
+[2023-04-19 08:22:43] INFO root fetch - processPackages [ifcfg]: executing diffoscope
+[2023-04-19 08:22:43] INFO root fetch - processPackages [ifcfg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifcfg-0.9.3.tar.gz tmp/ifcfg-0.9.4-py2-none-any.whl.zip --markdown 20230419/i/ifcfg/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-19 08:22:44] INFO root fetch - processPackages [pysequoia]: Downloading https://files.pythonhosted.org/packages/b3/dc/c34f78dd8e0d1f4d3bcf107cf71de5605bb888eca724e26217920c41dff6/pysequoia-0.1.9.tar.gz
+[2023-04-19 08:22:44] INFO root fetch - main [MainThread]: End processing [pylovelace.kernel]: success
+[2023-04-19 08:22:44] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-04-19 08:22:44] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-04-19 08:22:44] INFO root fetch - main [MainThread]: End processing [ifcfg]: success
+[2023-04-19 08:22:45] INFO root fetch - processPackages [pysequoia]: executing diffoscope
+[2023-04-19 08:22:45] INFO root fetch - processPackages [pysequoia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysequoia-0.1.8.tar.gz tmp/pysequoia-0.1.9.tar.gz --markdown 20230419/p/pysequoia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 08:22:47] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-04-19 08:22:48] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-19 08:22:54] INFO root fetch - main [MainThread]: End processing [pysequoia]: success
+[2023-04-19 08:22:54] INFO root fetch - main [MainThread]: Store serial: [17766620]
