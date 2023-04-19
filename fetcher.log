@@ -17012,3 +17012,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 16:07:21] INFO root fetch - main [MainThread]: End processing [pypreql]: success
 [2023-04-19 16:07:26] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-04-19 16:07:26] INFO root fetch - main [MainThread]: Store serial: [17771930]
+[2023-04-19 16:12:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17771930]
+[2023-04-19 16:12:36] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jina
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansys-materials-manager
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nriapp
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: musicli
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfgaws
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bok-choy
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: super-gradients
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ypricemagic
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anoexpress
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apiron
+[2023-04-19 16:12:36] INFO root fetch - processPackages [pyfgaws]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 16:12:36] INFO root fetch - processPackages [super-gradients]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-04-19 16:12:36] WARNING root fetch - processPackages [musicli]: Skipping, unable to determine old version
+[2023-04-19 16:12:36] INFO root fetch - processPackages [anoexpress]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-19 16:12:36] INFO root fetch - processPackages [nriapp]: New version: [1.1.10] Old Version: [1.0.9]
+[2023-04-19 16:12:36] INFO root fetch - processPackages [musicli]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ansys-materials-manager]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-19 16:12:36] INFO root fetch - main [MainThread]: End processing [musicli] error
+[2023-04-19 16:12:36] INFO root fetch - processPackages [bok-choy]: New version: [2.0.2] Old Version: [1.1.1]
+[2023-04-19 16:12:36] INFO root fetch - processPackages [apiron]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ypricemagic]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-04-19 16:12:36] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-19 16:12:36] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 16:12:36] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-04-19 16:12:36] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230419/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 16:12:36] INFO root fetch - processPackages [apiron]: Downloading https://files.pythonhosted.org/packages/a3/5d/480d88c9412e1684b037f9dad41e8a66a253e08339bd9de11f55d5ed142d/apiron-7.0.0.tar.gz
+[2023-04-19 16:12:36] INFO root fetch - processPackages [nriapp]: Downloading https://files.pythonhosted.org/packages/e7/ae/2be96dc35759d1a26d17789355a83e4ec8cef4e318d6e67b06a730a0a1fe/nriapp-1.0.9.tar.gz
+[2023-04-19 16:12:36] INFO root fetch - processPackages [super-gradients]: Downloading https://files.pythonhosted.org/packages/49/f0/f875f1ecb974118a08cd0b19e551fc3854350826285117bee37d8ccfda95/super_gradients-3.0.8-py3-none-any.whl
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/4f/a5/f5834f3cc53a16ddba4e2e1b1cb595f5c42742598ff4f7f1ddecb88190d9/ypricemagic-2.1.9.tar.gz
+[2023-04-19 16:12:36] INFO root fetch - processPackages [bok-choy]: Downloading https://files.pythonhosted.org/packages/0c/50/b0b2b67f8d50a0f1ae9e339e60152fc088cd33e79dbdca667d2a02d5d948/bok_choy-1.1.1.tar.gz
+[2023-04-19 16:12:36] INFO root fetch - processPackages [pyfgaws]: Downloading https://files.pythonhosted.org/packages/39/45/8a046318f725afebb5dd411b6e0c012f45319a394f20d6fa221c9e86a08c/pyfgaws-0.2.2.tar.gz
+[2023-04-19 16:12:36] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-19 16:12:36] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230419/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ansys-materials-manager]: Downloading https://files.pythonhosted.org/packages/28/1f/82a01b6f49101853a34fc469d75ce058eb3e8e00d1c6f5cd320e18268b43/ansys_materials_manager-0.2.1.tar.gz
+[2023-04-19 16:12:36] INFO root fetch - processPackages [anoexpress]: Downloading https://files.pythonhosted.org/packages/4e/f2/f9a7f0b20997d21602dded2f2f08b5ea3fd404a0291e4ed30655df9ae308/anoexpress-0.1.4.tar.gz
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.1.8.tar.gz tmp/ypricemagic-2.1.9.tar.gz --markdown 20230419/y/ypricemagic/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-04-19 16:12:36] INFO root fetch - processPackages [pyfgaws]: executing diffoscope
+[2023-04-19 16:12:36] INFO root fetch - processPackages [pyfgaws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfgaws-0.2.1.tar.gz tmp/pyfgaws-0.2.2.tar.gz --markdown 20230419/p/pyfgaws/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 16:12:36] INFO root fetch - processPackages [apiron]: Downloading https://files.pythonhosted.org/packages/93/ff/cd949daf5fb916ff0b610f2c8a67a84a9e6d698b8235dae7f27da62add59/apiron-7.1.0.tar.gz
+[2023-04-19 16:12:36] INFO root fetch - processPackages [nriapp]: Downloading https://files.pythonhosted.org/packages/f6/5a/50b8d38531e2b45e8ca01e19372621f16e747995ed181cec326987e4c1bf/nriapp-1.1.10.tar.gz
+[2023-04-19 16:12:36] INFO root fetch - processPackages [super-gradients]: Downloading https://files.pythonhosted.org/packages/87/b2/51761cd8a7c437464643bcd33108c1fb4e10573327d47a8ee4b9c37d8a8e/super_gradients-3.0.9-py3-none-any.whl
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ansys-materials-manager]: executing diffoscope
+[2023-04-19 16:12:36] INFO root fetch - processPackages [ansys-materials-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_materials_manager-0.2.0.tar.gz tmp/ansys_materials_manager-0.2.1.tar.gz --markdown 20230419/a/ansys-materials-manager/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-19 16:12:36] INFO root fetch - processPackages [anoexpress]: executing diffoscope
+[2023-04-19 16:12:36] INFO root fetch - processPackages [anoexpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anoexpress-0.1.3.tar.gz tmp/anoexpress-0.1.4.tar.gz --markdown 20230419/a/anoexpress/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-19 16:12:36] INFO root fetch - processPackages [bok-choy]: Downloading https://files.pythonhosted.org/packages/1b/22/c36d654c1862cfdbc9f00b08cc3dbc80327501c4826559b30bd152f53337/bok_choy-2.0.2.tar.gz
+[2023-04-19 16:12:37] INFO root fetch - processPackages [apiron]: executing diffoscope
+[2023-04-19 16:12:37] INFO root fetch - processPackages [apiron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiron-7.0.0.tar.gz tmp/apiron-7.1.0.tar.gz --markdown 20230419/a/apiron/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-04-19 16:12:37] INFO root fetch - processPackages [nriapp]: executing diffoscope
+[2023-04-19 16:12:37] INFO root fetch - processPackages [nriapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nriapp-1.0.9.tar.gz tmp/nriapp-1.1.10.tar.gz --markdown 20230419/n/nriapp/1.0.9-1.1.10/diff.md --exclude *.pyd
+[2023-04-19 16:12:37] INFO root fetch - processPackages [super-gradients]: executing diffoscope
+[2023-04-19 16:12:37] INFO root fetch - processPackages [super-gradients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super_gradients-3.0.8-py3-none-any.whl.zip tmp/super_gradients-3.0.9-py3-none-any.whl.zip --markdown 20230419/s/super-gradients/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:12:37] INFO root fetch - processPackages [bok-choy]: executing diffoscope
+[2023-04-19 16:12:37] INFO root fetch - processPackages [bok-choy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bok_choy-1.1.1.tar.gz tmp/bok_choy-2.0.2.tar.gz --markdown 20230419/b/bok-choy/1.1.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-19 16:12:38] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: pyjunkerpro
+[2023-04-19 16:12:38] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-04-19 16:12:38] WARNING root fetch - processPackages [pyjunkerpro]: Skipping, unable to determine old version
+[2023-04-19 16:12:38] INFO root fetch - processPackages [pyjunkerpro]: Start processing: airgiant
+[2023-04-19 16:12:38] INFO root fetch - main [MainThread]: End processing [pyjunkerpro] error
+[2023-04-19 16:12:38] INFO root fetch - processPackages [airgiant]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 16:12:38] INFO root fetch - processPackages [anoexpress]: Start processing: cool-seq-tool
+[2023-04-19 16:12:38] INFO root fetch - main [MainThread]: End processing [anoexpress]: success
+[2023-04-19 16:12:38] INFO root fetch - processPackages [airgiant]: Downloading https://files.pythonhosted.org/packages/84/90/a63904f68d38998be65681cded5b2bda0567cc8545b4f4e139648f1ee628/airgiant-0.0.2.tar.gz
+[2023-04-19 16:12:38] INFO root fetch - processPackages [cool-seq-tool]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 16:12:38] INFO root fetch - processPackages [ansys-materials-manager]: Start processing: mongo-db-operation
+[2023-04-19 16:12:38] INFO root fetch - main [MainThread]: End processing [ansys-materials-manager]: success
+[2023-04-19 16:12:38] WARNING root fetch - processPackages [mongo-db-operation]: Skipping, unable to determine old version
+[2023-04-19 16:12:38] INFO root fetch - processPackages [mongo-db-operation]: Start processing: pdm-plugin-torch
+[2023-04-19 16:12:38] INFO root fetch - main [MainThread]: End processing [mongo-db-operation] error
+[2023-04-19 16:12:38] INFO root fetch - processPackages [pdm-plugin-torch]: New version: [23.1.0] Old Version: [23.0.0]
+[2023-04-19 16:12:38] INFO root fetch - processPackages [nriapp]: Start processing: textgen
+[2023-04-19 16:12:38] INFO root fetch - main [MainThread]: End processing [nriapp]: success
+[2023-04-19 16:12:38] INFO root fetch - processPackages [textgen]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-19 16:12:38] INFO root fetch - processPackages [cool-seq-tool]: Downloading https://files.pythonhosted.org/packages/df/50/3ea6b583939adcd09bed86beb8a61ee56dc9e507b397a9d0b186ce6cefa9/cool_seq_tool-0.1.8.tar.gz
+[2023-04-19 16:12:38] INFO root fetch - processPackages [airgiant]: Downloading https://files.pythonhosted.org/packages/ec/44/d318a65790292aad1abc6ff79e97fdc49a6c7fe1e6099493ebf3dfb0fc49/airgiant-0.0.3.tar.gz
+[2023-04-19 16:12:38] INFO root fetch - processPackages [pyfgaws]: Start processing: emmett-prometheus
+[2023-04-19 16:12:38] INFO root fetch - main [MainThread]: End processing [pyfgaws]: success
+[2023-04-19 16:12:38] INFO root fetch - processPackages [emmett-prometheus]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 16:12:38] INFO root fetch - processPackages [pdm-plugin-torch]: Downloading https://files.pythonhosted.org/packages/5b/37/658bbe6e08b37aa3b0b01a8ede9c66cca0cd2b39426b4d1d4eab1bb8241e/pdm-plugin-torch-23.0.0.tar.gz
+[2023-04-19 16:12:38] INFO root fetch - processPackages [bok-choy]: Start processing: dbbact-calour
+[2023-04-19 16:12:38] INFO root fetch - main [MainThread]: End processing [bok-choy]: success
+[2023-04-19 16:12:38] INFO root fetch - processPackages [textgen]: Downloading https://files.pythonhosted.org/packages/d8/4d/300d5fa889c6573e5bc5d6bc0cbf975d59395ef4b8dbd6fb00272bd3a5bf/textgen-0.2.4.tar.gz
+[2023-04-19 16:12:38] INFO root fetch - processPackages [airgiant]: executing diffoscope
+[2023-04-19 16:12:38] INFO root fetch - processPackages [airgiant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airgiant-0.0.2.tar.gz tmp/airgiant-0.0.3.tar.gz --markdown 20230419/a/airgiant/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 16:12:38] INFO root fetch - processPackages [emmett-prometheus]: Downloading https://files.pythonhosted.org/packages/d7/1b/121310b8c0536a3663714edb004eec4dbd43a36d62142c7e141457651030/emmett_prometheus-0.1.0.tar.gz
+[2023-04-19 16:12:38] INFO root fetch - processPackages [dbbact-calour]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-19 16:12:38] INFO root fetch - processPackages [textgen]: executing diffoscope
+[2023-04-19 16:12:38] INFO root fetch - processPackages [textgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textgen-0.2.3.tar.gz tmp/textgen-0.2.4.tar.gz --markdown 20230419/t/textgen/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-19 16:12:38] INFO root fetch - processPackages [pdm-plugin-torch]: Downloading https://files.pythonhosted.org/packages/70/9a/4451d506e9531041b5ad42ff670d3d43acde998d422a8306c49c620f759c/pdm-plugin-torch-23.1.0.tar.gz
+[2023-04-19 16:12:38] INFO root fetch - processPackages [apiron]: Start processing: OpenGeode-Geosciences
+[2023-04-19 16:12:38] INFO root fetch - main [MainThread]: End processing [apiron]: success
+[2023-04-19 16:12:38] INFO root fetch - processPackages [dbbact-calour]: Downloading https://files.pythonhosted.org/packages/19/af/67b3e4a67f70e3bf50a1794a82126675e15c0aa5b750ab8d6278fccc9c64/dbbact-calour-1.8.0.tar.gz
+[2023-04-19 16:12:39] INFO root fetch - processPackages [emmett-prometheus]: Downloading https://files.pythonhosted.org/packages/c3/8a/11ab6234d9317b66eb09d9b1d3c0eb5a7b5e969e6dbb8de1b7d69ada31e7/emmett_prometheus-0.1.1.tar.gz
+[2023-04-19 16:12:39] INFO root fetch - processPackages [pdm-plugin-torch]: executing diffoscope
+[2023-04-19 16:12:39] INFO root fetch - processPackages [pdm-plugin-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-plugin-torch-23.0.0.tar.gz tmp/pdm-plugin-torch-23.1.0.tar.gz --markdown 20230419/p/pdm-plugin-torch/23.0.0-23.1.0/diff.md --exclude *.pyd
+[2023-04-19 16:12:39] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.0.3] Old Version: [7.0.2]
+[2023-04-19 16:12:39] INFO root fetch - processPackages [emmett-prometheus]: executing diffoscope
+[2023-04-19 16:12:39] INFO root fetch - processPackages [emmett-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmett_prometheus-0.1.0.tar.gz tmp/emmett_prometheus-0.1.1.tar.gz --markdown 20230419/e/emmett-prometheus/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 16:12:39] INFO root fetch - processPackages [cool-seq-tool]: Downloading https://files.pythonhosted.org/packages/7a/85/89d9f2c807328e39fe3f1e63ffc6d736a857897f4c07b40b8471a5700029/cool_seq_tool-0.1.9.tar.gz
+[2023-04-19 16:12:39] WARNING root fetch - processPackages [dbbact-calour]: Skipping package: exceeds size limit 49602080>=10485760
+[2023-04-19 16:12:39] INFO root fetch - main [MainThread]: End processing [dbbact-calour] error
+[2023-04-19 16:12:39] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/8c/84/2b5d273f803b618c619d43494f25aff51d8dee19e4b898ee3487a6abb3d2/OpenGeode_Geosciences-7.0.2-cp39-cp39-win_amd64.whl
+[2023-04-19 16:12:39] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/b0/66/9ad0a9f4d99de78e919fab4b00b685145eaab9bde8424c172c0a151bd6ec/OpenGeode_Geosciences-7.0.3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-19 16:12:39] INFO root fetch - main [MainThread]: End processing [airgiant]: success
+[2023-04-19 16:12:39] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2023-04-19 16:12:39] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.0.2-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.0.3-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230419/O/OpenGeode-Geosciences/7.0.2-7.0.3/diff.md --exclude *.pyd
+[2023-04-19 16:12:40] INFO root fetch - processPackages [cool-seq-tool]: executing diffoscope
+[2023-04-19 16:12:40] INFO root fetch - processPackages [cool-seq-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cool_seq_tool-0.1.8.tar.gz tmp/cool_seq_tool-0.1.9.tar.gz --markdown 20230419/c/cool-seq-tool/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 16:12:40] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-04-19 16:12:40] INFO root fetch - main [MainThread]: End processing [textgen]: success
+[2023-04-19 16:12:40] INFO root fetch - main [MainThread]: End processing [pdm-plugin-torch]: success
+[2023-04-19 16:12:40] INFO root fetch - main [MainThread]: End processing [emmett-prometheus]: success
+[2023-04-19 16:12:41] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-19 16:12:41] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2023-04-19 16:12:42] INFO root fetch - main [MainThread]: End processing [cool-seq-tool]: success
+[2023-04-19 16:12:44] INFO root fetch - main [MainThread]: End processing [super-gradients]: success
+[2023-04-19 16:12:44] INFO root fetch - main [MainThread]: Store serial: [17772009]
