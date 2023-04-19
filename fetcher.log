@@ -19748,3 +19748,124 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 18:13:43] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2023-04-19 18:13:43] INFO root fetch - main [MainThread]: End processing [spdlog]: success
 [2023-04-19 18:13:43] INFO root fetch - main [MainThread]: Store serial: [17773519]
+[2023-04-19 18:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17773519]
+[2023-04-19 18:18:52] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-19 18:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-analytics-reference-architecture
+[2023-04-19 18:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Simplex
+[2023-04-19 18:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sidewinder-db
+[2023-04-19 18:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domolibrary
+[2023-04-19 18:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shapelets-platform
+[2023-04-19 18:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Ayra
+[2023-04-19 18:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: browseapi-sandbox
+[2023-04-19 18:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xh-cpu-usage-simulator
+[2023-04-19 18:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: browseapi-sandbox
+[2023-04-19 18:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepchem
+[2023-04-19 18:18:52] INFO root fetch - processPackages [sidewinder-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 18:18:52] WARNING root fetch - processPackages [Ayra]: Skipping, unable to determine old version
+[2023-04-19 18:18:52] INFO root fetch - processPackages [shapelets-platform]: New version: [2.0.82] Old Version: [2.0.81]
+[2023-04-19 18:18:52] INFO root fetch - processPackages [browseapi-sandbox]: New version: [0.4] Old Version: [0.3]
+[2023-04-19 18:18:52] INFO root fetch - processPackages [Ayra]: Start processing: seeq-sysid
+[2023-04-19 18:18:52] INFO root fetch - main [MainThread]: End processing [Ayra] error
+[2023-04-19 18:18:52] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-04-19 18:18:52] INFO root fetch - processPackages [browseapi-sandbox]: New version: [0.4] Old Version: [0.3]
+[2023-04-19 18:18:52] INFO root fetch - processPackages [aws-analytics-reference-architecture]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-04-19 18:18:52] INFO root fetch - processPackages [domolibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 18:18:52] INFO root fetch - processPackages [xh-cpu-usage-simulator]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-19 18:18:53] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230419161626] Old Version: [2.7.2.dev20230419152231]
+[2023-04-19 18:18:53] INFO root fetch - processPackages [seeq-sysid]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 18:18:53] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-19 18:18:53] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.0.8.tar.gz tmp/domolibrary-0.0.9.tar.gz --markdown 20230419/d/domolibrary/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 18:18:53] INFO root fetch - processPackages [browseapi-sandbox]: Downloading https://files.pythonhosted.org/packages/d8/f5/d20e0bda1d9c55b3e05648e3bbb8dbbfed932616102aa9f757a3de717ad7/browseapi_sandbox-0.3.tar.gz
+[2023-04-19 18:18:53] INFO root fetch - processPackages [browseapi-sandbox]: Downloading https://files.pythonhosted.org/packages/d8/f5/d20e0bda1d9c55b3e05648e3bbb8dbbfed932616102aa9f757a3de717ad7/browseapi_sandbox-0.3.tar.gz
+[2023-04-19 18:18:53] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/e8/a0/834339888e0fc82703e136ba46d72a216273810be0a94c5818f445ade4f3/shapelets-platform-2.0.81.tar.gz
+[2023-04-19 18:18:53] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/41/8c/4962d301dbebe1579580beddfee1d2e67b820f27a1cf41283445c7219faa/sidewinder-db-0.0.8.tar.gz
+[2023-04-19 18:18:53] INFO root fetch - processPackages [xh-cpu-usage-simulator]: Downloading https://files.pythonhosted.org/packages/f9/f9/f7860b211761a10e32fdda76a7d3c2a52480dae4cf24105ae8c3107820f0/xh-cpu-usage-simulator-0.1.0.tar.gz
+[2023-04-19 18:18:53] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/5c/5e/d09ebad47384b6bb5d64eb24a1b183a79fd0671631a792ccb3209e0bbcda/deepchem-2.7.2.dev20230419161626.tar.gz
+[2023-04-19 18:18:53] INFO root fetch - processPackages [seeq-sysid]: Downloading https://files.pythonhosted.org/packages/84/8e/03583f2d2816d26af2069a1f68dd68e0cb1c4b28396b7b0d9530e78dac09/seeq_sysid-1.0.0.tar.gz
+[2023-04-19 18:18:53] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Downloading https://files.pythonhosted.org/packages/ae/2b/5f638a1ef1f2c98e5cabf7d36e8ec3c32166be2db0c031a731483adef20f/aws_analytics_reference_architecture-2.9.8.tar.gz
+[2023-04-19 18:18:53] INFO root fetch - processPackages [xh-cpu-usage-simulator]: executing diffoscope
+[2023-04-19 18:18:53] INFO root fetch - processPackages [xh-cpu-usage-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-cpu-usage-simulator-0.0.9.tar.gz tmp/xh-cpu-usage-simulator-0.1.0.tar.gz --markdown 20230419/x/xh-cpu-usage-simulator/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-19 18:18:53] WARNING root fetch - processPackages [aws-analytics-reference-architecture]: Skipping package: exceeds size limit 118649369>=10485760
+[2023-04-19 18:18:53] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Start processing: service-now-api-sdk
+[2023-04-19 18:18:53] INFO root fetch - main [MainThread]: End processing [aws-analytics-reference-architecture] error
+[2023-04-19 18:18:53] WARNING root fetch - processPackages [service-now-api-sdk]: Skipping, unable to determine old version
+[2023-04-19 18:18:53] INFO root fetch - processPackages [service-now-api-sdk]: Start processing: hepstats
+[2023-04-19 18:18:53] INFO root fetch - main [MainThread]: End processing [service-now-api-sdk] error
+[2023-04-19 18:18:53] INFO root fetch - processPackages [hepstats]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-19 18:18:53] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/5b/72/c8c15c682c5777d9f87080ad4625a8e198c3930999cc1bdcd89def2d621a/Geode_Simplex-6.0.2-cp39-cp39-win_amd64.whl
+[2023-04-19 18:18:53] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-04-19 18:18:53] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230419152231.tar.gz tmp/deepchem-2.7.2.dev20230419161626.tar.gz --markdown 20230419/d/deepchem/2.7.2.dev20230419152231-2.7.2.dev20230419161626/diff.md --exclude *.pyd
+[2023-04-19 18:18:53] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-04-19 18:18:53] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230419/G/Geode-Simplex/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-04-19 18:18:53] INFO root fetch - processPackages [browseapi-sandbox]: Downloading https://files.pythonhosted.org/packages/7c/c3/4a8f8443dd907dfcb419140db4a2c008b42421ca383112daa21d6ef3cd8f/browseapi_sandbox-0.4.tar.gz
+[2023-04-19 18:18:53] INFO root fetch - processPackages [browseapi-sandbox]: Downloading https://files.pythonhosted.org/packages/7c/c3/4a8f8443dd907dfcb419140db4a2c008b42421ca383112daa21d6ef3cd8f/browseapi_sandbox-0.4.tar.gz
+[2023-04-19 18:18:53] INFO root fetch - processPackages [browseapi-sandbox]: executing diffoscope
+[2023-04-19 18:18:53] INFO root fetch - processPackages [browseapi-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browseapi_sandbox-0.3.tar.gz tmp/browseapi_sandbox-0.4.tar.gz --markdown 20230419/b/browseapi-sandbox/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-19 18:18:53] INFO root fetch - processPackages [browseapi-sandbox]: executing diffoscope
+[2023-04-19 18:18:53] INFO root fetch - processPackages [browseapi-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browseapi_sandbox-0.3.tar.gz tmp/browseapi_sandbox-0.4.tar.gz --markdown 20230419/b/browseapi-sandbox/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-19 18:18:53] INFO root fetch - processPackages [hepstats]: Downloading https://files.pythonhosted.org/packages/15/39/4a5d1e00d30e791763e6a960e369cd00d257c04c2c6f0a78125d8830b095/hepstats-0.6.0.tar.gz
+[2023-04-19 18:18:53] INFO root fetch - processPackages [seeq-sysid]: Downloading https://files.pythonhosted.org/packages/35/76/bbb3c360ca02783dd32c7aa3fa5ef28ee73b8845e4873e70638bfddbfc43/seeq_sysid-1.0.1.tar.gz
+[2023-04-19 18:18:53] WARNING root fetch - processPackages [hepstats]: Skipping package: exceeds size limit 16728056>=10485760
+[2023-04-19 18:18:53] INFO root fetch - processPackages [hepstats]: Start processing: femr
+[2023-04-19 18:18:53] INFO root fetch - main [MainThread]: End processing [hepstats] error
+[2023-04-19 18:18:53] INFO root fetch - processPackages [femr]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-04-19 18:18:53] INFO root fetch - processPackages [seeq-sysid]: executing diffoscope
+[2023-04-19 18:18:53] INFO root fetch - processPackages [seeq-sysid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq_sysid-1.0.0.tar.gz tmp/seeq_sysid-1.0.1.tar.gz --markdown 20230419/s/seeq-sysid/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 18:18:53] INFO root fetch - processPackages [femr]: Downloading https://files.pythonhosted.org/packages/74/6c/fefa48b7d8687eedecb934e3ebb56fad0c78962630c2dc84c5a096f5336d/femr-0.1.0-cp311-cp311-macosx_10_14_x86_64.whl
+[2023-04-19 18:18:53] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/b4/1e/90ca024c383d5af900d01d83653527bcf952ac605ca5599cb8668cc17609/sidewinder-db-0.0.9.tar.gz
+[2023-04-19 18:18:53] INFO root fetch - processPackages [femr]: Downloading https://files.pythonhosted.org/packages/73/2f/23dc3b1da2fee8ff2502a5d1b912ec59cf04c791a1bcebbcd0185c53d55e/femr-0.1.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-19 18:18:54] INFO root fetch - processPackages [shapelets-platform]: Downloading https://files.pythonhosted.org/packages/25/a3/22098be1c2e3b3893d1cce4ff71afc1be4ab388589a97ec6c29b933a9bf9/shapelets-platform-2.0.82.tar.gz
+[2023-04-19 18:18:54] INFO root fetch - processPackages [femr]: executing diffoscope
+[2023-04-19 18:18:54] INFO root fetch - processPackages [femr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femr-0.1.0-cp311-cp311-macosx_10_14_x86_64.whl.zip tmp/femr-0.1.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230419/f/femr/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-04-19 18:18:54] INFO root fetch - processPackages [sidewinder-db]: executing diffoscope
+[2023-04-19 18:18:54] INFO root fetch - processPackages [sidewinder-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidewinder-db-0.0.8.tar.gz tmp/sidewinder-db-0.0.9.tar.gz --markdown 20230419/s/sidewinder-db/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 18:18:54] INFO root fetch - processPackages [shapelets-platform]: executing diffoscope
+[2023-04-19 18:18:54] INFO root fetch - processPackages [shapelets-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets-platform-2.0.81.tar.gz tmp/shapelets-platform-2.0.82.tar.gz --markdown 20230419/s/shapelets-platform/2.0.81-2.0.82/diff.md --exclude *.pyd
+[2023-04-19 18:18:54] INFO root fetch - processPackages [xh-cpu-usage-simulator]: Start processing: spdlog
+[2023-04-19 18:18:54] INFO root fetch - main [MainThread]: End processing [xh-cpu-usage-simulator]: success
+[2023-04-19 18:18:54] INFO root fetch - processPackages [spdlog]: New version: [2.0.6] Old Version: [2.0.4]
+[2023-04-19 18:18:54] INFO root fetch - processPackages [spdlog]: Downloading https://files.pythonhosted.org/packages/d5/02/604753f90b84696e1c67983afee39b56ec0898c78df573d7ecb388d2ffbf/spdlog-2.0.6.tar.gz
+[2023-04-19 18:18:54] INFO root fetch - processPackages [spdlog]: executing diffoscope
+[2023-04-19 18:18:54] INFO root fetch - processPackages [spdlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdlog-2.0.4.tar.gz tmp/spdlog-2.0.6.tar.gz --markdown 20230419/s/spdlog/2.0.4-2.0.6/diff.md --exclude *.pyd
+[2023-04-19 18:18:55] INFO root fetch - processPackages [browseapi-sandbox]: Start processing: iotiumlib
+[2023-04-19 18:18:55] INFO root fetch - main [MainThread]: End processing [browseapi-sandbox]: success
+[2023-04-19 18:18:55] INFO root fetch - processPackages [iotiumlib]: New version: [23.5.0] Old Version: [22.8.16]
+[2023-04-19 18:18:55] INFO root fetch - processPackages [seeq-sysid]: Start processing: pulumi-azure-native
+[2023-04-19 18:18:55] INFO root fetch - main [MainThread]: End processing [seeq-sysid]: success
+[2023-04-19 18:18:55] INFO root fetch - processPackages [pulumi-azure-native]: New version: [1.99.3a1681807800] Old Version: [1.99.3a1681488349]
+[2023-04-19 18:18:55] INFO root fetch - processPackages [browseapi-sandbox]: Start processing: youdotcom
+[2023-04-19 18:18:55] INFO root fetch - main [MainThread]: End processing [browseapi-sandbox]: success
+[2023-04-19 18:18:55] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/52/f3/3693eef5572581c854b7baa4a23609bed3bd058874015c550b7dfcf8d321/pulumi_azure_native-1.99.3a1681488349.tar.gz
+[2023-04-19 18:18:55] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 62615676>=10485760
+[2023-04-19 18:18:55] INFO root fetch - processPackages [pulumi-azure-native]: Start processing: mixturemapping
+[2023-04-19 18:18:55] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-04-19 18:18:55] INFO root fetch - processPackages [youdotcom]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-19 18:18:55] INFO root fetch - processPackages [iotiumlib]: Downloading https://files.pythonhosted.org/packages/35/89/95a2a8a5716579123febb7345d76187b7e3da0cfc0dc9249afe5eee6c41b/iotiumlib-22.8.16.tar.gz
+[2023-04-19 18:18:55] INFO root fetch - processPackages [mixturemapping]: New version: [0.3.1] Old Version: [0.2.4]
+[2023-04-19 18:18:55] INFO root fetch - processPackages [sidewinder-db]: Start processing: elevenlabs
+[2023-04-19 18:18:55] INFO root fetch - main [MainThread]: End processing [sidewinder-db]: success
+[2023-04-19 18:18:55] INFO root fetch - processPackages [elevenlabs]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-19 18:18:55] INFO root fetch - processPackages [elevenlabs]: executing diffoscope
+[2023-04-19 18:18:55] INFO root fetch - processPackages [elevenlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabs-0.2.2.tar.gz tmp/elevenlabs-0.2.3.tar.gz --markdown 20230419/e/elevenlabs/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-19 18:18:55] INFO root fetch - processPackages [youdotcom]: Downloading https://files.pythonhosted.org/packages/c1/62/b346f2d2cd5e856b56102276ba68c71f6f903c7bb869827675b2d1a4a192/youdotcom-2.0.8.tar.gz
+[2023-04-19 18:18:55] INFO root fetch - processPackages [mixturemapping]: Downloading https://files.pythonhosted.org/packages/dc/ae/000c00e78fdc988d24bf7cf3a3f90f7e2e4785c3eb839fd2340d4942f5fc/mixturemapping-0.2.4-py39-none-any.whl
+[2023-04-19 18:18:55] INFO root fetch - processPackages [iotiumlib]: Downloading https://files.pythonhosted.org/packages/69/6b/e649b9e876d3a316ee6a19374ecb7e7b4a1e73a386e7a3b49f2e33eb61ea/iotiumlib-23.5.0.tar.gz
+[2023-04-19 18:18:55] INFO root fetch - processPackages [iotiumlib]: executing diffoscope
+[2023-04-19 18:18:55] INFO root fetch - processPackages [iotiumlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotiumlib-22.8.16.tar.gz tmp/iotiumlib-23.5.0.tar.gz --markdown 20230419/i/iotiumlib/22.8.16-23.5.0/diff.md --exclude *.pyd
+[2023-04-19 18:18:55] INFO root fetch - processPackages [mixturemapping]: Downloading https://files.pythonhosted.org/packages/eb/bf/dfa0de1f9ee3236d44333030da8ed3d5ff3df0be0f0f472d4afa1d818dd9/mixturemapping-0.3.1-py39-none-any.whl
+[2023-04-19 18:18:55] INFO root fetch - processPackages [youdotcom]: Downloading https://files.pythonhosted.org/packages/5a/64/f26b7a187ede2b1b7a71a96f30293100654b6b86b7312c94fa778721c113/youdotcom-2.0.9.tar.gz
+[2023-04-19 18:18:56] INFO root fetch - processPackages [youdotcom]: executing diffoscope
+[2023-04-19 18:18:56] INFO root fetch - processPackages [youdotcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youdotcom-2.0.8.tar.gz tmp/youdotcom-2.0.9.tar.gz --markdown 20230419/y/youdotcom/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-19 18:18:56] INFO root fetch - processPackages [mixturemapping]: executing diffoscope
+[2023-04-19 18:18:56] INFO root fetch - processPackages [mixturemapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixturemapping-0.2.4-py39-none-any.whl.zip tmp/mixturemapping-0.3.1-py39-none-any.whl.zip --markdown 20230419/m/mixturemapping/0.2.4-0.3.1/diff.md --exclude *.pyd
+[2023-04-19 18:18:56] INFO root fetch - main [MainThread]: End processing [spdlog]: success
+[2023-04-19 18:18:56] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-19 18:18:56] INFO root fetch - main [MainThread]: End processing [elevenlabs]: success
+[2023-04-19 18:18:56] INFO root fetch - main [MainThread]: End processing [femr]: success
+[2023-04-19 18:18:57] INFO root fetch - main [MainThread]: End processing [youdotcom]: success
+[2023-04-19 18:18:57] INFO root fetch - main [MainThread]: End processing [iotiumlib]: success
+[2023-04-19 18:18:59] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-04-19 18:19:14] INFO root fetch - main [MainThread]: End processing [mixturemapping]: success
+[2023-04-19 18:19:20] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-04-19 18:19:59] INFO root fetch - main [MainThread]: End processing [shapelets-platform]: success
+[2023-04-19 18:19:59] INFO root fetch - main [MainThread]: Store serial: [17773603]
