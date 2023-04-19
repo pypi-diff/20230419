@@ -13901,3 +13901,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 13:24:56] INFO root fetch - main [MainThread]: End processing [pyMetaModel]: success
 [2023-04-19 13:25:11] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-19 13:25:11] INFO root fetch - main [MainThread]: Store serial: [17770148]
+[2023-04-19 13:30:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17770148]
+[2023-04-19 13:30:20] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-19 13:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hpr-scratcher
+[2023-04-19 13:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysces
+[2023-04-19 13:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ifm3dpy
+[2023-04-19 13:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpforecaster
+[2023-04-19 13:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ExceptNotifier
+[2023-04-19 13:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: erscipcard
+[2023-04-19 13:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchserve-nightly
+[2023-04-19 13:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: web-2-album
+[2023-04-19 13:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lovematch
+[2023-04-19 13:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torch-model-archiver-nightly
+[2023-04-19 13:30:20] INFO root fetch - processPackages [hpr-scratcher]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-19 13:30:20] INFO root fetch - processPackages [pysces]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-04-19 13:30:20] INFO root fetch - processPackages [lovematch]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-19 13:30:20] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 13:30:20] INFO root fetch - processPackages [erscipcard]: New version: [1.17.87] Old Version: [1.17.84]
+[2023-04-19 13:30:20] INFO root fetch - processPackages [ExceptNotifier]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-19 13:30:20] INFO root fetch - processPackages [ifm3dpy]: New version: [1.2.6] Old Version: [1.1.1]
+[2023-04-19 13:30:20] INFO root fetch - processPackages [web-2-album]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 13:30:20] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-19 13:30:20] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-19 13:30:20] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/00/82/319f3c998c1b886c648e7560fce0ad6d68fa06b6b8807405ce7adbe77519/torchserve_nightly-2023.4.8-py3-none-any.whl
+[2023-04-19 13:30:20] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-04-19 13:30:20] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.8.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230419/g/gpforecaster/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 13:30:20] INFO root fetch - processPackages [web-2-album]: executing diffoscope
+[2023-04-19 13:30:20] INFO root fetch - processPackages [web-2-album]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_2_album-0.0.8.tar.gz tmp/web_2_album-0.0.9.tar.gz --markdown 20230419/w/web-2-album/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 13:30:21] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-04-19 13:30:21] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230419/t/torch-model-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-19 13:30:21] INFO root fetch - processPackages [pysces]: Downloading https://files.pythonhosted.org/packages/11/16/5c46157d2d168dbb24376483893dcd38613fec81ddbb26683ea1833aac35/pysces-1.0.3.tar.gz
+[2023-04-19 13:30:21] INFO root fetch - processPackages [hpr-scratcher]: Downloading https://files.pythonhosted.org/packages/ef/54/3965d17bee61d9afb00c7813342c75796e638759b439a986ee16eaef7b2c/hpr_scratcher-0.4.0.tar.gz
+[2023-04-19 13:30:21] INFO root fetch - processPackages [ifm3dpy]: Downloading https://files.pythonhosted.org/packages/03/d1/78f8b9c0725c4542796ca1909ccf67d443df7373881c8c73352a1a902515/ifm3dpy-1.1.1-cp39-cp39-win_amd64.whl
+[2023-04-19 13:30:21] INFO root fetch - processPackages [ExceptNotifier]: Downloading https://files.pythonhosted.org/packages/ec/1f/90ca1da0f96d7a66fca7be2b523b049d3e3e2dd85e196954449a62761d75/ExceptNotifier-0.1.4.tar.gz
+[2023-04-19 13:30:21] INFO root fetch - processPackages [lovematch]: Downloading https://files.pythonhosted.org/packages/6c/ff/8b86fc465e19571b67f012c32da58bf5837d4e5dfcab2dba99a7476b65b9/lovematch-1.3.0.tar.gz
+[2023-04-19 13:30:21] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/86/22/b4b59ddc1be94766e0c6826273feaeed833ddb583d4f4e853ab1299e5f6a/erscipcard-1.17.87.tar.gz
+[2023-04-19 13:30:21] INFO root fetch - processPackages [hpr-scratcher]: executing diffoscope
+[2023-04-19 13:30:21] INFO root fetch - processPackages [hpr-scratcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpr_scratcher-0.3.0.tar.gz tmp/hpr_scratcher-0.4.0.tar.gz --markdown 20230419/h/hpr-scratcher/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-19 13:30:21] INFO root fetch - processPackages [lovematch]: executing diffoscope
+[2023-04-19 13:30:21] INFO root fetch - processPackages [lovematch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovematch-1.2.0.tar.gz tmp/lovematch-1.3.0.tar.gz --markdown 20230419/l/lovematch/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-19 13:30:21] INFO root fetch - processPackages [ExceptNotifier]: executing diffoscope
+[2023-04-19 13:30:21] INFO root fetch - processPackages [ExceptNotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExceptNotifier-0.1.3.tar.gz tmp/ExceptNotifier-0.1.4.tar.gz --markdown 20230419/E/ExceptNotifier/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-19 13:30:21] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-04-19 13:30:21] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.17.84.tar.gz tmp/erscipcard-1.17.87.tar.gz --markdown 20230419/e/erscipcard/1.17.84-1.17.87/diff.md --exclude *.pyd
+[2023-04-19 13:30:21] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23695640>=10485760
+[2023-04-19 13:30:21] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-workflow-archiver-nightly
+[2023-04-19 13:30:21] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-04-19 13:30:21] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-19 13:30:21] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-04-19 13:30:21] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230419/t/torch-workflow-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-19 13:30:21] INFO root fetch - processPackages [pysces]: Downloading https://files.pythonhosted.org/packages/ee/03/ae543338b0e22881eaabf49960e2b683039cfea038bb568142a935b70672/pysces-1.1.0.tar.gz
+[2023-04-19 13:30:21] INFO root fetch - processPackages [ifm3dpy]: Downloading https://files.pythonhosted.org/packages/4e/8a/836b3af0eae384ee62a042ae13feb5f30c2aad45389dd90386235885fd74/ifm3dpy-1.2.6-cp39-cp39-win_amd64.whl
+[2023-04-19 13:30:21] INFO root fetch - processPackages [pysces]: executing diffoscope
+[2023-04-19 13:30:21] INFO root fetch - processPackages [pysces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysces-1.0.3.tar.gz tmp/pysces-1.1.0.tar.gz --markdown 20230419/p/pysces/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-04-19 13:30:21] INFO root fetch - processPackages [ifm3dpy]: executing diffoscope
+[2023-04-19 13:30:21] INFO root fetch - processPackages [ifm3dpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifm3dpy-1.1.1-cp39-cp39-win_amd64.whl.zip tmp/ifm3dpy-1.2.6-cp39-cp39-win_amd64.whl.zip --markdown 20230419/i/ifm3dpy/1.1.1-1.2.6/diff.md --exclude *.pyd
+[2023-04-19 13:30:22] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: spark-submit
+[2023-04-19 13:30:22] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-04-19 13:30:22] INFO root fetch - processPackages [spark-submit]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-19 13:30:22] INFO root fetch - processPackages [hpr-scratcher]: Start processing: torchrec-nightly
+[2023-04-19 13:30:22] INFO root fetch - main [MainThread]: End processing [hpr-scratcher]: success
+[2023-04-19 13:30:22] INFO root fetch - processPackages [lovematch]: Start processing: codigofacilito-jorgef
+[2023-04-19 13:30:22] INFO root fetch - main [MainThread]: End processing [lovematch]: success
+[2023-04-19 13:30:22] INFO root fetch - processPackages [web-2-album]: Start processing: cc-py-commons
+[2023-04-19 13:30:22] INFO root fetch - main [MainThread]: End processing [web-2-album]: success
+[2023-04-19 13:30:22] INFO root fetch - processPackages [codigofacilito-jorgef]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 13:30:22] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.4.9] Old Version: [2023.4.7]
+[2023-04-19 13:30:22] INFO root fetch - processPackages [spark-submit]: Downloading https://files.pythonhosted.org/packages/88/62/0a6b659b50ab99ebb06fe6aa4949aaf3462bae3e1637a0a08c92cc9fd127/spark-submit-1.3.0.tar.gz
+[2023-04-19 13:30:22] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 13:30:22] INFO root fetch - processPackages [gpforecaster]: Start processing: pylyzer
+[2023-04-19 13:30:22] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-04-19 13:30:22] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-04-19 13:30:22] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.4.7-py39-none-any.whl.zip tmp/torchrec_nightly-2023.4.9-py39-none-any.whl.zip --markdown 20230419/t/torchrec-nightly/2023.4.7-2023.4.9/diff.md --exclude *.pyd
+[2023-04-19 13:30:22] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-04-19 13:30:22] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230419/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 13:30:22] INFO root fetch - processPackages [codigofacilito-jorgef]: Downloading https://files.pythonhosted.org/packages/7c/98/d810e71b578e7dd546398fa14ce8598f6815ef72431505a7cba032832e13/codigofacilito_jorgef-0.0.1.tar.gz
+[2023-04-19 13:30:22] INFO root fetch - processPackages [pylyzer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 13:30:22] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: cli-aws-mfa
+[2023-04-19 13:30:22] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-04-19 13:30:22] INFO root fetch - processPackages [cli-aws-mfa]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 13:30:22] INFO root fetch - processPackages [ExceptNotifier]: Start processing: robotic
+[2023-04-19 13:30:22] INFO root fetch - main [MainThread]: End processing [ExceptNotifier]: success
+[2023-04-19 13:30:22] INFO root fetch - processPackages [spark-submit]: Downloading https://files.pythonhosted.org/packages/2b/a5/51504208b6c435d42e644cfd39b631cc3ae7a621fcb4b61b605ea13d7104/spark-submit-1.4.0.tar.gz
+[2023-04-19 13:30:22] INFO root fetch - processPackages [cli-aws-mfa]: executing diffoscope
+[2023-04-19 13:30:22] INFO root fetch - processPackages [cli-aws-mfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli-aws-mfa-0.0.3.tar.gz tmp/cli-aws-mfa-0.0.4.tar.gz --markdown 20230419/c/cli-aws-mfa/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 13:30:22] INFO root fetch - processPackages [spark-submit]: executing diffoscope
+[2023-04-19 13:30:22] INFO root fetch - processPackages [spark-submit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-submit-1.3.0.tar.gz tmp/spark-submit-1.4.0.tar.gz --markdown 20230419/s/spark-submit/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-19 13:30:22] INFO root fetch - processPackages [codigofacilito-jorgef]: Downloading https://files.pythonhosted.org/packages/e4/51/265f667f31e4a53f0b4dbcb17b0978e86f1d85eeae99431fc3e6b68e1125/codigofacilito_jorgef-0.0.2.tar.gz
+[2023-04-19 13:30:22] INFO root fetch - processPackages [codigofacilito-jorgef]: executing diffoscope
+[2023-04-19 13:30:22] INFO root fetch - processPackages [codigofacilito-jorgef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codigofacilito_jorgef-0.0.1.tar.gz tmp/codigofacilito_jorgef-0.0.2.tar.gz --markdown 20230419/c/codigofacilito-jorgef/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 13:30:23] INFO root fetch - processPackages [robotic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 13:30:23] INFO root fetch - processPackages [robotic]: Downloading https://files.pythonhosted.org/packages/34/a9/a4575e5556c65e745516c498a2bfe9aaaf1b460ff5faa412b064787999e8/robotic-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-19 13:30:23] INFO root fetch - processPackages [pylyzer]: executing diffoscope
+[2023-04-19 13:30:23] INFO root fetch - processPackages [pylyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylyzer-0.0.8-py3-none-win_amd64.whl.zip tmp/pylyzer-0.0.9-py3-none-win_amd64.whl.zip --markdown 20230419/p/pylyzer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 13:30:23] INFO root fetch - main [MainThread]: End processing [ifm3dpy]: success
+[2023-04-19 13:30:23] WARNING root fetch - processPackages [robotic]: Skipping package: exceeds size limit 12240177>=10485760
+[2023-04-19 13:30:23] INFO root fetch - main [MainThread]: End processing [robotic] error
+[2023-04-19 13:30:24] INFO root fetch - main [MainThread]: End processing [cli-aws-mfa]: success
+[2023-04-19 13:30:24] INFO root fetch - main [MainThread]: End processing [codigofacilito-jorgef]: success
+[2023-04-19 13:30:24] INFO root fetch - main [MainThread]: End processing [spark-submit]: success
+[2023-04-19 13:30:24] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-04-19 13:30:24] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-04-19 13:30:26] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-04-19 13:30:26] INFO root fetch - main [MainThread]: End processing [pysces]: success
+[2023-04-19 13:31:22] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
+[2023-04-19 13:31:22] INFO root fetch - main [MainThread]: Store serial: [17770222]
