@@ -7892,3 +7892,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 08:06:03] INFO root fetch - main [MainThread]: End processing [odoo10-addon-project-task-dependency]: success
 [2023-04-19 08:06:15] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-variant-default-code]: success
 [2023-04-19 08:06:15] INFO root fetch - main [MainThread]: Store serial: [17766490]
+[2023-04-19 08:11:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766490]
+[2023-04-19 08:11:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 08:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-project-task-dependency
+[2023-04-19 08:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-project-stock-product-set
+[2023-04-19 08:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2023-04-19 08:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-project-category
+[2023-04-19 08:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mojo-testplus
+[2023-04-19 08:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: helsinki-profile-gdpr-api
+[2023-04-19 08:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shiny-mdc
+[2023-04-19 08:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seleniumbase
+[2023-04-19 08:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oc-checksumsq
+[2023-04-19 08:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo11-addon-purchase-landed-cost
+[2023-04-19 08:11:24] INFO root fetch - processPackages [odoo13-addon-project-task-dependency]: New version: [13.0.1.0.2.dev4] Old Version: [13.0.1.0.2.dev3]
+[2023-04-19 08:11:24] INFO root fetch - processPackages [odoo13-addon-project-stock-product-set]: New version: [13.0.1.0.3.dev3] Old Version: [13.0.1.0.3.dev2]
+[2023-04-19 08:11:24] INFO root fetch - processPackages [helsinki-profile-gdpr-api]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-19 08:11:24] INFO root fetch - processPackages [odoo13-addon-project-category]: New version: [13.0.1.2.1.dev3] Old Version: [13.0.1.2.1.dev2]
+[2023-04-19 08:11:24] INFO root fetch - processPackages [shiny-mdc]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-04-19 08:11:24] INFO root fetch - processPackages [mojo-testplus]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 08:11:24] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-19 08:11:24] WARNING root fetch - processPackages [oc-checksumsq]: Skipping, unable to determine old version
+[2023-04-19 08:11:24] INFO root fetch - main [MainThread]: End processing [oc-checksumsq] error
+[2023-04-19 08:11:24] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230419] Old Version: [2.4.0.dev20230418]
+[2023-04-19 08:11:24] INFO root fetch - processPackages [odoo11-addon-purchase-landed-cost]: New version: [11.0.1.0.0.99.dev9] Old Version: [11.0.1.0.0.99.dev8]
+[2023-04-19 08:11:25] INFO root fetch - processPackages [helsinki-profile-gdpr-api]: Downloading https://files.pythonhosted.org/packages/6e/4a/ec75a4cd38a45b15eee7c4b9b0192e832717e42bf9d53c34135f8cc93624/helsinki-profile-gdpr-api-0.1.0.tar.gz
+[2023-04-19 08:11:25] INFO root fetch - processPackages [shiny-mdc]: Downloading https://files.pythonhosted.org/packages/35/ec/fa2a111bc06022883b200f939c66b9a93a8b700cba8736633e079b6b5821/shiny_mdc-1.4.0.tar.gz
+[2023-04-19 08:11:25] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/9e/1f/e06a30841e9836f17839c3cf00f3979f82e99b9929342e179aaf92c48dec/mojo_testplus-0.0.3.tar.gz
+[2023-04-19 08:11:25] INFO root fetch - processPackages [odoo11-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/d2/94/7488779ec60658b0802ca31113e0ae918fc6c732ef6118c6af21ce96ef43/odoo11_addon_purchase_landed_cost-11.0.1.0.0.99.dev8-py2.py3-none-any.whl
+[2023-04-19 08:11:25] INFO root fetch - processPackages [odoo13-addon-project-task-dependency]: Downloading https://files.pythonhosted.org/packages/0c/56/1b12c04da95d59ac1a441c564c11604b96836f1cb66507b20df1fde4e5c9/odoo13_addon_project_task_dependency-13.0.1.0.2.dev4-py3-none-any.whl
+[2023-04-19 08:11:25] INFO root fetch - processPackages [odoo13-addon-project-stock-product-set]: Downloading https://files.pythonhosted.org/packages/f3/dc/d13fee7e9b09d2d24ddf4c372e31a427530ef8aad6dc791650d33ef6fce9/odoo13_addon_project_stock_product_set-13.0.1.0.3.dev3-py3-none-any.whl
+[2023-04-19 08:11:25] INFO root fetch - processPackages [odoo13-addon-project-category]: Downloading https://files.pythonhosted.org/packages/b8/80/fa8c77688b2e55496ce54f2bd1ff4cf11523ec53793562aee25d1f2aa3cc/odoo13_addon_project_category-13.0.1.2.1.dev3-py3-none-any.whl
+[2023-04-19 08:11:25] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e8/7e/80601f7c125c666c018d5176cf16660efc480d19c2c3d71ba0603f99d701/pyg-nightly-2.4.0.dev20230419.tar.gz
+[2023-04-19 08:11:25] INFO root fetch - processPackages [helsinki-profile-gdpr-api]: Downloading https://files.pythonhosted.org/packages/62/63/077442d050017c1830f365010f9af5d949b65fc484a3eff2251b82772495/helsinki-profile-gdpr-api-0.2.0.tar.gz
+[2023-04-19 08:11:25] INFO root fetch - processPackages [odoo13-addon-project-stock-product-set]: executing diffoscope
+[2023-04-19 08:11:25] INFO root fetch - processPackages [odoo13-addon-project-stock-product-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_project_stock_product_set-13.0.1.0.3.dev2-py3-none-any.whl.zip tmp/odoo13_addon_project_stock_product_set-13.0.1.0.3.dev3-py3-none-any.whl.zip --markdown 20230419/o/odoo13-addon-project-stock-product-set/13.0.1.0.3.dev2-13.0.1.0.3.dev3/diff.md --exclude *.pyd
+[2023-04-19 08:11:25] INFO root fetch - processPackages [odoo13-addon-project-task-dependency]: executing diffoscope
+[2023-04-19 08:11:25] INFO root fetch - processPackages [odoo13-addon-project-task-dependency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_project_task_dependency-13.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo13_addon_project_task_dependency-13.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230419/o/odoo13-addon-project-task-dependency/13.0.1.0.2.dev3-13.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-04-19 08:11:25] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/f2/6b/7da71e4bad3ebe53ca314e4f4845e422ab113598d77bc11583526149d832/mojo_testplus-0.0.4.tar.gz
+[2023-04-19 08:11:25] INFO root fetch - processPackages [odoo13-addon-project-category]: executing diffoscope
+[2023-04-19 08:11:25] INFO root fetch - processPackages [odoo13-addon-project-category]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_project_category-13.0.1.2.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_project_category-13.0.1.2.1.dev3-py3-none-any.whl.zip --markdown 20230419/o/odoo13-addon-project-category/13.0.1.2.1.dev2-13.0.1.2.1.dev3/diff.md --exclude *.pyd
+[2023-04-19 08:11:25] INFO root fetch - processPackages [helsinki-profile-gdpr-api]: executing diffoscope
+[2023-04-19 08:11:25] INFO root fetch - processPackages [helsinki-profile-gdpr-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helsinki-profile-gdpr-api-0.1.0.tar.gz tmp/helsinki-profile-gdpr-api-0.2.0.tar.gz --markdown 20230419/h/helsinki-profile-gdpr-api/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 08:11:25] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-04-19 08:11:25] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230418.tar.gz tmp/pyg-nightly-2.4.0.dev20230419.tar.gz --markdown 20230419/p/pyg-nightly/2.4.0.dev20230418-2.4.0.dev20230419/diff.md --exclude *.pyd
+[2023-04-19 08:11:25] INFO root fetch - processPackages [shiny-mdc]: executing diffoscope
+[2023-04-19 08:11:25] INFO root fetch - processPackages [shiny-mdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiny_mdc-1.3.1.tar.gz tmp/shiny_mdc-1.4.0.tar.gz --markdown 20230419/s/shiny-mdc/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-04-19 08:11:25] INFO root fetch - processPackages [mojo-testplus]: executing diffoscope
+[2023-04-19 08:11:25] INFO root fetch - processPackages [mojo-testplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_testplus-0.0.3.tar.gz tmp/mojo_testplus-0.0.4.tar.gz --markdown 20230419/m/mojo-testplus/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 08:11:25] INFO root fetch - processPackages [odoo11-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/ad/34/4e84e200314e02d4a78f74433bf6c59e0bb18e0ecb801d61793e3563757d/odoo11_addon_purchase_landed_cost-11.0.1.0.0.99.dev9-py2.py3-none-any.whl
+[2023-04-19 08:11:25] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-04-19 08:11:25] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230419/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-19 08:11:25] INFO root fetch - processPackages [odoo11-addon-purchase-landed-cost]: executing diffoscope
+[2023-04-19 08:11:25] INFO root fetch - processPackages [odoo11-addon-purchase-landed-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_purchase_landed_cost-11.0.1.0.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_purchase_landed_cost-11.0.1.0.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20230419/o/odoo11-addon-purchase-landed-cost/11.0.1.0.0.99.dev8-11.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-04-19 08:11:27] INFO root fetch - main [MainThread]: End processing [odoo13-addon-project-category]: success
+[2023-04-19 08:11:27] INFO root fetch - main [MainThread]: End processing [odoo13-addon-project-stock-product-set]: success
+[2023-04-19 08:11:27] INFO root fetch - main [MainThread]: End processing [helsinki-profile-gdpr-api]: success
+[2023-04-19 08:11:27] INFO root fetch - main [MainThread]: End processing [odoo13-addon-project-task-dependency]: success
+[2023-04-19 08:11:27] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
+[2023-04-19 08:11:27] INFO root fetch - main [MainThread]: End processing [odoo11-addon-purchase-landed-cost]: success
+[2023-04-19 08:11:28] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-04-19 08:11:30] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-04-19 08:11:38] INFO root fetch - main [MainThread]: End processing [shiny-mdc]: success
+[2023-04-19 08:11:38] INFO root fetch - main [MainThread]: Store serial: [17766517]
