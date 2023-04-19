@@ -10030,3 +10030,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 10:37:13] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
 [2023-04-19 10:37:24] INFO root fetch - main [MainThread]: End processing [django-cradmin]: success
 [2023-04-19 10:37:24] INFO root fetch - main [MainThread]: Store serial: [17767903]
+[2023-04-19 10:42:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17767903]
+[2023-04-19 10:42:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-19 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chellow
+[2023-04-19 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fiduswriter
+[2023-04-19 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-estimator-nightly
+[2023-04-19 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dhnx
+[2023-04-19 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylovelace.kernel
+[2023-04-19 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cc-py-commons
+[2023-04-19 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: histoprep
+[2023-04-19 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nobuco
+[2023-04-19 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: moler
+[2023-04-19 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chatterstack
+[2023-04-19 10:42:34] INFO root fetch - processPackages [dhnx]: New version: [0.0.3] Old Version: [0.0.2rc1]
+[2023-04-19 10:42:34] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-04-19 10:42:34] INFO root fetch - processPackages [pylovelace.kernel]: New version: [2023.1.2] Old Version: [2023.1.1]
+[2023-04-19 10:42:34] INFO root fetch - processPackages [nobuco]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-19 10:42:34] INFO root fetch - processPackages [histoprep]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-19 10:42:34] INFO root fetch - processPackages [moler]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-19 10:42:34] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 10:42:34] WARNING root fetch - processPackages [chatterstack]: Skipping, unable to determine old version
+[2023-04-19 10:42:34] INFO root fetch - processPackages [chatterstack]: Start processing: plone.restapi
+[2023-04-19 10:42:34] INFO root fetch - main [MainThread]: End processing [chatterstack] error
+[2023-04-19 10:42:34] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-04-19 10:42:34] INFO root fetch - processPackages [plone.restapi]: New version: [8.9.1] Old Version: [8.9.0]
+[2023-04-19 10:42:34] INFO root fetch - processPackages [fiduswriter]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-04-19 10:42:34] INFO root fetch - processPackages [dhnx]: Downloading https://files.pythonhosted.org/packages/05/7a/e9d4c7c1063057588fb29bdb8c96dfbdffebd31a324e3d6f1d2ab8b184b7/dhnx-0.0.2rc1.tar.gz
+[2023-04-19 10:42:34] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/7b/ba/a3e5adee58cf3bc02b2596c4f7709cb966b3fda03478ff00639e2a662da1/nobuco-0.2.1.tar.gz
+[2023-04-19 10:42:34] INFO root fetch - processPackages [moler]: Downloading https://files.pythonhosted.org/packages/b4/a6/3fd66a88fcda521db113c9be55f3ec953ed517a8f773619cb8c948948763/moler-2.8.0.tar.gz
+[2023-04-19 10:42:34] INFO root fetch - processPackages [histoprep]: Downloading https://files.pythonhosted.org/packages/f6/40/70108aa3283f1bff878c95cb247f8911f2b078d86a91130c8d3981413cf6/histoprep-2.0.1.tar.gz
+[2023-04-19 10:42:34] INFO root fetch - processPackages [pylovelace.kernel]: Downloading https://files.pythonhosted.org/packages/42/2f/fef340a08612e36b0f48508e1dbc300c1901c07a6ad335621447fed82fec/pylovelace.kernel-2023.1.2-py3-none-any.whl
+[2023-04-19 10:42:34] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-04-19 10:42:34] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230419/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 10:42:34] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-04-19 10:42:34] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230419/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-04-19 10:42:34] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2023-04-19 10:42:34] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.2.0.tar.gz tmp/nobuco-0.2.1.tar.gz --markdown 20230419/n/nobuco/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-19 10:42:34] INFO root fetch - processPackages [pylovelace.kernel]: executing diffoscope
+[2023-04-19 10:42:34] INFO root fetch - processPackages [pylovelace.kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylovelace.kernel-2023.1.1-py3-none-any.whl.zip tmp/pylovelace.kernel-2023.1.2-py3-none-any.whl.zip --markdown 20230419/p/pylovelace.kernel/2023.1.1-2023.1.2/diff.md --exclude *.pyd
+[2023-04-19 10:42:34] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-04-19 10:42:34] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230419/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-04-19 10:42:35] INFO root fetch - processPackages [dhnx]: Downloading https://files.pythonhosted.org/packages/1a/0c/9cfad9b247836671d817e64a6d704ce49f3a829b083440c3e2ba3c1cf8ee/dhnx-0.0.3.tar.gz
+[2023-04-19 10:42:35] INFO root fetch - processPackages [histoprep]: Downloading https://files.pythonhosted.org/packages/13/97/efd535dc6010ec4e31802a45525f77618f058fbdeb724f785e7cf147eed0/histoprep-2.0.2.tar.gz
+[2023-04-19 10:42:35] INFO root fetch - processPackages [fiduswriter]: executing diffoscope
+[2023-04-19 10:42:35] INFO root fetch - processPackages [fiduswriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiduswriter-3.9.8.tar.gz tmp/fiduswriter-3.9.9.tar.gz --markdown 20230419/f/fiduswriter/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-04-19 10:42:35] INFO root fetch - processPackages [plone.restapi]: executing diffoscope
+[2023-04-19 10:42:35] INFO root fetch - processPackages [plone.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.restapi-8.9.0.tar.gz tmp/plone.restapi-8.9.1.tar.gz --markdown 20230419/p/plone.restapi/8.9.0-8.9.1/diff.md --exclude *.pyd
+[2023-04-19 10:42:35] INFO root fetch - processPackages [histoprep]: executing diffoscope
+[2023-04-19 10:42:35] INFO root fetch - processPackages [histoprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histoprep-2.0.1.tar.gz tmp/histoprep-2.0.2.tar.gz --markdown 20230419/h/histoprep/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-19 10:42:35] INFO root fetch - processPackages [dhnx]: executing diffoscope
+[2023-04-19 10:42:35] INFO root fetch - processPackages [dhnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhnx-0.0.2rc1.tar.gz tmp/dhnx-0.0.3.tar.gz --markdown 20230419/d/dhnx/0.0.2rc1-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 10:42:35] INFO root fetch - processPackages [moler]: Downloading https://files.pythonhosted.org/packages/49/b8/1d38c0e17d11a5dab70fce89547bc82455a38afb0e0c490d9b217bda120b/moler-2.9.0.tar.gz
+[2023-04-19 10:42:35] INFO root fetch - processPackages [moler]: executing diffoscope
+[2023-04-19 10:42:35] INFO root fetch - processPackages [moler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moler-2.8.0.tar.gz tmp/moler-2.9.0.tar.gz --markdown 20230419/m/moler/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-19 10:42:36] INFO root fetch - processPackages [pylovelace.kernel]: Start processing: ievv-opensource
+[2023-04-19 10:42:36] INFO root fetch - main [MainThread]: End processing [pylovelace.kernel]: success
+[2023-04-19 10:42:36] INFO root fetch - processPackages [ievv-opensource]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-04-19 10:42:36] INFO root fetch - processPackages [ievv-opensource]: Downloading https://files.pythonhosted.org/packages/a9/d7/422bd019d837eb2c3477555199088364b70ed8f9858e22da6c95a61b226c/ievv_opensource-9.2.1.tar.gz
+[2023-04-19 10:42:36] INFO root fetch - processPackages [ievv-opensource]: Downloading https://files.pythonhosted.org/packages/a0/52/9002064f679692a3917f22c43b97546aa37f8be51a81dc32c20ecce4c87a/ievv_opensource-9.2.2.tar.gz
+[2023-04-19 10:42:37] INFO root fetch - processPackages [ievv-opensource]: executing diffoscope
+[2023-04-19 10:42:37] INFO root fetch - processPackages [ievv-opensource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ievv_opensource-9.2.1.tar.gz tmp/ievv_opensource-9.2.2.tar.gz --markdown 20230419/i/ievv-opensource/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-04-19 10:42:37] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-04-19 10:42:37] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-04-19 10:42:37] INFO root fetch - main [MainThread]: End processing [dhnx]: success
+[2023-04-19 10:42:37] INFO root fetch - main [MainThread]: End processing [histoprep]: success
+[2023-04-19 10:42:38] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2023-04-19 10:42:39] INFO root fetch - main [MainThread]: End processing [ievv-opensource]: success
+[2023-04-19 10:42:42] INFO root fetch - main [MainThread]: End processing [moler]: success
+[2023-04-19 10:42:42] INFO root fetch - main [MainThread]: End processing [plone.restapi]: success
+[2023-04-19 10:42:43] INFO root fetch - main [MainThread]: End processing [fiduswriter]: success
+[2023-04-19 10:42:43] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-04-19 10:42:43] INFO root fetch - main [MainThread]: Store serial: [17767937]
