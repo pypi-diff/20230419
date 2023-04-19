@@ -14178,3 +14178,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 13:42:10] INFO root fetch - main [MainThread]: End processing [bodosdk]: success
 [2023-04-19 13:42:12] INFO root fetch - main [MainThread]: End processing [naruno]: success
 [2023-04-19 13:42:12] INFO root fetch - main [MainThread]: Store serial: [17770308]
+[2023-04-19 13:47:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17770308]
+[2023-04-19 13:47:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ascii-cli
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ms-imputedhours-core
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erddapy
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sonofman
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finometerdl
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netin
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RobertCommonBasic
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lovematch
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ddns
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchain-serve
+[2023-04-19 13:47:21] INFO root fetch - processPackages [sonofman]: New version: [3.0.1] Old Version: [2.6.0]
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ms-imputedhours-core]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-19 13:47:21] INFO root fetch - processPackages [finometerdl]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ascii-cli]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-04-19 13:47:21] INFO root fetch - processPackages [netin]: New version: [1.0.5.5] Old Version: [1.0.5.4]
+[2023-04-19 13:47:21] INFO root fetch - processPackages [RobertCommonBasic]: New version: [0.1.36] Old Version: [0.1.35]
+[2023-04-19 13:47:21] INFO root fetch - processPackages [erddapy]: New version: [2.0.0] Old Version: [1.2.1]
+[2023-04-19 13:47:21] INFO root fetch - processPackages [lovematch]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ddns]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-04-19 13:47:21] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.8.dev4]
+[2023-04-19 13:47:21] INFO root fetch - processPackages [finometerdl]: Downloading https://files.pythonhosted.org/packages/f4/6c/6120fa99c3a312cddd84f1ce8ae23e03f0a03d1dbca40621a21d6bf97040/finometerdl-0.1.0.tar.gz
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ddns]: executing diffoscope
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ddns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddns-2.9.8.tar.gz tmp/ddns-2.9.9.tar.gz --markdown 20230419/d/ddns/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ms-imputedhours-core]: Downloading https://files.pythonhosted.org/packages/2e/3f/54182d3e2cdf0a38a727b66b78d32ffffc4a8d6af42498962f9f0ac8c156/ms_imputedhours_core-0.3.4.tar.gz
+[2023-04-19 13:47:21] INFO root fetch - processPackages [sonofman]: Downloading https://files.pythonhosted.org/packages/4f/eb/65f0a99f39d7f70ad901d5726941a76967e6ddbf8d6c465ad82a6ef1c909/sonofman-2.6.0.tar.gz
+[2023-04-19 13:47:21] INFO root fetch - processPackages [erddapy]: Downloading https://files.pythonhosted.org/packages/18/4e/4eba03cbb589467f4cd9b969cdd4923e2b48ec4214a3c612e97624a2dc48/erddapy-1.2.1.tar.gz
+[2023-04-19 13:47:21] INFO root fetch - processPackages [netin]: Downloading https://files.pythonhosted.org/packages/25/87/7931137f2d38dd86f5623c165981985266960f99ec874028d1401f7f8138/netin-1.0.5.4.tar.gz
+[2023-04-19 13:47:21] INFO root fetch - processPackages [lovematch]: Downloading https://files.pythonhosted.org/packages/2a/3a/7278ca18491b217a16db87766a0cbb9fa1522ae5fffb0be8d6ed11679ef6/lovematch-1.5.0.tar.gz
+[2023-04-19 13:47:21] INFO root fetch - processPackages [ascii-cli]: Downloading https://files.pythonhosted.org/packages/7c/9d/af77220a2a70b573de2b866747bfeaa1340e2d812b0be1c99f72c0d9653e/ascii-cli-0.0.0.tar.gz
+[2023-04-19 13:47:21] WARNING root fetch - processPackages [sonofman]: Skipping package: exceeds size limit 18607371>=10485760
+[2023-04-19 13:47:21] INFO root fetch - processPackages [sonofman]: Start processing: stam
+[2023-04-19 13:47:21] INFO root fetch - main [MainThread]: End processing [sonofman] error
+[2023-04-19 13:47:21] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-04-19 13:47:21] INFO root fetch - processPackages [stam]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-04-19 13:47:22] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/3e/db/13031aa0ab285fcebc166d2d86ce215abaae016d6a1dfddba6d8dac4ae5c/RobertCommonBasic-0.1.36.tar.gz
+[2023-04-19 13:47:22] INFO root fetch - processPackages [ms-imputedhours-core]: executing diffoscope
+[2023-04-19 13:47:22] INFO root fetch - processPackages [ms-imputedhours-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_imputedhours_core-0.3.3.tar.gz tmp/ms_imputedhours_core-0.3.4.tar.gz --markdown 20230419/m/ms-imputedhours-core/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-19 13:47:22] INFO root fetch - processPackages [lovematch]: executing diffoscope
+[2023-04-19 13:47:22] INFO root fetch - processPackages [lovematch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovematch-1.4.0.tar.gz tmp/lovematch-1.5.0.tar.gz --markdown 20230419/l/lovematch/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-19 13:47:22] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-19 13:47:22] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.8.dev4.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230419/l/langchain-serve/0.0.8.dev4-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-19 13:47:22] INFO root fetch - processPackages [erddapy]: Downloading https://files.pythonhosted.org/packages/e2/98/b8a31b1d28f291cc3aa6d687768e244b9c7f6d9e6c726b7602d3ec478405/erddapy-2.0.0.tar.gz
+[2023-04-19 13:47:22] INFO root fetch - processPackages [finometerdl]: Downloading https://files.pythonhosted.org/packages/0d/5a/c4b31a39b6c6d0fb0de7102370626a298a0b12bb34ebd69c903a87865048/finometerdl-0.1.1.tar.gz
+[2023-04-19 13:47:22] INFO root fetch - processPackages [stam]: Downloading https://files.pythonhosted.org/packages/a2/9f/a5ff8b4b23089b345904b1b8a5992a03cd08995856a37e116dbb1a2b6342/stam-0.0.4-cp39-cp39-musllinux_1_1_x86_64.whl
+[2023-04-19 13:47:22] INFO root fetch - processPackages [netin]: Downloading https://files.pythonhosted.org/packages/86/f4/d1021d7ca7eb7ce3387d091b1d68191a170ad8361a9e5394f0d2805c2b14/netin-1.0.5.5.tar.gz
+[2023-04-19 13:47:22] INFO root fetch - processPackages [ascii-cli]: Downloading https://files.pythonhosted.org/packages/3a/52/13a3cb20d7202c99c449ea548be5231a7d6e928a861da328e13f3e2b9366/ascii-cli-0.0.1.tar.gz
+[2023-04-19 13:47:22] INFO root fetch - processPackages [RobertCommonBasic]: executing diffoscope
+[2023-04-19 13:47:22] INFO root fetch - processPackages [RobertCommonBasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonBasic-0.1.35.tar.gz tmp/RobertCommonBasic-0.1.36.tar.gz --markdown 20230419/R/RobertCommonBasic/0.1.35-0.1.36/diff.md --exclude *.pyd
+[2023-04-19 13:47:22] INFO root fetch - processPackages [erddapy]: executing diffoscope
+[2023-04-19 13:47:22] INFO root fetch - processPackages [erddapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erddapy-1.2.1.tar.gz tmp/erddapy-2.0.0.tar.gz --markdown 20230419/e/erddapy/1.2.1-2.0.0/diff.md --exclude *.pyd
+[2023-04-19 13:47:22] INFO root fetch - processPackages [finometerdl]: executing diffoscope
+[2023-04-19 13:47:22] INFO root fetch - processPackages [finometerdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finometerdl-0.1.0.tar.gz tmp/finometerdl-0.1.1.tar.gz --markdown 20230419/f/finometerdl/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 13:47:22] INFO root fetch - processPackages [netin]: executing diffoscope
+[2023-04-19 13:47:22] INFO root fetch - processPackages [netin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netin-1.0.5.4.tar.gz tmp/netin-1.0.5.5.tar.gz --markdown 20230419/n/netin/1.0.5.4-1.0.5.5/diff.md --exclude *.pyd
+[2023-04-19 13:47:22] INFO root fetch - processPackages [ascii-cli]: executing diffoscope
+[2023-04-19 13:47:22] INFO root fetch - processPackages [ascii-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascii-cli-0.0.0.tar.gz tmp/ascii-cli-0.0.1.tar.gz --markdown 20230419/a/ascii-cli/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-04-19 13:47:22] INFO root fetch - processPackages [stam]: Downloading https://files.pythonhosted.org/packages/ac/3e/885c32c0f0548c03b0c01a4ed066707b3326a3474b30fc3626996fa66d47/stam-0.1.0-cp39-cp39-musllinux_1_1_x86_64.whl
+[2023-04-19 13:47:23] INFO root fetch - main [MainThread]: End processing [lovematch]: success
+[2023-04-19 13:47:23] INFO root fetch - main [MainThread]: End processing [ddns]: success
+[2023-04-19 13:47:23] INFO root fetch - main [MainThread]: End processing [ms-imputedhours-core]: success
+[2023-04-19 13:47:23] INFO root fetch - main [MainThread]: End processing [finometerdl]: success
+[2023-04-19 13:47:23] INFO root fetch - main [MainThread]: End processing [ascii-cli]: success
+[2023-04-19 13:47:23] INFO root fetch - processPackages [stam]: executing diffoscope
+[2023-04-19 13:47:23] INFO root fetch - processPackages [stam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stam-0.0.4-cp39-cp39-musllinux_1_1_x86_64.whl.zip tmp/stam-0.1.0-cp39-cp39-musllinux_1_1_x86_64.whl.zip --markdown 20230419/s/stam/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-04-19 13:47:23] INFO root fetch - main [MainThread]: End processing [netin]: success
+[2023-04-19 13:47:23] INFO root fetch - main [MainThread]: End processing [erddapy]: success
+[2023-04-19 13:47:24] INFO root fetch - main [MainThread]: End processing [RobertCommonBasic]: success
+[2023-04-19 13:47:24] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-19 13:47:52] INFO root fetch - main [MainThread]: End processing [stam]: success
+[2023-04-19 13:47:52] INFO root fetch - main [MainThread]: Store serial: [17770347]
