@@ -13123,3 +13123,140 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 12:31:43] INFO root fetch - main [MainThread]: End processing [cmip]: success
 [2023-04-19 12:31:43] INFO root fetch - main [MainThread]: End processing [dbt-artifacts-parser]: success
 [2023-04-19 12:31:43] INFO root fetch - main [MainThread]: Store serial: [17769654]
+[2023-04-19 12:36:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17769654]
+[2023-04-19 12:36:52] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-19 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haki-crawler
+[2023-04-19 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: excelcolumnizer
+[2023-04-19 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylovemeter
+[2023-04-19 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: challengerteco
+[2023-04-19 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: siat
+[2023-04-19 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maelzel
+[2023-04-19 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2023-04-19 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: th2-grpc-lw-data-provider
+[2023-04-19 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llama-rs-python
+[2023-04-19 12:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dit-activity-stream
+[2023-04-19 12:36:52] INFO root fetch - processPackages [haki-crawler]: New version: [0.7] Old Version: [0.6]
+[2023-04-19 12:36:52] INFO root fetch - processPackages [excelcolumnizer]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-19 12:36:52] INFO root fetch - processPackages [challengerteco]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-19 12:36:52] INFO root fetch - processPackages [maelzel]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-19 12:36:52] INFO root fetch - processPackages [siat]: New version: [1.9.1] Old Version: [1.9]
+[2023-04-19 12:36:52] INFO root fetch - processPackages [llama-rs-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 12:36:52] WARNING root fetch - processPackages [pylovemeter]: Skipping, unable to determine old version
+[2023-04-19 12:36:52] INFO root fetch - processPackages [dit-activity-stream]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-19 12:36:52] INFO root fetch - processPackages [pylovemeter]: Start processing: bas-geoplot
+[2023-04-19 12:36:52] INFO root fetch - main [MainThread]: End processing [pylovemeter] error
+[2023-04-19 12:36:52] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4742299657]
+[2023-04-19 12:36:52] INFO root fetch - processPackages [cg]: New version: [29.0.2] Old Version: [29.0.1]
+[2023-04-19 12:36:52] INFO root fetch - processPackages [bas-geoplot]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-04-19 12:36:52] INFO root fetch - processPackages [maelzel]: Downloading https://files.pythonhosted.org/packages/e1/df/3a0f8019b2dde14ee16f9af7a559c1a084128924c3eb3826d3da87bdc1ec/maelzel-0.9.0.tar.gz
+[2023-04-19 12:36:52] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/bb/75/99da178ce868b69955e1c305f6cddfb9283286ed9af64149459221b76a91/th2_grpc_lw_data_provider-2.0.0.dev4742299657.tar.gz
+[2023-04-19 12:36:52] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/29/1e/8634d01d8ec3c6fb43425c0181479302fa48622df923ec3c6350f3d7a258/siat-1.9.1-py3-none-any.whl
+[2023-04-19 12:36:52] INFO root fetch - processPackages [challengerteco]: Downloading https://files.pythonhosted.org/packages/ec/b8/81eac3f6f59fac0bbabb1a6ae24a40348a208ff6bec0a0040a62967db65a/challengerteco-0.1.3.tar.gz
+[2023-04-19 12:36:52] INFO root fetch - processPackages [dit-activity-stream]: Downloading https://files.pythonhosted.org/packages/c0/95/6bd7b228d91e3492546de0f3c97268383a5b8297c9cfe1633b5c9c463443/dit_activity_stream-0.1.0.tar.gz
+[2023-04-19 12:36:52] INFO root fetch - processPackages [llama-rs-python]: Downloading https://files.pythonhosted.org/packages/dc/15/957727ae3052cd8a3c751157f3560992238afbb0590b3c8505432f9719c8/llama_rs_python-0.0.1.tar.gz
+[2023-04-19 12:36:52] INFO root fetch - processPackages [excelcolumnizer]: Downloading https://files.pythonhosted.org/packages/a0/c5/a89b1c8752e4fc7c075bb6a65dfb185f9033713198632b594b8c99066b1d/excelcolumnizer-0.0.7.tar.gz
+[2023-04-19 12:36:52] INFO root fetch - processPackages [bas-geoplot]: Downloading https://files.pythonhosted.org/packages/f9/c1/17cca2028c3f10f125eff67432397413d3f669aed9f389d89a7670eb308e/bas_geoplot-0.0.16.tar.gz
+[2023-04-19 12:36:52] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b2/e9/11555660ef689ad036551796690c75d3a88cb524a8f744beb2d990f9e1fe/cg-29.0.2.tar.gz
+[2023-04-19 12:36:52] INFO root fetch - processPackages [haki-crawler]: Downloading https://files.pythonhosted.org/packages/ae/6b/9bed07221090199aba0af0f12bfd58482d978bd6b7d6be3a6204e682ce0c/haki_crawler-0.7.tar.gz
+[2023-04-19 12:36:52] WARNING root fetch - processPackages [maelzel]: Skipping package: exceeds size limit 17210322>=10485760
+[2023-04-19 12:36:52] INFO root fetch - processPackages [maelzel]: Start processing: ExceptNotifier
+[2023-04-19 12:36:52] INFO root fetch - main [MainThread]: End processing [maelzel] error
+[2023-04-19 12:36:52] INFO root fetch - processPackages [ExceptNotifier]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 12:36:52] INFO root fetch - processPackages [challengerteco]: executing diffoscope
+[2023-04-19 12:36:52] INFO root fetch - processPackages [challengerteco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/challengerteco-0.1.2.tar.gz tmp/challengerteco-0.1.3.tar.gz --markdown 20230419/c/challengerteco/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-19 12:36:52] INFO root fetch - processPackages [excelcolumnizer]: executing diffoscope
+[2023-04-19 12:36:52] INFO root fetch - processPackages [excelcolumnizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excelcolumnizer-0.0.6.tar.gz tmp/excelcolumnizer-0.0.7.tar.gz --markdown 20230419/e/excelcolumnizer/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-19 12:36:52] INFO root fetch - processPackages [dit-activity-stream]: Downloading https://files.pythonhosted.org/packages/e6/ce/1da10a6571bf6832de698a653110d7251e2e8978b0795b43a18800a18f32/dit_activity_stream-0.2.0.tar.gz
+[2023-04-19 12:36:52] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-19 12:36:52] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4742299657.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230419/t/th2-grpc-lw-data-provider/2.0.0.dev4742299657-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-19 12:36:52] INFO root fetch - processPackages [haki-crawler]: executing diffoscope
+[2023-04-19 12:36:52] INFO root fetch - processPackages [haki-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haki_crawler-0.6.tar.gz tmp/haki_crawler-0.7.tar.gz --markdown 20230419/h/haki-crawler/0.6-0.7/diff.md --exclude *.pyd
+[2023-04-19 12:36:52] INFO root fetch - processPackages [bas-geoplot]: Downloading https://files.pythonhosted.org/packages/5b/d9/8655ea85eee688c562b5497e2cab096850faf2d9ce540cbe74668d0791f4/bas_geoplot-0.0.17.tar.gz
+[2023-04-19 12:36:52] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-04-19 12:36:52] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-1.9-py3-none-any.whl.zip tmp/siat-1.9.1-py3-none-any.whl.zip --markdown 20230419/s/siat/1.9-1.9.1/diff.md --exclude *.pyd
+[2023-04-19 12:36:52] INFO root fetch - processPackages [ExceptNotifier]: Downloading https://files.pythonhosted.org/packages/30/69/4c528be193b72f4536d3847206b7eb821504a7ad8e3d877fe883790b2bfd/ExceptNotifier-0.1.1.tar.gz
+[2023-04-19 12:36:53] INFO root fetch - processPackages [llama-rs-python]: Downloading https://files.pythonhosted.org/packages/16/70/e52781d2b528f6949a203666a3ae22eb96a831853980505d4f547f3e8ea1/llama_rs_python-0.0.2.tar.gz
+[2023-04-19 12:36:53] INFO root fetch - processPackages [dit-activity-stream]: executing diffoscope
+[2023-04-19 12:36:53] INFO root fetch - processPackages [dit-activity-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dit_activity_stream-0.1.0.tar.gz tmp/dit_activity_stream-0.2.0.tar.gz --markdown 20230419/d/dit-activity-stream/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 12:36:53] INFO root fetch - processPackages [bas-geoplot]: executing diffoscope
+[2023-04-19 12:36:53] INFO root fetch - processPackages [bas-geoplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bas_geoplot-0.0.16.tar.gz tmp/bas_geoplot-0.0.17.tar.gz --markdown 20230419/b/bas-geoplot/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-04-19 12:36:53] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-19 12:36:53] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.0.1.tar.gz tmp/cg-29.0.2.tar.gz --markdown 20230419/c/cg/29.0.1-29.0.2/diff.md --exclude *.pyd
+[2023-04-19 12:36:53] INFO root fetch - processPackages [llama-rs-python]: executing diffoscope
+[2023-04-19 12:36:53] INFO root fetch - processPackages [llama-rs-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_rs_python-0.0.1.tar.gz tmp/llama_rs_python-0.0.2.tar.gz --markdown 20230419/l/llama-rs-python/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 12:36:53] INFO root fetch - processPackages [ExceptNotifier]: Downloading https://files.pythonhosted.org/packages/c9/6a/90b042f9dcdd2dd93ce00f3bf4204d74b4cde6761f0d78bd33ef1a760ce0/ExceptNotifier-0.1.2.tar.gz
+[2023-04-19 12:36:53] INFO root fetch - processPackages [ExceptNotifier]: executing diffoscope
+[2023-04-19 12:36:53] INFO root fetch - processPackages [ExceptNotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExceptNotifier-0.1.1.tar.gz tmp/ExceptNotifier-0.1.2.tar.gz --markdown 20230419/E/ExceptNotifier/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 12:36:54] INFO root fetch - processPackages [challengerteco]: Start processing: idds-atlas
+[2023-04-19 12:36:54] INFO root fetch - main [MainThread]: End processing [challengerteco]: success
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-atlas]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-19 12:36:54] INFO root fetch - processPackages [excelcolumnizer]: Start processing: idds-client
+[2023-04-19 12:36:54] INFO root fetch - main [MainThread]: End processing [excelcolumnizer]: success
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-client]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/04/af/029ed45892c29f913292db2e04d32a1575b18649bba4d12929fde7d7fe2a/idds-atlas-1.2.2.tar.gz
+[2023-04-19 12:36:54] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: idds-common
+[2023-04-19 12:36:54] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-common]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-19 12:36:54] INFO root fetch - processPackages [haki-crawler]: Start processing: idds-doma
+[2023-04-19 12:36:54] INFO root fetch - main [MainThread]: End processing [haki-crawler]: success
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-doma]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/76/01/51c5b2c0ae302662bf05ff6cf3dae13ca01ed25618bb28e646f20827c745/idds-client-1.2.2.tar.gz
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-atlas]: executing diffoscope
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-atlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-atlas-1.2.1.tar.gz tmp/idds-atlas-1.2.2.tar.gz --markdown 20230419/i/idds-atlas/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/63/3f/63551defbfd97310448e83f73f1e425ac046a2f53478bc9cff7015bdd811/idds-common-1.2.2.tar.gz
+[2023-04-19 12:36:54] INFO root fetch - processPackages [llama-rs-python]: Start processing: idds-server
+[2023-04-19 12:36:54] INFO root fetch - main [MainThread]: End processing [llama-rs-python]: success
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-server]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-19 12:36:54] INFO root fetch - processPackages [dit-activity-stream]: Start processing: idds-monitor
+[2023-04-19 12:36:54] INFO root fetch - main [MainThread]: End processing [dit-activity-stream]: success
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-client]: executing diffoscope
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-client-1.2.1.tar.gz tmp/idds-client-1.2.2.tar.gz --markdown 20230419/i/idds-client/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-monitor]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-common]: executing diffoscope
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-common-1.2.1.tar.gz tmp/idds-common-1.2.2.tar.gz --markdown 20230419/i/idds-common/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-19 12:36:54] INFO root fetch - processPackages [bas-geoplot]: Start processing: requirementslib
+[2023-04-19 12:36:54] INFO root fetch - main [MainThread]: End processing [bas-geoplot]: success
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/e1/dd/395dd446d517be256d79c48fb56c0eb2998881c463f7f9302762d8721008/idds-doma-1.2.2.tar.gz
+[2023-04-19 12:36:54] INFO root fetch - processPackages [requirementslib]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/b8/6c/e7ad1c02ce1cb671bd9c0372f9e204699660fa919e440089ef8985f314da/idds-server-1.2.2.tar.gz
+[2023-04-19 12:36:54] INFO root fetch - processPackages [ExceptNotifier]: Start processing: dataverk-airflow
+[2023-04-19 12:36:54] INFO root fetch - main [MainThread]: End processing [ExceptNotifier]: success
+[2023-04-19 12:36:54] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/74/11/4becc0c2b2e54d99ce9e9e3385d86de492c7cfc847c0ee8439f643547821/idds-monitor-1.2.2.tar.gz
+[2023-04-19 12:36:54] INFO root fetch - processPackages [dataverk-airflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-19 12:36:55] INFO root fetch - processPackages [idds-doma]: executing diffoscope
+[2023-04-19 12:36:55] INFO root fetch - processPackages [idds-doma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-doma-1.2.1.tar.gz tmp/idds-doma-1.2.2.tar.gz --markdown 20230419/i/idds-doma/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-19 12:36:55] INFO root fetch - processPackages [requirementslib]: Downloading https://files.pythonhosted.org/packages/bd/be/5d47b56415fd5440dc2332315d638a317dd5d86a590be37a57b2a37210aa/requirementslib-2.2.4.tar.gz
+[2023-04-19 12:36:55] INFO root fetch - processPackages [idds-server]: executing diffoscope
+[2023-04-19 12:36:55] INFO root fetch - processPackages [idds-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-server-1.2.1.tar.gz tmp/idds-server-1.2.2.tar.gz --markdown 20230419/i/idds-server/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-19 12:36:55] INFO root fetch - processPackages [dataverk-airflow]: Downloading https://files.pythonhosted.org/packages/27/8b/197ea8ef8d9eabe327900ffcd5f83b66f298e911b94c51cf34ae869b9610/dataverk-airflow-0.4.8.tar.gz
+[2023-04-19 12:36:55] INFO root fetch - processPackages [dataverk-airflow]: Downloading https://files.pythonhosted.org/packages/02/f1/4fd602d8340ead972f659cd7bfc6d321c3c022196a8b8ed91d4e54b26bbc/dataverk-airflow-0.4.9.tar.gz
+[2023-04-19 12:36:55] INFO root fetch - processPackages [requirementslib]: Downloading https://files.pythonhosted.org/packages/f2/e6/b2ff5f080295f4c2584629852fd9d2a1abed7e17687573ba1a2300d11dfc/requirementslib-2.2.5.tar.gz
+[2023-04-19 12:36:55] INFO root fetch - processPackages [siat]: Start processing: idds-website
+[2023-04-19 12:36:55] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-04-19 12:36:55] INFO root fetch - processPackages [idds-website]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-19 12:36:55] INFO root fetch - processPackages [dataverk-airflow]: executing diffoscope
+[2023-04-19 12:36:55] INFO root fetch - processPackages [dataverk-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverk-airflow-0.4.8.tar.gz tmp/dataverk-airflow-0.4.9.tar.gz --markdown 20230419/d/dataverk-airflow/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-19 12:36:55] INFO root fetch - processPackages [requirementslib]: executing diffoscope
+[2023-04-19 12:36:55] INFO root fetch - processPackages [requirementslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requirementslib-2.2.4.tar.gz tmp/requirementslib-2.2.5.tar.gz --markdown 20230419/r/requirementslib/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-04-19 12:36:55] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/bd/46/89f22fec2ebdf9461d3b4e4f188fcc4439f998d23b2adb0c3bdb40903f40/idds-website-1.2.2.tar.gz
+[2023-04-19 12:36:55] INFO root fetch - processPackages [idds-monitor]: executing diffoscope
+[2023-04-19 12:36:55] INFO root fetch - processPackages [idds-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-monitor-1.2.1.tar.gz tmp/idds-monitor-1.2.2.tar.gz --markdown 20230419/i/idds-monitor/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-19 12:36:55] INFO root fetch - processPackages [idds-atlas]: Start processing: idds-workflow
+[2023-04-19 12:36:55] INFO root fetch - main [MainThread]: End processing [idds-atlas]: success
+[2023-04-19 12:36:55] INFO root fetch - processPackages [idds-workflow]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-19 12:36:56] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/6d/d4/a1107a6a7f3a76d9087667c0f83ed4796276ad9c2995146c2ded0da7ec5e/idds-workflow-1.2.2.tar.gz
+[2023-04-19 12:36:56] INFO root fetch - main [MainThread]: End processing [idds-doma]: success
+[2023-04-19 12:36:56] INFO root fetch - main [MainThread]: End processing [idds-client]: success
+[2023-04-19 12:36:56] INFO root fetch - processPackages [idds-workflow]: executing diffoscope
+[2023-04-19 12:36:56] INFO root fetch - processPackages [idds-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-workflow-1.2.1.tar.gz tmp/idds-workflow-1.2.2.tar.gz --markdown 20230419/i/idds-workflow/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-19 12:36:56] INFO root fetch - main [MainThread]: End processing [idds-common]: success
+[2023-04-19 12:36:56] INFO root fetch - main [MainThread]: End processing [dataverk-airflow]: success
+[2023-04-19 12:36:56] INFO root fetch - processPackages [idds-website]: executing diffoscope
+[2023-04-19 12:36:56] INFO root fetch - processPackages [idds-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-website-1.2.1.tar.gz tmp/idds-website-1.2.2.tar.gz --markdown 20230419/i/idds-website/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-19 12:36:57] INFO root fetch - main [MainThread]: End processing [requirementslib]: success
+[2023-04-19 12:36:57] INFO root fetch - main [MainThread]: End processing [idds-workflow]: success
+[2023-04-19 12:36:57] INFO root fetch - main [MainThread]: End processing [idds-server]: success
+[2023-04-19 12:36:58] INFO root fetch - main [MainThread]: End processing [idds-website]: success
+[2023-04-19 12:37:02] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
+[2023-04-19 12:37:06] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-19 12:37:06] INFO root fetch - main [MainThread]: Store serial: [17769742]
