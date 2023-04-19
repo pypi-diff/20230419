@@ -4976,3 +4976,34 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 04:17:30] INFO root fetch - main [MainThread]: End processing [datadog-checks-base]: success
 [2023-04-19 04:17:31] INFO root fetch - main [MainThread]: End processing [yookassa-async]: success
 [2023-04-19 04:17:31] INFO root fetch - main [MainThread]: Store serial: [17764972]
+[2023-04-19 04:22:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17764972]
+[2023-04-19 04:22:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-19 04:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tradchat
+[2023-04-19 04:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discord-data
+[2023-04-19 04:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipfsclient
+[2023-04-19 04:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: segment-anything-py
+[2023-04-19 04:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taichu-serve
+[2023-04-19 04:22:40] INFO root fetch - processPackages [discord-data]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-04-19 04:22:40] WARNING root fetch - processPackages [tradchat]: Skipping, unable to determine old version
+[2023-04-19 04:22:40] INFO root fetch - main [MainThread]: End processing [tradchat] error
+[2023-04-19 04:22:40] INFO root fetch - processPackages [segment-anything-py]: New version: [0.8] Old Version: [0.7]
+[2023-04-19 04:22:40] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.8] Old Version: [2.0.6]
+[2023-04-19 04:22:40] INFO root fetch - processPackages [ipfsclient]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-19 04:22:40] INFO root fetch - processPackages [discord-data]: Downloading https://files.pythonhosted.org/packages/82/80/d766fb813a730c9b5243c7e95d2abc7f9cb7b69969d825c6cb96832e2a09/discord_data-0.1.2.tar.gz
+[2023-04-19 04:22:40] INFO root fetch - processPackages [ipfsclient]: Downloading https://files.pythonhosted.org/packages/90/8f/0760aa8ec92474fc81a7f0c4cd61f911995d52e04b4d1441befc22b0068f/ipfsclient-0.0.6-py3-none-any.whl
+[2023-04-19 04:22:40] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/3c/71/3fa36c6f23c4e18d95c08ed7407d3019365014ffcfba0deb733771d6a11d/taichu-serve-2.0.8.tar.gz
+[2023-04-19 04:22:40] INFO root fetch - processPackages [segment-anything-py]: Downloading https://files.pythonhosted.org/packages/c3/a3/0edd9bfa392729002d8434e5ae1b7e5b155529905b58d418439d8bbb2098/segment-anything-py-0.8.tar.gz
+[2023-04-19 04:22:40] INFO root fetch - processPackages [ipfsclient]: executing diffoscope
+[2023-04-19 04:22:40] INFO root fetch - processPackages [ipfsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfsclient-0.0.5.tar.gz tmp/ipfsclient-0.0.6-py3-none-any.whl.zip --markdown 20230419/i/ipfsclient/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-19 04:22:40] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-04-19 04:22:40] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.6.tar.gz tmp/taichu-serve-2.0.8.tar.gz --markdown 20230419/t/taichu-serve/2.0.6-2.0.8/diff.md --exclude *.pyd
+[2023-04-19 04:22:40] INFO root fetch - processPackages [segment-anything-py]: executing diffoscope
+[2023-04-19 04:22:40] INFO root fetch - processPackages [segment-anything-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-anything-py-0.7.tar.gz tmp/segment-anything-py-0.8.tar.gz --markdown 20230419/s/segment-anything-py/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-19 04:22:40] INFO root fetch - processPackages [discord-data]: Downloading https://files.pythonhosted.org/packages/71/ae/df2ae9de41bc2847c08c83b8540c6ea24447ddb907c0575a3ce038c612cf/discord_data-0.2.0.tar.gz
+[2023-04-19 04:22:40] INFO root fetch - processPackages [discord-data]: executing diffoscope
+[2023-04-19 04:22:40] INFO root fetch - processPackages [discord-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_data-0.1.2.tar.gz tmp/discord_data-0.2.0.tar.gz --markdown 20230419/d/discord-data/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 04:22:41] INFO root fetch - main [MainThread]: End processing [ipfsclient]: success
+[2023-04-19 04:22:41] INFO root fetch - main [MainThread]: End processing [segment-anything-py]: success
+[2023-04-19 04:22:41] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-04-19 04:22:41] INFO root fetch - main [MainThread]: End processing [discord-data]: success
+[2023-04-19 04:22:41] INFO root fetch - main [MainThread]: Store serial: [17764993]
