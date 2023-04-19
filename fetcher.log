@@ -9699,3 +9699,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 10:16:03] INFO root fetch - main [MainThread]: End processing [Seq2SeqSharp]: success
 [2023-04-19 10:16:03] INFO root fetch - main [MainThread]: End processing [hgnm]: success
 [2023-04-19 10:16:03] INFO root fetch - main [MainThread]: Store serial: [17767623]
+[2023-04-19 10:21:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17767623]
+[2023-04-19 10:21:12] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-19 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PrSpiders
+[2023-04-19 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unitn-course-scraper
+[2023-04-19 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multiPrime
+[2023-04-19 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eis1600
+[2023-04-19 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qr-server
+[2023-04-19 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IQM-Vis
+[2023-04-19 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jina
+[2023-04-19 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ats-case
+[2023-04-19 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multiPrime
+[2023-04-19 10:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: huble
+[2023-04-19 10:21:12] INFO root fetch - processPackages [PrSpiders]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 10:21:12] INFO root fetch - processPackages [eis1600]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-04-19 10:21:12] INFO root fetch - processPackages [multiPrime]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-04-19 10:21:12] INFO root fetch - processPackages [unitn-course-scraper]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-19 10:21:12] INFO root fetch - processPackages [ats-case]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-19 10:21:12] INFO root fetch - processPackages [qr-server]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-19 10:21:12] INFO root fetch - processPackages [multiPrime]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-04-19 10:21:12] INFO root fetch - processPackages [IQM-Vis]: New version: [0.2.5.9] Old Version: [0.2.5.8]
+[2023-04-19 10:21:12] INFO root fetch - processPackages [huble]: New version: [0.2.290] Old Version: [0.2.289]
+[2023-04-19 10:21:13] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-19 10:21:13] INFO root fetch - processPackages [multiPrime]: Downloading https://files.pythonhosted.org/packages/83/3d/37e0f8e087496a19518dd15af0a45fce36db0357256ce80264a676609363/multiPrime-2.4.2.tar.gz
+[2023-04-19 10:21:13] INFO root fetch - processPackages [multiPrime]: Downloading https://files.pythonhosted.org/packages/83/3d/37e0f8e087496a19518dd15af0a45fce36db0357256ce80264a676609363/multiPrime-2.4.2.tar.gz
+[2023-04-19 10:21:13] INFO root fetch - processPackages [IQM-Vis]: executing diffoscope
+[2023-04-19 10:21:13] INFO root fetch - processPackages [IQM-Vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IQM-VIS-0.2.5.8.tar.gz tmp/IQM-VIS-0.2.5.9.tar.gz --markdown 20230419/I/IQM-Vis/0.2.5.8-0.2.5.9/diff.md --exclude *.pyd
+[2023-04-19 10:21:13] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-19 10:21:13] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230419/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-19 10:21:13] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/b8/9b/c7244827ef9d71e8900410ee6550c38a4abd18e8409cda0cbc9d8c4d6368/eis1600-0.8.2.tar.gz
+[2023-04-19 10:21:13] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/d7/31/f0ff4aee74e96aa9640007ef2c415979cfc8387159c573a4eca50cb6c708/PrSpiders-0.3.9.tar.gz
+[2023-04-19 10:21:13] INFO root fetch - processPackages [unitn-course-scraper]: Downloading https://files.pythonhosted.org/packages/23/f1/0f7ad2954b6fe0cb1b7c457e54d382ef0a72c27d527cbe4bffbe3cc03a31/unitn_course_scraper-0.1.0.tar.gz
+[2023-04-19 10:21:13] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/56/ec/3bc18c5370efd20742d58029937b6177bb1599db03a6dcf2eacb5ab8fdde/huble-0.2.290.tar.gz
+[2023-04-19 10:21:13] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-04-19 10:21:13] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.3.8.tar.gz tmp/PrSpiders-0.3.9.tar.gz --markdown 20230419/P/PrSpiders/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 10:21:13] INFO root fetch - processPackages [unitn-course-scraper]: executing diffoscope
+[2023-04-19 10:21:13] INFO root fetch - processPackages [unitn-course-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitn_course_scraper-0.0.9.tar.gz tmp/unitn_course_scraper-0.1.0.tar.gz --markdown 20230419/u/unitn-course-scraper/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-19 10:21:13] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-19 10:21:13] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.289.tar.gz tmp/huble-0.2.290.tar.gz --markdown 20230419/h/huble/0.2.289-0.2.290/diff.md --exclude *.pyd
+[2023-04-19 10:21:13] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/71/22/0c74fad1715d7878c3ed1e0394341f9c84c0f35f6f8779971d26978aef7d/ats_case-0.4.6.tar.gz
+[2023-04-19 10:21:13] INFO root fetch - processPackages [multiPrime]: Downloading https://files.pythonhosted.org/packages/21/95/dea79818f954edab848744b2c1895883196a3165ade8059a03c6c1ed1148/multiPrime-2.4.3.tar.gz
+[2023-04-19 10:21:13] INFO root fetch - processPackages [multiPrime]: Downloading https://files.pythonhosted.org/packages/21/95/dea79818f954edab848744b2c1895883196a3165ade8059a03c6c1ed1148/multiPrime-2.4.3.tar.gz
+[2023-04-19 10:21:13] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-04-19 10:21:13] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.4.5.tar.gz tmp/ats_case-0.4.6.tar.gz --markdown 20230419/a/ats-case/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-04-19 10:21:13] INFO root fetch - processPackages [qr-server]: executing diffoscope
+[2023-04-19 10:21:13] INFO root fetch - processPackages [qr-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qr_server-1.1.8.tar.gz tmp/qr_server-1.1.9.tar.gz --markdown 20230419/q/qr-server/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-19 10:21:13] INFO root fetch - processPackages [multiPrime]: executing diffoscope
+[2023-04-19 10:21:13] INFO root fetch - processPackages [multiPrime]: executing diffoscope
+[2023-04-19 10:21:13] INFO root fetch - processPackages [multiPrime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiPrime-2.4.2.tar.gz tmp/multiPrime-2.4.3.tar.gz --markdown 20230419/m/multiPrime/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-04-19 10:21:13] INFO root fetch - processPackages [multiPrime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiPrime-2.4.2.tar.gz tmp/multiPrime-2.4.3.tar.gz --markdown 20230419/m/multiPrime/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-04-19 10:21:13] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/d9/16/e72ca52804e02e4c8834cb73bb30cc539d232329b3db041de04cb7a831a1/eis1600-0.8.3.tar.gz
+[2023-04-19 10:21:13] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2023-04-19 10:21:13] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-0.8.2.tar.gz tmp/eis1600-0.8.3.tar.gz --markdown 20230419/e/eis1600/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-04-19 10:21:14] INFO root fetch - processPackages [unitn-course-scraper]: Start processing: odoo-addon-sale-company-currency
+[2023-04-19 10:21:14] INFO root fetch - main [MainThread]: End processing [unitn-course-scraper]: success
+[2023-04-19 10:21:14] WARNING root fetch - processPackages [odoo-addon-sale-company-currency]: Skipping, unable to determine old version
+[2023-04-19 10:21:14] INFO root fetch - processPackages [odoo-addon-sale-company-currency]: Start processing: odoo14-addon-edi-exchange-template-oca
+[2023-04-19 10:21:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-company-currency] error
+[2023-04-19 10:21:14] INFO root fetch - processPackages [odoo14-addon-edi-exchange-template-oca]: New version: [14.0.1.4.2] Old Version: [14.0.1.4.1]
+[2023-04-19 10:21:14] INFO root fetch - processPackages [multiPrime]: Start processing: fireorm-repository
+[2023-04-19 10:21:14] INFO root fetch - main [MainThread]: End processing [multiPrime]: success
+[2023-04-19 10:21:14] INFO root fetch - processPackages [odoo14-addon-edi-exchange-template-oca]: Downloading https://files.pythonhosted.org/packages/d2/a6/80a4fda48c584b9a57f2809ec022e77175745313c566e99a19f9f67ef688/odoo14_addon_edi_exchange_template_oca-14.0.1.4.1-py3-none-any.whl
+[2023-04-19 10:21:15] INFO root fetch - processPackages [fireorm-repository]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 10:21:15] INFO root fetch - processPackages [huble]: Start processing: weldx
+[2023-04-19 10:21:15] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-19 10:21:15] INFO root fetch - processPackages [multiPrime]: Start processing: drb-driver-netcdf
+[2023-04-19 10:21:15] INFO root fetch - main [MainThread]: End processing [multiPrime]: success
+[2023-04-19 10:21:15] INFO root fetch - main [MainThread]: End processing [IQM-Vis]: success
+[2023-04-19 10:21:15] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-04-19 10:21:15] INFO root fetch - processPackages [fireorm-repository]: executing diffoscope
+[2023-04-19 10:21:15] INFO root fetch - processPackages [fireorm-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireorm-repository-1.0.8.tar.gz tmp/fireorm-repository-1.0.9.tar.gz --markdown 20230419/f/fireorm-repository/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 10:21:15] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-04-19 10:21:15] INFO root fetch - processPackages [weldx]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-04-19 10:21:15] INFO root fetch - processPackages [drb-driver-netcdf]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-19 10:21:15] INFO root fetch - main [MainThread]: End processing [qr-server]: success
+[2023-04-19 10:21:15] INFO root fetch - processPackages [odoo14-addon-edi-exchange-template-oca]: Downloading https://files.pythonhosted.org/packages/d0/c1/fdfdca36a7673eedc98d9eceb42382ca81d8eb513f250ef14d7757030f4a/odoo14_addon_edi_exchange_template_oca-14.0.1.4.2-py3-none-any.whl
+[2023-04-19 10:21:15] INFO root fetch - processPackages [odoo14-addon-edi-exchange-template-oca]: executing diffoscope
+[2023-04-19 10:21:15] INFO root fetch - processPackages [odoo14-addon-edi-exchange-template-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_edi_exchange_template_oca-14.0.1.4.1-py3-none-any.whl.zip tmp/odoo14_addon_edi_exchange_template_oca-14.0.1.4.2-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-edi-exchange-template-oca/14.0.1.4.1-14.0.1.4.2/diff.md --exclude *.pyd
+[2023-04-19 10:21:15] INFO root fetch - processPackages [weldx]: Downloading https://files.pythonhosted.org/packages/88/29/f29b77a779bd35bbb3280514e18caef387f1834d05423e11560331eae313/weldx-0.6.5.tar.gz
+[2023-04-19 10:21:15] INFO root fetch - processPackages [drb-driver-netcdf]: Downloading https://files.pythonhosted.org/packages/77/04/d40f7d9e29e4cf4da60d68d32aca7ca65402411f99edb008f89f390705be/drb-driver-netcdf-1.1.1.tar.gz
+[2023-04-19 10:21:15] INFO root fetch - processPackages [weldx]: Downloading https://files.pythonhosted.org/packages/dc/bc/58164f07146aa476d11a3f0223aa6e80160895a09cc85f62d8cd80522101/weldx-0.6.6.tar.gz
+[2023-04-19 10:21:15] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-19 10:21:15] INFO root fetch - processPackages [drb-driver-netcdf]: Downloading https://files.pythonhosted.org/packages/76/2a/ff5b8349c5a6ea565c290ca2fdb4ddc694a3e0c19a441695d2152539ac1e/drb-driver-netcdf-1.2.0.tar.gz
+[2023-04-19 10:21:15] INFO root fetch - processPackages [weldx]: executing diffoscope
+[2023-04-19 10:21:15] INFO root fetch - processPackages [weldx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weldx-0.6.5.tar.gz tmp/weldx-0.6.6.tar.gz --markdown 20230419/w/weldx/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-04-19 10:21:15] INFO root fetch - processPackages [drb-driver-netcdf]: executing diffoscope
+[2023-04-19 10:21:15] INFO root fetch - processPackages [drb-driver-netcdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-netcdf-1.1.1.tar.gz tmp/drb-driver-netcdf-1.2.0.tar.gz --markdown 20230419/d/drb-driver-netcdf/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-19 10:21:16] INFO root fetch - main [MainThread]: End processing [fireorm-repository]: success
+[2023-04-19 10:21:16] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2023-04-19 10:21:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-edi-exchange-template-oca]: success
+[2023-04-19 10:21:16] INFO root fetch - main [MainThread]: End processing [drb-driver-netcdf]: success
+[2023-04-19 10:21:18] INFO root fetch - main [MainThread]: End processing [weldx]: success
+[2023-04-19 10:21:18] INFO root fetch - main [MainThread]: Store serial: [17767674]
