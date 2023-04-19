@@ -21059,3 +21059,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 19:23:57] INFO root fetch - main [MainThread]: End processing [pyftdc]: success
 [2023-04-19 19:23:57] INFO root fetch - main [MainThread]: End processing [jaseci]: success
 [2023-04-19 19:23:57] INFO root fetch - main [MainThread]: Store serial: [17774467]
+[2023-04-19 19:29:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17774467]
+[2023-04-19 19:29:08] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-19 19:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: archytas
+[2023-04-19 19:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amino.api
+[2023-04-19 19:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlops-lessons
+[2023-04-19 19:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pai-thin-client
+[2023-04-19 19:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nuvo-serial
+[2023-04-19 19:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaseci-serv
+[2023-04-19 19:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-roborock
+[2023-04-19 19:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skeletorch
+[2023-04-19 19:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: actipy
+[2023-04-19 19:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: code-compass
+[2023-04-19 19:29:08] INFO root fetch - processPackages [archytas]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-19 19:29:08] INFO root fetch - processPackages [nuvo-serial]: New version: [0.4.2] Old Version: [0.3.2]
+[2023-04-19 19:29:08] INFO root fetch - processPackages [skeletorch]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 19:29:08] INFO root fetch - processPackages [mlops-lessons]: New version: [1.0.0] Old Version: [0.1.dev1]
+[2023-04-19 19:29:08] WARNING root fetch - processPackages [amino.api]: Skipping, unable to determine old version
+[2023-04-19 19:29:08] INFO root fetch - processPackages [actipy]: New version: [2.0.3.post0] Old Version: [2.0.3]
+[2023-04-19 19:29:08] INFO root fetch - processPackages [amino.api]: Start processing: easycheck-doiteasy
+[2023-04-19 19:29:08] INFO root fetch - main [MainThread]: End processing [amino.api] error
+[2023-04-19 19:29:08] WARNING root fetch - processPackages [pai-thin-client]: Skipping, unable to determine old version
+[2023-04-19 19:29:08] INFO root fetch - processPackages [pai-thin-client]: Start processing: files-handler
+[2023-04-19 19:29:08] INFO root fetch - main [MainThread]: End processing [pai-thin-client] error
+[2023-04-19 19:29:08] INFO root fetch - processPackages [python-roborock]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-19 19:29:08] INFO root fetch - processPackages [jaseci-serv]: New version: [1.4.0.9] Old Version: [1.4.0.8]
+[2023-04-19 19:29:08] INFO root fetch - processPackages [code-compass]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 19:29:08] INFO root fetch - processPackages [files-handler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 19:29:08] INFO root fetch - processPackages [easycheck-doiteasy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 19:29:08] INFO root fetch - processPackages [mlops-lessons]: Downloading https://files.pythonhosted.org/packages/34/58/6bd482805bf60aa9e06b5dd29c3fe50376ffb53637e48511a198a57ec489/mlops_lessons-0.1.dev1-py3-none-any.whl
+[2023-04-19 19:29:08] INFO root fetch - processPackages [archytas]: Downloading https://files.pythonhosted.org/packages/d7/99/e1e89c5744d4329a6b92580570a5359ede04616d7dc040576ea26c1d32b8/archytas-0.2.4.tar.gz
+[2023-04-19 19:29:08] INFO root fetch - processPackages [skeletorch]: Downloading https://files.pythonhosted.org/packages/48/19/6b0e6750277494727258b0f3cc7bdc312c5494b3a973bf710b81d65c9a02/skeletorch-0.1.0.tar.gz
+[2023-04-19 19:29:08] INFO root fetch - processPackages [code-compass]: Downloading https://files.pythonhosted.org/packages/ac/b9/ab08ca09d8975bff3707a5615247556a540943770b75003b594c9f46c303/code_compass-0.1.2.tar.gz
+[2023-04-19 19:29:08] INFO root fetch - processPackages [actipy]: Downloading https://files.pythonhosted.org/packages/a4/7b/d7b9084aaa62b980f68f2847e98d864b365bfcbba9ac80987f3e60eee24e/actipy-2.0.3.tar.gz
+[2023-04-19 19:29:08] INFO root fetch - processPackages [files-handler]: Downloading https://files.pythonhosted.org/packages/82/12/1cabf683bfb981f5dfaf43d8fee61abe5633ef58ccafb855320caeea5266/files-handler-0.1.8.tar.gz
+[2023-04-19 19:29:08] INFO root fetch - processPackages [jaseci-serv]: Downloading https://files.pythonhosted.org/packages/54/cb/40cac007acb8c32addc02c946bfb5a30e334c7e6cc4d7011739bfbffe8b5/jaseci_serv-1.4.0.8.tar.gz
+[2023-04-19 19:29:08] INFO root fetch - processPackages [nuvo-serial]: Downloading https://files.pythonhosted.org/packages/a6/60/baca67dd30452a54a5c187aac5160a722ba24dbef09ee8f0d2c4d610f799/nuvo-serial-0.3.2.tar.gz
+[2023-04-19 19:29:08] INFO root fetch - processPackages [archytas]: executing diffoscope
+[2023-04-19 19:29:08] INFO root fetch - processPackages [archytas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archytas-0.2.3.tar.gz tmp/archytas-0.2.4.tar.gz --markdown 20230419/a/archytas/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-19 19:29:08] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-04-19 19:29:08] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.6.8.tar.gz tmp/python_roborock-0.6.9.tar.gz --markdown 20230419/p/python-roborock/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-19 19:29:08] INFO root fetch - processPackages [easycheck-doiteasy]: Downloading https://files.pythonhosted.org/packages/25/21/caef416780c8c920b286a7248d860bd5fb2cbbde82e22c62e4da22ee3e4a/easycheck_doiteasy-0.0.4.tar.gz
+[2023-04-19 19:29:08] INFO root fetch - processPackages [code-compass]: executing diffoscope
+[2023-04-19 19:29:08] INFO root fetch - processPackages [code-compass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_compass-0.1.1.tar.gz tmp/code_compass-0.1.2.tar.gz --markdown 20230419/c/code-compass/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 19:29:09] INFO root fetch - processPackages [files-handler]: Downloading https://files.pythonhosted.org/packages/3e/eb/ee71e309a34aa7fa17227c758208e1f8d7be4ebd644b4642ea73f8fe9e12/files-handler-0.1.9.tar.gz
+[2023-04-19 19:29:09] INFO root fetch - processPackages [mlops-lessons]: Downloading https://files.pythonhosted.org/packages/73/1f/215eeaaefb2fc1ea306521ba999024af32018a39cdbc5fb70ca8629b7650/mlops_lessons-1.0.0-py3-none-any.whl
+[2023-04-19 19:29:09] INFO root fetch - processPackages [skeletorch]: Downloading https://files.pythonhosted.org/packages/b6/d6/3a693f043e3ec382839c50828295b6de7a854f60d07a62cb8d23fea5b04a/skeletorch-0.1.1.tar.gz
+[2023-04-19 19:29:09] INFO root fetch - processPackages [actipy]: Downloading https://files.pythonhosted.org/packages/ae/5f/f00908a3943a5076f12a41b73d323f81dbfe2d9880700ca288cbcca8f3a5/actipy-2.0.3.post0.tar.gz
+[2023-04-19 19:29:09] INFO root fetch - processPackages [nuvo-serial]: Downloading https://files.pythonhosted.org/packages/a8/80/fd770a6051b71235b25dda3912797e386ec8f4f5ec17604af92b1578faeb/nuvo-serial-0.4.2.tar.gz
+[2023-04-19 19:29:09] INFO root fetch - processPackages [easycheck-doiteasy]: executing diffoscope
+[2023-04-19 19:29:09] INFO root fetch - processPackages [easycheck-doiteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycheck_doiteasy-0.0.3.tar.gz tmp/easycheck_doiteasy-0.0.4.tar.gz --markdown 20230419/e/easycheck-doiteasy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 19:29:09] INFO root fetch - processPackages [jaseci-serv]: Downloading https://files.pythonhosted.org/packages/b7/3b/4718f4f4f08e2adc57da5321d6f3729f207a6f35fb7b06ff6889a4ec2ffd/jaseci_serv-1.4.0.9.tar.gz
+[2023-04-19 19:29:09] INFO root fetch - processPackages [files-handler]: executing diffoscope
+[2023-04-19 19:29:09] INFO root fetch - processPackages [files-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/files-handler-0.1.8.tar.gz tmp/files-handler-0.1.9.tar.gz --markdown 20230419/f/files-handler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 19:29:09] INFO root fetch - processPackages [mlops-lessons]: executing diffoscope
+[2023-04-19 19:29:09] INFO root fetch - processPackages [mlops-lessons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlops_lessons-0.1.dev1-py3-none-any.whl.zip tmp/mlops_lessons-1.0.0-py3-none-any.whl.zip --markdown 20230419/m/mlops-lessons/0.1.dev1-1.0.0/diff.md --exclude *.pyd
+[2023-04-19 19:29:09] INFO root fetch - processPackages [skeletorch]: executing diffoscope
+[2023-04-19 19:29:09] INFO root fetch - processPackages [skeletorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skeletorch-0.1.0.tar.gz tmp/skeletorch-0.1.1.tar.gz --markdown 20230419/s/skeletorch/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 19:29:09] INFO root fetch - processPackages [nuvo-serial]: executing diffoscope
+[2023-04-19 19:29:09] INFO root fetch - processPackages [nuvo-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuvo-serial-0.3.2.tar.gz tmp/nuvo-serial-0.4.2.tar.gz --markdown 20230419/n/nuvo-serial/0.3.2-0.4.2/diff.md --exclude *.pyd
+[2023-04-19 19:29:09] INFO root fetch - processPackages [actipy]: executing diffoscope
+[2023-04-19 19:29:09] INFO root fetch - processPackages [actipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actipy-2.0.3.tar.gz tmp/actipy-2.0.3.post0.tar.gz --markdown 20230419/a/actipy/2.0.3-2.0.3.post0/diff.md --exclude *.pyd
+[2023-04-19 19:29:09] INFO root fetch - processPackages [jaseci-serv]: executing diffoscope
+[2023-04-19 19:29:09] INFO root fetch - processPackages [jaseci-serv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaseci_serv-1.4.0.8.tar.gz tmp/jaseci_serv-1.4.0.9.tar.gz --markdown 20230419/j/jaseci-serv/1.4.0.8-1.4.0.9/diff.md --exclude *.pyd
+[2023-04-19 19:29:10] INFO root fetch - processPackages [easycheck-doiteasy]: Start processing: asimov-gwdata
+[2023-04-19 19:29:10] INFO root fetch - main [MainThread]: End processing [easycheck-doiteasy]: success
+[2023-04-19 19:29:10] INFO root fetch - processPackages [code-compass]: Start processing: tract
+[2023-04-19 19:29:10] INFO root fetch - main [MainThread]: End processing [code-compass]: success
+[2023-04-19 19:29:10] INFO root fetch - processPackages [asimov-gwdata]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 19:29:10] INFO root fetch - processPackages [files-handler]: Start processing: luminesce-sdk-preview
+[2023-04-19 19:29:10] INFO root fetch - main [MainThread]: End processing [files-handler]: success
+[2023-04-19 19:29:10] INFO root fetch - main [MainThread]: End processing [skeletorch]: success
+[2023-04-19 19:29:10] INFO root fetch - processPackages [tract]: New version: [0.19.8] Old Version: [0.19.7]
+[2023-04-19 19:29:10] INFO root fetch - main [MainThread]: End processing [mlops-lessons]: success
+[2023-04-19 19:29:10] INFO root fetch - processPackages [asimov-gwdata]: Downloading https://files.pythonhosted.org/packages/80/ed/5f6014fb86af78e3ffbbaf1722cfcd43ea7d52a5d00f2595736b8e8e539c/asimov-gwdata-0.1.0.tar.gz
+[2023-04-19 19:29:10] INFO root fetch - main [MainThread]: End processing [archytas]: success
+[2023-04-19 19:29:10] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-04-19 19:29:10] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-04-19 19:29:11] INFO root fetch - processPackages [asimov-gwdata]: Downloading https://files.pythonhosted.org/packages/6c/96/707b13cef9d21d71df47fc85bc225e0c3560d30ec7418666d11d23886de2/asimov-gwdata-0.1.1.tar.gz
+[2023-04-19 19:29:11] INFO root fetch - processPackages [tract]: executing diffoscope
+[2023-04-19 19:29:11] INFO root fetch - processPackages [tract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tract-0.19.7.tar.gz tmp/tract-0.19.8.tar.gz --markdown 20230419/t/tract/0.19.7-0.19.8/diff.md --exclude *.pyd
+[2023-04-19 19:29:11] INFO root fetch - processPackages [asimov-gwdata]: executing diffoscope
+[2023-04-19 19:29:11] INFO root fetch - processPackages [asimov-gwdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-gwdata-0.1.0.tar.gz tmp/asimov-gwdata-0.1.1.tar.gz --markdown 20230419/a/asimov-gwdata/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 19:29:11] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-04-19 19:29:11] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230419/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-04-19 19:29:11] INFO root fetch - main [MainThread]: End processing [nuvo-serial]: success
+[2023-04-19 19:29:13] INFO root fetch - main [MainThread]: End processing [jaseci-serv]: success
+[2023-04-19 19:29:13] INFO root fetch - main [MainThread]: End processing [tract]: success
+[2023-04-19 19:29:13] INFO root fetch - main [MainThread]: End processing [asimov-gwdata]: success
+[2023-04-19 19:29:15] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-04-19 19:29:29] INFO root fetch - main [MainThread]: End processing [actipy]: success
+[2023-04-19 19:29:29] INFO root fetch - main [MainThread]: Store serial: [17774523]
