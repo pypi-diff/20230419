@@ -16140,3 +16140,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 15:24:21] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-04-19 15:24:33] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-19 15:24:33] INFO root fetch - main [MainThread]: Store serial: [17771399]
+[2023-04-19 15:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17771399]
+[2023-04-19 15:29:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-19 15:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stdatamodels
+[2023-04-19 15:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-check-seo
+[2023-04-19 15:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pykillerx
+[2023-04-19 15:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: widget-picture-generator
+[2023-04-19 15:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydflow
+[2023-04-19 15:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lifeomic-patient-ml-types
+[2023-04-19 15:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pool-cue
+[2023-04-19 15:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyplotbrookings
+[2023-04-19 15:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pool-cue]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 15:29:44] INFO root fetch - processPackages [widget-picture-generator]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 15:29:44] INFO root fetch - processPackages [stdatamodels]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pyplotbrookings]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-19 15:29:44] INFO root fetch - processPackages [django-check-seo]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pykillerx]: New version: [0.1b4] Old Version: [0.1.9]
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-04-19 15:29:44] INFO root fetch - processPackages [lifeomic-patient-ml-types]: New version: [7.4.2] Old Version: [7.4.1]
+[2023-04-19 15:29:44] INFO root fetch - processPackages [kcli]: New version: [99.0.202304190844] Old Version: [99.0.202304172130]
+[2023-04-19 15:29:44] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-19 15:29:44] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304172130-py3-none-any.whl.zip tmp/kcli-99.0.202304190844-py3-none-any.whl.zip --markdown 20230419/k/kcli/99.0.202304172130-99.0.202304190844/diff.md --exclude *.pyd
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pool-cue]: Downloading https://files.pythonhosted.org/packages/6c/2d/de46eed097d6db8daeabb1f8b370eb7f6009c432b9024d62d5ed8f917c11/pool_cue-1.0.0.tar.gz
+[2023-04-19 15:29:44] INFO root fetch - processPackages [widget-picture-generator]: Downloading https://files.pythonhosted.org/packages/e1/b9/f561e72d205fbd22ae1734c009dc0b866767ec0d351bfbd6d4c42faa260d/widget-picture-generator-0.0.3.tar.gz
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pykillerx]: Downloading https://files.pythonhosted.org/packages/a0/42/dfe987b79b7eeee1c80ddbb84439b3aed9fa974bc6f96d7b98310233617d/pykillerx-0.1.9.tar.gz
+[2023-04-19 15:29:44] INFO root fetch - processPackages [django-check-seo]: Downloading https://files.pythonhosted.org/packages/c7/88/78ef47a080832565354e31c64f171218c906c1ce1a2e889bb72f77fef4e5/django-check-seo-0.6.2.tar.gz
+[2023-04-19 15:29:44] INFO root fetch - processPackages [stdatamodels]: Downloading https://files.pythonhosted.org/packages/f9/28/a3e336ecb97a2fbc200c4315c50550dfeaf0babdd870a09311339988a3f0/stdatamodels-1.3.1.tar.gz
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pyplotbrookings]: Downloading https://files.pythonhosted.org/packages/d0/97/ef4af2f7790e1209924e271f422b3c65404f2d6c6823fe9b5824dd6a0962/pyplotbrookings-0.1.2.tar.gz
+[2023-04-19 15:29:44] INFO root fetch - processPackages [widget-picture-generator]: executing diffoscope
+[2023-04-19 15:29:44] INFO root fetch - processPackages [widget-picture-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widget-picture-generator-0.0.2.tar.gz tmp/widget-picture-generator-0.0.3.tar.gz --markdown 20230419/w/widget-picture-generator/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 15:29:44] INFO root fetch - processPackages [lifeomic-patient-ml-types]: Downloading https://files.pythonhosted.org/packages/32/b2/5f3ba53bbf4c3ef0ce4f8f4264ab8457d631ef302db2885a43f3e797122c/lifeomic_patient_ml_types-7.4.2.tar.gz
+[2023-04-19 15:29:44] INFO root fetch - processPackages [django-check-seo]: executing diffoscope
+[2023-04-19 15:29:44] INFO root fetch - processPackages [django-check-seo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-check-seo-0.6.1.tar.gz tmp/django-check-seo-0.6.2.tar.gz --markdown 20230419/d/django-check-seo/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pool-cue]: Downloading https://files.pythonhosted.org/packages/f5/3a/f9926a97b00ac857f6d9f594d7a01827bc42cef1da1068682c3bffc56e9e/pool_cue-1.0.1.tar.gz
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230419/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pykillerx]: Downloading https://files.pythonhosted.org/packages/56/da/88ec1de8e993f0ec170c40fe59018ae067937d528822a119153ed10b5c18/pykillerx-0.1b4.tar.gz
+[2023-04-19 15:29:44] INFO root fetch - processPackages [lifeomic-patient-ml-types]: executing diffoscope
+[2023-04-19 15:29:44] INFO root fetch - processPackages [lifeomic-patient-ml-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifeomic_patient_ml_types-7.4.1.tar.gz tmp/lifeomic_patient_ml_types-7.4.2.tar.gz --markdown 20230419/l/lifeomic-patient-ml-types/7.4.1-7.4.2/diff.md --exclude *.pyd
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pool-cue]: executing diffoscope
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pool-cue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pool_cue-1.0.0.tar.gz tmp/pool_cue-1.0.1.tar.gz --markdown 20230419/p/pool-cue/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pykillerx]: executing diffoscope
+[2023-04-19 15:29:44] INFO root fetch - processPackages [pykillerx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykillerx-0.1.9.tar.gz tmp/pykillerx-0.1b4.tar.gz --markdown 20230419/p/pykillerx/0.1.9-0.1b4/diff.md --exclude *.pyd
+[2023-04-19 15:29:45] INFO root fetch - processPackages [stdatamodels]: Downloading https://files.pythonhosted.org/packages/ea/00/3cdb132fd9d44747d59e40196b5bfb819b066df86521415c9ef438d0f2e1/stdatamodels-1.4.0.tar.gz
+[2023-04-19 15:29:45] INFO root fetch - processPackages [stdatamodels]: executing diffoscope
+[2023-04-19 15:29:45] INFO root fetch - processPackages [stdatamodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdatamodels-1.3.1.tar.gz tmp/stdatamodels-1.4.0.tar.gz --markdown 20230419/s/stdatamodels/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-04-19 15:29:45] INFO root fetch - processPackages [pyplotbrookings]: Downloading https://files.pythonhosted.org/packages/6c/d3/ee325bd14e2c31efe9453421caeefa5e62c9bb0169e6107e10f6d67143fa/pyplotbrookings-0.1.3.tar.gz
+[2023-04-19 15:29:45] INFO root fetch - main [MainThread]: End processing [widget-picture-generator]: success
+[2023-04-19 15:29:46] INFO root fetch - processPackages [pyplotbrookings]: executing diffoscope
+[2023-04-19 15:29:46] INFO root fetch - processPackages [pyplotbrookings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotbrookings-0.1.2.tar.gz tmp/pyplotbrookings-0.1.3.tar.gz --markdown 20230419/p/pyplotbrookings/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-19 15:29:46] INFO root fetch - main [MainThread]: End processing [lifeomic-patient-ml-types]: success
+[2023-04-19 15:29:46] INFO root fetch - main [MainThread]: End processing [pool-cue]: success
+[2023-04-19 15:29:46] INFO root fetch - main [MainThread]: End processing [django-check-seo]: success
+[2023-04-19 15:29:46] INFO root fetch - main [MainThread]: End processing [pykillerx]: success
+[2023-04-19 15:29:46] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-04-19 15:29:47] INFO root fetch - main [MainThread]: End processing [pyplotbrookings]: success
+[2023-04-19 15:29:51] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-19 15:29:52] INFO root fetch - main [MainThread]: End processing [stdatamodels]: success
+[2023-04-19 15:29:52] INFO root fetch - main [MainThread]: Store serial: [17771430]
