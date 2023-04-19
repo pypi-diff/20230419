@@ -4344,3 +4344,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 03:23:30] INFO root fetch - main [MainThread]: End processing [shinyswatch]: success
 [2023-04-19 03:24:36] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-04-19 03:24:36] INFO root fetch - main [MainThread]: Store serial: [17764635]
+[2023-04-19 03:29:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17764635]
+[2023-04-19 03:29:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-19 03:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MAxPy
+[2023-04-19 03:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crowdcores-node
+[2023-04-19 03:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multidirectional-graph
+[2023-04-19 03:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: github-poster
+[2023-04-19 03:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi
+[2023-04-19 03:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightwood
+[2023-04-19 03:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: segment-anything-py
+[2023-04-19 03:29:46] INFO root fetch - processPackages [multidirectional-graph]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-19 03:29:46] INFO root fetch - processPackages [MAxPy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 03:29:46] INFO root fetch - processPackages [crowdcores-node]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-19 03:29:46] INFO root fetch - processPackages [lightwood]: New version: [23.4.3.0] Old Version: [23.3.2.0]
+[2023-04-19 03:29:46] INFO root fetch - processPackages [github-poster]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-04-19 03:29:47] INFO root fetch - processPackages [pulumi]: New version: [3.9.1] Old Version: [3.9.0a1627480147]
+[2023-04-19 03:29:47] WARNING root fetch - processPackages [segment-anything-py]: Skipping, unable to determine old version
+[2023-04-19 03:29:47] INFO root fetch - main [MainThread]: End processing [segment-anything-py] error
+[2023-04-19 03:29:47] INFO root fetch - processPackages [crowdcores-node]: Downloading https://files.pythonhosted.org/packages/9e/9a/1025a0fd18940d5e9cc9e60b6882dd454317ecf9d1bba935e98bdda043c5/crowdcores_node-1.0.3.tar.gz
+[2023-04-19 03:29:47] INFO root fetch - processPackages [multidirectional-graph]: Downloading https://files.pythonhosted.org/packages/0e/e4/1da80d57796b2541bbbbd03fb43ed95c7552184d009ed3cc4cfd69ab1488/multidirectional_graph-0.1.6.tar.gz
+[2023-04-19 03:29:47] INFO root fetch - processPackages [lightwood]: Downloading https://files.pythonhosted.org/packages/96/1a/56c20f7ced938663d393db7d359ee2aba033c623bacca1a3a6c173cc4645/lightwood-23.3.2.0.tar.gz
+[2023-04-19 03:29:47] INFO root fetch - processPackages [MAxPy]: Downloading https://files.pythonhosted.org/packages/c4/64/cd93f09f9d48e487e352135bf5010b2ba201bf9ad4780737061b386f740d/MAxPy-0.1.0.tar.gz
+[2023-04-19 03:29:47] INFO root fetch - processPackages [github-poster]: Downloading https://files.pythonhosted.org/packages/2e/e9/59d7062d63d0788b0d1a33105200671494047adba59bbd20598b9d783020/github_poster-2.5.0.tar.gz
+[2023-04-19 03:29:47] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/86/e81db20648ca7b8fbc7fb663e6795bc30d94e7f71c35856cda04bb48fb84/pulumi-3.9.0a1627480147-py2.py3-none-any.whl
+[2023-04-19 03:29:47] INFO root fetch - processPackages [crowdcores-node]: Downloading https://files.pythonhosted.org/packages/b9/74/0dce2f63568b1c7213e91d1d7f63f0e555a2ff91ac879a91f1c3bc573d47/crowdcores-node-1.0.4.tar.gz
+[2023-04-19 03:29:47] INFO root fetch - processPackages [MAxPy]: Downloading https://files.pythonhosted.org/packages/c7/7a/8256dcc1b9440c8ebd0401d1f8cd04ed2d7b7e09e9facac17fdd631865b5/MAxPy-0.1.1.tar.gz
+[2023-04-19 03:29:47] INFO root fetch - processPackages [lightwood]: Downloading https://files.pythonhosted.org/packages/de/e3/48d945063db9252b21912dafe198644c616003b1c0656a29c638f4ef4988/lightwood-23.4.3.0.tar.gz
+[2023-04-19 03:29:47] INFO root fetch - processPackages [github-poster]: Downloading https://files.pythonhosted.org/packages/5f/67/0afdf24d055058f0b62816a95764899c9d30e7758094e5c032d2c78100e5/github_poster-2.5.1.tar.gz
+[2023-04-19 03:29:47] INFO root fetch - processPackages [crowdcores-node]: executing diffoscope
+[2023-04-19 03:29:47] INFO root fetch - processPackages [crowdcores-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdcores_node-1.0.3.tar.gz tmp/crowdcores-node-1.0.4.tar.gz --markdown 20230419/c/crowdcores-node/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-19 03:29:47] INFO root fetch - processPackages [lightwood]: executing diffoscope
+[2023-04-19 03:29:47] INFO root fetch - processPackages [lightwood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightwood-23.3.2.0.tar.gz tmp/lightwood-23.4.3.0.tar.gz --markdown 20230419/l/lightwood/23.3.2.0-23.4.3.0/diff.md --exclude *.pyd
+[2023-04-19 03:29:47] INFO root fetch - processPackages [MAxPy]: executing diffoscope
+[2023-04-19 03:29:47] INFO root fetch - processPackages [MAxPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAxPy-0.1.0.tar.gz tmp/MAxPy-0.1.1.tar.gz --markdown 20230419/M/MAxPy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 03:29:47] INFO root fetch - processPackages [github-poster]: executing diffoscope
+[2023-04-19 03:29:47] INFO root fetch - processPackages [github-poster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_poster-2.5.0.tar.gz tmp/github_poster-2.5.1.tar.gz --markdown 20230419/g/github-poster/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-04-19 03:29:47] INFO root fetch - processPackages [multidirectional-graph]: Downloading https://files.pythonhosted.org/packages/4d/d4/13ea6cea3d12b1e3231f27d0f548071ceead105dc5e74847b9ecd36f1cd5/multidirectional_graph-0.1.7.tar.gz
+[2023-04-19 03:29:47] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/ba/a5/2a7580020b4c5bf7a2141ea9a534e88935a103da4dff30a205e4afdfb95d/pulumi-3.9.1-py2.py3-none-any.whl
+[2023-04-19 03:29:48] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2023-04-19 03:29:48] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip --markdown 20230419/p/pulumi/3.9.0a1627480147-3.9.1/diff.md --exclude *.pyd
+[2023-04-19 03:29:48] INFO root fetch - processPackages [multidirectional-graph]: executing diffoscope
+[2023-04-19 03:29:48] INFO root fetch - processPackages [multidirectional-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidirectional_graph-0.1.6.tar.gz tmp/multidirectional_graph-0.1.7.tar.gz --markdown 20230419/m/multidirectional-graph/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-19 03:29:48] INFO root fetch - main [MainThread]: End processing [crowdcores-node]: success
+[2023-04-19 03:29:49] INFO root fetch - main [MainThread]: End processing [MAxPy]: success
+[2023-04-19 03:29:49] INFO root fetch - main [MainThread]: End processing [github-poster]: success
+[2023-04-19 03:29:49] INFO root fetch - main [MainThread]: End processing [lightwood]: success
+[2023-04-19 03:29:49] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2023-04-19 03:29:49] INFO root fetch - main [MainThread]: End processing [multidirectional-graph]: success
+[2023-04-19 03:29:49] INFO root fetch - main [MainThread]: Store serial: [17764655]
