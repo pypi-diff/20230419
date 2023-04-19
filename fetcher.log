@@ -18540,3 +18540,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 17:24:44] INFO root fetch - main [MainThread]: End processing [deepchem]: success
 [2023-04-19 17:24:57] INFO root fetch - main [MainThread]: End processing [lhf]: success
 [2023-04-19 17:24:57] INFO root fetch - main [MainThread]: Store serial: [17772837]
+[2023-04-19 17:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17772837]
+[2023-04-19 17:30:09] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-19 17:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: honeybee-radiance
+[2023-04-19 17:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpforecaster
+[2023-04-19 17:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digautoprofiler
+[2023-04-19 17:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fractal-roles
+[2023-04-19 17:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ckanext-flakes
+[2023-04-19 17:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hpr-scratcher
+[2023-04-19 17:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phenotype-cover
+[2023-04-19 17:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frz-jupyterlab-variableinspector
+[2023-04-19 17:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: indy-plenum
+[2023-04-19 17:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libertem-asi-tpx3
+[2023-04-19 17:30:09] INFO root fetch - processPackages [hpr-scratcher]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-19 17:30:09] INFO root fetch - processPackages [fractal-roles]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-19 17:30:09] INFO root fetch - processPackages [phenotype-cover]: New version: [0.8] Old Version: [0.7]
+[2023-04-19 17:30:09] INFO root fetch - processPackages [digautoprofiler]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 17:30:09] INFO root fetch - processPackages [ckanext-flakes]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-19 17:30:09] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 17:30:09] INFO root fetch - processPackages [frz-jupyterlab-variableinspector]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-19 17:30:09] INFO root fetch - processPackages [libertem-asi-tpx3]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 17:30:09] INFO root fetch - processPackages [indy-plenum]: New version: [1.9.2rc1] Old Version: [1.9.2.dev879]
+[2023-04-19 17:30:09] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-19 17:30:09] INFO root fetch - processPackages [phenotype-cover]: Downloading https://files.pythonhosted.org/packages/9b/c8/4ddf90b594ab3cb40980db2a8bed9f33717afb9e19679aa8167a17764972/phenotype_cover-0.7.tar.gz
+[2023-04-19 17:30:09] INFO root fetch - processPackages [digautoprofiler]: Downloading https://files.pythonhosted.org/packages/29/92/6be21213553d5dacc9f24ace4bb007796a59ed864898eb0aae425158d801/digautoprofiler-0.2.8.tar.gz
+[2023-04-19 17:30:09] INFO root fetch - processPackages [hpr-scratcher]: Downloading https://files.pythonhosted.org/packages/d8/a3/9410dc3eb5a6a4660b94abc7b7e4609e1ce00e0ef1c9408c86b05a37acf5/hpr_scratcher-0.5.0.tar.gz
+[2023-04-19 17:30:09] INFO root fetch - processPackages [ckanext-flakes]: Downloading https://files.pythonhosted.org/packages/d5/a8/e00e7164153319e6d2c7d80ae007d81e2f50167536ef01af265f1eaf1807/ckanext-flakes-0.3.7.tar.gz
+[2023-04-19 17:30:09] INFO root fetch - processPackages [fractal-roles]: Downloading https://files.pythonhosted.org/packages/1e/80/f05562abe3f1c05f6495225086786ce17ee5f3aa85fcfb4e9957dd4557f1/fractal-roles-1.0.5.tar.gz
+[2023-04-19 17:30:09] INFO root fetch - processPackages [frz-jupyterlab-variableinspector]: Downloading https://files.pythonhosted.org/packages/47/d3/d380b5e2df3bf00e951e2ac76566c9851e8a0c3bff56beb374b4595de4b9/frz-jupyterlab-variableinspector-0.1.3.tar.gz
+[2023-04-19 17:30:09] INFO root fetch - processPackages [libertem-asi-tpx3]: Downloading https://files.pythonhosted.org/packages/88/4c/f2242d4ff2202dfafccbfaa66fe5c5fbce313b685a9b25ae2931da93dba8/libertem_asi_tpx3-0.2.9.tar.gz
+[2023-04-19 17:30:09] INFO root fetch - processPackages [hpr-scratcher]: executing diffoscope
+[2023-04-19 17:30:09] INFO root fetch - processPackages [hpr-scratcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpr_scratcher-0.4.0.tar.gz tmp/hpr_scratcher-0.5.0.tar.gz --markdown 20230419/h/hpr-scratcher/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-19 17:30:10] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-04-19 17:30:10] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.8.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230419/g/gpforecaster/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 17:30:10] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-04-19 17:30:10] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230419/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-19 17:30:10] INFO root fetch - processPackages [indy-plenum]: executing diffoscope
+[2023-04-19 17:30:10] INFO root fetch - processPackages [indy-plenum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indy-plenum-1.9.2.dev879.tar.gz tmp/indy-plenum-1.9.2rc1.tar.gz --markdown 20230419/i/indy-plenum/1.9.2.dev879-1.9.2rc1/diff.md --exclude *.pyd
+[2023-04-19 17:30:10] INFO root fetch - processPackages [fractal-roles]: Downloading https://files.pythonhosted.org/packages/bb/02/8d5253c4453018ead9d759f8c609ff3b74b55cdb3cdc46b153bb0a435520/fractal-roles-1.0.6.tar.gz
+[2023-04-19 17:30:10] INFO root fetch - processPackages [phenotype-cover]: Downloading https://files.pythonhosted.org/packages/ef/43/4e4759719cd54fd5d7786c494b1dfdad8e68dd166b1413440cea0dfef219/phenotype_cover-0.8.tar.gz
+[2023-04-19 17:30:10] INFO root fetch - processPackages [ckanext-flakes]: Downloading https://files.pythonhosted.org/packages/58/0e/5e9e0a36758f07c2a322d5aecc83010761dbc6117b05c6126fba2e151aec/ckanext-flakes-0.3.8.tar.gz
+[2023-04-19 17:30:10] INFO root fetch - processPackages [libertem-asi-tpx3]: executing diffoscope
+[2023-04-19 17:30:10] INFO root fetch - processPackages [libertem-asi-tpx3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libertem_asi_tpx3-0.2.8.tar.gz tmp/libertem_asi_tpx3-0.2.9.tar.gz --markdown 20230419/l/libertem-asi-tpx3/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 17:30:10] INFO root fetch - processPackages [frz-jupyterlab-variableinspector]: Downloading https://files.pythonhosted.org/packages/13/ee/0b3c12ae4cea5055beed93208e10e5fbca144a7159d0f856a45c1cc3acb1/frz-jupyterlab-variableinspector-0.1.4.tar.gz
+[2023-04-19 17:30:10] INFO root fetch - processPackages [phenotype-cover]: executing diffoscope
+[2023-04-19 17:30:10] INFO root fetch - processPackages [phenotype-cover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenotype_cover-0.7.tar.gz tmp/phenotype_cover-0.8.tar.gz --markdown 20230419/p/phenotype-cover/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-19 17:30:10] INFO root fetch - processPackages [ckanext-flakes]: executing diffoscope
+[2023-04-19 17:30:10] INFO root fetch - processPackages [ckanext-flakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-flakes-0.3.7.tar.gz tmp/ckanext-flakes-0.3.8.tar.gz --markdown 20230419/c/ckanext-flakes/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-19 17:30:10] INFO root fetch - processPackages [fractal-roles]: executing diffoscope
+[2023-04-19 17:30:10] INFO root fetch - processPackages [fractal-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal-roles-1.0.5.tar.gz tmp/fractal-roles-1.0.6.tar.gz --markdown 20230419/f/fractal-roles/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-19 17:30:10] INFO root fetch - processPackages [frz-jupyterlab-variableinspector]: executing diffoscope
+[2023-04-19 17:30:10] INFO root fetch - processPackages [frz-jupyterlab-variableinspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frz-jupyterlab-variableinspector-0.1.3.tar.gz tmp/frz-jupyterlab-variableinspector-0.1.4.tar.gz --markdown 20230419/f/frz-jupyterlab-variableinspector/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-19 17:30:10] INFO root fetch - processPackages [digautoprofiler]: Downloading https://files.pythonhosted.org/packages/67/80/620c044a9a64fb31c3b29dbce8c20d3f3135e1af75b9c8dda4e447915a5c/digautoprofiler-0.2.9.tar.gz
+[2023-04-19 17:30:11] INFO root fetch - processPackages [hpr-scratcher]: Start processing: libertem-dectris
+[2023-04-19 17:30:11] INFO root fetch - main [MainThread]: End processing [hpr-scratcher]: success
+[2023-04-19 17:30:11] INFO root fetch - processPackages [libertem-dectris]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 17:30:11] INFO root fetch - processPackages [digautoprofiler]: executing diffoscope
+[2023-04-19 17:30:11] INFO root fetch - processPackages [digautoprofiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digautoprofiler-0.2.8.tar.gz tmp/digautoprofiler-0.2.9.tar.gz --markdown 20230419/d/digautoprofiler/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 17:30:11] INFO root fetch - processPackages [gpforecaster]: Start processing: kafe2
+[2023-04-19 17:30:11] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-04-19 17:30:11] INFO root fetch - processPackages [libertem-dectris]: Downloading https://files.pythonhosted.org/packages/e5/44/c4da5736a82856d3636fdad44f20f5978b092053bd98878795064af0cc2e/libertem_dectris-0.2.9.tar.gz
+[2023-04-19 17:30:11] INFO root fetch - processPackages [phenotype-cover]: Start processing: addscicrunch
+[2023-04-19 17:30:11] INFO root fetch - main [MainThread]: End processing [phenotype-cover]: success
+[2023-04-19 17:30:11] INFO root fetch - processPackages [kafe2]: New version: [2.8.0rc1] Old Version: [2.7.0rc1]
+[2023-04-19 17:30:11] WARNING root fetch - processPackages [addscicrunch]: Skipping, unable to determine old version
+[2023-04-19 17:30:11] INFO root fetch - processPackages [addscicrunch]: Start processing: cgmodels
+[2023-04-19 17:30:11] INFO root fetch - main [MainThread]: End processing [addscicrunch] error
+[2023-04-19 17:30:11] INFO root fetch - processPackages [cgmodels]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-19 17:30:11] INFO root fetch - processPackages [cgmodels]: executing diffoscope
+[2023-04-19 17:30:11] INFO root fetch - processPackages [cgmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgmodels-0.7.0.tar.gz tmp/cgmodels-0.8.0.tar.gz --markdown 20230419/c/cgmodels/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-19 17:30:11] INFO root fetch - processPackages [libertem-asi-tpx3]: Start processing: fractal-tokens
+[2023-04-19 17:30:11] INFO root fetch - main [MainThread]: End processing [libertem-asi-tpx3]: success
+[2023-04-19 17:30:11] INFO root fetch - processPackages [fractal-tokens]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-19 17:30:11] INFO root fetch - processPackages [kafe2]: Downloading https://files.pythonhosted.org/packages/94/d4/89a60b17b333b38b59de90bfb7d8cef037a8e12547d368444f7404ab1506/kafe2-2.7.0rc1.tar.gz
+[2023-04-19 17:30:12] INFO root fetch - processPackages [fractal-roles]: Start processing: idun-guardian-client
+[2023-04-19 17:30:12] INFO root fetch - main [MainThread]: End processing [fractal-roles]: success
+[2023-04-19 17:30:12] INFO root fetch - processPackages [idun-guardian-client]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-19 17:30:12] INFO root fetch - processPackages [libertem-dectris]: executing diffoscope
+[2023-04-19 17:30:12] INFO root fetch - processPackages [libertem-dectris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libertem_dectris-0.2.8.tar.gz tmp/libertem_dectris-0.2.9.tar.gz --markdown 20230419/l/libertem-dectris/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 17:30:12] INFO root fetch - processPackages [fractal-tokens]: Downloading https://files.pythonhosted.org/packages/7f/3e/7693823a4d55cb1fe5638af415172f8138f0772bfc7b2216046f4e8ae90a/fractal-tokens-1.2.1.tar.gz
+[2023-04-19 17:30:12] INFO root fetch - processPackages [kafe2]: Downloading https://files.pythonhosted.org/packages/f2/51/52cb8e505cfddcddaa990e9b22581d1f6b822d4927e9e9594b841d715654/kafe2-2.8.0rc1.tar.gz
+[2023-04-19 17:30:12] INFO root fetch - processPackages [ckanext-flakes]: Start processing: google-cloud-storageinsights
+[2023-04-19 17:30:12] INFO root fetch - main [MainThread]: End processing [ckanext-flakes]: success
+[2023-04-19 17:30:12] WARNING root fetch - processPackages [google-cloud-storageinsights]: Skipping, unable to determine old version
+[2023-04-19 17:30:12] INFO root fetch - processPackages [google-cloud-storageinsights]: Start processing: wtt01
+[2023-04-19 17:30:12] INFO root fetch - main [MainThread]: End processing [google-cloud-storageinsights] error
+[2023-04-19 17:30:12] INFO root fetch - processPackages [wtt01]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-19 17:30:12] INFO root fetch - processPackages [fractal-tokens]: executing diffoscope
+[2023-04-19 17:30:12] INFO root fetch - processPackages [fractal-tokens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal-tokens-1.2.0.tar.gz tmp/fractal-tokens-1.2.1.tar.gz --markdown 20230419/f/fractal-tokens/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-19 17:30:12] INFO root fetch - processPackages [idun-guardian-client]: Downloading https://files.pythonhosted.org/packages/72/e8/cd3f5f1e481f7414a9156be17b630c61fdf81eead0817645c19dd3b0566d/idun_guardian_client-1.1.3.tar.gz
+[2023-04-19 17:30:12] INFO root fetch - processPackages [wtt01]: Downloading https://files.pythonhosted.org/packages/08/c1/d25b2d9a391368b5bfe766e9d2bb971ac72409056104d6118d0efd433a76/wtt01-0.3.1.tar.gz
+[2023-04-19 17:30:12] INFO root fetch - processPackages [idun-guardian-client]: executing diffoscope
+[2023-04-19 17:30:12] INFO root fetch - processPackages [idun-guardian-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idun_guardian_client-1.1.2.tar.gz tmp/idun_guardian_client-1.1.3.tar.gz --markdown 20230419/i/idun-guardian-client/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-19 17:30:12] INFO root fetch - processPackages [wtt01]: Downloading https://files.pythonhosted.org/packages/bd/3b/53566566c0bc29536fc70628416296459f49fcbcd9fc9682fe0ab9ccc515/wtt01-0.3.2.tar.gz
+[2023-04-19 17:30:12] INFO root fetch - processPackages [kafe2]: executing diffoscope
+[2023-04-19 17:30:12] INFO root fetch - processPackages [kafe2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafe2-2.7.0rc1.tar.gz tmp/kafe2-2.8.0rc1.tar.gz --markdown 20230419/k/kafe2/2.7.0rc1-2.8.0rc1/diff.md --exclude *.pyd
+[2023-04-19 17:30:12] INFO root fetch - main [MainThread]: End processing [cgmodels]: success
+[2023-04-19 17:30:12] INFO root fetch - processPackages [wtt01]: executing diffoscope
+[2023-04-19 17:30:12] INFO root fetch - processPackages [wtt01]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtt01-0.3.1.tar.gz tmp/wtt01-0.3.2.tar.gz --markdown 20230419/w/wtt01/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-19 17:30:13] INFO root fetch - main [MainThread]: End processing [frz-jupyterlab-variableinspector]: success
+[2023-04-19 17:30:13] INFO root fetch - main [MainThread]: End processing [fractal-tokens]: success
+[2023-04-19 17:30:13] INFO root fetch - main [MainThread]: End processing [idun-guardian-client]: success
+[2023-04-19 17:30:13] INFO root fetch - main [MainThread]: End processing [wtt01]: success
+[2023-04-19 17:30:14] INFO root fetch - main [MainThread]: End processing [kafe2]: success
+[2023-04-19 17:30:15] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-04-19 17:30:16] INFO root fetch - main [MainThread]: End processing [digautoprofiler]: success
+[2023-04-19 17:30:21] INFO root fetch - main [MainThread]: End processing [libertem-dectris]: success
+[2023-04-19 17:30:32] INFO root fetch - main [MainThread]: End processing [indy-plenum]: success
+[2023-04-19 17:30:32] INFO root fetch - main [MainThread]: Store serial: [17772903]
