@@ -19456,3 +19456,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 18:02:46] INFO root fetch - main [MainThread]: End processing [osmosispy]: success
 [2023-04-19 18:02:56] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-19 18:02:56] INFO root fetch - main [MainThread]: Store serial: [17773370]
+[2023-04-19 18:08:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17773370]
+[2023-04-19 18:08:05] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-19 18:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcda
+[2023-04-19 18:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-functest
+[2023-04-19 18:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiddifypanel
+[2023-04-19 18:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threadsafe-async
+[2023-04-19 18:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elevenlabs
+[2023-04-19 18:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pretty-logs
+[2023-04-19 18:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spimdisasm
+[2023-04-19 18:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lil-nocap
+[2023-04-19 18:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crunch-cli
+[2023-04-19 18:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netlink-client
+[2023-04-19 18:08:05] INFO root fetch - processPackages [mcda]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-04-19 18:08:05] INFO root fetch - processPackages [django-functest]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-04-19 18:08:05] WARNING root fetch - processPackages [netlink-client]: Skipping, unable to determine old version
+[2023-04-19 18:08:05] INFO root fetch - processPackages [netlink-client]: Start processing: notification-service-nightly
+[2023-04-19 18:08:05] INFO root fetch - main [MainThread]: End processing [netlink-client] error
+[2023-04-19 18:08:05] WARNING root fetch - processPackages [threadsafe-async]: Skipping, unable to determine old version
+[2023-04-19 18:08:05] INFO root fetch - processPackages [elevenlabs]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-19 18:08:05] INFO root fetch - processPackages [lil-nocap]: New version: [0.5.2] Old Version: [0.5.0]
+[2023-04-19 18:08:05] INFO root fetch - processPackages [threadsafe-async]: Start processing: odoo-addon-sale-order-general-discount
+[2023-04-19 18:08:05] WARNING root fetch - processPackages [pretty-logs]: Skipping, unable to determine old version
+[2023-04-19 18:08:05] INFO root fetch - main [MainThread]: End processing [threadsafe-async] error
+[2023-04-19 18:08:05] INFO root fetch - processPackages [pretty-logs]: Start processing: ai-flow-nightly
+[2023-04-19 18:08:05] INFO root fetch - main [MainThread]: End processing [pretty-logs] error
+[2023-04-19 18:08:05] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-04-19 18:08:05] INFO root fetch - processPackages [spimdisasm]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-19 18:08:05] INFO root fetch - processPackages [crunch-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-19 18:08:05] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-04-19 18:08:05] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-19 18:08:05] INFO root fetch - processPackages [spimdisasm]: executing diffoscope
+[2023-04-19 18:08:05] INFO root fetch - processPackages [spimdisasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spimdisasm-1.9.1.tar.gz tmp/spimdisasm-1.9.2.tar.gz --markdown 20230419/s/spimdisasm/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-19 18:08:05] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-04-19 18:08:05] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.4.8.tar.gz tmp/notification_service_nightly-2023.4.9.tar.gz --markdown 20230419/n/notification-service-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-19 18:08:05] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-19 18:08:05] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-04-19 18:08:05] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-0.8.1.tar.gz tmp/crunch-cli-0.9.0.tar.gz --markdown 20230419/c/crunch-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 18:08:05] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/53/6c/f4dc398e1d32fb045716df4c1a301bbd5d88f2ed7190bdfa592abb04375f/hiddifypanel-4.0.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-19 18:08:05] INFO root fetch - processPackages [django-functest]: Downloading https://files.pythonhosted.org/packages/63/90/b7c1b1b0e7e1bf587a9caafe18259dcd0b7b9c094ca2bc4454f6fcea9797/django-functest-1.5.3.tar.gz
+[2023-04-19 18:08:05] INFO root fetch - processPackages [lil-nocap]: Downloading https://files.pythonhosted.org/packages/c5/03/865773ef5cc2cf4726ca00451fef506d13e28c2ade6d340358a13f6d3548/lil_nocap-0.5.0.tar.gz
+[2023-04-19 18:08:05] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount]: Downloading https://files.pythonhosted.org/packages/66/21/a3394d2f7d137708b857793d0ea66ff3f19eed7c41dd4d82e474ac0b7f57/odoo_addon_sale_order_general_discount-15.0.1.0.0.2-py3-none-any.whl
+[2023-04-19 18:08:05] INFO root fetch - processPackages [mcda]: Downloading https://files.pythonhosted.org/packages/a6/f0/b36f03633920d576fc5080ee6cab2c701f1990c381639e2ffa8e508c6875/mcda-0.4.1.tar.gz
+[2023-04-19 18:08:05] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-04-19 18:08:05] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.4.8.tar.gz tmp/ai_flow_nightly-2023.4.9.tar.gz --markdown 20230419/a/ai-flow-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-19 18:08:05] INFO root fetch - processPackages [elevenlabs]: Downloading https://files.pythonhosted.org/packages/0c/32/6833e17646638d16cbf5878c0a185106bd46d5e0f1ce0d6f06a5e4d9fba6/elevenlabs-0.2.3.tar.gz
+[2023-04-19 18:08:05] INFO root fetch - processPackages [elevenlabs]: executing diffoscope
+[2023-04-19 18:08:05] INFO root fetch - processPackages [elevenlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabs-0.2.2.tar.gz tmp/elevenlabs-0.2.3.tar.gz --markdown 20230419/e/elevenlabs/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-19 18:08:05] INFO root fetch - processPackages [lil-nocap]: Downloading https://files.pythonhosted.org/packages/f6/ac/fdd8daa50fbe529ec0420312cd19e39cc814ac6d7b485aca9f494866a625/lil_nocap-0.5.2.tar.gz
+[2023-04-19 18:08:05] INFO root fetch - processPackages [django-functest]: Downloading https://files.pythonhosted.org/packages/5d/fc/bddfb891c3e10e552d03646ac381f42b11cfc17a9341f6b08e67bcd5c69c/django-functest-1.5.4.tar.gz
+[2023-04-19 18:08:05] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/c1/d1/1142d8920c36c7cf6c94402f37ebc208e60266f6696c00ec41cbd24f648d/hiddifypanel-4.0.3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-19 18:08:06] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount]: Downloading https://files.pythonhosted.org/packages/bc/b0/2a44b231706f03428d99e6eefa06657836f15a90b9b7e083d05bfc6c451a/odoo_addon_sale_order_general_discount-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-19 18:08:06] INFO root fetch - processPackages [mcda]: Downloading https://files.pythonhosted.org/packages/33/0f/a617296d20ab58352183adea9f25f0559dd52b2f04b1e696e97a8f82de1e/mcda-0.5.0.tar.gz
+[2023-04-19 18:08:06] INFO root fetch - processPackages [lil-nocap]: executing diffoscope
+[2023-04-19 18:08:06] INFO root fetch - processPackages [lil-nocap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lil_nocap-0.5.0.tar.gz tmp/lil_nocap-0.5.2.tar.gz --markdown 20230419/l/lil-nocap/0.5.0-0.5.2/diff.md --exclude *.pyd
+[2023-04-19 18:08:06] INFO root fetch - processPackages [django-functest]: executing diffoscope
+[2023-04-19 18:08:06] INFO root fetch - processPackages [django-functest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-functest-1.5.3.tar.gz tmp/django-functest-1.5.4.tar.gz --markdown 20230419/d/django-functest/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-04-19 18:08:06] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount]: executing diffoscope
+[2023-04-19 18:08:06] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_general_discount-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_order_general_discount-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-sale-order-general-discount/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-04-19 18:08:06] INFO root fetch - processPackages [mcda]: executing diffoscope
+[2023-04-19 18:08:06] INFO root fetch - processPackages [mcda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcda-0.4.1.tar.gz tmp/mcda-0.5.0.tar.gz --markdown 20230419/m/mcda/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-04-19 18:08:07] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-19 18:08:07] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.3-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230419/h/hiddifypanel/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-04-19 18:08:07] INFO root fetch - processPackages [crunch-cli]: Start processing: odoo13-addon-base-comment-template
+[2023-04-19 18:08:07] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-04-19 18:08:07] INFO root fetch - processPackages [odoo13-addon-base-comment-template]: New version: [13.0.3.0.3.dev1] Old Version: [13.0.3.0.3]
+[2023-04-19 18:08:07] INFO root fetch - processPackages [elevenlabs]: Start processing: shapelets-native
+[2023-04-19 18:08:07] INFO root fetch - main [MainThread]: End processing [elevenlabs]: success
+[2023-04-19 18:08:07] INFO root fetch - processPackages [shapelets-native]: New version: [2.0.82] Old Version: [2.0.81]
+[2023-04-19 18:08:07] INFO root fetch - processPackages [odoo13-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/83/35/f6de6a30d1413cc84d44b28bae807c949bb1a11e5aced4f91326e7dc4c41/odoo13_addon_base_comment_template-13.0.3.0.3-py3-none-any.whl
+[2023-04-19 18:08:07] INFO root fetch - processPackages [lil-nocap]: Start processing: matrix-commander
+[2023-04-19 18:08:07] INFO root fetch - main [MainThread]: End processing [lil-nocap]: success
+[2023-04-19 18:08:07] INFO root fetch - processPackages [matrix-commander]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-04-19 18:08:07] INFO root fetch - processPackages [shapelets-native]: Downloading https://files.pythonhosted.org/packages/50/b1/37f5ec406f4b71b63afb0a8d6ff6d2746f21c2eac536bc35e186735484d1/shapelets_native-2.0.81-cp39-cp39-win_amd64.whl
+[2023-04-19 18:08:07] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount]: Start processing: odoo-addon-stock-picking-return-refund-option
+[2023-04-19 18:08:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-general-discount]: success
+[2023-04-19 18:08:07] INFO root fetch - processPackages [matrix-commander]: Downloading https://files.pythonhosted.org/packages/66/63/ad09bce1904ae51d1edda66682c5cc03f7d5706690a0572becc65d0a02ce/matrix-commander-7.0.0.tar.gz
+[2023-04-19 18:08:07] INFO root fetch - processPackages [odoo-addon-stock-picking-return-refund-option]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-04-19 18:08:07] INFO root fetch - main [MainThread]: End processing [mcda]: success
+[2023-04-19 18:08:07] INFO root fetch - processPackages [odoo13-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/db/b3/8a36a7c35440bd946751d90bceace6a7b32faed307f37ad4573c180a05fe/odoo13_addon_base_comment_template-13.0.3.0.3.dev1-py3-none-any.whl
+[2023-04-19 18:08:07] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-04-19 18:08:07] INFO root fetch - processPackages [odoo-addon-stock-picking-return-refund-option]: Downloading https://files.pythonhosted.org/packages/45/95/d716e6c15c82047416537461fa1223f1ac50eec1962e37c6095b2cec8d47/odoo_addon_stock_picking_return_refund_option-15.0.1.0.1-py3-none-any.whl
+[2023-04-19 18:08:07] INFO root fetch - main [MainThread]: End processing [django-functest]: success
+[2023-04-19 18:08:07] INFO root fetch - processPackages [matrix-commander]: Downloading https://files.pythonhosted.org/packages/ad/3e/3b9a3d0e15efbce9664e1e4ec8cd1e357c102c18a7cee383fdeb76d2e47d/matrix-commander-7.1.0.tar.gz
+[2023-04-19 18:08:07] INFO root fetch - processPackages [odoo13-addon-base-comment-template]: executing diffoscope
+[2023-04-19 18:08:07] INFO root fetch - processPackages [odoo13-addon-base-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_comment_template-13.0.3.0.3-py3-none-any.whl.zip tmp/odoo13_addon_base_comment_template-13.0.3.0.3.dev1-py3-none-any.whl.zip --markdown 20230419/o/odoo13-addon-base-comment-template/13.0.3.0.3-13.0.3.0.3.dev1/diff.md --exclude *.pyd
+[2023-04-19 18:08:08] INFO root fetch - processPackages [odoo-addon-stock-picking-return-refund-option]: Downloading https://files.pythonhosted.org/packages/d3/78/92f43e653b1ebacd0d7d3cfe26edffde4169cabb0bd9b29d886da6da34ea/odoo_addon_stock_picking_return_refund_option-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-19 18:08:08] INFO root fetch - processPackages [matrix-commander]: executing diffoscope
+[2023-04-19 18:08:08] INFO root fetch - processPackages [matrix-commander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-commander-7.0.0.tar.gz tmp/matrix-commander-7.1.0.tar.gz --markdown 20230419/m/matrix-commander/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-04-19 18:08:08] INFO root fetch - processPackages [odoo-addon-stock-picking-return-refund-option]: executing diffoscope
+[2023-04-19 18:08:08] INFO root fetch - processPackages [odoo-addon-stock-picking-return-refund-option]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_return_refund_option-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_return_refund_option-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-stock-picking-return-refund-option/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-04-19 18:08:08] INFO root fetch - main [MainThread]: End processing [spimdisasm]: success
+[2023-04-19 18:08:08] INFO root fetch - processPackages [shapelets-native]: Downloading https://files.pythonhosted.org/packages/67/b7/445c4f1c2fc22b593531251766cfb01b995bb3cb6e2369831f30f84fc5d4/shapelets_native-2.0.82-cp37-cp37m-win_amd64.whl
+[2023-04-19 18:08:09] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-comment-template]: success
+[2023-04-19 18:08:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-return-refund-option]: success
+[2023-04-19 18:08:09] INFO root fetch - main [MainThread]: End processing [matrix-commander]: success
+[2023-04-19 18:08:10] INFO root fetch - processPackages [shapelets-native]: executing diffoscope
+[2023-04-19 18:08:10] INFO root fetch - processPackages [shapelets-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets_native-2.0.81-cp39-cp39-win_amd64.whl.zip tmp/shapelets_native-2.0.82-cp37-cp37m-win_amd64.whl.zip --markdown 20230419/s/shapelets-native/2.0.81-2.0.82/diff.md --exclude *.pyd
+[2023-04-19 18:08:10] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-04-19 18:08:11] INFO root fetch - main [MainThread]: End processing [shapelets-native]: success
+[2023-04-19 18:08:25] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-19 18:08:25] INFO root fetch - main [MainThread]: Store serial: [17773438]
