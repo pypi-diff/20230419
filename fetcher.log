@@ -18009,3 +18009,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 16:57:26] INFO root fetch - main [MainThread]: End processing [jina-now]: success
 [2023-04-19 16:57:37] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2023-04-19 16:57:37] INFO root fetch - main [MainThread]: Store serial: [17772567]
+[2023-04-19 17:02:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17772567]
+[2023-04-19 17:02:46] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-19 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crunch-cli
+[2023-04-19 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nr-metadata
+[2023-04-19 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aloso
+[2023-04-19 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: honeybee-grasshopper-energy
+[2023-04-19 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: musicli
+[2023-04-19 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: postgres-data-faker
+[2023-04-19 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: osmosispy
+[2023-04-19 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbt-grasshopper
+[2023-04-19 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: determined-common
+[2023-04-19 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: model-hub
+[2023-04-19 17:02:46] INFO root fetch - processPackages [postgres-data-faker]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-19 17:02:46] INFO root fetch - processPackages [crunch-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-19 17:02:46] INFO root fetch - processPackages [nr-metadata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 17:02:46] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 17:02:46] INFO root fetch - processPackages [musicli]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-19 17:02:46] INFO root fetch - processPackages [osmosispy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-19 17:02:46] INFO root fetch - processPackages [honeybee-grasshopper-energy]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-19 17:02:46] INFO root fetch - processPackages [model-hub]: New version: [0.21.2rc0] Old Version: [0.21.1rc4]
+[2023-04-19 17:02:46] INFO root fetch - processPackages [determined-common]: New version: [0.21.2rc0] Old Version: [0.21.1rc4]
+[2023-04-19 17:02:46] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-04-19 17:02:46] INFO root fetch - processPackages [determined-common]: Downloading https://files.pythonhosted.org/packages/26/db/6eeaa29b313d538b67b874d2e1db1c35420087d1264322927d79bb217d2f/determined_common-0.21.1rc4-py3-none-any.whl
+[2023-04-19 17:02:46] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/1b/0b/27993e0f9a680f98ea9eab9df7a8a16eb69a6b5820be4ea8e8cccc6dd9b0/model_hub-0.21.1rc4-py3-none-any.whl
+[2023-04-19 17:02:46] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-04-19 17:02:46] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/8d/41/2b1f8fcb0e971555f5d09037fa11e4fabeb60e1537e6d7116ac16db47a14/honeybee-grasshopper-energy-1.9.1.tar.gz
+[2023-04-19 17:02:46] INFO root fetch - processPackages [nr-metadata]: Downloading https://files.pythonhosted.org/packages/c8/d2/ecd2a36d73bd8615ec5c741fdebaea54f978bade8f4566182e53851073e1/nr-metadata-1.0.8.tar.gz
+[2023-04-19 17:02:46] INFO root fetch - processPackages [musicli]: Downloading https://files.pythonhosted.org/packages/b0/ca/28137a56d6ceeeb3ffe087443011a9250425dbee14308e34c8728dabecfb/musicli-0.0.5.tar.gz
+[2023-04-19 17:02:46] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/30/e6/3685f99cfd36f45ae30b5ab732ec26ae4730b99648a47480cf683b1142a4/lbt-grasshopper-1.6.8.tar.gz
+[2023-04-19 17:02:46] INFO root fetch - processPackages [osmosispy]: Downloading https://files.pythonhosted.org/packages/08/dd/41c556f6224d11c38f44f76b090dba859d53f59370d238594ad5163485eb/osmosispy-0.0.6.tar.gz
+[2023-04-19 17:02:46] INFO root fetch - processPackages [postgres-data-faker]: Downloading https://files.pythonhosted.org/packages/73/a1/28ff64cd324f35215a198766a988bc3383a9348f1f1d0ab4f15fa781e5ed/postgres_data_faker-1.1.2.tar.gz
+[2023-04-19 17:02:46] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-04-19 17:02:46] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-0.8.1.tar.gz tmp/crunch-cli-0.9.0.tar.gz --markdown 20230419/c/crunch-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 17:02:46] INFO root fetch - processPackages [postgres-data-faker]: executing diffoscope
+[2023-04-19 17:02:46] INFO root fetch - processPackages [postgres-data-faker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgres_data_faker-1.1.1.tar.gz tmp/postgres_data_faker-1.1.2.tar.gz --markdown 20230419/p/postgres-data-faker/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-19 17:02:46] INFO root fetch - processPackages [determined-common]: Downloading https://files.pythonhosted.org/packages/b4/ae/2c8fa2b591c28d396082883c8465a81fc2880ffaaad58bd1ce63803e1621/determined_common-0.21.2rc0-py3-none-any.whl
+[2023-04-19 17:02:46] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/24/e9/d155575f4d38b7ae3d21b6f6e0c4c34409ce3b7b0412b7e24694915ec0e0/lbt-grasshopper-1.6.9.tar.gz
+[2023-04-19 17:02:46] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/27/7b/a02eb26d3cc9436f698583a8d5a1a0752dd42f6fe7147b7fc4ad80bde006/model_hub-0.21.2rc0-py3-none-any.whl
+[2023-04-19 17:02:46] INFO root fetch - processPackages [musicli]: Downloading https://files.pythonhosted.org/packages/c5/40/e2cd53685b0122bb4076cbe15ac779b4c0bc150060188afe84323ec70cb4/musicli-0.0.6.tar.gz
+[2023-04-19 17:02:46] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-04-19 17:02:46] INFO root fetch - processPackages [nr-metadata]: Downloading https://files.pythonhosted.org/packages/f4/d8/aa840642b0ba69c0068b58b4f652bf87455628a7d66e8a485e55f9a583a3/nr-metadata-1.0.9.tar.gz
+[2023-04-19 17:02:46] INFO root fetch - processPackages [osmosispy]: Downloading https://files.pythonhosted.org/packages/3d/32/d9719cdc8fc33b9b6627353bb0338243ec886d95d2f0424ddd001422d01c/osmosispy-0.0.7.tar.gz
+[2023-04-19 17:02:46] INFO root fetch - processPackages [determined-common]: executing diffoscope
+[2023-04-19 17:02:46] INFO root fetch - processPackages [determined-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_common-0.21.1rc4-py3-none-any.whl.zip tmp/determined_common-0.21.2rc0-py3-none-any.whl.zip --markdown 20230419/d/determined-common/0.21.1rc4-0.21.2rc0/diff.md --exclude *.pyd
+[2023-04-19 17:02:46] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-04-19 17:02:46] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230419/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 17:02:46] INFO root fetch - processPackages [nr-metadata]: executing diffoscope
+[2023-04-19 17:02:46] INFO root fetch - processPackages [nr-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nr-metadata-1.0.8.tar.gz tmp/nr-metadata-1.0.9.tar.gz --markdown 20230419/n/nr-metadata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 17:02:46] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-04-19 17:02:46] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.21.1rc4-py3-none-any.whl.zip tmp/model_hub-0.21.2rc0-py3-none-any.whl.zip --markdown 20230419/m/model-hub/0.21.1rc4-0.21.2rc0/diff.md --exclude *.pyd
+[2023-04-19 17:02:46] INFO root fetch - processPackages [musicli]: executing diffoscope
+[2023-04-19 17:02:46] INFO root fetch - processPackages [musicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicli-0.0.5.tar.gz tmp/musicli-0.0.6.tar.gz --markdown 20230419/m/musicli/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-19 17:02:47] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2023-04-19 17:02:47] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.6.8.tar.gz tmp/lbt-grasshopper-1.6.9.tar.gz --markdown 20230419/l/lbt-grasshopper/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-04-19 17:02:47] INFO root fetch - processPackages [osmosispy]: executing diffoscope
+[2023-04-19 17:02:47] INFO root fetch - processPackages [osmosispy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmosispy-0.0.6.tar.gz tmp/osmosispy-0.0.7.tar.gz --markdown 20230419/o/osmosispy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-19 17:02:47] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/c0/77/5ea4f5cbf977edd2c2511c83b34d974baf46a246f689d9228b3fb66f7a48/honeybee-grasshopper-energy-1.9.2.tar.gz
+[2023-04-19 17:02:47] INFO root fetch - processPackages [honeybee-grasshopper-energy]: executing diffoscope
+[2023-04-19 17:02:47] INFO root fetch - processPackages [honeybee-grasshopper-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-grasshopper-energy-1.9.1.tar.gz tmp/honeybee-grasshopper-energy-1.9.2.tar.gz --markdown 20230419/h/honeybee-grasshopper-energy/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-19 17:02:47] INFO root fetch - processPackages [postgres-data-faker]: Start processing: determined-cli
+[2023-04-19 17:02:47] INFO root fetch - main [MainThread]: End processing [postgres-data-faker]: success
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined-cli]: New version: [0.21.2rc0] Old Version: [0.21.1rc4]
+[2023-04-19 17:02:48] INFO root fetch - processPackages [crunch-cli]: Start processing: determined-deploy
+[2023-04-19 17:02:48] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined-deploy]: New version: [0.21.2rc0] Old Version: [0.21.1rc4]
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined-cli]: Downloading https://files.pythonhosted.org/packages/22/a4/6dcde4df1aa992d514100fbbefd368a85de09574b7fecb758d96fbf28298/determined_cli-0.21.1rc4-py3-none-any.whl
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined-common]: Start processing: determined
+[2023-04-19 17:02:48] INFO root fetch - main [MainThread]: End processing [determined-common]: success
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined]: New version: [0.21.2rc0] Old Version: [0.21.1rc4]
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined-deploy]: Downloading https://files.pythonhosted.org/packages/cb/23/8b7306ce2c3b50fb15ed7bad81b2f0b5c7ead78f0c92ecbd4b811e3566d5/determined_deploy-0.21.1rc4-py3-none-any.whl
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/11/e4/7477bda7831560c6762b6bab3d22ea05b5f0e0fa7212612957ea5ef70e8a/determined-0.21.1rc4-py3-none-any.whl
+[2023-04-19 17:02:48] INFO root fetch - processPackages [musicli]: Start processing: airgiant
+[2023-04-19 17:02:48] INFO root fetch - main [MainThread]: End processing [musicli]: success
+[2023-04-19 17:02:48] INFO root fetch - processPackages [airgiant]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined-cli]: Downloading https://files.pythonhosted.org/packages/66/59/89a5cdc8196bf95ae485a4347d209c2cf4338b381fb818a5f3a14dd776db/determined_cli-0.21.2rc0-py3-none-any.whl
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined-deploy]: Downloading https://files.pythonhosted.org/packages/ab/af/24595a72f8e657f51068c00db3de8d447d5a5ab845b73cafade4742d4f12/determined_deploy-0.21.2rc0-py3-none-any.whl
+[2023-04-19 17:02:48] INFO root fetch - processPackages [model-hub]: Start processing: musicli
+[2023-04-19 17:02:48] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-04-19 17:02:48] INFO root fetch - processPackages [musicli]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-19 17:02:48] INFO root fetch - processPackages [aloso]: Start processing: nriapp
+[2023-04-19 17:02:48] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-04-19 17:02:48] INFO root fetch - processPackages [nriapp]: New version: [1.1.12] Old Version: [1.1.11]
+[2023-04-19 17:02:48] INFO root fetch - processPackages [musicli]: executing diffoscope
+[2023-04-19 17:02:48] INFO root fetch - processPackages [musicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicli-0.0.5.tar.gz tmp/musicli-0.0.6.tar.gz --markdown 20230419/m/musicli/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-19 17:02:48] INFO root fetch - processPackages [airgiant]: Downloading https://files.pythonhosted.org/packages/d7/d0/201096a1782c847ffc220a5e37e6a6cca65b9d04067336e8a0cb37fe2449/airgiant-0.0.6.tar.gz
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined-cli]: executing diffoscope
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_cli-0.21.1rc4-py3-none-any.whl.zip tmp/determined_cli-0.21.2rc0-py3-none-any.whl.zip --markdown 20230419/d/determined-cli/0.21.1rc4-0.21.2rc0/diff.md --exclude *.pyd
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined-deploy]: executing diffoscope
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_deploy-0.21.1rc4-py3-none-any.whl.zip tmp/determined_deploy-0.21.2rc0-py3-none-any.whl.zip --markdown 20230419/d/determined-deploy/0.21.1rc4-0.21.2rc0/diff.md --exclude *.pyd
+[2023-04-19 17:02:48] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/1a/ba/c8c57dc795c624d05f460d9f3debe7681d3a5b43acf810e546c36d0c6674/determined-0.21.2rc0-py3-none-any.whl
+[2023-04-19 17:02:48] INFO root fetch - processPackages [nriapp]: Downloading https://files.pythonhosted.org/packages/ed/be/b803f06b84b21429c7b6f4fd9a2e35395980e63108801566e3a8998d5588/nriapp-1.1.12.tar.gz
+[2023-04-19 17:02:48] INFO root fetch - processPackages [airgiant]: executing diffoscope
+[2023-04-19 17:02:48] INFO root fetch - processPackages [airgiant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airgiant-0.0.5.tar.gz tmp/airgiant-0.0.6.tar.gz --markdown 20230419/a/airgiant/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-19 17:02:49] INFO root fetch - processPackages [nriapp]: executing diffoscope
+[2023-04-19 17:02:49] INFO root fetch - processPackages [nriapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nriapp-1.1.11.tar.gz tmp/nriapp-1.1.12.tar.gz --markdown 20230419/n/nriapp/1.1.11-1.1.12/diff.md --exclude *.pyd
+[2023-04-19 17:02:49] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-04-19 17:02:49] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.21.1rc4-py3-none-any.whl.zip tmp/determined-0.21.2rc0-py3-none-any.whl.zip --markdown 20230419/d/determined/0.21.1rc4-0.21.2rc0/diff.md --exclude *.pyd
+[2023-04-19 17:02:49] INFO root fetch - processPackages [determined-cli]: Start processing: weni-rp-apps
+[2023-04-19 17:02:49] INFO root fetch - main [MainThread]: End processing [determined-cli]: success
+[2023-04-19 17:02:49] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.0a4] Old Version: [2.4.0a3]
+[2023-04-19 17:02:50] INFO root fetch - main [MainThread]: End processing [musicli]: success
+[2023-04-19 17:02:50] INFO root fetch - main [MainThread]: End processing [determined-deploy]: success
+[2023-04-19 17:02:50] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/6d/26/83b386c2e4ebc578399550942d7282af52d5d1c56f6aa71f46d0701f0849/weni_rp_apps-2.4.0a4.tar.gz
+[2023-04-19 17:02:50] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2023-04-19 17:02:50] INFO root fetch - main [MainThread]: End processing [airgiant]: success
+[2023-04-19 17:02:50] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-04-19 17:02:50] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.0a3.tar.gz tmp/weni_rp_apps-2.4.0a4.tar.gz --markdown 20230419/w/weni-rp-apps/2.4.0a3-2.4.0a4/diff.md --exclude *.pyd
+[2023-04-19 17:02:50] INFO root fetch - main [MainThread]: End processing [nriapp]: success
+[2023-04-19 17:02:50] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-energy]: success
+[2023-04-19 17:02:52] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-04-19 17:02:52] INFO root fetch - main [MainThread]: End processing [nr-metadata]: success
+[2023-04-19 17:02:52] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-04-19 17:02:54] INFO root fetch - main [MainThread]: End processing [osmosispy]: success
+[2023-04-19 17:02:54] INFO root fetch - main [MainThread]: Store serial: [17772622]
