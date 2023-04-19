@@ -5007,3 +5007,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 04:22:41] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
 [2023-04-19 04:22:41] INFO root fetch - main [MainThread]: End processing [discord-data]: success
 [2023-04-19 04:22:41] INFO root fetch - main [MainThread]: Store serial: [17764993]
+[2023-04-19 04:27:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17764993]
+[2023-04-19 04:27:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 04:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yookassa-async
+[2023-04-19 04:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-editor
+[2023-04-19 04:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-editor-dev
+[2023-04-19 04:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CaptianSonar
+[2023-04-19 04:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pracklrsec
+[2023-04-19 04:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seven-cloudapp-frame
+[2023-04-19 04:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yookassa-async
+[2023-04-19 04:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: segment-anything-py
+[2023-04-19 04:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastlabel
+[2023-04-19 04:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yookassa-async
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-19 04:27:50] WARNING root fetch - processPackages [pracklrsec]: Skipping, unable to determine old version
+[2023-04-19 04:27:50] INFO root fetch - main [MainThread]: End processing [pracklrsec] error
+[2023-04-19 04:27:50] INFO root fetch - processPackages [CaptianSonar]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 04:27:50] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-19 04:27:50] INFO root fetch - processPackages [segment-anything-py]: New version: [1.0] Old Version: [0.8]
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-19 04:27:50] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 04:27:50] INFO root fetch - processPackages [fastlabel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-19 04:27:50] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-04-19 04:27:50] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-04-19 04:27:50] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.8.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230419/j/je-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 04:27:50] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-04-19 04:27:50] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.8.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230419/j/je-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: Downloading https://files.pythonhosted.org/packages/a5/43/5f3208f9126b5e6bc689b155b92080d1487740525c21ac737b766f9d794c/yookassa_async-0.1.2.tar.gz
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: Downloading https://files.pythonhosted.org/packages/a5/43/5f3208f9126b5e6bc689b155b92080d1487740525c21ac737b766f9d794c/yookassa_async-0.1.2.tar.gz
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: Downloading https://files.pythonhosted.org/packages/a5/43/5f3208f9126b5e6bc689b155b92080d1487740525c21ac737b766f9d794c/yookassa_async-0.1.2.tar.gz
+[2023-04-19 04:27:50] INFO root fetch - processPackages [CaptianSonar]: Downloading https://files.pythonhosted.org/packages/94/bc/f4080ebf4991c4550438c3a0f97b00dfa2bb44ad901b09a0fd0933d5e5d1/CaptianSonar-0.0.1.tar.gz
+[2023-04-19 04:27:50] INFO root fetch - processPackages [segment-anything-py]: Downloading https://files.pythonhosted.org/packages/e7/53/66c136f0310363097c11ff2c74fed836266ae164710a2cbe26464ab86048/segment-anything-py-1.0.tar.gz
+[2023-04-19 04:27:50] INFO root fetch - processPackages [segment-anything-py]: executing diffoscope
+[2023-04-19 04:27:50] INFO root fetch - processPackages [segment-anything-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-anything-py-0.8.tar.gz tmp/segment-anything-py-1.0.tar.gz --markdown 20230419/s/segment-anything-py/0.8-1.0/diff.md --exclude *.pyd
+[2023-04-19 04:27:50] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-04-19 04:27:50] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230419/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-04-19 04:27:50] INFO root fetch - processPackages [fastlabel]: executing diffoscope
+[2023-04-19 04:27:50] INFO root fetch - processPackages [fastlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlabel-0.9.8.tar.gz tmp/fastlabel-0.9.9.tar.gz --markdown 20230419/f/fastlabel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: Downloading https://files.pythonhosted.org/packages/46/1b/e4999dd83123e745763a340222c0a43f536cb005dc6fd11e9f54945da28b/yookassa_async-0.1.3.tar.gz
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: Downloading https://files.pythonhosted.org/packages/46/1b/e4999dd83123e745763a340222c0a43f536cb005dc6fd11e9f54945da28b/yookassa_async-0.1.3.tar.gz
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: Downloading https://files.pythonhosted.org/packages/46/1b/e4999dd83123e745763a340222c0a43f536cb005dc6fd11e9f54945da28b/yookassa_async-0.1.3.tar.gz
+[2023-04-19 04:27:50] INFO root fetch - processPackages [CaptianSonar]: Downloading https://files.pythonhosted.org/packages/22/e3/e1f1d70ea702ac1b523df5205361d4573291ea623b431dc3555e2ea649e7/CaptianSonar-0.0.2.tar.gz
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: executing diffoscope
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yookassa_async-0.1.2.tar.gz tmp/yookassa_async-0.1.3.tar.gz --markdown 20230419/y/yookassa-async/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: executing diffoscope
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yookassa_async-0.1.2.tar.gz tmp/yookassa_async-0.1.3.tar.gz --markdown 20230419/y/yookassa-async/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: executing diffoscope
+[2023-04-19 04:27:50] INFO root fetch - processPackages [yookassa-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yookassa_async-0.1.2.tar.gz tmp/yookassa_async-0.1.3.tar.gz --markdown 20230419/y/yookassa-async/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-19 04:27:50] INFO root fetch - processPackages [CaptianSonar]: executing diffoscope
+[2023-04-19 04:27:50] INFO root fetch - processPackages [CaptianSonar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CaptianSonar-0.0.1.tar.gz tmp/CaptianSonar-0.0.2.tar.gz --markdown 20230419/C/CaptianSonar/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 04:27:51] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-04-19 04:27:51] INFO root fetch - main [MainThread]: End processing [segment-anything-py]: success
+[2023-04-19 04:27:52] INFO root fetch - main [MainThread]: End processing [CaptianSonar]: success
+[2023-04-19 04:27:52] INFO root fetch - main [MainThread]: End processing [fastlabel]: success
+[2023-04-19 04:27:52] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-04-19 04:27:52] INFO root fetch - main [MainThread]: End processing [yookassa-async]: success
+[2023-04-19 04:27:53] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-04-19 04:27:53] INFO root fetch - main [MainThread]: End processing [yookassa-async]: success
+[2023-04-19 04:27:53] INFO root fetch - main [MainThread]: End processing [yookassa-async]: success
+[2023-04-19 04:27:53] INFO root fetch - main [MainThread]: Store serial: [17765029]
