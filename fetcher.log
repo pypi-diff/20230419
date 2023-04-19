@@ -15997,3 +15997,146 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 15:19:05] INFO root fetch - main [MainThread]: End processing [sapiens]: success
 [2023-04-19 15:19:05] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-04-19 15:19:05] INFO root fetch - main [MainThread]: Store serial: [17771306]
+[2023-04-19 15:24:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17771306]
+[2023-04-19 15:24:14] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-19 15:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2023-04-19 15:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pds-one
+[2023-04-19 15:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opensesame-core
+[2023-04-19 15:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: artistools
+[2023-04-19 15:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thinkgpt
+[2023-04-19 15:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rudi-node-read
+[2023-04-19 15:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fbgemm-gpu-nightly
+[2023-04-19 15:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: viggonuvemfiscal
+[2023-04-19 15:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: widget-picture-generator
+[2023-04-19 15:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ws-one
+[2023-04-19 15:24:14] INFO root fetch - processPackages [qwak-core]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-04-19 15:24:14] WARNING root fetch - processPackages [thinkgpt]: Skipping, unable to determine old version
+[2023-04-19 15:24:14] INFO root fetch - processPackages [thinkgpt]: Start processing: aitool
+[2023-04-19 15:24:14] INFO root fetch - main [MainThread]: End processing [thinkgpt] error
+[2023-04-19 15:24:14] INFO root fetch - processPackages [pds-one]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-04-19 15:24:14] INFO root fetch - processPackages [artistools]: New version: [2023.4.19.2] Old Version: [2023.4.19]
+[2023-04-19 15:24:14] INFO root fetch - processPackages [rudi-node-read]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 15:24:14] INFO root fetch - processPackages [widget-picture-generator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 15:24:14] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a5] Old Version: [4.0.0a3]
+[2023-04-19 15:24:14] INFO root fetch - processPackages [viggonuvemfiscal]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-19 15:24:14] INFO root fetch - processPackages [ws-one]: New version: [1.12.1] Old Version: [1.12.0]
+[2023-04-19 15:24:14] INFO root fetch - processPackages [aitool]: New version: [0.0.9] Old Version: [0.0.89]
+[2023-04-19 15:24:14] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/42/3e/bd20b88d0e998c47d4cd4a8f5752d7147d28866434db727f275c00413e40/opensesame_core-4.0.0a3.tar.gz
+[2023-04-19 15:24:14] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-19 15:24:14] INFO root fetch - processPackages [pds-one]: Downloading https://files.pythonhosted.org/packages/2f/f3/1c50a1e149894d5411eab2e23103cc5f5e703275afbb92f8594539a81a82/pds_one-1.3.2-py3-none-any.whl
+[2023-04-19 15:24:14] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18335907>=10485760
+[2023-04-19 15:24:14] INFO root fetch - processPackages [opensesame-core]: Start processing: neuro-connector-api
+[2023-04-19 15:24:14] INFO root fetch - processPackages [aitool]: executing diffoscope
+[2023-04-19 15:24:14] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-04-19 15:24:14] INFO root fetch - processPackages [aitool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitool-0.0.89.tar.gz tmp/aitool-0.0.9.tar.gz --markdown 20230419/a/aitool/0.0.89-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 15:24:14] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/91/d7/37b19c2c14c34663f10ad284c315d7cdad71cbf7995d5e3bd737507ac655/fbgemm_gpu_nightly-2023.4.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-19 15:24:14] INFO root fetch - processPackages [rudi-node-read]: Downloading https://files.pythonhosted.org/packages/b0/bf/462facb1f2e25617fefd7e530072ef944c3894d1e103d846302ccda63193/rudi-node-read-0.1.0.tar.gz
+[2023-04-19 15:24:14] INFO root fetch - processPackages [neuro-connector-api]: New version: [2.0.2b0] Old Version: [2.0.1b0]
+[2023-04-19 15:24:14] INFO root fetch - processPackages [widget-picture-generator]: Downloading https://files.pythonhosted.org/packages/c4/c9/23f14c6c1126514fdfb67eb48187c42179198245d6a5110a140609878429/widget-picture-generator-0.0.1.tar.gz
+[2023-04-19 15:24:14] INFO root fetch - processPackages [artistools]: Downloading https://files.pythonhosted.org/packages/1a/87/35b8c0469518d28f56d0699395e0f6c20b9757fe6a27da5779e246890e25/artistools-2023.4.19.2.tar.gz
+[2023-04-19 15:24:14] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f5/f1/dcea92d45e39902d009993235cd500484f68864d5123a46e46dc476091c6/qwak_core-0.0.26.tar.gz
+[2023-04-19 15:24:14] INFO root fetch - processPackages [viggonuvemfiscal]: Downloading https://files.pythonhosted.org/packages/22/d7/463d6f6c2195a953a273deeb4105a054f870c057a5c99f5129316824a9ab/viggonuvemfiscal-1.0.4.tar.gz
+[2023-04-19 15:24:14] INFO root fetch - processPackages [ws-one]: Downloading https://files.pythonhosted.org/packages/ec/b8/702f35ea5c15c450a4e4997a8a2096888b21ee2b9e6721fdfc9169c61202/ws_one-1.12.1-py3-none-any.whl
+[2023-04-19 15:24:15] INFO root fetch - processPackages [neuro-connector-api]: Downloading https://files.pythonhosted.org/packages/9a/98/db6f8e4c411748fb348f6205a0d697df120264bb45a24cdb86f357adfa0f/neuro-connector-api-2.0.2b0.tar.gz
+[2023-04-19 15:24:15] INFO root fetch - processPackages [ws-one]: executing diffoscope
+[2023-04-19 15:24:15] INFO root fetch - processPackages [ws-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ws_one-1.12.0-py3-none-any.whl.zip tmp/ws_one-1.12.1-py3-none-any.whl.zip --markdown 20230419/w/ws-one/1.12.0-1.12.1/diff.md --exclude *.pyd
+[2023-04-19 15:24:15] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-04-19 15:24:15] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.25.tar.gz tmp/qwak_core-0.0.26.tar.gz --markdown 20230419/q/qwak-core/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-04-19 15:24:15] INFO root fetch - processPackages [pds-one]: Downloading https://files.pythonhosted.org/packages/7a/ec/93f0782a97eee8d31203cd866bf87097c47aca1f75b9927fb940a21d566a/pds_one-1.4.0-py3-none-any.whl
+[2023-04-19 15:24:15] INFO root fetch - processPackages [widget-picture-generator]: Downloading https://files.pythonhosted.org/packages/81/cc/e3aa28b692a761fb4005382072c5de2c886d0cf01baf065d168d751ea405/widget-picture-generator-0.0.2.tar.gz
+[2023-04-19 15:24:15] INFO root fetch - processPackages [rudi-node-read]: Downloading https://files.pythonhosted.org/packages/74/c5/314a7721b3e031dc955cb3cddb7528c90d4e040665f3a22c7d188b547a71/rudi-node-read-0.1.1.tar.gz
+[2023-04-19 15:24:15] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 205605176>=10485760
+[2023-04-19 15:24:15] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: recon-lw
+[2023-04-19 15:24:15] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-04-19 15:24:15] INFO root fetch - processPackages [viggonuvemfiscal]: Downloading https://files.pythonhosted.org/packages/87/d5/e5cc737b1b82178b5e10444b0fb6d860f38ce521b9dd39ba535d7e2f7d60/viggonuvemfiscal-1.0.5.tar.gz
+[2023-04-19 15:24:15] INFO root fetch - processPackages [neuro-connector-api]: executing diffoscope
+[2023-04-19 15:24:15] INFO root fetch - processPackages [neuro-connector-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuro-connector-api-2.0.1b0.tar.gz tmp/neuro-connector-api-2.0.2b0.tar.gz --markdown 20230419/n/neuro-connector-api/2.0.1b0-2.0.2b0/diff.md --exclude *.pyd
+[2023-04-19 15:24:15] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4743814392] Old Version: [2.0.0.dev4743248854]
+[2023-04-19 15:24:15] INFO root fetch - processPackages [pds-one]: executing diffoscope
+[2023-04-19 15:24:15] INFO root fetch - processPackages [pds-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pds_one-1.3.2-py3-none-any.whl.zip tmp/pds_one-1.4.0-py3-none-any.whl.zip --markdown 20230419/p/pds-one/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-04-19 15:24:15] INFO root fetch - processPackages [rudi-node-read]: executing diffoscope
+[2023-04-19 15:24:15] INFO root fetch - processPackages [rudi-node-read]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudi-node-read-0.1.0.tar.gz tmp/rudi-node-read-0.1.1.tar.gz --markdown 20230419/r/rudi-node-read/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 15:24:15] INFO root fetch - processPackages [widget-picture-generator]: executing diffoscope
+[2023-04-19 15:24:15] INFO root fetch - processPackages [widget-picture-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widget-picture-generator-0.0.1.tar.gz tmp/widget-picture-generator-0.0.2.tar.gz --markdown 20230419/w/widget-picture-generator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 15:24:15] INFO root fetch - processPackages [viggonuvemfiscal]: executing diffoscope
+[2023-04-19 15:24:15] INFO root fetch - processPackages [viggonuvemfiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggonuvemfiscal-1.0.4.tar.gz tmp/viggonuvemfiscal-1.0.5.tar.gz --markdown 20230419/v/viggonuvemfiscal/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-19 15:24:15] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/dc/84/209d46306d21a0b5a0e97a6a8f3c4949f1c540ef39137011ff8a446b7104/recon_lw-2.0.0.dev4743814392.tar.gz
+[2023-04-19 15:24:15] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-04-19 15:24:15] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4743248854.tar.gz tmp/recon_lw-2.0.0.dev4743814392.tar.gz --markdown 20230419/r/recon-lw/2.0.0.dev4743248854-2.0.0.dev4743814392/diff.md --exclude *.pyd
+[2023-04-19 15:24:16] INFO root fetch - processPackages [artistools]: executing diffoscope
+[2023-04-19 15:24:16] INFO root fetch - processPackages [artistools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artistools-2023.4.19.tar.gz tmp/artistools-2023.4.19.2.tar.gz --markdown 20230419/a/artistools/2023.4.19-2023.4.19.2/diff.md --exclude *.pyd
+[2023-04-19 15:24:16] INFO root fetch - processPackages [ws-one]: Start processing: nextcloudtalkbot
+[2023-04-19 15:24:16] INFO root fetch - main [MainThread]: End processing [ws-one]: success
+[2023-04-19 15:24:16] INFO root fetch - processPackages [nextcloudtalkbot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 15:24:16] INFO root fetch - processPackages [pds-one]: Start processing: study-id-generator
+[2023-04-19 15:24:16] INFO root fetch - main [MainThread]: End processing [pds-one]: success
+[2023-04-19 15:24:16] INFO root fetch - processPackages [study-id-generator]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-19 15:24:16] INFO root fetch - processPackages [nextcloudtalkbot]: executing diffoscope
+[2023-04-19 15:24:16] INFO root fetch - processPackages [nextcloudtalkbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextcloudtalkbot-0.0.8.tar.gz tmp/nextcloudtalkbot-0.0.9.tar.gz --markdown 20230419/n/nextcloudtalkbot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 15:24:16] INFO root fetch - processPackages [neuro-connector-api]: Start processing: stpipe
+[2023-04-19 15:24:16] INFO root fetch - main [MainThread]: End processing [neuro-connector-api]: success
+[2023-04-19 15:24:16] INFO root fetch - processPackages [stpipe]: New version: [0.5.0] Old Version: [0.4.6]
+[2023-04-19 15:24:16] INFO root fetch - processPackages [study-id-generator]: Downloading https://files.pythonhosted.org/packages/b7/c1/749f76fc589f19d1722c3a27b98c584cb160148057c4e9c3d9b837d4c34e/study_id_generator-0.0.5.tar.gz
+[2023-04-19 15:24:17] INFO root fetch - processPackages [stpipe]: Downloading https://files.pythonhosted.org/packages/32/68/5ef1147496dc21128370dd51e9e47ee11b53bc9edc42f4c123ea506fdab4/stpipe-0.4.6.tar.gz
+[2023-04-19 15:24:17] INFO root fetch - processPackages [rudi-node-read]: Start processing: dop-integration-libs
+[2023-04-19 15:24:17] INFO root fetch - main [MainThread]: End processing [rudi-node-read]: success
+[2023-04-19 15:24:17] INFO root fetch - processPackages [viggonuvemfiscal]: Start processing: ifd-python
+[2023-04-19 15:24:17] INFO root fetch - main [MainThread]: End processing [viggonuvemfiscal]: success
+[2023-04-19 15:24:17] WARNING root fetch - processPackages [dop-integration-libs]: Skipping, unable to determine old version
+[2023-04-19 15:24:17] INFO root fetch - processPackages [dop-integration-libs]: Start processing: jina
+[2023-04-19 15:24:17] INFO root fetch - main [MainThread]: End processing [dop-integration-libs] error
+[2023-04-19 15:24:17] INFO root fetch - processPackages [widget-picture-generator]: Start processing: xiaogpt
+[2023-04-19 15:24:17] INFO root fetch - main [MainThread]: End processing [widget-picture-generator]: success
+[2023-04-19 15:24:17] INFO root fetch - processPackages [study-id-generator]: executing diffoscope
+[2023-04-19 15:24:17] INFO root fetch - processPackages [study-id-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/study_id_generator-0.0.4.tar.gz tmp/study_id_generator-0.0.5.tar.gz --markdown 20230419/s/study-id-generator/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-19 15:24:17] INFO root fetch - processPackages [ifd-python]: New version: [7.6.7] Old Version: [7.6.6]
+[2023-04-19 15:24:17] INFO root fetch - processPackages [xiaogpt]: New version: [1.41] Old Version: [1.40]
+[2023-04-19 15:24:17] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-19 15:24:17] INFO root fetch - processPackages [recon-lw]: Start processing: hiddifypanel
+[2023-04-19 15:24:17] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-04-19 15:24:17] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.0.dev63] Old Version: [4.0.0.dev62]
+[2023-04-19 15:24:17] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/1e/f1/77e255963d363f18f2593bfd933502bbfdc1cca8d29a5a1d6eb1c5eb606e/xiaogpt-1.40.tar.gz
+[2023-04-19 15:24:17] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/b4/bc/cb9f6f1266998f8de2b0993a6f0a9d8a9416b1bb61f785ae0658875fc472/ifd_python-7.6.7.tar.gz
+[2023-04-19 15:24:17] INFO root fetch - processPackages [stpipe]: Downloading https://files.pythonhosted.org/packages/24/b8/72ec561ea25e92e550b26d72f1a51b07ff9ed5d3dbf643b83bd7176f5a02/stpipe-0.5.0.tar.gz
+[2023-04-19 15:24:17] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/c4/72/3b28b9884c22e36d797ca29f82d75adf13e0845c8d6d6cf14a86593d1640/hiddifypanel-4.0.0.dev63-cp39-cp39-manylinux2014_aarch64.whl
+[2023-04-19 15:24:17] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-04-19 15:24:17] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-7.6.6.tar.gz tmp/ifd_python-7.6.7.tar.gz --markdown 20230419/i/ifd-python/7.6.6-7.6.7/diff.md --exclude *.pyd
+[2023-04-19 15:24:17] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-19 15:24:17] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230419/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-19 15:24:17] INFO root fetch - processPackages [stpipe]: executing diffoscope
+[2023-04-19 15:24:17] INFO root fetch - processPackages [stpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stpipe-0.4.6.tar.gz tmp/stpipe-0.5.0.tar.gz --markdown 20230419/s/stpipe/0.4.6-0.5.0/diff.md --exclude *.pyd
+[2023-04-19 15:24:17] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/1b/02/ea28222310fe17970c2dff325bae6fcd4cb1210eea737423bcd015f52100/xiaogpt-1.41.tar.gz
+[2023-04-19 15:24:17] INFO root fetch - processPackages [xiaogpt]: executing diffoscope
+[2023-04-19 15:24:17] INFO root fetch - processPackages [xiaogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaogpt-1.40.tar.gz tmp/xiaogpt-1.41.tar.gz --markdown 20230419/x/xiaogpt/1.40-1.41/diff.md --exclude *.pyd
+[2023-04-19 15:24:18] INFO root fetch - processPackages [study-id-generator]: Start processing: dl2050utils
+[2023-04-19 15:24:18] INFO root fetch - main [MainThread]: End processing [study-id-generator]: success
+[2023-04-19 15:24:18] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-19 15:24:18] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-04-19 15:24:18] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230419/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-19 15:24:18] INFO root fetch - processPackages [nextcloudtalkbot]: Start processing: vtmmpy
+[2023-04-19 15:24:18] INFO root fetch - main [MainThread]: End processing [nextcloudtalkbot]: success
+[2023-04-19 15:24:18] INFO root fetch - processPackages [vtmmpy]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-19 15:24:18] INFO root fetch - processPackages [aitool]: Start processing: oarepo-runtime
+[2023-04-19 15:24:18] INFO root fetch - main [MainThread]: End processing [aitool]: success
+[2023-04-19 15:24:18] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-19 15:24:18] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.0.dev62-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.0.dev63-cp39-cp39-manylinux2014_aarch64.whl.zip --markdown 20230419/h/hiddifypanel/4.0.0.dev62-4.0.0.dev63/diff.md --exclude *.pyd
+[2023-04-19 15:24:18] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-19 15:24:18] INFO root fetch - processPackages [vtmmpy]: Downloading https://files.pythonhosted.org/packages/06/d2/49085b3cc8e53b7d8b569b3216fc17dddd340cd03daa18b93fb6c150f11b/vtmmpy-1.0.3.tar.gz
+[2023-04-19 15:24:19] INFO root fetch - processPackages [vtmmpy]: executing diffoscope
+[2023-04-19 15:24:19] INFO root fetch - processPackages [vtmmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtmmpy-1.0.2.tar.gz tmp/vtmmpy-1.0.3.tar.gz --markdown 20230419/v/vtmmpy/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-19 15:24:19] INFO root fetch - processPackages [xiaogpt]: Start processing: fold-wrappers
+[2023-04-19 15:24:19] INFO root fetch - main [MainThread]: End processing [xiaogpt]: success
+[2023-04-19 15:24:19] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-04-19 15:24:19] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-04-19 15:24:19] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.2.8.tar.gz tmp/oarepo-runtime-1.2.9.tar.gz --markdown 20230419/o/oarepo-runtime/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-19 15:24:19] WARNING root fetch - processPackages [fold-wrappers]: Skipping, unable to determine old version
+[2023-04-19 15:24:19] INFO root fetch - main [MainThread]: End processing [fold-wrappers] error
+[2023-04-19 15:24:20] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-04-19 15:24:20] INFO root fetch - main [MainThread]: End processing [vtmmpy]: success
+[2023-04-19 15:24:20] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-04-19 15:24:20] INFO root fetch - main [MainThread]: End processing [artistools]: success
+[2023-04-19 15:24:21] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-04-19 15:24:21] INFO root fetch - main [MainThread]: End processing [stpipe]: success
+[2023-04-19 15:24:21] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-19 15:24:33] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-19 15:24:33] INFO root fetch - main [MainThread]: Store serial: [17771399]
