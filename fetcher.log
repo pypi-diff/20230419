@@ -4762,3 +4762,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 04:01:48] INFO root fetch - main [MainThread]: End processing [segment-anything-py]: success
 [2023-04-19 04:01:51] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-04-19 04:01:51] INFO root fetch - main [MainThread]: Store serial: [17764842]
+[2023-04-19 04:06:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17764842]
+[2023-04-19 04:07:00] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-19 04:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gTixi
+[2023-04-19 04:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-serve
+[2023-04-19 04:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-orientation
+[2023-04-19 04:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-layout
+[2023-04-19 04:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shiny
+[2023-04-19 04:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapid-table
+[2023-04-19 04:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyperon
+[2023-04-19 04:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-webapp-skeleton
+[2023-04-19 04:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: antchain-bccr
+[2023-04-19 04:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spaceone-api
+[2023-04-19 04:07:00] INFO root fetch - processPackages [rapid-layout]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 04:07:00] INFO root fetch - processPackages [gTixi]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-19 04:07:00] INFO root fetch - processPackages [antchain-bccr]: New version: [1.8.15] Old Version: [1.17.49]
+[2023-04-19 04:07:00] INFO root fetch - processPackages [rapid-table]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 04:07:00] INFO root fetch - processPackages [rapid-orientation]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-19 04:07:00] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.7.dev5] Old Version: [0.0.7.dev3]
+[2023-04-19 04:07:00] INFO root fetch - processPackages [shiny]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-19 04:07:00] INFO root fetch - processPackages [hyperon]: New version: [0.1.3] Old Version: [0.1.2.post1]
+[2023-04-19 04:07:00] INFO root fetch - processPackages [cdk-webapp-skeleton]: New version: [0.3.dev9] Old Version: [0.3.dev8]
+[2023-04-19 04:07:00] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-04-19 04:07:00] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-19 04:07:00] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.7.dev3.tar.gz tmp/langchain-serve-0.0.7.dev5.tar.gz --markdown 20230419/l/langchain-serve/0.0.7.dev3-0.0.7.dev5/diff.md --exclude *.pyd
+[2023-04-19 04:07:00] INFO root fetch - processPackages [cdk-webapp-skeleton]: executing diffoscope
+[2023-04-19 04:07:00] INFO root fetch - processPackages [cdk-webapp-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_webapp_skeleton-0.3.dev8.tar.gz tmp/cdk_webapp_skeleton-0.3.dev9.tar.gz --markdown 20230419/c/cdk-webapp-skeleton/0.3.dev8-0.3.dev9/diff.md --exclude *.pyd
+[2023-04-19 04:07:00] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-04-19 04:07:00] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230419/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-04-19 04:07:00] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/09/d4/a332927334cbf8e6d365dc5f9d36c32328810ec168d7ba6ddc8573c63cc5/antchain_bccr-1.17.49.tar.gz
+[2023-04-19 04:07:00] INFO root fetch - processPackages [hyperon]: Downloading https://files.pythonhosted.org/packages/42/eb/fe36623c0fffa8dae97aa81a6e83ddfa68706ffb8c0446ffc5aa201714c6/hyperon-0.1.2.post1-py3-none-any.whl
+[2023-04-19 04:07:00] INFO root fetch - processPackages [rapid-layout]: Downloading https://files.pythonhosted.org/packages/67/ad/61fc89bc61c3d4051a9a1a05192852c910418c2702e5c86f446aad8e8e99/rapid_layout-0.0.8-py3-none-any.whl
+[2023-04-19 04:07:00] INFO root fetch - processPackages [gTixi]: Downloading https://files.pythonhosted.org/packages/04/8b/1dbba237ebb12549c4b3a1cb2201d2fb2c00860766b8fa8a1c125b4e1f0e/gTixi-1.1.1.tar.gz
+[2023-04-19 04:07:00] INFO root fetch - processPackages [rapid-orientation]: Downloading https://files.pythonhosted.org/packages/2d/35/704a9671b913cddc93c407bac58c2fb974ba6a0f76770fcf61c2f2546876/rapid_orientation-0.0.4-py3-none-any.whl
+[2023-04-19 04:07:00] INFO root fetch - processPackages [rapid-table]: Downloading https://files.pythonhosted.org/packages/76/d0/0f761c2c30642e64f4a5091533c7ed5dbc6f57b794998c330ce191422b97/rapid_table-0.0.8-py3-none-any.whl
+[2023-04-19 04:07:00] INFO root fetch - processPackages [shiny]: Downloading https://files.pythonhosted.org/packages/be/9d/0197209f535c0f8a7965a113e6d406a63339b2078276f83e5c3d3d399701/shiny-0.3.0.tar.gz
+[2023-04-19 04:07:00] INFO root fetch - processPackages [hyperon]: Downloading https://files.pythonhosted.org/packages/a5/77/39334ea1b469be8b1684524401e8af8e21231f6b1deed0d82ab93e592495/hyperon-0.1.3.tar.gz
+[2023-04-19 04:07:00] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/fd/cb/0b4e2048f81a8e2498ba2c0f5180ce333aabefa79808dd5f924efcad36da/antchain_bccr-1.8.15.tar.gz
+[2023-04-19 04:07:01] INFO root fetch - processPackages [hyperon]: executing diffoscope
+[2023-04-19 04:07:01] INFO root fetch - processPackages [hyperon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperon-0.1.2.post1-py3-none-any.whl.zip tmp/hyperon-0.1.3.tar.gz --markdown 20230419/h/hyperon/0.1.2.post1-0.1.3/diff.md --exclude *.pyd
+[2023-04-19 04:07:01] INFO root fetch - processPackages [shiny]: Downloading https://files.pythonhosted.org/packages/ea/dd/394641b1c021772e28b9ec933a59b7d0ac2635b6764cb86173725f1da6af/shiny-0.3.1.tar.gz
+[2023-04-19 04:07:01] INFO root fetch - processPackages [antchain-bccr]: executing diffoscope
+[2023-04-19 04:07:01] INFO root fetch - processPackages [antchain-bccr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bccr-1.17.49.tar.gz tmp/antchain_bccr-1.8.15.tar.gz --markdown 20230419/a/antchain-bccr/1.17.49-1.8.15/diff.md --exclude *.pyd
+[2023-04-19 04:07:01] INFO root fetch - processPackages [gTixi]: executing diffoscope
+[2023-04-19 04:07:01] INFO root fetch - processPackages [gTixi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gTixi-1.1.0.tar.gz tmp/gTixi-1.1.1.tar.gz --markdown 20230419/g/gTixi/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-19 04:07:01] INFO root fetch - processPackages [rapid-orientation]: Downloading https://files.pythonhosted.org/packages/cf/b3/5393dd3dd668e97a029ccf710c6bde3e3bc555aae8c18cbed2a8838cc408/rapid_orientation-0.0.5-py3-none-any.whl
+[2023-04-19 04:07:01] INFO root fetch - processPackages [shiny]: executing diffoscope
+[2023-04-19 04:07:01] INFO root fetch - processPackages [shiny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiny-0.3.0.tar.gz tmp/shiny-0.3.1.tar.gz --markdown 20230419/s/shiny/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-19 04:07:01] INFO root fetch - processPackages [langchain-serve]: Start processing: cappr
+[2023-04-19 04:07:01] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-19 04:07:01] INFO root fetch - processPackages [cdk-webapp-skeleton]: Start processing: klu
+[2023-04-19 04:07:01] INFO root fetch - main [MainThread]: End processing [cdk-webapp-skeleton]: success
+[2023-04-19 04:07:01] INFO root fetch - processPackages [cappr]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 04:07:01] WARNING root fetch - processPackages [klu]: Skipping, unable to determine old version
+[2023-04-19 04:07:01] INFO root fetch - processPackages [klu]: Start processing: conlp
+[2023-04-19 04:07:01] INFO root fetch - main [MainThread]: End processing [klu] error
+[2023-04-19 04:07:01] INFO root fetch - processPackages [conlp]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 04:07:01] INFO root fetch - processPackages [cappr]: Downloading https://files.pythonhosted.org/packages/52/41/28c8b57a488fec5ec2f4be1fa259fe913fba4ee3d36e69090fb5e0fc548b/cappr-0.2.1.tar.gz
+[2023-04-19 04:07:01] INFO root fetch - processPackages [conlp]: Downloading https://files.pythonhosted.org/packages/2e/79/d2a53016c42336ca49b195fa40e9d1939e7e0d6e700236c51d715c2e4d48/conlp-0.0.1.tar.gz
+[2023-04-19 04:07:02] INFO root fetch - processPackages [cappr]: Downloading https://files.pythonhosted.org/packages/13/63/a50ad44456d5311e5c288e12a256314e0e3d5157db2019dd265e046bc1a5/cappr-0.2.2.tar.gz
+[2023-04-19 04:07:02] INFO root fetch - processPackages [hyperon]: Start processing: bgserve
+[2023-04-19 04:07:02] INFO root fetch - main [MainThread]: End processing [hyperon]: success
+[2023-04-19 04:07:02] WARNING root fetch - processPackages [bgserve]: Skipping, unable to determine old version
+[2023-04-19 04:07:02] INFO root fetch - processPackages [bgserve]: Start processing: easymaker
+[2023-04-19 04:07:02] INFO root fetch - main [MainThread]: End processing [bgserve] error
+[2023-04-19 04:07:02] INFO root fetch - processPackages [easymaker]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 04:07:02] INFO root fetch - processPackages [conlp]: Downloading https://files.pythonhosted.org/packages/c6/29/c8749b9cac34baecbae56b0d347c4328fa86e23c9ccbb2623f5ccf2e7bf0/conlp-0.0.2.tar.gz
+[2023-04-19 04:07:02] INFO root fetch - processPackages [easymaker]: executing diffoscope
+[2023-04-19 04:07:02] INFO root fetch - processPackages [easymaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easymaker-1.0.8-py3-none-any.whl.zip tmp/easymaker-1.0.9-py3-none-any.whl.zip --markdown 20230419/e/easymaker/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 04:07:02] INFO root fetch - main [MainThread]: End processing [antchain-bccr]: success
+[2023-04-19 04:07:02] INFO root fetch - processPackages [cappr]: executing diffoscope
+[2023-04-19 04:07:02] INFO root fetch - processPackages [cappr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cappr-0.2.1.tar.gz tmp/cappr-0.2.2.tar.gz --markdown 20230419/c/cappr/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 04:07:02] INFO root fetch - processPackages [conlp]: executing diffoscope
+[2023-04-19 04:07:02] INFO root fetch - processPackages [conlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conlp-0.0.1.tar.gz tmp/conlp-0.0.2.tar.gz --markdown 20230419/c/conlp/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 04:07:02] INFO root fetch - main [MainThread]: End processing [gTixi]: success
+[2023-04-19 04:07:02] INFO root fetch - processPackages [rapid-orientation]: executing diffoscope
+[2023-04-19 04:07:02] INFO root fetch - processPackages [rapid-orientation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_orientation-0.0.4-py3-none-any.whl.zip tmp/rapid_orientation-0.0.5-py3-none-any.whl.zip --markdown 20230419/r/rapid-orientation/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-19 04:07:02] INFO root fetch - processPackages [rapid-table]: Downloading https://files.pythonhosted.org/packages/a3/80/1c3ccdc8e0f436a303db3d357e80d183fb2e9183bbbc12041f4411dd4f78/rapid_table-0.0.9-py3-none-any.whl
+[2023-04-19 04:07:02] INFO root fetch - processPackages [rapid-layout]: Downloading https://files.pythonhosted.org/packages/65/e6/8d3db55b62ace8534f3e25e9b36e4b13fc6dff9285ed0d22f478f6d34d87/rapid_layout-0.0.9-py3-none-any.whl
+[2023-04-19 04:07:03] INFO root fetch - main [MainThread]: End processing [easymaker]: success
+[2023-04-19 04:07:03] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-04-19 04:07:03] INFO root fetch - main [MainThread]: End processing [conlp]: success
+[2023-04-19 04:07:03] INFO root fetch - main [MainThread]: End processing [cappr]: success
+[2023-04-19 04:07:03] INFO root fetch - main [MainThread]: End processing [rapid-orientation]: success
+[2023-04-19 04:07:03] INFO root fetch - processPackages [rapid-table]: executing diffoscope
+[2023-04-19 04:07:03] INFO root fetch - processPackages [rapid-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_table-0.0.8-py3-none-any.whl.zip tmp/rapid_table-0.0.9-py3-none-any.whl.zip --markdown 20230419/r/rapid-table/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 04:07:05] INFO root fetch - main [MainThread]: End processing [rapid-table]: success
+[2023-04-19 04:07:05] INFO root fetch - processPackages [rapid-layout]: executing diffoscope
+[2023-04-19 04:07:05] INFO root fetch - processPackages [rapid-layout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_layout-0.0.8-py3-none-any.whl.zip tmp/rapid_layout-0.0.9-py3-none-any.whl.zip --markdown 20230419/r/rapid-layout/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 04:07:05] INFO root fetch - main [MainThread]: End processing [shiny]: success
+[2023-04-19 04:07:06] INFO root fetch - main [MainThread]: End processing [rapid-layout]: success
+[2023-04-19 04:07:06] INFO root fetch - main [MainThread]: Store serial: [17764914]
