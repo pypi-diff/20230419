@@ -21382,3 +21382,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 19:45:25] INFO root fetch - main [MainThread]: End processing [pycup]: success
 [2023-04-19 19:45:36] INFO root fetch - main [MainThread]: End processing [volume-segmantics]: success
 [2023-04-19 19:45:36] INFO root fetch - main [MainThread]: Store serial: [17774702]
+[2023-04-19 19:50:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17774702]
+[2023-04-19 19:50:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pvrhinodemo
+[2023-04-19 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etl-csm-pet
+[2023-04-19 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: files-handler
+[2023-04-19 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdrouter
+[2023-04-19 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cidc-schemas
+[2023-04-19 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: totohateinenkleinencock
+[2023-04-19 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: actipy
+[2023-04-19 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phc-ingestion
+[2023-04-19 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shell-themer
+[2023-04-19 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arrendatools.plantillas
+[2023-04-19 19:50:45] INFO root fetch - processPackages [etl-csm-pet]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 19:50:45] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 19:50:45] INFO root fetch - processPackages [shell-themer]: New version: [0.2.0] Old Version: [0.1]
+[2023-04-19 19:50:45] INFO root fetch - processPackages [files-handler]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-04-19 19:50:45] INFO root fetch - processPackages [actipy]: New version: [2.0.3.post1] Old Version: [2.0.3.post0]
+[2023-04-19 19:50:45] WARNING root fetch - processPackages [arrendatools.plantillas]: Skipping, unable to determine old version
+[2023-04-19 19:50:45] INFO root fetch - main [MainThread]: End processing [arrendatools.plantillas] error
+[2023-04-19 19:50:45] INFO root fetch - processPackages [pvrhinodemo]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-04-19 19:50:45] INFO root fetch - processPackages [cdrouter]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-19 19:50:45] INFO root fetch - processPackages [cidc-schemas]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-19 19:50:45] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/7c/50/dddee5ed9f37b0a223816dbcded72773737dfa9dda1c606fdb575b27a1f8/phc-ingestion-0.3.8.tar.gz
+[2023-04-19 19:50:45] WARNING root fetch - processPackages [totohateinenkleinencock]: Skipping, unable to determine old version
+[2023-04-19 19:50:45] INFO root fetch - main [MainThread]: End processing [totohateinenkleinencock] error
+[2023-04-19 19:50:45] INFO root fetch - processPackages [files-handler]: Downloading https://files.pythonhosted.org/packages/2b/49/d18db79c08cda82771b3f73f973f8c89a7430767ac13fc047b3c9ddb0dc6/files-handler-0.2.0.tar.gz
+[2023-04-19 19:50:45] INFO root fetch - processPackages [cdrouter]: Downloading https://files.pythonhosted.org/packages/95/20/d21d87cffe31e98916234955de764d214a67402f77e761f8a0a5f628b26d/cdrouter-0.9.0.tar.gz
+[2023-04-19 19:50:45] INFO root fetch - processPackages [actipy]: Downloading https://files.pythonhosted.org/packages/3f/33/945db1199b192ba333832b4c07a501fef15cd883a52023546ae1f97f82c5/actipy-2.0.3.post1.tar.gz
+[2023-04-19 19:50:45] INFO root fetch - processPackages [shell-themer]: Downloading https://files.pythonhosted.org/packages/6d/da/459c8f2dab3069a63c713999c8c97c7cfb7f9b178b7fe4ac4c775b926242/shell-themer-0.1.tar.gz
+[2023-04-19 19:50:45] INFO root fetch - processPackages [pvrhinodemo]: Downloading https://files.pythonhosted.org/packages/d0/58/51e11d138c613a5f95bae2f0a5f44dac48215d4a87d84e1521e361d61d04/pvrhinodemo-2.2.0.tar.gz
+[2023-04-19 19:50:46] INFO root fetch - processPackages [cidc-schemas]: Downloading https://files.pythonhosted.org/packages/57/81/f03d13ed3c45815060cd371712a57f6aa1e88114a1554567984a6b361ded/cidc_schemas-0.9.4.tar.gz
+[2023-04-19 19:50:46] INFO root fetch - processPackages [etl-csm-pet]: Downloading https://files.pythonhosted.org/packages/37/9d/7933b3df5e3b42c6344e35e64c6bb6a8bf04922f6cc47d5d5239aaf1a74d/etl_csm_pet-0.0.4.tar.gz
+[2023-04-19 19:50:46] INFO root fetch - processPackages [files-handler]: executing diffoscope
+[2023-04-19 19:50:46] INFO root fetch - processPackages [files-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/files-handler-0.1.9.tar.gz tmp/files-handler-0.2.0.tar.gz --markdown 20230419/f/files-handler/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 19:50:46] WARNING root fetch - processPackages [phc-ingestion]: Skipping package: exceeds size limit 55817200>=10485760
+[2023-04-19 19:50:46] INFO root fetch - main [MainThread]: End processing [phc-ingestion] error
+[2023-04-19 19:50:46] INFO root fetch - processPackages [actipy]: executing diffoscope
+[2023-04-19 19:50:46] INFO root fetch - processPackages [actipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actipy-2.0.3.post0.tar.gz tmp/actipy-2.0.3.post1.tar.gz --markdown 20230419/a/actipy/2.0.3.post0-2.0.3.post1/diff.md --exclude *.pyd
+[2023-04-19 19:50:46] INFO root fetch - processPackages [shell-themer]: Downloading https://files.pythonhosted.org/packages/81/99/cfbc26b7076ccf5678b12b72a6ffe1cabbd0c021aca5cc08e91bc93d3bfe/shell-themer-0.2.0.tar.gz
+[2023-04-19 19:50:46] INFO root fetch - processPackages [etl-csm-pet]: executing diffoscope
+[2023-04-19 19:50:46] INFO root fetch - processPackages [etl-csm-pet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_csm_pet-0.0.3.tar.gz tmp/etl_csm_pet-0.0.4.tar.gz --markdown 20230419/e/etl-csm-pet/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 19:50:46] INFO root fetch - processPackages [cdrouter]: Downloading https://files.pythonhosted.org/packages/5a/c3/e829129d287ba1e707712b636d073a9ee8a0c3ceb0730f1c7ab9cdf699b2/cdrouter-0.9.1.tar.gz
+[2023-04-19 19:50:46] INFO root fetch - processPackages [pvrhinodemo]: Downloading https://files.pythonhosted.org/packages/41/aa/6b6833cce5ab0bcd71871e32fde7dd350a5c689df13a382bc7375cccdf86/pvrhinodemo-2.2.1.tar.gz
+[2023-04-19 19:50:46] INFO root fetch - processPackages [shell-themer]: executing diffoscope
+[2023-04-19 19:50:46] INFO root fetch - processPackages [shell-themer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell-themer-0.1.tar.gz tmp/shell-themer-0.2.0.tar.gz --markdown 20230419/s/shell-themer/0.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 19:50:46] INFO root fetch - processPackages [pvrhinodemo]: executing diffoscope
+[2023-04-19 19:50:46] INFO root fetch - processPackages [pvrhinodemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvrhinodemo-2.2.0.tar.gz tmp/pvrhinodemo-2.2.1.tar.gz --markdown 20230419/p/pvrhinodemo/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-04-19 19:50:46] INFO root fetch - processPackages [cdrouter]: executing diffoscope
+[2023-04-19 19:50:46] INFO root fetch - processPackages [cdrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdrouter-0.9.0.tar.gz tmp/cdrouter-0.9.1.tar.gz --markdown 20230419/c/cdrouter/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-19 19:50:46] INFO root fetch - processPackages [cidc-schemas]: Downloading https://files.pythonhosted.org/packages/a0/ea/b395b40dbe2b0627434dc94ca032989cc48260a3605223e5267939599789/cidc_schemas-0.9.5.tar.gz
+[2023-04-19 19:50:46] INFO root fetch - processPackages [cidc-schemas]: executing diffoscope
+[2023-04-19 19:50:46] INFO root fetch - processPackages [cidc-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cidc_schemas-0.9.4.tar.gz tmp/cidc_schemas-0.9.5.tar.gz --markdown 20230419/c/cidc-schemas/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-19 19:50:47] INFO root fetch - main [MainThread]: End processing [files-handler]: success
+[2023-04-19 19:50:47] INFO root fetch - main [MainThread]: End processing [etl-csm-pet]: success
+[2023-04-19 19:50:47] INFO root fetch - main [MainThread]: End processing [pvrhinodemo]: success
+[2023-04-19 19:50:47] INFO root fetch - main [MainThread]: End processing [shell-themer]: success
+[2023-04-19 19:50:47] INFO root fetch - main [MainThread]: End processing [cdrouter]: success
+[2023-04-19 19:50:48] INFO root fetch - main [MainThread]: End processing [actipy]: success
+[2023-04-19 19:50:49] INFO root fetch - main [MainThread]: End processing [cidc-schemas]: success
+[2023-04-19 19:50:49] INFO root fetch - main [MainThread]: Store serial: [17774737]
