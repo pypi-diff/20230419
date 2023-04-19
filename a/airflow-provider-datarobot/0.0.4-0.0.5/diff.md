@@ -1,0 +1,18 @@
+# Comparing `tmp/airflow-provider-datarobot-0.0.4.tar.gz` & `tmp/airflow_provider_datarobot-0.0.5-py3-none-any.whl.zip`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "/Users/andrius.senulis/workspace/airflow-provider-datarobot/dist/.tmp-8fielar6/airflow-provider-datarobot-0.0.4.tar", last modified: Fri Jan  6 19:40:09 2023, max compression
++Zip archive data, at least v2.0 to extract, compression method=deflate
+```
+
+## filetype from diffoscope
+
+```diff
+@@ -1 +1 @@
+-GzipFile
++ZipFile
+```
+

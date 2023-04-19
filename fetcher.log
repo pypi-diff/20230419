@@ -16750,3 +16750,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 15:56:21] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-04-19 15:56:44] INFO root fetch - main [MainThread]: End processing [codechecker]: success
 [2023-04-19 15:56:44] INFO root fetch - main [MainThread]: Store serial: [17771784]
+[2023-04-19 16:01:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17771784]
+[2023-04-19 16:01:53] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-19 16:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xerparser
+[2023-04-19 16:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acryl-datahub-airflow-plugin
+[2023-04-19 16:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2023-04-19 16:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wizata-dsapi
+[2023-04-19 16:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qodex-moxa-il1214
+[2023-04-19 16:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: realesrgan-ncnn-py
+[2023-04-19 16:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ga4gh.vrs
+[2023-04-19 16:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hive-maia
+[2023-04-19 16:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: whylogs
+[2023-04-19 16:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sovrin
+[2023-04-19 16:01:53] INFO root fetch - processPackages [qodex-moxa-il1214]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 16:01:53] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230419135633] Old Version: [2.0.3.dev20230419124821]
+[2023-04-19 16:01:53] INFO root fetch - processPackages [xerparser]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-19 16:01:53] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-04-19 16:01:53] INFO root fetch - processPackages [hive-maia]: New version: [1.1.1] Old Version: [1.0]
+[2023-04-19 16:01:53] INFO root fetch - processPackages [realesrgan-ncnn-py]: New version: [1.0.0.0] Old Version: [0.0.0.2]
+[2023-04-19 16:01:53] INFO root fetch - processPackages [ga4gh.vrs]: New version: [0.9.0a0] Old Version: [0.9.0.dev0]
+[2023-04-19 16:01:53] INFO root fetch - processPackages [whylogs]: New version: [1.1.9.dev0] Old Version: [1.1.9]
+[2023-04-19 16:01:53] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 16:01:53] INFO root fetch - processPackages [sovrin]: New version: [1.2.0rc1] Old Version: [1.2.0.dev1681906498]
+[2023-04-19 16:01:53] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-04-19 16:01:53] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230419/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 16:01:53] INFO root fetch - processPackages [qodex-moxa-il1214]: Downloading https://files.pythonhosted.org/packages/09/d7/9544a7d6b8ea2038ddbffdef676bb214d9b4e44bf8aade9a6d0e867f06c2/qodex_moxa_il1214-0.0.1-py3-none-any.whl
+[2023-04-19 16:01:53] INFO root fetch - processPackages [xerparser]: Downloading https://files.pythonhosted.org/packages/b9/87/0ce5e35680adaf26bdcb37a8258baadc05a587eaf193471e2315979f9b0a/xerparser-0.9.3.tar.gz
+[2023-04-19 16:01:53] INFO root fetch - processPackages [realesrgan-ncnn-py]: Downloading https://files.pythonhosted.org/packages/a1/0a/2402ec957ae2f409f685a643f19286589fc70072e0dbe00b805350a6b2a9/realesrgan_ncnn_py-0.0.0.2-cp39-cp39-win_amd64.whl
+[2023-04-19 16:01:53] INFO root fetch - processPackages [ga4gh.vrs]: Downloading https://files.pythonhosted.org/packages/65/2c/92a2e3a545875fcb16abbf059b24d015f21064e117986e3cc73076207c81/ga4gh.vrs-0.9.0.dev0.tar.gz
+[2023-04-19 16:01:53] INFO root fetch - processPackages [sovrin]: Downloading https://files.pythonhosted.org/packages/1a/8c/a41b06dea3be8e0962aa874d35c06bdecaebf435340ee47219cffc55c1c3/sovrin-1.2.0.dev1681906498.tar.gz
+[2023-04-19 16:01:53] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2023-04-19 16:01:53] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.1.9.tar.gz tmp/whylogs-1.1.9.dev0.tar.gz --markdown 20230419/w/whylogs/1.1.9-1.1.9.dev0/diff.md --exclude *.pyd
+[2023-04-19 16:01:53] WARNING root fetch - processPackages [realesrgan-ncnn-py]: Skipping package: exceeds size limit 43922560>=10485760
+[2023-04-19 16:01:53] INFO root fetch - processPackages [realesrgan-ncnn-py]: Start processing: samna
+[2023-04-19 16:01:53] INFO root fetch - main [MainThread]: End processing [realesrgan-ncnn-py] error
+[2023-04-19 16:01:53] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/8b/f3/fb4ea3ec8eefdee5abc85869f8ba3dbd81e24415a2aade1a14a7c6cfc0d9/localstack-core-2.0.3.dev20230419135633.tar.gz
+[2023-04-19 16:01:53] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-04-19 16:01:53] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230419/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-04-19 16:01:53] WARNING root fetch - processPackages [ga4gh.vrs]: Skipping package: exceeds size limit 17087007>=10485760
+[2023-04-19 16:01:53] INFO root fetch - processPackages [ga4gh.vrs]: Start processing: scTAPE
+[2023-04-19 16:01:53] INFO root fetch - main [MainThread]: End processing [ga4gh.vrs] error
+[2023-04-19 16:01:53] INFO root fetch - processPackages [xerparser]: Downloading https://files.pythonhosted.org/packages/f6/f2/3abc764cb59c88556ad34e5887ba41e2795d49f2f5532b55db946e8fbf98/xerparser-0.9.4.tar.gz
+[2023-04-19 16:01:53] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-04-19 16:01:53] INFO root fetch - processPackages [hive-maia]: Downloading https://files.pythonhosted.org/packages/a2/59/b74052cadcf06447c291b5e6d763258a47198494374ce707b7ebc28b4afa/hive-maia-1.1.1.tar.gz
+[2023-04-19 16:01:53] INFO root fetch - processPackages [qodex-moxa-il1214]: Downloading https://files.pythonhosted.org/packages/9f/16/db02edd2f8131bd74796d70bf4c18ad694619eeb29c903137d3ddf9075ae/qodex_moxa_il1214-0.0.2-py3-none-any.whl
+[2023-04-19 16:01:54] INFO root fetch - processPackages [scTAPE]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-19 16:01:54] INFO root fetch - processPackages [sovrin]: Downloading https://files.pythonhosted.org/packages/f3/71/87894fbd0e77a256f4370d6f797a3dbaf869bf8560e56e2caa43f68ac53a/sovrin-1.2.0rc1.tar.gz
+[2023-04-19 16:01:54] INFO root fetch - processPackages [xerparser]: executing diffoscope
+[2023-04-19 16:01:54] INFO root fetch - processPackages [xerparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xerparser-0.9.3.tar.gz tmp/xerparser-0.9.4.tar.gz --markdown 20230419/x/xerparser/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-19 16:01:54] INFO root fetch - processPackages [hive-maia]: executing diffoscope
+[2023-04-19 16:01:54] INFO root fetch - processPackages [hive-maia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hive-maia-1.0.tar.gz tmp/hive-maia-1.1.1.tar.gz --markdown 20230419/h/hive-maia/1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-19 16:01:54] INFO root fetch - processPackages [qodex-moxa-il1214]: executing diffoscope
+[2023-04-19 16:01:54] INFO root fetch - processPackages [qodex-moxa-il1214]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_moxa_il1214-0.0.1-py3-none-any.whl.zip tmp/qodex_moxa_il1214-0.0.2-py3-none-any.whl.zip --markdown 20230419/q/qodex-moxa-il1214/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 16:01:54] INFO root fetch - processPackages [scTAPE]: Downloading https://files.pythonhosted.org/packages/28/b2/af8f8c93047ecf9afe53653820952bee5348e44219186c2f43fba06074d2/scTAPE-1.1.0.tar.gz
+[2023-04-19 16:01:54] INFO root fetch - processPackages [sovrin]: executing diffoscope
+[2023-04-19 16:01:54] INFO root fetch - processPackages [sovrin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sovrin-1.2.0.dev1681906498.tar.gz tmp/sovrin-1.2.0rc1.tar.gz --markdown 20230419/s/sovrin/1.2.0.dev1681906498-1.2.0rc1/diff.md --exclude *.pyd
+[2023-04-19 16:01:54] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-04-19 16:01:54] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230419/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-04-19 16:01:54] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-19 16:01:54] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230419124821.tar.gz tmp/localstack-core-2.0.3.dev20230419135633.tar.gz --markdown 20230419/l/localstack-core/2.0.3.dev20230419124821-2.0.3.dev20230419135633/diff.md --exclude *.pyd
+[2023-04-19 16:01:54] INFO root fetch - processPackages [scTAPE]: Downloading https://files.pythonhosted.org/packages/d2/c9/c5853c8b9e901fe5bafacdb9d2a9050eab6541dbdb092674c5da3e9f2438/scTAPE-1.1.1.tar.gz
+[2023-04-19 16:01:54] INFO root fetch - processPackages [scTAPE]: executing diffoscope
+[2023-04-19 16:01:54] INFO root fetch - processPackages [scTAPE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scTAPE-1.1.0.tar.gz tmp/scTAPE-1.1.1.tar.gz --markdown 20230419/s/scTAPE/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-19 16:01:55] INFO root fetch - processPackages [wizata-dsapi]: Start processing: ibl-neuropixel
+[2023-04-19 16:01:55] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-04-19 16:01:55] INFO root fetch - processPackages [ibl-neuropixel]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-19 16:01:55] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Start processing: mscheck
+[2023-04-19 16:01:55] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-04-19 16:01:55] INFO root fetch - processPackages [mscheck]: New version: [0.2.5b0] Old Version: [0.2.4b0]
+[2023-04-19 16:01:55] INFO root fetch - processPackages [ibl-neuropixel]: Downloading https://files.pythonhosted.org/packages/cb/20/0bd43448c7f5f2cba093b45b9436ef03ab1e73f9f8c31ccfe639f6e45f88/ibl-neuropixel-0.5.1.tar.gz
+[2023-04-19 16:01:55] INFO root fetch - processPackages [qodex-moxa-il1214]: Start processing: pyfoundt
+[2023-04-19 16:01:55] INFO root fetch - main [MainThread]: End processing [qodex-moxa-il1214]: success
+[2023-04-19 16:01:55] INFO root fetch - processPackages [mscheck]: Downloading https://files.pythonhosted.org/packages/2c/ad/82822b41cd38d3c2b607c7be39f7427408a9367dec3670a8bfce2875250f/mscheck-0.2.4b0.tar.gz
+[2023-04-19 16:01:55] INFO root fetch - processPackages [ibl-neuropixel]: Downloading https://files.pythonhosted.org/packages/d1/31/32ae51565ed9318c904a722be9f571e5461930346a47ee4a013ba712dacb/ibl-neuropixel-0.5.2.tar.gz
+[2023-04-19 16:01:55] WARNING root fetch - processPackages [pyfoundt]: Skipping, unable to determine old version
+[2023-04-19 16:01:55] INFO root fetch - processPackages [pyfoundt]: Start processing: weni-rp-apps
+[2023-04-19 16:01:55] INFO root fetch - main [MainThread]: End processing [pyfoundt] error
+[2023-04-19 16:01:55] INFO root fetch - processPackages [samna]: Start processing: pyfgaws
+[2023-04-19 16:01:55] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-04-19 16:01:55] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.0a3] Old Version: [2.4.0a2]
+[2023-04-19 16:01:55] INFO root fetch - processPackages [pyfgaws]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-19 16:01:55] INFO root fetch - processPackages [ibl-neuropixel]: executing diffoscope
+[2023-04-19 16:01:55] INFO root fetch - processPackages [ibl-neuropixel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibl-neuropixel-0.5.1.tar.gz tmp/ibl-neuropixel-0.5.2.tar.gz --markdown 20230419/i/ibl-neuropixel/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-19 16:01:55] INFO root fetch - processPackages [sovrin]: Start processing: airflow-provider-datarobot
+[2023-04-19 16:01:55] INFO root fetch - main [MainThread]: End processing [sovrin]: success
+[2023-04-19 16:01:55] INFO root fetch - processPackages [mscheck]: Downloading https://files.pythonhosted.org/packages/c9/71/13a58fb7ab4f1cd130e91b23c8fcf0bf62713097845bf77eddd6b6445af1/mscheck-0.2.5b0.tar.gz
+[2023-04-19 16:01:55] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/38/ab/c18920a32e80402bebe5e0df212167c795dcdae87387f64253ade14829e7/weni_rp_apps-2.4.0a2.tar.gz
+[2023-04-19 16:01:55] INFO root fetch - processPackages [pyfgaws]: Downloading https://files.pythonhosted.org/packages/9e/80/c168d104b409228f187bacb4b2b6ec2e3f67d13a6410c8c5b30751f0c224/pyfgaws-0.2.0.tar.gz
+[2023-04-19 16:01:55] INFO root fetch - processPackages [airflow-provider-datarobot]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-19 16:01:55] INFO root fetch - main [MainThread]: End processing [scTAPE]: success
+[2023-04-19 16:01:56] INFO root fetch - processPackages [mscheck]: executing diffoscope
+[2023-04-19 16:01:56] INFO root fetch - processPackages [mscheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mscheck-0.2.4b0.tar.gz tmp/mscheck-0.2.5b0.tar.gz --markdown 20230419/m/mscheck/0.2.4b0-0.2.5b0/diff.md --exclude *.pyd
+[2023-04-19 16:01:56] INFO root fetch - main [MainThread]: End processing [hive-maia]: success
+[2023-04-19 16:01:56] INFO root fetch - processPackages [airflow-provider-datarobot]: Downloading https://files.pythonhosted.org/packages/a3/dd/712cd94934e6e2c8a1634b18e18b14065a64ead5cc41b69b958b150f9c9d/airflow-provider-datarobot-0.0.4.tar.gz
+[2023-04-19 16:01:56] INFO root fetch - processPackages [pyfgaws]: Downloading https://files.pythonhosted.org/packages/6f/07/1496b8a30bcc1d7edb8af6a169be8bff3bb0ac3294d94789afcf8c39cf7b/pyfgaws-0.2.1.tar.gz
+[2023-04-19 16:01:56] INFO root fetch - main [MainThread]: End processing [xerparser]: success
+[2023-04-19 16:01:56] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/c4/f8/9a3e6ba5e7f80ea92b5b02699811eafef4bc7396e230ec4c53f86617a6c6/weni_rp_apps-2.4.0a3.tar.gz
+[2023-04-19 16:01:56] INFO root fetch - processPackages [pyfgaws]: executing diffoscope
+[2023-04-19 16:01:56] INFO root fetch - processPackages [pyfgaws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfgaws-0.2.0.tar.gz tmp/pyfgaws-0.2.1.tar.gz --markdown 20230419/p/pyfgaws/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-19 16:01:56] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2023-04-19 16:01:56] INFO root fetch - processPackages [airflow-provider-datarobot]: Downloading https://files.pythonhosted.org/packages/28/5a/bca500de9c29b048813256d0f9e7ed30ed04b12872b157348a7b680a1cfd/airflow_provider_datarobot-0.0.5-py3-none-any.whl
+[2023-04-19 16:01:56] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-04-19 16:01:56] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.0a2.tar.gz tmp/weni_rp_apps-2.4.0a3.tar.gz --markdown 20230419/w/weni-rp-apps/2.4.0a2-2.4.0a3/diff.md --exclude *.pyd
+[2023-04-19 16:01:56] INFO root fetch - processPackages [airflow-provider-datarobot]: executing diffoscope
+[2023-04-19 16:01:56] INFO root fetch - processPackages [airflow-provider-datarobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-provider-datarobot-0.0.4.tar.gz tmp/airflow_provider_datarobot-0.0.5-py3-none-any.whl.zip --markdown 20230419/a/airflow-provider-datarobot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-19 16:01:56] INFO root fetch - main [MainThread]: End processing [ibl-neuropixel]: success
+[2023-04-19 16:01:57] INFO root fetch - main [MainThread]: End processing [mscheck]: success
+[2023-04-19 16:01:57] INFO root fetch - main [MainThread]: End processing [pyfgaws]: success
+[2023-04-19 16:01:57] INFO root fetch - main [MainThread]: End processing [airflow-provider-datarobot]: success
+[2023-04-19 16:01:59] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-04-19 16:02:03] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-19 16:02:03] INFO root fetch - main [MainThread]: Store serial: [17771852]
