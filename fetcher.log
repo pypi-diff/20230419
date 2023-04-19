@@ -6907,3 +6907,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 06:57:19] INFO root fetch - main [MainThread]: End processing [twb-project]: success
 [2023-04-19 06:57:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-fatturapa-in]: success
 [2023-04-19 06:57:19] INFO root fetch - main [MainThread]: Store serial: [17765989]
+[2023-04-19 07:02:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765989]
+[2023-04-19 07:02:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-19 07:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vellumdev
+[2023-04-19 07:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: riskCalculator
+[2023-04-19 07:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ms-entropy
+[2023-04-19 07:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vellumdev
+[2023-04-19 07:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viqi-api
+[2023-04-19 07:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dask-cuda
+[2023-04-19 07:02:28] INFO root fetch - processPackages [vellumdev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 07:02:28] INFO root fetch - processPackages [riskCalculator]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 07:02:28] INFO root fetch - processPackages [vellumdev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 07:02:28] INFO root fetch - processPackages [viqi-api]: New version: [0.6.4.8] Old Version: [0.6.4.7]
+[2023-04-19 07:02:28] INFO root fetch - processPackages [ms-entropy]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-19 07:02:28] INFO root fetch - processPackages [dask-cuda]: New version: [23.6.0a230417] Old Version: [23.6.0a230328]
+[2023-04-19 07:02:28] INFO root fetch - processPackages [ms-entropy]: Downloading https://files.pythonhosted.org/packages/a4/31/210a6cb60f8af6296b37be0507a97e6683e2deefcd57854040fbec4bfec9/ms_entropy-0.4.1.tar.gz
+[2023-04-19 07:02:28] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-04-19 07:02:28] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.6.0a230328.tar.gz tmp/dask-cuda-23.6.0a230417.tar.gz --markdown 20230419/d/dask-cuda/23.6.0a230328-23.6.0a230417/diff.md --exclude *.pyd
+[2023-04-19 07:02:28] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/66/0e/f83992b00f99a63e08615e86c74eadb6338a741c69240b2bce9a985d060a/viqi_api-0.6.4.8-py3-none-any.whl
+[2023-04-19 07:02:28] INFO root fetch - processPackages [riskCalculator]: Downloading https://files.pythonhosted.org/packages/c6/fc/cf453f1348ae2fc14bd9e58a9c6e377f4b1ee8e130c55ff7da42fea56157/riskCalculator-0.0.3-py3-none-any.whl
+[2023-04-19 07:02:28] INFO root fetch - processPackages [viqi-api]: executing diffoscope
+[2023-04-19 07:02:28] INFO root fetch - processPackages [viqi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viqi_api-0.6.4.7-py3-none-any.whl.zip tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip --markdown 20230419/v/viqi-api/0.6.4.7-0.6.4.8/diff.md --exclude *.pyd
+[2023-04-19 07:02:28] INFO root fetch - processPackages [riskCalculator]: executing diffoscope
+[2023-04-19 07:02:28] INFO root fetch - processPackages [riskCalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riskCalculator-0.0.2.tar.gz tmp/riskCalculator-0.0.3-py3-none-any.whl.zip --markdown 20230419/r/riskCalculator/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 07:02:29] INFO root fetch - processPackages [vellumdev]: executing diffoscope
+[2023-04-19 07:02:29] INFO root fetch - processPackages [vellumdev]: executing diffoscope
+[2023-04-19 07:02:29] INFO root fetch - processPackages [vellumdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellumdev-0.0.8.tar.gz tmp/vellumdev-0.0.9-py3-none-any.whl.zip --markdown 20230419/v/vellumdev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 07:02:29] INFO root fetch - processPackages [vellumdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellumdev-0.0.8.tar.gz tmp/vellumdev-0.0.9-py3-none-any.whl.zip --markdown 20230419/v/vellumdev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 07:02:29] INFO root fetch - processPackages [ms-entropy]: Downloading https://files.pythonhosted.org/packages/ba/6e/dea9f42ff6a0d3ea8c4c52b67b7c8a875dfceff995ed8f2cc51906c21f87/ms_entropy-0.4.2.tar.gz
+[2023-04-19 07:02:29] INFO root fetch - processPackages [ms-entropy]: executing diffoscope
+[2023-04-19 07:02:29] INFO root fetch - processPackages [ms-entropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_entropy-0.4.1.tar.gz tmp/ms_entropy-0.4.2.tar.gz --markdown 20230419/m/ms-entropy/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-19 07:02:30] INFO root fetch - main [MainThread]: End processing [riskCalculator]: success
+[2023-04-19 07:02:30] INFO root fetch - main [MainThread]: End processing [vellumdev]: success
+[2023-04-19 07:02:30] INFO root fetch - main [MainThread]: End processing [vellumdev]: success
+[2023-04-19 07:02:30] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-04-19 07:02:30] INFO root fetch - main [MainThread]: End processing [viqi-api]: success
+[2023-04-19 07:02:42] INFO root fetch - main [MainThread]: End processing [ms-entropy]: success
+[2023-04-19 07:02:42] INFO root fetch - main [MainThread]: Store serial: [17766004]
