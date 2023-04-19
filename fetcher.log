@@ -5249,3 +5249,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 04:48:44] INFO root fetch - main [MainThread]: End processing [cobo-custody]: success
 [2023-04-19 04:48:54] INFO root fetch - main [MainThread]: End processing [integration-testing-environment-dev]: success
 [2023-04-19 04:48:54] INFO root fetch - main [MainThread]: Store serial: [17765136]
+[2023-04-19 04:53:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765136]
+[2023-04-19 04:54:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-19 04:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cads-sdk
+[2023-04-19 04:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: al2var
+[2023-04-19 04:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intecomm-form-validators
+[2023-04-19 04:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-webapp-skeleton
+[2023-04-19 04:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pankmer
+[2023-04-19 04:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-constants
+[2023-04-19 04:54:04] INFO root fetch - processPackages [cads-sdk]: New version: [0.0.5] Old Version: [0.0.12rc0]
+[2023-04-19 04:54:04] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 04:54:04] INFO root fetch - processPackages [al2var]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 04:54:04] INFO root fetch - processPackages [cdk-webapp-skeleton]: New version: [0.3.dev9] Old Version: [0.3.dev8]
+[2023-04-19 04:54:04] INFO root fetch - processPackages [edc-constants]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 04:54:04] INFO root fetch - processPackages [pankmer]: New version: [0.9.0] Old Version: [0.11.7]
+[2023-04-19 04:54:04] INFO root fetch - processPackages [cads-sdk]: Downloading https://files.pythonhosted.org/packages/46/2a/d76bece820a33994b804def371c740a38232080928e900080407242ed1b3/cads_sdk-0.0.12rc0-py3-none-any.whl
+[2023-04-19 04:54:04] INFO root fetch - processPackages [cdk-webapp-skeleton]: executing diffoscope
+[2023-04-19 04:54:04] INFO root fetch - processPackages [cdk-webapp-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_webapp_skeleton-0.3.dev8.tar.gz tmp/cdk_webapp_skeleton-0.3.dev9.tar.gz --markdown 20230419/c/cdk-webapp-skeleton/0.3.dev8-0.3.dev9/diff.md --exclude *.pyd
+[2023-04-19 04:54:04] INFO root fetch - processPackages [al2var]: Downloading https://files.pythonhosted.org/packages/28/44/0b6c081c03babf96376258ded68d82ea8c1a4ed55ded49367138c55e60be/al2var-0.0.4.tar.gz
+[2023-04-19 04:54:05] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/60/cc/1a8071689fa5ada096fae8cb468d11824aca8d3ef899de028f2ba0fcb29d/pankmer-0.11.7.tar.gz
+[2023-04-19 04:54:05] INFO root fetch - processPackages [edc-constants]: Downloading https://files.pythonhosted.org/packages/e1/6e/b8edf4ad6fa5549d1b7e98a9cf2c8b4dc3242215cb886aaef19b64a9ccf9/edc_constants-0.3.8-py3-none-any.whl
+[2023-04-19 04:54:05] INFO root fetch - processPackages [al2var]: executing diffoscope
+[2023-04-19 04:54:05] INFO root fetch - processPackages [al2var]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/al2var-0.0.3.tar.gz tmp/al2var-0.0.4.tar.gz --markdown 20230419/a/al2var/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 04:54:05] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-04-19 04:54:05] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230419/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 04:54:05] INFO root fetch - processPackages [cads-sdk]: Downloading https://files.pythonhosted.org/packages/12/73/6e9a29f1e183cbeeb76ab468ccc8630a9834fac210ced70946cca4ea695e/cads_sdk-0.0.5-py3-none-any.whl
+[2023-04-19 04:54:05] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/ec/87/885615746e80d9141ab39f7997ee1ac00677e583de2ddcd9b167d76993a6/pankmer-0.9.0.tar.gz
+[2023-04-19 04:54:05] INFO root fetch - processPackages [cads-sdk]: executing diffoscope
+[2023-04-19 04:54:05] INFO root fetch - processPackages [cads-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads_sdk-0.0.12rc0-py3-none-any.whl.zip tmp/cads_sdk-0.0.5-py3-none-any.whl.zip --markdown 20230419/c/cads-sdk/0.0.12rc0-0.0.5/diff.md --exclude *.pyd
+[2023-04-19 04:54:05] INFO root fetch - processPackages [edc-constants]: Downloading https://files.pythonhosted.org/packages/a5/d1/9988cdbdb1f2e472539d91e620b2b13a958a8e477c1da4b977ad8aa7e185/edc_constants-0.3.9-py3-none-any.whl
+[2023-04-19 04:54:05] INFO root fetch - processPackages [pankmer]: executing diffoscope
+[2023-04-19 04:54:05] INFO root fetch - processPackages [pankmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pankmer-0.11.7.tar.gz tmp/pankmer-0.9.0.tar.gz --markdown 20230419/p/pankmer/0.11.7-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 04:54:05] INFO root fetch - processPackages [edc-constants]: executing diffoscope
+[2023-04-19 04:54:05] INFO root fetch - processPackages [edc-constants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_constants-0.3.8-py3-none-any.whl.zip tmp/edc_constants-0.3.9-py3-none-any.whl.zip --markdown 20230419/e/edc-constants/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 04:54:06] INFO root fetch - main [MainThread]: End processing [cdk-webapp-skeleton]: success
+[2023-04-19 04:54:06] INFO root fetch - main [MainThread]: End processing [al2var]: success
+[2023-04-19 04:54:06] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-04-19 04:54:06] INFO root fetch - main [MainThread]: End processing [edc-constants]: success
+[2023-04-19 04:54:06] INFO root fetch - main [MainThread]: End processing [cads-sdk]: success
+[2023-04-19 04:54:07] INFO root fetch - main [MainThread]: End processing [pankmer]: success
+[2023-04-19 04:54:07] INFO root fetch - main [MainThread]: Store serial: [17765150]
