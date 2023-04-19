@@ -13488,3 +13488,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 12:53:05] INFO root fetch - processPackages [synthesized]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthesized-2.6rc1-cp39-cp39-win_amd64.whl.zip tmp/synthesized-2.6rc2-cp39-cp39-win_amd64.whl.zip --markdown 20230419/s/synthesized/2.6rc1-2.6rc2/diff.md --exclude *.pyd
 [2023-04-19 12:53:07] INFO root fetch - main [MainThread]: End processing [synthesized]: success
 [2023-04-19 12:53:07] INFO root fetch - main [MainThread]: Store serial: [17769892]
+[2023-04-19 12:58:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17769892]
+[2023-04-19 12:58:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-19 12:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-scw-vpc
+[2023-04-19 12:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ddns
+[2023-04-19 12:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thumbnails
+[2023-04-19 12:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dovado-rtl
+[2023-04-19 12:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-tier-validation
+[2023-04-19 12:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jqfactor-analyzer
+[2023-04-19 12:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpforecaster
+[2023-04-19 12:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: namur
+[2023-04-19 12:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mango
+[2023-04-19 12:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gmail-scanner
+[2023-04-19 12:58:16] INFO root fetch - processPackages [xia-scw-vpc]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 12:58:16] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.1.6] Old Version: [16.0.1.0.1.4]
+[2023-04-19 12:58:16] INFO root fetch - processPackages [ddns]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-04-19 12:58:16] WARNING root fetch - processPackages [gmail-scanner]: Skipping, unable to determine old version
+[2023-04-19 12:58:16] INFO root fetch - processPackages [mango]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 12:58:16] INFO root fetch - processPackages [gmail-scanner]: Start processing: sqlalchemy-guid
+[2023-04-19 12:58:16] INFO root fetch - main [MainThread]: End processing [gmail-scanner] error
+[2023-04-19 12:58:16] INFO root fetch - processPackages [thumbnails]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 12:58:16] INFO root fetch - processPackages [namur]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-19 12:58:16] INFO root fetch - processPackages [jqfactor-analyzer]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 12:58:16] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 12:58:16] INFO root fetch - processPackages [dovado-rtl]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-19 12:58:16] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-04-19 12:58:16] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.8.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230419/g/gpforecaster/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 12:58:16] WARNING root fetch - processPackages [sqlalchemy-guid]: Skipping, unable to determine old version
+[2023-04-19 12:58:16] INFO root fetch - processPackages [sqlalchemy-guid]: Start processing: zimran-events
+[2023-04-19 12:58:16] INFO root fetch - main [MainThread]: End processing [sqlalchemy-guid] error
+[2023-04-19 12:58:16] INFO root fetch - processPackages [thumbnails]: executing diffoscope
+[2023-04-19 12:58:16] INFO root fetch - processPackages [thumbnails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thumbnails-0.1.8.tar.gz tmp/thumbnails-0.1.9.tar.gz --markdown 20230419/t/thumbnails/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 12:58:16] INFO root fetch - processPackages [xia-scw-vpc]: Downloading https://files.pythonhosted.org/packages/3f/4f/88ba07edb94dacf2841e14221b6c5b7a374319b3823867eadcc75f35ba6c/xia_scw_vpc-0.0.1-cp39-none-win_amd64.whl
+[2023-04-19 12:58:16] INFO root fetch - processPackages [ddns]: executing diffoscope
+[2023-04-19 12:58:16] INFO root fetch - processPackages [ddns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddns-2.9.8.tar.gz tmp/ddns-2.9.9.tar.gz --markdown 20230419/d/ddns/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-04-19 12:58:16] INFO root fetch - processPackages [mango]: Downloading https://files.pythonhosted.org/packages/36/46/47c76927fec87419d0469abed8bd511421646856ed7b093b354ee1c9185f/mango-0.0.4.tar.gz
+[2023-04-19 12:58:16] INFO root fetch - processPackages [dovado-rtl]: executing diffoscope
+[2023-04-19 12:58:16] INFO root fetch - processPackages [dovado-rtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dovado-rtl-0.9.8.tar.gz tmp/dovado-rtl-0.9.9.tar.gz --markdown 20230419/d/dovado-rtl/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-19 12:58:16] INFO root fetch - processPackages [namur]: Downloading https://files.pythonhosted.org/packages/69/ed/d5acfdd8259368dd6512262758a1b38ea82ba6ce4dc5b1c8010ee70e1646/namur-0.2.0.tar.gz
+[2023-04-19 12:58:16] INFO root fetch - processPackages [jqfactor-analyzer]: Downloading https://files.pythonhosted.org/packages/9f/e6/56de4be298ec0b6a3a14f66529e36062e79184237b5d6939ea178dfa2114/jqfactor_analyzer-1.0.8.tar.gz
+[2023-04-19 12:58:16] INFO root fetch - processPackages [zimran-events]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-19 12:58:16] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-04-19 12:58:16] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-base-tier-validation/16.0.1.0.1.4-16.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-04-19 12:58:16] INFO root fetch - processPackages [mango]: executing diffoscope
+[2023-04-19 12:58:16] INFO root fetch - processPackages [mango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-0.0.3.tar.gz tmp/mango-0.0.4.tar.gz --markdown 20230419/m/mango/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 12:58:16] INFO root fetch - processPackages [xia-scw-vpc]: Downloading https://files.pythonhosted.org/packages/59/6c/945d34f21db74fc37eb37f147d81b18cdef25e7e3ab00326fd3e972aec1d/xia_scw_vpc-0.0.2-cp39-none-win_amd64.whl
+[2023-04-19 12:58:16] INFO root fetch - processPackages [namur]: Downloading https://files.pythonhosted.org/packages/c4/b8/47af1f4a8dbcea7448eba0f78b4151337cf99ce5c915afca11a209e67932/namur-0.2.1.tar.gz
+[2023-04-19 12:58:16] INFO root fetch - processPackages [jqfactor-analyzer]: Downloading https://files.pythonhosted.org/packages/dd/be/1c18d952e504994bc94ededdc2d843d2c5924e6298f797cfc031458cf665/jqfactor_analyzer-1.0.9.tar.gz
+[2023-04-19 12:58:16] INFO root fetch - processPackages [zimran-events]: Downloading https://files.pythonhosted.org/packages/1a/f4/81efcedbe61a72b0f245585806a1af1f6c3a4e8429b58fa094b258523911/zimran-events-0.2.4.tar.gz
+[2023-04-19 12:58:16] INFO root fetch - processPackages [xia-scw-vpc]: executing diffoscope
+[2023-04-19 12:58:16] INFO root fetch - processPackages [xia-scw-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_vpc-0.0.1-cp39-none-win_amd64.whl.zip tmp/xia_scw_vpc-0.0.2-cp39-none-win_amd64.whl.zip --markdown 20230419/x/xia-scw-vpc/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 12:58:16] INFO root fetch - processPackages [namur]: executing diffoscope
+[2023-04-19 12:58:16] INFO root fetch - processPackages [namur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namur-0.2.0.tar.gz tmp/namur-0.2.1.tar.gz --markdown 20230419/n/namur/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-19 12:58:16] INFO root fetch - processPackages [zimran-events]: executing diffoscope
+[2023-04-19 12:58:16] INFO root fetch - processPackages [zimran-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimran-events-0.2.3.tar.gz tmp/zimran-events-0.2.4.tar.gz --markdown 20230419/z/zimran-events/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-19 12:58:16] INFO root fetch - processPackages [jqfactor-analyzer]: executing diffoscope
+[2023-04-19 12:58:16] INFO root fetch - processPackages [jqfactor-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jqfactor_analyzer-1.0.8.tar.gz tmp/jqfactor_analyzer-1.0.9.tar.gz --markdown 20230419/j/jqfactor-analyzer/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 12:58:17] INFO root fetch - main [MainThread]: End processing [thumbnails]: success
+[2023-04-19 12:58:18] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-04-19 12:58:18] INFO root fetch - main [MainThread]: End processing [xia-scw-vpc]: success
+[2023-04-19 12:58:18] INFO root fetch - main [MainThread]: End processing [namur]: success
+[2023-04-19 12:58:18] INFO root fetch - main [MainThread]: End processing [ddns]: success
+[2023-04-19 12:58:18] INFO root fetch - main [MainThread]: End processing [zimran-events]: success
+[2023-04-19 12:58:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-04-19 12:58:18] INFO root fetch - main [MainThread]: End processing [jqfactor-analyzer]: success
+[2023-04-19 12:58:19] INFO root fetch - main [MainThread]: End processing [mango]: success
+[2023-04-19 12:58:24] INFO root fetch - main [MainThread]: End processing [dovado-rtl]: success
+[2023-04-19 12:58:24] INFO root fetch - main [MainThread]: Store serial: [17769952]
