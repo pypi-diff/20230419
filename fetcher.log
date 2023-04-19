@@ -13061,3 +13061,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 12:26:27] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
 [2023-04-19 12:26:31] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
 [2023-04-19 12:26:31] INFO root fetch - main [MainThread]: Store serial: [17769624]
+[2023-04-19 12:31:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17769624]
+[2023-04-19 12:31:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 12:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: customdbcred
+[2023-04-19 12:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: excelcolumnizer
+[2023-04-19 12:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymathematics
+[2023-04-19 12:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyGPUreg
+[2023-04-19 12:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coalestr
+[2023-04-19 12:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-artifacts-parser
+[2023-04-19 12:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EdgeGPT
+[2023-04-19 12:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CrawlersTools
+[2023-04-19 12:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: extr
+[2023-04-19 12:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cmip
+[2023-04-19 12:31:40] INFO root fetch - processPackages [pymathematics]: New version: [2023.4.19] Old Version: [2023.4.18]
+[2023-04-19 12:31:40] INFO root fetch - processPackages [pyGPUreg]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 12:31:40] INFO root fetch - processPackages [customdbcred]: New version: [0.4] Old Version: [0.3]
+[2023-04-19 12:31:40] INFO root fetch - processPackages [excelcolumnizer]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-04-19 12:31:40] INFO root fetch - processPackages [coalestr]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-04-19 12:31:40] INFO root fetch - processPackages [dbt-artifacts-parser]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-04-19 12:31:40] INFO root fetch - processPackages [CrawlersTools]: New version: [1.4.68] Old Version: [1.4.67]
+[2023-04-19 12:31:40] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 12:31:40] INFO root fetch - processPackages [EdgeGPT]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-04-19 12:31:40] INFO root fetch - processPackages [coalestr]: executing diffoscope
+[2023-04-19 12:31:40] INFO root fetch - processPackages [coalestr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coalestr-0.2.7.tar.gz tmp/coalestr-0.2.9.tar.gz --markdown 20230419/c/coalestr/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 12:31:40] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-04-19 12:31:40] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230419/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 12:31:40] INFO root fetch - processPackages [cmip]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-19 12:31:40] INFO root fetch - processPackages [CrawlersTools]: executing diffoscope
+[2023-04-19 12:31:40] INFO root fetch - processPackages [CrawlersTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrawlersTools-1.4.67.tar.gz tmp/CrawlersTools-1.4.68.tar.gz --markdown 20230419/C/CrawlersTools/1.4.67-1.4.68/diff.md --exclude *.pyd
+[2023-04-19 12:31:40] INFO root fetch - processPackages [pyGPUreg]: Downloading https://files.pythonhosted.org/packages/73/92/44b641b6e1ebb353df53c392ff8208d8bcac4feb765a29171325e3fb4700/pyGPUreg-0.1.1.tar.gz
+[2023-04-19 12:31:40] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/39/61/0c65ccc57c35614efce0034b4e7a8d38963d93cd1dea09eec93bce743917/dbt-artifacts-parser-0.2.5.tar.gz
+[2023-04-19 12:31:40] INFO root fetch - processPackages [excelcolumnizer]: Downloading https://files.pythonhosted.org/packages/7d/12/acf3027cef2826bfec0acf7678b74f8e07936069eaa6199a88f5d748c783/excelcolumnizer-0.0.6.tar.gz
+[2023-04-19 12:31:40] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/87/3c/7b6455fdb0c743d1ce33b48598b29bfb4d2cae2a612f8c900b7b76ac0ef2/EdgeGPT-0.2.0.tar.gz
+[2023-04-19 12:31:40] INFO root fetch - processPackages [excelcolumnizer]: executing diffoscope
+[2023-04-19 12:31:40] INFO root fetch - processPackages [excelcolumnizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excelcolumnizer-0.0.4.tar.gz tmp/excelcolumnizer-0.0.6.tar.gz --markdown 20230419/e/excelcolumnizer/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-04-19 12:31:40] INFO root fetch - processPackages [pymathematics]: Downloading https://files.pythonhosted.org/packages/29/eb/b26ef538633bb56f9af8b5644bb26f4c9eacd75426d7947c3ce1c923f1f1/pymathematics-2023.4.19.tar.gz
+[2023-04-19 12:31:40] INFO root fetch - processPackages [customdbcred]: Downloading https://files.pythonhosted.org/packages/7a/ab/fd11558ab7d344008776cea9f0747d4fd102f59a7670935bcb1cc1f7de24/customdbcred-0.4.tar.gz
+[2023-04-19 12:31:40] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-04-19 12:31:40] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.1.9.tar.gz tmp/EdgeGPT-0.2.0.tar.gz --markdown 20230419/E/EdgeGPT/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 12:31:40] INFO root fetch - processPackages [pymathematics]: executing diffoscope
+[2023-04-19 12:31:40] INFO root fetch - processPackages [pymathematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymathematics-2023.4.18.tar.gz tmp/pymathematics-2023.4.19.tar.gz --markdown 20230419/p/pymathematics/2023.4.18-2023.4.19/diff.md --exclude *.pyd
+[2023-04-19 12:31:41] INFO root fetch - processPackages [customdbcred]: executing diffoscope
+[2023-04-19 12:31:41] INFO root fetch - processPackages [customdbcred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customdbcred-0.3.tar.gz tmp/customdbcred-0.4.tar.gz --markdown 20230419/c/customdbcred/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-19 12:31:41] INFO root fetch - processPackages [cmip]: Downloading https://files.pythonhosted.org/packages/82/d0/6803b40f5eb8e103a14f6ef294f805c5760d22c77c248e81c683a2a628a1/cmip-0.0.6.tar.gz
+[2023-04-19 12:31:41] INFO root fetch - processPackages [pyGPUreg]: Downloading https://files.pythonhosted.org/packages/bd/02/4fea6243f687cb9fd5f36a0c52a5fed8bb0b0edc718fc73cede939108280/pyGPUreg-0.1.2.tar.gz
+[2023-04-19 12:31:41] INFO root fetch - processPackages [cmip]: executing diffoscope
+[2023-04-19 12:31:41] INFO root fetch - processPackages [cmip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmip-0.0.5.tar.gz tmp/cmip-0.0.6.tar.gz --markdown 20230419/c/cmip/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-19 12:31:41] INFO root fetch - processPackages [pyGPUreg]: executing diffoscope
+[2023-04-19 12:31:41] INFO root fetch - processPackages [pyGPUreg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGPUreg-0.1.1.tar.gz tmp/pyGPUreg-0.1.2.tar.gz --markdown 20230419/p/pyGPUreg/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 12:31:41] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/5b/7f/ffec8b0558fd62867c7c1824c98a86bc1052af876841fce28bb960aaaa54/dbt-artifacts-parser-0.3.0.tar.gz
+[2023-04-19 12:31:41] INFO root fetch - processPackages [dbt-artifacts-parser]: executing diffoscope
+[2023-04-19 12:31:41] INFO root fetch - processPackages [dbt-artifacts-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-artifacts-parser-0.2.5.tar.gz tmp/dbt-artifacts-parser-0.3.0.tar.gz --markdown 20230419/d/dbt-artifacts-parser/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-04-19 12:31:42] INFO root fetch - main [MainThread]: End processing [coalestr]: success
+[2023-04-19 12:31:42] INFO root fetch - main [MainThread]: End processing [excelcolumnizer]: success
+[2023-04-19 12:31:42] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-04-19 12:31:42] INFO root fetch - main [MainThread]: End processing [pymathematics]: success
+[2023-04-19 12:31:42] INFO root fetch - main [MainThread]: End processing [customdbcred]: success
+[2023-04-19 12:31:42] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-04-19 12:31:42] INFO root fetch - main [MainThread]: End processing [pyGPUreg]: success
+[2023-04-19 12:31:42] INFO root fetch - main [MainThread]: End processing [CrawlersTools]: success
+[2023-04-19 12:31:43] INFO root fetch - main [MainThread]: End processing [cmip]: success
+[2023-04-19 12:31:43] INFO root fetch - main [MainThread]: End processing [dbt-artifacts-parser]: success
+[2023-04-19 12:31:43] INFO root fetch - main [MainThread]: Store serial: [17769654]
