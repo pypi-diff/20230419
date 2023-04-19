@@ -4043,3 +4043,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-04-19 02:56:53] INFO root fetch - main [MainThread]: End processing [pycde] error
 [2023-04-19 02:56:53] INFO root fetch - main [MainThread]: Store serial: [17764417]
+[2023-04-19 03:01:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17764417]
+[2023-04-19 03:02:01] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-19 03:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kicad-package-manager
+[2023-04-19 03:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chia-rs
+[2023-04-19 03:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alacorder
+[2023-04-19 03:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-wget
+[2023-04-19 03:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-04-19 03:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usd-core
+[2023-04-19 03:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: psgnuitka
+[2023-04-19 03:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: not1mm
+[2023-04-19 03:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: preliz
+[2023-04-19 03:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: brads-test-repo-124u9432
+[2023-04-19 03:02:01] INFO root fetch - processPackages [chia-rs]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-19 03:02:01] INFO root fetch - processPackages [kicad-package-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 03:02:01] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-19 03:02:01] INFO root fetch - processPackages [psgnuitka]: New version: [0.2.5] Old Version: [0.2.0]
+[2023-04-19 03:02:01] INFO root fetch - processPackages [preliz]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-19 03:02:01] INFO root fetch - processPackages [usd-core]: New version: [23.5] Old Version: [23.2]
+[2023-04-19 03:02:01] WARNING root fetch - processPackages [brads-test-repo-124u9432]: Skipping, unable to determine old version
+[2023-04-19 03:02:01] INFO root fetch - processPackages [not1mm]: New version: [23.4.6] Old Version: [23.4.5]
+[2023-04-19 03:02:01] INFO root fetch - processPackages [brads-test-repo-124u9432]: Start processing: ml-botting-core
+[2023-04-19 03:02:01] INFO root fetch - main [MainThread]: End processing [brads-test-repo-124u9432] error
+[2023-04-19 03:02:01] INFO root fetch - processPackages [alacorder]: New version: [79.4.8] Old Version: [79.4.7]
+[2023-04-19 03:02:01] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-19 03:02:01] INFO root fetch - processPackages [ml-botting-core]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-04-19 03:02:01] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-04-19 03:02:01] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230419/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-19 03:02:01] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-04-19 03:02:01] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.4.5.tar.gz tmp/not1mm-23.4.6.tar.gz --markdown 20230419/n/not1mm/23.4.5-23.4.6/diff.md --exclude *.pyd
+[2023-04-19 03:02:01] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/69/7d/98dbf7a94a13799043693e04870fcd3935ca263450d2002594f088f6eebb/alacorder-79.4.7.tar.gz
+[2023-04-19 03:02:01] INFO root fetch - processPackages [chia-rs]: Downloading https://files.pythonhosted.org/packages/92/df/a6b763895ef06e57deea72d98f628de893a535369b3871eded83072b08e1/chia_rs-0.2.5.tar.gz
+[2023-04-19 03:02:01] INFO root fetch - processPackages [usd-core]: Downloading https://files.pythonhosted.org/packages/f5/07/4bfabaef4856608c25b03245d23b02caf06422bedf69b0c0da4c5a298e65/usd_core-23.2-cp39-none-win_amd64.whl
+[2023-04-19 03:02:01] INFO root fetch - processPackages [preliz]: Downloading https://files.pythonhosted.org/packages/93/cd/bd85d0a95c993b4351ca40c8891f34d74c9defd7792ed51aa2aab61fdb41/preliz-0.2.0.tar.gz
+[2023-04-19 03:02:01] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-04-19 03:02:01] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230419/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-19 03:02:01] INFO root fetch - processPackages [ml-botting-core]: Downloading https://files.pythonhosted.org/packages/28/e7/4c9c55f635b587bc08c042863a8319b8db790fc8a5a6daa4830b321eb1a9/ml_botting_core-1.0.0.tar.gz
+[2023-04-19 03:02:02] INFO root fetch - processPackages [kicad-package-manager]: executing diffoscope
+[2023-04-19 03:02:02] INFO root fetch - processPackages [kicad-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kicad_package_manager-0.0.8.tar.gz tmp/kicad_package_manager-0.0.9.tar.gz --markdown 20230419/k/kicad-package-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 03:02:02] INFO root fetch - processPackages [psgnuitka]: Downloading https://files.pythonhosted.org/packages/44/57/1050bcbb56da39c23feaa376ad0b7f6e06e66c79a471321957ab7a3f9404/psgnuitka-0.2.5.tar.gz
+[2023-04-19 03:02:02] WARNING root fetch - processPackages [usd-core]: Skipping package: exceeds size limit 12904166>=10485760
+[2023-04-19 03:02:02] INFO root fetch - processPackages [usd-core]: Start processing: challengerteco
+[2023-04-19 03:02:02] INFO root fetch - main [MainThread]: End processing [usd-core] error
+[2023-04-19 03:02:02] INFO root fetch - processPackages [challengerteco]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 03:02:02] INFO root fetch - processPackages [chia-rs]: Downloading https://files.pythonhosted.org/packages/9e/4f/cca9c1c8b83d678888a230c158759e10e20089d618754e9d5fb5f70a8cde/chia_rs-0.2.6.tar.gz
+[2023-04-19 03:02:02] INFO root fetch - processPackages [ml-botting-core]: executing diffoscope
+[2023-04-19 03:02:02] INFO root fetch - processPackages [ml-botting-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_botting_core-0.0.9.tar.gz tmp/ml_botting_core-1.0.0.tar.gz --markdown 20230419/m/ml-botting-core/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-19 03:02:02] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/59/be/f5adac3b573526ba761e3d98b5ce04f50e6cf3a49e9646fc85c9311897b7/alacorder-79.4.8.tar.gz
+[2023-04-19 03:02:02] INFO root fetch - processPackages [psgnuitka]: executing diffoscope
+[2023-04-19 03:02:02] INFO root fetch - processPackages [psgnuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psgnuitka-0.2.0.tar.gz tmp/psgnuitka-0.2.5.tar.gz --markdown 20230419/p/psgnuitka/0.2.0-0.2.5/diff.md --exclude *.pyd
+[2023-04-19 03:02:02] INFO root fetch - processPackages [preliz]: Downloading https://files.pythonhosted.org/packages/4b/a6/88c2d8548982e1e4aa1253ce6bb7b55e91aeba4e270a84c22a2e682e4c68/preliz-0.3.0.tar.gz
+[2023-04-19 03:02:02] INFO root fetch - processPackages [challengerteco]: Downloading https://files.pythonhosted.org/packages/26/87/9924f23dc636d1b41c71e8f15a51c5afce3de89e0bd252744c5a48a7040f/challengerteco-0.1.1.tar.gz
+[2023-04-19 03:02:02] INFO root fetch - processPackages [chia-rs]: executing diffoscope
+[2023-04-19 03:02:02] INFO root fetch - processPackages [chia-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia_rs-0.2.5.tar.gz tmp/chia_rs-0.2.6.tar.gz --markdown 20230419/c/chia-rs/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-19 03:02:02] INFO root fetch - processPackages [preliz]: executing diffoscope
+[2023-04-19 03:02:02] INFO root fetch - processPackages [preliz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preliz-0.2.0.tar.gz tmp/preliz-0.3.0.tar.gz --markdown 20230419/p/preliz/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-19 03:02:02] INFO root fetch - processPackages [challengerteco]: Downloading https://files.pythonhosted.org/packages/a0/1f/c617a10109fa736ea66f919307e24421b4f1f635491d657bb92b41b4a456/challengerteco-0.1.2.tar.gz
+[2023-04-19 03:02:02] INFO root fetch - processPackages [challengerteco]: executing diffoscope
+[2023-04-19 03:02:02] INFO root fetch - processPackages [challengerteco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/challengerteco-0.1.1.tar.gz tmp/challengerteco-0.1.2.tar.gz --markdown 20230419/c/challengerteco/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 03:02:02] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-19 03:02:02] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.4.7.tar.gz tmp/alacorder-79.4.8.tar.gz --markdown 20230419/a/alacorder/79.4.7-79.4.8/diff.md --exclude *.pyd
+[2023-04-19 03:02:03] INFO root fetch - processPackages [kicad-package-manager]: Start processing: aemcmc-nightly
+[2023-04-19 03:02:03] INFO root fetch - main [MainThread]: End processing [kicad-package-manager]: success
+[2023-04-19 03:02:03] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230418] Old Version: [0.0.8.dev20230417]
+[2023-04-19 03:02:03] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Start processing: cdk-lambda-layer-curl
+[2023-04-19 03:02:03] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-04-19 03:02:03] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Start processing: EnergyCapSdk
+[2023-04-19 03:02:03] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-04-19 03:02:03] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-19 03:02:03] INFO root fetch - processPackages [psgnuitka]: Start processing: mb-pytorch
+[2023-04-19 03:02:03] INFO root fetch - main [MainThread]: End processing [psgnuitka]: success
+[2023-04-19 03:02:03] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304190055] Old Version: [1.0.202304190044]
+[2023-04-19 03:02:03] INFO root fetch - processPackages [ml-botting-core]: Start processing: yxxtest
+[2023-04-19 03:02:03] INFO root fetch - main [MainThread]: End processing [ml-botting-core]: success
+[2023-04-19 03:02:03] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-04-19 03:02:03] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230419/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-19 03:02:03] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 03:02:03] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304190044-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304190055-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304190044-1.0.202304190055/diff.md --exclude *.pyd
+[2023-04-19 03:02:03] WARNING root fetch - processPackages [yxxtest]: Skipping, unable to determine old version
+[2023-04-19 03:02:03] INFO root fetch - main [MainThread]: End processing [yxxtest] error
+[2023-04-19 03:02:03] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2302.4507] Old Version: [8.2302.4506]
+[2023-04-19 03:02:03] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/fa/1e/489eb90403c99cadf6a4fa749e43fc81814780c5bd1b86cf3f89a98466a5/aemcmc-nightly-0.0.8.dev20230418.tar.gz
+[2023-04-19 03:02:04] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-04-19 03:02:04] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230417.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230418.tar.gz --markdown 20230419/a/aemcmc-nightly/0.0.8.dev20230417-0.0.8.dev20230418/diff.md --exclude *.pyd
+[2023-04-19 03:02:04] INFO root fetch - main [MainThread]: End processing [preliz]: success
+[2023-04-19 03:02:04] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/d2/ef/1ed73508c4c5061f6d84ad47767f5c72c3ada3bcc8207f4fcf3328fe8f6f/EnergyCapSdk-8.2302.4507.tar.gz
+[2023-04-19 03:02:04] INFO root fetch - main [MainThread]: End processing [challengerteco]: success
+[2023-04-19 03:02:04] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-04-19 03:02:04] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2302.4506.tar.gz tmp/EnergyCapSdk-8.2302.4507.tar.gz --markdown 20230419/E/EnergyCapSdk/8.2302.4506-8.2302.4507/diff.md --exclude *.pyd
+[2023-04-19 03:02:04] INFO root fetch - main [MainThread]: End processing [chia-rs]: success
+[2023-04-19 03:02:04] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 03:02:05] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-04-19 03:02:06] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-04-19 03:02:07] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-04-19 03:02:14] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-19 03:02:37] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-04-19 03:02:37] INFO root fetch - main [MainThread]: Store serial: [17764512]
