@@ -22200,3 +22200,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 20:38:50] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-04-19 20:39:31] INFO root fetch - main [MainThread]: End processing [pyoxigraph]: success
 [2023-04-19 20:39:31] INFO root fetch - main [MainThread]: Store serial: [17775214]
+[2023-04-19 20:44:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17775214]
+[2023-04-19 20:44:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-19 20:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fedexapi-chnoma
+[2023-04-19 20:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ascicolor
+[2023-04-19 20:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: log-mgr
+[2023-04-19 20:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dlhub-sdk
+[2023-04-19 20:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cidc-api-modules
+[2023-04-19 20:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: locus-db
+[2023-04-19 20:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdbp
+[2023-04-19 20:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dcurves
+[2023-04-19 20:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pdbplus
+[2023-04-19 20:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: s2clientprotocol
+[2023-04-19 20:44:40] WARNING root fetch - processPackages [log-mgr]: Skipping, unable to determine old version
+[2023-04-19 20:44:40] INFO root fetch - processPackages [log-mgr]: Start processing: wds-client
+[2023-04-19 20:44:40] INFO root fetch - main [MainThread]: End processing [log-mgr] error
+[2023-04-19 20:44:40] INFO root fetch - processPackages [s2clientprotocol]: New version: [5.0.9.87702.0] Old Version: [5.0.8.86383.0]
+[2023-04-19 20:44:40] INFO root fetch - processPackages [dlhub-sdk]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-19 20:44:40] INFO root fetch - processPackages [pdbp]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-19 20:44:40] WARNING root fetch - processPackages [locus-db]: Skipping, unable to determine old version
+[2023-04-19 20:44:40] INFO root fetch - processPackages [locus-db]: Start processing: tupa123
+[2023-04-19 20:44:40] INFO root fetch - main [MainThread]: End processing [locus-db] error
+[2023-04-19 20:44:40] WARNING root fetch - processPackages [ascicolor]: Skipping, unable to determine old version
+[2023-04-19 20:44:40] INFO root fetch - processPackages [dcurves]: New version: [1.0.6.2] Old Version: [1.0.6.1]
+[2023-04-19 20:44:40] INFO root fetch - processPackages [fedexapi-chnoma]: New version: [1.2.1] Old Version: [1.2]
+[2023-04-19 20:44:40] INFO root fetch - processPackages [pdbplus]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-19 20:44:40] INFO root fetch - processPackages [ascicolor]: Start processing: pyopenjtalk-prebuilt
+[2023-04-19 20:44:40] INFO root fetch - main [MainThread]: End processing [ascicolor] error
+[2023-04-19 20:44:40] INFO root fetch - processPackages [cidc-api-modules]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-19 20:44:40] INFO root fetch - processPackages [tupa123]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-19 20:44:40] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-19 20:44:40] INFO root fetch - processPackages [pyopenjtalk-prebuilt]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-19 20:44:40] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-04-19 20:44:40] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.3.8.tar.gz tmp/tupa123-1.3.9.tar.gz --markdown 20230419/t/tupa123/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-19 20:44:40] INFO root fetch - processPackages [fedexapi-chnoma]: Downloading https://files.pythonhosted.org/packages/88/9e/534276b5c0a80073ffcf61118e1dc9b543f3f9ca3f1b4f8f42ff96654b6d/fedexapi_chnoma-1.2.tar.gz
+[2023-04-19 20:44:40] INFO root fetch - processPackages [pdbp]: Downloading https://files.pythonhosted.org/packages/74/1a/a4a6f99823c58c296b2687a226e46b565f09fbac23db1165a10117f77bfe/pdbp-1.3.1.tar.gz
+[2023-04-19 20:44:40] INFO root fetch - processPackages [s2clientprotocol]: Downloading https://files.pythonhosted.org/packages/1c/4d/1f2afe198369a639558c20d0f7358aacbdf3c9f1d15d3284429aa0bdd050/s2clientprotocol-5.0.8.86383.0-py2.py3-none-any.whl
+[2023-04-19 20:44:40] INFO root fetch - processPackages [pdbp]: executing diffoscope
+[2023-04-19 20:44:40] INFO root fetch - processPackages [pdbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdbp-1.3.0.tar.gz tmp/pdbp-1.3.1.tar.gz --markdown 20230419/p/pdbp/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-19 20:44:40] INFO root fetch - processPackages [dcurves]: Downloading https://files.pythonhosted.org/packages/65/65/78d4d1c7c8c497afbdaaf53087b6c7b72a86d8a7bbefa243be840f798010/dcurves-1.0.6.2.tar.gz
+[2023-04-19 20:44:40] INFO root fetch - processPackages [pdbplus]: Downloading https://files.pythonhosted.org/packages/76/23/e09af1d3f6a03d68610314877abc3af258110e940c256bb227cc097e01d2/pdbplus-1.3.1.tar.gz
+[2023-04-19 20:44:40] INFO root fetch - processPackages [cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/79/07/22424cba35a0e3b28dbe23eecd58b3ca4a2ae1137ff0afb126ec8fbf16b7/cidc_api_modules-0.9.4.tar.gz
+[2023-04-19 20:44:40] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/c9/9a/afe09d3d9d7ff6f141490f56276dd810de4cc2aec3cfbbd44fc9b7fd82d4/wds-client-0.2.7.tar.gz
+[2023-04-19 20:44:40] INFO root fetch - processPackages [pyopenjtalk-prebuilt]: Downloading https://files.pythonhosted.org/packages/ee/75/e1ff547e6959cd7f35d1e3793e551f6d9e910d861582f92082089f0891fc/pyopenjtalk_prebuilt-0.2.0-cp37-cp37m-musllinux_1_1_i686.whl
+[2023-04-19 20:44:40] INFO root fetch - processPackages [dlhub-sdk]: Downloading https://files.pythonhosted.org/packages/fd/42/b558d3fa2d8d5174f533a278ae8c960aa5235e83d337fc7035dbb10f8457/dlhub_sdk-2.0.1.tar.gz
+[2023-04-19 20:44:40] INFO root fetch - processPackages [pdbplus]: executing diffoscope
+[2023-04-19 20:44:40] INFO root fetch - processPackages [pdbplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdbplus-1.3.0.tar.gz tmp/pdbplus-1.3.1.tar.gz --markdown 20230419/p/pdbplus/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-19 20:44:40] INFO root fetch - processPackages [dcurves]: executing diffoscope
+[2023-04-19 20:44:40] INFO root fetch - processPackages [dcurves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcurves-1.0.6.1.tar.gz tmp/dcurves-1.0.6.2.tar.gz --markdown 20230419/d/dcurves/1.0.6.1-1.0.6.2/diff.md --exclude *.pyd
+[2023-04-19 20:44:40] INFO root fetch - processPackages [dlhub-sdk]: executing diffoscope
+[2023-04-19 20:44:40] INFO root fetch - processPackages [dlhub-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlhub_sdk-2.0.0.tar.gz tmp/dlhub_sdk-2.0.1.tar.gz --markdown 20230419/d/dlhub-sdk/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-19 20:44:40] INFO root fetch - processPackages [fedexapi-chnoma]: Downloading https://files.pythonhosted.org/packages/03/ee/7c1a0a269a45d206b18a0bc4683ae04d18b3d1ddc9304252bbd327387387/fedexapi_chnoma-1.2.1.tar.gz
+[2023-04-19 20:44:41] INFO root fetch - processPackages [fedexapi-chnoma]: executing diffoscope
+[2023-04-19 20:44:41] INFO root fetch - processPackages [fedexapi-chnoma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedexapi_chnoma-1.2.tar.gz tmp/fedexapi_chnoma-1.2.1.tar.gz --markdown 20230419/f/fedexapi-chnoma/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-04-19 20:44:41] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/52/0e/257f94b1a1dad6198f1dcee34010593590873dd1d6100c15affe4662bbea/wds-client-0.2.8.tar.gz
+[2023-04-19 20:44:41] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-04-19 20:44:41] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.7.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230419/w/wds-client/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-19 20:44:41] INFO root fetch - processPackages [s2clientprotocol]: Downloading https://files.pythonhosted.org/packages/82/e5/90e0481869ffb114dcc9530d5f87f44c471f55981069914d0284acffffab/s2clientprotocol-5.0.9.87702.0-py2.py3-none-any.whl
+[2023-04-19 20:44:41] INFO root fetch - processPackages [cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/c9/34/b62315a1e0edf5a647d6e601467f4c0c4a039f8877c021f1643b04d153e8/cidc_api_modules-0.9.5.tar.gz
+[2023-04-19 20:44:41] INFO root fetch - processPackages [s2clientprotocol]: executing diffoscope
+[2023-04-19 20:44:41] INFO root fetch - processPackages [s2clientprotocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2clientprotocol-5.0.8.86383.0-py2.py3-none-any.whl.zip tmp/s2clientprotocol-5.0.9.87702.0-py2.py3-none-any.whl.zip --markdown 20230419/s/s2clientprotocol/5.0.8.86383.0-5.0.9.87702.0/diff.md --exclude *.pyd
+[2023-04-19 20:44:41] INFO root fetch - processPackages [cidc-api-modules]: executing diffoscope
+[2023-04-19 20:44:41] INFO root fetch - processPackages [cidc-api-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cidc_api_modules-0.9.4.tar.gz tmp/cidc_api_modules-0.9.5.tar.gz --markdown 20230419/c/cidc-api-modules/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-19 20:44:42] INFO root fetch - main [MainThread]: End processing [pdbp]: success
+[2023-04-19 20:44:42] INFO root fetch - main [MainThread]: End processing [fedexapi-chnoma]: success
+[2023-04-19 20:44:42] INFO root fetch - main [MainThread]: End processing [pdbplus]: success
+[2023-04-19 20:44:42] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-04-19 20:44:42] INFO root fetch - main [MainThread]: End processing [s2clientprotocol]: success
+[2023-04-19 20:44:42] INFO root fetch - processPackages [pyopenjtalk-prebuilt]: Downloading https://files.pythonhosted.org/packages/5d/8a/054037f3c9517b0ed318b1817a6fa650fb88c4f6972afcb3452df9ee33d9/pyopenjtalk_prebuilt-0.3.0.tar.gz
+[2023-04-19 20:44:42] INFO root fetch - main [MainThread]: End processing [dcurves]: success
+[2023-04-19 20:44:42] INFO root fetch - processPackages [pyopenjtalk-prebuilt]: executing diffoscope
+[2023-04-19 20:44:42] INFO root fetch - processPackages [pyopenjtalk-prebuilt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopenjtalk_prebuilt-0.2.0-cp37-cp37m-musllinux_1_1_i686.whl.zip tmp/pyopenjtalk_prebuilt-0.3.0.tar.gz --markdown 20230419/p/pyopenjtalk-prebuilt/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-19 20:44:42] INFO root fetch - main [MainThread]: End processing [dlhub-sdk]: success
+[2023-04-19 20:44:42] INFO root fetch - main [MainThread]: End processing [cidc-api-modules]: success
+[2023-04-19 20:44:43] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-04-19 20:44:48] INFO root fetch - main [MainThread]: End processing [pyopenjtalk-prebuilt]: success
+[2023-04-19 20:44:48] INFO root fetch - main [MainThread]: Store serial: [17775290]
