@@ -21607,3 +21607,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 20:01:59] INFO root fetch - main [MainThread]: End processing [pai-thin-client]: success
 [2023-04-19 20:01:59] INFO root fetch - main [MainThread]: End processing [asimov]: success
 [2023-04-19 20:01:59] INFO root fetch - main [MainThread]: Store serial: [17774850]
+[2023-04-19 20:07:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17774850]
+[2023-04-19 20:07:09] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-19 20:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-skill-local-music
+[2023-04-19 20:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: instructure-dap-client
+[2023-04-19 20:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matematicassimple
+[2023-04-19 20:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: image-charts
+[2023-04-19 20:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-dynamo
+[2023-04-19 20:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-stock-picking-batch-extended
+[2023-04-19 20:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plugwise
+[2023-04-19 20:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cfscanner
+[2023-04-19 20:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytonconnect
+[2023-04-19 20:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: piperider-nightly
+[2023-04-19 20:07:09] INFO root fetch - processPackages [image-charts]: New version: [6.1.28] Old Version: [6.1.27]
+[2023-04-19 20:07:09] WARNING root fetch - processPackages [matematicassimple]: Skipping, unable to determine old version
+[2023-04-19 20:07:09] INFO root fetch - processPackages [matematicassimple]: Start processing: twb-project
+[2023-04-19 20:07:09] INFO root fetch - main [MainThread]: End processing [matematicassimple] error
+[2023-04-19 20:07:09] INFO root fetch - processPackages [instructure-dap-client]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-19 20:07:09] INFO root fetch - processPackages [neon-skill-local-music]: New version: [0.1.1a5] Old Version: [0.1.1a4]
+[2023-04-19 20:07:09] INFO root fetch - processPackages [pytonconnect]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 20:07:09] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-extended]: New version: [15.0.2.1.0] Old Version: [15.0.2.0.1]
+[2023-04-19 20:07:09] INFO root fetch - processPackages [pydantic-dynamo]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-04-19 20:07:09] INFO root fetch - processPackages [twb-project]: New version: [0.7.3a9] Old Version: [0.7.3a8]
+[2023-04-19 20:07:09] INFO root fetch - processPackages [plugwise]: New version: [0.9.4a9] Old Version: [0.9.4a8]
+[2023-04-19 20:07:09] WARNING root fetch - processPackages [cfscanner]: Skipping, unable to determine old version
+[2023-04-19 20:07:09] INFO root fetch - processPackages [cfscanner]: Start processing: lime-trader-sdk
+[2023-04-19 20:07:09] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-04-19 20:07:09] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-04-19 20:07:09] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-04-19 20:07:09] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230419/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-04-19 20:07:09] INFO root fetch - processPackages [lime-trader-sdk]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-19 20:07:09] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-04-19 20:07:09] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.7.3a8.tar.gz tmp/twb_project-0.7.3a9.tar.gz --markdown 20230419/t/twb-project/0.7.3a8-0.7.3a9/diff.md --exclude *.pyd
+[2023-04-19 20:07:09] INFO root fetch - processPackages [instructure-dap-client]: Downloading https://files.pythonhosted.org/packages/23/5c/e65e2b2a157c139f60290ec42005df7149f6fe5bc42a5e27e0612bb3782e/instructure-dap-client-0.3.6.tar.gz
+[2023-04-19 20:07:09] INFO root fetch - processPackages [image-charts]: Downloading https://files.pythonhosted.org/packages/a1/4a/c5c524bd15551c9a2100169ab5af343091673f399ccb225265d8568f0519/image-charts-6.1.27.tar.gz
+[2023-04-19 20:07:09] INFO root fetch - processPackages [pytonconnect]: Downloading https://files.pythonhosted.org/packages/20/2b/bcd1d5ff937a08a5b6b65dcce00f8cee07895216548149ed6a6c8eb4ca5e/pytonconnect-0.0.1.tar.gz
+[2023-04-19 20:07:09] INFO root fetch - processPackages [pydantic-dynamo]: Downloading https://files.pythonhosted.org/packages/97/df/98fda9b364d66a7883ec9024402a498eabff1a9514441fb06a21b79964d0/pydantic_dynamo-0.1.5.tar.gz
+[2023-04-19 20:07:09] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-extended]: Downloading https://files.pythonhosted.org/packages/12/61/c5e6cbcfe5a13ebe433c4a73fcfa9e30880ffa9897b01705a165296862a9/odoo_addon_stock_picking_batch_extended-15.0.2.1.0-py3-none-any.whl
+[2023-04-19 20:07:09] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/2d/25/d16a666bbf41f63e9e3048e2113ec242e89c61817c53498a18facf21003e/neon_skill_local_music-0.1.1a5-py3-none-any.whl
+[2023-04-19 20:07:09] INFO root fetch - processPackages [lime-trader-sdk]: Downloading https://files.pythonhosted.org/packages/05/25/4ae1ac8f073e5fcd2f21ccdd492c9512cdf4f6d9d8a9f681b99e21a0f7ff/lime_trader_sdk-0.1.0.tar.gz
+[2023-04-19 20:07:09] INFO root fetch - processPackages [plugwise]: executing diffoscope
+[2023-04-19 20:07:09] INFO root fetch - processPackages [plugwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugwise-0.9.4a8.tar.gz tmp/plugwise-0.9.4a9.tar.gz --markdown 20230419/p/plugwise/0.9.4a8-0.9.4a9/diff.md --exclude *.pyd
+[2023-04-19 20:07:09] INFO root fetch - processPackages [instructure-dap-client]: Downloading https://files.pythonhosted.org/packages/97/f3/65b39d6143b99b0c7416a1da2fc1f3c441dad340e13a8b10550ec9f06620/instructure-dap-client-0.3.7.tar.gz
+[2023-04-19 20:07:09] INFO root fetch - processPackages [pytonconnect]: Downloading https://files.pythonhosted.org/packages/52/8b/4abe970de78bb007e430ad214514603d984609b9fa26b923fdc857c57d97/pytonconnect-0.0.2.tar.gz
+[2023-04-19 20:07:09] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-extended]: executing diffoscope
+[2023-04-19 20:07:09] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-extended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_batch_extended-15.0.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_batch_extended-15.0.2.1.0-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-stock-picking-batch-extended/15.0.2.0.1-15.0.2.1.0/diff.md --exclude *.pyd
+[2023-04-19 20:07:09] INFO root fetch - processPackages [neon-skill-local-music]: executing diffoscope
+[2023-04-19 20:07:09] INFO root fetch - processPackages [neon-skill-local-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_local_music-0.1.1a4-py3-none-any.whl.zip tmp/neon_skill_local_music-0.1.1a5-py3-none-any.whl.zip --markdown 20230419/n/neon-skill-local-music/0.1.1a4-0.1.1a5/diff.md --exclude *.pyd
+[2023-04-19 20:07:09] INFO root fetch - processPackages [image-charts]: Downloading https://files.pythonhosted.org/packages/f5/7d/bf63d4a7060a11e45cc7680ae84fcd2a85c8c7585386d1fc9d42a799be05/image-charts-6.1.28.tar.gz
+[2023-04-19 20:07:09] INFO root fetch - processPackages [pydantic-dynamo]: Downloading https://files.pythonhosted.org/packages/fd/7f/f6fc6b6643ff76de0bebd1cb5f75622fa7dfe23edf2227db219494b3f979/pydantic_dynamo-0.2.0.tar.gz
+[2023-04-19 20:07:10] INFO root fetch - processPackages [instructure-dap-client]: executing diffoscope
+[2023-04-19 20:07:10] INFO root fetch - processPackages [instructure-dap-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructure-dap-client-0.3.6.tar.gz tmp/instructure-dap-client-0.3.7.tar.gz --markdown 20230419/i/instructure-dap-client/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-19 20:07:10] INFO root fetch - processPackages [lime-trader-sdk]: Downloading https://files.pythonhosted.org/packages/4f/5d/19c56187513026afbf8f7ce44b949ce106050491d83c7c68c1df055aed4b/lime_trader_sdk-0.2.0.tar.gz
+[2023-04-19 20:07:10] INFO root fetch - processPackages [pytonconnect]: executing diffoscope
+[2023-04-19 20:07:10] INFO root fetch - processPackages [pytonconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytonconnect-0.0.1.tar.gz tmp/pytonconnect-0.0.2.tar.gz --markdown 20230419/p/pytonconnect/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 20:07:10] INFO root fetch - processPackages [image-charts]: executing diffoscope
+[2023-04-19 20:07:10] INFO root fetch - processPackages [image-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image-charts-6.1.27.tar.gz tmp/image-charts-6.1.28.tar.gz --markdown 20230419/i/image-charts/6.1.27-6.1.28/diff.md --exclude *.pyd
+[2023-04-19 20:07:10] INFO root fetch - processPackages [pydantic-dynamo]: executing diffoscope
+[2023-04-19 20:07:10] INFO root fetch - processPackages [pydantic-dynamo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_dynamo-0.1.5.tar.gz tmp/pydantic_dynamo-0.2.0.tar.gz --markdown 20230419/p/pydantic-dynamo/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 20:07:10] INFO root fetch - processPackages [lime-trader-sdk]: executing diffoscope
+[2023-04-19 20:07:10] INFO root fetch - processPackages [lime-trader-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lime_trader_sdk-0.1.0.tar.gz tmp/lime_trader_sdk-0.2.0.tar.gz --markdown 20230419/l/lime-trader-sdk/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 20:07:11] INFO root fetch - processPackages [twb-project]: Start processing: widgets-lib
+[2023-04-19 20:07:11] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-04-19 20:07:11] INFO root fetch - processPackages [plugwise]: Start processing: compress-gpt
+[2023-04-19 20:07:11] INFO root fetch - main [MainThread]: End processing [plugwise]: success
+[2023-04-19 20:07:11] INFO root fetch - processPackages [widgets-lib]: New version: [2.7.0] Old Version: [2.6.5]
+[2023-04-19 20:07:11] INFO root fetch - processPackages [compress-gpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 20:07:11] INFO root fetch - processPackages [widgets-lib]: executing diffoscope
+[2023-04-19 20:07:11] INFO root fetch - processPackages [widgets-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widgets-lib-2.6.5.tar.gz tmp/widgets-lib-2.7.0.tar.gz --markdown 20230419/w/widgets-lib/2.6.5-2.7.0/diff.md --exclude *.pyd
+[2023-04-19 20:07:11] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-extended]: Start processing: django-unfold
+[2023-04-19 20:07:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-batch-extended]: success
+[2023-04-19 20:07:11] INFO root fetch - processPackages [neon-skill-local-music]: Start processing: olallieberry
+[2023-04-19 20:07:11] INFO root fetch - main [MainThread]: End processing [neon-skill-local-music]: success
+[2023-04-19 20:07:11] INFO root fetch - processPackages [compress-gpt]: Downloading https://files.pythonhosted.org/packages/2d/0a/d46d34485c354847248a1a45dfe477ebea1edae4bd203ce411cb395b2aac/compress_gpt-0.1.0.tar.gz
+[2023-04-19 20:07:11] INFO root fetch - processPackages [django-unfold]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-19 20:07:11] WARNING root fetch - processPackages [olallieberry]: Skipping, unable to determine old version
+[2023-04-19 20:07:11] INFO root fetch - main [MainThread]: End processing [olallieberry] error
+[2023-04-19 20:07:11] INFO root fetch - main [MainThread]: End processing [pytonconnect]: success
+[2023-04-19 20:07:11] INFO root fetch - processPackages [django-unfold]: Downloading https://files.pythonhosted.org/packages/85/c2/8084388488255ac727560e5bb1d5469c3579f244c11d00f4fd0fcf42a1c8/django_unfold-0.5.0.tar.gz
+[2023-04-19 20:07:11] INFO root fetch - main [MainThread]: End processing [instructure-dap-client]: success
+[2023-04-19 20:07:11] INFO root fetch - main [MainThread]: End processing [lime-trader-sdk]: success
+[2023-04-19 20:07:12] INFO root fetch - processPackages [compress-gpt]: Downloading https://files.pythonhosted.org/packages/4c/17/5980b5bab424b219ffed39c8bf54d1b1062b9b67b7ab29fb9eec92be5398/compress_gpt-0.1.1.tar.gz
+[2023-04-19 20:07:12] INFO root fetch - main [MainThread]: End processing [pydantic-dynamo]: success
+[2023-04-19 20:07:12] INFO root fetch - main [MainThread]: End processing [image-charts]: success
+[2023-04-19 20:07:12] INFO root fetch - processPackages [compress-gpt]: executing diffoscope
+[2023-04-19 20:07:12] INFO root fetch - processPackages [compress-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compress_gpt-0.1.0.tar.gz tmp/compress_gpt-0.1.1.tar.gz --markdown 20230419/c/compress-gpt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 20:07:12] INFO root fetch - processPackages [django-unfold]: Downloading https://files.pythonhosted.org/packages/b5/f1/17011bf50bda70cec41d9a5a2d5f653455bc5bd9f54393f3c31d7311a7de/django_unfold-0.5.1.tar.gz
+[2023-04-19 20:07:12] INFO root fetch - processPackages [django-unfold]: executing diffoscope
+[2023-04-19 20:07:12] INFO root fetch - processPackages [django-unfold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_unfold-0.5.0.tar.gz tmp/django_unfold-0.5.1.tar.gz --markdown 20230419/d/django-unfold/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-19 20:07:12] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-04-19 20:07:12] INFO root fetch - main [MainThread]: End processing [widgets-lib]: success
+[2023-04-19 20:07:13] INFO root fetch - main [MainThread]: End processing [compress-gpt]: success
+[2023-04-19 20:07:14] INFO root fetch - main [MainThread]: End processing [django-unfold]: success
+[2023-04-19 20:07:14] INFO root fetch - main [MainThread]: Store serial: [17774908]
