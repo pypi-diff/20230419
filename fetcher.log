@@ -22511,3 +22511,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 20:55:33] INFO root fetch - main [MainThread]: End processing [ytmusicapi]: success
 [2023-04-19 20:55:33] INFO root fetch - main [MainThread]: End processing [sdgrate]: success
 [2023-04-19 20:55:33] INFO root fetch - main [MainThread]: Store serial: [17775448]
+[2023-04-19 21:00:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17775448]
+[2023-04-19 21:00:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ietfdata
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytechnicolor
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astro-toolbox
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-rq-scheduler
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybanyan
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyhard
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SigProfilerAssignment
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arcam-fmj
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: valo-api
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: social-checker
+[2023-04-19 21:00:43] INFO root fetch - processPackages [pytechnicolor]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ietfdata]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-04-19 21:00:43] INFO root fetch - processPackages [django-rq-scheduler]: New version: [2023.5.0b5] Old Version: [2023.5.0b4]
+[2023-04-19 21:00:43] INFO root fetch - processPackages [astro-toolbox]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 21:00:43] INFO root fetch - processPackages [pybanyan]: New version: [0.29.0] Old Version: [0.28.1]
+[2023-04-19 21:00:43] INFO root fetch - processPackages [django-rq-scheduler]: executing diffoscope
+[2023-04-19 21:00:43] INFO root fetch - processPackages [django-rq-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_rq_scheduler-2023.5.0b4.tar.gz tmp/django_rq_scheduler-2023.5.0b5.tar.gz --markdown 20230419/d/django-rq-scheduler/2023.5.0b4-2023.5.0b5/diff.md --exclude *.pyd
+[2023-04-19 21:00:43] INFO root fetch - processPackages [pyhard]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-04-19 21:00:43] WARNING root fetch - processPackages [social-checker]: Skipping, unable to determine old version
+[2023-04-19 21:00:43] INFO root fetch - processPackages [social-checker]: Start processing: pulumi-consul
+[2023-04-19 21:00:43] INFO root fetch - main [MainThread]: End processing [social-checker] error
+[2023-04-19 21:00:43] INFO root fetch - processPackages [arcam-fmj]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-04-19 21:00:43] INFO root fetch - processPackages [SigProfilerAssignment]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 21:00:43] INFO root fetch - processPackages [valo-api]: New version: [1.7.0] Old Version: [1.6.8]
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ietfdata]: Downloading https://files.pythonhosted.org/packages/a8/87/7236ef43d9fe91c4a1851b40c94e5d9cc20dd49bae231f661087a0f6dea0/ietfdata-0.6.4.tar.gz
+[2023-04-19 21:00:43] INFO root fetch - processPackages [astro-toolbox]: Downloading https://files.pythonhosted.org/packages/eb/2b/4381220e9800c3cfbaafa916e6903dcd9d0a83b1578a1d313c8ab66d546d/astro-toolbox-0.1.0.tar.gz
+[2023-04-19 21:00:43] INFO root fetch - processPackages [pybanyan]: Downloading https://files.pythonhosted.org/packages/2c/54/5ea6fab7be64a2a714193ef2347b3199fe711adbe5d58e102091bbde4916/pybanyan-0.28.1.tar.gz
+[2023-04-19 21:00:43] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1681926864] Old Version: [3.9.0a1680908224]
+[2023-04-19 21:00:43] INFO root fetch - processPackages [pyhard]: Downloading https://files.pythonhosted.org/packages/7c/4c/af83eee0d47827d7fa531b02d6237237632fdfd5ad5d8998a1d44a1c76fa/pyhard-2.1.3.tar.gz
+[2023-04-19 21:00:43] INFO root fetch - processPackages [valo-api]: Downloading https://files.pythonhosted.org/packages/17/44/32bcd438b0ef73d88481e2cb125417f358d2079704327186c0f697e53b43/valo_api-1.6.8.tar.gz
+[2023-04-19 21:00:43] INFO root fetch - processPackages [SigProfilerAssignment]: Downloading https://files.pythonhosted.org/packages/dd/2f/b1f51b32baa819c71f8f872cf621fa6a3b60c7bb151f19b2afee6acf89a2/SigProfilerAssignment-0.0.8.tar.gz
+[2023-04-19 21:00:43] INFO root fetch - processPackages [pytechnicolor]: executing diffoscope
+[2023-04-19 21:00:43] INFO root fetch - processPackages [pytechnicolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytechnicolor-1.1.8.tar.gz tmp/pytechnicolor-1.1.9.tar.gz --markdown 20230419/p/pytechnicolor/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-19 21:00:43] INFO root fetch - processPackages [arcam-fmj]: Downloading https://files.pythonhosted.org/packages/d0/14/a2bdebe25bed183d6b95f7775f61734d4565e00c3c8a6a4c24a93b788059/arcam-fmj-1.2.1.tar.gz
+[2023-04-19 21:00:43] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/45/73/64081331bfc0fc56f94d0fe491708f23680299509fa18cbc25951728ae96/pulumi_consul-3.9.0a1680908224.tar.gz
+[2023-04-19 21:00:43] INFO root fetch - processPackages [pybanyan]: Downloading https://files.pythonhosted.org/packages/ee/31/82ce6aacf0e72bf1ddd15e57869d57f644fa6b4b063271d074343feb36b6/pybanyan-0.29.0.tar.gz
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ietfdata]: Downloading https://files.pythonhosted.org/packages/fd/fa/d02e81a0a6e1a354d056d91df3ea728b07ed8178c6d15b676040f8fbd40f/ietfdata-0.6.5.tar.gz
+[2023-04-19 21:00:43] INFO root fetch - processPackages [astro-toolbox]: Downloading https://files.pythonhosted.org/packages/5e/ae/8ce10a21ab908b1145e9223ab3224ea7a5682c35a6e2b91099d1d8f671de/astro-toolbox-0.1.1.tar.gz
+[2023-04-19 21:00:43] INFO root fetch - processPackages [valo-api]: Downloading https://files.pythonhosted.org/packages/4d/dd/b63a5e61e92608dcf4d7ab519c2b0043f5b3b1d20b15e3db1b8c8a817ca0/valo_api-1.7.0.tar.gz
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ietfdata]: executing diffoscope
+[2023-04-19 21:00:43] INFO root fetch - processPackages [ietfdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ietfdata-0.6.4.tar.gz tmp/ietfdata-0.6.5.tar.gz --markdown 20230419/i/ietfdata/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-04-19 21:00:43] INFO root fetch - processPackages [astro-toolbox]: executing diffoscope
+[2023-04-19 21:00:43] INFO root fetch - processPackages [astro-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-toolbox-0.1.0.tar.gz tmp/astro-toolbox-0.1.1.tar.gz --markdown 20230419/a/astro-toolbox/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 21:00:43] INFO root fetch - processPackages [pybanyan]: executing diffoscope
+[2023-04-19 21:00:43] INFO root fetch - processPackages [pybanyan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybanyan-0.28.1.tar.gz tmp/pybanyan-0.29.0.tar.gz --markdown 20230419/p/pybanyan/0.28.1-0.29.0/diff.md --exclude *.pyd
+[2023-04-19 21:00:44] INFO root fetch - processPackages [arcam-fmj]: Downloading https://files.pythonhosted.org/packages/76/1b/a66a8c7b70aeac162f2c4153f720acad9b3e81b3f3f0ae46e9b1fdb2d6c7/arcam-fmj-1.3.0.tar.gz
+[2023-04-19 21:00:44] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/53/d1/25203b4dae87adc09bbaae51b12a1d91d94c23606622cf6978b0f2af3534/pulumi_consul-3.9.0a1681926864.tar.gz
+[2023-04-19 21:00:44] INFO root fetch - processPackages [pyhard]: Downloading https://files.pythonhosted.org/packages/91/7e/f6b332e9555645ba3b26c804520c2cc7e156719c0860f451cb2112714132/pyhard-2.1.4.tar.gz
+[2023-04-19 21:00:44] INFO root fetch - processPackages [valo-api]: executing diffoscope
+[2023-04-19 21:00:44] INFO root fetch - processPackages [valo-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valo_api-1.6.8.tar.gz tmp/valo_api-1.7.0.tar.gz --markdown 20230419/v/valo-api/1.6.8-1.7.0/diff.md --exclude *.pyd
+[2023-04-19 21:00:44] INFO root fetch - processPackages [arcam-fmj]: executing diffoscope
+[2023-04-19 21:00:44] INFO root fetch - processPackages [arcam-fmj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcam-fmj-1.2.1.tar.gz tmp/arcam-fmj-1.3.0.tar.gz --markdown 20230419/a/arcam-fmj/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-04-19 21:00:44] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2023-04-19 21:00:44] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1680908224.tar.gz tmp/pulumi_consul-3.9.0a1681926864.tar.gz --markdown 20230419/p/pulumi-consul/3.9.0a1680908224-3.9.0a1681926864/diff.md --exclude *.pyd
+[2023-04-19 21:00:44] INFO root fetch - processPackages [SigProfilerAssignment]: Downloading https://files.pythonhosted.org/packages/5e/3a/5f620dd06f38b080d13d9c07487b1f927908e895c6d0078fd31e1774d819/SigProfilerAssignment-0.0.9.tar.gz
+[2023-04-19 21:00:44] INFO root fetch - main [MainThread]: End processing [pytechnicolor]: success
+[2023-04-19 21:00:44] INFO root fetch - processPackages [SigProfilerAssignment]: executing diffoscope
+[2023-04-19 21:00:44] INFO root fetch - processPackages [SigProfilerAssignment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SigProfilerAssignment-0.0.8.tar.gz tmp/SigProfilerAssignment-0.0.9.tar.gz --markdown 20230419/S/SigProfilerAssignment/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 21:00:44] INFO root fetch - processPackages [pyhard]: executing diffoscope
+[2023-04-19 21:00:44] INFO root fetch - processPackages [pyhard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhard-2.1.3.tar.gz tmp/pyhard-2.1.4.tar.gz --markdown 20230419/p/pyhard/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-04-19 21:00:44] INFO root fetch - main [MainThread]: End processing [django-rq-scheduler]: success
+[2023-04-19 21:00:45] INFO root fetch - main [MainThread]: End processing [astro-toolbox]: success
+[2023-04-19 21:00:45] INFO root fetch - main [MainThread]: End processing [arcam-fmj]: success
+[2023-04-19 21:00:45] INFO root fetch - main [MainThread]: End processing [valo-api]: success
+[2023-04-19 21:00:45] INFO root fetch - main [MainThread]: End processing [pybanyan]: success
+[2023-04-19 21:00:46] INFO root fetch - main [MainThread]: End processing [ietfdata]: success
+[2023-04-19 21:00:46] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2023-04-19 21:00:48] INFO root fetch - main [MainThread]: End processing [SigProfilerAssignment]: success
+[2023-04-19 21:00:49] INFO root fetch - main [MainThread]: End processing [pyhard]: success
+[2023-04-19 21:00:49] INFO root fetch - main [MainThread]: Store serial: [17775483]
