@@ -12981,3 +12981,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 12:21:06] INFO root fetch - main [MainThread]: End processing [gyp-next]: success
 [2023-04-19 12:21:07] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-04-19 12:21:07] INFO root fetch - main [MainThread]: Store serial: [17769576]
+[2023-04-19 12:26:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17769576]
+[2023-04-19 12:26:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: extr
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chinoscriba
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentry-cli
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docassemble
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docassemble.base
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docassemble.demo
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docassemble.webapp
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ifd-python
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rewards-experimental
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openapify
+[2023-04-19 12:26:16] INFO root fetch - processPackages [sentry-cli]: New version: [2.17.3] Old Version: [2.17.2]
+[2023-04-19 12:26:16] INFO root fetch - processPackages [chinoscriba]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-19 12:26:16] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 12:26:16] INFO root fetch - processPackages [docassemble]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-19 12:26:16] INFO root fetch - processPackages [docassemble.demo]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-19 12:26:16] INFO root fetch - processPackages [docassemble.webapp]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-19 12:26:16] INFO root fetch - processPackages [docassemble.base]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-19 12:26:16] WARNING root fetch - processPackages [rewards-experimental]: Skipping, unable to determine old version
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ifd-python]: New version: [7.6.5] Old Version: [7.6.4]
+[2023-04-19 12:26:16] INFO root fetch - processPackages [rewards-experimental]: Start processing: sj-tool
+[2023-04-19 12:26:16] INFO root fetch - main [MainThread]: End processing [rewards-experimental] error
+[2023-04-19 12:26:16] INFO root fetch - processPackages [openapify]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-19 12:26:16] INFO root fetch - processPackages [sj-tool]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-19 12:26:16] INFO root fetch - processPackages [chinoscriba]: Downloading https://files.pythonhosted.org/packages/09/3c/830f4f7a2508abc5ec6274e9069db58524b418cf259283df1b9db787b3e4/chinoscriba-1.0.4.tar.gz
+[2023-04-19 12:26:16] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/1b/b1/8cd8c51bc2b5aa0fa89d1528f73674a02f1202fc12d3696bb33172926993/docassemble-1.4.8.tar.gz
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/f3/1d/141c31e98d1af1f9ac82376a4038169e7a0fac56bd01e83befe2b0ec75c8/ifd_python-7.6.4.tar.gz
+[2023-04-19 12:26:16] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/71/a7/724320e51777bcf680d8d1adc3d93946a6560ac2f3b274590b49c7217dbb/sentry_cli-2.17.2.tar.gz
+[2023-04-19 12:26:16] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/12/65/72be3778d6c8df2fc0725932b11671c295cbe40fccf8e32f5fad392c226b/docassemble.demo-1.4.8.tar.gz
+[2023-04-19 12:26:16] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/fe/48/4d304022057f0e254fc8916a718a52b355f0ae2843c22d86139803ae0020/docassemble.webapp-1.4.8.tar.gz
+[2023-04-19 12:26:16] INFO root fetch - processPackages [docassemble.base]: Downloading https://files.pythonhosted.org/packages/49/6f/c82f5b1b26e0b12bdf1e565f9218b862142854979a0f01ea54c864ac7770/docassemble.base-1.4.8.tar.gz
+[2023-04-19 12:26:16] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/58/38/f940034117c2f2a717eb4db6cdc820611fb0b5aa69a53a9deb3a4a7fdd27/ifd_python-7.6.5.tar.gz
+[2023-04-19 12:26:16] INFO root fetch - processPackages [openapify]: Downloading https://files.pythonhosted.org/packages/a8/d6/9a0c9506243054676c181a7d1da7fb10c3d0a096664b81fd45bc879799e4/openapify-0.3.8.tar.gz
+[2023-04-19 12:26:16] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/e7/6f/f7d669a36768fd0b94ce388c4d8f383ddb3e022f6dccb7860f08d616ef30/sentry_cli-2.17.3.tar.gz
+[2023-04-19 12:26:16] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-04-19 12:26:16] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230419/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 12:26:16] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-04-19 12:26:16] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.7-py3-none-any.whl.zip tmp/sj_tool-1.0.8-py3-none-any.whl.zip --markdown 20230419/s/sj-tool/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-04-19 12:26:16] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-7.6.4.tar.gz tmp/ifd_python-7.6.5.tar.gz --markdown 20230419/i/ifd-python/7.6.4-7.6.5/diff.md --exclude *.pyd
+[2023-04-19 12:26:16] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/8b/4e/0fabe3ae223b84b73fa9a38526c3f22a21eab5f747f408034f5c0ba59e7d/docassemble-1.4.9.tar.gz
+[2023-04-19 12:26:16] INFO root fetch - processPackages [openapify]: executing diffoscope
+[2023-04-19 12:26:16] INFO root fetch - processPackages [openapify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapify-0.3.7.tar.gz tmp/openapify-0.3.8.tar.gz --markdown 20230419/o/openapify/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-19 12:26:16] INFO root fetch - processPackages [chinoscriba]: Downloading https://files.pythonhosted.org/packages/e3/ab/2bcab72d1b019b404c3cdbf85d9cdb7d0ca1a5f384836347641632640e20/chinoscriba-1.0.5.tar.gz
+[2023-04-19 12:26:16] INFO root fetch - processPackages [sentry-cli]: executing diffoscope
+[2023-04-19 12:26:16] INFO root fetch - processPackages [sentry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_cli-2.17.2.tar.gz tmp/sentry_cli-2.17.3.tar.gz --markdown 20230419/s/sentry-cli/2.17.2-2.17.3/diff.md --exclude *.pyd
+[2023-04-19 12:26:16] INFO root fetch - processPackages [chinoscriba]: executing diffoscope
+[2023-04-19 12:26:16] INFO root fetch - processPackages [chinoscriba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chinoscriba-1.0.4.tar.gz tmp/chinoscriba-1.0.5.tar.gz --markdown 20230419/c/chinoscriba/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-19 12:26:16] INFO root fetch - processPackages [docassemble]: executing diffoscope
+[2023-04-19 12:26:16] INFO root fetch - processPackages [docassemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble-1.4.8.tar.gz tmp/docassemble-1.4.9.tar.gz --markdown 20230419/d/docassemble/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-19 12:26:16] WARNING root fetch - processPackages [docassemble.base]: Skipping package: exceeds size limit 10987248>=10485760
+[2023-04-19 12:26:16] INFO root fetch - processPackages [docassemble.base]: Start processing: skeletorch
+[2023-04-19 12:26:16] INFO root fetch - main [MainThread]: End processing [docassemble.base] error
+[2023-04-19 12:26:17] WARNING root fetch - processPackages [skeletorch]: Skipping, unable to determine old version
+[2023-04-19 12:26:17] INFO root fetch - processPackages [skeletorch]: Start processing: league-shop-base
+[2023-04-19 12:26:17] INFO root fetch - main [MainThread]: End processing [skeletorch] error
+[2023-04-19 12:26:17] INFO root fetch - processPackages [league-shop-base]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 12:26:17] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/9a/36/856f05ff8f20b041ffd8a46c1c83f9f8b227d1764d27b5882c86fee7084a/league-shop-base-1.0.8.tar.gz
+[2023-04-19 12:26:17] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/e2/26/1a7ca28a471c3705930fb862d3f11522557e5f6c0d324560bcea93b51906/league-shop-base-1.0.9.tar.gz
+[2023-04-19 12:26:17] INFO root fetch - processPackages [league-shop-base]: executing diffoscope
+[2023-04-19 12:26:17] INFO root fetch - processPackages [league-shop-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league-shop-base-1.0.8.tar.gz tmp/league-shop-base-1.0.9.tar.gz --markdown 20230419/l/league-shop-base/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 12:26:18] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-04-19 12:26:18] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-04-19 12:26:18] INFO root fetch - main [MainThread]: End processing [openapify]: success
+[2023-04-19 12:26:18] INFO root fetch - main [MainThread]: End processing [chinoscriba]: success
+[2023-04-19 12:26:18] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-04-19 12:26:18] INFO root fetch - main [MainThread]: End processing [docassemble]: success
+[2023-04-19 12:26:19] INFO root fetch - main [MainThread]: End processing [league-shop-base]: success
+[2023-04-19 12:26:19] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/ee/bd/035c358ae80b3b4826a36a17e6a993251ad2bb4c42b826fd879f02355d0e/docassemble.webapp-1.4.9.tar.gz
+[2023-04-19 12:26:19] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/ea/e2/301126e8ccea026042cf14b25646d8a8775d5bc90eaed08eb9da6c61421a/docassemble.demo-1.4.9.tar.gz
+[2023-04-19 12:26:20] INFO root fetch - main [MainThread]: End processing [sentry-cli]: success
+[2023-04-19 12:26:21] INFO root fetch - processPackages [docassemble.demo]: executing diffoscope
+[2023-04-19 12:26:21] INFO root fetch - processPackages [docassemble.demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.demo-1.4.8.tar.gz tmp/docassemble.demo-1.4.9.tar.gz --markdown 20230419/d/docassemble.demo/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-19 12:26:22] INFO root fetch - processPackages [docassemble.webapp]: executing diffoscope
+[2023-04-19 12:26:22] INFO root fetch - processPackages [docassemble.webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.webapp-1.4.8.tar.gz tmp/docassemble.webapp-1.4.9.tar.gz --markdown 20230419/d/docassemble.webapp/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-19 12:26:27] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
+[2023-04-19 12:26:31] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
+[2023-04-19 12:26:31] INFO root fetch - main [MainThread]: Store serial: [17769624]
