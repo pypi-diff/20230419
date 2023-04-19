@@ -7454,3 +7454,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 07:34:13] INFO root fetch - main [MainThread]: End processing [usody-sanitize]: success
 [2023-04-19 07:34:14] INFO root fetch - main [MainThread]: End processing [sportsdataverse]: success
 [2023-04-19 07:34:14] INFO root fetch - main [MainThread]: Store serial: [17766260]
+[2023-04-19 07:39:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766260]
+[2023-04-19 07:39:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-19 07:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twb-project
+[2023-04-19 07:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncbg
+[2023-04-19 07:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdbplus
+[2023-04-19 07:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-recycle
+[2023-04-19 07:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-openupgrade-scripts
+[2023-04-19 07:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-openupgrade-scripts
+[2023-04-19 07:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chalice-spec
+[2023-04-19 07:39:23] INFO root fetch - processPackages [twb-project]: New version: [0.7.3a2] Old Version: [0.7.3a1]
+[2023-04-19 07:39:23] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: New version: [14.0.1.0.2.dev99] Old Version: [14.0.1.0.2.dev95]
+[2023-04-19 07:39:23] INFO root fetch - processPackages [xj-recycle]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-19 07:39:23] INFO root fetch - processPackages [pdbplus]: New version: [1.3.0] Old Version: [1.2.8]
+[2023-04-19 07:39:23] INFO root fetch - processPackages [asyncbg]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 07:39:23] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-04-19 07:39:23] INFO root fetch - processPackages [chalice-spec]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-19 07:39:23] INFO root fetch - processPackages [xj-recycle]: Downloading https://files.pythonhosted.org/packages/e5/d5/61ccf3647ecf86ebea78dac08b164ce413da2453777bac70fbbb0434d697/xj_recycle-1.0.5.tar.gz
+[2023-04-19 07:39:23] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/ec/50/ce82e83016d56e83f3ba41393c3470ef868ae1581c3f47640932504291c8/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl
+[2023-04-19 07:39:23] INFO root fetch - processPackages [pdbplus]: Downloading https://files.pythonhosted.org/packages/30/a7/4087fccc97819536ee44989f121c419b764744726927579d3af7b77e0c3d/pdbplus-1.2.8.tar.gz
+[2023-04-19 07:39:23] INFO root fetch - processPackages [chalice-spec]: Downloading https://files.pythonhosted.org/packages/e9/27/c73b642f75938fee4958f69823b8ac8b537cae26a62b0d7a66049e88e1ea/chalice_spec-0.4.0-py3-none-any.whl
+[2023-04-19 07:39:23] INFO root fetch - processPackages [twb-project]: Downloading https://files.pythonhosted.org/packages/53/bb/c394707fec5e1d06d70220a87c7eeff384a8704f97bef894a7e723994450/twb_project-0.7.3a2.tar.gz
+[2023-04-19 07:39:23] INFO root fetch - processPackages [xj-recycle]: executing diffoscope
+[2023-04-19 07:39:23] INFO root fetch - processPackages [xj-recycle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_recycle-1.0.4.tar.gz tmp/xj_recycle-1.0.5.tar.gz --markdown 20230419/x/xj-recycle/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-19 07:39:23] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-04-19 07:39:23] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-openupgrade-scripts/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-04-19 07:39:23] INFO root fetch - processPackages [asyncbg]: Downloading https://files.pythonhosted.org/packages/68/be/22a5bfb8174cac003d822f7f3a60d695837c9161ccdb36e3c08d92cbaa57/asyncbg-0.9.0-py2.py3-none-any.whl
+[2023-04-19 07:39:23] INFO root fetch - processPackages [pdbplus]: Downloading https://files.pythonhosted.org/packages/60/d0/1450e3d21bc8ca0164fd939b5e0786ef8ecd35bd5708a33666552ea86c60/pdbplus-1.3.0.tar.gz
+[2023-04-19 07:39:23] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-04-19 07:39:23] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.7.3a1.tar.gz tmp/twb_project-0.7.3a2.tar.gz --markdown 20230419/t/twb-project/0.7.3a1-0.7.3a2/diff.md --exclude *.pyd
+[2023-04-19 07:39:24] INFO root fetch - processPackages [asyncbg]: executing diffoscope
+[2023-04-19 07:39:24] INFO root fetch - processPackages [asyncbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncbg-0.8.0.tar.gz tmp/asyncbg-0.9.0-py2.py3-none-any.whl.zip --markdown 20230419/a/asyncbg/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 07:39:24] INFO root fetch - processPackages [pdbplus]: executing diffoscope
+[2023-04-19 07:39:24] INFO root fetch - processPackages [pdbplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdbplus-1.2.8.tar.gz tmp/pdbplus-1.3.0.tar.gz --markdown 20230419/p/pdbplus/1.2.8-1.3.0/diff.md --exclude *.pyd
+[2023-04-19 07:39:24] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d0/8c/a24d16c65bf9fe5ae4605a1657606542a2bb75c0ac9281be45aa9cb0464d/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl
+[2023-04-19 07:39:24] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: executing diffoscope
+[2023-04-19 07:39:24] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-openupgrade-scripts/14.0.1.0.2.dev95-14.0.1.0.2.dev99/diff.md --exclude *.pyd
+[2023-04-19 07:39:24] INFO root fetch - processPackages [chalice-spec]: Downloading https://files.pythonhosted.org/packages/46/2a/8f137c892dd5678a544936b8908061114627c7cea0e2b6b589ad1e0a1b5b/chalice_spec-0.5.0.tar.gz
+[2023-04-19 07:39:24] INFO root fetch - processPackages [chalice-spec]: executing diffoscope
+[2023-04-19 07:39:24] INFO root fetch - processPackages [chalice-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalice_spec-0.4.0-py3-none-any.whl.zip tmp/chalice_spec-0.5.0.tar.gz --markdown 20230419/c/chalice-spec/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-19 07:39:25] INFO root fetch - main [MainThread]: End processing [xj-recycle]: success
+[2023-04-19 07:39:25] INFO root fetch - main [MainThread]: End processing [asyncbg]: success
+[2023-04-19 07:39:25] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-04-19 07:39:25] INFO root fetch - main [MainThread]: End processing [pdbplus]: success
+[2023-04-19 07:39:25] INFO root fetch - main [MainThread]: End processing [chalice-spec]: success
+[2023-04-19 07:39:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-04-19 07:39:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
+[2023-04-19 07:39:33] INFO root fetch - main [MainThread]: Store serial: [17766279]
