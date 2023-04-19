@@ -4488,3 +4488,126 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 03:43:10] ERROR root fetch - processPackages [rstms-etherscan-python]: Timeout during execution of pkgdiff
 [2023-04-19 03:43:10] INFO root fetch - main [MainThread]: End processing [rstms-etherscan-python] error
 [2023-04-19 03:43:10] INFO root fetch - main [MainThread]: Store serial: [17764707]
+[2023-04-19 03:48:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17764707]
+[2023-04-19 03:48:19] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-19 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-sphinx
+[2023-04-19 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-wget
+[2023-04-19 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansys-fluent-core
+[2023-04-19 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tastytrade
+[2023-04-19 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-django
+[2023-04-19 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kicad-package-manager
+[2023-04-19 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyperon
+[2023-04-19 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: perm-broker
+[2023-04-19 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-apl
+[2023-04-19 03:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proactive
+[2023-04-19 03:48:19] WARNING root fetch - processPackages [tastytrade]: Skipping, unable to determine old version
+[2023-04-19 03:48:19] INFO root fetch - processPackages [tastytrade]: Start processing: so-vits-svc-fork
+[2023-04-19 03:48:19] INFO root fetch - main [MainThread]: End processing [tastytrade] error
+[2023-04-19 03:48:19] INFO root fetch - processPackages [perm-broker]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-19 03:48:19] INFO root fetch - processPackages [ansys-fluent-core]: New version: [0.14.dev0] Old Version: [0.13.dev5]
+[2023-04-19 03:48:19] INFO root fetch - processPackages [kicad-package-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 03:48:19] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-04-19 03:48:19] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 03:48:19] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 03:48:19] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-19 03:48:19] INFO root fetch - processPackages [so-vits-svc-fork]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-04-19 03:48:19] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.722] Old Version: [0.0.721]
+[2023-04-19 03:48:19] WARNING root fetch - processPackages [hyperon]: Skipping, unable to determine old version
+[2023-04-19 03:48:19] INFO root fetch - processPackages [hyperon]: Start processing: segment-anything-py
+[2023-04-19 03:48:19] INFO root fetch - main [MainThread]: End processing [hyperon] error
+[2023-04-19 03:48:19] INFO root fetch - processPackages [segment-anything-py]: New version: [0.2] Old Version: [0.1]
+[2023-04-19 03:48:19] INFO root fetch - processPackages [so-vits-svc-fork]: executing diffoscope
+[2023-04-19 03:48:19] INFO root fetch - processPackages [so-vits-svc-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so_vits_svc_fork-3.9.4.tar.gz tmp/so_vits_svc_fork-3.9.5.tar.gz --markdown 20230419/s/so-vits-svc-fork/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-04-19 03:48:19] INFO root fetch - processPackages [perm-broker]: Downloading https://files.pythonhosted.org/packages/34/fd/188d04f334a11238c07973e0cdbabcf4a1f7894a18f5d9899958f035bab4/perm_broker-0.1.5.tar.gz
+[2023-04-19 03:48:19] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-04-19 03:48:19] INFO root fetch - processPackages [segment-anything-py]: Downloading https://files.pythonhosted.org/packages/bd/9a/c4ce21be4ca1654fe4910df756ff4a0cf530ab946d3d7ae8959aaa48c3ff/segment-anything-py-0.1.tar.gz
+[2023-04-19 03:48:19] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-04-19 03:48:19] INFO root fetch - processPackages [proactive]: Start processing: proactive-jupyter-kernel
+[2023-04-19 03:48:19] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-04-19 03:48:19] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-04-19 03:48:20] INFO root fetch - processPackages [ansys-fluent-core]: Downloading https://files.pythonhosted.org/packages/5c/53/6c76c43efd65da7655c3142f1be77683f3a28fc98889c93502e0876720e5/ansys-fluent-core-0.14.dev0.tar.gz
+[2023-04-19 03:48:20] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-19 03:48:20] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230419/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 03:48:20] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-19 03:48:20] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230419/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 03:48:20] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/c3/60/f2c2b95cafa129913b7a3321a4bde9b4d7776f3311d6c51d8f2807bd5888/nbdev-apl-0.0.722.tar.gz
+[2023-04-19 03:48:20] INFO root fetch - processPackages [perm-broker]: Downloading https://files.pythonhosted.org/packages/57/c5/5091eb3e676d99a9d96efd9c6629a53ba0b51d0112e17e705c55e6894b6a/perm_broker-0.1.6.tar.gz
+[2023-04-19 03:48:20] INFO root fetch - processPackages [kicad-package-manager]: executing diffoscope
+[2023-04-19 03:48:20] INFO root fetch - processPackages [kicad-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kicad_package_manager-0.0.8.tar.gz tmp/kicad_package_manager-0.0.9.tar.gz --markdown 20230419/k/kicad-package-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 03:48:20] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-04-19 03:48:20] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230419/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-19 03:48:20] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-04-19 03:48:20] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230419/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-04-19 03:48:20] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-04-19 03:48:20] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.721.tar.gz tmp/nbdev-apl-0.0.722.tar.gz --markdown 20230419/n/nbdev-apl/0.0.721-0.0.722/diff.md --exclude *.pyd
+[2023-04-19 03:48:20] INFO root fetch - processPackages [perm-broker]: executing diffoscope
+[2023-04-19 03:48:20] INFO root fetch - processPackages [perm-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perm_broker-0.1.5.tar.gz tmp/perm_broker-0.1.6.tar.gz --markdown 20230419/p/perm-broker/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-19 03:48:20] INFO root fetch - processPackages [segment-anything-py]: Downloading https://files.pythonhosted.org/packages/b9/d5/b5b09ec08d8ded07acaa5ed43f36529f2faa75c75f6de9da55e5b97a74e0/segment-anything-py-0.2.tar.gz
+[2023-04-19 03:48:20] INFO root fetch - processPackages [ansys-fluent-core]: executing diffoscope
+[2023-04-19 03:48:20] INFO root fetch - processPackages [ansys-fluent-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-fluent-core-0.13.dev5.tar.gz tmp/ansys-fluent-core-0.14.dev0.tar.gz --markdown 20230419/a/ansys-fluent-core/0.13.dev5-0.14.dev0/diff.md --exclude *.pyd
+[2023-04-19 03:48:20] INFO root fetch - processPackages [segment-anything-py]: executing diffoscope
+[2023-04-19 03:48:20] INFO root fetch - processPackages [segment-anything-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-anything-py-0.1.tar.gz tmp/segment-anything-py-0.2.tar.gz --markdown 20230419/s/segment-anything-py/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-19 03:48:21] INFO root fetch - processPackages [kicad-package-manager]: Start processing: smartchart
+[2023-04-19 03:48:21] INFO root fetch - main [MainThread]: End processing [kicad-package-manager]: success
+[2023-04-19 03:48:21] INFO root fetch - processPackages [proactive-jupyter-kernel]: Start processing: bwc-bscan
+[2023-04-19 03:48:21] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-04-19 03:48:21] INFO root fetch - processPackages [smartchart]: New version: [6.5] Old Version: [6.4.2]
+[2023-04-19 03:48:21] WARNING root fetch - processPackages [bwc-bscan]: Skipping, unable to determine old version
+[2023-04-19 03:48:21] INFO root fetch - processPackages [bwc-bscan]: Start processing: bashparser
+[2023-04-19 03:48:21] INFO root fetch - main [MainThread]: End processing [bwc-bscan] error
+[2023-04-19 03:48:21] INFO root fetch - processPackages [bashparser]: New version: [0.9] Old Version: [0.8]
+[2023-04-19 03:48:21] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: numerai-cli
+[2023-04-19 03:48:21] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-19 03:48:21] INFO root fetch - processPackages [perm-broker]: Start processing: bashparser
+[2023-04-19 03:48:21] INFO root fetch - main [MainThread]: End processing [perm-broker]: success
+[2023-04-19 03:48:21] INFO root fetch - processPackages [numerai-cli]: New version: [0.3.5] Old Version: [0.3.4.dev1]
+[2023-04-19 03:48:21] INFO root fetch - processPackages [bashparser]: New version: [0.9] Old Version: [0.8]
+[2023-04-19 03:48:21] INFO root fetch - processPackages [segment-anything-py]: Start processing: langchain-serve
+[2023-04-19 03:48:21] INFO root fetch - main [MainThread]: End processing [segment-anything-py]: success
+[2023-04-19 03:48:21] INFO root fetch - processPackages [nbdev-apl]: Start processing: bashparser
+[2023-04-19 03:48:21] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-04-19 03:48:21] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.7.dev5] Old Version: [0.0.7.dev3]
+[2023-04-19 03:48:21] INFO root fetch - processPackages [bashparser]: New version: [0.9] Old Version: [0.8]
+[2023-04-19 03:48:22] INFO root fetch - processPackages [numerai-cli]: Downloading https://files.pythonhosted.org/packages/90/d7/680032c80a1232676733ee8da8a3f3f59f7ca5da687f0b7c525d5c5e6025/numerai-cli-0.3.4.dev1.tar.gz
+[2023-04-19 03:48:22] INFO root fetch - processPackages [bashparser]: Downloading https://files.pythonhosted.org/packages/09/bb/66123b51c2bded86171779383c724bc6f886545b276e4406597029c017e5/bashparser-0.9.tar.gz
+[2023-04-19 03:48:22] INFO root fetch - processPackages [bashparser]: Downloading https://files.pythonhosted.org/packages/09/bb/66123b51c2bded86171779383c724bc6f886545b276e4406597029c017e5/bashparser-0.9.tar.gz
+[2023-04-19 03:48:22] INFO root fetch - processPackages [bashparser]: Downloading https://files.pythonhosted.org/packages/09/bb/66123b51c2bded86171779383c724bc6f886545b276e4406597029c017e5/bashparser-0.9.tar.gz
+[2023-04-19 03:48:22] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/51/b8/655661abbfd6bdd65b866358257d059fe0712e3a7eb20f85f3e5e73ca614/smartchart-6.4.2.tar.gz
+[2023-04-19 03:48:22] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/a5/f7/dfe0ce2602a0e990bdc10def0c074f490a7cfd6f07bfd7fe645bbcb678ad/langchain-serve-0.0.7.dev5.tar.gz
+[2023-04-19 03:48:22] INFO root fetch - processPackages [bashparser]: executing diffoscope
+[2023-04-19 03:48:22] INFO root fetch - processPackages [bashparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bashparser-0.8.tar.gz tmp/bashparser-0.9.tar.gz --markdown 20230419/b/bashparser/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-19 03:48:22] INFO root fetch - processPackages [bashparser]: executing diffoscope
+[2023-04-19 03:48:22] INFO root fetch - processPackages [bashparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bashparser-0.8.tar.gz tmp/bashparser-0.9.tar.gz --markdown 20230419/b/bashparser/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-19 03:48:22] INFO root fetch - processPackages [bashparser]: executing diffoscope
+[2023-04-19 03:48:22] INFO root fetch - processPackages [bashparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bashparser-0.8.tar.gz tmp/bashparser-0.9.tar.gz --markdown 20230419/b/bashparser/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-19 03:48:22] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-19 03:48:22] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.7.dev3.tar.gz tmp/langchain-serve-0.0.7.dev5.tar.gz --markdown 20230419/l/langchain-serve/0.0.7.dev3-0.0.7.dev5/diff.md --exclude *.pyd
+[2023-04-19 03:48:22] INFO root fetch - processPackages [nbdev-django]: Start processing: segment-anything-py
+[2023-04-19 03:48:22] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-19 03:48:22] INFO root fetch - processPackages [segment-anything-py]: New version: [0.3] Old Version: [0.2]
+[2023-04-19 03:48:22] INFO root fetch - processPackages [segment-anything-py]: Downloading https://files.pythonhosted.org/packages/42/d2/9b210381d1ddd98530a2acd5e146a112dc29e30f8a30acaf247f50eab617/segment-anything-py-0.3.tar.gz
+[2023-04-19 03:48:22] INFO root fetch - processPackages [segment-anything-py]: executing diffoscope
+[2023-04-19 03:48:22] INFO root fetch - processPackages [segment-anything-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-anything-py-0.2.tar.gz tmp/segment-anything-py-0.3.tar.gz --markdown 20230419/s/segment-anything-py/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-19 03:48:23] INFO root fetch - processPackages [so-vits-svc-fork]: Start processing: sesg
+[2023-04-19 03:48:23] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
+[2023-04-19 03:48:23] INFO root fetch - processPackages [sesg]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-19 03:48:23] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/aa/02/e4482558630aded4a1263f8b83b161fa4c88d4b59632efb8c7099cc2c2e3/smartchart-6.5.tar.gz
+[2023-04-19 03:48:23] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-04-19 03:48:23] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.6.tar.gz tmp/sesg-0.0.7.tar.gz --markdown 20230419/s/sesg/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-19 03:48:23] INFO root fetch - main [MainThread]: End processing [bashparser]: success
+[2023-04-19 03:48:23] INFO root fetch - main [MainThread]: End processing [bashparser]: success
+[2023-04-19 03:48:23] INFO root fetch - main [MainThread]: End processing [segment-anything-py]: success
+[2023-04-19 03:48:23] INFO root fetch - main [MainThread]: End processing [bashparser]: success
+[2023-04-19 03:48:24] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-04-19 03:48:24] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-04-19 03:48:24] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-04-19 03:48:24] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.4.2.tar.gz tmp/smartchart-6.5.tar.gz --markdown 20230419/s/smartchart/6.4.2-6.5/diff.md --exclude *.pyd
+[2023-04-19 03:48:24] INFO root fetch - processPackages [numerai-cli]: Downloading https://files.pythonhosted.org/packages/26/4f/d60724a4d7e2858941fea3b203e3dd80703a4a48f4aa39cc9c9aeb9f2886/numerai-cli-0.3.5.tar.gz
+[2023-04-19 03:48:24] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-19 03:48:25] INFO root fetch - processPackages [numerai-cli]: executing diffoscope
+[2023-04-19 03:48:25] INFO root fetch - processPackages [numerai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerai-cli-0.3.4.dev1.tar.gz tmp/numerai-cli-0.3.5.tar.gz --markdown 20230419/n/numerai-cli/0.3.4.dev1-0.3.5/diff.md --exclude *.pyd
+[2023-04-19 03:48:27] INFO root fetch - main [MainThread]: End processing [numerai-cli]: success
+[2023-04-19 03:48:30] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-04-19 03:51:20] ERROR root fetch - processPackages [ansys-fluent-core]: Timeout during execution of pkgdiff
+[2023-04-19 03:51:20] INFO root fetch - main [MainThread]: End processing [ansys-fluent-core] error
+[2023-04-19 03:51:20] INFO root fetch - main [MainThread]: Store serial: [17764773]
