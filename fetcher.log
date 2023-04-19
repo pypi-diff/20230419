@@ -15199,3 +15199,153 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 14:38:54] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
 [2023-04-19 14:39:03] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-04-19 14:39:03] INFO root fetch - main [MainThread]: Store serial: [17770884]
+[2023-04-19 14:44:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17770884]
+[2023-04-19 14:44:13] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrfc
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huble
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nitrado
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-honeybee
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lovematch
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frida
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ozan-arslan
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dragonfly-energy
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ascii-cli
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pythogen
+[2023-04-19 14:44:13] INFO root fetch - processPackages [pyrfc]: New version: [2.8.0] Old Version: [2.7.2]
+[2023-04-19 14:44:13] INFO root fetch - processPackages [nitrado]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ozan-arslan]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ascii-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 14:44:13] INFO root fetch - processPackages [lovematch]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-04-19 14:44:13] INFO root fetch - processPackages [huble]: New version: [0.2.297] Old Version: [0.2.296]
+[2023-04-19 14:44:13] INFO root fetch - processPackages [pythogen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 14:44:13] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-19 14:44:13] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-04-19 14:44:13] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/3a/0c/72899c819886b8b559fe0e8ec1bb087c22147511b203c6213c769c79b5b4/huble-0.2.296.tar.gz
+[2023-04-19 14:44:13] INFO root fetch - processPackages [pyrfc]: Downloading https://files.pythonhosted.org/packages/11/ad/bcaee5c976ef3d80947de9ee64907a73bcf8f38874882b9a6f2d2261fda1/pyrfc-2.7.2.tar.gz
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ozan-arslan]: Downloading https://files.pythonhosted.org/packages/50/c2/97ce89437e4aa8b0fbb5a57e95351a95f69c9e64fb7b2e1aa7924f622125/ozan-arslan-0.0.3.tar.gz
+[2023-04-19 14:44:13] INFO root fetch - processPackages [pythogen]: executing diffoscope
+[2023-04-19 14:44:13] INFO root fetch - processPackages [pythogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythogen-0.1.8.tar.gz tmp/pythogen-0.1.9.tar.gz --markdown 20230419/p/pythogen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 14:44:13] INFO root fetch - processPackages [lovematch]: Downloading https://files.pythonhosted.org/packages/f1/00/0ecbf9ad30946cf4c45ec67a163d95b19cf5938ea94895d9d115110a73c0/lovematch-1.7.0.tar.gz
+[2023-04-19 14:44:13] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-04-19 14:44:13] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230419/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-04-19 14:44:13] INFO root fetch - processPackages [frida]: New version: [9.1.9] Old Version: [9.1.8]
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ascii-cli]: Downloading https://files.pythonhosted.org/packages/a7/39/4bd413eceffa1bd7ff0ef8592f2cadf9a8b59f0075b2cfed3e42a39dad04/ascii-cli-0.0.4.tar.gz
+[2023-04-19 14:44:13] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-04-19 14:44:13] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230419/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-19 14:44:13] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/0b/d2/f369e2aee0374cd909a111f0eb0d8f9c9a84ccdf6b901e7cf94837777791/nitrado-1.0.6.tar.gz
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ozan-arslan]: executing diffoscope
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ozan-arslan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozan-arslan-0.0.2.tar.gz tmp/ozan-arslan-0.0.3.tar.gz --markdown 20230419/o/ozan-arslan/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 14:44:13] INFO root fetch - processPackages [frida]: executing diffoscope
+[2023-04-19 14:44:13] INFO root fetch - processPackages [frida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frida-9.1.8.tar.gz tmp/frida-9.1.9.tar.gz --markdown 20230419/f/frida/9.1.8-9.1.9/diff.md --exclude *.pyd
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ascii-cli]: executing diffoscope
+[2023-04-19 14:44:13] INFO root fetch - processPackages [ascii-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascii-cli-0.0.3.tar.gz tmp/ascii-cli-0.0.4.tar.gz --markdown 20230419/a/ascii-cli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 14:44:13] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-04-19 14:44:13] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.5.tar.gz tmp/nitrado-1.0.6.tar.gz --markdown 20230419/n/nitrado/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-19 14:44:13] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/7c/ca/c316e4c914dcb92c9d6795001eeb530d6d9b61fffbc3f12388de09e9bbd0/huble-0.2.297.tar.gz
+[2023-04-19 14:44:13] INFO root fetch - processPackages [pyrfc]: Downloading https://files.pythonhosted.org/packages/58/29/6e43529abab2f8385ec70756a336a8803cf1dd51774e29ff4a187000a5df/pyrfc-2.8.0.tar.gz
+[2023-04-19 14:44:13] INFO root fetch - processPackages [lovematch]: Downloading https://files.pythonhosted.org/packages/e4/3f/cc074a74369ceb4ac85a6f1067376b9cbce418446308440ad6d485807378/lovematch-1.8.0.tar.gz
+[2023-04-19 14:44:14] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-19 14:44:14] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.296.tar.gz tmp/huble-0.2.297.tar.gz --markdown 20230419/h/huble/0.2.296-0.2.297/diff.md --exclude *.pyd
+[2023-04-19 14:44:14] INFO root fetch - processPackages [pyrfc]: executing diffoscope
+[2023-04-19 14:44:14] INFO root fetch - processPackages [pyrfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrfc-2.7.2.tar.gz tmp/pyrfc-2.8.0.tar.gz --markdown 20230419/p/pyrfc/2.7.2-2.8.0/diff.md --exclude *.pyd
+[2023-04-19 14:44:14] INFO root fetch - processPackages [lovematch]: executing diffoscope
+[2023-04-19 14:44:14] INFO root fetch - processPackages [lovematch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovematch-1.7.0.tar.gz tmp/lovematch-1.8.0.tar.gz --markdown 20230419/l/lovematch/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-04-19 14:44:15] INFO root fetch - processPackages [ozan-arslan]: Start processing: etsy3py
+[2023-04-19 14:44:15] INFO root fetch - main [MainThread]: End processing [ozan-arslan]: success
+[2023-04-19 14:44:15] INFO root fetch - processPackages [etsy3py]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 14:44:15] INFO root fetch - processPackages [lbt-honeybee]: Start processing: napari-bigfish
+[2023-04-19 14:44:15] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-04-19 14:44:15] INFO root fetch - processPackages [napari-bigfish]: New version: [0.4] Old Version: [0.3]
+[2023-04-19 14:44:15] INFO root fetch - processPackages [etsy3py]: Downloading https://files.pythonhosted.org/packages/f8/cb/bf56d71fad2690748a6c72cbcdbe7186f7e29cfb9d5252c2a23379adaa21/etsy3py-0.0.1.tar.gz
+[2023-04-19 14:44:15] INFO root fetch - processPackages [ascii-cli]: Start processing: huble
+[2023-04-19 14:44:15] INFO root fetch - main [MainThread]: End processing [ascii-cli]: success
+[2023-04-19 14:44:15] INFO root fetch - processPackages [frida]: Start processing: nekoton
+[2023-04-19 14:44:15] INFO root fetch - main [MainThread]: End processing [frida]: success
+[2023-04-19 14:44:15] INFO root fetch - processPackages [huble]: New version: [0.2.297] Old Version: [0.2.296]
+[2023-04-19 14:44:15] INFO root fetch - processPackages [nekoton]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 14:44:15] INFO root fetch - processPackages [dragonfly-energy]: Start processing: tensorcircuit-nightly
+[2023-04-19 14:44:15] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-04-19 14:44:15] INFO root fetch - processPackages [napari-bigfish]: Downloading https://files.pythonhosted.org/packages/54/1f/79d5a15e267804f309e5b17b515ce2de64b34854162999c132c2f52bc304/napari-bigfish-0.3.tar.gz
+[2023-04-19 14:44:15] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.8.0.dev20230418] Old Version: [0.8.0.dev20230417]
+[2023-04-19 14:44:15] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-19 14:44:15] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.296.tar.gz tmp/huble-0.2.297.tar.gz --markdown 20230419/h/huble/0.2.296-0.2.297/diff.md --exclude *.pyd
+[2023-04-19 14:44:15] INFO root fetch - processPackages [lovematch]: Start processing: enlyze
+[2023-04-19 14:44:15] INFO root fetch - main [MainThread]: End processing [lovematch]: success
+[2023-04-19 14:44:15] INFO root fetch - processPackages [pythogen]: Start processing: xdat
+[2023-04-19 14:44:15] INFO root fetch - main [MainThread]: End processing [pythogen]: success
+[2023-04-19 14:44:15] INFO root fetch - processPackages [enlyze]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-19 14:44:15] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-19 14:44:15] INFO root fetch - processPackages [nitrado]: Start processing: lovematch
+[2023-04-19 14:44:15] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-04-19 14:44:15] INFO root fetch - processPackages [nekoton]: Downloading https://files.pythonhosted.org/packages/ea/46/6384304a8e629130e5eec195f4f821726d0c3a3c0070cffe78b334e4b33d/nekoton-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-19 14:44:15] INFO root fetch - processPackages [lovematch]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-04-19 14:44:15] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-04-19 14:44:15] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230419/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-19 14:44:15] INFO root fetch - processPackages [etsy3py]: Downloading https://files.pythonhosted.org/packages/47/2c/fc437f00eb6996c54bed9043a4128404cb813f8461a193be02d94aaca9c3/etsy3py-0.0.2.tar.gz
+[2023-04-19 14:44:15] INFO root fetch - processPackages [lovematch]: executing diffoscope
+[2023-04-19 14:44:15] INFO root fetch - processPackages [lovematch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovematch-1.7.0.tar.gz tmp/lovematch-1.8.0.tar.gz --markdown 20230419/l/lovematch/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-04-19 14:44:15] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/42/9b/64ef0759c9bbfdc99be7fc9214ad6407708f981486fb9ef871328baa7643/tensorcircuit-nightly-0.8.0.dev20230418.tar.gz
+[2023-04-19 14:44:15] INFO root fetch - processPackages [napari-bigfish]: Downloading https://files.pythonhosted.org/packages/82/1f/8cda2c86813e74cd1e8270ae0f20bab01e41fbea9cabbedd0b7cbc30764e/napari-bigfish-0.4.tar.gz
+[2023-04-19 14:44:15] INFO root fetch - processPackages [enlyze]: Downloading https://files.pythonhosted.org/packages/f2/63/ba24021960aff77e89ea83907efe154badd05e53f8760613fe1ef1f05c33/enlyze-1.0.3.tar.gz
+[2023-04-19 14:44:15] INFO root fetch - processPackages [etsy3py]: executing diffoscope
+[2023-04-19 14:44:15] INFO root fetch - processPackages [etsy3py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy3py-0.0.1.tar.gz tmp/etsy3py-0.0.2.tar.gz --markdown 20230419/e/etsy3py/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 14:44:15] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-04-19 14:44:15] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.8.0.dev20230417.tar.gz tmp/tensorcircuit-nightly-0.8.0.dev20230418.tar.gz --markdown 20230419/t/tensorcircuit-nightly/0.8.0.dev20230417-0.8.0.dev20230418/diff.md --exclude *.pyd
+[2023-04-19 14:44:16] INFO root fetch - processPackages [napari-bigfish]: executing diffoscope
+[2023-04-19 14:44:16] INFO root fetch - processPackages [napari-bigfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-bigfish-0.3.tar.gz tmp/napari-bigfish-0.4.tar.gz --markdown 20230419/n/napari-bigfish/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-19 14:44:16] INFO root fetch - processPackages [huble]: Start processing: roblox-asset-publish
+[2023-04-19 14:44:16] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-19 14:44:16] INFO root fetch - processPackages [enlyze]: Downloading https://files.pythonhosted.org/packages/90/c3/fd635c48844e0923ff4f5edfcbfeac64c0262b3b7f756439982cc0c14b25/enlyze-1.0.4.tar.gz
+[2023-04-19 14:44:16] INFO root fetch - processPackages [roblox-asset-publish]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-19 14:44:16] INFO root fetch - processPackages [enlyze]: executing diffoscope
+[2023-04-19 14:44:16] INFO root fetch - processPackages [enlyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enlyze-1.0.3.tar.gz tmp/enlyze-1.0.4.tar.gz --markdown 20230419/e/enlyze/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-19 14:44:16] INFO root fetch - processPackages [roblox-asset-publish]: Downloading https://files.pythonhosted.org/packages/16/42/7e4042ea9cf13892f4a2a15d911b9b4d85ca9a355a8ef4e61bc958b7e826/roblox-asset-publish-0.2.6.tar.gz
+[2023-04-19 14:44:16] INFO root fetch - processPackages [roblox-asset-publish]: executing diffoscope
+[2023-04-19 14:44:16] INFO root fetch - processPackages [roblox-asset-publish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-asset-publish-0.2.5.tar.gz tmp/roblox-asset-publish-0.2.6.tar.gz --markdown 20230419/r/roblox-asset-publish/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-19 14:44:16] INFO root fetch - processPackages [lovematch]: Start processing: qodex-moxa-il1214
+[2023-04-19 14:44:16] INFO root fetch - main [MainThread]: End processing [lovematch]: success
+[2023-04-19 14:44:16] WARNING root fetch - processPackages [qodex-moxa-il1214]: Skipping, unable to determine old version
+[2023-04-19 14:44:16] INFO root fetch - processPackages [qodex-moxa-il1214]: Start processing: bjontegaard
+[2023-04-19 14:44:16] INFO root fetch - main [MainThread]: End processing [qodex-moxa-il1214] error
+[2023-04-19 14:44:16] INFO root fetch - processPackages [bjontegaard]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-19 14:44:17] INFO root fetch - processPackages [etsy3py]: Start processing: cycept
+[2023-04-19 14:44:17] INFO root fetch - main [MainThread]: End processing [etsy3py]: success
+[2023-04-19 14:44:17] INFO root fetch - processPackages [cycept]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 14:44:17] INFO root fetch - processPackages [bjontegaard]: Downloading https://files.pythonhosted.org/packages/0e/02/8e304e09ef52763c014694f98e9a76f991b92abb12f7961ed97426535529/bjontegaard-1.1.0.tar.gz
+[2023-04-19 14:44:17] INFO root fetch - processPackages [enlyze]: Start processing: lbt-dragonfly
+[2023-04-19 14:44:17] INFO root fetch - main [MainThread]: End processing [enlyze]: success
+[2023-04-19 14:44:17] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-04-19 14:44:17] INFO root fetch - processPackages [nekoton]: Downloading https://files.pythonhosted.org/packages/1f/99/7eac72bb84e0843c6f2dbf7ff0dcfe9b5fec6dcf58b5e062f9b4d9d773ec/nekoton-0.1.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-19 14:44:17] INFO root fetch - processPackages [cycept]: Downloading https://files.pythonhosted.org/packages/f0/85/2d2780db9f667cde750303ac64136c9444923bcb23fb593d698b20e0464f/cycept-0.0.4.tar.gz
+[2023-04-19 14:44:17] INFO root fetch - processPackages [roblox-asset-publish]: Start processing: pineboo
+[2023-04-19 14:44:17] INFO root fetch - main [MainThread]: End processing [roblox-asset-publish]: success
+[2023-04-19 14:44:17] INFO root fetch - processPackages [bjontegaard]: Downloading https://files.pythonhosted.org/packages/f8/d1/cd9fda01e46a8fcac175c373f3497c589d55fc94a59e5b6195d2ada3e1db/bjontegaard-1.2.0.tar.gz
+[2023-04-19 14:44:17] INFO root fetch - processPackages [pineboo]: New version: [1.0.4] Old Version: [1.0.3.6]
+[2023-04-19 14:44:17] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-04-19 14:44:17] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230419/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-04-19 14:44:17] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-04-19 14:44:17] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.3.6.tar.gz tmp/pineboo-1.0.4.tar.gz --markdown 20230419/p/pineboo/1.0.3.6-1.0.4/diff.md --exclude *.pyd
+[2023-04-19 14:44:17] INFO root fetch - processPackages [cycept]: executing diffoscope
+[2023-04-19 14:44:17] INFO root fetch - processPackages [cycept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycept-0.0.3.tar.gz tmp/cycept-0.0.4.tar.gz --markdown 20230419/c/cycept/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 14:44:17] INFO root fetch - processPackages [bjontegaard]: executing diffoscope
+[2023-04-19 14:44:17] INFO root fetch - processPackages [bjontegaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bjontegaard-1.1.0.tar.gz tmp/bjontegaard-1.2.0.tar.gz --markdown 20230419/b/bjontegaard/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-19 14:44:17] INFO root fetch - processPackages [huble]: Start processing: pushgateway-py-client
+[2023-04-19 14:44:17] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-19 14:44:17] INFO root fetch - processPackages [pushgateway-py-client]: New version: [0.4.1] Old Version: [0.3.2]
+[2023-04-19 14:44:17] INFO root fetch - main [MainThread]: End processing [napari-bigfish]: success
+[2023-04-19 14:44:17] INFO root fetch - processPackages [pushgateway-py-client]: Downloading https://files.pythonhosted.org/packages/c1/3d/244377645ef7ee45eb791319129bd8b631c24d23a1d691adee4e77a1f28e/pushgateway_py_client-0.3.2.tar.gz
+[2023-04-19 14:44:18] INFO root fetch - processPackages [pushgateway-py-client]: Downloading https://files.pythonhosted.org/packages/1c/aa/a2b37321f9278fccc6a01bc8cf9fba8de6933553d1c3621a7cec6e69bcf7/pushgateway_py_client-0.4.1.tar.gz
+[2023-04-19 14:44:18] INFO root fetch - processPackages [pushgateway-py-client]: executing diffoscope
+[2023-04-19 14:44:18] INFO root fetch - processPackages [pushgateway-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pushgateway_py_client-0.3.2.tar.gz tmp/pushgateway_py_client-0.4.1.tar.gz --markdown 20230419/p/pushgateway-py-client/0.3.2-0.4.1/diff.md --exclude *.pyd
+[2023-04-19 14:44:18] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-04-19 14:44:18] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-04-19 14:44:18] INFO root fetch - main [MainThread]: End processing [cycept]: success
+[2023-04-19 14:44:18] INFO root fetch - main [MainThread]: End processing [bjontegaard]: success
+[2023-04-19 14:44:19] INFO root fetch - main [MainThread]: End processing [pushgateway-py-client]: success
+[2023-04-19 14:44:19] INFO root fetch - processPackages [nekoton]: executing diffoscope
+[2023-04-19 14:44:19] INFO root fetch - processPackages [nekoton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nekoton-0.1.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nekoton-0.1.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230419/n/nekoton/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 14:44:21] INFO root fetch - main [MainThread]: End processing [pyrfc]: success
+[2023-04-19 14:44:21] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-04-19 14:44:24] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-04-19 14:46:39] INFO root fetch - main [MainThread]: End processing [nekoton]: success
+[2023-04-19 14:46:39] INFO root fetch - main [MainThread]: Store serial: [17770987]
