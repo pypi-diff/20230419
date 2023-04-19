@@ -16429,3 +16429,119 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 15:40:26] INFO root fetch - main [MainThread]: End processing [mistapi]: success
 [2023-04-19 15:40:26] INFO root fetch - main [MainThread]: End processing [girder-slicer-cli-web]: success
 [2023-04-19 15:40:26] INFO root fetch - main [MainThread]: Store serial: [17771550]
+[2023-04-19 15:45:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17771550]
+[2023-04-19 15:45:36] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-19 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansys-fluent-parametric
+[2023-04-19 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cltl.backend-naoqi
+[2023-04-19 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: widget-picture-generator
+[2023-04-19 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-cloud-bigquery
+[2023-04-19 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygismeteo-base
+[2023-04-19 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-core
+[2023-04-19 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-postgres
+[2023-04-19 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-tests-adapter
+[2023-04-19 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scipion-em
+[2023-04-19 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wizata-dsapi
+[2023-04-19 15:45:36] INFO root fetch - processPackages [google-cloud-bigquery]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-04-19 15:45:36] INFO root fetch - processPackages [cltl.backend-naoqi]: New version: [0.0.dev8] Old Version: [0.0.dev7]
+[2023-04-19 15:45:36] INFO root fetch - processPackages [widget-picture-generator]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-19 15:45:36] INFO root fetch - processPackages [ansys-fluent-parametric]: New version: [0.8.dev0] Old Version: [0.7.dev1]
+[2023-04-19 15:45:36] INFO root fetch - processPackages [pygismeteo-base]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-04-19 15:45:36] INFO root fetch - processPackages [scipion-em]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-04-19 15:45:36] INFO root fetch - processPackages [dbt-core]: New version: [1.5.0rc1] Old Version: [1.5.0b5]
+[2023-04-19 15:45:36] INFO root fetch - processPackages [dbt-tests-adapter]: New version: [1.5.0rc1] Old Version: [1.5.0b5]
+[2023-04-19 15:45:36] INFO root fetch - processPackages [dbt-postgres]: New version: [1.5.0rc1] Old Version: [1.5.0b5]
+[2023-04-19 15:45:36] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 15:45:36] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-04-19 15:45:36] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230419/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 15:45:36] INFO root fetch - processPackages [google-cloud-bigquery]: executing diffoscope
+[2023-04-19 15:45:36] INFO root fetch - processPackages [google-cloud-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-bigquery-3.8.0.tar.gz tmp/google-cloud-bigquery-3.9.0.tar.gz --markdown 20230419/g/google-cloud-bigquery/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-04-19 15:45:36] INFO root fetch - processPackages [ansys-fluent-parametric]: executing diffoscope
+[2023-04-19 15:45:36] INFO root fetch - processPackages [ansys-fluent-parametric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_fluent_parametric-0.7.dev1.tar.gz tmp/ansys_fluent_parametric-0.8.dev0.tar.gz --markdown 20230419/a/ansys-fluent-parametric/0.7.dev1-0.8.dev0/diff.md --exclude *.pyd
+[2023-04-19 15:45:36] INFO root fetch - processPackages [pygismeteo-base]: Downloading https://files.pythonhosted.org/packages/5b/19/053f3b1335dc3122870a30a661503e1d5585433cad64709cd21d8faecc98/pygismeteo_base-4.0.0.tar.gz
+[2023-04-19 15:45:36] INFO root fetch - processPackages [dbt-core]: Downloading https://files.pythonhosted.org/packages/c9/1b/ce09784361e12da6b9231aeca6b35ebead62bd9e36d7284bf8e5d9f0ed5e/dbt-core-1.5.0b5.tar.gz
+[2023-04-19 15:45:36] INFO root fetch - processPackages [dbt-tests-adapter]: Downloading https://files.pythonhosted.org/packages/84/61/43acd30c35e858cfb94741801625ef1b9af1defc9b0a6227d424bdacb844/dbt-tests-adapter-1.5.0b5.tar.gz
+[2023-04-19 15:45:36] INFO root fetch - processPackages [widget-picture-generator]: Downloading https://files.pythonhosted.org/packages/02/49/26724ab8be19626728da4cfb276eeae64c08c47d8259ff731e3e39729d98/widget-picture-generator-0.0.5.tar.gz
+[2023-04-19 15:45:36] INFO root fetch - processPackages [scipion-em]: Downloading https://files.pythonhosted.org/packages/9b/6f/7704c3461b1f7d27c1e2c937d58add7b582f56ccaaa853b83457fb2cb33b/scipion-em-3.0.8.tar.gz
+[2023-04-19 15:45:36] INFO root fetch - processPackages [dbt-postgres]: Downloading https://files.pythonhosted.org/packages/55/a2/4a92a216d77ecd708c78f4b516ba1e703bd9e913b22b007b4b914d3a4703/dbt-postgres-1.5.0b5.tar.gz
+[2023-04-19 15:45:36] INFO root fetch - processPackages [cltl.backend-naoqi]: executing diffoscope
+[2023-04-19 15:45:36] INFO root fetch - processPackages [cltl.backend-naoqi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cltl.backend-naoqi-0.0.dev7.tar.gz tmp/cltl.backend-naoqi-0.0.dev8.tar.gz --markdown 20230419/c/cltl.backend-naoqi/0.0.dev7-0.0.dev8/diff.md --exclude *.pyd
+[2023-04-19 15:45:36] INFO root fetch - processPackages [widget-picture-generator]: executing diffoscope
+[2023-04-19 15:45:36] INFO root fetch - processPackages [widget-picture-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widget-picture-generator-0.0.4.tar.gz tmp/widget-picture-generator-0.0.5.tar.gz --markdown 20230419/w/widget-picture-generator/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-19 15:45:36] INFO root fetch - processPackages [pygismeteo-base]: Downloading https://files.pythonhosted.org/packages/c3/37/8cf6326693bdde8a7f5b0cbfcbb79adf01940c80b817430636c84b0a0473/pygismeteo_base-4.1.0.tar.gz
+[2023-04-19 15:45:36] INFO root fetch - processPackages [dbt-postgres]: Downloading https://files.pythonhosted.org/packages/75/9b/f9105646700c94c98dc64e5630d3882a3bf2af358ffced4b04098a7c96c0/dbt-postgres-1.5.0rc1.tar.gz
+[2023-04-19 15:45:36] INFO root fetch - processPackages [pygismeteo-base]: executing diffoscope
+[2023-04-19 15:45:36] INFO root fetch - processPackages [pygismeteo-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygismeteo_base-4.0.0.tar.gz tmp/pygismeteo_base-4.1.0.tar.gz --markdown 20230419/p/pygismeteo-base/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-04-19 15:45:36] INFO root fetch - processPackages [dbt-tests-adapter]: Downloading https://files.pythonhosted.org/packages/e5/2b/1064fad8e83693a29264d647ba0d9b40892d7a5634f676d094a312e82eff/dbt-tests-adapter-1.5.0rc1.tar.gz
+[2023-04-19 15:45:36] INFO root fetch - processPackages [scipion-em]: Downloading https://files.pythonhosted.org/packages/08/8a/23357ef1524e9d7564598f3f80aacf38b42fb76b8d5208f64f0114ae8353/scipion-em-3.0.9.tar.gz
+[2023-04-19 15:45:36] INFO root fetch - processPackages [dbt-postgres]: executing diffoscope
+[2023-04-19 15:45:36] INFO root fetch - processPackages [dbt-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-postgres-1.5.0b5.tar.gz tmp/dbt-postgres-1.5.0rc1.tar.gz --markdown 20230419/d/dbt-postgres/1.5.0b5-1.5.0rc1/diff.md --exclude *.pyd
+[2023-04-19 15:45:37] INFO root fetch - processPackages [dbt-tests-adapter]: executing diffoscope
+[2023-04-19 15:45:37] INFO root fetch - processPackages [dbt-tests-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-tests-adapter-1.5.0b5.tar.gz tmp/dbt-tests-adapter-1.5.0rc1.tar.gz --markdown 20230419/d/dbt-tests-adapter/1.5.0b5-1.5.0rc1/diff.md --exclude *.pyd
+[2023-04-19 15:45:37] INFO root fetch - processPackages [scipion-em]: executing diffoscope
+[2023-04-19 15:45:37] INFO root fetch - processPackages [scipion-em]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-3.0.8.tar.gz tmp/scipion-em-3.0.9.tar.gz --markdown 20230419/s/scipion-em/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-04-19 15:45:37] INFO root fetch - processPackages [dbt-core]: Downloading https://files.pythonhosted.org/packages/b2/5c/5f4139521855a72e115f7374a8a0c40c615a6ec7a7aae805136f4730961b/dbt-core-1.5.0rc1.tar.gz
+[2023-04-19 15:45:37] INFO root fetch - processPackages [dbt-core]: executing diffoscope
+[2023-04-19 15:45:37] INFO root fetch - processPackages [dbt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-core-1.5.0b5.tar.gz tmp/dbt-core-1.5.0rc1.tar.gz --markdown 20230419/d/dbt-core/1.5.0b5-1.5.0rc1/diff.md --exclude *.pyd
+[2023-04-19 15:45:37] INFO root fetch - processPackages [ansys-fluent-parametric]: Start processing: triton-model-navigator
+[2023-04-19 15:45:37] INFO root fetch - main [MainThread]: End processing [ansys-fluent-parametric]: success
+[2023-04-19 15:45:37] INFO root fetch - processPackages [triton-model-navigator]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-04-19 15:45:37] INFO root fetch - processPackages [wizata-dsapi]: Start processing: python-auditor
+[2023-04-19 15:45:37] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-04-19 15:45:37] INFO root fetch - processPackages [python-auditor]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-04-19 15:45:37] INFO root fetch - processPackages [triton-model-navigator]: Downloading https://files.pythonhosted.org/packages/17/57/4e07201d59d9f23f793714ffb979d398809f91df5cc27ffd38808f6552fe/triton_model_navigator-0.5.2-py3-none-any.whl
+[2023-04-19 15:45:37] INFO root fetch - processPackages [python-auditor]: Downloading https://files.pythonhosted.org/packages/70/64/c73cc40b4adad0d7dd78fd66462d5103e25c50ef81f6119fe54254dfc726/python_auditor-0.0.7.tar.gz
+[2023-04-19 15:45:38] INFO root fetch - processPackages [triton-model-navigator]: Downloading https://files.pythonhosted.org/packages/5e/11/f6d714e5ee60495705f4c873cddc20e58891ca3153d0a638f7bf2840e0c9/triton_model_navigator-0.5.3-py3-none-any.whl
+[2023-04-19 15:45:38] INFO root fetch - processPackages [python-auditor]: Downloading https://files.pythonhosted.org/packages/5c/e9/e1abd31521351eaf378ad366ddf8f3ef7b50e6ae87e46fc966825407c861/python_auditor-0.1.0.tar.gz
+[2023-04-19 15:45:38] INFO root fetch - processPackages [pygismeteo-base]: Start processing: TrimMCStruct
+[2023-04-19 15:45:38] INFO root fetch - main [MainThread]: End processing [pygismeteo-base]: success
+[2023-04-19 15:45:38] INFO root fetch - processPackages [TrimMCStruct]: New version: [0.0.5.5] Old Version: [0.0.4]
+[2023-04-19 15:45:38] INFO root fetch - processPackages [widget-picture-generator]: Start processing: typos
+[2023-04-19 15:45:38] INFO root fetch - main [MainThread]: End processing [widget-picture-generator]: success
+[2023-04-19 15:45:38] INFO root fetch - processPackages [typos]: New version: [1.14.7] Old Version: [1.14.6]
+[2023-04-19 15:45:38] INFO root fetch - processPackages [cltl.backend-naoqi]: Start processing: boutpp-nightly
+[2023-04-19 15:45:38] INFO root fetch - main [MainThread]: End processing [cltl.backend-naoqi]: success
+[2023-04-19 15:45:38] INFO root fetch - processPackages [boutpp-nightly]: New version: [5.1.0.dev78] Old Version: [5.1.0.dev67]
+[2023-04-19 15:45:38] INFO root fetch - processPackages [python-auditor]: executing diffoscope
+[2023-04-19 15:45:38] INFO root fetch - processPackages [python-auditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_auditor-0.0.7.tar.gz tmp/python_auditor-0.1.0.tar.gz --markdown 20230419/p/python-auditor/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-04-19 15:45:38] INFO root fetch - processPackages [TrimMCStruct]: Downloading https://files.pythonhosted.org/packages/18/79/da13a22e97e23ce3474d218e76b1e0694d3902c3fd408420688b2141edcb/TrimMCStruct-0.0.4.tar.gz
+[2023-04-19 15:45:38] INFO root fetch - processPackages [boutpp-nightly]: Downloading https://files.pythonhosted.org/packages/80/13/37630489c139ea3a1b83c491c67ef7947c9f49235be5a9fed7bb6e1defed/boutpp-nightly-5.1.0.dev67.tar.gz
+[2023-04-19 15:45:38] INFO root fetch - processPackages [triton-model-navigator]: executing diffoscope
+[2023-04-19 15:45:38] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/b0/2c/175f955f6f07f45e805abc6b4aa7b16acd25e0ce8e30f893dc0f0ccc487d/typos-1.14.6.tar.gz
+[2023-04-19 15:45:38] INFO root fetch - processPackages [triton-model-navigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_model_navigator-0.5.2-py3-none-any.whl.zip tmp/triton_model_navigator-0.5.3-py3-none-any.whl.zip --markdown 20230419/t/triton-model-navigator/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-04-19 15:45:38] WARNING root fetch - processPackages [boutpp-nightly]: Skipping package: exceeds size limit 18055205>=10485760
+[2023-04-19 15:45:38] INFO root fetch - processPackages [boutpp-nightly]: Start processing: openstef-dbc
+[2023-04-19 15:45:38] INFO root fetch - main [MainThread]: End processing [boutpp-nightly] error
+[2023-04-19 15:45:38] INFO root fetch - processPackages [openstef-dbc]: New version: [3.6.3a0] Old Version: [3.6.2rc0]
+[2023-04-19 15:45:38] INFO root fetch - processPackages [dbt-postgres]: Start processing: python-schema-registry-client
+[2023-04-19 15:45:38] INFO root fetch - main [MainThread]: End processing [dbt-postgres]: success
+[2023-04-19 15:45:38] INFO root fetch - processPackages [python-schema-registry-client]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-04-19 15:45:38] INFO root fetch - processPackages [TrimMCStruct]: Downloading https://files.pythonhosted.org/packages/90/bd/f9fc5598667f19613a796830ab946fb0c691560bf0b2a69d059e9a8abc07/TrimMCStruct-0.0.5.5.tar.gz
+[2023-04-19 15:45:38] INFO root fetch - processPackages [openstef-dbc]: Downloading https://files.pythonhosted.org/packages/83/fb/6548d23f809faeb083194755221dc16d1ccba7a513f8bf632bb25d2a6a6e/openstef_dbc-3.6.2rc0.tar.gz
+[2023-04-19 15:45:38] INFO root fetch - processPackages [python-schema-registry-client]: executing diffoscope
+[2023-04-19 15:45:38] INFO root fetch - processPackages [python-schema-registry-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-schema-registry-client-2.4.1.tar.gz tmp/python-schema-registry-client-2.4.2.tar.gz --markdown 20230419/p/python-schema-registry-client/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-04-19 15:45:38] INFO root fetch - processPackages [TrimMCStruct]: executing diffoscope
+[2023-04-19 15:45:38] INFO root fetch - processPackages [TrimMCStruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrimMCStruct-0.0.4.tar.gz tmp/TrimMCStruct-0.0.5.5.tar.gz --markdown 20230419/T/TrimMCStruct/0.0.4-0.0.5.5/diff.md --exclude *.pyd
+[2023-04-19 15:45:38] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/ff/57/6f7c3253f55a715d13ca517da228b761d60d843bade331a1ca47c72838c2/typos-1.14.7.tar.gz
+[2023-04-19 15:45:39] INFO root fetch - processPackages [openstef-dbc]: Downloading https://files.pythonhosted.org/packages/a2/99/15ded6f24f3597eedbfd899c07db7bf9a6d4c5a83c1f15bc5a97cc658fb8/openstef_dbc-3.6.3a0.tar.gz
+[2023-04-19 15:45:39] INFO root fetch - processPackages [openstef-dbc]: executing diffoscope
+[2023-04-19 15:45:39] INFO root fetch - processPackages [openstef-dbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef_dbc-3.6.2rc0.tar.gz tmp/openstef_dbc-3.6.3a0.tar.gz --markdown 20230419/o/openstef-dbc/3.6.2rc0-3.6.3a0/diff.md --exclude *.pyd
+[2023-04-19 15:45:39] INFO root fetch - processPackages [dbt-tests-adapter]: Start processing: spectacles
+[2023-04-19 15:45:39] INFO root fetch - main [MainThread]: End processing [dbt-tests-adapter]: success
+[2023-04-19 15:45:39] INFO root fetch - main [MainThread]: End processing [scipion-em]: success
+[2023-04-19 15:45:39] INFO root fetch - processPackages [typos]: executing diffoscope
+[2023-04-19 15:45:39] INFO root fetch - processPackages [typos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typos-1.14.6.tar.gz tmp/typos-1.14.7.tar.gz --markdown 20230419/t/typos/1.14.6-1.14.7/diff.md --exclude *.pyd
+[2023-04-19 15:45:39] INFO root fetch - processPackages [spectacles]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-19 15:45:39] INFO root fetch - processPackages [spectacles]: Downloading https://files.pythonhosted.org/packages/2f/67/ed8cf855f28d37ba8b394b34fc56131f11736d51665f4e3c875713683172/spectacles-2.3.8.tar.gz
+[2023-04-19 15:45:39] INFO root fetch - processPackages [spectacles]: Downloading https://files.pythonhosted.org/packages/dc/c9/b5fde5206eb0e93a4fbe796a12830172fbb6211658aad9bfa1fb0b8e48bc/spectacles-2.3.9.tar.gz
+[2023-04-19 15:45:40] INFO root fetch - main [MainThread]: End processing [TrimMCStruct]: success
+[2023-04-19 15:45:40] INFO root fetch - processPackages [spectacles]: executing diffoscope
+[2023-04-19 15:45:40] INFO root fetch - processPackages [spectacles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectacles-2.3.8.tar.gz tmp/spectacles-2.3.9.tar.gz --markdown 20230419/s/spectacles/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-19 15:45:40] INFO root fetch - main [MainThread]: End processing [python-schema-registry-client]: success
+[2023-04-19 15:45:40] INFO root fetch - main [MainThread]: End processing [triton-model-navigator]: success
+[2023-04-19 15:45:40] INFO root fetch - main [MainThread]: End processing [openstef-dbc]: success
+[2023-04-19 15:45:40] INFO root fetch - main [MainThread]: End processing [python-auditor]: success
+[2023-04-19 15:45:41] INFO root fetch - main [MainThread]: End processing [google-cloud-bigquery]: success
+[2023-04-19 15:45:41] INFO root fetch - main [MainThread]: End processing [spectacles]: success
+[2023-04-19 15:45:42] INFO root fetch - main [MainThread]: End processing [typos]: success
+[2023-04-19 15:45:45] INFO root fetch - main [MainThread]: End processing [dbt-core]: success
+[2023-04-19 15:45:45] INFO root fetch - main [MainThread]: Store serial: [17771631]
