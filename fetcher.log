@@ -15349,3 +15349,149 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 14:44:24] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-04-19 14:46:39] INFO root fetch - main [MainThread]: End processing [nekoton]: success
 [2023-04-19 14:46:39] INFO root fetch - main [MainThread]: Store serial: [17770987]
+[2023-04-19 14:51:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17770987]
+[2023-04-19 14:51:58] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thefirstock
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sherlockpipe
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ampel-lsst
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: api-inference-community
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peakina
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlalchemy-guid
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ositah
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zesty.zbs-api
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: manticore
+[2023-04-19 14:51:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-04-19 14:51:58] INFO root fetch - processPackages [api-inference-community]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ampel-lsst]: New version: [0.8.4] Old Version: [0.8.3a1]
+[2023-04-19 14:51:58] INFO root fetch - processPackages [sqlalchemy-guid]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-19 14:51:58] INFO root fetch - processPackages [thefirstock]: New version: [3.1.0] Old Version: [3.0.6]
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ositah]: New version: [23.3.dev3] Old Version: [23.3.dev2]
+[2023-04-19 14:51:58] INFO root fetch - processPackages [peakina]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-19 14:51:58] INFO root fetch - processPackages [zesty.zbs-api]: New version: [1.0.2023.4.19.1681908489] Old Version: [1.0.2023.4.10.1681110487]
+[2023-04-19 14:51:58] INFO root fetch - processPackages [sherlockpipe]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-19 14:51:58] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230419] Old Version: [0.3.8.dev230418]
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ampel-lsst]: Downloading https://files.pythonhosted.org/packages/23/ff/9d05ba7fdad631e29e3c0d60c653d74ee7b221852f83a48b1efda78fbd3e/ampel_lsst-0.8.3a1.tar.gz
+[2023-04-19 14:51:58] INFO root fetch - processPackages [thefirstock]: Downloading https://files.pythonhosted.org/packages/67/0c/df8908c335dabdfcb562e4605bea9196a2774aaa01262a7ed21531ef8ed4/thefirstock-3.0.6.tar.gz
+[2023-04-19 14:51:58] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/46/3f/013fa1d25538474036ba7d400e78b06a89cd003c01a6c3f3e0a0aaa4a42a/sherlockpipe-0.9.6.tar.gz
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ositah]: Downloading https://files.pythonhosted.org/packages/4c/0a/a2ddc24bdf669159cf2e237cafbd093e1315c32e004b0c9b30036f39ce08/ositah-23.3.dev2.tar.gz
+[2023-04-19 14:51:58] INFO root fetch - processPackages [zesty.zbs-api]: Downloading https://files.pythonhosted.org/packages/c0/2b/a85df83b5e3cc8ee012e8a5e7b80b8e18719e38d4ef5e5f49b1e47c9dcd1/zesty.zbs-api-1.0.2023.4.10.1681110487.tar.gz
+[2023-04-19 14:51:58] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/f8/80/b322f85ad03f4e24c7bd65c96f6310aeaa94a71037405bda7d1bf7c674c9/manticore-0.3.8.dev230419.tar.gz
+[2023-04-19 14:51:58] INFO root fetch - processPackages [peakina]: Downloading https://files.pythonhosted.org/packages/2d/3e/9c23bd2ab74f8b6c451fcc20695664a945a4e6d44c463f62260dc9d4d5d9/peakina-0.9.5.tar.gz
+[2023-04-19 14:51:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-04-19 14:51:58] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-04-19 14:51:58] INFO root fetch - processPackages [api-inference-community]: executing diffoscope
+[2023-04-19 14:51:58] INFO root fetch - processPackages [api-inference-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_inference_community-0.0.8.tar.gz tmp/api_inference_community-0.0.9.tar.gz --markdown 20230419/a/api-inference-community/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 14:51:58] INFO root fetch - processPackages [thefirstock]: Downloading https://files.pythonhosted.org/packages/54/b3/6747a1318343a75d75af11fb484cb91c37576521cee92cffcca34aed58b4/thefirstock-3.1.0.tar.gz
+[2023-04-19 14:51:58] INFO root fetch - processPackages [sqlalchemy-guid]: Downloading https://files.pythonhosted.org/packages/09/7e/655081ec635d6bec4e155793e7b216548fd580bbc511f3df45d5c41e71f6/sqlalchemy_guid-1.0.2.tar.gz
+[2023-04-19 14:51:58] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-04-19 14:51:58] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230418.tar.gz tmp/manticore-0.3.8.dev230419.tar.gz --markdown 20230419/m/manticore/0.3.8.dev230418-0.3.8.dev230419/diff.md --exclude *.pyd
+[2023-04-19 14:51:58] INFO root fetch - processPackages [peakina]: executing diffoscope
+[2023-04-19 14:51:58] INFO root fetch - processPackages [peakina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peakina-0.9.4.tar.gz tmp/peakina-0.9.5.tar.gz --markdown 20230419/p/peakina/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-19 14:51:58] INFO root fetch - processPackages [sqlalchemy-guid]: executing diffoscope
+[2023-04-19 14:51:58] INFO root fetch - processPackages [sqlalchemy-guid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_guid-1.0.1.tar.gz tmp/sqlalchemy_guid-1.0.2.tar.gz --markdown 20230419/s/sqlalchemy-guid/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-19 14:51:58] INFO root fetch - processPackages [thefirstock]: executing diffoscope
+[2023-04-19 14:51:58] INFO root fetch - processPackages [thefirstock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thefirstock-3.0.6.tar.gz tmp/thefirstock-3.1.0.tar.gz --markdown 20230419/t/thefirstock/3.0.6-3.1.0/diff.md --exclude *.pyd
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ampel-lsst]: Downloading https://files.pythonhosted.org/packages/45/b9/5e5fcfda948492522c1dcbf0dcedc7eb0c62c2904e4b3fb31bf44da70159/ampel_lsst-0.8.4.tar.gz
+[2023-04-19 14:51:58] INFO root fetch - processPackages [zesty.zbs-api]: Downloading https://files.pythonhosted.org/packages/24/2e/9496a35d88c4d3351269f71a92c3e2c90146624888772b834c56f76da13e/zesty.zbs-api-1.0.2023.4.19.1681908489.tar.gz
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ampel-lsst]: executing diffoscope
+[2023-04-19 14:51:58] INFO root fetch - processPackages [ampel-lsst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampel_lsst-0.8.3a1.tar.gz tmp/ampel_lsst-0.8.4.tar.gz --markdown 20230419/a/ampel-lsst/0.8.3a1-0.8.4/diff.md --exclude *.pyd
+[2023-04-19 14:51:59] INFO root fetch - processPackages [zesty.zbs-api]: executing diffoscope
+[2023-04-19 14:51:59] INFO root fetch - processPackages [zesty.zbs-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zesty.zbs-api-1.0.2023.4.10.1681110487.tar.gz tmp/zesty.zbs-api-1.0.2023.4.19.1681908489.tar.gz --markdown 20230419/z/zesty.zbs-api/1.0.2023.4.10.1681110487-1.0.2023.4.19.1681908489/diff.md --exclude *.pyd
+[2023-04-19 14:51:59] INFO root fetch - processPackages [ositah]: Downloading https://files.pythonhosted.org/packages/68/84/c83e061db1ee0678873fd26860e8ef4a420accfe268bea4640af172a019e/ositah-23.3.dev3.tar.gz
+[2023-04-19 14:51:59] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/04/d1/dcaf4b4f6fadabc4d5e9dbfb757378dbf810235e486f3eae3c57c7e6f88f/sherlockpipe-0.9.7.tar.gz
+[2023-04-19 14:51:59] INFO root fetch - processPackages [sherlockpipe]: executing diffoscope
+[2023-04-19 14:51:59] INFO root fetch - processPackages [sherlockpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlockpipe-0.9.6.tar.gz tmp/sherlockpipe-0.9.7.tar.gz --markdown 20230419/s/sherlockpipe/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-19 14:51:59] INFO root fetch - processPackages [ositah]: executing diffoscope
+[2023-04-19 14:51:59] INFO root fetch - processPackages [ositah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ositah-23.3.dev2.tar.gz tmp/ositah-23.3.dev3.tar.gz --markdown 20230419/o/ositah/23.3.dev2-23.3.dev3/diff.md --exclude *.pyd
+[2023-04-19 14:52:00] INFO root fetch - processPackages [api-inference-community]: Start processing: ascii-cli
+[2023-04-19 14:52:00] INFO root fetch - main [MainThread]: End processing [api-inference-community]: success
+[2023-04-19 14:52:00] INFO root fetch - processPackages [ascii-cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-19 14:52:00] INFO root fetch - processPackages [sqlalchemy-guid]: Start processing: localstack-core
+[2023-04-19 14:52:00] INFO root fetch - main [MainThread]: End processing [sqlalchemy-guid]: success
+[2023-04-19 14:52:00] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230419124821] Old Version: [2.0.3.dev20230419120326]
+[2023-04-19 14:52:00] INFO root fetch - processPackages [ascii-cli]: Downloading https://files.pythonhosted.org/packages/a4/3e/6b55e09ec36fccfafae0674fbf8992a5178bd52a3144554db3f41551910e/ascii-cli-0.0.5.tar.gz
+[2023-04-19 14:52:00] INFO root fetch - processPackages [ascii-cli]: executing diffoscope
+[2023-04-19 14:52:00] INFO root fetch - processPackages [ascii-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascii-cli-0.0.4.tar.gz tmp/ascii-cli-0.0.5.tar.gz --markdown 20230419/a/ascii-cli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-19 14:52:00] INFO root fetch - processPackages [zesty.zbs-api]: Start processing: finbourne-identity-sdk
+[2023-04-19 14:52:00] INFO root fetch - main [MainThread]: End processing [zesty.zbs-api]: success
+[2023-04-19 14:52:00] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/56/f8/0bb02894403479c3febabee343f72909540e4d5586548c6ce8cd05bca2e2/localstack-core-2.0.3.dev20230419124821.tar.gz
+[2023-04-19 14:52:00] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2391]
+[2023-04-19 14:52:00] INFO root fetch - processPackages [peakina]: Start processing: tinybird-cli
+[2023-04-19 14:52:00] INFO root fetch - main [MainThread]: End processing [peakina]: success
+[2023-04-19 14:52:00] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-04-19 14:52:00] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/17/69/9142ba32b68afd9664e87f5a2a0e9014f056c82b3915b10f97c846458997/finbourne-identity-sdk-0.0.2391.tar.gz
+[2023-04-19 14:52:00] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-04-19 14:52:00] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230419/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-04-19 14:52:00] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-19 14:52:00] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230419120326.tar.gz tmp/localstack-core-2.0.3.dev20230419124821.tar.gz --markdown 20230419/l/localstack-core/2.0.3.dev20230419120326-2.0.3.dev20230419124821/diff.md --exclude *.pyd
+[2023-04-19 14:52:00] INFO root fetch - processPackages [ampel-lsst]: Start processing: huble
+[2023-04-19 14:52:00] INFO root fetch - main [MainThread]: End processing [ampel-lsst]: success
+[2023-04-19 14:52:00] INFO root fetch - processPackages [huble]: New version: [0.2.298] Old Version: [0.2.297]
+[2023-04-19 14:52:01] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-04-19 14:52:01] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2391.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230419/f/finbourne-identity-sdk/0.0.2391-0.0.840/diff.md --exclude *.pyd
+[2023-04-19 14:52:01] INFO root fetch - processPackages [sherlockpipe]: Start processing: ramodels
+[2023-04-19 14:52:01] INFO root fetch - main [MainThread]: End processing [sherlockpipe]: success
+[2023-04-19 14:52:01] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/31/9f/f75539b790052a12d961a3572ab5b1106b7b3228838f83996222a996faa4/huble-0.2.298.tar.gz
+[2023-04-19 14:52:01] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-19 14:52:01] INFO root fetch - processPackages [ositah]: Start processing: ts-sdk
+[2023-04-19 14:52:01] INFO root fetch - main [MainThread]: End processing [ositah]: success
+[2023-04-19 14:52:01] INFO root fetch - processPackages [ts-sdk]: New version: [2.0.0rc4] Old Version: [2.0.0rc3]
+[2023-04-19 14:52:01] INFO root fetch - processPackages [manticore]: Start processing: study-id-generator
+[2023-04-19 14:52:01] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-04-19 14:52:01] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-19 14:52:01] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230419/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-19 14:52:01] INFO root fetch - processPackages [study-id-generator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 14:52:01] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-19 14:52:01] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.297.tar.gz tmp/huble-0.2.298.tar.gz --markdown 20230419/h/huble/0.2.297-0.2.298/diff.md --exclude *.pyd
+[2023-04-19 14:52:01] INFO root fetch - processPackages [thefirstock]: Start processing: onnx-tool
+[2023-04-19 14:52:01] INFO root fetch - main [MainThread]: End processing [thefirstock]: success
+[2023-04-19 14:52:01] INFO root fetch - processPackages [onnx-tool]: New version: [0.6.3] Old Version: [0.6.1]
+[2023-04-19 14:52:01] INFO root fetch - processPackages [ts-sdk]: Downloading https://files.pythonhosted.org/packages/25/7d/5422b3c2c427bd9e17cbc031cb7333e5454b6d87ca9201c0d1d91aeee8aa/ts_sdk-2.0.0rc4-py3-none-any.whl
+[2023-04-19 14:52:01] INFO root fetch - processPackages [study-id-generator]: Downloading https://files.pythonhosted.org/packages/6c/ac/bcb755522dbe8c73006cf36a04f3db89bd8a4c4adaac743cd717e92e5e9c/study_id_generator-0.0.4.tar.gz
+[2023-04-19 14:52:01] INFO root fetch - processPackages [ts-sdk]: executing diffoscope
+[2023-04-19 14:52:01] INFO root fetch - processPackages [ts-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts_sdk-2.0.0rc3-py3-none-any.whl.zip tmp/ts_sdk-2.0.0rc4-py3-none-any.whl.zip --markdown 20230419/t/ts-sdk/2.0.0rc3-2.0.0rc4/diff.md --exclude *.pyd
+[2023-04-19 14:52:01] INFO root fetch - processPackages [study-id-generator]: executing diffoscope
+[2023-04-19 14:52:01] INFO root fetch - processPackages [study-id-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/study_id_generator-0.0.3.tar.gz tmp/study_id_generator-0.0.4.tar.gz --markdown 20230419/s/study-id-generator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 14:52:01] INFO root fetch - processPackages [onnx-tool]: Downloading https://files.pythonhosted.org/packages/bd/7e/3e8214ae964d67ae079f6b8db8eca2619897b078adfa6be40f8540bb0f30/onnx-tool-0.6.1.tar.gz
+[2023-04-19 14:52:01] INFO root fetch - processPackages [ascii-cli]: Start processing: psdm-analysis
+[2023-04-19 14:52:01] INFO root fetch - main [MainThread]: End processing [ascii-cli]: success
+[2023-04-19 14:52:01] INFO root fetch - processPackages [psdm-analysis]: New version: [0.1.2.dev4] Old Version: [0.1.2.dev3]
+[2023-04-19 14:52:02] INFO root fetch - processPackages [onnx-tool]: Downloading https://files.pythonhosted.org/packages/0b/2e/7fc8ac43fae2c02a0e3f9b99952945cb7997638ad1864bba76a7041b3718/onnx-tool-0.6.3.tar.gz
+[2023-04-19 14:52:02] INFO root fetch - processPackages [onnx-tool]: executing diffoscope
+[2023-04-19 14:52:02] INFO root fetch - processPackages [onnx-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx-tool-0.6.1.tar.gz tmp/onnx-tool-0.6.3.tar.gz --markdown 20230419/o/onnx-tool/0.6.1-0.6.3/diff.md --exclude *.pyd
+[2023-04-19 14:52:02] INFO root fetch - processPackages [psdm-analysis]: Downloading https://files.pythonhosted.org/packages/e3/41/e58d83850571b6cc5709ae9120bca125c821513682952b695bbe47ae4eaf/psdm-analysis-0.1.2.dev3.tar.gz
+[2023-04-19 14:52:02] INFO root fetch - processPackages [psdm-analysis]: Downloading https://files.pythonhosted.org/packages/be/9a/14747bf76bf47764187074865586dc7c2a4eb78dd1d2950a2d35024bb2c7/psdm-analysis-0.1.2.dev4.tar.gz
+[2023-04-19 14:52:02] INFO root fetch - processPackages [psdm-analysis]: executing diffoscope
+[2023-04-19 14:52:02] INFO root fetch - processPackages [psdm-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psdm-analysis-0.1.2.dev3.tar.gz tmp/psdm-analysis-0.1.2.dev4.tar.gz --markdown 20230419/p/psdm-analysis/0.1.2.dev3-0.1.2.dev4/diff.md --exclude *.pyd
+[2023-04-19 14:52:02] INFO root fetch - processPackages [study-id-generator]: Start processing: web3storagepy
+[2023-04-19 14:52:02] INFO root fetch - main [MainThread]: End processing [study-id-generator]: success
+[2023-04-19 14:52:02] WARNING root fetch - processPackages [web3storagepy]: Skipping, unable to determine old version
+[2023-04-19 14:52:02] INFO root fetch - processPackages [web3storagepy]: Start processing: netbox-tunnels2
+[2023-04-19 14:52:02] INFO root fetch - main [MainThread]: End processing [web3storagepy] error
+[2023-04-19 14:52:02] WARNING root fetch - processPackages [netbox-tunnels2]: Skipping, unable to determine old version
+[2023-04-19 14:52:02] INFO root fetch - processPackages [netbox-tunnels2]: Start processing: gpforecaster
+[2023-04-19 14:52:02] INFO root fetch - main [MainThread]: End processing [netbox-tunnels2] error
+[2023-04-19 14:52:02] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 14:52:03] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-04-19 14:52:03] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.8.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230419/g/gpforecaster/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 14:52:03] INFO root fetch - processPackages [finbourne-identity-sdk]: Start processing: MkDocsYamlSchemaPlugin
+[2023-04-19 14:52:03] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-04-19 14:52:03] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Start processing: huble
+[2023-04-19 14:52:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-04-19 14:52:03] WARNING root fetch - processPackages [MkDocsYamlSchemaPlugin]: Skipping, unable to determine old version
+[2023-04-19 14:52:03] INFO root fetch - main [MainThread]: End processing [MkDocsYamlSchemaPlugin] error
+[2023-04-19 14:52:03] INFO root fetch - processPackages [huble]: New version: [0.2.299] Old Version: [0.2.298]
+[2023-04-19 14:52:03] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-19 14:52:03] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-19 14:52:03] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-04-19 14:52:03] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/9c/31/f9e5418bb30c22f4430e72b8a8d4ef29ff9ffe3e4d6612a248b9040d5245/huble-0.2.299.tar.gz
+[2023-04-19 14:52:03] INFO root fetch - main [MainThread]: End processing [onnx-tool]: success
+[2023-04-19 14:52:03] INFO root fetch - main [MainThread]: End processing [ts-sdk]: success
+[2023-04-19 14:52:03] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-19 14:52:03] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.298.tar.gz tmp/huble-0.2.299.tar.gz --markdown 20230419/h/huble/0.2.298-0.2.299/diff.md --exclude *.pyd
+[2023-04-19 14:52:04] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-04-19 14:52:04] INFO root fetch - main [MainThread]: End processing [psdm-analysis]: success
+[2023-04-19 14:52:05] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-19 14:52:11] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-19 14:52:11] INFO root fetch - main [MainThread]: Store serial: [17771061]
