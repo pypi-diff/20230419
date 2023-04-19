@@ -5874,3 +5874,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 05:47:35] INFO root fetch - main [MainThread]: End processing [scBC]: success
 [2023-04-19 05:47:35] INFO root fetch - main [MainThread]: End processing [segment-geospatial]: success
 [2023-04-19 05:47:35] INFO root fetch - main [MainThread]: Store serial: [17765479]
+[2023-04-19 05:52:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765479]
+[2023-04-19 05:52:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-19 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: m3-learning
+[2023-04-19 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: m3-learning
+[2023-04-19 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-cloudapp-frame
+[2023-04-19 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rasa-gen
+[2023-04-19 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: birentechci
+[2023-04-19 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cwsearch-utils
+[2023-04-19 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: movie-bot-api
+[2023-04-19 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pokerrl-env
+[2023-04-19 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fiddler-client
+[2023-04-19 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-xdu-support
+[2023-04-19 05:52:44] INFO root fetch - processPackages [m3-learning]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 05:52:44] INFO root fetch - processPackages [m3-learning]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 05:52:44] INFO root fetch - processPackages [nonebot-plugin-xdu-support]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-04-19 05:52:44] INFO root fetch - processPackages [fiddler-client]: New version: [1.7.0.dev7] Old Version: [1.7.0.dev6]
+[2023-04-19 05:52:44] INFO root fetch - processPackages [birentechci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 05:52:44] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-19 05:52:44] INFO root fetch - processPackages [pokerrl-env]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 05:52:44] INFO root fetch - processPackages [movie-bot-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 05:52:44] INFO root fetch - processPackages [rasa-gen]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 05:52:44] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-04-19 05:52:44] INFO root fetch - processPackages [nonebot-plugin-xdu-support]: Downloading https://files.pythonhosted.org/packages/e6/3f/aaec1d2e84a081c9ebf837ca1e7df3b03432f82f3669db2a83119d23bc32/nonebot_plugin_xdu_support-0.5.7-py3-none-any.whl
+[2023-04-19 05:52:44] INFO root fetch - processPackages [birentechci]: executing diffoscope
+[2023-04-19 05:52:44] INFO root fetch - processPackages [birentechci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birentechci-0.0.8.tar.gz tmp/birentechci-0.0.9.tar.gz --markdown 20230419/b/birentechci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 05:52:44] WARNING root fetch - processPackages [nonebot-plugin-xdu-support]: Skipping package: exceeds size limit 13723400>=10485760
+[2023-04-19 05:52:44] INFO root fetch - processPackages [nonebot-plugin-xdu-support]: Start processing: apache-flink-ml
+[2023-04-19 05:52:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-xdu-support] error
+[2023-04-19 05:52:44] INFO root fetch - processPackages [movie-bot-api]: executing diffoscope
+[2023-04-19 05:52:44] INFO root fetch - processPackages [movie-bot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movie-bot-api-0.0.8.tar.gz tmp/movie-bot-api-0.0.9.tar.gz --markdown 20230419/m/movie-bot-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 05:52:44] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-04-19 05:52:44] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230419/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-04-19 05:52:44] INFO root fetch - processPackages [m3-learning]: Downloading https://files.pythonhosted.org/packages/d0/fb/881aea382259418f12422b5ae58f05c6ceb51d9e3bfd97e7b795182fe431/m3_learning-0.0.8.tar.gz
+[2023-04-19 05:52:44] INFO root fetch - processPackages [m3-learning]: Downloading https://files.pythonhosted.org/packages/d0/fb/881aea382259418f12422b5ae58f05c6ceb51d9e3bfd97e7b795182fe431/m3_learning-0.0.8.tar.gz
+[2023-04-19 05:52:44] INFO root fetch - processPackages [pokerrl-env]: Downloading https://files.pythonhosted.org/packages/fc/50/fd7386cf08cc75f4a00982e48d0b59e2df423f0404aa70b2bc06dfd107e2/pokerrl_env-0.1.0.tar.gz
+[2023-04-19 05:52:44] INFO root fetch - processPackages [rasa-gen]: Downloading https://files.pythonhosted.org/packages/17/69/41a16e17563c4adf6324ec110f073676168ea1ce2cde1654d996b68bef81/rasa_gen-0.0.1.tar.gz
+[2023-04-19 05:52:44] INFO root fetch - processPackages [apache-flink-ml]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-19 05:52:44] INFO root fetch - processPackages [cwsearch-utils]: Downloading https://files.pythonhosted.org/packages/e3/85/d439238b34b644de516492bb253ca6f1b9e61f9e19360921be0d715d5ea6/cwsearch_utils-0.1.5-py3-none-any.whl
+[2023-04-19 05:52:44] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/7e/1b/967ffabd8078dc52d4d70d8d9136e8e6cf4d103b2ddbffd6ca1a61a38326/fiddler-client-1.7.0.dev7.tar.gz
+[2023-04-19 05:52:44] INFO root fetch - processPackages [apache-flink-ml]: Downloading https://files.pythonhosted.org/packages/66/00/5b48fda7570deb8465eb826f40f575cfb9258574ef4b1f91f77cc2bdc722/apache-flink-ml-2.1.0.tar.gz
+[2023-04-19 05:52:44] INFO root fetch - processPackages [pokerrl-env]: Downloading https://files.pythonhosted.org/packages/db/8c/e0fffaa472f55ba4e23162e8f06ab826df7287857ecf2b45586db18e16fd/pokerrl_env-0.1.1.tar.gz
+[2023-04-19 05:52:44] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-04-19 05:52:44] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-1.7.0.dev6.tar.gz tmp/fiddler-client-1.7.0.dev7.tar.gz --markdown 20230419/f/fiddler-client/1.7.0.dev6-1.7.0.dev7/diff.md --exclude *.pyd
+[2023-04-19 05:52:44] INFO root fetch - processPackages [rasa-gen]: Downloading https://files.pythonhosted.org/packages/21/f7/3130c79717c961366f9fb4ccddf54edaa2b1d1e6e48f3e2e41ed1afd08f2/rasa_gen-0.0.2.tar.gz
+[2023-04-19 05:52:44] INFO root fetch - processPackages [m3-learning]: Downloading https://files.pythonhosted.org/packages/8b/e0/e6082bd4648fefc1af2812bf7851d781cf83c75db7799edf8105f7e0250d/m3_learning-0.0.9.tar.gz
+[2023-04-19 05:52:44] INFO root fetch - processPackages [m3-learning]: Downloading https://files.pythonhosted.org/packages/8b/e0/e6082bd4648fefc1af2812bf7851d781cf83c75db7799edf8105f7e0250d/m3_learning-0.0.9.tar.gz
+[2023-04-19 05:52:44] INFO root fetch - processPackages [cwsearch-utils]: Downloading https://files.pythonhosted.org/packages/f6/34/69bea74bbc25feb38ac806579da81a60f8b8da6edcbf56d330b0c972c819/cwsearch_utils-0.1.6-py3-none-any.whl
+[2023-04-19 05:52:44] INFO root fetch - processPackages [pokerrl-env]: executing diffoscope
+[2023-04-19 05:52:44] INFO root fetch - processPackages [pokerrl-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokerrl_env-0.1.0.tar.gz tmp/pokerrl_env-0.1.1.tar.gz --markdown 20230419/p/pokerrl-env/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 05:52:44] INFO root fetch - processPackages [rasa-gen]: executing diffoscope
+[2023-04-19 05:52:44] INFO root fetch - processPackages [rasa-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa_gen-0.0.1.tar.gz tmp/rasa_gen-0.0.2.tar.gz --markdown 20230419/r/rasa-gen/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 05:52:44] INFO root fetch - processPackages [m3-learning]: executing diffoscope
+[2023-04-19 05:52:44] INFO root fetch - processPackages [m3-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3_learning-0.0.8.tar.gz tmp/m3_learning-0.0.9.tar.gz --markdown 20230419/m/m3-learning/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 05:52:44] INFO root fetch - processPackages [m3-learning]: executing diffoscope
+[2023-04-19 05:52:44] INFO root fetch - processPackages [m3-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3_learning-0.0.8.tar.gz tmp/m3_learning-0.0.9.tar.gz --markdown 20230419/m/m3-learning/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 05:52:45] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-04-19 05:52:45] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.5-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.6-py3-none-any.whl.zip --markdown 20230419/c/cwsearch-utils/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-19 05:52:45] INFO root fetch - processPackages [apache-flink-ml]: Downloading https://files.pythonhosted.org/packages/bd/72/8f294a05b7b91fbc90f8a1cfaf269e0e60f23627a52612cbfba6d817c3e3/apache-flink-ml-2.2.0.tar.gz
+[2023-04-19 05:52:45] INFO root fetch - processPackages [apache-flink-ml]: executing diffoscope
+[2023-04-19 05:52:45] INFO root fetch - processPackages [apache-flink-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-flink-ml-2.1.0.tar.gz tmp/apache-flink-ml-2.2.0.tar.gz --markdown 20230419/a/apache-flink-ml/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-19 05:52:45] INFO root fetch - main [MainThread]: End processing [movie-bot-api]: success
+[2023-04-19 05:52:46] INFO root fetch - main [MainThread]: End processing [birentechci]: success
+[2023-04-19 05:52:46] INFO root fetch - main [MainThread]: End processing [rasa-gen]: success
+[2023-04-19 05:52:46] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-04-19 05:52:46] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-04-19 05:52:46] INFO root fetch - main [MainThread]: End processing [pokerrl-env]: success
+[2023-04-19 05:52:46] INFO root fetch - main [MainThread]: End processing [m3-learning]: success
+[2023-04-19 05:52:46] INFO root fetch - main [MainThread]: End processing [m3-learning]: success
+[2023-04-19 05:52:47] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-04-19 05:52:48] INFO root fetch - main [MainThread]: End processing [apache-flink-ml]: success
+[2023-04-19 05:52:48] INFO root fetch - main [MainThread]: Store serial: [17765508]
