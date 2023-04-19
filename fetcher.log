@@ -13352,3 +13352,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 12:42:20] INFO root fetch - main [MainThread]: End processing [regain]: success
 [2023-04-19 12:42:21] INFO root fetch - main [MainThread]: End processing [polarismesh-specification]: success
 [2023-04-19 12:42:21] INFO root fetch - main [MainThread]: Store serial: [17769806]
+[2023-04-19 12:47:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17769806]
+[2023-04-19 12:47:30] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-19 12:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crx-hslayers
+[2023-04-19 12:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lovematch
+[2023-04-19 12:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shep
+[2023-04-19 12:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hak
+[2023-04-19 12:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: th2-grpc-lw-data-provider
+[2023-04-19 12:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: e2e-cli
+[2023-04-19 12:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hiddifypanel
+[2023-04-19 12:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codeframe
+[2023-04-19 12:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SBOannotator
+[2023-04-19 12:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sirqle
+[2023-04-19 12:47:30] WARNING root fetch - processPackages [lovematch]: Skipping, unable to determine old version
+[2023-04-19 12:47:30] INFO root fetch - processPackages [lovematch]: Start processing: lovematch
+[2023-04-19 12:47:30] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 12:47:30] INFO root fetch - main [MainThread]: End processing [lovematch] error
+[2023-04-19 12:47:30] INFO root fetch - processPackages [crx-hslayers]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-04-19 12:47:30] INFO root fetch - processPackages [shep]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-19 12:47:30] INFO root fetch - processPackages [SBOannotator]: New version: [2.1.1] Old Version: [2.1]
+[2023-04-19 12:47:30] INFO root fetch - processPackages [e2e-cli]: New version: [0.9.9.8] Old Version: [0.9.9.7]
+[2023-04-19 12:47:30] INFO root fetch - processPackages [codeframe]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-04-19 12:47:30] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.0.dev60] Old Version: [4.0.0.dev6]
+[2023-04-19 12:47:30] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4742378491]
+[2023-04-19 12:47:30] WARNING root fetch - processPackages [lovematch]: Skipping, unable to determine old version
+[2023-04-19 12:47:30] INFO root fetch - processPackages [lovematch]: Start processing: piknik
+[2023-04-19 12:47:30] INFO root fetch - main [MainThread]: End processing [lovematch] error
+[2023-04-19 12:47:31] INFO root fetch - processPackages [piknik]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-19 12:47:31] INFO root fetch - processPackages [sirqle]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-19 12:47:31] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/87/83/a50ef27f904446fbf5c516431ef83dc07ca945595133f00bfae39562b5e7/e2e_cli-0.9.9.7.tar.gz
+[2023-04-19 12:47:31] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/f6/e8/f7111a319620f8931943a998edc74d9b9935b114c9e04bc5617c0d57b5a0/th2_grpc_lw_data_provider-2.0.0.dev4742378491.tar.gz
+[2023-04-19 12:47:31] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-04-19 12:47:31] INFO root fetch - processPackages [crx-hslayers]: Downloading https://files.pythonhosted.org/packages/13/86/35d4f6cb22da0abb9f7f8179d9900c8fbf7ad63ee3667c292cf2b4bdf7d6/crx_hslayers-2.1.4.tar.gz
+[2023-04-19 12:47:31] INFO root fetch - processPackages [SBOannotator]: Downloading https://files.pythonhosted.org/packages/e6/1a/470294fe8ea527f32b1f974e06d75d56faf976328034d6329aaf9ce84bc0/SBOannotator-2.1.1.tar.gz
+[2023-04-19 12:47:31] INFO root fetch - processPackages [piknik]: executing diffoscope
+[2023-04-19 12:47:31] INFO root fetch - processPackages [piknik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piknik-0.3.0.tar.gz tmp/piknik-0.3.1.tar.gz --markdown 20230419/p/piknik/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-19 12:47:31] INFO root fetch - processPackages [codeframe]: Downloading https://files.pythonhosted.org/packages/00/74/7a638393b38360a1b4357b67a26c8fe719eeae2b0fbcaefc44452c6401ea/codeframe-0.2.5.tar.gz
+[2023-04-19 12:47:31] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/b6/8e/30d45fe464e2d9faa2b87c32ca8d15e89e32f56a17d85444dff673c883ed/hiddifypanel-4.0.0.dev60-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-19 12:47:31] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-04-19 12:47:31] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230419/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 12:47:31] INFO root fetch - processPackages [SBOannotator]: executing diffoscope
+[2023-04-19 12:47:31] INFO root fetch - processPackages [SBOannotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SBOannotator-2.1.tar.gz tmp/SBOannotator-2.1.1.tar.gz --markdown 20230419/S/SBOannotator/2.1-2.1.1/diff.md --exclude *.pyd
+[2023-04-19 12:47:31] INFO root fetch - processPackages [shep]: Downloading https://files.pythonhosted.org/packages/a3/52/c5fa264f58c000432aa029e004560c8fdf7a687c0248f4083b9a8f27c5ab/shep-0.3.2.tar.gz
+[2023-04-19 12:47:31] INFO root fetch - processPackages [codeframe]: executing diffoscope
+[2023-04-19 12:47:31] INFO root fetch - processPackages [codeframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeframe-0.2.3.tar.gz tmp/codeframe-0.2.5.tar.gz --markdown 20230419/c/codeframe/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-04-19 12:47:31] INFO root fetch - processPackages [shep]: executing diffoscope
+[2023-04-19 12:47:31] INFO root fetch - processPackages [shep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shep-0.3.1.tar.gz tmp/shep-0.3.2.tar.gz --markdown 20230419/s/shep/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-19 12:47:31] WARNING root fetch - processPackages [crx-hslayers]: Skipping package: exceeds size limit 11466971>=10485760
+[2023-04-19 12:47:31] INFO root fetch - main [MainThread]: End processing [crx-hslayers] error
+[2023-04-19 12:47:31] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-19 12:47:31] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4742378491.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230419/t/th2-grpc-lw-data-provider/2.0.0.dev4742378491-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-19 12:47:31] INFO root fetch - processPackages [sirqle]: Downloading https://files.pythonhosted.org/packages/24/a5/ef1158aa513e9dee2d0be554b8657c80e0ed3f82c2824db2f36982f98277/sirqle-0.1.4.tar.gz
+[2023-04-19 12:47:31] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/ec/1b/ad4f51ec93196297c0b54e02688fb85b060154257686a6d769a190c1695d/e2e_cli-0.9.9.8.tar.gz
+[2023-04-19 12:47:31] INFO root fetch - processPackages [e2e-cli]: executing diffoscope
+[2023-04-19 12:47:31] INFO root fetch - processPackages [e2e-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2e_cli-0.9.9.7.tar.gz tmp/e2e_cli-0.9.9.8.tar.gz --markdown 20230419/e/e2e-cli/0.9.9.7-0.9.9.8/diff.md --exclude *.pyd
+[2023-04-19 12:47:31] INFO root fetch - processPackages [sirqle]: executing diffoscope
+[2023-04-19 12:47:31] INFO root fetch - processPackages [sirqle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirqle-0.1.3.tar.gz tmp/sirqle-0.1.4.tar.gz --markdown 20230419/s/sirqle/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-19 12:47:32] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-19 12:47:32] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.0.dev6-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.0.dev60-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230419/h/hiddifypanel/4.0.0.dev6-4.0.0.dev60/diff.md --exclude *.pyd
+[2023-04-19 12:47:32] INFO root fetch - main [MainThread]: End processing [SBOannotator]: success
+[2023-04-19 12:47:32] INFO root fetch - main [MainThread]: End processing [codeframe]: success
+[2023-04-19 12:47:32] INFO root fetch - main [MainThread]: End processing [shep]: success
+[2023-04-19 12:47:32] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-19 12:47:32] INFO root fetch - main [MainThread]: End processing [sirqle]: success
+[2023-04-19 12:47:33] INFO root fetch - main [MainThread]: End processing [piknik]: success
+[2023-04-19 12:47:33] INFO root fetch - main [MainThread]: End processing [e2e-cli]: success
+[2023-04-19 12:47:33] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-04-19 12:47:53] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-19 12:47:53] INFO root fetch - main [MainThread]: Store serial: [17769845]
