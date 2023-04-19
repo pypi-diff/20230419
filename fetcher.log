@@ -6814,3 +6814,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 06:46:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tts-gal]: success
 [2023-04-19 06:46:52] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
 [2023-04-19 06:46:52] INFO root fetch - main [MainThread]: Store serial: [17765949]
+[2023-04-19 06:51:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765949]
+[2023-04-19 06:52:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-19 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: riskCalculator
+[2023-04-19 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taichu-serve
+[2023-04-19 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: envtext
+[2023-04-19 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NikeCA
+[2023-04-19 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hdcms
+[2023-04-19 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-fiscal-epos-print
+[2023-04-19 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-it-asset-history-import
+[2023-04-19 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-l10n-it-intrastat
+[2023-04-19 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-l10n-it-delivery-note
+[2023-04-19 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pylovelace.kernel
+[2023-04-19 06:52:01] INFO root fetch - processPackages [riskCalculator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 06:52:01] INFO root fetch - processPackages [envtext]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-19 06:52:01] INFO root fetch - processPackages [hdcms]: New version: [0.1.9] Old Version: [0.1.18]
+[2023-04-19 06:52:01] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: New version: [14.0.1.3.1.dev3] Old Version: [14.0.1.3.1.dev2]
+[2023-04-19 06:52:01] INFO root fetch - processPackages [odoo14-addon-fiscal-epos-print]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.1]
+[2023-04-19 06:52:01] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-04-19 06:52:01] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [2.0.12]
+[2023-04-19 06:52:01] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: New version: [14.0.1.1.2.dev6] Old Version: [14.0.1.1.2.dev5]
+[2023-04-19 06:52:01] WARNING root fetch - processPackages [pylovelace.kernel]: Skipping, unable to determine old version
+[2023-04-19 06:52:01] INFO root fetch - processPackages [pylovelace.kernel]: Start processing: SrbAI
+[2023-04-19 06:52:01] INFO root fetch - main [MainThread]: End processing [pylovelace.kernel] error
+[2023-04-19 06:52:01] INFO root fetch - processPackages [NikeCA]: New version: [0.1.61] Old Version: [0.1.60]
+[2023-04-19 06:52:01] INFO root fetch - processPackages [SrbAI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 06:52:01] INFO root fetch - processPackages [riskCalculator]: Downloading https://files.pythonhosted.org/packages/7d/71/4ef52f8815f34b372b5fe3e8b29617349aab769ecdee9b7906afaef0cc88/riskCalculator-0.0.1.tar.gz
+[2023-04-19 06:52:01] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/0f/30/f56277c044cf1eabdfd0f8b6af2e9541c09f60c5f61c99f47c4a57dc1a88/hdcms-0.1.18.tar.gz
+[2023-04-19 06:52:01] INFO root fetch - processPackages [SrbAI]: executing diffoscope
+[2023-04-19 06:52:01] INFO root fetch - processPackages [SrbAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SrbAI-0.0.8.tar.gz tmp/SrbAI-0.0.9.tar.gz --markdown 20230419/S/SrbAI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 06:52:01] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/67/7e/b20bf952140dec1e2eda2626bb1fd7092d5d95e8df3d9363292415c60a2c/taichu-serve-2.0.12.tar.gz
+[2023-04-19 06:52:01] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/e3/7b/ea06d0cbb275411f1249d8daee974c14e895c2a49adb96647874cf3de78e/odoo14_addon_l10n_it_delivery_note-14.0.1.1.2.dev6-py3-none-any.whl
+[2023-04-19 06:52:01] INFO root fetch - processPackages [odoo14-addon-fiscal-epos-print]: Downloading https://files.pythonhosted.org/packages/a3/06/392bdec4ea9554831bb587d6e488a8e34a0fdd7569e2ad33235ae5f8f7d3/odoo14_addon_fiscal_epos_print-14.0.1.0.1-py3-none-any.whl
+[2023-04-19 06:52:01] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/28/f1/bdc405e1e59e3ffe0d1115206b0c9c9da9c64005e4cb0d89e889c1999902/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev3-py3-none-any.whl
+[2023-04-19 06:52:01] INFO root fetch - processPackages [envtext]: Downloading https://files.pythonhosted.org/packages/90/5b/38176c30745cf9f6c68d188f3f5349ff133d73621c354f83462a342ac339/envtext-0.1.3-py3-none-any.whl
+[2023-04-19 06:52:01] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: Downloading https://files.pythonhosted.org/packages/a7/7e/cd38cacb266dc5dafc30965145326880825afd287762efc87854a100790b/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-04-19 06:52:01] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/20/2e/0700721713502b70663470005f4afc71183707cea839ae78fc28efc1ab43/NikeCA-0.1.61.tar.gz
+[2023-04-19 06:52:01] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: executing diffoscope
+[2023-04-19 06:52:01] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_delivery_note-14.0.1.1.2.dev5-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_delivery_note-14.0.1.1.2.dev6-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-l10n-it-delivery-note/14.0.1.1.2.dev5-14.0.1.1.2.dev6/diff.md --exclude *.pyd
+[2023-04-19 06:52:01] WARNING root fetch - processPackages [envtext]: Skipping package: exceeds size limit 68197114>=10485760
+[2023-04-19 06:52:01] INFO root fetch - main [MainThread]: End processing [envtext] error
+[2023-04-19 06:52:01] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-04-19 06:52:01] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.12.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230419/t/taichu-serve/2.0.12-2.0.9/diff.md --exclude *.pyd
+[2023-04-19 06:52:02] INFO root fetch - processPackages [riskCalculator]: Downloading https://files.pythonhosted.org/packages/68/81/3e12542e93fd8a77caec21f4152d251980c60c6fbefb11bb8eefcf47579a/riskCalculator-0.0.2.tar.gz
+[2023-04-19 06:52:02] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: executing diffoscope
+[2023-04-19 06:52:02] INFO root fetch - processPackages [odoo14-addon-l10n-it-intrastat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_intrastat-14.0.1.3.1.dev3-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-l10n-it-intrastat/14.0.1.3.1.dev2-14.0.1.3.1.dev3/diff.md --exclude *.pyd
+[2023-04-19 06:52:02] INFO root fetch - processPackages [odoo14-addon-fiscal-epos-print]: Downloading https://files.pythonhosted.org/packages/5b/ef/8bab63a94536afa06c1af8e498274abe3305abc00edbad15f301b56be1d9/odoo14_addon_fiscal_epos_print-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-04-19 06:52:02] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-19 06:52:02] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.60.tar.gz tmp/NikeCA-0.1.61.tar.gz --markdown 20230419/N/NikeCA/0.1.60-0.1.61/diff.md --exclude *.pyd
+[2023-04-19 06:52:02] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: Downloading https://files.pythonhosted.org/packages/58/ee/525cfb44c4bb51dcb69a9dacb01969d13e884aa106299f47cbaf3fca77d3/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-04-19 06:52:02] INFO root fetch - processPackages [riskCalculator]: executing diffoscope
+[2023-04-19 06:52:02] INFO root fetch - processPackages [riskCalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riskCalculator-0.0.1.tar.gz tmp/riskCalculator-0.0.2.tar.gz --markdown 20230419/r/riskCalculator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 06:52:02] INFO root fetch - processPackages [odoo14-addon-fiscal-epos-print]: executing diffoscope
+[2023-04-19 06:52:02] INFO root fetch - processPackages [odoo14-addon-fiscal-epos-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fiscal_epos_print-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_fiscal_epos_print-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-fiscal-epos-print/14.0.1.0.1-14.0.1.0.2.dev2/diff.md --exclude *.pyd
+[2023-04-19 06:52:02] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: executing diffoscope
+[2023-04-19 06:52:02] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-l10n-it-asset-history-import/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-04-19 06:52:02] INFO root fetch - processPackages [hdcms]: executing diffoscope
+[2023-04-19 06:52:02] INFO root fetch - processPackages [hdcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdcms-0.1.18.tar.gz tmp/hdcms-0.1.9.tar.gz --markdown 20230419/h/hdcms/0.1.18-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 06:52:03] INFO root fetch - main [MainThread]: End processing [SrbAI]: success
+[2023-04-19 06:52:03] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-04-19 06:52:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-delivery-note]: success
+[2023-04-19 06:52:03] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-19 06:52:03] INFO root fetch - main [MainThread]: End processing [riskCalculator]: success
+[2023-04-19 06:52:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fiscal-epos-print]: success
+[2023-04-19 06:52:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-asset-history-import]: success
+[2023-04-19 06:52:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-intrastat]: success
+[2023-04-19 06:52:09] INFO root fetch - main [MainThread]: End processing [hdcms]: success
+[2023-04-19 06:52:09] INFO root fetch - main [MainThread]: Store serial: [17765978]
