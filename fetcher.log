@@ -9199,3 +9199,112 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 09:43:29] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
 [2023-04-19 09:43:29] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
 [2023-04-19 09:43:29] INFO root fetch - main [MainThread]: Store serial: [17767255]
+[2023-04-19 09:48:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17767255]
+[2023-04-19 09:48:38] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-19 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dissect.target
+[2023-04-19 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seven2one
+[2023-04-19 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chellow
+[2023-04-19 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omero-metadata
+[2023-04-19 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lupin-grognard
+[2023-04-19 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RiskQuantLib
+[2023-04-19 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ralph-malph
+[2023-04-19 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jina
+[2023-04-19 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keras-nightly
+[2023-04-19 09:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: isqlab
+[2023-04-19 09:48:38] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0.dev17] Old Version: [1.9.0]
+[2023-04-19 09:48:38] INFO root fetch - processPackages [RiskQuantLib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 09:48:38] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-04-19 09:48:38] INFO root fetch - processPackages [omero-metadata]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-19 09:48:38] INFO root fetch - processPackages [seven2one]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-04-19 09:48:38] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-04-19 09:48:38] INFO root fetch - processPackages [ralph-malph]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-04-19 09:48:38] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-04-19 09:48:38] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-19 09:48:38] INFO root fetch - processPackages [isqlab]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-19 09:48:38] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-04-19 09:48:38] INFO root fetch - processPackages [RiskQuantLib]: executing diffoscope
+[2023-04-19 09:48:38] INFO root fetch - processPackages [RiskQuantLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RiskQuantLib-0.2.8.tar.gz tmp/RiskQuantLib-0.2.9.tar.gz --markdown 20230419/R/RiskQuantLib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 09:48:38] INFO root fetch - processPackages [omero-metadata]: Downloading https://files.pythonhosted.org/packages/fb/f1/26835f1f801a1ff6e953de9da689227d1072e83e8690ec4aff6436a35c9e/omero-metadata-0.8.2.tar.gz
+[2023-04-19 09:48:38] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-04-19 09:48:38] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230419/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-04-19 09:48:38] INFO root fetch - processPackages [ralph-malph]: Downloading https://files.pythonhosted.org/packages/72/8d/f5a22c12bbc6c6b761933f370d65f9760861718575d993207e8854d5c847/ralph-malph-3.5.0.tar.gz
+[2023-04-19 09:48:38] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-19 09:48:38] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230419/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-19 09:48:38] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-04-19 09:48:38] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2023-04-19 09:48:38] INFO root fetch - processPackages [seven2one]: Downloading https://files.pythonhosted.org/packages/36/56/825dcb118e177c000e3e352fb28c9c02c7eacf6b1783ff77ef6b2d0e744a/seven2one-4.0.0.tar.gz
+[2023-04-19 09:48:38] INFO root fetch - processPackages [isqlab]: Downloading https://files.pythonhosted.org/packages/bf/0e/0ac955867c4a9535208e50da605c37b8da98d2a5b34d531c3ea8c35eb08f/isqlab-0.3.0.tar.gz
+[2023-04-19 09:48:38] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-04-19 09:48:38] INFO root fetch - processPackages [dissect.target]: Start processing: th2-grpc-lw-data-provider
+[2023-04-19 09:48:38] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-04-19 09:48:38] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4740697237]
+[2023-04-19 09:48:38] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/ff/b1/f48879f26705a0becaf86d93f482c0214de01c3dbc07769ebd7b0a462389/lupin-grognard-1.9.0.dev17.tar.gz
+[2023-04-19 09:48:38] INFO root fetch - processPackages [seven2one]: Downloading https://files.pythonhosted.org/packages/d6/ba/ef06f3082fb3a4a7e059ef3dfab5a28ff984e4247578946645d2b492c885/seven2one-4.1.0.tar.gz
+[2023-04-19 09:48:39] INFO root fetch - processPackages [seven2one]: executing diffoscope
+[2023-04-19 09:48:39] INFO root fetch - processPackages [seven2one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven2one-4.0.0.tar.gz tmp/seven2one-4.1.0.tar.gz --markdown 20230419/s/seven2one/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-04-19 09:48:39] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-19 09:48:39] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4740697237.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230419/t/th2-grpc-lw-data-provider/2.0.0.dev4740697237-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-19 09:48:39] INFO root fetch - processPackages [omero-metadata]: Downloading https://files.pythonhosted.org/packages/f5/03/b6c00a4854b212307591d4703d720fa15c7148486bc200ee8ffae5a0dbb4/omero-metadata-0.9.0.tar.gz
+[2023-04-19 09:48:39] INFO root fetch - processPackages [ralph-malph]: Downloading https://files.pythonhosted.org/packages/9a/85/0e5bd7ec9108f5c2f365a1a33928c83afe2ab2de9d9d9938053b92d5a212/ralph-malph-3.5.1.tar.gz
+[2023-04-19 09:48:39] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-04-19 09:48:39] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.9.0.tar.gz tmp/lupin-grognard-1.9.0.dev17.tar.gz --markdown 20230419/l/lupin-grognard/1.9.0-1.9.0.dev17/diff.md --exclude *.pyd
+[2023-04-19 09:48:39] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2023-04-19 09:48:39] INFO root fetch - processPackages [ralph-malph]: executing diffoscope
+[2023-04-19 09:48:39] INFO root fetch - processPackages [isqlab]: Downloading https://files.pythonhosted.org/packages/a1/51/693316dc98915d2efe06f1c30082e05490b9e598c64b7ae5c9ad8ad08f3c/isqlab-0.3.1.tar.gz
+[2023-04-19 09:48:39] INFO root fetch - processPackages [ralph-malph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralph-malph-3.5.0.tar.gz tmp/ralph-malph-3.5.1.tar.gz --markdown 20230419/r/ralph-malph/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-04-19 09:48:39] INFO root fetch - processPackages [omero-metadata]: executing diffoscope
+[2023-04-19 09:48:39] INFO root fetch - processPackages [omero-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-metadata-0.8.2.tar.gz tmp/omero-metadata-0.9.0.tar.gz --markdown 20230419/o/omero-metadata/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 09:48:39] INFO root fetch - processPackages [isqlab]: executing diffoscope
+[2023-04-19 09:48:39] INFO root fetch - processPackages [isqlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isqlab-0.3.0.tar.gz tmp/isqlab-0.3.1.tar.gz --markdown 20230419/i/isqlab/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-19 09:48:39] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-04-19 09:48:39] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230419/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-04-19 09:48:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: seven2one
+[2023-04-19 09:48:40] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-19 09:48:40] INFO root fetch - processPackages [seven2one]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-04-19 09:48:40] INFO root fetch - processPackages [seven2one]: Start processing: sqlalchemy-spanner
+[2023-04-19 09:48:40] INFO root fetch - main [MainThread]: End processing [seven2one]: success
+[2023-04-19 09:48:40] INFO root fetch - processPackages [lupin-grognard]: Start processing: resolwe
+[2023-04-19 09:48:40] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-04-19 09:48:40] INFO root fetch - processPackages [sqlalchemy-spanner]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-19 09:48:40] INFO root fetch - processPackages [seven2one]: Downloading https://files.pythonhosted.org/packages/87/75/e0c2ace130f9a10f3f4cefef1d68a22bebad7b0af053e9a1274628819172/seven2one-4.1.1.tar.gz
+[2023-04-19 09:48:40] INFO root fetch - processPackages [isqlab]: Start processing: otelib
+[2023-04-19 09:48:40] INFO root fetch - main [MainThread]: End processing [isqlab]: success
+[2023-04-19 09:48:40] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-04-19 09:48:40] INFO root fetch - processPackages [seven2one]: executing diffoscope
+[2023-04-19 09:48:40] INFO root fetch - processPackages [seven2one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven2one-4.1.0.tar.gz tmp/seven2one-4.1.1.tar.gz --markdown 20230419/s/seven2one/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-04-19 09:48:40] INFO root fetch - processPackages [otelib]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-19 09:48:40] INFO root fetch - processPackages [sqlalchemy-spanner]: Downloading https://files.pythonhosted.org/packages/93/fa/88d0c5ababcd55046a1954e86b693d540f92b0c7e23ab548b45a67c7bb27/sqlalchemy-spanner-1.4.0.tar.gz
+[2023-04-19 09:48:41] INFO root fetch - processPackages [otelib]: Downloading https://files.pythonhosted.org/packages/d8/b0/7bce49827868b558ac08847ef645fc2d961ccaa35819f6630ce8544bc865/otelib-0.2.0.tar.gz
+[2023-04-19 09:48:41] INFO root fetch - processPackages [sqlalchemy-spanner]: Downloading https://files.pythonhosted.org/packages/6a/72/db33db7987ddf97dc9f4b1a4a6744946ca8a3dceeedf550d842c90893019/sqlalchemy-spanner-1.5.0.tar.gz
+[2023-04-19 09:48:41] INFO root fetch - processPackages [omero-metadata]: Start processing: pymediawikidocker
+[2023-04-19 09:48:41] INFO root fetch - main [MainThread]: End processing [omero-metadata]: success
+[2023-04-19 09:48:41] INFO root fetch - processPackages [RiskQuantLib]: Start processing: client-order-fix
+[2023-04-19 09:48:41] INFO root fetch - main [MainThread]: End processing [RiskQuantLib]: success
+[2023-04-19 09:48:41] INFO root fetch - processPackages [pymediawikidocker]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-19 09:48:41] INFO root fetch - processPackages [sqlalchemy-spanner]: executing diffoscope
+[2023-04-19 09:48:41] INFO root fetch - processPackages [sqlalchemy-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-spanner-1.4.0.tar.gz tmp/sqlalchemy-spanner-1.5.0.tar.gz --markdown 20230419/s/sqlalchemy-spanner/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-19 09:48:41] INFO root fetch - processPackages [otelib]: Downloading https://files.pythonhosted.org/packages/22/03/fa5c87679baed489486f04c78c670aad3f5d34235f44d1055f542eff770f/otelib-0.3.0.tar.gz
+[2023-04-19 09:48:41] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-04-19 09:48:41] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230419/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-04-19 09:48:41] WARNING root fetch - processPackages [client-order-fix]: Skipping, unable to determine old version
+[2023-04-19 09:48:41] INFO root fetch - processPackages [client-order-fix]: Start processing: python-selenium-ctrl-package
+[2023-04-19 09:48:41] INFO root fetch - main [MainThread]: End processing [client-order-fix] error
+[2023-04-19 09:48:41] INFO root fetch - processPackages [python-selenium-ctrl-package]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-04-19 09:48:41] INFO root fetch - processPackages [otelib]: executing diffoscope
+[2023-04-19 09:48:41] INFO root fetch - processPackages [otelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otelib-0.2.0.tar.gz tmp/otelib-0.3.0.tar.gz --markdown 20230419/o/otelib/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-19 09:48:41] INFO root fetch - processPackages [pymediawikidocker]: executing diffoscope
+[2023-04-19 09:48:41] INFO root fetch - processPackages [pymediawikidocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymediawikidocker-0.9.8.tar.gz tmp/pymediawikidocker-0.9.9.tar.gz --markdown 20230419/p/pymediawikidocker/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-19 09:48:41] INFO root fetch - processPackages [python-selenium-ctrl-package]: Downloading https://files.pythonhosted.org/packages/a1/48/69cd94256d7f787effed0a7557cd90bf98c822802b8a5957c0132b5d6f8d/python_selenium_ctrl_package-0.0.94.tar.gz
+[2023-04-19 09:48:41] INFO root fetch - processPackages [python-selenium-ctrl-package]: executing diffoscope
+[2023-04-19 09:48:41] INFO root fetch - processPackages [python-selenium-ctrl-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_selenium_ctrl_package-0.0.93.tar.gz tmp/python_selenium_ctrl_package-0.0.94.tar.gz --markdown 20230419/p/python-selenium-ctrl-package/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-04-19 09:48:42] INFO root fetch - main [MainThread]: End processing [seven2one]: success
+[2023-04-19 09:48:42] INFO root fetch - main [MainThread]: End processing [ralph-malph]: success
+[2023-04-19 09:48:42] INFO root fetch - main [MainThread]: End processing [otelib]: success
+[2023-04-19 09:48:43] INFO root fetch - main [MainThread]: End processing [python-selenium-ctrl-package]: success
+[2023-04-19 09:48:43] INFO root fetch - main [MainThread]: End processing [pymediawikidocker]: success
+[2023-04-19 09:48:43] INFO root fetch - main [MainThread]: End processing [sqlalchemy-spanner]: success
+[2023-04-19 09:48:43] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-19 09:48:44] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-04-19 09:48:44] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-04-19 09:48:47] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-04-19 09:48:47] INFO root fetch - main [MainThread]: Store serial: [17767315]
