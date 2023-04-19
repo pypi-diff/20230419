@@ -5522,3 +5522,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 05:09:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-order]: success
 [2023-04-19 05:10:04] INFO root fetch - main [MainThread]: End processing [appdefender]: success
 [2023-04-19 05:10:04] INFO root fetch - main [MainThread]: Store serial: [17765289]
+[2023-04-19 05:15:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765289]
+[2023-04-19 05:15:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-19 05:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-xdu-support
+[2023-04-19 05:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: charmr
+[2023-04-19 05:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py3-tts
+[2023-04-19 05:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jcmutils
+[2023-04-19 05:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gama-config
+[2023-04-19 05:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gama-cli
+[2023-04-19 05:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: annlite
+[2023-04-19 05:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: movie-bot-api
+[2023-04-19 05:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GANDLF
+[2023-04-19 05:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oebuild
+[2023-04-19 05:15:16] INFO root fetch - processPackages [charmr]: New version: [1.0.6] Old Version: [1.0.0]
+[2023-04-19 05:15:16] INFO root fetch - processPackages [py3-tts]: New version: [3.1] Old Version: [3.0b0]
+[2023-04-19 05:15:16] INFO root fetch - processPackages [gama-cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-19 05:15:16] INFO root fetch - processPackages [nonebot-plugin-xdu-support]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-04-19 05:15:16] INFO root fetch - processPackages [jcmutils]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-04-19 05:15:16] INFO root fetch - processPackages [gama-config]: New version: [1.9.0] Old Version: [1.10.1]
+[2023-04-19 05:15:16] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 05:15:16] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230419] Old Version: [0.0.16.dev20230418]
+[2023-04-19 05:15:16] INFO root fetch - processPackages [movie-bot-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 05:15:16] INFO root fetch - processPackages [annlite]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-19 05:15:16] INFO root fetch - processPackages [movie-bot-api]: executing diffoscope
+[2023-04-19 05:15:16] INFO root fetch - processPackages [movie-bot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movie-bot-api-0.0.8.tar.gz tmp/movie-bot-api-0.0.9.tar.gz --markdown 20230419/m/movie-bot-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 05:15:16] INFO root fetch - processPackages [nonebot-plugin-xdu-support]: Downloading https://files.pythonhosted.org/packages/7f/38/c920bcba13fadbd70afad6c46a27ed5331e6b7986120946b969e5cd7de6e/nonebot_plugin_xdu_support-0.5.6-py3-none-any.whl
+[2023-04-19 05:15:16] INFO root fetch - processPackages [gama-config]: Downloading https://files.pythonhosted.org/packages/f1/41/c99f397b125c771207d7b6b4035db13002b61470f8f6fd2d2765604970a9/gama_config-1.10.1.tar.gz
+[2023-04-19 05:15:16] INFO root fetch - processPackages [py3-tts]: Downloading https://files.pythonhosted.org/packages/2b/8a/042e56459b474ec5c79a01a2f15641f0a93460e24cb153220e6f35282701/py3_tts-3.0b0-py3-none-any.whl
+[2023-04-19 05:15:16] INFO root fetch - processPackages [charmr]: Downloading https://files.pythonhosted.org/packages/e0/3b/a2ce0174eae0f669a3e7894063847a2dd349aa648c427f60eaadb6bc04c0/charmr-1.0.6.tar.gz
+[2023-04-19 05:15:16] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/5d/b1/2e2e8bb0729d5c5a2d78262cf31688b7657e55a44a24e6d5165e72766e79/jcmutils-1.3.5.tar.gz
+[2023-04-19 05:15:16] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/8a/b1/336aa8be31a397bab4e12a6d9bb940d4415ed5c1f1fa02fc8b7ad309880f/GANDLF-0.0.16.dev20230419.tar.gz
+[2023-04-19 05:15:16] INFO root fetch - processPackages [annlite]: Downloading https://files.pythonhosted.org/packages/d3/42/0602de87f43907d25fa687ec7e650860296bdbc021bfef60c4619ea7963a/annlite-0.5.8.tar.gz
+[2023-04-19 05:15:16] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-04-19 05:15:16] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.3.4.tar.gz tmp/jcmutils-1.3.5.tar.gz --markdown 20230419/j/jcmutils/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-04-19 05:15:16] INFO root fetch - processPackages [charmr]: executing diffoscope
+[2023-04-19 05:15:16] INFO root fetch - processPackages [charmr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charmr-1.0.0.tar.gz tmp/charmr-1.0.6.tar.gz --markdown 20230419/c/charmr/1.0.0-1.0.6/diff.md --exclude *.pyd
+[2023-04-19 05:15:16] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2023-04-19 05:15:16] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20230419/o/oebuild/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 05:15:16] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-04-19 05:15:16] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230418.tar.gz tmp/GANDLF-0.0.16.dev20230419.tar.gz --markdown 20230419/G/GANDLF/0.0.16.dev20230418-0.0.16.dev20230419/diff.md --exclude *.pyd
+[2023-04-19 05:15:16] INFO root fetch - processPackages [nonebot-plugin-xdu-support]: Downloading https://files.pythonhosted.org/packages/e6/3f/aaec1d2e84a081c9ebf837ca1e7df3b03432f82f3669db2a83119d23bc32/nonebot_plugin_xdu_support-0.5.7-py3-none-any.whl
+[2023-04-19 05:15:16] INFO root fetch - processPackages [py3-tts]: Downloading https://files.pythonhosted.org/packages/fa/4e/58a6eac19bb2524094fd7658d2b47f09c4f17ab9be449acc33b79a136547/py3_tts-3.1-py3-none-any.whl
+[2023-04-19 05:15:16] INFO root fetch - processPackages [annlite]: Downloading https://files.pythonhosted.org/packages/7b/d9/d4d9cdb373e7a714181b73b93718051e0ff96a8d0c452f9dd03c95109c47/annlite-0.5.9.tar.gz
+[2023-04-19 05:15:16] INFO root fetch - processPackages [gama-config]: executing diffoscope
+[2023-04-19 05:15:16] INFO root fetch - processPackages [gama-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_config-1.10.1.tar.gz tmp/gama_config-1.9.0.tar.gz --markdown 20230419/g/gama-config/1.10.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-19 05:15:16] INFO root fetch - processPackages [gama-cli]: executing diffoscope
+[2023-04-19 05:15:16] INFO root fetch - processPackages [gama-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_cli-1.8.0.tar.gz tmp/gama_cli-1.9.0.tar.gz --markdown 20230419/g/gama-cli/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-19 05:15:17] INFO root fetch - processPackages [annlite]: executing diffoscope
+[2023-04-19 05:15:17] INFO root fetch - processPackages [annlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annlite-0.5.8.tar.gz tmp/annlite-0.5.9.tar.gz --markdown 20230419/a/annlite/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-19 05:15:17] WARNING root fetch - processPackages [nonebot-plugin-xdu-support]: Skipping package: exceeds size limit 13723400>=10485760
+[2023-04-19 05:15:17] INFO root fetch - processPackages [nonebot-plugin-xdu-support]: Start processing: vinset
+[2023-04-19 05:15:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-xdu-support] error
+[2023-04-19 05:15:17] INFO root fetch - processPackages [vinset]: New version: [4.0.0] Old Version: [3.0.5]
+[2023-04-19 05:15:17] INFO root fetch - processPackages [py3-tts]: executing diffoscope
+[2023-04-19 05:15:17] INFO root fetch - processPackages [py3-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3_tts-3.0b0-py3-none-any.whl.zip tmp/py3_tts-3.1-py3-none-any.whl.zip --markdown 20230419/p/py3-tts/3.0b0-3.1/diff.md --exclude *.pyd
+[2023-04-19 05:15:17] INFO root fetch - processPackages [vinset]: Downloading https://files.pythonhosted.org/packages/53/0b/6af64cbac4ad2e67442e157f076ef98d96e2a61faceafaa45ac89db7949e/vinset-3.0.5.tar.gz
+[2023-04-19 05:15:17] INFO root fetch - processPackages [vinset]: Downloading https://files.pythonhosted.org/packages/d0/4f/c1a72f5c3d08d1df7b87403fdfa97463397f8b727c73a6d36ba29f6be25c/vinset-4.0.0.tar.gz
+[2023-04-19 05:15:17] INFO root fetch - processPackages [vinset]: executing diffoscope
+[2023-04-19 05:15:17] INFO root fetch - processPackages [vinset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinset-3.0.5.tar.gz tmp/vinset-4.0.0.tar.gz --markdown 20230419/v/vinset/3.0.5-4.0.0/diff.md --exclude *.pyd
+[2023-04-19 05:15:18] INFO root fetch - processPackages [movie-bot-api]: Start processing: cdk-cr-constructs
+[2023-04-19 05:15:18] INFO root fetch - main [MainThread]: End processing [movie-bot-api]: success
+[2023-04-19 05:15:18] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-04-19 05:15:18] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.95] Old Version: [2.1.94]
+[2023-04-19 05:15:18] INFO root fetch - main [MainThread]: End processing [charmr]: success
+[2023-04-19 05:15:18] INFO root fetch - main [MainThread]: End processing [gama-config]: success
+[2023-04-19 05:15:18] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/8c/2a/322ec5766207d6603f01857030e5363bbb320b5f267944dd83a3f14718ad/cdk-cr-constructs-2.1.94.tar.gz
+[2023-04-19 05:15:18] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2023-04-19 05:15:18] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12880343>=10485760
+[2023-04-19 05:15:18] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-04-19 05:15:18] INFO root fetch - main [MainThread]: End processing [py3-tts]: success
+[2023-04-19 05:15:18] INFO root fetch - main [MainThread]: End processing [gama-cli]: success
+[2023-04-19 05:15:19] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-04-19 05:15:19] INFO root fetch - main [MainThread]: End processing [annlite]: success
+[2023-04-19 05:15:19] INFO root fetch - main [MainThread]: End processing [vinset]: success
+[2023-04-19 05:15:19] INFO root fetch - main [MainThread]: Store serial: [17765331]
