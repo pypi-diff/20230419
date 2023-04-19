@@ -10140,3 +10140,111 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 10:47:56] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-04-19 10:48:00] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-19 10:48:00] INFO root fetch - main [MainThread]: Store serial: [17767953]
+[2023-04-19 10:53:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17767953]
+[2023-04-19 10:53:09] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-19 10:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-grpc-lw-data-provider
+[2023-04-19 10:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plotguy
+[2023-04-19 10:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vertica-python
+[2023-04-19 10:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapidpro-dash
+[2023-04-19 10:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plone.app.upgrade
+[2023-04-19 10:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hak
+[2023-04-19 10:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybites-search
+[2023-04-19 10:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: npf-web-extension
+[2023-04-19 10:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: macrobond-data-api
+[2023-04-19 10:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Plone
+[2023-04-19 10:53:09] INFO root fetch - processPackages [vertica-python]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-19 10:53:09] INFO root fetch - processPackages [pybites-search]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 10:53:09] INFO root fetch - processPackages [rapidpro-dash]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-04-19 10:53:09] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4741337651]
+[2023-04-19 10:53:09] INFO root fetch - processPackages [plotguy]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-19 10:53:09] INFO root fetch - processPackages [macrobond-data-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 10:53:09] INFO root fetch - processPackages [npf-web-extension]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-04-19 10:53:09] INFO root fetch - processPackages [hak]: New version: [1.2.4] Old Version: [0.0.3]
+[2023-04-19 10:53:09] INFO root fetch - processPackages [plone.app.upgrade]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-04-19 10:53:09] INFO root fetch - processPackages [Plone]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-04-19 10:53:09] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/21/a1/8514a9bdce17faeef0b80ce6bc3c1e602a384223ccb3699fc78eb56e623b/th2_grpc_lw_data_provider-2.0.0.dev4741337651.tar.gz
+[2023-04-19 10:53:09] INFO root fetch - processPackages [npf-web-extension]: Downloading https://files.pythonhosted.org/packages/2b/ce/382f87262ad8c698bd3977d6a81797afde551e1df3efbcfcbbf115c5e0d4/npf-web-extension-0.2.3.tar.gz
+[2023-04-19 10:53:09] INFO root fetch - processPackages [vertica-python]: Downloading https://files.pythonhosted.org/packages/60/1b/492fc9e9ae93a146e8ca401fd2d80dfbf6b42e152ca62b3f88eeebc4c7ba/vertica-python-1.3.1.tar.gz
+[2023-04-19 10:53:09] INFO root fetch - processPackages [rapidpro-dash]: Downloading https://files.pythonhosted.org/packages/08/38/485fd7c63daba8cfaf1fb186f5bc1eccfa3c38a894f663de66808384b3f2/rapidpro-dash-1.9.2.tar.gz
+[2023-04-19 10:53:09] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/68/e7/58cc2aae03e02c4ee098f788aa921915424202544c8028ef873d4e4cc15b/macrobond-data-api-0.0.8.tar.gz
+[2023-04-19 10:53:09] INFO root fetch - processPackages [pybites-search]: Downloading https://files.pythonhosted.org/packages/cd/bd/f96faca85ea530e7ed6956dd397d46477b04759d27f4ca70e7a8f537f1fa/pybites_search-0.0.8.tar.gz
+[2023-04-19 10:53:09] INFO root fetch - processPackages [plone.app.upgrade]: Downloading https://files.pythonhosted.org/packages/c1/29/30d91fad38680878751864fb9a555768d594d89d47c4de373deebc35498b/plone.app.upgrade-3.0.2.tar.gz
+[2023-04-19 10:53:09] INFO root fetch - processPackages [Plone]: Downloading https://files.pythonhosted.org/packages/7d/60/58df2204a5d5b7460032f057ed98b70587b2d484d2000f69419b0b44d386/Plone-6.0.2.tar.gz
+[2023-04-19 10:53:09] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/07/d2/4da9d8f3fdc44b4735ff2a67e66773ffdf1d94972498fc24ad680e9acaac/hak-0.0.3.tar.gz
+[2023-04-19 10:53:09] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/c9/19/5ddd0cf8c6f1b2d0d98d683ca980114dead1d5794134051497664dcc239d/plotguy-1.0.5.tar.gz
+[2023-04-19 10:53:09] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/3c/10/bc4ff5cccc5eea254de0cc53e91545b219386c6f272aeb61732391bf1de1/hak-1.2.4.tar.gz
+[2023-04-19 10:53:09] INFO root fetch - processPackages [vertica-python]: Downloading https://files.pythonhosted.org/packages/97/2e/5980a65d6966c1294ced62a6092fa1bfedff13eb1f91c16f51931e94f3c8/vertica-python-1.3.2.tar.gz
+[2023-04-19 10:53:09] INFO root fetch - processPackages [npf-web-extension]: Downloading https://files.pythonhosted.org/packages/cf/87/5674ec09a8a0caf1cd4e74125a09b6423710aa8eaac6768b50aca7bf7e73/npf-web-extension-0.3.0.tar.gz
+[2023-04-19 10:53:10] INFO root fetch - processPackages [plotguy]: executing diffoscope
+[2023-04-19 10:53:10] INFO root fetch - processPackages [plotguy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotguy-1.0.4.tar.gz tmp/plotguy-1.0.5.tar.gz --markdown 20230419/p/plotguy/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-19 10:53:10] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-19 10:53:10] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4741337651.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230419/t/th2-grpc-lw-data-provider/2.0.0.dev4741337651-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-19 10:53:10] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-04-19 10:53:10] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.3.tar.gz tmp/hak-1.2.4.tar.gz --markdown 20230419/h/hak/0.0.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-19 10:53:10] INFO root fetch - processPackages [vertica-python]: executing diffoscope
+[2023-04-19 10:53:10] INFO root fetch - processPackages [vertica-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vertica-python-1.3.1.tar.gz tmp/vertica-python-1.3.2.tar.gz --markdown 20230419/v/vertica-python/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-19 10:53:10] INFO root fetch - processPackages [Plone]: Downloading https://files.pythonhosted.org/packages/96/24/1f93b734116e50ad855a6fb06123dad20c6557c3ed6097679cc6b83e15d6/Plone-6.0.3.tar.gz
+[2023-04-19 10:53:10] INFO root fetch - processPackages [macrobond-data-api]: Downloading https://files.pythonhosted.org/packages/ea/00/b11cce1c664a68e5a8d43d9b3e171ce45da84d795f3c54a1fd6eecf3aaea/macrobond-data-api-0.0.9.tar.gz
+[2023-04-19 10:53:10] INFO root fetch - processPackages [npf-web-extension]: executing diffoscope
+[2023-04-19 10:53:10] INFO root fetch - processPackages [npf-web-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npf-web-extension-0.2.3.tar.gz tmp/npf-web-extension-0.3.0.tar.gz --markdown 20230419/n/npf-web-extension/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-04-19 10:53:10] INFO root fetch - processPackages [plone.app.upgrade]: Downloading https://files.pythonhosted.org/packages/d1/c0/7b6d1d1dda5bdb5de8b1b0786f5ebd51281dbcbcdcaab9097b8e0ef46df2/plone.app.upgrade-3.0.3.tar.gz
+[2023-04-19 10:53:10] INFO root fetch - processPackages [Plone]: executing diffoscope
+[2023-04-19 10:53:10] INFO root fetch - processPackages [Plone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Plone-6.0.2.tar.gz tmp/Plone-6.0.3.tar.gz --markdown 20230419/P/Plone/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-04-19 10:53:10] INFO root fetch - processPackages [plone.app.upgrade]: executing diffoscope
+[2023-04-19 10:53:10] INFO root fetch - processPackages [plone.app.upgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.upgrade-3.0.2.tar.gz tmp/plone.app.upgrade-3.0.3.tar.gz --markdown 20230419/p/plone.app.upgrade/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-04-19 10:53:10] INFO root fetch - processPackages [pybites-search]: Downloading https://files.pythonhosted.org/packages/ce/a7/314b4c129aa172fec17bdca8c9f0f182fc0936847c451659c93476763d0a/pybites_search-0.0.9.tar.gz
+[2023-04-19 10:53:10] INFO root fetch - processPackages [macrobond-data-api]: executing diffoscope
+[2023-04-19 10:53:10] INFO root fetch - processPackages [macrobond-data-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrobond-data-api-0.0.8.tar.gz tmp/macrobond-data-api-0.0.9.tar.gz --markdown 20230419/m/macrobond-data-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 10:53:10] INFO root fetch - processPackages [rapidpro-dash]: Downloading https://files.pythonhosted.org/packages/fb/0e/24c9ff9aeb5de4bdba447f2be83c8b05beecbf976cf428913f5275904198/rapidpro-dash-1.9.3.tar.gz
+[2023-04-19 10:53:10] INFO root fetch - processPackages [pybites-search]: executing diffoscope
+[2023-04-19 10:53:10] INFO root fetch - processPackages [pybites-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybites_search-0.0.8.tar.gz tmp/pybites_search-0.0.9.tar.gz --markdown 20230419/p/pybites-search/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 10:53:10] INFO root fetch - processPackages [rapidpro-dash]: executing diffoscope
+[2023-04-19 10:53:10] INFO root fetch - processPackages [rapidpro-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpro-dash-1.9.2.tar.gz tmp/rapidpro-dash-1.9.3.tar.gz --markdown 20230419/r/rapidpro-dash/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-04-19 10:53:11] INFO root fetch - processPackages [Plone]: Start processing: tap-exact
+[2023-04-19 10:53:11] INFO root fetch - main [MainThread]: End processing [Plone]: success
+[2023-04-19 10:53:11] INFO root fetch - processPackages [pybites-search]: Start processing: tccli
+[2023-04-19 10:53:11] INFO root fetch - main [MainThread]: End processing [pybites-search]: success
+[2023-04-19 10:53:11] INFO root fetch - processPackages [tap-exact]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 10:53:11] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-04-19 10:53:12] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-04-19 10:53:12] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230419/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-04-19 10:53:12] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/35/20/54a72fcc9c54de061f269d67dbd20f112cd21d8b0a6dc0e8bcb63f3d20a9/tap_exact-0.1.1.tar.gz
+[2023-04-19 10:53:12] INFO root fetch - processPackages [npf-web-extension]: Start processing: tfp-nightly
+[2023-04-19 10:53:12] INFO root fetch - main [MainThread]: End processing [npf-web-extension]: success
+[2023-04-19 10:53:12] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-04-19 10:53:12] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: etsy3py
+[2023-04-19 10:53:12] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-19 10:53:12] INFO root fetch - processPackages [plone.app.upgrade]: Start processing: django-cradmin
+[2023-04-19 10:53:12] INFO root fetch - main [MainThread]: End processing [plone.app.upgrade]: success
+[2023-04-19 10:53:12] INFO root fetch - processPackages [django-cradmin]: New version: [9.2.0] Old Version: [9.1.0]
+[2023-04-19 10:53:12] WARNING root fetch - processPackages [etsy3py]: Skipping, unable to determine old version
+[2023-04-19 10:53:12] INFO root fetch - processPackages [etsy3py]: Start processing: pyees
+[2023-04-19 10:53:12] INFO root fetch - main [MainThread]: End processing [etsy3py] error
+[2023-04-19 10:53:12] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/d4/4a/cb83b4eb413373970759991ff873a522cdd505d008a15afa16b5d88db3df/tap_exact-0.1.2.tar.gz
+[2023-04-19 10:53:12] INFO root fetch - processPackages [pyees]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-19 10:53:12] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-04-19 10:53:12] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230419/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-04-19 10:53:12] INFO root fetch - processPackages [tap-exact]: executing diffoscope
+[2023-04-19 10:53:12] INFO root fetch - processPackages [tap-exact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_exact-0.1.1.tar.gz tmp/tap_exact-0.1.2.tar.gz --markdown 20230419/t/tap-exact/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 10:53:12] INFO root fetch - processPackages [django-cradmin]: executing diffoscope
+[2023-04-19 10:53:12] INFO root fetch - processPackages [django-cradmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cradmin-9.1.0.tar.gz tmp/django-cradmin-9.2.0.tar.gz --markdown 20230419/d/django-cradmin/9.1.0-9.2.0/diff.md --exclude *.pyd
+[2023-04-19 10:53:12] INFO root fetch - processPackages [pyees]: executing diffoscope
+[2023-04-19 10:53:12] INFO root fetch - processPackages [pyees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyees-1.1.7.tar.gz tmp/pyees-1.1.8.tar.gz --markdown 20230419/p/pyees/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-19 10:53:12] INFO root fetch - processPackages [macrobond-data-api]: Start processing: watchful
+[2023-04-19 10:53:12] INFO root fetch - main [MainThread]: End processing [macrobond-data-api]: success
+[2023-04-19 10:53:12] INFO root fetch - processPackages [watchful]: New version: [3.5.0] Old Version: [3.1.1]
+[2023-04-19 10:53:12] INFO root fetch - main [MainThread]: End processing [plotguy]: success
+[2023-04-19 10:53:12] INFO root fetch - main [MainThread]: End processing [rapidpro-dash]: success
+[2023-04-19 10:53:12] INFO root fetch - processPackages [watchful]: Downloading https://files.pythonhosted.org/packages/f4/92/d22abc6a3612de63a384f051308a08a15a86e01d6eda45dae0edaeeb60e5/watchful-3.1.1.tar.gz
+[2023-04-19 10:53:13] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-04-19 10:53:13] INFO root fetch - processPackages [watchful]: Downloading https://files.pythonhosted.org/packages/5f/de/336156aebedb30a58f19cffc29e700e0ec3c33addfbbfde3ff9d133a4400/watchful-3.5.0.tar.gz
+[2023-04-19 10:53:13] INFO root fetch - processPackages [watchful]: executing diffoscope
+[2023-04-19 10:53:13] INFO root fetch - processPackages [watchful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchful-3.1.1.tar.gz tmp/watchful-3.5.0.tar.gz --markdown 20230419/w/watchful/3.1.1-3.5.0/diff.md --exclude *.pyd
+[2023-04-19 10:53:13] INFO root fetch - main [MainThread]: End processing [tap-exact]: success
+[2023-04-19 10:53:14] INFO root fetch - main [MainThread]: End processing [watchful]: success
+[2023-04-19 10:53:14] INFO root fetch - main [MainThread]: End processing [pyees]: success
+[2023-04-19 10:53:14] INFO root fetch - main [MainThread]: End processing [vertica-python]: success
+[2023-04-19 10:53:16] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-04-19 10:53:25] INFO root fetch - main [MainThread]: End processing [django-cradmin]: success
+[2023-04-19 10:53:27] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-04-19 10:53:27] INFO root fetch - main [MainThread]: Store serial: [17767999]
