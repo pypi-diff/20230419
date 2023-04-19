@@ -13606,3 +13606,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 13:03:38] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-04-19 13:03:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-batch-extended]: success
 [2023-04-19 13:03:46] INFO root fetch - main [MainThread]: Store serial: [17769975]
+[2023-04-19 13:08:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17769975]
+[2023-04-19 13:08:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-19 13:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djpykafka
+[2023-04-19 13:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlalchemy-guid
+[2023-04-19 13:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multiversx-sdk-network-providers
+[2023-04-19 13:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huble
+[2023-04-19 13:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdkit
+[2023-04-19 13:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: strangeworks-braket
+[2023-04-19 13:08:55] INFO root fetch - processPackages [djpykafka]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 13:08:55] INFO root fetch - processPackages [strangeworks-braket]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 13:08:55] INFO root fetch - processPackages [sqlalchemy-guid]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 13:08:55] INFO root fetch - processPackages [multiversx-sdk-network-providers]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-04-19 13:08:55] INFO root fetch - processPackages [huble]: New version: [0.2.293] Old Version: [0.2.2922]
+[2023-04-19 13:08:55] INFO root fetch - processPackages [sdkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 13:08:55] INFO root fetch - processPackages [djpykafka]: executing diffoscope
+[2023-04-19 13:08:55] INFO root fetch - processPackages [djpykafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djpykafka-0.0.8.tar.gz tmp/djpykafka-0.0.9.tar.gz --markdown 20230419/d/djpykafka/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 13:08:55] INFO root fetch - processPackages [strangeworks-braket]: executing diffoscope
+[2023-04-19 13:08:55] INFO root fetch - processPackages [strangeworks-braket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_braket-1.0.0.tar.gz tmp/strangeworks_braket-1.0.1.tar.gz --markdown 20230419/s/strangeworks-braket/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 13:08:55] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-04-19 13:08:55] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.8.tar.gz tmp/sdkit-1.0.9.tar.gz --markdown 20230419/s/sdkit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 13:08:55] INFO root fetch - processPackages [sqlalchemy-guid]: Downloading https://files.pythonhosted.org/packages/25/8d/33420fabf8931ff72eb93a52c615bdd18a4f6b0a2ab59b7dc083434e4a21/sqlalchemy_guid-1.0.0.tar.gz
+[2023-04-19 13:08:55] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Downloading https://files.pythonhosted.org/packages/8d/b9/90a1ac570d4da24e6e75b4558bb97a5115499cfeddc2ebf2abaebc352418/multiversx_sdk_network_providers-0.6.9.tar.gz
+[2023-04-19 13:08:55] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/ff/0a/77585c748d0dcf69371904fb7168376d67687e676f22ffdb8028d78706be/huble-0.2.293.tar.gz
+[2023-04-19 13:08:55] INFO root fetch - processPackages [sqlalchemy-guid]: Downloading https://files.pythonhosted.org/packages/ea/5d/dc6461501d877dcddf75a3c7e19430189c49abeea50b7401b97d7c91d0df/sqlalchemy_guid-1.0.1.tar.gz
+[2023-04-19 13:08:55] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-19 13:08:55] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.2922.tar.gz tmp/huble-0.2.293.tar.gz --markdown 20230419/h/huble/0.2.2922-0.2.293/diff.md --exclude *.pyd
+[2023-04-19 13:08:56] INFO root fetch - processPackages [sqlalchemy-guid]: executing diffoscope
+[2023-04-19 13:08:56] INFO root fetch - processPackages [sqlalchemy-guid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_guid-1.0.0.tar.gz tmp/sqlalchemy_guid-1.0.1.tar.gz --markdown 20230419/s/sqlalchemy-guid/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 13:08:56] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Downloading https://files.pythonhosted.org/packages/dd/d3/f85ada3a6a203790037c544d180db704537014af690edefb229a6d52c8de/multiversx_sdk_network_providers-0.7.0.tar.gz
+[2023-04-19 13:08:56] INFO root fetch - processPackages [multiversx-sdk-network-providers]: executing diffoscope
+[2023-04-19 13:08:56] INFO root fetch - processPackages [multiversx-sdk-network-providers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_network_providers-0.6.9.tar.gz tmp/multiversx_sdk_network_providers-0.7.0.tar.gz --markdown 20230419/m/multiversx-sdk-network-providers/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-04-19 13:08:56] INFO root fetch - main [MainThread]: End processing [djpykafka]: success
+[2023-04-19 13:08:56] INFO root fetch - main [MainThread]: End processing [strangeworks-braket]: success
+[2023-04-19 13:08:56] INFO root fetch - main [MainThread]: End processing [sqlalchemy-guid]: success
+[2023-04-19 13:08:57] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-network-providers]: success
+[2023-04-19 13:08:57] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-04-19 13:08:57] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-19 13:08:57] INFO root fetch - main [MainThread]: Store serial: [17769993]
