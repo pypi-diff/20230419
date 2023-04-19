@@ -3841,3 +3841,70 @@
 [2023-04-19 02:45:38] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
 [2023-04-19 02:45:41] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-04-19 02:45:41] INFO root fetch - main [MainThread]: Store serial: [17764354]
+[2023-04-19 02:50:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17764354]
+[2023-04-19 02:50:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-19 02:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nzshm-common
+[2023-04-19 02:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gEconpy
+[2023-04-19 02:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xlibs
+[2023-04-19 02:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kubric-nightly
+[2023-04-19 02:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte
+[2023-04-19 02:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metapype
+[2023-04-19 02:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: projen
+[2023-04-19 02:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prettyqt
+[2023-04-19 02:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-databrew-cicd
+[2023-04-19 02:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pykrak
+[2023-04-19 02:50:50] INFO root fetch - processPackages [xlibs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-19 02:50:50] INFO root fetch - processPackages [metapype]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 02:50:50] INFO root fetch - processPackages [airbyte]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-19 02:50:50] INFO root fetch - processPackages [gEconpy]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-19 02:50:50] INFO root fetch - processPackages [nzshm-common]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-19 02:50:50] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-19 02:50:50] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-19 02:50:50] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-19 02:50:50] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-04-19 02:50:50] ERROR root fetch - processPackages [pykrak]: Unable to get metadata: No such project 'pykrak'
+[2023-04-19 02:50:50] INFO root fetch - processPackages [pykrak]: Start processing: movie-bot-api
+[2023-04-19 02:50:50] INFO root fetch - main [MainThread]: End processing [pykrak] error
+[2023-04-19 02:50:50] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-04-19 02:50:50] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.4.8.tar.gz tmp/kubric-nightly-2023.4.9.tar.gz --markdown 20230419/k/kubric-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-19 02:50:50] INFO root fetch - processPackages [movie-bot-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 02:50:50] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-04-19 02:50:50] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230419/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-19 02:50:50] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-04-19 02:50:50] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230419/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-19 02:50:50] INFO root fetch - processPackages [nzshm-common]: Downloading https://files.pythonhosted.org/packages/7c/01/95edb9f6bab9feda819d5e8da9476409dcf121a5838b56883e06cde917c6/nzshm_common-0.6.0.tar.gz
+[2023-04-19 02:50:50] INFO root fetch - processPackages [xlibs]: Downloading https://files.pythonhosted.org/packages/d2/9e/582adeee7345feae649751e89796876011d38657318dd89a067b94a5835b/xlibs-0.0.5-py3-none-any.whl
+[2023-04-19 02:50:50] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-04-19 02:50:50] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230419/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-04-19 02:50:50] INFO root fetch - processPackages [metapype]: Downloading https://files.pythonhosted.org/packages/e9/1c/a9f89bb59aad2f3bfc9e2a1dd10e40a4036df9680f19af669de35ead554a/metapype-0.0.8.tar.gz
+[2023-04-19 02:50:50] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/cd/ac/8e3edcea6877712885b725c119548d21cba25e9c9417f07b1be5d683b092/airbyte-1.2.2.tar.gz
+[2023-04-19 02:50:50] INFO root fetch - processPackages [movie-bot-api]: executing diffoscope
+[2023-04-19 02:50:50] INFO root fetch - processPackages [movie-bot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movie-bot-api-0.0.8.tar.gz tmp/movie-bot-api-0.0.9.tar.gz --markdown 20230419/m/movie-bot-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 02:50:50] INFO root fetch - processPackages [xlibs]: executing diffoscope
+[2023-04-19 02:50:50] INFO root fetch - processPackages [xlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlibs-0.0.4-py3-none-any.whl.zip tmp/xlibs-0.0.5-py3-none-any.whl.zip --markdown 20230419/x/xlibs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-19 02:50:50] INFO root fetch - processPackages [gEconpy]: Downloading https://files.pythonhosted.org/packages/c9/c7/b8cf1a9d96c89efee428855660c9142023d02340f5a720ca24aabbe4ae22/gEconpy-1.2.1.tar.gz
+[2023-04-19 02:50:50] INFO root fetch - processPackages [nzshm-common]: executing diffoscope
+[2023-04-19 02:50:50] INFO root fetch - processPackages [nzshm-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nzshm_common-0.5.1.tar.gz tmp/nzshm_common-0.6.0.tar.gz --markdown 20230419/n/nzshm-common/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-04-19 02:50:50] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-04-19 02:50:50] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.2.1.tar.gz tmp/airbyte-1.2.2.tar.gz --markdown 20230419/a/airbyte/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-19 02:50:50] INFO root fetch - processPackages [gEconpy]: executing diffoscope
+[2023-04-19 02:50:50] INFO root fetch - processPackages [gEconpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gEconpy-1.2.0.tar.gz tmp/gEconpy-1.2.1.tar.gz --markdown 20230419/g/gEconpy/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-19 02:50:51] INFO root fetch - processPackages [metapype]: Downloading https://files.pythonhosted.org/packages/53/cc/cf4a4414d1d1678518c3f8e4e364e2c406cc8dc2d4964658c2f3c44b5905/metapype-0.0.9.tar.gz
+[2023-04-19 02:50:51] INFO root fetch - processPackages [metapype]: executing diffoscope
+[2023-04-19 02:50:51] INFO root fetch - processPackages [metapype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metapype-0.0.8.tar.gz tmp/metapype-0.0.9.tar.gz --markdown 20230419/m/metapype/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 02:50:52] INFO root fetch - processPackages [xlibs]: Start processing: datumaro
+[2023-04-19 02:50:52] INFO root fetch - main [MainThread]: End processing [xlibs]: success
+[2023-04-19 02:50:52] INFO root fetch - processPackages [datumaro]: New version: [1.2.0rc2] Old Version: [1.2.0rc1]
+[2023-04-19 02:50:52] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-04-19 02:50:52] INFO root fetch - main [MainThread]: End processing [movie-bot-api]: success
+[2023-04-19 02:50:52] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2023-04-19 02:50:52] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.2.0rc1.tar.gz tmp/datumaro-1.2.0rc2.tar.gz --markdown 20230419/d/datumaro/1.2.0rc1-1.2.0rc2/diff.md --exclude *.pyd
+[2023-04-19 02:50:52] INFO root fetch - main [MainThread]: End processing [gEconpy]: success
+[2023-04-19 02:50:52] INFO root fetch - main [MainThread]: End processing [nzshm-common]: success
+[2023-04-19 02:50:53] INFO root fetch - main [MainThread]: End processing [metapype]: success
+[2023-04-19 02:50:53] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-04-19 02:50:54] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-04-19 02:50:55] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2023-04-19 02:50:55] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-04-19 02:51:02] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-04-19 02:51:02] INFO root fetch - main [MainThread]: Store serial: [17764395]
