@@ -9308,3 +9308,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 09:48:44] INFO root fetch - main [MainThread]: End processing [resolwe]: success
 [2023-04-19 09:48:47] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-04-19 09:48:47] INFO root fetch - main [MainThread]: Store serial: [17767315]
+[2023-04-19 09:53:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17767315]
+[2023-04-19 09:53:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-19 09:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: act-scio
+[2023-04-19 09:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-report-qweb-element-page-visibility
+[2023-04-19 09:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpush
+[2023-04-19 09:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eQTac
+[2023-04-19 09:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bitkub-v2
+[2023-04-19 09:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly-cpu
+[2023-04-19 09:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vdk-gdp-execution-id
+[2023-04-19 09:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Geode-Common
+[2023-04-19 09:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: topologicpy
+[2023-04-19 09:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: personal-lib
+[2023-04-19 09:53:57] WARNING root fetch - processPackages [eQTac]: Skipping, unable to determine old version
+[2023-04-19 09:53:57] INFO root fetch - processPackages [eQTac]: Start processing: pyraisdk-test
+[2023-04-19 09:53:57] INFO root fetch - main [MainThread]: End processing [eQTac] error
+[2023-04-19 09:53:57] INFO root fetch - processPackages [gpush]: New version: [3.0.0] Old Version: [2.1.1]
+[2023-04-19 09:53:57] INFO root fetch - processPackages [Geode-Common]: New version: [25.0.1] Old Version: [25.0.0]
+[2023-04-19 09:53:57] INFO root fetch - processPackages [act-scio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 09:53:57] INFO root fetch - processPackages [odoo13-addon-report-qweb-element-page-visibility]: New version: [13.0.1.1.0] Old Version: [13.0.1.0.1.dev3]
+[2023-04-19 09:53:57] INFO root fetch - processPackages [topologicpy]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-19 09:53:57] WARNING root fetch - processPackages [bitkub-v2]: Skipping, unable to determine old version
+[2023-04-19 09:53:57] INFO root fetch - processPackages [bitkub-v2]: Start processing: blitzactions
+[2023-04-19 09:53:57] INFO root fetch - main [MainThread]: End processing [bitkub-v2] error
+[2023-04-19 09:53:57] WARNING root fetch - processPackages [vdk-gdp-execution-id]: Skipping, unable to determine old version
+[2023-04-19 09:53:57] INFO root fetch - processPackages [vdk-gdp-execution-id]: Start processing: newsfeedback
+[2023-04-19 09:53:57] INFO root fetch - processPackages [personal-lib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 09:53:57] INFO root fetch - main [MainThread]: End processing [vdk-gdp-execution-id] error
+[2023-04-19 09:53:57] INFO root fetch - processPackages [pyraisdk-test]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 09:53:57] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.13.0.dev20230419] Old Version: [2.13.0.dev20230418]
+[2023-04-19 09:53:57] INFO root fetch - processPackages [gpush]: executing diffoscope
+[2023-04-19 09:53:57] INFO root fetch - processPackages [gpush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpush-2.1.1.tar.gz tmp/gpush-3.0.0.tar.gz --markdown 20230419/g/gpush/2.1.1-3.0.0/diff.md --exclude *.pyd
+[2023-04-19 09:53:57] WARNING root fetch - processPackages [blitzactions]: Skipping, unable to determine old version
+[2023-04-19 09:53:57] INFO root fetch - main [MainThread]: End processing [blitzactions] error
+[2023-04-19 09:53:57] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2023-04-19 09:53:57] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-25.0.0-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-25.0.1-cp39-cp39-win_amd64.whl.zip --markdown 20230419/G/Geode-Common/25.0.0-25.0.1/diff.md --exclude *.pyd
+[2023-04-19 09:53:57] WARNING root fetch - processPackages [newsfeedback]: Skipping, unable to determine old version
+[2023-04-19 09:53:57] INFO root fetch - main [MainThread]: End processing [newsfeedback] error
+[2023-04-19 09:53:57] INFO root fetch - processPackages [act-scio]: Downloading https://files.pythonhosted.org/packages/cc/79/b3ecb2e35635fe3751ab12fe4d5e551974a5253e8355ed5d23cf96be3d2b/act-scio-0.0.8.tar.gz
+[2023-04-19 09:53:57] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/40/f4/2033fbe4b457e006e37e0b28c1182d16ef8866c100cc74ca81c67af2993a/topologicpy-0.4.5.tar.gz
+[2023-04-19 09:53:57] INFO root fetch - processPackages [odoo13-addon-report-qweb-element-page-visibility]: Downloading https://files.pythonhosted.org/packages/fb/83/f9d2da5bfb045370a8f87c9203e918d05c163bad93e83a8d7c3c3fe1f2ca/odoo13_addon_report_qweb_element_page_visibility-13.0.1.0.1.dev3-py3-none-any.whl
+[2023-04-19 09:53:57] INFO root fetch - processPackages [personal-lib]: Downloading https://files.pythonhosted.org/packages/ab/1d/65c2ff533f47eb76db7e4c0dd86701dc49c711417768c5140362bfec1af2/personal_lib-1.0.8.tar.gz
+[2023-04-19 09:53:57] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34019530>=10485760
+[2023-04-19 09:53:57] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-04-19 09:53:57] INFO root fetch - processPackages [pyraisdk-test]: executing diffoscope
+[2023-04-19 09:53:57] INFO root fetch - processPackages [pyraisdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyraisdk_test-0.2.8.tar.gz tmp/pyraisdk_test-0.2.9.tar.gz --markdown 20230419/p/pyraisdk-test/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 09:53:57] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/51/5b/adbce9708ebb825bdba8752212a31aee1d8ae00a449d999e433054978763/tf_nightly_cpu-2.13.0.dev20230419-cp39-cp39-win_amd64.whl
+[2023-04-19 09:53:57] INFO root fetch - processPackages [odoo13-addon-report-qweb-element-page-visibility]: Downloading https://files.pythonhosted.org/packages/f4/7b/bf6b54bed78708a32dba5ab4b7177424b53a5e07192274f0e39408a68ae3/odoo13_addon_report_qweb_element_page_visibility-13.0.1.1.0-py3-none-any.whl
+[2023-04-19 09:53:57] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-04-19 09:53:57] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.13.0.dev20230418-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.13.0.dev20230419-cp39-cp39-win_amd64.whl.zip --markdown 20230419/t/tf-nightly-cpu/2.13.0.dev20230418-2.13.0.dev20230419/diff.md --exclude *.pyd
+[2023-04-19 09:53:57] INFO root fetch - processPackages [personal-lib]: Downloading https://files.pythonhosted.org/packages/28/ec/860f13c14996fb49d9f36d8baefd4ba75ea23257154fbb9aa3d429aca44f/personal_lib-1.0.9.tar.gz
+[2023-04-19 09:53:57] INFO root fetch - processPackages [odoo13-addon-report-qweb-element-page-visibility]: executing diffoscope
+[2023-04-19 09:53:57] INFO root fetch - processPackages [odoo13-addon-report-qweb-element-page-visibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_report_qweb_element_page_visibility-13.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo13_addon_report_qweb_element_page_visibility-13.0.1.1.0-py3-none-any.whl.zip --markdown 20230419/o/odoo13-addon-report-qweb-element-page-visibility/13.0.1.0.1.dev3-13.0.1.1.0/diff.md --exclude *.pyd
+[2023-04-19 09:53:58] INFO root fetch - processPackages [personal-lib]: executing diffoscope
+[2023-04-19 09:53:58] INFO root fetch - processPackages [personal-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/personal_lib-1.0.8.tar.gz tmp/personal_lib-1.0.9.tar.gz --markdown 20230419/p/personal-lib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 09:53:58] INFO root fetch - processPackages [act-scio]: Downloading https://files.pythonhosted.org/packages/4e/5f/3f6f35286ec7966992c930e83b49be860cd2820687276994905004881d87/act-scio-0.0.9.tar.gz
+[2023-04-19 09:53:58] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2023-04-19 09:53:58] INFO root fetch - main [MainThread]: End processing [gpush]: success
+[2023-04-19 09:53:58] INFO root fetch - processPackages [act-scio]: executing diffoscope
+[2023-04-19 09:53:58] INFO root fetch - processPackages [act-scio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/act-scio-0.0.8.tar.gz tmp/act-scio-0.0.9.tar.gz --markdown 20230419/a/act-scio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 09:53:59] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-04-19 09:53:59] INFO root fetch - main [MainThread]: End processing [personal-lib]: success
+[2023-04-19 09:53:59] INFO root fetch - main [MainThread]: End processing [odoo13-addon-report-qweb-element-page-visibility]: success
+[2023-04-19 09:53:59] INFO root fetch - main [MainThread]: End processing [pyraisdk-test]: success
+[2023-04-19 09:54:00] INFO root fetch - main [MainThread]: End processing [act-scio]: success
+[2023-04-19 09:54:00] INFO root fetch - main [MainThread]: Store serial: [17767365]
