@@ -7954,3 +7954,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 08:11:30] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-04-19 08:11:38] INFO root fetch - main [MainThread]: End processing [shiny-mdc]: success
 [2023-04-19 08:11:38] INFO root fetch - main [MainThread]: Store serial: [17766517]
+[2023-04-19 08:16:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766517]
+[2023-04-19 08:16:47] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-19 08:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-purchase-landed-cost
+[2023-04-19 08:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbase
+[2023-04-19 08:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: selenium-base
+[2023-04-19 08:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-seleniumbase
+[2023-04-19 08:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-purchase-landed-cost
+[2023-04-19 08:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-sbase
+[2023-04-19 08:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-analytics-reference-architecture
+[2023-04-19 08:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: checkov
+[2023-04-19 08:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ibm-metrics-plugin
+[2023-04-19 08:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: geoapivietnam
+[2023-04-19 08:16:47] INFO root fetch - processPackages [odoo13-addon-purchase-landed-cost]: New version: [13.0.1.2.1.dev2] Old Version: [13.0.1.2.1.dev1]
+[2023-04-19 08:16:47] INFO root fetch - processPackages [odoo12-addon-purchase-landed-cost]: New version: [12.0.1.1.1.99.dev4] Old Version: [12.0.1.1.1.99.dev3]
+[2023-04-19 08:16:47] INFO root fetch - processPackages [geoapivietnam]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-19 08:16:47] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-19 08:16:47] INFO root fetch - processPackages [aws-analytics-reference-architecture]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-04-19 08:16:47] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-19 08:16:47] INFO root fetch - processPackages [ibm-metrics-plugin]: New version: [4.6.5.8] Old Version: [4.6.4.7]
+[2023-04-19 08:16:47] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-19 08:16:47] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-19 08:16:47] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-19 08:16:47] INFO root fetch - processPackages [odoo13-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/eb/a9/5fb21a56fc5940fc0b2d4cf15f8e571bc931f5f5650f70ad5ea8e6c3274c/odoo13_addon_purchase_landed_cost-13.0.1.2.1.dev1-py3-none-any.whl
+[2023-04-19 08:16:47] INFO root fetch - processPackages [geoapivietnam]: Downloading https://files.pythonhosted.org/packages/23/1c/82668cde6345732a610f5cbe18d42874aef77ddc006f424c1579994c0c15/geoapivietnam-0.3.1-py3-none-any.whl
+[2023-04-19 08:16:47] INFO root fetch - processPackages [odoo12-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/f8/0f/792a62efcb68a15d539f3c2234d96855aa0ed81aa34b27c65c8d0bf7c210/odoo12_addon_purchase_landed_cost-12.0.1.1.1.99.dev3-py3-none-any.whl
+[2023-04-19 08:16:47] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Downloading https://files.pythonhosted.org/packages/7f/74/01367f91346a335e5fb9b3a3291479bffa37ddc069e2203901405a618ac8/aws_analytics_reference_architecture-2.9.7.tar.gz
+[2023-04-19 08:16:47] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-19 08:16:47] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230419/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-19 08:16:47] INFO root fetch - processPackages [ibm-metrics-plugin]: Downloading https://files.pythonhosted.org/packages/e1/cd/d089f6db340c83eb363ba4a9fc1b815784abf5d7693d94bd7ff272b8f575/ibm_metrics_plugin-4.6.4.7-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-04-19 08:16:47] WARNING root fetch - processPackages [aws-analytics-reference-architecture]: Skipping package: exceeds size limit 118613863>=10485760
+[2023-04-19 08:16:47] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Start processing: odoo13-addons-oca-purchase-workflow
+[2023-04-19 08:16:47] INFO root fetch - main [MainThread]: End processing [aws-analytics-reference-architecture] error
+[2023-04-19 08:16:48] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: New version: [13.0.20230418.0] Old Version: [13.0.20230109.1]
+[2023-04-19 08:16:48] WARNING root fetch - processPackages [ibm-metrics-plugin]: Skipping package: exceeds size limit 24186866>=10485760
+[2023-04-19 08:16:48] INFO root fetch - processPackages [ibm-metrics-plugin]: Start processing: MeNLP
+[2023-04-19 08:16:48] INFO root fetch - main [MainThread]: End processing [ibm-metrics-plugin] error
+[2023-04-19 08:16:48] WARNING root fetch - processPackages [MeNLP]: Skipping, unable to determine old version
+[2023-04-19 08:16:48] INFO root fetch - processPackages [MeNLP]: Start processing: fireorm-repository
+[2023-04-19 08:16:48] INFO root fetch - main [MainThread]: End processing [MeNLP] error
+[2023-04-19 08:16:48] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-04-19 08:16:48] INFO root fetch - processPackages [geoapivietnam]: Downloading https://files.pythonhosted.org/packages/94/3c/ecba5aacb58d90adc7ecf5f70647f9d499dec04bf85755b11e8d13aa4322/geoapivietnam-0.3.2-py3-none-any.whl
+[2023-04-19 08:16:48] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230419/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-19 08:16:48] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-04-19 08:16:48] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230419/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-19 08:16:48] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-04-19 08:16:48] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230419/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-19 08:16:48] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-04-19 08:16:48] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230419/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-19 08:16:48] INFO root fetch - processPackages [odoo13-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/26/32/6cb1114dae84a5638bf79783969e24f5976c7ef7e284746a2aa40566e0bf/odoo13_addon_purchase_landed_cost-13.0.1.2.1.dev2-py3-none-any.whl
+[2023-04-19 08:16:48] INFO root fetch - processPackages [odoo12-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/97/62/9ebdebf4c193c5cd9814fa3be4e3275cf1f73b50799ea29445a965408b3f/odoo12_addon_purchase_landed_cost-12.0.1.1.1.99.dev4-py3-none-any.whl
+[2023-04-19 08:16:48] INFO root fetch - processPackages [fireorm-repository]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 08:16:48] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/59/d0/7fa085d681a88d73c7530b17a3ceb003f201fc786ef67d7773f92b64d29b/odoo13_addons_oca_purchase_workflow-13.0.20230109.1-py3-none-any.whl
+[2023-04-19 08:16:48] INFO root fetch - processPackages [geoapivietnam]: executing diffoscope
+[2023-04-19 08:16:48] INFO root fetch - processPackages [geoapivietnam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoapivietnam-0.3.1-py3-none-any.whl.zip tmp/geoapivietnam-0.3.2-py3-none-any.whl.zip --markdown 20230419/g/geoapivietnam/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-19 08:16:48] INFO root fetch - processPackages [odoo13-addon-purchase-landed-cost]: executing diffoscope
+[2023-04-19 08:16:48] INFO root fetch - processPackages [odoo13-addon-purchase-landed-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_landed_cost-13.0.1.2.1.dev1-py3-none-any.whl.zip tmp/odoo13_addon_purchase_landed_cost-13.0.1.2.1.dev2-py3-none-any.whl.zip --markdown 20230419/o/odoo13-addon-purchase-landed-cost/13.0.1.2.1.dev1-13.0.1.2.1.dev2/diff.md --exclude *.pyd
+[2023-04-19 08:16:48] INFO root fetch - processPackages [odoo12-addon-purchase-landed-cost]: executing diffoscope
+[2023-04-19 08:16:48] INFO root fetch - processPackages [odoo12-addon-purchase-landed-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_purchase_landed_cost-12.0.1.1.1.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_purchase_landed_cost-12.0.1.1.1.99.dev4-py3-none-any.whl.zip --markdown 20230419/o/odoo12-addon-purchase-landed-cost/12.0.1.1.1.99.dev3-12.0.1.1.1.99.dev4/diff.md --exclude *.pyd
+[2023-04-19 08:16:48] INFO root fetch - processPackages [fireorm-repository]: Downloading https://files.pythonhosted.org/packages/83/4a/18ca6e87f40965c9080eba332a0389839f00fded951eafe124ac2d70c913/fireorm-repository-1.0.8.tar.gz
+[2023-04-19 08:16:48] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/8e/27/bc4dd4d7ca0c6695a676f2b2102f9ca3182bf4f03dd6fa3d0c5bd0b6af85/odoo13_addons_oca_purchase_workflow-13.0.20230418.0-py3-none-any.whl
+[2023-04-19 08:16:48] INFO root fetch - processPackages [fireorm-repository]: Downloading https://files.pythonhosted.org/packages/45/3f/5f50b0e4e54ec8c43be1a515f81d12ed4e1b02f0937083bd0d26dbb03903/fireorm-repository-1.0.9.tar.gz
+[2023-04-19 08:16:48] INFO root fetch - processPackages [fireorm-repository]: executing diffoscope
+[2023-04-19 08:16:48] INFO root fetch - processPackages [fireorm-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireorm-repository-1.0.8.tar.gz tmp/fireorm-repository-1.0.9.tar.gz --markdown 20230419/f/fireorm-repository/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 08:16:48] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: executing diffoscope
+[2023-04-19 08:16:48] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_purchase_workflow-13.0.20230109.1-py3-none-any.whl.zip tmp/odoo13_addons_oca_purchase_workflow-13.0.20230418.0-py3-none-any.whl.zip --markdown 20230419/o/odoo13-addons-oca-purchase-workflow/13.0.20230109.1-13.0.20230418.0/diff.md --exclude *.pyd
+[2023-04-19 08:16:49] INFO root fetch - processPackages [sbase]: Start processing: odoo-addon-purchase-quick
+[2023-04-19 08:16:49] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-04-19 08:16:49] INFO root fetch - processPackages [selenium-base]: Start processing: odoo-addon-purchase-line-procurement-group
+[2023-04-19 08:16:49] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-04-19 08:16:49] WARNING root fetch - processPackages [odoo-addon-purchase-line-procurement-group]: Skipping, unable to determine old version
+[2023-04-19 08:16:49] INFO root fetch - processPackages [odoo-addon-purchase-line-procurement-group]: Start processing: odoo-addon-purchase-advance-payment
+[2023-04-19 08:16:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-line-procurement-group] error
+[2023-04-19 08:16:49] INFO root fetch - processPackages [odoo-addon-purchase-quick]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-04-19 08:16:49] INFO root fetch - processPackages [odoo-addon-purchase-advance-payment]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-04-19 08:16:49] INFO root fetch - processPackages [odoo-addon-purchase-quick]: Downloading https://files.pythonhosted.org/packages/f6/a2/15dba62b45afc87ccca306e6ba55b72d2ee0575f6856fb7c8014160e67a6/odoo_addon_purchase_quick-15.0.1.0.0.4-py3-none-any.whl
+[2023-04-19 08:16:49] INFO root fetch - processPackages [odoo-addon-purchase-advance-payment]: Downloading https://files.pythonhosted.org/packages/ff/56/dc8d5e85ae298b8b395b2896575adfdfe18b911ca05d0773240528bbe57b/odoo_addon_purchase_advance_payment-16.0.1.0.0.3-py3-none-any.whl
+[2023-04-19 08:16:50] INFO root fetch - processPackages [odoo12-addon-purchase-landed-cost]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-04-19 08:16:50] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-landed-cost]: success
+[2023-04-19 08:16:50] INFO root fetch - processPackages [fireorm-repository]: Start processing: viddiffusion
+[2023-04-19 08:16:50] INFO root fetch - main [MainThread]: End processing [fireorm-repository]: success
+[2023-04-19 08:16:50] INFO root fetch - processPackages [odoo13-addons-oca-purchase-workflow]: Start processing: dcg-analytics-log
+[2023-04-19 08:16:50] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-purchase-workflow]: success
+[2023-04-19 08:16:50] INFO root fetch - processPackages [odoo-addon-purchase-quick]: Downloading https://files.pythonhosted.org/packages/63/53/52d41ca79a12c9b33c435073efad491aca2662444941c0625417a380a189/odoo_addon_purchase_quick-15.0.1.0.0.5-py3-none-any.whl
+[2023-04-19 08:16:50] INFO root fetch - processPackages [pytest-seleniumbase]: Start processing: viddiffusion
+[2023-04-19 08:16:50] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-04-19 08:16:50] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-landed-cost]: success
+[2023-04-19 08:16:50] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230418.1] Old Version: [16.0.20230323.3]
+[2023-04-19 08:16:50] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-04-19 08:16:50] INFO root fetch - processPackages [viddiffusion]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 08:16:50] INFO root fetch - processPackages [viddiffusion]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 08:16:50] WARNING root fetch - processPackages [dcg-analytics-log]: Skipping, unable to determine old version
+[2023-04-19 08:16:50] INFO root fetch - main [MainThread]: End processing [dcg-analytics-log] error
+[2023-04-19 08:16:50] INFO root fetch - processPackages [odoo-addon-purchase-advance-payment]: Downloading https://files.pythonhosted.org/packages/d1/3e/dcd9d1c39897676e0fa76ffe3c94058c5f6aba8baae55bf8a2b7ff1091ce/odoo_addon_purchase_advance_payment-16.0.1.0.0.5-py3-none-any.whl
+[2023-04-19 08:16:50] INFO root fetch - processPackages [odoo-addon-purchase-quick]: executing diffoscope
+[2023-04-19 08:16:50] INFO root fetch - processPackages [odoo-addon-purchase-quick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_quick-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_purchase_quick-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-purchase-quick/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-04-19 08:16:50] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/05/1a/3517095e20104598613004bc2000e8e56c8ef42d575dce6f260146128015/odoo_addons_oca_purchase_workflow-16.0.20230323.3-py3-none-any.whl
+[2023-04-19 08:16:50] INFO root fetch - processPackages [viddiffusion]: Downloading https://files.pythonhosted.org/packages/90/12/b6397dc2d76562823e1235918658eea97d36b3eed334b421ed3da32eb2db/viddiffusion-0.1.0.tar.gz
+[2023-04-19 08:16:50] INFO root fetch - processPackages [viddiffusion]: Downloading https://files.pythonhosted.org/packages/90/12/b6397dc2d76562823e1235918658eea97d36b3eed334b421ed3da32eb2db/viddiffusion-0.1.0.tar.gz
+[2023-04-19 08:16:50] INFO root fetch - processPackages [odoo-addon-purchase-advance-payment]: executing diffoscope
+[2023-04-19 08:16:50] INFO root fetch - processPackages [odoo-addon-purchase-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_advance_payment-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_advance_payment-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-purchase-advance-payment/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-04-19 08:16:50] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/64/8d/038e52f3788942f60d8b4ef309e8057e36ad539fbc0549e4b5819e44a92f/odoo_addons_oca_purchase_workflow-16.0.20230418.1-py3-none-any.whl
+[2023-04-19 08:16:50] INFO root fetch - processPackages [viddiffusion]: Downloading https://files.pythonhosted.org/packages/ed/ee/98f5026f4e8e8b8bf7133fe4bbed62360807d9d9f0dcd0af8a9f98d38a8d/viddiffusion-0.1.1.tar.gz
+[2023-04-19 08:16:50] INFO root fetch - processPackages [viddiffusion]: Downloading https://files.pythonhosted.org/packages/ed/ee/98f5026f4e8e8b8bf7133fe4bbed62360807d9d9f0dcd0af8a9f98d38a8d/viddiffusion-0.1.1.tar.gz
+[2023-04-19 08:16:50] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-04-19 08:16:50] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230323.3-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230418.1-py3-none-any.whl.zip --markdown 20230419/o/odoo-addons-oca-purchase-workflow/16.0.20230323.3-16.0.20230418.1/diff.md --exclude *.pyd
+[2023-04-19 08:16:50] INFO root fetch - main [MainThread]: End processing [geoapivietnam]: success
+[2023-04-19 08:16:50] INFO root fetch - processPackages [viddiffusion]: executing diffoscope
+[2023-04-19 08:16:50] INFO root fetch - processPackages [viddiffusion]: executing diffoscope
+[2023-04-19 08:16:50] INFO root fetch - processPackages [viddiffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viddiffusion-0.1.0.tar.gz tmp/viddiffusion-0.1.1.tar.gz --markdown 20230419/v/viddiffusion/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 08:16:50] INFO root fetch - processPackages [viddiffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viddiffusion-0.1.0.tar.gz tmp/viddiffusion-0.1.1.tar.gz --markdown 20230419/v/viddiffusion/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 08:16:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-quick]: success
+[2023-04-19 08:16:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-advance-payment]: success
+[2023-04-19 08:16:51] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-04-19 08:16:52] INFO root fetch - main [MainThread]: End processing [viddiffusion]: success
+[2023-04-19 08:16:52] INFO root fetch - main [MainThread]: End processing [viddiffusion]: success
+[2023-04-19 08:17:31] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-19 08:17:31] INFO root fetch - main [MainThread]: Store serial: [17766581]
