@@ -20698,3 +20698,107 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 19:08:01] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2023-04-19 19:08:02] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-04-19 19:08:02] INFO root fetch - main [MainThread]: Store serial: [17774248]
+[2023-04-19 19:13:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17774248]
+[2023-04-19 19:13:12] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-19 19:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyuvm
+[2023-04-19 19:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-tunnels2
+[2023-04-19 19:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autoplot
+[2023-04-19 19:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dg-commons
+[2023-04-19 19:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minigpt4
+[2023-04-19 19:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiopinecone
+[2023-04-19 19:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudify-utilities-plugins-sdk
+[2023-04-19 19:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: djlint
+[2023-04-19 19:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupysql
+[2023-04-19 19:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apache-bookkeeper-client
+[2023-04-19 19:13:12] INFO root fetch - processPackages [dg-commons]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-04-19 19:13:12] INFO root fetch - processPackages [pyuvm]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-04-19 19:13:12] WARNING root fetch - processPackages [minigpt4]: Skipping, unable to determine old version
+[2023-04-19 19:13:12] INFO root fetch - processPackages [minigpt4]: Start processing: shandy-sqlfmt
+[2023-04-19 19:13:12] INFO root fetch - processPackages [autoplot]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-19 19:13:12] INFO root fetch - main [MainThread]: End processing [minigpt4] error
+[2023-04-19 19:13:12] INFO root fetch - processPackages [apache-bookkeeper-client]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-04-19 19:13:12] INFO root fetch - processPackages [netbox-tunnels2]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-19 19:13:12] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 19:13:12] WARNING root fetch - processPackages [aiopinecone]: Skipping, unable to determine old version
+[2023-04-19 19:13:12] INFO root fetch - processPackages [aiopinecone]: Start processing: finbourne-identity-sdk
+[2023-04-19 19:13:12] INFO root fetch - main [MainThread]: End processing [aiopinecone] error
+[2023-04-19 19:13:12] INFO root fetch - processPackages [jupysql]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-19 19:13:12] INFO root fetch - processPackages [shandy-sqlfmt]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 19:13:12] INFO root fetch - processPackages [djlint]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-19 19:13:12] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2393]
+[2023-04-19 19:13:12] INFO root fetch - processPackages [djlint]: executing diffoscope
+[2023-04-19 19:13:12] INFO root fetch - processPackages [djlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djlint-1.9.4.tar.gz tmp/djlint-1.9.5.tar.gz --markdown 20230419/d/djlint/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-19 19:13:12] INFO root fetch - processPackages [dg-commons]: Downloading https://files.pythonhosted.org/packages/9e/d0/a7b101379049246e9195f54940212651016c6369b5cddda58a139a3afc92/dg-commons-0.0.6.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-04-19 19:13:12] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2393.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230419/f/finbourne-identity-sdk/0.0.2393-0.0.840/diff.md --exclude *.pyd
+[2023-04-19 19:13:12] INFO root fetch - processPackages [autoplot]: Downloading https://files.pythonhosted.org/packages/9b/35/ecb60e0a8f0ace7f639efb82db12a779d021ace1e8a8bec7297d75748412/autoplot-0.5.2.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [netbox-tunnels2]: Downloading https://files.pythonhosted.org/packages/4d/57/44bb3a60204cafa1911e9c2fd6e8a93507e7373f721637bb0001dc0ba102/netbox-tunnels2-0.2.0.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: Downloading https://files.pythonhosted.org/packages/fe/30/641f4a4a34af45b8e28564056cefa55e3cf9849be728f1d2b48800b95716/cloudify-utilities-plugins-sdk-0.0.98.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [shandy-sqlfmt]: Downloading https://files.pythonhosted.org/packages/6a/f3/a47406ac26c9c3f2da66d2a0c95247503555af0abd754e041c32d9a93c2a/shandy-sqlfmt-0.8.0.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [apache-bookkeeper-client]: Downloading https://files.pythonhosted.org/packages/1f/f8/25880080e8e62b0cfc188d67e7dc2781b1155c9f4e12263aadd18d7677f7/apache-bookkeeper-client-4.9.1.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [jupysql]: Downloading https://files.pythonhosted.org/packages/1b/20/2a229e2b1ddaca9f9e76dbbd52b50c119e7a7fb3a387613d73f8abb30431/jupysql-0.7.0.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [pyuvm]: Downloading https://files.pythonhosted.org/packages/68/54/61993482eeb6f0798a0388e27535342618641de6c02c8432902b822f18bf/pyuvm-2.9.0.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [autoplot]: executing diffoscope
+[2023-04-19 19:13:12] INFO root fetch - processPackages [autoplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoplot-0.5.1.tar.gz tmp/autoplot-0.5.2.tar.gz --markdown 20230419/a/autoplot/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-19 19:13:12] INFO root fetch - processPackages [jupysql]: Downloading https://files.pythonhosted.org/packages/96/fb/9a331e9ff06d1680b82d54bd4d602cb7d198447d368f4c08a3f1fd7bb3ff/jupysql-0.7.1.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [pyuvm]: Downloading https://files.pythonhosted.org/packages/3e/af/e39099197953c98431e519683431fad5ffca0ff8e888e24beba92fba984f/pyuvm-2.9.1.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [netbox-tunnels2]: Downloading https://files.pythonhosted.org/packages/54/c7/ba3102dbd18ac62a141aa0ff148bcdd3ff36f78e195d789803904f405f9f/netbox-tunnels2-0.2.1.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [apache-bookkeeper-client]: Downloading https://files.pythonhosted.org/packages/cf/05/1d3ccb5e0c997ed828f8c2e566e6d03b9aa2b87e4082e897c44b833169b4/apache-bookkeeper-client-4.9.2.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: Downloading https://files.pythonhosted.org/packages/40/f3/5ca7e752f0446054284eee4360d3c184b3a3a1734f5f942600df1c522618/cloudify-utilities-plugins-sdk-0.0.99.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [jupysql]: executing diffoscope
+[2023-04-19 19:13:12] INFO root fetch - processPackages [jupysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupysql-0.7.0.tar.gz tmp/jupysql-0.7.1.tar.gz --markdown 20230419/j/jupysql/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-19 19:13:12] INFO root fetch - processPackages [pyuvm]: executing diffoscope
+[2023-04-19 19:13:12] INFO root fetch - processPackages [pyuvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuvm-2.9.0.tar.gz tmp/pyuvm-2.9.1.tar.gz --markdown 20230419/p/pyuvm/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-04-19 19:13:12] INFO root fetch - processPackages [apache-bookkeeper-client]: executing diffoscope
+[2023-04-19 19:13:12] INFO root fetch - processPackages [apache-bookkeeper-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-bookkeeper-client-4.9.1.tar.gz tmp/apache-bookkeeper-client-4.9.2.tar.gz --markdown 20230419/a/apache-bookkeeper-client/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-04-19 19:13:12] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: executing diffoscope
+[2023-04-19 19:13:12] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudify-utilities-plugins-sdk-0.0.98.tar.gz tmp/cloudify-utilities-plugins-sdk-0.0.99.tar.gz --markdown 20230419/c/cloudify-utilities-plugins-sdk/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 19:13:12] INFO root fetch - processPackages [dg-commons]: Downloading https://files.pythonhosted.org/packages/17/82/5cd0951b11407da2b3d265d5caefdd8d93f3c37315135ff79e7278f9ab56/dg-commons-0.0.8.tar.gz
+[2023-04-19 19:13:12] INFO root fetch - processPackages [shandy-sqlfmt]: Downloading https://files.pythonhosted.org/packages/c8/3f/822481411f40cc263d3e36323365a501caa9317e6386586c95a500c8f229/shandy-sqlfmt-0.9.0.tar.gz
+[2023-04-19 19:13:13] INFO root fetch - processPackages [netbox-tunnels2]: executing diffoscope
+[2023-04-19 19:13:13] INFO root fetch - processPackages [netbox-tunnels2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-tunnels2-0.2.0.tar.gz tmp/netbox-tunnels2-0.2.1.tar.gz --markdown 20230419/n/netbox-tunnels2/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-19 19:13:13] INFO root fetch - processPackages [dg-commons]: executing diffoscope
+[2023-04-19 19:13:13] INFO root fetch - processPackages [dg-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg-commons-0.0.6.tar.gz tmp/dg-commons-0.0.8.tar.gz --markdown 20230419/d/dg-commons/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-04-19 19:13:13] INFO root fetch - processPackages [shandy-sqlfmt]: executing diffoscope
+[2023-04-19 19:13:13] INFO root fetch - processPackages [shandy-sqlfmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shandy-sqlfmt-0.8.0.tar.gz tmp/shandy-sqlfmt-0.9.0.tar.gz --markdown 20230419/s/shandy-sqlfmt/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 19:13:13] INFO root fetch - processPackages [djlint]: Start processing: redflagbpm
+[2023-04-19 19:13:13] INFO root fetch - main [MainThread]: End processing [djlint]: success
+[2023-04-19 19:13:13] INFO root fetch - processPackages [redflagbpm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 19:13:13] INFO root fetch - processPackages [autoplot]: Start processing: psij-rest
+[2023-04-19 19:13:13] INFO root fetch - main [MainThread]: End processing [autoplot]: success
+[2023-04-19 19:13:13] INFO root fetch - processPackages [redflagbpm]: Downloading https://files.pythonhosted.org/packages/ef/a9/4fa02461e8dc73cf50208a88de908197582a7b7012666543c33615bfc361/redflagbpm-0.0.8.tar.gz
+[2023-04-19 19:13:14] WARNING root fetch - processPackages [psij-rest]: Skipping, unable to determine old version
+[2023-04-19 19:13:14] INFO root fetch - processPackages [psij-rest]: Start processing: ultracart-rest-sdk
+[2023-04-19 19:13:14] INFO root fetch - main [MainThread]: End processing [psij-rest] error
+[2023-04-19 19:13:14] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2023-04-19 19:13:14] INFO root fetch - processPackages [redflagbpm]: Downloading https://files.pythonhosted.org/packages/81/43/fe1a47c77bb0c4ed15c0fa8b18ebd554110360a9357d6f5a9e78192c09c5/redflagbpm-0.0.9.tar.gz
+[2023-04-19 19:13:14] INFO root fetch - processPackages [redflagbpm]: executing diffoscope
+[2023-04-19 19:13:14] INFO root fetch - processPackages [redflagbpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redflagbpm-0.0.8.tar.gz tmp/redflagbpm-0.0.9.tar.gz --markdown 20230419/r/redflagbpm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 19:13:14] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2023-04-19 19:13:14] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20230419/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/diff.md --exclude *.pyd
+[2023-04-19 19:13:14] INFO root fetch - processPackages [pyuvm]: Start processing: dbt-core
+[2023-04-19 19:13:14] INFO root fetch - main [MainThread]: End processing [pyuvm]: success
+[2023-04-19 19:13:14] INFO root fetch - processPackages [finbourne-identity-sdk]: Start processing: dbt-postgres
+[2023-04-19 19:13:14] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-04-19 19:13:14] INFO root fetch - processPackages [dbt-postgres]: New version: [1.5.0rc1] Old Version: [1.5.0b5]
+[2023-04-19 19:13:14] INFO root fetch - processPackages [dbt-core]: New version: [1.5.0rc1] Old Version: [1.5.0b5]
+[2023-04-19 19:13:14] INFO root fetch - processPackages [dbt-postgres]: executing diffoscope
+[2023-04-19 19:13:14] INFO root fetch - processPackages [dbt-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-postgres-1.5.0b5.tar.gz tmp/dbt-postgres-1.5.0rc1.tar.gz --markdown 20230419/d/dbt-postgres/1.5.0b5-1.5.0rc1/diff.md --exclude *.pyd
+[2023-04-19 19:13:14] INFO root fetch - processPackages [dbt-core]: executing diffoscope
+[2023-04-19 19:13:14] INFO root fetch - processPackages [dbt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-core-1.5.0b5.tar.gz tmp/dbt-core-1.5.0rc1.tar.gz --markdown 20230419/d/dbt-core/1.5.0b5-1.5.0rc1/diff.md --exclude *.pyd
+[2023-04-19 19:13:14] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: Start processing: dbt-tests-adapter
+[2023-04-19 19:13:14] INFO root fetch - main [MainThread]: End processing [cloudify-utilities-plugins-sdk]: success
+[2023-04-19 19:13:14] INFO root fetch - main [MainThread]: End processing [jupysql]: success
+[2023-04-19 19:13:14] INFO root fetch - processPackages [dbt-tests-adapter]: New version: [1.5.0rc1] Old Version: [1.5.0b5]
+[2023-04-19 19:13:14] INFO root fetch - processPackages [dbt-tests-adapter]: executing diffoscope
+[2023-04-19 19:13:14] INFO root fetch - processPackages [dbt-tests-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-tests-adapter-1.5.0b5.tar.gz tmp/dbt-tests-adapter-1.5.0rc1.tar.gz --markdown 20230419/d/dbt-tests-adapter/1.5.0b5-1.5.0rc1/diff.md --exclude *.pyd
+[2023-04-19 19:13:15] INFO root fetch - main [MainThread]: End processing [dg-commons]: success
+[2023-04-19 19:13:15] INFO root fetch - main [MainThread]: End processing [apache-bookkeeper-client]: success
+[2023-04-19 19:13:15] INFO root fetch - main [MainThread]: End processing [shandy-sqlfmt]: success
+[2023-04-19 19:13:15] INFO root fetch - main [MainThread]: End processing [redflagbpm]: success
+[2023-04-19 19:13:15] INFO root fetch - main [MainThread]: End processing [netbox-tunnels2]: success
+[2023-04-19 19:13:16] INFO root fetch - main [MainThread]: End processing [dbt-postgres]: success
+[2023-04-19 19:13:18] INFO root fetch - main [MainThread]: End processing [dbt-tests-adapter]: success
+[2023-04-19 19:13:19] INFO root fetch - main [MainThread]: End processing [dbt-core]: success
+[2023-04-19 19:13:23] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2023-04-19 19:13:23] INFO root fetch - main [MainThread]: Store serial: [17774304]
