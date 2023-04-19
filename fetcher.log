@@ -7674,3 +7674,98 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 07:55:28] INFO root fetch - main [MainThread]: End processing [dqrobotics]: success
 [2023-04-19 07:55:31] INFO root fetch - main [MainThread]: End processing [friebox]: success
 [2023-04-19 07:55:31] INFO root fetch - main [MainThread]: Store serial: [17766370]
+[2023-04-19 08:00:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766370]
+[2023-04-19 08:00:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-19 08:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-product-standard-price-tax-included
+[2023-04-19 08:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: returnn
+[2023-04-19 08:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-product-pricelist-supplierinfo
+[2023-04-19 08:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-product-pricelist-supplierinfo
+[2023-04-19 08:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shopcloud-microservice
+[2023-04-19 08:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: milvus
+[2023-04-19 08:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-payment
+[2023-04-19 08:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mmdet3d
+[2023-04-19 08:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: antsibull
+[2023-04-19 08:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: usody-sanitize
+[2023-04-19 08:00:39] INFO root fetch - processPackages [odoo12-addon-product-standard-price-tax-included]: New version: [12.0.1.0.2.99.dev1] Old Version: [12.0.1.0.2]
+[2023-04-19 08:00:39] INFO root fetch - processPackages [odoo13-addon-product-pricelist-supplierinfo]: New version: [13.0.1.1.2.dev2] Old Version: [13.0.1.1.2.dev1]
+[2023-04-19 08:00:39] INFO root fetch - processPackages [mmdet3d]: New version: [1.1.0rc3] Old Version: [1.1.0rc2]
+[2023-04-19 08:00:39] INFO root fetch - processPackages [xj-payment]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 08:00:39] INFO root fetch - processPackages [shopcloud-microservice]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 08:00:39] INFO root fetch - processPackages [usody-sanitize]: New version: [0.1.0b4] Old Version: [0.1.0b3]
+[2023-04-19 08:00:39] INFO root fetch - processPackages [milvus]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-04-19 08:00:39] INFO root fetch - processPackages [odoo12-addon-product-pricelist-supplierinfo]: New version: [12.0.4.0.5.99.dev2] Old Version: [12.0.4.0.5.99.dev1]
+[2023-04-19 08:00:39] INFO root fetch - processPackages [antsibull]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 08:00:39] INFO root fetch - processPackages [returnn]: New version: [1.20230419.74255] Old Version: [1.20230419.30329]
+[2023-04-19 08:00:39] INFO root fetch - processPackages [odoo12-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/f0/52/ba56466b34fe5d127472b822fda446962050a0a77e23a28d5c913a8ccb5e/odoo12_addon_product_pricelist_supplierinfo-12.0.4.0.5.99.dev1-py3-none-any.whl
+[2023-04-19 08:00:39] INFO root fetch - processPackages [odoo13-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/c9/01/532e1f4c8aa0740571ad8f5fc730f3727754c35bab5457b4465bfb3de1cf/odoo13_addon_product_pricelist_supplierinfo-13.0.1.1.2.dev1-py3-none-any.whl
+[2023-04-19 08:00:39] INFO root fetch - processPackages [mmdet3d]: Downloading https://files.pythonhosted.org/packages/29/7e/bc844e5968fd5e42ab3a8f132844a20b703dda811633284321b1e6905bd6/mmdet3d-1.1.0rc2.tar.gz
+[2023-04-19 08:00:39] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/2c/30/62ef050f623277a5f9b2bdc85c098a4a74069e5b6cd183fb5a21d89b355d/returnn-1.20230419.74255.tar.gz
+[2023-04-19 08:00:39] INFO root fetch - processPackages [shopcloud-microservice]: Downloading https://files.pythonhosted.org/packages/36/4a/8c3b672984271ffdf70083cb45ba038306aba5830d53c401e79b94364cd7/shopcloud-microservice-0.8.0.tar.gz
+[2023-04-19 08:00:39] INFO root fetch - processPackages [usody-sanitize]: Downloading https://files.pythonhosted.org/packages/2b/9f/e8ddac1974e3d28003c61217148b65681d55ef90783ee38eace1ebc8ec90/usody_sanitize-0.1.0b4.tar.gz
+[2023-04-19 08:00:40] INFO root fetch - processPackages [xj-payment]: Downloading https://files.pythonhosted.org/packages/c8/86/b6513ec484bdc048de2a61687e0fafb255faaf25d870a541c20301d0f665/xj_payment-1.0.8.tar.gz
+[2023-04-19 08:00:40] INFO root fetch - processPackages [milvus]: Downloading https://files.pythonhosted.org/packages/b4/dc/0441156bbb940537104820acc3e6a0e311c639b570d5460bda0ed108b234/milvus-2.2.5-py3-none-win_amd64.whl
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo12-addon-product-standard-price-tax-included]: Downloading https://files.pythonhosted.org/packages/fd/3f/4fdf143039059f563b1fc0fcaaaa76b2384bfd9154d14b02701f56e104f4/odoo12_addon_product_standard_price_tax_included-12.0.1.0.2.99.dev1-py3-none-any.whl
+[2023-04-19 08:00:40] INFO root fetch - processPackages [antsibull]: Downloading https://files.pythonhosted.org/packages/80/58/9f0dfa43324776ac13d4d29df6d3a3774158b5d87e7ad4f64bf2bb64844d/antsibull-0.8.0.tar.gz
+[2023-04-19 08:00:40] WARNING root fetch - processPackages [milvus]: Skipping package: exceeds size limit 38502502>=10485760
+[2023-04-19 08:00:40] INFO root fetch - processPackages [milvus]: Start processing: odoo14-addon-product-pricelist-supplierinfo
+[2023-04-19 08:00:40] INFO root fetch - main [MainThread]: End processing [milvus] error
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo14-addon-product-pricelist-supplierinfo]: New version: [14.0.1.1.1.dev2] Old Version: [14.0.1.1.1.dev1]
+[2023-04-19 08:00:40] INFO root fetch - processPackages [usody-sanitize]: executing diffoscope
+[2023-04-19 08:00:40] INFO root fetch - processPackages [usody-sanitize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usody_sanitize-0.1.0b3.tar.gz tmp/usody_sanitize-0.1.0b4.tar.gz --markdown 20230419/u/usody-sanitize/0.1.0b3-0.1.0b4/diff.md --exclude *.pyd
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo12-addon-product-standard-price-tax-included]: executing diffoscope
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo12-addon-product-standard-price-tax-included]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_standard_price_tax_included-12.0.1.0.2-py3-none-any.whl.zip tmp/odoo12_addon_product_standard_price_tax_included-12.0.1.0.2.99.dev1-py3-none-any.whl.zip --markdown 20230419/o/odoo12-addon-product-standard-price-tax-included/12.0.1.0.2-12.0.1.0.2.99.dev1/diff.md --exclude *.pyd
+[2023-04-19 08:00:40] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-19 08:00:40] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230419.30329.tar.gz tmp/returnn-1.20230419.74255.tar.gz --markdown 20230419/r/returnn/1.20230419.30329-1.20230419.74255/diff.md --exclude *.pyd
+[2023-04-19 08:00:40] INFO root fetch - processPackages [shopcloud-microservice]: Downloading https://files.pythonhosted.org/packages/dc/13/862cbb3365b7271c5fe616f75eab4d758880aff1320eee90ddcec032322f/shopcloud-microservice-0.9.0.tar.gz
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo13-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/a8/90/1d4a63e87e0fff21db26838cc60913b85d8a35873f83914893abd3de71c6/odoo13_addon_product_pricelist_supplierinfo-13.0.1.1.2.dev2-py3-none-any.whl
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo12-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/35/f3/2912a27104583570754acb98e03ea5586801d194c091694befc60391b0a2/odoo12_addon_product_pricelist_supplierinfo-12.0.4.0.5.99.dev2-py3-none-any.whl
+[2023-04-19 08:00:40] INFO root fetch - processPackages [xj-payment]: Downloading https://files.pythonhosted.org/packages/d7/56/18cf5dbfcf96a8d2dd714a47e8ce30642dea3c0825b0f79fd94491be1a01/xj_payment-1.0.9.tar.gz
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo14-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/f1/5f/121eb308eca9afd629140c689bc04a06d1a4f270e64ea266826ea3c34fde/odoo14_addon_product_pricelist_supplierinfo-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-04-19 08:00:40] INFO root fetch - processPackages [shopcloud-microservice]: executing diffoscope
+[2023-04-19 08:00:40] INFO root fetch - processPackages [shopcloud-microservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud-microservice-0.8.0.tar.gz tmp/shopcloud-microservice-0.9.0.tar.gz --markdown 20230419/s/shopcloud-microservice/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 08:00:40] INFO root fetch - processPackages [mmdet3d]: Downloading https://files.pythonhosted.org/packages/d2/38/0f4b0971caeb38815d71256a1d6f26d42b1fc8698e3a7611996869ecaf12/mmdet3d-1.1.0rc3.tar.gz
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo13-addon-product-pricelist-supplierinfo]: executing diffoscope
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo13-addon-product-pricelist-supplierinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_product_pricelist_supplierinfo-13.0.1.1.2.dev1-py3-none-any.whl.zip tmp/odoo13_addon_product_pricelist_supplierinfo-13.0.1.1.2.dev2-py3-none-any.whl.zip --markdown 20230419/o/odoo13-addon-product-pricelist-supplierinfo/13.0.1.1.2.dev1-13.0.1.1.2.dev2/diff.md --exclude *.pyd
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo12-addon-product-pricelist-supplierinfo]: executing diffoscope
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo12-addon-product-pricelist-supplierinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_pricelist_supplierinfo-12.0.4.0.5.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_product_pricelist_supplierinfo-12.0.4.0.5.99.dev2-py3-none-any.whl.zip --markdown 20230419/o/odoo12-addon-product-pricelist-supplierinfo/12.0.4.0.5.99.dev1-12.0.4.0.5.99.dev2/diff.md --exclude *.pyd
+[2023-04-19 08:00:40] INFO root fetch - processPackages [mmdet3d]: executing diffoscope
+[2023-04-19 08:00:40] INFO root fetch - processPackages [mmdet3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmdet3d-1.1.0rc2.tar.gz tmp/mmdet3d-1.1.0rc3.tar.gz --markdown 20230419/m/mmdet3d/1.1.0rc2-1.1.0rc3/diff.md --exclude *.pyd
+[2023-04-19 08:00:40] INFO root fetch - processPackages [xj-payment]: executing diffoscope
+[2023-04-19 08:00:40] INFO root fetch - processPackages [xj-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_payment-1.0.8.tar.gz tmp/xj_payment-1.0.9.tar.gz --markdown 20230419/x/xj-payment/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 08:00:40] INFO root fetch - processPackages [antsibull]: Downloading https://files.pythonhosted.org/packages/40/21/de47d6527979090205d05aaf002a69b9447cf479be6f424141c1ea076168/antsibull-0.9.0.tar.gz
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo14-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/6d/ea/f811a00861edb3651911346b96122c4703576f0bf732b8931e15e6c31623/odoo14_addon_product_pricelist_supplierinfo-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-04-19 08:00:40] INFO root fetch - processPackages [antsibull]: executing diffoscope
+[2023-04-19 08:00:40] INFO root fetch - processPackages [antsibull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsibull-0.8.0.tar.gz tmp/antsibull-0.9.0.tar.gz --markdown 20230419/a/antsibull/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo14-addon-product-pricelist-supplierinfo]: executing diffoscope
+[2023-04-19 08:00:40] INFO root fetch - processPackages [odoo14-addon-product-pricelist-supplierinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_pricelist_supplierinfo-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_product_pricelist_supplierinfo-14.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-product-pricelist-supplierinfo/14.0.1.1.1.dev1-14.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-04-19 08:00:41] INFO root fetch - processPackages [shopcloud-microservice]: Start processing: odoo-addon-product-pricelist-supplierinfo
+[2023-04-19 08:00:41] INFO root fetch - main [MainThread]: End processing [shopcloud-microservice]: success
+[2023-04-19 08:00:41] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: New version: [15.0.1.0.1.2] Old Version: [15.0.1.0.1.1]
+[2023-04-19 08:00:42] INFO root fetch - processPackages [usody-sanitize]: Start processing: skrub
+[2023-04-19 08:00:42] INFO root fetch - main [MainThread]: End processing [usody-sanitize]: success
+[2023-04-19 08:00:42] WARNING root fetch - processPackages [skrub]: Skipping, unable to determine old version
+[2023-04-19 08:00:42] INFO root fetch - processPackages [skrub]: Start processing: aws-analytics-reference-architecture
+[2023-04-19 08:00:42] INFO root fetch - main [MainThread]: End processing [skrub] error
+[2023-04-19 08:00:42] INFO root fetch - processPackages [odoo12-addon-product-standard-price-tax-included]: Start processing: smart-scrap
+[2023-04-19 08:00:42] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-standard-price-tax-included]: success
+[2023-04-19 08:00:42] INFO root fetch - processPackages [aws-analytics-reference-architecture]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-04-19 08:00:42] INFO root fetch - processPackages [smart-scrap]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 08:00:42] INFO root fetch - processPackages [smart-scrap]: executing diffoscope
+[2023-04-19 08:00:42] INFO root fetch - processPackages [smart-scrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart-scrap-0.1.1.tar.gz tmp/smart-scrap-0.1.2.tar.gz --markdown 20230419/s/smart-scrap/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 08:00:42] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-pricelist-supplierinfo]: success
+[2023-04-19 08:00:42] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Downloading https://files.pythonhosted.org/packages/d2/19/fb16ff16b53a7bfd34d39b243a11d6e81af904218bc5ec57504479e2ec12/aws_analytics_reference_architecture-2.9.5.tar.gz
+[2023-04-19 08:00:42] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-pricelist-supplierinfo]: success
+[2023-04-19 08:00:42] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/0b/08/6fa1126bef7a2feb7c3a2a5ac08f893c77bf334311f25de0d4e24f96a581/odoo_addon_product_pricelist_supplierinfo-15.0.1.0.1.1-py3-none-any.whl
+[2023-04-19 08:00:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-pricelist-supplierinfo]: success
+[2023-04-19 08:00:42] WARNING root fetch - processPackages [aws-analytics-reference-architecture]: Skipping package: exceeds size limit 118303697>=10485760
+[2023-04-19 08:00:42] INFO root fetch - main [MainThread]: End processing [aws-analytics-reference-architecture] error
+[2023-04-19 08:00:42] INFO root fetch - main [MainThread]: End processing [xj-payment]: success
+[2023-04-19 08:00:42] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/15/d7/95f13911aa0e45e8e4de3668dd3b376fd889cbed0a3f6bf56767a6dec1c2/odoo_addon_product_pricelist_supplierinfo-15.0.1.0.1.2-py3-none-any.whl
+[2023-04-19 08:00:42] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: executing diffoscope
+[2023-04-19 08:00:42] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pricelist_supplierinfo-15.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_product_pricelist_supplierinfo-15.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-product-pricelist-supplierinfo/15.0.1.0.1.1-15.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-04-19 08:00:43] INFO root fetch - main [MainThread]: End processing [smart-scrap]: success
+[2023-04-19 08:00:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pricelist-supplierinfo]: success
+[2023-04-19 08:00:44] INFO root fetch - main [MainThread]: End processing [antsibull]: success
+[2023-04-19 08:00:44] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-19 08:00:49] INFO root fetch - main [MainThread]: End processing [mmdet3d]: success
+[2023-04-19 08:00:49] INFO root fetch - main [MainThread]: Store serial: [17766440]
