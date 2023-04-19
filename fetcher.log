@@ -6764,3 +6764,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 06:36:31] INFO root fetch - main [MainThread]: End processing [umjunsik]: success
 [2023-04-19 06:36:31] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
 [2023-04-19 06:36:31] INFO root fetch - main [MainThread]: Store serial: [17765918]
+[2023-04-19 06:41:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765918]
+[2023-04-19 06:41:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-19 06:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt3discord
+[2023-04-19 06:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdbp
+[2023-04-19 06:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: riskCalculator
+[2023-04-19 06:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pd-db-wrangler
+[2023-04-19 06:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wtfl
+[2023-04-19 06:41:39] INFO root fetch - processPackages [pdbp]: New version: [1.3.0] Old Version: [1.2.8]
+[2023-04-19 06:41:39] INFO root fetch - processPackages [pd-db-wrangler]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 06:41:39] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-04-19 06:41:39] WARNING root fetch - processPackages [riskCalculator]: Skipping, unable to determine old version
+[2023-04-19 06:41:39] INFO root fetch - processPackages [wtfl]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-04-19 06:41:39] INFO root fetch - main [MainThread]: End processing [riskCalculator] error
+[2023-04-19 06:41:40] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-04-19 06:41:40] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230419/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-04-19 06:41:40] INFO root fetch - processPackages [pd-db-wrangler]: executing diffoscope
+[2023-04-19 06:41:40] INFO root fetch - processPackages [pd-db-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pd_db_wrangler-0.8.0.tar.gz tmp/pd_db_wrangler-0.9.0.tar.gz --markdown 20230419/p/pd-db-wrangler/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 06:41:40] INFO root fetch - processPackages [pdbp]: Downloading https://files.pythonhosted.org/packages/32/01/09945e9f783626bd5cd5096bbee287e95790a1028846d72bff6f9e788f77/pdbp-1.2.8.tar.gz
+[2023-04-19 06:41:40] INFO root fetch - processPackages [wtfl]: Downloading https://files.pythonhosted.org/packages/62/69/51a0b9921261ba6677eeb32e9ae19cfe0ad07821ef6e481f8f11ae5789d8/wtfl-1.1.0.tar.gz
+[2023-04-19 06:41:40] INFO root fetch - processPackages [wtfl]: executing diffoscope
+[2023-04-19 06:41:40] INFO root fetch - processPackages [wtfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtfl-1.0.5.tar.gz tmp/wtfl-1.1.0.tar.gz --markdown 20230419/w/wtfl/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-04-19 06:41:40] INFO root fetch - processPackages [pdbp]: Downloading https://files.pythonhosted.org/packages/d0/b8/547b076aa796ca96b97f5746582f3133b3c78a058a8c73a4fdcd5b0c9cc9/pdbp-1.3.0.tar.gz
+[2023-04-19 06:41:40] INFO root fetch - processPackages [pdbp]: executing diffoscope
+[2023-04-19 06:41:40] INFO root fetch - processPackages [pdbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdbp-1.2.8.tar.gz tmp/pdbp-1.3.0.tar.gz --markdown 20230419/p/pdbp/1.2.8-1.3.0/diff.md --exclude *.pyd
+[2023-04-19 06:41:41] INFO root fetch - main [MainThread]: End processing [pd-db-wrangler]: success
+[2023-04-19 06:41:41] INFO root fetch - main [MainThread]: End processing [wtfl]: success
+[2023-04-19 06:41:41] INFO root fetch - main [MainThread]: End processing [pdbp]: success
+[2023-04-19 06:41:42] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-04-19 06:41:42] INFO root fetch - main [MainThread]: Store serial: [17765935]
