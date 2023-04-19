@@ -14579,3 +14579,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 14:06:53] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-19 14:07:01] INFO root fetch - main [MainThread]: End processing [pandoc]: success
 [2023-04-19 14:07:01] INFO root fetch - main [MainThread]: Store serial: [17770542]
+[2023-04-19 14:12:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17770542]
+[2023-04-19 14:12:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-19 14:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reliably-cli
+[2023-04-19 14:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelreport
+[2023-04-19 14:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alphaz
+[2023-04-19 14:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hhb-tvm
+[2023-04-19 14:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaiju-tools
+[2023-04-19 14:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djdantic
+[2023-04-19 14:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hhb
+[2023-04-19 14:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-sentry-secure-source-map
+[2023-04-19 14:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: goastpy
+[2023-04-19 14:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-nlb20220430
+[2023-04-19 14:12:10] INFO root fetch - processPackages [hhb-tvm]: New version: [2.2.35] Old Version: [2.0.20]
+[2023-04-19 14:12:10] INFO root fetch - processPackages [reliably-cli]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-19 14:12:10] INFO root fetch - processPackages [djdantic]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-19 14:12:10] INFO root fetch - processPackages [hhb]: New version: [2.2.35] Old Version: [2.0.20]
+[2023-04-19 14:12:10] INFO root fetch - processPackages [django-sentry-secure-source-map]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-19 14:12:10] INFO root fetch - processPackages [kaiju-tools]: New version: [2.0.47] Old Version: [2.0.46]
+[2023-04-19 14:12:10] INFO root fetch - processPackages [alphaz]: New version: [0.7.4.1] Old Version: [0.7.4]
+[2023-04-19 14:12:10] INFO root fetch - processPackages [modelreport]: New version: [0.2] Old Version: [0.1]
+[2023-04-19 14:12:10] INFO root fetch - processPackages [goastpy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-19 14:12:10] INFO root fetch - processPackages [alibabacloud-nlb20220430]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 14:12:10] INFO root fetch - processPackages [hhb]: Downloading https://files.pythonhosted.org/packages/d8/30/6b4fc5f76eb7187caa110333d5e1734943466fec8d4bb35da41010727c9e/hhb-2.0.20-py3-none-any.whl
+[2023-04-19 14:12:10] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/f5/0f/5496dade485c9631496a70d5f79a28def35d1f2a2c99ae4247d49a684850/reliably-cli-0.5.8.tar.gz
+[2023-04-19 14:12:10] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/a8/73/eaae4dceec2601cd38ccb4e6e0206f7eebedc2538fcea50ab0ca6d52218d/djdantic-0.0.6.tar.gz
+[2023-04-19 14:12:10] INFO root fetch - processPackages [hhb-tvm]: Downloading https://files.pythonhosted.org/packages/1c/10/089df54a7efcec67cefa875ed4c63fada1e1e71e2749542f292ec7b79f5a/hhb_tvm-2.0.20-cp36-cp36m-manylinux1_x86_64.whl
+[2023-04-19 14:12:10] INFO root fetch - processPackages [modelreport]: Downloading https://files.pythonhosted.org/packages/c0/1b/d19585d33b56b4a1d4c4f1bfcf89f0c8199d4b05f469ac5c5d623560dd51/modelreport-0.1.tar.gz
+[2023-04-19 14:12:10] INFO root fetch - processPackages [django-sentry-secure-source-map]: Downloading https://files.pythonhosted.org/packages/e9/b0/0ec940341dd29b721efcbec02df452d950de55d3a032225951941236cee4/django-sentry-secure-source-map-0.0.1.tar.gz
+[2023-04-19 14:12:10] INFO root fetch - processPackages [alibabacloud-nlb20220430]: Downloading https://files.pythonhosted.org/packages/b1/d1/aed3adfc010e8a32e4b68c6e5ea3450d740d148599e7583d97cd32c3b458/alibabacloud_nlb20220430-1.0.8.tar.gz
+[2023-04-19 14:12:10] INFO root fetch - processPackages [kaiju-tools]: Downloading https://files.pythonhosted.org/packages/f7/cf/b8902cf14056dfd88c64a00e7308e248523db2147e8ca5e805f5a6cfba1a/kaiju_tools-2.0.47-py3-none-any.whl
+[2023-04-19 14:12:10] INFO root fetch - processPackages [goastpy]: Downloading https://files.pythonhosted.org/packages/04/0d/085f868e4bc4a3be50c40e2db0fb6ab8552873b626e764853d5320934b0e/goastpy-0.1.6.tar.gz
+[2023-04-19 14:12:10] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/89/50/e78fc302397852a0be30d555484b0d7116401389a15f05c684d2eac34adf/alphaz-0.7.4.1.tar.gz
+[2023-04-19 14:12:10] WARNING root fetch - processPackages [hhb-tvm]: Skipping package: exceeds size limit 47192116>=10485760
+[2023-04-19 14:12:10] INFO root fetch - processPackages [hhb-tvm]: Start processing: roblox-asset-publish
+[2023-04-19 14:12:10] INFO root fetch - main [MainThread]: End processing [hhb-tvm] error
+[2023-04-19 14:12:10] INFO root fetch - processPackages [hhb]: Downloading https://files.pythonhosted.org/packages/9c/f1/732eff40a278f5bf709cceb595e75879400871d351c0ca2e9dddc224cc6a/hhb-2.2.35-py3-none-any.whl
+[2023-04-19 14:12:10] INFO root fetch - processPackages [django-sentry-secure-source-map]: Downloading https://files.pythonhosted.org/packages/ee/82/1c91117b5b36f04a853747b37fcfb1d2ee2bd768399fc0216fa3eadfce94/django-sentry-secure-source-map-0.1.0.tar.gz
+[2023-04-19 14:12:10] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/72/25/7c945722ddeaf66e621535fe686eae922e976a9f10c682361cb2d60e6e63/djdantic-0.0.7.tar.gz
+[2023-04-19 14:12:10] WARNING root fetch - processPackages [roblox-asset-publish]: Skipping, unable to determine old version
+[2023-04-19 14:12:10] INFO root fetch - processPackages [roblox-asset-publish]: Start processing: ciaopdf
+[2023-04-19 14:12:10] INFO root fetch - main [MainThread]: End processing [roblox-asset-publish] error
+[2023-04-19 14:12:10] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/77/7e/4d0e9b960d2604366649d4f6e29e8ca2bc9f4f41e732fdb6a11d55fbf5ee/reliably-cli-0.5.9.tar.gz
+[2023-04-19 14:12:10] INFO root fetch - processPackages [kaiju-tools]: executing diffoscope
+[2023-04-19 14:12:10] INFO root fetch - processPackages [kaiju-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_tools-2.0.46-py3-none-any.whl.zip tmp/kaiju_tools-2.0.47-py3-none-any.whl.zip --markdown 20230419/k/kaiju-tools/2.0.46-2.0.47/diff.md --exclude *.pyd
+[2023-04-19 14:12:11] INFO root fetch - processPackages [modelreport]: Downloading https://files.pythonhosted.org/packages/25/b6/bf7629c6562bbfcfeb40b90e983c953159ed106f215c610d19a48a136cba/modelreport-0.2.tar.gz
+[2023-04-19 14:12:11] WARNING root fetch - processPackages [ciaopdf]: Skipping, unable to determine old version
+[2023-04-19 14:12:11] INFO root fetch - main [MainThread]: End processing [ciaopdf] error
+[2023-04-19 14:12:11] INFO root fetch - processPackages [django-sentry-secure-source-map]: executing diffoscope
+[2023-04-19 14:12:11] INFO root fetch - processPackages [django-sentry-secure-source-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sentry-secure-source-map-0.0.1.tar.gz tmp/django-sentry-secure-source-map-0.1.0.tar.gz --markdown 20230419/d/django-sentry-secure-source-map/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-19 14:12:11] INFO root fetch - processPackages [alibabacloud-nlb20220430]: Downloading https://files.pythonhosted.org/packages/e7/e7/20453d9a15c8ac3cd339ec22598703263c778029f2a7de6aded58695aa8c/alibabacloud_nlb20220430-1.0.9.tar.gz
+[2023-04-19 14:12:11] INFO root fetch - processPackages [djdantic]: executing diffoscope
+[2023-04-19 14:12:11] INFO root fetch - processPackages [djdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djdantic-0.0.6.tar.gz tmp/djdantic-0.0.7.tar.gz --markdown 20230419/d/djdantic/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-19 14:12:11] INFO root fetch - processPackages [reliably-cli]: executing diffoscope
+[2023-04-19 14:12:11] INFO root fetch - processPackages [reliably-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliably-cli-0.5.8.tar.gz tmp/reliably-cli-0.5.9.tar.gz --markdown 20230419/r/reliably-cli/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-19 14:12:11] INFO root fetch - processPackages [modelreport]: executing diffoscope
+[2023-04-19 14:12:11] INFO root fetch - processPackages [modelreport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelreport-0.1.tar.gz tmp/modelreport-0.2.tar.gz --markdown 20230419/m/modelreport/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-19 14:12:11] INFO root fetch - processPackages [goastpy]: Downloading https://files.pythonhosted.org/packages/97/a6/0f669c194fafe514cc8b43a980d858f991a23bad0e07fd34b1de57336329/goastpy-0.1.7.tar.gz
+[2023-04-19 14:12:11] INFO root fetch - processPackages [alibabacloud-nlb20220430]: executing diffoscope
+[2023-04-19 14:12:11] INFO root fetch - processPackages [alibabacloud-nlb20220430]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_nlb20220430-1.0.8.tar.gz tmp/alibabacloud_nlb20220430-1.0.9.tar.gz --markdown 20230419/a/alibabacloud-nlb20220430/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 14:12:11] INFO root fetch - processPackages [goastpy]: executing diffoscope
+[2023-04-19 14:12:11] INFO root fetch - processPackages [goastpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goastpy-0.1.6.tar.gz tmp/goastpy-0.1.7.tar.gz --markdown 20230419/g/goastpy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-19 14:12:11] INFO root fetch - processPackages [hhb]: executing diffoscope
+[2023-04-19 14:12:11] INFO root fetch - processPackages [hhb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhb-2.0.20-py3-none-any.whl.zip tmp/hhb-2.2.35-py3-none-any.whl.zip --markdown 20230419/h/hhb/2.0.20-2.2.35/diff.md --exclude *.pyd
+[2023-04-19 14:12:12] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-04-19 14:12:12] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.4.tar.gz tmp/alphaz-0.7.4.1.tar.gz --markdown 20230419/a/alphaz/0.7.4-0.7.4.1/diff.md --exclude *.pyd
+[2023-04-19 14:12:12] INFO root fetch - main [MainThread]: End processing [django-sentry-secure-source-map]: success
+[2023-04-19 14:12:12] INFO root fetch - main [MainThread]: End processing [modelreport]: success
+[2023-04-19 14:12:12] INFO root fetch - main [MainThread]: End processing [reliably-cli]: success
+[2023-04-19 14:12:12] INFO root fetch - main [MainThread]: End processing [alibabacloud-nlb20220430]: success
+[2023-04-19 14:12:12] INFO root fetch - main [MainThread]: End processing [kaiju-tools]: success
+[2023-04-19 14:12:13] INFO root fetch - main [MainThread]: End processing [djdantic]: success
+[2023-04-19 14:12:13] INFO root fetch - main [MainThread]: End processing [goastpy]: success
+[2023-04-19 14:12:14] INFO root fetch - main [MainThread]: End processing [hhb]: success
+[2023-04-19 14:12:16] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-04-19 14:12:16] INFO root fetch - main [MainThread]: Store serial: [17770587]
