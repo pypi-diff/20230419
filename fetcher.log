@@ -7534,3 +7534,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 07:44:45] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
 [2023-04-19 07:44:59] INFO root fetch - main [MainThread]: End processing [bp-data-grid]: success
 [2023-04-19 07:44:59] INFO root fetch - main [MainThread]: Store serial: [17766296]
+[2023-04-19 07:50:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766296]
+[2023-04-19 07:50:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-19 07:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audclas
+[2023-04-19 07:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smart-scrap
+[2023-04-19 07:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automationkit
+[2023-04-19 07:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pglive
+[2023-04-19 07:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-enroll
+[2023-04-19 07:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bp-data-fabric
+[2023-04-19 07:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pice-core
+[2023-04-19 07:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xj-flow
+[2023-04-19 07:50:08] INFO root fetch - processPackages [smart-scrap]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 07:50:08] INFO root fetch - processPackages [pice-core]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-19 07:50:08] INFO root fetch - processPackages [audclas]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 07:50:08] WARNING root fetch - processPackages [bp-data-fabric]: Skipping, unable to determine old version
+[2023-04-19 07:50:08] INFO root fetch - main [MainThread]: End processing [bp-data-fabric] error
+[2023-04-19 07:50:08] INFO root fetch - processPackages [automationkit]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-19 07:50:08] INFO root fetch - processPackages [pglive]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-19 07:50:08] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-19 07:50:08] INFO root fetch - processPackages [xj-flow]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 07:50:08] INFO root fetch - processPackages [smart-scrap]: Downloading https://files.pythonhosted.org/packages/43/ab/65fc096c20103176273ff2e0dab32c84e84cf716d35374de908f4973d483/smart-scrap-0.1.1.tar.gz
+[2023-04-19 07:50:08] INFO root fetch - processPackages [pice-core]: Downloading https://files.pythonhosted.org/packages/11/83/e37c9a249294514c15a4b482557f9517d6f3a48bac8fb0699adc760be855/pice_core-1.1.1-py3-none-any.whl
+[2023-04-19 07:50:08] INFO root fetch - processPackages [audclas]: Downloading https://files.pythonhosted.org/packages/32/45/6330c692935ac50eea7426102965632d736e1add6bfdcab48ff44942965e/audclas-0.0.3.tar.gz
+[2023-04-19 07:50:08] INFO root fetch - processPackages [pglive]: Downloading https://files.pythonhosted.org/packages/a4/b9/bc3dee9b62805ad9ff8c26bb5a608966490bbcb5f0e1c923fd1bf2e7b51d/pglive-0.6.2.tar.gz
+[2023-04-19 07:50:08] INFO root fetch - processPackages [automationkit]: Downloading https://files.pythonhosted.org/packages/34/66/119a8ab2bde833895ab904ccac36a830bf89149df219f5bda4c77cc50a3f/automationkit-0.5.0.tar.gz
+[2023-04-19 07:50:08] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-04-19 07:50:09] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/4b/98/1a3f618c2c4858fcf9b224f239f42c312217e8a3deb7f2ac59a023163a9f/xj_flow-1.0.8.tar.gz
+[2023-04-19 07:50:09] INFO root fetch - processPackages [automationkit]: Downloading https://files.pythonhosted.org/packages/30/93/f0a9df7e232528a4bd9e22b2eb67ab31888d96f29f86ba08424d1a389cf0/automationkit-0.5.1.tar.gz
+[2023-04-19 07:50:09] INFO root fetch - processPackages [smart-scrap]: Downloading https://files.pythonhosted.org/packages/53/e8/ea1d8828031225a2963309f5930193af33799050eaa4e246e66b093e209b/smart-scrap-0.1.2.tar.gz
+[2023-04-19 07:50:09] INFO root fetch - processPackages [pglive]: Downloading https://files.pythonhosted.org/packages/96/5f/84411e6675ea7662b017abe45b1421680f74bd26c24007d93287105c3941/pglive-0.6.3.tar.gz
+[2023-04-19 07:50:09] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/93/02/013abb0effbefa548538af1945ba2798a7c0ccbda7de2e19a099047da628/xj_flow-1.0.9.tar.gz
+[2023-04-19 07:50:09] INFO root fetch - processPackages [pice-core]: Downloading https://files.pythonhosted.org/packages/a5/01/1a47cae87a62cfbe9675c9601a5a5379231a516445c6f4438b6255422fe5/pice_core-1.1.2-py3-none-any.whl
+[2023-04-19 07:50:09] INFO root fetch - processPackages [audclas]: Downloading https://files.pythonhosted.org/packages/81/65/a6a6819e37c271de41d6d989ef69356dda23395a728893fd68154a1230b4/audclas-0.0.4.tar.gz
+[2023-04-19 07:50:09] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-04-19 07:50:09] INFO root fetch - processPackages [smart-scrap]: executing diffoscope
+[2023-04-19 07:50:09] INFO root fetch - processPackages [smart-scrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart-scrap-0.1.1.tar.gz tmp/smart-scrap-0.1.2.tar.gz --markdown 20230419/s/smart-scrap/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 07:50:09] INFO root fetch - processPackages [xj-flow]: executing diffoscope
+[2023-04-19 07:50:09] INFO root fetch - processPackages [xj-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_flow-1.0.8.tar.gz tmp/xj_flow-1.0.9.tar.gz --markdown 20230419/x/xj-flow/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 07:50:09] INFO root fetch - processPackages [automationkit]: executing diffoscope
+[2023-04-19 07:50:09] INFO root fetch - processPackages [automationkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automationkit-0.5.0.tar.gz tmp/automationkit-0.5.1.tar.gz --markdown 20230419/a/automationkit/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-19 07:50:09] INFO root fetch - processPackages [pglive]: executing diffoscope
+[2023-04-19 07:50:09] INFO root fetch - processPackages [pglive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pglive-0.6.2.tar.gz tmp/pglive-0.6.3.tar.gz --markdown 20230419/p/pglive/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-19 07:50:09] INFO root fetch - processPackages [audclas]: executing diffoscope
+[2023-04-19 07:50:09] INFO root fetch - processPackages [audclas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audclas-0.0.3.tar.gz tmp/audclas-0.0.4.tar.gz --markdown 20230419/a/audclas/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 07:50:09] INFO root fetch - processPackages [pice-core]: executing diffoscope
+[2023-04-19 07:50:09] INFO root fetch - processPackages [pice-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pice_core-1.1.1-py3-none-any.whl.zip tmp/pice_core-1.1.2-py3-none-any.whl.zip --markdown 20230419/p/pice-core/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-19 07:50:09] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-04-19 07:50:09] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230419/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-19 07:50:10] INFO root fetch - main [MainThread]: End processing [smart-scrap]: success
+[2023-04-19 07:50:10] INFO root fetch - main [MainThread]: End processing [audclas]: success
+[2023-04-19 07:50:10] INFO root fetch - main [MainThread]: End processing [xj-flow]: success
+[2023-04-19 07:50:11] INFO root fetch - main [MainThread]: End processing [pice-core]: success
+[2023-04-19 07:50:11] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-04-19 07:50:11] INFO root fetch - main [MainThread]: End processing [pglive]: success
+[2023-04-19 07:50:15] INFO root fetch - main [MainThread]: End processing [automationkit]: success
+[2023-04-19 07:50:15] INFO root fetch - main [MainThread]: Store serial: [17766321]
