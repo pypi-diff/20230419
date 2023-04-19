@@ -17132,3 +17132,133 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 16:12:42] INFO root fetch - main [MainThread]: End processing [cool-seq-tool]: success
 [2023-04-19 16:12:44] INFO root fetch - main [MainThread]: End processing [super-gradients]: success
 [2023-04-19 16:12:44] INFO root fetch - main [MainThread]: Store serial: [17772009]
+[2023-04-19 16:17:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17772009]
+[2023-04-19 16:17:53] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-19 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ot2rec-report
+[2023-04-19 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domolibrary
+[2023-04-19 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nriapp
+[2023-04-19 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: postgres-data-faker
+[2023-04-19 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: backtrader
+[2023-04-19 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfgaws
+[2023-04-19 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zfit
+[2023-04-19 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: newsworthycharts
+[2023-04-19 16:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netorca-sdk
+[2023-04-19 16:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: femr
+[2023-04-19 16:17:54] INFO root fetch - processPackages [postgres-data-faker]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-19 16:17:54] INFO root fetch - processPackages [ot2rec-report]: New version: [0.1.0a0] Old Version: [0.1.0.post3]
+[2023-04-19 16:17:54] INFO root fetch - processPackages [pyfgaws]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-19 16:17:54] INFO root fetch - processPackages [backtrader]: New version: [1.9.78.123] Old Version: [1.9.77.123]
+[2023-04-19 16:17:54] WARNING root fetch - processPackages [femr]: Skipping, unable to determine old version
+[2023-04-19 16:17:54] INFO root fetch - processPackages [femr]: Start processing: wafermap
+[2023-04-19 16:17:54] INFO root fetch - main [MainThread]: End processing [femr] error
+[2023-04-19 16:17:54] INFO root fetch - processPackages [nriapp]: New version: [1.1.11] Old Version: [1.1.10]
+[2023-04-19 16:17:54] INFO root fetch - processPackages [netorca-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 16:17:54] INFO root fetch - processPackages [zfit]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2023-04-19 16:17:54] INFO root fetch - processPackages [domolibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 16:17:54] INFO root fetch - processPackages [newsworthycharts]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-19 16:17:54] INFO root fetch - processPackages [wafermap]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 16:17:54] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-19 16:17:54] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.0.8.tar.gz tmp/domolibrary-0.0.9.tar.gz --markdown 20230419/d/domolibrary/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:17:54] INFO root fetch - processPackages [newsworthycharts]: executing diffoscope
+[2023-04-19 16:17:54] INFO root fetch - processPackages [newsworthycharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newsworthycharts-1.9.1.tar.gz tmp/newsworthycharts-1.9.2.tar.gz --markdown 20230419/n/newsworthycharts/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-19 16:17:54] INFO root fetch - processPackages [postgres-data-faker]: Downloading https://files.pythonhosted.org/packages/e6/cc/f80ed5ea93139d50a60fb7ff460831e8f40c0cefc80a7b8772d8fe7f5fc5/postgres_data_faker-1.0.0.tar.gz
+[2023-04-19 16:17:54] INFO root fetch - processPackages [ot2rec-report]: Downloading https://files.pythonhosted.org/packages/9b/26/6eab31a2e0f5e7291a2272b129c048f8135fe4994f99c2fcddf01672ce08/ot2rec_report-0.1.0.post3.tar.gz
+[2023-04-19 16:17:54] INFO root fetch - processPackages [pyfgaws]: Downloading https://files.pythonhosted.org/packages/52/5c/d2ee0ade79a89bcc788b47ec30d6d76c66443029268782f03847137d6c2d/pyfgaws-0.2.3.tar.gz
+[2023-04-19 16:17:54] INFO root fetch - processPackages [nriapp]: Downloading https://files.pythonhosted.org/packages/4d/9b/9572385c6b91182ea1b52899a8e4488c66f1e7a599bad37415d300559645/nriapp-1.1.11.tar.gz
+[2023-04-19 16:17:54] INFO root fetch - processPackages [netorca-sdk]: Downloading https://files.pythonhosted.org/packages/27/05/336984f7c58634cb8f02e301f6e805f99223c0083277573c15a08b65daa4/netorca_sdk-0.0.8.tar.gz
+[2023-04-19 16:17:54] INFO root fetch - processPackages [pyfgaws]: executing diffoscope
+[2023-04-19 16:17:54] INFO root fetch - processPackages [pyfgaws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfgaws-0.2.2.tar.gz tmp/pyfgaws-0.2.3.tar.gz --markdown 20230419/p/pyfgaws/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-19 16:17:54] INFO root fetch - processPackages [wafermap]: Downloading https://files.pythonhosted.org/packages/25/1e/bcba124b12511c80840a8fa54f08bc42bcd171b97eb5efc2262e9a4e1dc8/wafermap-0.2.1.tar.gz
+[2023-04-19 16:17:54] INFO root fetch - processPackages [zfit]: Downloading https://files.pythonhosted.org/packages/5f/45/c2a4a280a4669f3d5a473bbbede7e0fb01844f23957157b09b6980486c1f/zfit-0.9.0a2.tar.gz
+[2023-04-19 16:17:54] INFO root fetch - processPackages [nriapp]: executing diffoscope
+[2023-04-19 16:17:54] INFO root fetch - processPackages [nriapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nriapp-1.1.10.tar.gz tmp/nriapp-1.1.11.tar.gz --markdown 20230419/n/nriapp/1.1.10-1.1.11/diff.md --exclude *.pyd
+[2023-04-19 16:17:54] INFO root fetch - processPackages [backtrader]: Downloading https://files.pythonhosted.org/packages/f3/ef/328c6ec332435f63b3e18febd263686b8ba07e990676a862cc8522ba38f5/backtrader-1.9.78.123-py2.py3-none-any.whl
+[2023-04-19 16:17:54] INFO root fetch - processPackages [postgres-data-faker]: Downloading https://files.pythonhosted.org/packages/3c/68/7e98723e2fd5fee73159d2d97635c12938bffbb1c091101c01c1a6eb2e0b/postgres_data_faker-1.1.0.tar.gz
+[2023-04-19 16:17:54] INFO root fetch - processPackages [postgres-data-faker]: executing diffoscope
+[2023-04-19 16:17:54] INFO root fetch - processPackages [postgres-data-faker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgres_data_faker-1.0.0.tar.gz tmp/postgres_data_faker-1.1.0.tar.gz --markdown 20230419/p/postgres-data-faker/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-19 16:17:54] INFO root fetch - processPackages [backtrader]: executing diffoscope
+[2023-04-19 16:17:54] INFO root fetch - processPackages [backtrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backtrader-1.9.77.123-py2.py3-none-any.whl.zip tmp/backtrader-1.9.78.123-py2.py3-none-any.whl.zip --markdown 20230419/b/backtrader/1.9.77.123-1.9.78.123/diff.md --exclude *.pyd
+[2023-04-19 16:17:54] INFO root fetch - processPackages [ot2rec-report]: Downloading https://files.pythonhosted.org/packages/8d/8e/6f1c1adcb94ece1e4f10b8630e42c9a9667cea4ac9ea6533b32e5f2ede59/ot2rec_report-0.1.0a0.tar.gz
+[2023-04-19 16:17:54] INFO root fetch - processPackages [wafermap]: Downloading https://files.pythonhosted.org/packages/60/64/a1194901084b16339f38cd00312446dcb28972075f071aa7f01a8eb8d691/wafermap-0.2.2.tar.gz
+[2023-04-19 16:17:54] INFO root fetch - processPackages [netorca-sdk]: Downloading https://files.pythonhosted.org/packages/04/f9/d6bae7241d181e2251d4906691b472dab5bf8e30a053a5d8fe581627f769/netorca_sdk-0.0.9.tar.gz
+[2023-04-19 16:17:54] INFO root fetch - processPackages [ot2rec-report]: executing diffoscope
+[2023-04-19 16:17:54] INFO root fetch - processPackages [ot2rec-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ot2rec_report-0.1.0.post3.tar.gz tmp/ot2rec_report-0.1.0a0.tar.gz --markdown 20230419/o/ot2rec-report/0.1.0.post3-0.1.0a0/diff.md --exclude *.pyd
+[2023-04-19 16:17:54] INFO root fetch - processPackages [wafermap]: executing diffoscope
+[2023-04-19 16:17:54] INFO root fetch - processPackages [wafermap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-0.2.1.tar.gz tmp/wafermap-0.2.2.tar.gz --markdown 20230419/w/wafermap/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 16:17:54] INFO root fetch - processPackages [zfit]: Downloading https://files.pythonhosted.org/packages/1a/21/15ef2af4e39f9470653ee29ada9b0207d6a2ff7d11654e5d791a0ca1504a/zfit-0.9.0a3.tar.gz
+[2023-04-19 16:17:55] INFO root fetch - processPackages [netorca-sdk]: executing diffoscope
+[2023-04-19 16:17:55] INFO root fetch - processPackages [netorca-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netorca_sdk-0.0.8.tar.gz tmp/netorca_sdk-0.0.9.tar.gz --markdown 20230419/n/netorca-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:17:55] INFO root fetch - processPackages [zfit]: executing diffoscope
+[2023-04-19 16:17:55] INFO root fetch - processPackages [zfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfit-0.9.0a2.tar.gz tmp/zfit-0.9.0a3.tar.gz --markdown 20230419/z/zfit/0.9.0a2-0.9.0a3/diff.md --exclude *.pyd
+[2023-04-19 16:17:55] INFO root fetch - processPackages [nriapp]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-04-19 16:17:55] INFO root fetch - main [MainThread]: End processing [nriapp]: success
+[2023-04-19 16:17:55] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 16:17:55] INFO root fetch - processPackages [postgres-data-faker]: Start processing: pysparkler
+[2023-04-19 16:17:55] INFO root fetch - main [MainThread]: End processing [postgres-data-faker]: success
+[2023-04-19 16:17:55] INFO root fetch - processPackages [pysparkler]: New version: [0.5.dev1681845137] Old Version: [0.5.dev1681834316]
+[2023-04-19 16:17:55] INFO root fetch - processPackages [pyfgaws]: Start processing: d-popcorn-pckg
+[2023-04-19 16:17:55] INFO root fetch - main [MainThread]: End processing [pyfgaws]: success
+[2023-04-19 16:17:55] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-04-19 16:17:55] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230419/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 16:17:55] WARNING root fetch - processPackages [d-popcorn-pckg]: Skipping, unable to determine old version
+[2023-04-19 16:17:55] INFO root fetch - processPackages [d-popcorn-pckg]: Start processing: hipscat
+[2023-04-19 16:17:55] INFO root fetch - main [MainThread]: End processing [d-popcorn-pckg] error
+[2023-04-19 16:17:55] INFO root fetch - processPackages [hipscat]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 16:17:56] INFO root fetch - processPackages [newsworthycharts]: Start processing: MotorDeCalidad
+[2023-04-19 16:17:56] INFO root fetch - main [MainThread]: End processing [newsworthycharts]: success
+[2023-04-19 16:17:56] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-19 16:17:56] INFO root fetch - processPackages [pysparkler]: executing diffoscope
+[2023-04-19 16:17:56] INFO root fetch - processPackages [pysparkler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkler-0.5.dev1681834316.tar.gz tmp/pysparkler-0.5.dev1681845137.tar.gz --markdown 20230419/p/pysparkler/0.5.dev1681834316-0.5.dev1681845137/diff.md --exclude *.pyd
+[2023-04-19 16:17:56] INFO root fetch - processPackages [wafermap]: Start processing: splashlab
+[2023-04-19 16:17:56] INFO root fetch - main [MainThread]: End processing [wafermap]: success
+[2023-04-19 16:17:56] INFO root fetch - processPackages [splashlab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 16:17:56] INFO root fetch - processPackages [hipscat]: Downloading https://files.pythonhosted.org/packages/e9/1e/067ad0c56c6e0bbc0c1452767421f5988569a0ae1cb384e4cb8e2c431db2/hipscat-0.0.8.tar.gz
+[2023-04-19 16:17:56] INFO root fetch - processPackages [MotorDeCalidad]: Downloading https://files.pythonhosted.org/packages/d0/81/ddc2ac32f7d98b3665b98b4a804156419dce82d6c51d95007a15154c7421/MotorDeCalidad-1.9.8.tar.gz
+[2023-04-19 16:17:56] INFO root fetch - processPackages [ot2rec-report]: Start processing: djpykafka
+[2023-04-19 16:17:56] INFO root fetch - main [MainThread]: End processing [ot2rec-report]: success
+[2023-04-19 16:17:56] INFO root fetch - processPackages [djpykafka]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 16:17:56] INFO root fetch - processPackages [djpykafka]: executing diffoscope
+[2023-04-19 16:17:56] INFO root fetch - processPackages [djpykafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djpykafka-0.0.8.tar.gz tmp/djpykafka-0.0.9.tar.gz --markdown 20230419/d/djpykafka/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:17:56] INFO root fetch - processPackages [netorca-sdk]: Start processing: cpp2py
+[2023-04-19 16:17:56] INFO root fetch - main [MainThread]: End processing [netorca-sdk]: success
+[2023-04-19 16:17:56] WARNING root fetch - processPackages [cpp2py]: Skipping, unable to determine old version
+[2023-04-19 16:17:56] INFO root fetch - processPackages [cpp2py]: Start processing: pdb-toolkit
+[2023-04-19 16:17:56] INFO root fetch - main [MainThread]: End processing [cpp2py] error
+[2023-04-19 16:17:56] INFO root fetch - processPackages [MotorDeCalidad]: Downloading https://files.pythonhosted.org/packages/3f/36/ceedf8c8af40f8e52f69a6db0ce90933ba09e1b843e83b3d0e91e01012be/MotorDeCalidad-1.9.9.tar.gz
+[2023-04-19 16:17:56] INFO root fetch - processPackages [domolibrary]: Start processing: okx-integrator
+[2023-04-19 16:17:56] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-19 16:17:56] INFO root fetch - processPackages [splashlab]: executing diffoscope
+[2023-04-19 16:17:56] WARNING root fetch - processPackages [okx-integrator]: Skipping, unable to determine old version
+[2023-04-19 16:17:56] INFO root fetch - processPackages [splashlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splashlab-0.0.8.tar.gz tmp/splashlab-0.0.9.tar.gz --markdown 20230419/s/splashlab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:17:56] INFO root fetch - processPackages [okx-integrator]: Start processing: emmett-prometheus
+[2023-04-19 16:17:56] INFO root fetch - main [MainThread]: End processing [okx-integrator] error
+[2023-04-19 16:17:56] INFO root fetch - processPackages [hipscat]: Downloading https://files.pythonhosted.org/packages/d9/b7/93e1e8a6fb96e33c4f8a5478f69213a434ef4491565b3e206622db5a6f46/hipscat-0.0.9.tar.gz
+[2023-04-19 16:17:56] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-04-19 16:17:56] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230419/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-19 16:17:56] INFO root fetch - processPackages [emmett-prometheus]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 16:17:56] INFO root fetch - processPackages [hipscat]: executing diffoscope
+[2023-04-19 16:17:56] INFO root fetch - processPackages [hipscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hipscat-0.0.8.tar.gz tmp/hipscat-0.0.9.tar.gz --markdown 20230419/h/hipscat/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:17:56] INFO root fetch - processPackages [pdb-toolkit]: New version: [0.3] Old Version: [0.2]
+[2023-04-19 16:17:56] INFO root fetch - processPackages [emmett-prometheus]: Downloading https://files.pythonhosted.org/packages/47/cc/9660d7c71f11c65f6da823d092156c73742ad87b3a71fd413f536ebf9422/emmett_prometheus-0.1.2.tar.gz
+[2023-04-19 16:17:56] INFO root fetch - processPackages [pdb-toolkit]: Downloading https://files.pythonhosted.org/packages/46/d6/0a3c56d8508567d3b70a6b94a38df184360dc7113bb24d15378ea10fbbe5/pdb_toolkit-0.2.tar.gz
+[2023-04-19 16:17:56] INFO root fetch - processPackages [emmett-prometheus]: executing diffoscope
+[2023-04-19 16:17:56] INFO root fetch - processPackages [emmett-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmett_prometheus-0.1.1.tar.gz tmp/emmett_prometheus-0.1.2.tar.gz --markdown 20230419/e/emmett-prometheus/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 16:17:57] INFO root fetch - processPackages [pdb-toolkit]: Downloading https://files.pythonhosted.org/packages/2c/a7/6dc84db5310e2c6ef3a3860f3e5348d0dd1cc704480e5e59a0f14de7701f/pdb-toolkit-0.3.tar.gz
+[2023-04-19 16:17:57] INFO root fetch - processPackages [pdb-toolkit]: executing diffoscope
+[2023-04-19 16:17:57] INFO root fetch - processPackages [pdb-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdb_toolkit-0.2.tar.gz tmp/pdb-toolkit-0.3.tar.gz --markdown 20230419/p/pdb-toolkit/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-19 16:17:57] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: ramodels
+[2023-04-19 16:17:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-04-19 16:17:57] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-19 16:17:57] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-19 16:17:57] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230419/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-19 16:17:57] INFO root fetch - main [MainThread]: End processing [backtrader]: success
+[2023-04-19 16:17:57] INFO root fetch - main [MainThread]: End processing [pysparkler]: success
+[2023-04-19 16:17:58] INFO root fetch - main [MainThread]: End processing [splashlab]: success
+[2023-04-19 16:17:58] INFO root fetch - main [MainThread]: End processing [djpykafka]: success
+[2023-04-19 16:17:58] INFO root fetch - main [MainThread]: End processing [emmett-prometheus]: success
+[2023-04-19 16:17:58] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-04-19 16:17:58] INFO root fetch - main [MainThread]: End processing [hipscat]: success
+[2023-04-19 16:17:58] INFO root fetch - main [MainThread]: End processing [pdb-toolkit]: success
+[2023-04-19 16:17:58] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-19 16:18:04] INFO root fetch - main [MainThread]: End processing [zfit]: success
+[2023-04-19 16:18:04] INFO root fetch - main [MainThread]: Store serial: [17772091]
