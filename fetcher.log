@@ -19952,3 +19952,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 18:25:17] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2023-04-19 18:25:20] INFO root fetch - main [MainThread]: End processing [evalml]: success
 [2023-04-19 18:25:20] INFO root fetch - main [MainThread]: Store serial: [17773653]
+[2023-04-19 18:30:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17773653]
+[2023-04-19 18:30:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-19 18:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aplr
+[2023-04-19 18:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yayaliu-package
+[2023-04-19 18:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bemserver-api-client
+[2023-04-19 18:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feathub-nightly
+[2023-04-19 18:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-crm-cooperator-rest-api
+[2023-04-19 18:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-crm-metadata
+[2023-04-19 18:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: registtro
+[2023-04-19 18:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-crm-metadata-rest-api
+[2023-04-19 18:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-crm-partner-creator
+[2023-04-19 18:30:30] INFO root fetch - processPackages [aplr]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-04-19 18:30:30] INFO root fetch - processPackages [registtro]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-19 18:30:30] INFO root fetch - processPackages [bemserver-api-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 18:30:30] WARNING root fetch - processPackages [yayaliu-package]: Skipping, unable to determine old version
+[2023-04-19 18:30:30] INFO root fetch - main [MainThread]: End processing [yayaliu-package] error
+[2023-04-19 18:30:30] WARNING root fetch - processPackages [odoo12-addon-crm-metadata]: Skipping, unable to determine old version
+[2023-04-19 18:30:30] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-metadata] error
+[2023-04-19 18:30:30] WARNING root fetch - processPackages [odoo12-addon-crm-cooperator-rest-api]: Skipping, unable to determine old version
+[2023-04-19 18:30:30] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-cooperator-rest-api] error
+[2023-04-19 18:30:30] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230418] Old Version: [0.1.dev20230417]
+[2023-04-19 18:30:30] WARNING root fetch - processPackages [odoo12-addon-crm-partner-creator]: Skipping, unable to determine old version
+[2023-04-19 18:30:30] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-partner-creator] error
+[2023-04-19 18:30:30] WARNING root fetch - processPackages [odoo12-addon-crm-metadata-rest-api]: Skipping, unable to determine old version
+[2023-04-19 18:30:30] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-metadata-rest-api] error
+[2023-04-19 18:30:30] INFO root fetch - processPackages [aplr]: Downloading https://files.pythonhosted.org/packages/89/94/45c73861c24757c4d8530fc2494c5dea9436ee156fc0eb39275c72d1e120/aplr-2.2.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-04-19 18:30:30] INFO root fetch - processPackages [feathub-nightly]: executing diffoscope
+[2023-04-19 18:30:30] INFO root fetch - processPackages [feathub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feathub_nightly-0.1.dev20230417-py3-none-any.whl.zip tmp/feathub_nightly-0.1.dev20230418-py3-none-any.whl.zip --markdown 20230419/f/feathub-nightly/0.1.dev20230417-0.1.dev20230418/diff.md --exclude *.pyd
+[2023-04-19 18:30:30] INFO root fetch - processPackages [registtro]: Downloading https://files.pythonhosted.org/packages/d6/08/6b1702793ac741912b3173f6fd0deceb6cbcd7d3b18102b80b792d370941/registtro-1.3.0.tar.gz
+[2023-04-19 18:30:30] INFO root fetch - processPackages [bemserver-api-client]: Downloading https://files.pythonhosted.org/packages/0e/99/0eb7441cfa9134156d82b72d4eb03d5b10dd22aa7482410b5dc4aebf05f9/bemserver-api-client-0.8.0.tar.gz
+[2023-04-19 18:30:30] INFO root fetch - processPackages [registtro]: Downloading https://files.pythonhosted.org/packages/9e/86/968a9405aa97136dcbf28c1cc789fad069166b530556cfb49a2691dcdf34/registtro-1.4.0.tar.gz
+[2023-04-19 18:30:30] INFO root fetch - processPackages [bemserver-api-client]: Downloading https://files.pythonhosted.org/packages/2f/c8/91a5eda66cf4fda540caaceb9c6396f2bd073d5f4051b35f1c2689988108/bemserver-api-client-0.9.0.tar.gz
+[2023-04-19 18:30:30] INFO root fetch - processPackages [aplr]: Downloading https://files.pythonhosted.org/packages/61/97/7d4afafd9c4344f750d8685153472fd352b0184b5a76114eefc887e59561/aplr-2.3.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-04-19 18:30:30] INFO root fetch - processPackages [bemserver-api-client]: executing diffoscope
+[2023-04-19 18:30:30] INFO root fetch - processPackages [bemserver-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-api-client-0.8.0.tar.gz tmp/bemserver-api-client-0.9.0.tar.gz --markdown 20230419/b/bemserver-api-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 18:30:30] INFO root fetch - processPackages [registtro]: executing diffoscope
+[2023-04-19 18:30:30] INFO root fetch - processPackages [registtro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/registtro-1.3.0.tar.gz tmp/registtro-1.4.0.tar.gz --markdown 20230419/r/registtro/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-19 18:30:30] INFO root fetch - processPackages [aplr]: executing diffoscope
+[2023-04-19 18:30:30] INFO root fetch - processPackages [aplr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aplr-2.2.0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/aplr-2.3.0-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230419/a/aplr/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-04-19 18:30:31] INFO root fetch - main [MainThread]: End processing [bemserver-api-client]: success
+[2023-04-19 18:30:31] INFO root fetch - main [MainThread]: End processing [aplr]: success
+[2023-04-19 18:30:31] INFO root fetch - main [MainThread]: End processing [registtro]: success
+[2023-04-19 18:30:33] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
+[2023-04-19 18:30:33] INFO root fetch - main [MainThread]: Store serial: [17773706]
