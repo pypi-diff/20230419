@@ -17912,3 +17912,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 16:51:42] INFO root fetch - main [MainThread]: End processing [nodezator]: success
 [2023-04-19 16:52:06] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
 [2023-04-19 16:52:06] INFO root fetch - main [MainThread]: Store serial: [17772499]
+[2023-04-19 16:57:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17772499]
+[2023-04-19 16:57:15] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-19 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tkinterweb
+[2023-04-19 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jina-now
+[2023-04-19 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-sql
+[2023-04-19 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: craft-ai-sdk
+[2023-04-19 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simplebox
+[2023-04-19 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: musicli
+[2023-04-19 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arize-phoenix
+[2023-04-19 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdb-toolkit
+[2023-04-19 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modal-client
+[2023-04-19 16:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: committed
+[2023-04-19 16:57:15] INFO root fetch - processPackages [tkinterweb]: New version: [3.9.7] Old Version: [3.9.6]
+[2023-04-19 16:57:15] WARNING root fetch - processPackages [simplebox]: Skipping, unable to determine old version
+[2023-04-19 16:57:15] INFO root fetch - processPackages [simplebox]: Start processing: hubmap-sdk
+[2023-04-19 16:57:15] INFO root fetch - processPackages [musicli]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 16:57:15] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-19 16:57:15] INFO root fetch - processPackages [pdb-toolkit]: New version: [0.3.1] Old Version: [0.3]
+[2023-04-19 16:57:15] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 16:57:15] INFO root fetch - main [MainThread]: End processing [simplebox] error
+[2023-04-19 16:57:15] INFO root fetch - processPackages [committed]: New version: [1.0.17] Old Version: [1.0.16]
+[2023-04-19 16:57:15] INFO root fetch - processPackages [pyg-sql]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-19 16:57:15] INFO root fetch - processPackages [modal-client]: New version: [0.48.1957] Old Version: [0.48.1950]
+[2023-04-19 16:57:15] INFO root fetch - processPackages [hubmap-sdk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-19 16:57:15] INFO root fetch - processPackages [jina-now]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-04-19 16:57:15] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-04-19 16:57:15] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230419/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:57:15] INFO root fetch - processPackages [committed]: Downloading https://files.pythonhosted.org/packages/c2/7e/dc3b76bb5b2e6cb2e13ffe3249d3ce3f8793f4ea3c7633eeff72ed3be96f/committed-1.0.17.tar.gz
+[2023-04-19 16:57:15] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/df/59/cadcbce4e5c0902077dd833ed67c72ef326a2979cc4a8289dee59ec043bf/modal_client-0.48.1957-py3-none-any.whl
+[2023-04-19 16:57:15] INFO root fetch - processPackages [musicli]: Downloading https://files.pythonhosted.org/packages/68/87/eacbf82a228dfa1cbc3915b2147a39c4b2f0eb2d01717199aa78838a45d5/musicli-0.0.4.tar.gz
+[2023-04-19 16:57:16] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2023-04-19 16:57:16] INFO root fetch - processPackages [pdb-toolkit]: Downloading https://files.pythonhosted.org/packages/81/af/93e30b4a51c1f578c6f40c641b639c927f42b562082fdf5c3d6f71c3cbc1/pdb-toolkit-0.3.1.tar.gz
+[2023-04-19 16:57:16] INFO root fetch - processPackages [pyg-sql]: Downloading https://files.pythonhosted.org/packages/e8/79/145494b0caad1244772a6f840c66de24ad31dd230a9834b7484137210ba0/pyg-sql-0.0.7.tar.gz
+[2023-04-19 16:57:16] INFO root fetch - processPackages [hubmap-sdk]: Downloading https://files.pythonhosted.org/packages/76/35/0a75b0530e964928ff2f4aca17caecaf30d555a1cb58eac0d528be0d55ee/hubmap-sdk-1.0.2.tar.gz
+[2023-04-19 16:57:16] INFO root fetch - processPackages [musicli]: executing diffoscope
+[2023-04-19 16:57:16] INFO root fetch - processPackages [musicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicli-0.0.3.tar.gz tmp/musicli-0.0.4.tar.gz --markdown 20230419/m/musicli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 16:57:16] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-04-19 16:57:16] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.48.1950-py3-none-any.whl.zip tmp/modal_client-0.48.1957-py3-none-any.whl.zip --markdown 20230419/m/modal-client/0.48.1950-0.48.1957/diff.md --exclude *.pyd
+[2023-04-19 16:57:16] INFO root fetch - processPackages [pdb-toolkit]: executing diffoscope
+[2023-04-19 16:57:16] INFO root fetch - processPackages [pdb-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdb-toolkit-0.3.tar.gz tmp/pdb-toolkit-0.3.1.tar.gz --markdown 20230419/p/pdb-toolkit/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-04-19 16:57:16] INFO root fetch - processPackages [committed]: executing diffoscope
+[2023-04-19 16:57:16] INFO root fetch - processPackages [committed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/committed-1.0.16.tar.gz tmp/committed-1.0.17.tar.gz --markdown 20230419/c/committed/1.0.16-1.0.17/diff.md --exclude *.pyd
+[2023-04-19 16:57:16] INFO root fetch - processPackages [tkinterweb]: executing diffoscope
+[2023-04-19 16:57:16] INFO root fetch - processPackages [tkinterweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkinterweb-3.9.6.tar.gz tmp/tkinterweb-3.9.7.tar.gz --markdown 20230419/t/tkinterweb/3.9.6-3.9.7/diff.md --exclude *.pyd
+[2023-04-19 16:57:16] INFO root fetch - processPackages [jina-now]: executing diffoscope
+[2023-04-19 16:57:16] INFO root fetch - processPackages [jina-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-now-0.0.9.tar.gz tmp/jina-now-0.0.9.dev2.tar.gz --markdown 20230419/j/jina-now/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-04-19 16:57:16] INFO root fetch - processPackages [hubmap-sdk]: Downloading https://files.pythonhosted.org/packages/10/08/39e839444c4925ec2f51640f50757e8d92484b37bceb3f663446c3dfb741/hubmap-sdk-1.0.3.tar.gz
+[2023-04-19 16:57:16] INFO root fetch - processPackages [pyg-sql]: Downloading https://files.pythonhosted.org/packages/fc/7d/5590dcd594cf1442e6a720ac069cc242376c03c3856de24e89671044e1ac/pyg-sql-0.0.8.tar.gz
+[2023-04-19 16:57:16] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2023-04-19 16:57:16] INFO root fetch - processPackages [hubmap-sdk]: executing diffoscope
+[2023-04-19 16:57:16] INFO root fetch - processPackages [hubmap-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubmap-sdk-1.0.2.tar.gz tmp/hubmap-sdk-1.0.3.tar.gz --markdown 20230419/h/hubmap-sdk/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-19 16:57:16] INFO root fetch - processPackages [pyg-sql]: executing diffoscope
+[2023-04-19 16:57:16] INFO root fetch - processPackages [pyg-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-sql-0.0.7.tar.gz tmp/pyg-sql-0.0.8.tar.gz --markdown 20230419/p/pyg-sql/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-19 16:57:16] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-04-19 16:57:16] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230419/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-19 16:57:17] INFO root fetch - processPackages [musicli]: Start processing: Simba-UW-tf-dev
+[2023-04-19 16:57:17] INFO root fetch - main [MainThread]: End processing [musicli]: success
+[2023-04-19 16:57:17] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.56.8] Old Version: [1.56.7]
+[2023-04-19 16:57:17] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/48/3c/454e6d2531b85a341e804bb5ab4f4445ac725dd61fcf9075737a01521917/Simba-UW-tf-dev-1.56.7.tar.gz
+[2023-04-19 16:57:17] INFO root fetch - processPackages [committed]: Start processing: syngen
+[2023-04-19 16:57:17] INFO root fetch - main [MainThread]: End processing [committed]: success
+[2023-04-19 16:57:17] INFO root fetch - processPackages [syngen]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-04-19 16:57:17] INFO root fetch - processPackages [pdb-toolkit]: Start processing: typed-blocks
+[2023-04-19 16:57:17] INFO root fetch - main [MainThread]: End processing [pdb-toolkit]: success
+[2023-04-19 16:57:17] INFO root fetch - processPackages [hubmap-sdk]: Start processing: sosin
+[2023-04-19 16:57:17] INFO root fetch - main [MainThread]: End processing [hubmap-sdk]: success
+[2023-04-19 16:57:17] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/3b/ce/eee1be0d08125b9c425c014078f660d2109f8a13082c5ea10f09dfc605e3/syngen-0.0.91.tar.gz
+[2023-04-19 16:57:17] INFO root fetch - processPackages [typed-blocks]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-19 16:57:18] INFO root fetch - processPackages [pyg-sql]: Start processing: typos
+[2023-04-19 16:57:18] INFO root fetch - main [MainThread]: End processing [pyg-sql]: success
+[2023-04-19 16:57:18] INFO root fetch - processPackages [typos]: New version: [1.14.7] Old Version: [1.14.6]
+[2023-04-19 16:57:18] INFO root fetch - main [MainThread]: End processing [tkinterweb]: success
+[2023-04-19 16:57:18] INFO root fetch - processPackages [sosin]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 16:57:18] INFO root fetch - processPackages [typed-blocks]: executing diffoscope
+[2023-04-19 16:57:18] INFO root fetch - processPackages [typed-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed-blocks-0.9.8.tar.gz tmp/typed-blocks-0.9.9.tar.gz --markdown 20230419/t/typed-blocks/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-19 16:57:18] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/d8/ec/ff26c81725dc3f6eb8a2cff4a58047fd350a641c5f44fb368f9bbd454080/Simba-UW-tf-dev-1.56.8.tar.gz
+[2023-04-19 16:57:18] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-04-19 16:57:18] INFO root fetch - processPackages [typos]: executing diffoscope
+[2023-04-19 16:57:18] INFO root fetch - processPackages [typos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typos-1.14.6.tar.gz tmp/typos-1.14.7.tar.gz --markdown 20230419/t/typos/1.14.6-1.14.7/diff.md --exclude *.pyd
+[2023-04-19 16:57:18] INFO root fetch - processPackages [sosin]: Downloading https://files.pythonhosted.org/packages/4b/e3/389667481dce93c8e4bb1217e5aea826b93e5c5baf10b6ac2e9bb145cbc1/sosin-1.0.0.tar.gz
+[2023-04-19 16:57:18] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/47/4b/67cf7c10a643371220c8dffc93666f7ac0bd95267d5fc2532627b460fa34/syngen-0.0.92.tar.gz
+[2023-04-19 16:57:18] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-04-19 16:57:18] INFO root fetch - processPackages [sosin]: Downloading https://files.pythonhosted.org/packages/46/94/d9d09cd4fad11136a1ad993eb950c356135a92763f9b11f62b507917d919/sosin-1.0.1.tar.gz
+[2023-04-19 16:57:18] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-04-19 16:57:18] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.0.91.tar.gz tmp/syngen-0.0.92.tar.gz --markdown 20230419/s/syngen/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-04-19 16:57:18] INFO root fetch - processPackages [sosin]: executing diffoscope
+[2023-04-19 16:57:18] INFO root fetch - processPackages [sosin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosin-1.0.0.tar.gz tmp/sosin-1.0.1.tar.gz --markdown 20230419/s/sosin/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 16:57:19] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-04-19 16:57:19] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.56.7.tar.gz tmp/Simba-UW-tf-dev-1.56.8.tar.gz --markdown 20230419/S/Simba-UW-tf-dev/1.56.7-1.56.8/diff.md --exclude *.pyd
+[2023-04-19 16:57:19] INFO root fetch - main [MainThread]: End processing [sosin]: success
+[2023-04-19 16:57:19] INFO root fetch - main [MainThread]: End processing [typed-blocks]: success
+[2023-04-19 16:57:20] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-04-19 16:57:21] INFO root fetch - main [MainThread]: End processing [typos]: success
+[2023-04-19 16:57:24] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-04-19 16:57:26] INFO root fetch - main [MainThread]: End processing [jina-now]: success
+[2023-04-19 16:57:37] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-04-19 16:57:37] INFO root fetch - main [MainThread]: Store serial: [17772567]
