@@ -21321,3 +21321,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 19:40:10] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
 [2023-04-19 19:40:12] INFO root fetch - main [MainThread]: End processing [sdv]: success
 [2023-04-19 19:40:12] INFO root fetch - main [MainThread]: Store serial: [17774670]
+[2023-04-19 19:45:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17774670]
+[2023-04-19 19:45:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-vlc-http
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: venv-modulefile
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copier
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volume-segmantics
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c8connector
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qmflows
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ebib
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycup
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skeraton
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fasdr
+[2023-04-19 19:45:22] INFO root fetch - processPackages [python-vlc-http]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 19:45:22] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 19:45:22] WARNING root fetch - processPackages [fasdr]: Skipping, unable to determine old version
+[2023-04-19 19:45:22] INFO root fetch - main [MainThread]: End processing [fasdr] error
+[2023-04-19 19:45:22] INFO root fetch - processPackages [c8connector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 19:45:22] INFO root fetch - processPackages [volume-segmantics]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ebib]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-19 19:45:22] INFO root fetch - processPackages [copier]: New version: [7.2.0] Old Version: [7.1.0a0]
+[2023-04-19 19:45:22] WARNING root fetch - processPackages [skeraton]: Skipping, unable to determine old version
+[2023-04-19 19:45:22] INFO root fetch - processPackages [pycup]: New version: [0.1.6.1] Old Version: [0.1.6]
+[2023-04-19 19:45:22] INFO root fetch - main [MainThread]: End processing [skeraton] error
+[2023-04-19 19:45:22] INFO root fetch - processPackages [qmflows]: New version: [0.2.1] Old Version: [0.13.0]
+[2023-04-19 19:45:22] INFO root fetch - processPackages [python-vlc-http]: Downloading https://files.pythonhosted.org/packages/3f/14/202740c59ff43809b04d083e0c708c6ba53140aa003f7c48a4eb5958ffe8/python-vlc-http-0.0.8.tar.gz
+[2023-04-19 19:45:22] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/e0/d7/ea0834e8742a86303622c7937cefa02d8840abf84078f2dbbab1cc1a02f7/venv-modulefile-0.0.1.tar.gz
+[2023-04-19 19:45:22] INFO root fetch - processPackages [volume-segmantics]: Downloading https://files.pythonhosted.org/packages/be/47/2cd4c0751e9cde6c74c4a20844a67c42b08b45c779e91d55d6ae4c24bf4b/volume_segmantics-0.3.1.tar.gz
+[2023-04-19 19:45:22] INFO root fetch - processPackages [copier]: Downloading https://files.pythonhosted.org/packages/a7/fb/53c73cc0034360233f667cf394f2c1e6789b0f600ea2e0b5f7b4f306972f/copier-7.1.0a0.tar.gz
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ebib]: Downloading https://files.pythonhosted.org/packages/b0/b5/912edbc17b1c207a82b2e0fd239522aa41746a5003ffe12b0ce513ecacb0/ebib-1.1.2.tar.gz
+[2023-04-19 19:45:22] INFO root fetch - processPackages [qmflows]: Downloading https://files.pythonhosted.org/packages/1e/c5/dd99fa8c5cf2f6fcd7c609eed9e564eb407c2d8a3700751367e3af89a047/qmflows-0.13.0.tar.gz
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ebib]: executing diffoscope
+[2023-04-19 19:45:22] INFO root fetch - processPackages [ebib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebib-1.1.1.tar.gz tmp/ebib-1.1.2.tar.gz --markdown 20230419/e/ebib/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-19 19:45:22] INFO root fetch - processPackages [c8connector]: executing diffoscope
+[2023-04-19 19:45:22] INFO root fetch - processPackages [c8connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c8connector-0.0.8.tar.gz tmp/c8connector-0.0.9.tar.gz --markdown 20230419/c/c8connector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 19:45:22] INFO root fetch - processPackages [pycup]: Downloading https://files.pythonhosted.org/packages/92/2d/e28a713edaa8a9f5d42aac3eba5e16e0d190a2ec83601bf23562c6797b04/pycup-0.1.6.1.tar.gz
+[2023-04-19 19:45:22] INFO root fetch - processPackages [volume-segmantics]: Downloading https://files.pythonhosted.org/packages/e4/22/801d5715c97320a2b0e4d0397b6a12e0eae547655211606130dac90005db/volume_segmantics-0.3.2.tar.gz
+[2023-04-19 19:45:22] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/4a/ed/a17d83af05c21895ffb19f8c7b947b1c3b5d109ca268fa2c7f6ec340647e/venv-modulefile-0.0.2.tar.gz
+[2023-04-19 19:45:22] INFO root fetch - processPackages [python-vlc-http]: Downloading https://files.pythonhosted.org/packages/33/f6/e4c441282c96d62e5120c51f2f0fef571142b5336084d8e2168984f29151/python-vlc-http-0.0.9.tar.gz
+[2023-04-19 19:45:22] INFO root fetch - processPackages [copier]: Downloading https://files.pythonhosted.org/packages/11/df/d0fdf927d52f7b6d81737c0ff0265fdf90960883aca4c09ab307fc5f9df0/copier-7.2.0.tar.gz
+[2023-04-19 19:45:22] INFO root fetch - processPackages [volume-segmantics]: executing diffoscope
+[2023-04-19 19:45:22] INFO root fetch - processPackages [volume-segmantics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volume_segmantics-0.3.1.tar.gz tmp/volume_segmantics-0.3.2.tar.gz --markdown 20230419/v/volume-segmantics/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-19 19:45:22] INFO root fetch - processPackages [python-vlc-http]: executing diffoscope
+[2023-04-19 19:45:22] INFO root fetch - processPackages [python-vlc-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-vlc-http-0.0.8.tar.gz tmp/python-vlc-http-0.0.9.tar.gz --markdown 20230419/p/python-vlc-http/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 19:45:22] INFO root fetch - processPackages [qmflows]: Downloading https://files.pythonhosted.org/packages/31/e1/369190ffc2d98f981cc5b68beb0fe78d96b25ac989a6381c2b17fffa370d/qmflows-0.2.1.tar.gz
+[2023-04-19 19:45:22] INFO root fetch - processPackages [pycup]: executing diffoscope
+[2023-04-19 19:45:22] INFO root fetch - processPackages [pycup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycup-0.1.6.tar.gz tmp/pycup-0.1.6.1.tar.gz --markdown 20230419/p/pycup/0.1.6-0.1.6.1/diff.md --exclude *.pyd
+[2023-04-19 19:45:22] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-04-19 19:45:22] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.1.tar.gz tmp/venv-modulefile-0.0.2.tar.gz --markdown 20230419/v/venv-modulefile/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 19:45:22] INFO root fetch - processPackages [copier]: executing diffoscope
+[2023-04-19 19:45:22] INFO root fetch - processPackages [copier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copier-7.1.0a0.tar.gz tmp/copier-7.2.0.tar.gz --markdown 20230419/c/copier/7.1.0a0-7.2.0/diff.md --exclude *.pyd
+[2023-04-19 19:45:23] INFO root fetch - processPackages [qmflows]: executing diffoscope
+[2023-04-19 19:45:23] INFO root fetch - processPackages [qmflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qmflows-0.13.0.tar.gz tmp/qmflows-0.2.1.tar.gz --markdown 20230419/q/qmflows/0.13.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-19 19:45:23] INFO root fetch - main [MainThread]: End processing [c8connector]: success
+[2023-04-19 19:45:23] INFO root fetch - main [MainThread]: End processing [ebib]: success
+[2023-04-19 19:45:24] INFO root fetch - main [MainThread]: End processing [python-vlc-http]: success
+[2023-04-19 19:45:24] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-04-19 19:45:24] INFO root fetch - main [MainThread]: End processing [qmflows]: success
+[2023-04-19 19:45:25] INFO root fetch - main [MainThread]: End processing [copier]: success
+[2023-04-19 19:45:25] INFO root fetch - main [MainThread]: End processing [pycup]: success
+[2023-04-19 19:45:36] INFO root fetch - main [MainThread]: End processing [volume-segmantics]: success
+[2023-04-19 19:45:36] INFO root fetch - main [MainThread]: Store serial: [17774702]
