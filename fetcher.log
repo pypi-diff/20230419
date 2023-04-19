@@ -8325,3 +8325,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 08:38:42] INFO root fetch - main [MainThread]: End processing [claws]: success
 [2023-04-19 08:38:42] INFO root fetch - main [MainThread]: End processing [quantplay]: success
 [2023-04-19 08:38:42] INFO root fetch - main [MainThread]: Store serial: [17766703]
+[2023-04-19 08:43:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766703]
+[2023-04-19 08:43:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-19 08:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starsaiot-monit
+[2023-04-19 08:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spetlr
+[2023-04-19 08:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-automatic-workflow-payment-mode
+[2023-04-19 08:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: merlin-sdk
+[2023-04-19 08:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bridgebots
+[2023-04-19 08:43:51] INFO root fetch - processPackages [bridgebots]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 08:43:51] INFO root fetch - processPackages [spetlr]: New version: [1.1.75] Old Version: [1.1.71]
+[2023-04-19 08:43:51] INFO root fetch - processPackages [starsaiot-monit]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-19 08:43:51] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow-payment-mode]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-04-19 08:43:51] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-04-19 08:43:51] INFO root fetch - processPackages [starsaiot-monit]: executing diffoscope
+[2023-04-19 08:43:51] INFO root fetch - processPackages [starsaiot-monit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starsaiot-monit-1.2.8.tar.gz tmp/starsaiot-monit-1.2.9.tar.gz --markdown 20230419/s/starsaiot-monit/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-19 08:43:51] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-04-19 08:43:51] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230419/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-04-19 08:43:51] INFO root fetch - processPackages [bridgebots]: Downloading https://files.pythonhosted.org/packages/ab/32/a89d50ddec0cdab2068e12a124f1580a80baa61f0735a38927cb5c5df6a0/bridgebots-0.0.8.tar.gz
+[2023-04-19 08:43:51] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow-payment-mode]: Downloading https://files.pythonhosted.org/packages/86/8e/010d941bf5484254174a9922fa3f3538acaeba16b2a7b40be4bdc4b8acc5/odoo_addon_sale_automatic_workflow_payment_mode-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-19 08:43:51] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/af/87/e36bdcbffd33497a81c238d4a0401c7bbfc561aed6ae46ff9601a5c7b719/spetlr-1.1.75.tar.gz
+[2023-04-19 08:43:51] INFO root fetch - processPackages [spetlr]: executing diffoscope
+[2023-04-19 08:43:51] INFO root fetch - processPackages [spetlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spetlr-1.1.71.tar.gz tmp/spetlr-1.1.75.tar.gz --markdown 20230419/s/spetlr/1.1.71-1.1.75/diff.md --exclude *.pyd
+[2023-04-19 08:43:51] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow-payment-mode]: Downloading https://files.pythonhosted.org/packages/c2/ee/7df498f2cb6841887fdf983ece2db7cbaae80f57eb7d0139e6bdb87d75f6/odoo_addon_sale_automatic_workflow_payment_mode-16.0.1.0.0.3-py3-none-any.whl
+[2023-04-19 08:43:51] INFO root fetch - processPackages [bridgebots]: Downloading https://files.pythonhosted.org/packages/5a/1a/81b27203b095c19f7619f1341e5c1888b500967f1c4d709224f313fa320d/bridgebots-0.0.9.tar.gz
+[2023-04-19 08:43:51] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow-payment-mode]: executing diffoscope
+[2023-04-19 08:43:51] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow-payment-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_automatic_workflow_payment_mode-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_automatic_workflow_payment_mode-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-sale-automatic-workflow-payment-mode/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-04-19 08:43:52] INFO root fetch - processPackages [bridgebots]: executing diffoscope
+[2023-04-19 08:43:52] INFO root fetch - processPackages [bridgebots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgebots-0.0.8.tar.gz tmp/bridgebots-0.0.9.tar.gz --markdown 20230419/b/bridgebots/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 08:43:52] INFO root fetch - main [MainThread]: End processing [starsaiot-monit]: success
+[2023-04-19 08:43:53] INFO root fetch - main [MainThread]: End processing [bridgebots]: success
+[2023-04-19 08:43:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-automatic-workflow-payment-mode]: success
+[2023-04-19 08:43:53] INFO root fetch - main [MainThread]: End processing [spetlr]: success
+[2023-04-19 08:43:54] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-04-19 08:43:54] INFO root fetch - main [MainThread]: Store serial: [17766725]
