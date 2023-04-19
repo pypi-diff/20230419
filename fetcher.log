@@ -9077,3 +9077,76 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 09:32:56] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-04-19 09:32:57] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-04-19 09:32:57] INFO root fetch - main [MainThread]: Store serial: [17767178]
+[2023-04-19 09:38:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17767178]
+[2023-04-19 09:38:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-19 09:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amiyabot
+[2023-04-19 09:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-grpc-lw-data-provider
+[2023-04-19 09:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lalsuite
+[2023-04-19 09:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatgptdevfriendly
+[2023-04-19 09:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p-template-generator
+[2023-04-19 09:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nextcloudtalkbot
+[2023-04-19 09:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docstruct
+[2023-04-19 09:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bridgecrew
+[2023-04-19 09:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccDemo
+[2023-04-19 09:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cg
+[2023-04-19 09:38:06] INFO root fetch - processPackages [amiyabot]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-04-19 09:38:06] INFO root fetch - processPackages [chatgptdevfriendly]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-04-19 09:38:06] INFO root fetch - processPackages [nextcloudtalkbot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 09:38:06] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4740697237]
+[2023-04-19 09:38:06] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 09:38:06] INFO root fetch - processPackages [docstruct]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 09:38:06] INFO root fetch - processPackages [cg]: New version: [28.0.4] Old Version: [28.0.3]
+[2023-04-19 09:38:06] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-04-19 09:38:06] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-19 09:38:06] WARNING root fetch - processPackages [ccDemo]: Skipping, unable to determine old version
+[2023-04-19 09:38:06] INFO root fetch - processPackages [ccDemo]: Start processing: sberpm
+[2023-04-19 09:38:06] INFO root fetch - main [MainThread]: End processing [ccDemo] error
+[2023-04-19 09:38:07] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-19 09:38:07] INFO root fetch - processPackages [nextcloudtalkbot]: executing diffoscope
+[2023-04-19 09:38:07] INFO root fetch - processPackages [nextcloudtalkbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextcloudtalkbot-0.0.8.tar.gz tmp/nextcloudtalkbot-0.0.9.tar.gz --markdown 20230419/n/nextcloudtalkbot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 09:38:07] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-19 09:38:07] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-28.0.3.tar.gz tmp/cg-28.0.4.tar.gz --markdown 20230419/c/cg/28.0.3-28.0.4/diff.md --exclude *.pyd
+[2023-04-19 09:38:07] INFO root fetch - processPackages [chatgptdevfriendly]: Downloading https://files.pythonhosted.org/packages/4c/99/f63d0c1a4f850e7c15af718b01bf892fa12bc0f07fa097506384f6cd2499/chatgptdevfriendly-0.0.2.tar.gz
+[2023-04-19 09:38:07] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/b8/58/b45bed2f01a7b6462e6282f307eb9a39ad47ab4353c3bccba5818985b9c0/amiyabot-1.3.9-py3-none-any.whl
+[2023-04-19 09:38:07] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-19 09:38:07] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230419/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-19 09:38:07] INFO root fetch - processPackages [sberpm]: New version: [2.4.0] Old Version: [2.3.3]
+[2023-04-19 09:38:07] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/e3/4a/368702471ccedb2df9d5b34def18984ceea622577089c13b4e5d63340b97/th2_grpc_lw_data_provider-2.0.0.dev4740697237.tar.gz
+[2023-04-19 09:38:07] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-04-19 09:38:07] INFO root fetch - processPackages [lalsuite]: Start processing: tf-nightly-macos
+[2023-04-19 09:38:07] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-04-19 09:38:07] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.13.0.dev20230418] Old Version: [2.13.0.dev20230417]
+[2023-04-19 09:38:07] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11296473>=10485760
+[2023-04-19 09:38:07] INFO root fetch - processPackages [amiyabot]: Start processing: gggifcheck
+[2023-04-19 09:38:07] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-04-19 09:38:07] INFO root fetch - processPackages [chatgptdevfriendly]: Downloading https://files.pythonhosted.org/packages/14/17/59bb11c43cfdd1c839829e9ab952d1519329c98af7d907da45c646a42982/chatgptdevfriendly-1.0.0.tar.gz
+[2023-04-19 09:38:07] INFO root fetch - processPackages [docstruct]: executing diffoscope
+[2023-04-19 09:38:07] INFO root fetch - processPackages [docstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstruct-1.0.8.tar.gz tmp/docstruct-1.0.9.tar.gz --markdown 20230419/d/docstruct/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 09:38:07] INFO root fetch - processPackages [sberpm]: Downloading https://files.pythonhosted.org/packages/b1/4a/a3a609c1cc1e6d229fe44e9127af3efbc40af0e8d4eb79ba55fc53759de9/sberpm-2.3.3.tar.gz
+[2023-04-19 09:38:07] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-19 09:38:07] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4740697237.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230419/t/th2-grpc-lw-data-provider/2.0.0.dev4740697237-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-19 09:38:07] INFO root fetch - processPackages [gggifcheck]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 09:38:07] INFO root fetch - processPackages [chatgptdevfriendly]: executing diffoscope
+[2023-04-19 09:38:07] INFO root fetch - processPackages [chatgptdevfriendly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgptdevfriendly-0.0.2.tar.gz tmp/chatgptdevfriendly-1.0.0.tar.gz --markdown 20230419/c/chatgptdevfriendly/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-04-19 09:38:07] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2023-04-19 09:38:07] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.8.tar.gz tmp/p-template-generator-0.1.9.tar.gz --markdown 20230419/p/p-template-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 09:38:07] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/62/4b/e15b7ac003cfb37b491ed100ed3fae6aaf00cb6cd71000be968a8c144523/tf_nightly_macos-2.13.0.dev20230417-cp39-cp39-macosx_12_0_arm64.whl
+[2023-04-19 09:38:07] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 188208575>=10485760
+[2023-04-19 09:38:07] INFO root fetch - processPackages [gggifcheck]: Downloading https://files.pythonhosted.org/packages/04/a7/90ee6ed364d173f802a09ccc0be5ebdc5d0b2292fbc3d6f3b4fe89ba5abf/gggifcheck-0.0.1.tar.gz
+[2023-04-19 09:38:07] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-04-19 09:38:07] INFO root fetch - processPackages [sberpm]: Downloading https://files.pythonhosted.org/packages/a6/cf/c0fc1de7dd84db16ac77c44b173b808db898c27265daa6650c9e10be82d1/sberpm-2.4.0.tar.gz
+[2023-04-19 09:38:07] INFO root fetch - processPackages [sberpm]: executing diffoscope
+[2023-04-19 09:38:07] INFO root fetch - processPackages [sberpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sberpm-2.3.3.tar.gz tmp/sberpm-2.4.0.tar.gz --markdown 20230419/s/sberpm/2.3.3-2.4.0/diff.md --exclude *.pyd
+[2023-04-19 09:38:07] INFO root fetch - processPackages [gggifcheck]: Downloading https://files.pythonhosted.org/packages/41/83/3fbb4ba4ba84a637f6428b842e9d1ac69c280afe9c5deea09583be948c10/gggifcheck-0.0.2.tar.gz
+[2023-04-19 09:38:08] INFO root fetch - processPackages [gggifcheck]: executing diffoscope
+[2023-04-19 09:38:08] INFO root fetch - processPackages [gggifcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gggifcheck-0.0.1.tar.gz tmp/gggifcheck-0.0.2.tar.gz --markdown 20230419/g/gggifcheck/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 09:38:08] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-19 09:38:08] INFO root fetch - main [MainThread]: End processing [docstruct]: success
+[2023-04-19 09:38:08] INFO root fetch - main [MainThread]: End processing [chatgptdevfriendly]: success
+[2023-04-19 09:38:08] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-19 09:38:08] INFO root fetch - main [MainThread]: End processing [nextcloudtalkbot]: success
+[2023-04-19 09:38:09] INFO root fetch - main [MainThread]: End processing [gggifcheck]: success
+[2023-04-19 09:38:10] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2023-04-19 09:38:10] INFO root fetch - main [MainThread]: End processing [sberpm]: success
+[2023-04-19 09:38:17] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-19 09:38:17] INFO root fetch - main [MainThread]: Store serial: [17767232]
