@@ -4611,3 +4611,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 03:51:20] ERROR root fetch - processPackages [ansys-fluent-core]: Timeout during execution of pkgdiff
 [2023-04-19 03:51:20] INFO root fetch - main [MainThread]: End processing [ansys-fluent-core] error
 [2023-04-19 03:51:20] INFO root fetch - main [MainThread]: Store serial: [17764773]
+[2023-04-19 03:56:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17764773]
+[2023-04-19 03:56:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-19 03:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: limes-x
+[2023-04-19 03:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jcmutils
+[2023-04-19 03:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yxxtest
+[2023-04-19 03:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bashparser
+[2023-04-19 03:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-skill-local-music
+[2023-04-19 03:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlmesh
+[2023-04-19 03:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: segment-anything-py
+[2023-04-19 03:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: resend
+[2023-04-19 03:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fkeycapture
+[2023-04-19 03:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: efax
+[2023-04-19 03:56:28] INFO root fetch - processPackages [jcmutils]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-04-19 03:56:28] WARNING root fetch - processPackages [limes-x]: Skipping, unable to determine old version
+[2023-04-19 03:56:28] INFO root fetch - processPackages [limes-x]: Start processing: TimeHandle
+[2023-04-19 03:56:28] INFO root fetch - processPackages [sqlmesh]: New version: [0.5.0] Old Version: [0.4.2.dev9]
+[2023-04-19 03:56:28] INFO root fetch - main [MainThread]: End processing [limes-x] error
+[2023-04-19 03:56:28] INFO root fetch - processPackages [resend]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 03:56:28] INFO root fetch - processPackages [bashparser]: New version: [0.9] Old Version: [0.8]
+[2023-04-19 03:56:28] INFO root fetch - processPackages [neon-skill-local-music]: New version: [0.1.1a4] Old Version: [0.1.1a1]
+[2023-04-19 03:56:28] WARNING root fetch - processPackages [TimeHandle]: Skipping, unable to determine old version
+[2023-04-19 03:56:28] INFO root fetch - processPackages [yxxtest]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-19 03:56:28] INFO root fetch - processPackages [fkeycapture]: New version: [1.2.0] Old Version: [1.0.9]
+[2023-04-19 03:56:28] INFO root fetch - processPackages [TimeHandle]: Start processing: segment-anything-py
+[2023-04-19 03:56:28] INFO root fetch - main [MainThread]: End processing [TimeHandle] error
+[2023-04-19 03:56:28] INFO root fetch - processPackages [segment-anything-py]: New version: [0.5] Old Version: [0.4]
+[2023-04-19 03:56:28] INFO root fetch - processPackages [efax]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-19 03:56:29] INFO root fetch - processPackages [segment-anything-py]: New version: [0.5] Old Version: [0.4]
+[2023-04-19 03:56:29] INFO root fetch - processPackages [efax]: executing diffoscope
+[2023-04-19 03:56:29] INFO root fetch - processPackages [efax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efax-1.9.0.tar.gz tmp/efax-1.9.1.tar.gz --markdown 20230419/e/efax/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-19 03:56:29] INFO root fetch - processPackages [yxxtest]: Downloading https://files.pythonhosted.org/packages/a0/93/158a459e8149948aaeebd8342f20e057122b2e7a0e962a384c951b089f0c/yxxtest-0.1.0.tar.gz
+[2023-04-19 03:56:29] INFO root fetch - processPackages [segment-anything-py]: Downloading https://files.pythonhosted.org/packages/0a/10/32ce6b03d6f40359126b9e937fe182949f0523fb107f3b91fc2bfadf9d05/segment-anything-py-0.4.tar.gz
+[2023-04-19 03:56:29] INFO root fetch - processPackages [segment-anything-py]: Downloading https://files.pythonhosted.org/packages/0a/10/32ce6b03d6f40359126b9e937fe182949f0523fb107f3b91fc2bfadf9d05/segment-anything-py-0.4.tar.gz
+[2023-04-19 03:56:29] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/37/5b/2986409ceb8d66bcbf05c189007f18f770c8e431d10a6a37251bda3d3fb6/neon_skill_local_music-0.1.1a1-py3-none-any.whl
+[2023-04-19 03:56:29] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/8b/06/16848019618ef863d1d966afe8bfcff0f7b3f692039e8bb010ca83a96441/sqlmesh-0.5.0.tar.gz
+[2023-04-19 03:56:29] INFO root fetch - processPackages [fkeycapture]: Downloading https://files.pythonhosted.org/packages/eb/99/3ff875791722a3d7f793992f410a1efbfc433fc3b6d319a2cdb830c88e52/fkeycapture-1.0.9.tar.gz
+[2023-04-19 03:56:29] INFO root fetch - processPackages [resend]: Downloading https://files.pythonhosted.org/packages/67/45/4c1549d2bf5739136488d30fff6be274c70b4258cbb9e706c8bd334555af/resend-0.1.0.tar.gz
+[2023-04-19 03:56:29] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/0a/eb/9f2ddfd02ee1828b5f1d11f1966bc7a08f6cd31197b0840c49373f2cc180/jcmutils-1.3.4.tar.gz
+[2023-04-19 03:56:29] INFO root fetch - processPackages [bashparser]: executing diffoscope
+[2023-04-19 03:56:29] INFO root fetch - processPackages [bashparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bashparser-0.8.tar.gz tmp/bashparser-0.9.tar.gz --markdown 20230419/b/bashparser/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-19 03:56:29] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-04-19 03:56:29] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.3.3.tar.gz tmp/jcmutils-1.3.4.tar.gz --markdown 20230419/j/jcmutils/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-04-19 03:56:29] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/f1/ae/a9541ade70b786e16237e6ced5d0711723e3664c5ee392024444d9dab6d0/neon_skill_local_music-0.1.1a4-py3-none-any.whl
+[2023-04-19 03:56:29] INFO root fetch - processPackages [fkeycapture]: Downloading https://files.pythonhosted.org/packages/d7/d4/15a10b208c66f51adf98660db9fd4fc0475dbf6df170fcc1643ae65770d0/fkeycapture-1.2.0.tar.gz
+[2023-04-19 03:56:29] INFO root fetch - processPackages [yxxtest]: Downloading https://files.pythonhosted.org/packages/e9/48/38f4d7f23c1ba8f4b7e30c7c0bfb1011a293943347ee3fc14abd000ca568/yxxtest-0.2.0.tar.gz
+[2023-04-19 03:56:29] INFO root fetch - processPackages [resend]: Downloading https://files.pythonhosted.org/packages/37/45/372b8d3417c588fcbc8a5d31a5a59c2cf41f3c1af36b0dd5af4415d9fce2/resend-0.1.1.tar.gz
+[2023-04-19 03:56:29] INFO root fetch - processPackages [neon-skill-local-music]: executing diffoscope
+[2023-04-19 03:56:29] INFO root fetch - processPackages [neon-skill-local-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_local_music-0.1.1a1-py3-none-any.whl.zip tmp/neon_skill_local_music-0.1.1a4-py3-none-any.whl.zip --markdown 20230419/n/neon-skill-local-music/0.1.1a1-0.1.1a4/diff.md --exclude *.pyd
+[2023-04-19 03:56:29] INFO root fetch - processPackages [fkeycapture]: executing diffoscope
+[2023-04-19 03:56:29] INFO root fetch - processPackages [fkeycapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fkeycapture-1.0.9.tar.gz tmp/fkeycapture-1.2.0.tar.gz --markdown 20230419/f/fkeycapture/1.0.9-1.2.0/diff.md --exclude *.pyd
+[2023-04-19 03:56:29] INFO root fetch - processPackages [yxxtest]: executing diffoscope
+[2023-04-19 03:56:29] INFO root fetch - processPackages [yxxtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxxtest-0.1.0.tar.gz tmp/yxxtest-0.2.0.tar.gz --markdown 20230419/y/yxxtest/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 03:56:29] INFO root fetch - processPackages [resend]: executing diffoscope
+[2023-04-19 03:56:29] INFO root fetch - processPackages [resend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resend-0.1.0.tar.gz tmp/resend-0.1.1.tar.gz --markdown 20230419/r/resend/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 03:56:29] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-04-19 03:56:29] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.4.2.dev9.tar.gz tmp/sqlmesh-0.5.0.tar.gz --markdown 20230419/s/sqlmesh/0.4.2.dev9-0.5.0/diff.md --exclude *.pyd
+[2023-04-19 03:56:30] INFO root fetch - processPackages [segment-anything-py]: Downloading https://files.pythonhosted.org/packages/8a/7d/cf62884842dd2da8270a6816d801a19c40144cbf0b500fdb03e32ff18b91/segment-anything-py-0.5.tar.gz
+[2023-04-19 03:56:30] INFO root fetch - processPackages [segment-anything-py]: Downloading https://files.pythonhosted.org/packages/8a/7d/cf62884842dd2da8270a6816d801a19c40144cbf0b500fdb03e32ff18b91/segment-anything-py-0.5.tar.gz
+[2023-04-19 03:56:30] INFO root fetch - processPackages [jcmutils]: Start processing: PRauto
+[2023-04-19 03:56:30] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-04-19 03:56:30] INFO root fetch - processPackages [PRauto]: New version: [0.12] Old Version: [0.112]
+[2023-04-19 03:56:30] INFO root fetch - processPackages [fkeycapture]: Start processing: cellmap
+[2023-04-19 03:56:30] INFO root fetch - main [MainThread]: End processing [fkeycapture]: success
+[2023-04-19 03:56:30] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304190155] Old Version: [1.0.1.dev202304181101]
+[2023-04-19 03:56:30] INFO root fetch - processPackages [resend]: Start processing: fkeycapture
+[2023-04-19 03:56:30] INFO root fetch - main [MainThread]: End processing [resend]: success
+[2023-04-19 03:56:30] INFO root fetch - processPackages [PRauto]: Downloading https://files.pythonhosted.org/packages/46/4b/93f9cfd4347bde04e9dab56d844bec0483da8787ca2023b845d11589a497/PRauto-0.12.tar.gz
+[2023-04-19 03:56:30] INFO root fetch - main [MainThread]: End processing [neon-skill-local-music]: success
+[2023-04-19 03:56:30] INFO root fetch - processPackages [fkeycapture]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-19 03:56:31] INFO root fetch - main [MainThread]: End processing [yxxtest]: success
+[2023-04-19 03:56:31] INFO root fetch - processPackages [PRauto]: executing diffoscope
+[2023-04-19 03:56:31] INFO root fetch - processPackages [PRauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PRauto-0.112.tar.gz tmp/PRauto-0.12.tar.gz --markdown 20230419/P/PRauto/0.112-0.12/diff.md --exclude *.pyd
+[2023-04-19 03:56:31] INFO root fetch - processPackages [fkeycapture]: Downloading https://files.pythonhosted.org/packages/dd/de/545ef66da405a0b4bb02a372b3c58e5f7ffe3839599ece77aa25eadf0384/fkeycapture-1.2.1.tar.gz
+[2023-04-19 03:56:31] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/fa/77/3bfdfce568bda792b2623602a0de6f17f597d5f019a75a885b1f55f72fba/cellmap-1.0.1.dev202304190155-py3-none-any.whl
+[2023-04-19 03:56:31] INFO root fetch - processPackages [fkeycapture]: executing diffoscope
+[2023-04-19 03:56:31] INFO root fetch - processPackages [fkeycapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fkeycapture-1.2.0.tar.gz tmp/fkeycapture-1.2.1.tar.gz --markdown 20230419/f/fkeycapture/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-19 03:56:31] INFO root fetch - main [MainThread]: End processing [bashparser]: success
+[2023-04-19 03:56:31] INFO root fetch - main [MainThread]: End processing [efax]: success
+[2023-04-19 03:56:31] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-19 03:56:31] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304181101-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304190155-py3-none-any.whl.zip --markdown 20230419/c/cellmap/1.0.1.dev202304181101-1.0.1.dev202304190155/diff.md --exclude *.pyd
+[2023-04-19 03:56:31] INFO root fetch - processPackages [segment-anything-py]: executing diffoscope
+[2023-04-19 03:56:31] INFO root fetch - processPackages [segment-anything-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-anything-py-0.4.tar.gz tmp/segment-anything-py-0.5.tar.gz --markdown 20230419/s/segment-anything-py/0.4-0.5/diff.md --exclude *.pyd
+[2023-04-19 03:56:31] INFO root fetch - processPackages [segment-anything-py]: executing diffoscope
+[2023-04-19 03:56:31] INFO root fetch - processPackages [segment-anything-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-anything-py-0.4.tar.gz tmp/segment-anything-py-0.5.tar.gz --markdown 20230419/s/segment-anything-py/0.4-0.5/diff.md --exclude *.pyd
+[2023-04-19 03:56:32] INFO root fetch - main [MainThread]: End processing [PRauto]: success
+[2023-04-19 03:56:32] INFO root fetch - main [MainThread]: End processing [fkeycapture]: success
+[2023-04-19 03:56:33] INFO root fetch - main [MainThread]: End processing [segment-anything-py]: success
+[2023-04-19 03:56:33] INFO root fetch - main [MainThread]: End processing [segment-anything-py]: success
+[2023-04-19 03:56:36] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-19 03:56:36] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-04-19 03:56:36] INFO root fetch - main [MainThread]: Store serial: [17764817]
