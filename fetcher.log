@@ -20110,3 +20110,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 18:35:50] INFO root fetch - main [MainThread]: End processing [pyblp]: success
 [2023-04-19 18:35:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-payroll]: success
 [2023-04-19 18:35:52] INFO root fetch - main [MainThread]: Store serial: [17773776]
+[2023-04-19 18:40:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17773776]
+[2023-04-19 18:41:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-19 18:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runningz
+[2023-04-19 18:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Conversion
+[2023-04-19 18:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imgui
+[2023-04-19 18:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jina
+[2023-04-19 18:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iopE-sys
+[2023-04-19 18:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sesg
+[2023-04-19 18:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MotorDeCalidad
+[2023-04-19 18:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: general-tools-winni
+[2023-04-19 18:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cfscanner
+[2023-04-19 18:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyfastx
+[2023-04-19 18:41:01] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 18:41:01] INFO root fetch - processPackages [runningz]: New version: [0.1.0.9] Old Version: [0.1.0.8]
+[2023-04-19 18:41:01] WARNING root fetch - processPackages [iopE-sys]: Skipping, unable to determine old version
+[2023-04-19 18:41:01] INFO root fetch - processPackages [iopE-sys]: Start processing: pd-db-wrangler
+[2023-04-19 18:41:01] INFO root fetch - main [MainThread]: End processing [iopE-sys] error
+[2023-04-19 18:41:01] INFO root fetch - processPackages [imgui]: New version: [2.0.0] Old Version: [1.4.1]
+[2023-04-19 18:41:01] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-19 18:41:01] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-04-19 18:41:01] INFO root fetch - processPackages [pd-db-wrangler]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 18:41:01] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-19 18:41:01] WARNING root fetch - processPackages [general-tools-winni]: Skipping, unable to determine old version
+[2023-04-19 18:41:01] INFO root fetch - processPackages [general-tools-winni]: Start processing: xh-cpu-usage-simulator
+[2023-04-19 18:41:01] INFO root fetch - main [MainThread]: End processing [general-tools-winni] error
+[2023-04-19 18:41:01] WARNING root fetch - processPackages [cfscanner]: Skipping, unable to determine old version
+[2023-04-19 18:41:01] INFO root fetch - processPackages [cfscanner]: Start processing: AL-Khatma
+[2023-04-19 18:41:01] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-04-19 18:41:01] INFO root fetch - processPackages [xh-cpu-usage-simulator]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 18:41:01] INFO root fetch - processPackages [pd-db-wrangler]: executing diffoscope
+[2023-04-19 18:41:01] INFO root fetch - processPackages [pd-db-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pd_db_wrangler-0.8.0.tar.gz tmp/pd_db_wrangler-0.9.0.tar.gz --markdown 20230419/p/pd-db-wrangler/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 18:41:01] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-19 18:41:01] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230419/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-19 18:41:01] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/32/a5/c948ce4c33581a843a2c081120906c27c689f26208e8d99c3228f95c9c33/sesg-0.0.8.tar.gz
+[2023-04-19 18:41:01] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-04-19 18:41:01] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230419/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-19 18:41:01] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/57/86/371b58d59243f171fb151473280cbe3ebd90f0f91e77c36f705898327447/runningz-0.1.0.9-py39-none-any.whl
+[2023-04-19 18:41:01] INFO root fetch - processPackages [imgui]: Downloading https://files.pythonhosted.org/packages/c7/15/1384f3a7bb52a2666f364e3d3ea02cfeae6fe1e9b72d3a3684d18ae7f10c/imgui-1.4.1.tar.gz
+[2023-04-19 18:41:01] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/53/f1/a3f7af835a5b1db3eef4dc1c167f06b40604f7ab0c499595c66e2ffdd8e4/Geode_Conversion-5.0.0-cp39-cp39-win_amd64.whl
+[2023-04-19 18:41:01] INFO root fetch - processPackages [pyfastx]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-19 18:41:01] INFO root fetch - processPackages [xh-cpu-usage-simulator]: executing diffoscope
+[2023-04-19 18:41:01] INFO root fetch - processPackages [xh-cpu-usage-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-cpu-usage-simulator-0.1.0.tar.gz tmp/xh-cpu-usage-simulator-0.1.1.tar.gz --markdown 20230419/x/xh-cpu-usage-simulator/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 18:41:01] WARNING root fetch - processPackages [AL-Khatma]: Skipping, unable to determine old version
+[2023-04-19 18:41:01] INFO root fetch - processPackages [AL-Khatma]: Start processing: font-CLI
+[2023-04-19 18:41:01] INFO root fetch - main [MainThread]: End processing [AL-Khatma] error
+[2023-04-19 18:41:01] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/b0/99/29404871db61302e769d5573a523b07920080eb0de82ce589685af7d2da5/sesg-0.0.9.tar.gz
+[2023-04-19 18:41:01] INFO root fetch - processPackages [font-CLI]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-19 18:41:01] INFO root fetch - processPackages [pyfastx]: Downloading https://files.pythonhosted.org/packages/e5/06/6496b396dc38015fd76d253ac2b41a813950483035e4b24e048f7c3e041c/pyfastx-1.0.1.tar.gz
+[2023-04-19 18:41:01] INFO root fetch - processPackages [imgui]: Downloading https://files.pythonhosted.org/packages/61/03/ac37a284f0af15497c6800389837852d7ae1981283a05891f9e9d80dde06/imgui-2.0.0-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl
+[2023-04-19 18:41:01] INFO root fetch - processPackages [runningz]: executing diffoscope
+[2023-04-19 18:41:01] INFO root fetch - processPackages [runningz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runningz-0.1.0.8-py39-none-any.whl.zip tmp/runningz-0.1.0.9-py39-none-any.whl.zip --markdown 20230419/r/runningz/0.1.0.8-0.1.0.9/diff.md --exclude *.pyd
+[2023-04-19 18:41:01] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/b7/87/107fb4010da0cef7450577345c4243caa18644e7459d802ccea844f70bc6/Geode_Conversion-5.0.1-cp39-cp39-win_amd64.whl
+[2023-04-19 18:41:01] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-04-19 18:41:01] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230419/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 18:41:02] INFO root fetch - processPackages [font-CLI]: Downloading https://files.pythonhosted.org/packages/32/a2/92d8279cf0ec790d01e55a0b0024fe518128e1728d42dfbbb55e17f8a4c9/font-CLI-0.9.9.tar.gz
+[2023-04-19 18:41:02] INFO root fetch - processPackages [pyfastx]: Downloading https://files.pythonhosted.org/packages/62/de/8c1c153bab09fd9b8837195e849e30a6bc19af66efae3cf5add2e51c49d4/pyfastx-1.1.0-cp36-cp36m-manylinux_2_17_i686.manylinux2014_i686.whl
+[2023-04-19 18:41:02] INFO root fetch - processPackages [font-CLI]: executing diffoscope
+[2023-04-19 18:41:02] INFO root fetch - processPackages [font-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/font-CLI-0.9.8.tar.gz tmp/font-CLI-0.9.9.tar.gz --markdown 20230419/f/font-CLI/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-19 18:41:02] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2023-04-19 18:41:02] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.0.0-cp39-cp39-win_amd64.whl.zip tmp/Geode_Conversion-5.0.1-cp39-cp39-win_amd64.whl.zip --markdown 20230419/G/Geode-Conversion/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-04-19 18:41:02] INFO root fetch - processPackages [pyfastx]: executing diffoscope
+[2023-04-19 18:41:02] INFO root fetch - processPackages [pyfastx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfastx-1.0.1.tar.gz tmp/pyfastx-1.1.0-cp36-cp36m-manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20230419/p/pyfastx/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-19 18:41:02] INFO root fetch - processPackages [MotorDeCalidad]: Start processing: goodai-ltm
+[2023-04-19 18:41:02] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-04-19 18:41:02] INFO root fetch - main [MainThread]: End processing [xh-cpu-usage-simulator]: success
+[2023-04-19 18:41:02] WARNING root fetch - processPackages [goodai-ltm]: Skipping, unable to determine old version
+[2023-04-19 18:41:02] INFO root fetch - main [MainThread]: End processing [goodai-ltm] error
+[2023-04-19 18:41:02] INFO root fetch - main [MainThread]: End processing [pd-db-wrangler]: success
+[2023-04-19 18:41:03] INFO root fetch - main [MainThread]: End processing [runningz]: success
+[2023-04-19 18:41:03] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-04-19 18:41:03] INFO root fetch - main [MainThread]: End processing [font-CLI]: success
+[2023-04-19 18:41:03] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2023-04-19 18:41:03] INFO root fetch - main [MainThread]: End processing [pyfastx]: success
+[2023-04-19 18:41:03] INFO root fetch - processPackages [imgui]: executing diffoscope
+[2023-04-19 18:41:03] INFO root fetch - processPackages [imgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgui-1.4.1.tar.gz tmp/imgui-2.0.0-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20230419/i/imgui/1.4.1-2.0.0/diff.md --exclude *.pyd
+[2023-04-19 18:41:05] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-19 18:41:09] INFO root fetch - main [MainThread]: End processing [imgui]: success
+[2023-04-19 18:41:09] INFO root fetch - main [MainThread]: Store serial: [17773881]
