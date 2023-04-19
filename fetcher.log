@@ -16199,3 +16199,136 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 15:29:51] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-19 15:29:52] INFO root fetch - main [MainThread]: End processing [stdatamodels]: success
 [2023-04-19 15:29:52] INFO root fetch - main [MainThread]: Store serial: [17771430]
+[2023-04-19 15:34:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17771430]
+[2023-04-19 15:35:01] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-19 15:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grapa
+[2023-04-19 15:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: radarplt
+[2023-04-19 15:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiaogpt
+[2023-04-19 15:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graph-attention-student
+[2023-04-19 15:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vidis-algorithms-api
+[2023-04-19 15:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: boutpp-nightly
+[2023-04-19 15:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dop-integration-libs
+[2023-04-19 15:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: peaks2utr
+[2023-04-19 15:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: widget-picture-generator
+[2023-04-19 15:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: krisi
+[2023-04-19 15:35:01] INFO root fetch - processPackages [grapa]: New version: [0.6.1.0] Old Version: [0.5.4.8]
+[2023-04-19 15:35:01] INFO root fetch - processPackages [radarplt]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-04-19 15:35:01] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 15:35:01] INFO root fetch - processPackages [xiaogpt]: New version: [1.42] Old Version: [1.41]
+[2023-04-19 15:35:01] INFO root fetch - processPackages [widget-picture-generator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 15:35:01] INFO root fetch - processPackages [vidis-algorithms-api]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-19 15:35:01] INFO root fetch - processPackages [peaks2utr]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-19 15:35:01] INFO root fetch - processPackages [krisi]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-04-19 15:35:01] INFO root fetch - processPackages [graph-attention-student]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-19 15:35:01] INFO root fetch - processPackages [boutpp-nightly]: New version: [5.1.0.dev78] Old Version: [5.1.0.dev67]
+[2023-04-19 15:35:01] INFO root fetch - processPackages [dop-integration-libs]: Downloading https://files.pythonhosted.org/packages/89/8a/0f0e8923c482d55daf90ede19c7986cd2e414bd6a42a364c6b0ebb8c3bb5/dop_integration_libs-0.1.0.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [vidis-algorithms-api]: Downloading https://files.pythonhosted.org/packages/47/68/aede61d911d7c9eb21640bd70821c9cbb1f71ef40bef9a41f721709e74c0/vidis_algorithms_api-0.3.2.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [widget-picture-generator]: Downloading https://files.pythonhosted.org/packages/30/b9/b9eeb59abd9d827082aab577cffd39c139bbb05eb28f6a9d3cc93f2cff3b/widget-picture-generator-0.0.4.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [grapa]: Downloading https://files.pythonhosted.org/packages/90/0e/76cda1d522ccd63254a9950a38f84cce3ef4c634c64dc32334e466500e35/grapa-0.5.4.8.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/64/46/7f1f50994cb85f50383241bed99c48a2c02fe561fcd45b1b51b929b55ccb/xiaogpt-1.42.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [peaks2utr]: Downloading https://files.pythonhosted.org/packages/4a/01/3c0eb6838c9e7b7d480fb37e15feda8138d4838cc5808aac0791badb8f2f/peaks2utr-0.5.1.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [radarplt]: Downloading https://files.pythonhosted.org/packages/2a/8f/12a4449ae8df7352e2db4a3599e61d9b3d5db57bec8d46e83694db7a5b55/radarplt-1.1.0.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [graph-attention-student]: Downloading https://files.pythonhosted.org/packages/33/05/56a399697cbebb375d790f56bc1d1241935ce6ee122d4eec8068e25fd999/graph_attention_student-0.7.0.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [krisi]: Downloading https://files.pythonhosted.org/packages/41/cf/8bfd6a77133af62c676f996302a02f94e0580a75dbfae755b66eb060f453/krisi-0.0.8.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [boutpp-nightly]: Downloading https://files.pythonhosted.org/packages/80/13/37630489c139ea3a1b83c491c67ef7947c9f49235be5a9fed7bb6e1defed/boutpp-nightly-5.1.0.dev67.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [widget-picture-generator]: executing diffoscope
+[2023-04-19 15:35:01] INFO root fetch - processPackages [widget-picture-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widget-picture-generator-0.0.3.tar.gz tmp/widget-picture-generator-0.0.4.tar.gz --markdown 20230419/w/widget-picture-generator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 15:35:01] INFO root fetch - processPackages [xiaogpt]: executing diffoscope
+[2023-04-19 15:35:01] WARNING root fetch - processPackages [boutpp-nightly]: Skipping package: exceeds size limit 18055205>=10485760
+[2023-04-19 15:35:01] INFO root fetch - processPackages [xiaogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaogpt-1.41.tar.gz tmp/xiaogpt-1.42.tar.gz --markdown 20230419/x/xiaogpt/1.41-1.42/diff.md --exclude *.pyd
+[2023-04-19 15:35:01] INFO root fetch - processPackages [boutpp-nightly]: Start processing: xpydf
+[2023-04-19 15:35:01] INFO root fetch - main [MainThread]: End processing [boutpp-nightly] error
+[2023-04-19 15:35:01] INFO root fetch - processPackages [dop-integration-libs]: Downloading https://files.pythonhosted.org/packages/60/78/e21b5eda384aaf54a796465fab0ed084c32eb4f2a2a5d9334f2f2bb0c534/dop_integration_libs-0.1.1.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [xpydf]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 15:35:01] INFO root fetch - processPackages [vidis-algorithms-api]: Downloading https://files.pythonhosted.org/packages/4b/08/293cc260d8ed86afc5c1a9b3b31182cdac7683b4c910ed807e9cba760a6a/vidis_algorithms_api-0.3.3.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [graph-attention-student]: Downloading https://files.pythonhosted.org/packages/9c/a4/07fc9ef385f77ddaf041de5f0d54d50b06b186249ea95d7efd11e21545a6/graph_attention_student-0.7.1.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [krisi]: Downloading https://files.pythonhosted.org/packages/e7/38/cb4506bee8db0b649f4c43dc9a2225d268c19bad392ddb9441512ccdb3f5/krisi-0.1.0.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [radarplt]: Downloading https://files.pythonhosted.org/packages/16/6f/09fb240d123b72210e73811aba71918cda30b0942944c51fe4f605324620/radarplt-2.0.0.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [peaks2utr]: Downloading https://files.pythonhosted.org/packages/2a/3f/304ddd48e595569589d2f12dc3842995c14f50961c21ddfadd51e16eb2b7/peaks2utr-0.5.2.tar.gz
+[2023-04-19 15:35:01] INFO root fetch - processPackages [vidis-algorithms-api]: executing diffoscope
+[2023-04-19 15:35:01] INFO root fetch - processPackages [vidis-algorithms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidis_algorithms_api-0.3.2.tar.gz tmp/vidis_algorithms_api-0.3.3.tar.gz --markdown 20230419/v/vidis-algorithms-api/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-19 15:35:02] INFO root fetch - processPackages [xpydf]: Downloading https://files.pythonhosted.org/packages/2a/2b/89aa171ed6694a1c0984805682430efcf5972bed7cc77e53940f1dd97581/xpydf-0.1.0.tar.gz
+[2023-04-19 15:35:02] INFO root fetch - processPackages [graph-attention-student]: executing diffoscope
+[2023-04-19 15:35:02] INFO root fetch - processPackages [graph-attention-student]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_attention_student-0.7.0.tar.gz tmp/graph_attention_student-0.7.1.tar.gz --markdown 20230419/g/graph-attention-student/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-19 15:35:02] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-19 15:35:02] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.0.tar.gz tmp/dop_integration_libs-0.1.1.tar.gz --markdown 20230419/d/dop-integration-libs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 15:35:02] INFO root fetch - processPackages [krisi]: executing diffoscope
+[2023-04-19 15:35:02] INFO root fetch - processPackages [krisi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krisi-0.0.8.tar.gz tmp/krisi-0.1.0.tar.gz --markdown 20230419/k/krisi/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-04-19 15:35:02] INFO root fetch - processPackages [radarplt]: executing diffoscope
+[2023-04-19 15:35:02] INFO root fetch - processPackages [radarplt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radarplt-1.1.0.tar.gz tmp/radarplt-2.0.0.tar.gz --markdown 20230419/r/radarplt/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-19 15:35:02] INFO root fetch - processPackages [peaks2utr]: executing diffoscope
+[2023-04-19 15:35:02] INFO root fetch - processPackages [peaks2utr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaks2utr-0.5.1.tar.gz tmp/peaks2utr-0.5.2.tar.gz --markdown 20230419/p/peaks2utr/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-19 15:35:02] INFO root fetch - processPackages [xpydf]: Downloading https://files.pythonhosted.org/packages/02/d7/8609af19fffb2835f76cd01a7fe0f298f40b79577a98a50caecb377f3c17/xpydf-0.1.1.tar.gz
+[2023-04-19 15:35:02] INFO root fetch - processPackages [grapa]: Downloading https://files.pythonhosted.org/packages/51/04/552820f92e47793713f3bd8272291e63864c36075d4aee56e11809685bfb/grapa-0.6.1.0.tar.gz
+[2023-04-19 15:35:02] INFO root fetch - processPackages [xpydf]: executing diffoscope
+[2023-04-19 15:35:02] INFO root fetch - processPackages [xpydf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpydf-0.1.0.tar.gz tmp/xpydf-0.1.1.tar.gz --markdown 20230419/x/xpydf/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 15:35:02] INFO root fetch - processPackages [grapa]: executing diffoscope
+[2023-04-19 15:35:02] INFO root fetch - processPackages [grapa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grapa-0.5.4.8.tar.gz tmp/grapa-0.6.1.0.tar.gz --markdown 20230419/g/grapa/0.5.4.8-0.6.1.0/diff.md --exclude *.pyd
+[2023-04-19 15:35:02] INFO root fetch - processPackages [widget-picture-generator]: Start processing: web3client
+[2023-04-19 15:35:02] INFO root fetch - main [MainThread]: End processing [widget-picture-generator]: success
+[2023-04-19 15:35:02] INFO root fetch - processPackages [web3client]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-04-19 15:35:03] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/ac/7a/4457eb1b136586f4729c53f6b761d25e74d3c70118568e8c8aacf65bb109/web3client-1.1.6.tar.gz
+[2023-04-19 15:35:03] INFO root fetch - processPackages [vidis-algorithms-api]: Start processing: otrs-somconnexio
+[2023-04-19 15:35:03] INFO root fetch - main [MainThread]: End processing [vidis-algorithms-api]: success
+[2023-04-19 15:35:03] INFO root fetch - processPackages [otrs-somconnexio]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-19 15:35:03] INFO root fetch - processPackages [dop-integration-libs]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 15:35:03] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-19 15:35:03] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-19 15:35:03] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/5b/e5/e154c1a236eaa3acee100100577424545da8fe4440c393f885b7ec94abc8/web3client-1.1.7.tar.gz
+[2023-04-19 15:35:03] INFO root fetch - processPackages [radarplt]: Start processing: kcli
+[2023-04-19 15:35:03] INFO root fetch - main [MainThread]: End processing [radarplt]: success
+[2023-04-19 15:35:03] INFO root fetch - processPackages [kcli]: New version: [99.0.202304191333] Old Version: [99.0.202304191328]
+[2023-04-19 15:35:03] INFO root fetch - processPackages [xiaogpt]: Start processing: so-vits-svc-fork
+[2023-04-19 15:35:03] INFO root fetch - main [MainThread]: End processing [xiaogpt]: success
+[2023-04-19 15:35:03] INFO root fetch - processPackages [otrs-somconnexio]: Downloading https://files.pythonhosted.org/packages/24/61/f12a7af09c175dfc8830738eef0b0f2e7248bc680d1b4d319dacd61b1c4b/otrs_somconnexio-0.4.8.tar.gz
+[2023-04-19 15:35:03] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/b1/43/41303276548944dd92ea8d2d7b7d8426f4bd2a100413ba2ba3da7b59d811/fastapi_ecommerce_ext-0.2.3.tar.gz
+[2023-04-19 15:35:03] INFO root fetch - processPackages [so-vits-svc-fork]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-04-19 15:35:03] INFO root fetch - processPackages [web3client]: executing diffoscope
+[2023-04-19 15:35:03] INFO root fetch - processPackages [web3client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3client-1.1.6.tar.gz tmp/web3client-1.1.7.tar.gz --markdown 20230419/w/web3client/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-04-19 15:35:03] INFO root fetch - processPackages [so-vits-svc-fork]: executing diffoscope
+[2023-04-19 15:35:03] INFO root fetch - processPackages [so-vits-svc-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so_vits_svc_fork-3.9.4.tar.gz tmp/so_vits_svc_fork-3.9.5.tar.gz --markdown 20230419/s/so-vits-svc-fork/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-04-19 15:35:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/70/48/12d1f31a7fcaac5bb4d1457874c51257b2f90a516db2f7f148ee89903ed4/kcli-99.0.202304191328-py3-none-any.whl
+[2023-04-19 15:35:03] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 15:35:03] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.2.2.tar.gz tmp/fastapi_ecommerce_ext-0.2.3.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-19 15:35:03] INFO root fetch - processPackages [graph-attention-student]: Start processing: newtools
+[2023-04-19 15:35:03] INFO root fetch - main [MainThread]: End processing [graph-attention-student]: success
+[2023-04-19 15:35:03] INFO root fetch - processPackages [newtools]: New version: [2.2.463] Old Version: [2.2.455]
+[2023-04-19 15:35:03] INFO root fetch - processPackages [peaks2utr]: Start processing: osxmetadata
+[2023-04-19 15:35:03] INFO root fetch - main [MainThread]: End processing [peaks2utr]: success
+[2023-04-19 15:35:03] INFO root fetch - processPackages [osxmetadata]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-04-19 15:35:04] INFO root fetch - processPackages [newtools]: Downloading https://files.pythonhosted.org/packages/c5/b9/e6195034456941a52d431ae080f5aafdd2e003f52268ebf9be29f0ed8766/newtools-2.2.455.tar.gz
+[2023-04-19 15:35:04] INFO root fetch - processPackages [osxmetadata]: Downloading https://files.pythonhosted.org/packages/96/83/6876a39cdbc7bd4d2565245457ef07dca714b025d9b256bb9b48165b8cc0/osxmetadata-1.2.2.tar.gz
+[2023-04-19 15:35:04] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/fa/b6/5b2ac3fdc7d2e13aafaf0f5dcc1f1d197bbc5ca698b89b48ddb1beb0ebfd/kcli-99.0.202304191333-py3-none-any.whl
+[2023-04-19 15:35:04] INFO root fetch - processPackages [otrs-somconnexio]: Downloading https://files.pythonhosted.org/packages/e5/91/0ea2de8ef72bee6e5e7ad4882d4afa735692fe75764c546ea0a7f8b2bee1/otrs_somconnexio-0.4.9.tar.gz
+[2023-04-19 15:35:04] INFO root fetch - processPackages [osxmetadata]: Downloading https://files.pythonhosted.org/packages/1b/f0/8c0b0978a917de1601b729849d2e150505036b0db5ab30cad0efe67bd869/osxmetadata-1.3.0.tar.gz
+[2023-04-19 15:35:04] INFO root fetch - processPackages [newtools]: Downloading https://files.pythonhosted.org/packages/4b/cd/12622f0aaa0fd9555c1a2103b6d79e896a5465fd2e526d91e4163cb2402b/newtools-2.2.463.tar.gz
+[2023-04-19 15:35:04] INFO root fetch - processPackages [krisi]: Start processing: kernel-sidecar
+[2023-04-19 15:35:04] INFO root fetch - main [MainThread]: End processing [krisi]: success
+[2023-04-19 15:35:04] INFO root fetch - processPackages [osxmetadata]: executing diffoscope
+[2023-04-19 15:35:04] INFO root fetch - processPackages [osxmetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osxmetadata-1.2.2.tar.gz tmp/osxmetadata-1.3.0.tar.gz --markdown 20230419/o/osxmetadata/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-04-19 15:35:04] INFO root fetch - processPackages [kernel-sidecar]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-04-19 15:35:04] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-19 15:35:04] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304191328-py3-none-any.whl.zip tmp/kcli-99.0.202304191333-py3-none-any.whl.zip --markdown 20230419/k/kcli/99.0.202304191328-99.0.202304191333/diff.md --exclude *.pyd
+[2023-04-19 15:35:04] INFO root fetch - processPackages [newtools]: executing diffoscope
+[2023-04-19 15:35:04] INFO root fetch - processPackages [newtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newtools-2.2.455.tar.gz tmp/newtools-2.2.463.tar.gz --markdown 20230419/n/newtools/2.2.455-2.2.463/diff.md --exclude *.pyd
+[2023-04-19 15:35:04] INFO root fetch - processPackages [kernel-sidecar]: Downloading https://files.pythonhosted.org/packages/1e/46/6c6564eb15b1346e6060d7884304a0b58494c17ee84eb3f86ee497ed4a0e/kernel_sidecar-0.5.4.tar.gz
+[2023-04-19 15:35:04] INFO root fetch - processPackages [otrs-somconnexio]: executing diffoscope
+[2023-04-19 15:35:04] INFO root fetch - processPackages [otrs-somconnexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otrs_somconnexio-0.4.8.tar.gz tmp/otrs_somconnexio-0.4.9.tar.gz --markdown 20230419/o/otrs-somconnexio/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-19 15:35:05] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Start processing: onnx-tool
+[2023-04-19 15:35:05] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 15:35:05] INFO root fetch - processPackages [onnx-tool]: New version: [0.6.3] Old Version: [0.6.1]
+[2023-04-19 15:35:05] INFO root fetch - processPackages [kernel-sidecar]: executing diffoscope
+[2023-04-19 15:35:05] INFO root fetch - processPackages [kernel-sidecar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kernel_sidecar-0.5.3.tar.gz tmp/kernel_sidecar-0.5.4.tar.gz --markdown 20230419/k/kernel-sidecar/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-04-19 15:35:05] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
+[2023-04-19 15:35:05] INFO root fetch - main [MainThread]: End processing [web3client]: success
+[2023-04-19 15:35:05] INFO root fetch - processPackages [onnx-tool]: executing diffoscope
+[2023-04-19 15:35:05] INFO root fetch - processPackages [onnx-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx-tool-0.6.1.tar.gz tmp/onnx-tool-0.6.3.tar.gz --markdown 20230419/o/onnx-tool/0.6.1-0.6.3/diff.md --exclude *.pyd
+[2023-04-19 15:35:06] INFO root fetch - main [MainThread]: End processing [xpydf]: success
+[2023-04-19 15:35:06] INFO root fetch - main [MainThread]: End processing [kernel-sidecar]: success
+[2023-04-19 15:35:06] INFO root fetch - main [MainThread]: End processing [newtools]: success
+[2023-04-19 15:35:06] INFO root fetch - main [MainThread]: End processing [otrs-somconnexio]: success
+[2023-04-19 15:35:06] INFO root fetch - main [MainThread]: End processing [osxmetadata]: success
+[2023-04-19 15:35:07] INFO root fetch - main [MainThread]: End processing [onnx-tool]: success
+[2023-04-19 15:35:07] INFO root fetch - main [MainThread]: End processing [grapa]: success
+[2023-04-19 15:35:12] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-19 15:35:12] INFO root fetch - main [MainThread]: Store serial: [17771491]
