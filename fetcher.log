@@ -6881,3 +6881,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 06:52:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-intrastat]: success
 [2023-04-19 06:52:09] INFO root fetch - main [MainThread]: End processing [hdcms]: success
 [2023-04-19 06:52:09] INFO root fetch - main [MainThread]: Store serial: [17765978]
+[2023-04-19 06:57:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765978]
+[2023-04-19 06:57:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-19 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-it-fatturapa-in
+[2023-04-19 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twb-project
+[2023-04-19 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TapisCL-ICICLE
+[2023-04-19 06:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-webapp-skeleton
+[2023-04-19 06:57:17] INFO root fetch - processPackages [twb-project]: New version: [0.7.3a1] Old Version: [0.7.3a0]
+[2023-04-19 06:57:17] INFO root fetch - processPackages [cdk-webapp-skeleton]: New version: [0.3.dev9] Old Version: [0.3.dev8]
+[2023-04-19 06:57:17] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-in]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-04-19 06:57:17] INFO root fetch - processPackages [TapisCL-ICICLE]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-04-19 06:57:17] INFO root fetch - processPackages [cdk-webapp-skeleton]: executing diffoscope
+[2023-04-19 06:57:17] INFO root fetch - processPackages [cdk-webapp-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_webapp_skeleton-0.3.dev8.tar.gz tmp/cdk_webapp_skeleton-0.3.dev9.tar.gz --markdown 20230419/c/cdk-webapp-skeleton/0.3.dev8-0.3.dev9/diff.md --exclude *.pyd
+[2023-04-19 06:57:17] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/f9/cd/911735aac6ac8ed8868972838957649b8aade98ddc994d63ef54108e1490/TapisCL-ICICLE-0.0.29.tar.gz
+[2023-04-19 06:57:18] INFO root fetch - processPackages [twb-project]: Downloading https://files.pythonhosted.org/packages/8d/8b/0cba5ad344dad25bcc2d9c633da055532109b484ba32603a380c35cab0b7/twb_project-0.7.3a1.tar.gz
+[2023-04-19 06:57:18] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-in]: Downloading https://files.pythonhosted.org/packages/65/78/6fc4dd2f9c9539e978a9b590943e6b8d382908cac0a998a87aae12913c1d/odoo_addon_l10n_it_fatturapa_in-16.0.1.0.0.4-py3-none-any.whl
+[2023-04-19 06:57:18] INFO root fetch - processPackages [TapisCL-ICICLE]: executing diffoscope
+[2023-04-19 06:57:18] INFO root fetch - processPackages [TapisCL-ICICLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TapisCL-ICICLE-0.0.28.tar.gz tmp/TapisCL-ICICLE-0.0.29.tar.gz --markdown 20230419/T/TapisCL-ICICLE/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-04-19 06:57:18] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-04-19 06:57:18] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.7.3a0.tar.gz tmp/twb_project-0.7.3a1.tar.gz --markdown 20230419/t/twb-project/0.7.3a0-0.7.3a1/diff.md --exclude *.pyd
+[2023-04-19 06:57:18] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-in]: executing diffoscope
+[2023-04-19 06:57:18] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-in]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_fatturapa_in-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_fatturapa_in-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-l10n-it-fatturapa-in/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-04-19 06:57:18] INFO root fetch - main [MainThread]: End processing [cdk-webapp-skeleton]: success
+[2023-04-19 06:57:19] INFO root fetch - main [MainThread]: End processing [TapisCL-ICICLE]: success
+[2023-04-19 06:57:19] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-04-19 06:57:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-fatturapa-in]: success
+[2023-04-19 06:57:19] INFO root fetch - main [MainThread]: Store serial: [17765989]
