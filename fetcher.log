@@ -18648,3 +18648,131 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 17:30:21] INFO root fetch - main [MainThread]: End processing [libertem-dectris]: success
 [2023-04-19 17:30:32] INFO root fetch - main [MainThread]: End processing [indy-plenum]: success
 [2023-04-19 17:30:32] INFO root fetch - main [MainThread]: Store serial: [17772903]
+[2023-04-19 17:35:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17772903]
+[2023-04-19 17:35:42] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-19 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-vlc
+[2023-04-19 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: populse-mia
+[2023-04-19 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-parsing
+[2023-04-19 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyopenjtalk-prebuilt
+[2023-04-19 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coinbase-advancedtrade-python
+[2023-04-19 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: panda-server
+[2023-04-19 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jesse
+[2023-04-19 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gdal2numpy
+[2023-04-19 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mibandpreview
+[2023-04-19 17:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mppt-reader
+[2023-04-19 17:35:42] INFO root fetch - processPackages [python-vlc]: New version: [3.0.9113] Old Version: [3.0.7110]
+[2023-04-19 17:35:42] INFO root fetch - processPackages [mppt-reader]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-04-19 17:35:42] INFO root fetch - processPackages [mibandpreview]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-19 17:35:42] WARNING root fetch - processPackages [coinbase-advancedtrade-python]: Skipping, unable to determine old version
+[2023-04-19 17:35:42] INFO root fetch - processPackages [populse-mia]: New version: [2.3.1] Old Version: [2.2.2]
+[2023-04-19 17:35:42] INFO root fetch - processPackages [coinbase-advancedtrade-python]: Start processing: realesrgan-ncnn-py
+[2023-04-19 17:35:42] INFO root fetch - processPackages [panda-server]: New version: [0.0.51] Old Version: [0.0.50]
+[2023-04-19 17:35:42] INFO root fetch - main [MainThread]: End processing [coinbase-advancedtrade-python] error
+[2023-04-19 17:35:42] WARNING root fetch - processPackages [pyopenjtalk-prebuilt]: Skipping, unable to determine old version
+[2023-04-19 17:35:42] INFO root fetch - processPackages [pyopenjtalk-prebuilt]: Start processing: fijiconvert
+[2023-04-19 17:35:42] INFO root fetch - main [MainThread]: End processing [pyopenjtalk-prebuilt] error
+[2023-04-19 17:35:42] INFO root fetch - processPackages [simple-parsing]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 17:35:42] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 17:35:42] INFO root fetch - processPackages [jesse]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-19 17:35:42] INFO root fetch - processPackages [realesrgan-ncnn-py]: New version: [1.0.0.1] Old Version: [1.0.0.0]
+[2023-04-19 17:35:42] INFO root fetch - processPackages [fijiconvert]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 17:35:42] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-04-19 17:35:42] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230419/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 17:35:42] INFO root fetch - processPackages [mppt-reader]: Downloading https://files.pythonhosted.org/packages/5b/05/98ee7de7fc9016bbefaedfa5991c19dc995c8fc5e3455ffeba56833ba866/mppt_reader-1.0.3.tar.gz
+[2023-04-19 17:35:42] INFO root fetch - processPackages [populse-mia]: Downloading https://files.pythonhosted.org/packages/c4/29/3a98117ca21d6d26f1501b7b29264750d649e84f47388b41ca9decfcf3db/populse_mia-2.2.2.tar.gz
+[2023-04-19 17:35:42] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/3c/ef/5e18c64e077e9dc42bbc85599ed469c7cd0c56edb49dfe229f2fbd51f699/panda-server-0.0.50.tar.gz
+[2023-04-19 17:35:42] INFO root fetch - processPackages [python-vlc]: Downloading https://files.pythonhosted.org/packages/a8/51/299f4804c43f99d718ed43a63b1ea0712932e25b6bbe1ee1817cb8e954f7/python-vlc-3.0.7110.tar.gz
+[2023-04-19 17:35:42] INFO root fetch - processPackages [mibandpreview]: Downloading https://files.pythonhosted.org/packages/77/df/ca51335858c507f69c53399598e263f7f154bb17a5f70ce5284a260cd708/mibandpreview-1.2.2-py3-none-any.whl
+[2023-04-19 17:35:42] INFO root fetch - processPackages [simple-parsing]: Downloading https://files.pythonhosted.org/packages/1b/4e/a018566236c97fcb8a85d4c8f86cc5a76342fd20472aa9b592a2890207bf/simple_parsing-0.1.1.tar.gz
+[2023-04-19 17:35:42] INFO root fetch - processPackages [realesrgan-ncnn-py]: Downloading https://files.pythonhosted.org/packages/49/62/5103ea7e85275f00b5b03e5aa7bb0e47f1484880e13fdf0dc431008953dd/realesrgan_ncnn_py-1.0.0.0-cp39-cp39-win_amd64.whl
+[2023-04-19 17:35:42] INFO root fetch - processPackages [jesse]: Downloading https://files.pythonhosted.org/packages/3d/42/48c74d04f47eb581a344bec1702569264a10dc46e09154fe195faff3a76a/jesse-0.9.1.tar.gz
+[2023-04-19 17:35:42] INFO root fetch - processPackages [fijiconvert]: Downloading https://files.pythonhosted.org/packages/98/28/197079537ff38e13343560a4cf5d45f20461e056695fac38a90b0a8061ce/fijiconvert-1.0.0.tar.gz
+[2023-04-19 17:35:42] WARNING root fetch - processPackages [realesrgan-ncnn-py]: Skipping package: exceeds size limit 43924439>=10485760
+[2023-04-19 17:35:42] INFO root fetch - processPackages [realesrgan-ncnn-py]: Start processing: dragonfly-radiance
+[2023-04-19 17:35:42] INFO root fetch - main [MainThread]: End processing [realesrgan-ncnn-py] error
+[2023-04-19 17:35:42] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 17:35:42] INFO root fetch - processPackages [mppt-reader]: Downloading https://files.pythonhosted.org/packages/65/ef/e267610abb010905196693fb08b345a723d4c150266a98f25170ab7284fb/mppt_reader-1.0.5.tar.gz
+[2023-04-19 17:35:42] INFO root fetch - processPackages [fijiconvert]: Downloading https://files.pythonhosted.org/packages/d6/95/499dfd9c8d7a8e8dca996d7178d4b01a03d51e34bf02db232b86e7d95322/fijiconvert-1.0.1.tar.gz
+[2023-04-19 17:35:42] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-04-19 17:35:42] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230419/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 17:35:42] INFO root fetch - processPackages [mibandpreview]: Downloading https://files.pythonhosted.org/packages/4a/7a/7c88bfc02c060ec51e40869644d2800496d3fa57582dbad90e0f765dc86a/mibandpreview-1.2.3.tar.gz
+[2023-04-19 17:35:42] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/75/ec/949a5c5b328fb3137fde09270af4dcf34b4b7a2a2ed96f3d326ba42ac75a/panda-server-0.0.51.tar.gz
+[2023-04-19 17:35:42] INFO root fetch - processPackages [simple-parsing]: Downloading https://files.pythonhosted.org/packages/a5/de/556e48bf221ed7a8da93246bed652ba5b78807a20558aa24d5fd3683f6dd/simple_parsing-0.1.2.tar.gz
+[2023-04-19 17:35:42] INFO root fetch - processPackages [mppt-reader]: executing diffoscope
+[2023-04-19 17:35:42] INFO root fetch - processPackages [mppt-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mppt_reader-1.0.3.tar.gz tmp/mppt_reader-1.0.5.tar.gz --markdown 20230419/m/mppt-reader/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-04-19 17:35:42] INFO root fetch - processPackages [python-vlc]: Downloading https://files.pythonhosted.org/packages/cf/89/4c9ef5cfe8078a3ccddadd623c29306fcf5b956652e77f17f6b5ce5ff99d/python-vlc-3.0.9113.tar.gz
+[2023-04-19 17:35:42] INFO root fetch - processPackages [fijiconvert]: executing diffoscope
+[2023-04-19 17:35:42] INFO root fetch - processPackages [fijiconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fijiconvert-1.0.0.tar.gz tmp/fijiconvert-1.0.1.tar.gz --markdown 20230419/f/fijiconvert/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 17:35:43] INFO root fetch - processPackages [jesse]: Downloading https://files.pythonhosted.org/packages/02/58/150ec6c6c6a68ba45091a842e60d38f186d225d3a737941000cf39902f00/jesse-0.9.2.tar.gz
+[2023-04-19 17:35:43] INFO root fetch - processPackages [mibandpreview]: executing diffoscope
+[2023-04-19 17:35:43] INFO root fetch - processPackages [mibandpreview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mibandpreview-1.2.2-py3-none-any.whl.zip tmp/mibandpreview-1.2.3.tar.gz --markdown 20230419/m/mibandpreview/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-19 17:35:43] INFO root fetch - processPackages [simple-parsing]: executing diffoscope
+[2023-04-19 17:35:43] INFO root fetch - processPackages [simple-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_parsing-0.1.1.tar.gz tmp/simple_parsing-0.1.2.tar.gz --markdown 20230419/s/simple-parsing/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 17:35:43] INFO root fetch - processPackages [panda-server]: executing diffoscope
+[2023-04-19 17:35:43] INFO root fetch - processPackages [panda-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-server-0.0.50.tar.gz tmp/panda-server-0.0.51.tar.gz --markdown 20230419/p/panda-server/0.0.50-0.0.51/diff.md --exclude *.pyd
+[2023-04-19 17:35:43] INFO root fetch - processPackages [python-vlc]: executing diffoscope
+[2023-04-19 17:35:43] INFO root fetch - processPackages [python-vlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-vlc-3.0.7110.tar.gz tmp/python-vlc-3.0.9113.tar.gz --markdown 20230419/p/python-vlc/3.0.7110-3.0.9113/diff.md --exclude *.pyd
+[2023-04-19 17:35:43] INFO root fetch - processPackages [populse-mia]: Downloading https://files.pythonhosted.org/packages/e9/51/a4e587fbc675249803ab629d23301bb42139fe0060e80da79b79fd3bdd6a/populse_mia-2.3.1.tar.gz
+[2023-04-19 17:35:43] INFO root fetch - processPackages [jesse]: executing diffoscope
+[2023-04-19 17:35:43] INFO root fetch - processPackages [jesse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jesse-0.9.1.tar.gz tmp/jesse-0.9.2.tar.gz --markdown 20230419/j/jesse/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-19 17:35:43] INFO root fetch - processPackages [gdal2numpy]: Start processing: py2n
+[2023-04-19 17:35:43] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-04-19 17:35:43] INFO root fetch - processPackages [py2n]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-19 17:35:43] INFO root fetch - processPackages [populse-mia]: executing diffoscope
+[2023-04-19 17:35:43] INFO root fetch - processPackages [populse-mia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/populse_mia-2.2.2.tar.gz tmp/populse_mia-2.3.1.tar.gz --markdown 20230419/p/populse-mia/2.2.2-2.3.1/diff.md --exclude *.pyd
+[2023-04-19 17:35:43] INFO root fetch - processPackages [py2n]: Downloading https://files.pythonhosted.org/packages/d1/4c/c1b3b8ac92155b805a07d9d51f1bf063d8db837d63664f5c430b82ac78f7/py2n-0.3.0.tar.gz
+[2023-04-19 17:35:44] INFO root fetch - processPackages [py2n]: Downloading https://files.pythonhosted.org/packages/27/cc/4b34e4ac7fdafab63bc12b006d5ee803c186641d8cdc31339c4f6b8cf418/py2n-0.3.1.tar.gz
+[2023-04-19 17:35:44] INFO root fetch - processPackages [py2n]: executing diffoscope
+[2023-04-19 17:35:44] INFO root fetch - processPackages [py2n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2n-0.3.0.tar.gz tmp/py2n-0.3.1.tar.gz --markdown 20230419/p/py2n/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-19 17:35:44] INFO root fetch - processPackages [fijiconvert]: Start processing: vasprocar
+[2023-04-19 17:35:44] INFO root fetch - main [MainThread]: End processing [fijiconvert]: success
+[2023-04-19 17:35:44] WARNING root fetch - processPackages [vasprocar]: Skipping, unable to determine old version
+[2023-04-19 17:35:44] INFO root fetch - processPackages [vasprocar]: Start processing: scikit-surgerynditracker
+[2023-04-19 17:35:44] INFO root fetch - main [MainThread]: End processing [vasprocar] error
+[2023-04-19 17:35:44] INFO root fetch - processPackages [scikit-surgerynditracker]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-19 17:35:44] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: honeybee-radiance-postprocess
+[2023-04-19 17:35:44] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-04-19 17:35:44] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-04-19 17:35:44] INFO root fetch - processPackages [mppt-reader]: Start processing: lmql
+[2023-04-19 17:35:44] INFO root fetch - main [MainThread]: End processing [mppt-reader]: success
+[2023-04-19 17:35:44] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-04-19 17:35:44] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230419/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-04-19 17:35:44] INFO root fetch - processPackages [lmql]: New version: [0.0.5.1] Old Version: [0.0.5]
+[2023-04-19 17:35:44] INFO root fetch - processPackages [scikit-surgerynditracker]: Downloading https://files.pythonhosted.org/packages/5b/56/65c86756687d56730f97f31f909e2bd76914bbf8bdf3435e77a670eac4e9/scikit-surgerynditracker-0.2.3.tar.gz
+[2023-04-19 17:35:44] INFO root fetch - processPackages [mibandpreview]: Start processing: axisCalculator
+[2023-04-19 17:35:44] INFO root fetch - main [MainThread]: End processing [mibandpreview]: success
+[2023-04-19 17:35:44] WARNING root fetch - processPackages [axisCalculator]: Skipping, unable to determine old version
+[2023-04-19 17:35:44] INFO root fetch - processPackages [axisCalculator]: Start processing: gt4sd-trainer-hf-pl
+[2023-04-19 17:35:44] INFO root fetch - main [MainThread]: End processing [axisCalculator] error
+[2023-04-19 17:35:44] INFO root fetch - processPackages [gt4sd-trainer-hf-pl]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 17:35:44] INFO root fetch - processPackages [scikit-surgerynditracker]: Downloading https://files.pythonhosted.org/packages/a0/15/f72698c3b4982d931c97796101cccf7aee60d2ee206ecafea9f2331db377/scikit-surgerynditracker-0.2.4.tar.gz
+[2023-04-19 17:35:45] INFO root fetch - processPackages [simple-parsing]: Start processing: lbt-dragonfly
+[2023-04-19 17:35:45] INFO root fetch - main [MainThread]: End processing [simple-parsing]: success
+[2023-04-19 17:35:45] INFO root fetch - processPackages [gt4sd-trainer-hf-pl]: Downloading https://files.pythonhosted.org/packages/7f/e5/a9101667054d2739ea765c05acefe3bf4b8a5fbbfc5a28466abb3f1dc5cc/gt4sd-trainer-hf-pl-0.0.1.tar.gz
+[2023-04-19 17:35:45] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-04-19 17:35:45] INFO root fetch - processPackages [lmql]: Downloading https://files.pythonhosted.org/packages/98/c3/032fb8fa5004520b79727cf943d4d82da76f5b535c32ef67d893c7eb8d35/lmql-0.0.5.1.tar.gz
+[2023-04-19 17:35:45] INFO root fetch - processPackages [scikit-surgerynditracker]: executing diffoscope
+[2023-04-19 17:35:45] INFO root fetch - processPackages [scikit-surgerynditracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-surgerynditracker-0.2.3.tar.gz tmp/scikit-surgerynditracker-0.2.4.tar.gz --markdown 20230419/s/scikit-surgerynditracker/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-19 17:35:45] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-04-19 17:35:45] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230419/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-04-19 17:35:45] INFO root fetch - processPackages [lmql]: executing diffoscope
+[2023-04-19 17:35:45] INFO root fetch - processPackages [lmql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmql-0.0.5.tar.gz tmp/lmql-0.0.5.1.tar.gz --markdown 20230419/l/lmql/0.0.5-0.0.5.1/diff.md --exclude *.pyd
+[2023-04-19 17:35:45] INFO root fetch - processPackages [gt4sd-trainer-hf-pl]: Downloading https://files.pythonhosted.org/packages/1a/93/0bb059094b8d76f890eeaf5c96792acf41d5457711290cad21c9cbe750a1/gt4sd-trainer-hf-pl-0.0.2.tar.gz
+[2023-04-19 17:35:45] INFO root fetch - processPackages [py2n]: Start processing: musicli
+[2023-04-19 17:35:45] INFO root fetch - main [MainThread]: End processing [py2n]: success
+[2023-04-19 17:35:45] INFO root fetch - processPackages [musicli]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-19 17:35:45] INFO root fetch - processPackages [gt4sd-trainer-hf-pl]: executing diffoscope
+[2023-04-19 17:35:45] INFO root fetch - processPackages [gt4sd-trainer-hf-pl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gt4sd-trainer-hf-pl-0.0.1.tar.gz tmp/gt4sd-trainer-hf-pl-0.0.2.tar.gz --markdown 20230419/g/gt4sd-trainer-hf-pl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 17:35:45] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-04-19 17:35:45] INFO root fetch - processPackages [musicli]: executing diffoscope
+[2023-04-19 17:35:45] INFO root fetch - processPackages [musicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicli-0.0.5.tar.gz tmp/musicli-0.0.6.tar.gz --markdown 20230419/m/musicli/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-19 17:35:46] INFO root fetch - main [MainThread]: End processing [scikit-surgerynditracker]: success
+[2023-04-19 17:35:46] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-04-19 17:35:46] INFO root fetch - main [MainThread]: End processing [python-vlc]: success
+[2023-04-19 17:35:46] INFO root fetch - main [MainThread]: End processing [gt4sd-trainer-hf-pl]: success
+[2023-04-19 17:35:46] INFO root fetch - main [MainThread]: End processing [musicli]: success
+[2023-04-19 17:35:47] INFO root fetch - main [MainThread]: End processing [lmql]: success
+[2023-04-19 17:35:49] INFO root fetch - main [MainThread]: End processing [jesse]: success
+[2023-04-19 17:35:49] INFO root fetch - main [MainThread]: End processing [panda-server]: success
+[2023-04-19 17:35:52] INFO root fetch - main [MainThread]: End processing [populse-mia]: success
+[2023-04-19 17:35:52] INFO root fetch - main [MainThread]: Store serial: [17773041]
