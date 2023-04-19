@@ -16545,3 +16545,79 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 15:45:42] INFO root fetch - main [MainThread]: End processing [typos]: success
 [2023-04-19 15:45:45] INFO root fetch - main [MainThread]: End processing [dbt-core]: success
 [2023-04-19 15:45:45] INFO root fetch - main [MainThread]: Store serial: [17771631]
+[2023-04-19 15:50:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17771631]
+[2023-04-19 15:50:56] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-19 15:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-fieldservice-stock
+[2023-04-19 15:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fold-models
+[2023-04-19 15:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypowsybl
+[2023-04-19 15:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weaviate-client
+[2023-04-19 15:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boutpp-nightly
+[2023-04-19 15:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emmett-prometheus
+[2023-04-19 15:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vutils-validator
+[2023-04-19 15:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: magic-duckdb
+[2023-04-19 15:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wizata-dsapi
+[2023-04-19 15:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: committed
+[2023-04-19 15:50:56] INFO root fetch - processPackages [pypowsybl]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 15:50:56] INFO root fetch - processPackages [vutils-validator]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 15:50:56] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.3]
+[2023-04-19 15:50:56] INFO root fetch - processPackages [committed]: New version: [1.0.16] Old Version: [1.0.15]
+[2023-04-19 15:50:56] WARNING root fetch - processPackages [emmett-prometheus]: Skipping, unable to determine old version
+[2023-04-19 15:50:56] INFO root fetch - processPackages [emmett-prometheus]: Start processing: pyrea
+[2023-04-19 15:50:56] INFO root fetch - main [MainThread]: End processing [emmett-prometheus] error
+[2023-04-19 15:50:56] WARNING root fetch - processPackages [fold-models]: Skipping, unable to determine old version
+[2023-04-19 15:50:56] INFO root fetch - processPackages [fold-models]: Start processing: kodexa
+[2023-04-19 15:50:56] INFO root fetch - main [MainThread]: End processing [fold-models] error
+[2023-04-19 15:50:56] INFO root fetch - processPackages [boutpp-nightly]: New version: [5.1.0.dev78] Old Version: [5.1.0.dev67]
+[2023-04-19 15:50:56] INFO root fetch - processPackages [magic-duckdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 15:50:56] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 15:50:56] INFO root fetch - processPackages [pyrea]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 15:50:56] INFO root fetch - processPackages [weaviate-client]: New version: [3.9.0b0] Old Version: [3.9.0.dev2]
+[2023-04-19 15:50:56] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-04-19 15:50:56] INFO root fetch - processPackages [boutpp-nightly]: Downloading https://files.pythonhosted.org/packages/80/13/37630489c139ea3a1b83c491c67ef7947c9f49235be5a9fed7bb6e1defed/boutpp-nightly-5.1.0.dev67.tar.gz
+[2023-04-19 15:50:56] INFO root fetch - processPackages [magic-duckdb]: executing diffoscope
+[2023-04-19 15:50:56] INFO root fetch - processPackages [magic-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_duckdb-0.1.8-py3-none-any.whl.zip tmp/magic_duckdb-0.1.9-py3-none-any.whl.zip --markdown 20230419/m/magic-duckdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 15:50:56] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-04-19 15:50:56] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230419/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 15:50:56] WARNING root fetch - processPackages [boutpp-nightly]: Skipping package: exceeds size limit 18055205>=10485760
+[2023-04-19 15:50:56] INFO root fetch - processPackages [boutpp-nightly]: Start processing: magic-duckdb
+[2023-04-19 15:50:56] INFO root fetch - main [MainThread]: End processing [boutpp-nightly] error
+[2023-04-19 15:50:56] INFO root fetch - processPackages [magic-duckdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 15:50:56] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-04-19 15:50:56] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230419/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-04-19 15:50:56] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: Downloading https://files.pythonhosted.org/packages/93/36/6bb672b4056beb57e9c9ab01e7a4531c7621a09bf29baa02a471e46e0b73/odoo_addon_fieldservice_stock-16.0.1.0.0.3-py3-none-any.whl
+[2023-04-19 15:50:56] INFO root fetch - processPackages [pypowsybl]: Downloading https://files.pythonhosted.org/packages/2a/b0/c4f3f508660819f48cf8a29747c587c6f71575b17f4d551a86092dd7d1a1/pypowsybl-0.8.0.tar.gz
+[2023-04-19 15:50:56] INFO root fetch - processPackages [vutils-validator]: Downloading https://files.pythonhosted.org/packages/77/cc/e63db68f6bb9451116ce9619aeb2a2489a1bc63e816a204f3af5f5178fd7/vutils-validator-0.1.1.tar.gz
+[2023-04-19 15:50:56] INFO root fetch - processPackages [pyrea]: Downloading https://files.pythonhosted.org/packages/da/ea/c118a33f35f57746241bd4e2be985f00186c5ee4844708ef4455cf398e40/pyrea-1.0.8.tar.gz
+[2023-04-19 15:50:56] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/a8/cb/8ca3061906481a9a6997baefa6ecc800dcaed0f08e1c84c55c609182fe2b/weaviate-client-3.9.0.dev2.tar.gz
+[2023-04-19 15:50:56] INFO root fetch - processPackages [magic-duckdb]: executing diffoscope
+[2023-04-19 15:50:56] INFO root fetch - processPackages [magic-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_duckdb-0.1.8-py3-none-any.whl.zip tmp/magic_duckdb-0.1.9-py3-none-any.whl.zip --markdown 20230419/m/magic-duckdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 15:50:56] INFO root fetch - processPackages [committed]: Downloading https://files.pythonhosted.org/packages/9d/2a/697d3ecbde0bb55879b2e027d3fcc6c898585125f562b8bab4ca7abe4225/committed-1.0.15.tar.gz
+[2023-04-19 15:50:56] INFO root fetch - processPackages [vutils-validator]: Downloading https://files.pythonhosted.org/packages/8e/1e/32316d7518b89ead06b015bd4658d40f03c898853b221d706cbef8847c5d/vutils-validator-0.1.2.tar.gz
+[2023-04-19 15:50:57] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: Downloading https://files.pythonhosted.org/packages/a2/6a/dd3d8dbbe22f44a2fd9a2c9a0ff1d40e771c279d6298601d3810bcc94003/odoo_addon_fieldservice_stock-16.0.1.1.0-py3-none-any.whl
+[2023-04-19 15:50:57] INFO root fetch - processPackages [pyrea]: Downloading https://files.pythonhosted.org/packages/25/5e/60298ad70834fe1574a04a854da6076c3a6abe0fb8bcdcea3632cd6e0f06/pyrea-1.0.9.tar.gz
+[2023-04-19 15:50:57] INFO root fetch - processPackages [vutils-validator]: executing diffoscope
+[2023-04-19 15:50:57] INFO root fetch - processPackages [vutils-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vutils-validator-0.1.1.tar.gz tmp/vutils-validator-0.1.2.tar.gz --markdown 20230419/v/vutils-validator/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 15:50:57] INFO root fetch - processPackages [committed]: Downloading https://files.pythonhosted.org/packages/32/10/79a09ea4c11d7f5ef9b290d4f0ab01ecfaf2bdb572dd7312a03c7ac2db76/committed-1.0.16.tar.gz
+[2023-04-19 15:50:57] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/10/6b/0e242b95dd9ee12ed89f4af97e7bd0c82317c708e5a1de27406f7832d4e2/weaviate-client-3.9.0b0.tar.gz
+[2023-04-19 15:50:57] INFO root fetch - processPackages [pypowsybl]: Downloading https://files.pythonhosted.org/packages/9f/88/d96179dec7f6dbd82e03fb281663d7d50450a76d75a7cc231970d67429e7/pypowsybl-0.9.0.tar.gz
+[2023-04-19 15:50:57] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: executing diffoscope
+[2023-04-19 15:50:57] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_stock-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_stock-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-fieldservice-stock/16.0.1.0.0.3-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-04-19 15:50:57] INFO root fetch - processPackages [pyrea]: executing diffoscope
+[2023-04-19 15:50:57] INFO root fetch - processPackages [pyrea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrea-1.0.8.tar.gz tmp/pyrea-1.0.9.tar.gz --markdown 20230419/p/pyrea/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 15:50:57] INFO root fetch - processPackages [committed]: executing diffoscope
+[2023-04-19 15:50:57] INFO root fetch - processPackages [committed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/committed-1.0.15.tar.gz tmp/committed-1.0.16.tar.gz --markdown 20230419/c/committed/1.0.15-1.0.16/diff.md --exclude *.pyd
+[2023-04-19 15:50:57] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2023-04-19 15:50:57] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate-client-3.9.0.dev2.tar.gz tmp/weaviate-client-3.9.0b0.tar.gz --markdown 20230419/w/weaviate-client/3.9.0.dev2-3.9.0b0/diff.md --exclude *.pyd
+[2023-04-19 15:50:57] INFO root fetch - processPackages [pypowsybl]: executing diffoscope
+[2023-04-19 15:50:57] INFO root fetch - processPackages [pypowsybl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypowsybl-0.8.0.tar.gz tmp/pypowsybl-0.9.0.tar.gz --markdown 20230419/p/pypowsybl/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 15:50:57] INFO root fetch - main [MainThread]: End processing [magic-duckdb]: success
+[2023-04-19 15:50:58] INFO root fetch - main [MainThread]: End processing [magic-duckdb]: success
+[2023-04-19 15:50:58] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-04-19 15:50:58] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-04-19 15:50:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-stock]: success
+[2023-04-19 15:50:58] INFO root fetch - main [MainThread]: End processing [vutils-validator]: success
+[2023-04-19 15:50:58] INFO root fetch - main [MainThread]: End processing [committed]: success
+[2023-04-19 15:50:59] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2023-04-19 15:50:59] INFO root fetch - main [MainThread]: End processing [pyrea]: success
+[2023-04-19 15:51:00] INFO root fetch - main [MainThread]: End processing [pypowsybl]: success
+[2023-04-19 15:51:00] INFO root fetch - main [MainThread]: Store serial: [17771696]
