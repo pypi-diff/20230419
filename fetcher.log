@@ -6660,3 +6660,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 06:24:23] INFO root fetch - main [MainThread]: End processing [bgserve]: success
 [2023-04-19 06:25:49] INFO root fetch - main [MainThread]: End processing [aws-cdk.cli-lib-alpha]: success
 [2023-04-19 06:25:49] INFO root fetch - main [MainThread]: Store serial: [17765847]
+[2023-04-19 06:30:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765847]
+[2023-04-19 06:30:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-19 06:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yapx
+[2023-04-19 06:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-cloudauth-intl20220809
+[2023-04-19 06:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-iot-template-oca
+[2023-04-19 06:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmdsky-debug-py
+[2023-04-19 06:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pd-db-wrangler
+[2023-04-19 06:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snowflake-connector-python-nightly
+[2023-04-19 06:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hdcms
+[2023-04-19 06:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-attachment-preview
+[2023-04-19 06:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-knowledge
+[2023-04-19 06:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arize-phoenix
+[2023-04-19 06:30:58] INFO root fetch - processPackages [pd-db-wrangler]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 06:30:58] INFO root fetch - processPackages [yapx]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-04-19 06:30:58] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-04-19 06:30:58] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-19 06:30:58] INFO root fetch - processPackages [hdcms]: New version: [0.1.9] Old Version: [0.1.17]
+[2023-04-19 06:30:58] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: New version: [16.0.20221219.0] Old Version: [16.0.20221216.0]
+[2023-04-19 06:30:58] INFO root fetch - processPackages [odoo-addon-attachment-preview]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-04-19 06:30:58] INFO root fetch - processPackages [odoo13-addon-iot-template-oca]: New version: [13.0.1.2.2.dev5] Old Version: [13.0.1.2.2.dev4]
+[2023-04-19 06:30:58] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 06:30:58] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.4.7] Old Version: [2023.4.6]
+[2023-04-19 06:30:58] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/07/64/c022749ac6434e80b5bae6953f43bc64b871d156cfe398fd300bd174bd69/hdcms-0.1.17.tar.gz
+[2023-04-19 06:30:58] INFO root fetch - processPackages [odoo13-addon-iot-template-oca]: Downloading https://files.pythonhosted.org/packages/9b/be/9b09242cdaaff0fdb12489bb22d558f582146908c438f4d6542a2dcf9d4b/odoo13_addon_iot_template_oca-13.0.1.2.2.dev4-py3-none-any.whl
+[2023-04-19 06:30:58] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/a1/9f/4ebd43d37afd6d1cd3e56bf3b345ed7751f7c12b146aaa8c615bd68c4c14/pmdsky_debug_py-5.1.8-py3-none-any.whl
+[2023-04-19 06:30:58] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/aa/cd/6114a7b8cf79cdb8874b7fc09dd26b6b6193c6fd1d0872c07b33869e4529/arize_phoenix-0.0.8.tar.gz
+[2023-04-19 06:30:58] INFO root fetch - processPackages [odoo-addon-attachment-preview]: Downloading https://files.pythonhosted.org/packages/15/91/72027bc7c6283d90c7b070931a849ab3fba38c15167b87a586fdd29ebe63/odoo_addon_attachment_preview-15.0.1.0.0.4-py3-none-any.whl
+[2023-04-19 06:30:58] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Downloading https://files.pythonhosted.org/packages/a9/b9/b322b539d01cd2809b09299d500b8d15e4a370a2d828f27f245ac0c656d3/alibabacloud_cloudauth-intl20220809-1.0.7.tar.gz
+[2023-04-19 06:30:58] INFO root fetch - processPackages [yapx]: Downloading https://files.pythonhosted.org/packages/a0/0c/6d2fb09e555981e5d8b11255f177e24c94a8e8d0fb07b8712c316842acf7/yapx-0.0.1a8.tar.gz
+[2023-04-19 06:30:58] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: Downloading https://files.pythonhosted.org/packages/2c/38/eff2dc8cc584910265e91b74df714cd9cd17f6712e66cf378389542979ae/odoo_addons_oca_knowledge-16.0.20221216.0-py3-none-any.whl
+[2023-04-19 06:30:58] INFO root fetch - processPackages [odoo13-addon-iot-template-oca]: Downloading https://files.pythonhosted.org/packages/06/e4/93792d994362c7a32d876993f3b0bb9dcfbf63e2fb919bd07e4e2cfdf223/odoo13_addon_iot_template_oca-13.0.1.2.2.dev5-py3-none-any.whl
+[2023-04-19 06:30:58] INFO root fetch - processPackages [pd-db-wrangler]: executing diffoscope
+[2023-04-19 06:30:58] INFO root fetch - processPackages [pd-db-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pd_db_wrangler-0.8.0.tar.gz tmp/pd_db_wrangler-0.9.0.tar.gz --markdown 20230419/p/pd-db-wrangler/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 06:30:58] INFO root fetch - processPackages [odoo-addon-attachment-preview]: Downloading https://files.pythonhosted.org/packages/7b/f9/dd712938a61900646f3d87f0c61bb5b3fc65159caaa86110bc0a7dac97f2/odoo_addon_attachment_preview-15.0.1.0.0.5-py3-none-any.whl
+[2023-04-19 06:30:58] INFO root fetch - processPackages [odoo13-addon-iot-template-oca]: executing diffoscope
+[2023-04-19 06:30:58] INFO root fetch - processPackages [odoo13-addon-iot-template-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_iot_template_oca-13.0.1.2.2.dev4-py3-none-any.whl.zip tmp/odoo13_addon_iot_template_oca-13.0.1.2.2.dev5-py3-none-any.whl.zip --markdown 20230419/o/odoo13-addon-iot-template-oca/13.0.1.2.2.dev4-13.0.1.2.2.dev5/diff.md --exclude *.pyd
+[2023-04-19 06:30:58] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Downloading https://files.pythonhosted.org/packages/37/35/259c3aa555207e4d91b23968971272c6ea56a80fc524d28cbb85ce6eb7f7/alibabacloud_cloudauth-intl20220809-1.0.8.tar.gz
+[2023-04-19 06:30:58] INFO root fetch - processPackages [odoo-addon-attachment-preview]: executing diffoscope
+[2023-04-19 06:30:58] INFO root fetch - processPackages [odoo-addon-attachment-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_attachment_preview-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_attachment_preview-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-attachment-preview/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-04-19 06:30:58] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-04-19 06:30:58] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.4.6.tar.gz tmp/snowflake-connector-python-nightly-2023.4.7.tar.gz --markdown 20230419/s/snowflake-connector-python-nightly/2023.4.6-2023.4.7/diff.md --exclude *.pyd
+[2023-04-19 06:30:58] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: Downloading https://files.pythonhosted.org/packages/9c/ca/00d14376ac7a698d741fdb0fc44a3289125a074024bc1bbd5bcffc9b2bc3/odoo_addons_oca_knowledge-16.0.20221219.0-py3-none-any.whl
+[2023-04-19 06:30:59] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: executing diffoscope
+[2023-04-19 06:30:59] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudauth-intl20220809-1.0.7.tar.gz tmp/alibabacloud_cloudauth-intl20220809-1.0.8.tar.gz --markdown 20230419/a/alibabacloud-cloudauth-intl20220809/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-19 06:30:59] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/af/d8/2db399e5e20785b2485581651ae7b1b6686105545492f859f0bf3a9c73f5/arize_phoenix-0.0.9.tar.gz
+[2023-04-19 06:30:59] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/cd/d0/996c9b5291bf25dba8c6f2d7fc1fa4fdc00a7a4cd70b642aeed357578680/pmdsky_debug_py-5.1.9-py3-none-any.whl
+[2023-04-19 06:30:59] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: executing diffoscope
+[2023-04-19 06:30:59] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_knowledge-16.0.20221216.0-py3-none-any.whl.zip tmp/odoo_addons_oca_knowledge-16.0.20221219.0-py3-none-any.whl.zip --markdown 20230419/o/odoo-addons-oca-knowledge/16.0.20221216.0-16.0.20221219.0/diff.md --exclude *.pyd
+[2023-04-19 06:30:59] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/51/34/34ec56614830dd108a14b9d8f0c47d25fafb9b28d6da054418f54c5aadf2/hdcms-0.1.9.tar.gz
+[2023-04-19 06:30:59] INFO root fetch - processPackages [yapx]: Downloading https://files.pythonhosted.org/packages/76/49/748c85c85ed6b0595adcf3c88f5ebc3da392ecdcee2c4e57d04e70c8fbc8/yapx-0.0.1a9.tar.gz
+[2023-04-19 06:30:59] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-04-19 06:30:59] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230419/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 06:30:59] INFO root fetch - processPackages [hdcms]: executing diffoscope
+[2023-04-19 06:30:59] INFO root fetch - processPackages [hdcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdcms-0.1.17.tar.gz tmp/hdcms-0.1.9.tar.gz --markdown 20230419/h/hdcms/0.1.17-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 06:30:59] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-04-19 06:30:59] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-5.1.8-py3-none-any.whl.zip tmp/pmdsky_debug_py-5.1.9-py3-none-any.whl.zip --markdown 20230419/p/pmdsky-debug-py/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-04-19 06:30:59] INFO root fetch - processPackages [yapx]: executing diffoscope
+[2023-04-19 06:30:59] INFO root fetch - processPackages [yapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yapx-0.0.1a8.tar.gz tmp/yapx-0.0.1a9.tar.gz --markdown 20230419/y/yapx/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-04-19 06:31:00] INFO root fetch - processPackages [pd-db-wrangler]: Start processing: blindschleiche
+[2023-04-19 06:31:00] INFO root fetch - main [MainThread]: End processing [pd-db-wrangler]: success
+[2023-04-19 06:31:00] INFO root fetch - processPackages [blindschleiche]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-04-19 06:31:00] INFO root fetch - processPackages [odoo-addons-oca-knowledge]: Start processing: raidtoolkit
+[2023-04-19 06:31:00] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-knowledge]: success
+[2023-04-19 06:31:00] INFO root fetch - processPackages [raidtoolkit]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-19 06:31:00] INFO root fetch - processPackages [raidtoolkit]: executing diffoscope
+[2023-04-19 06:31:00] INFO root fetch - processPackages [raidtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raidtoolkit-0.1.0.tar.gz tmp/raidtoolkit-0.2.0.tar.gz --markdown 20230419/r/raidtoolkit/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 06:31:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudauth-intl20220809]: success
+[2023-04-19 06:31:00] INFO root fetch - main [MainThread]: End processing [odoo13-addon-iot-template-oca]: success
+[2023-04-19 06:31:00] INFO root fetch - processPackages [blindschleiche]: executing diffoscope
+[2023-04-19 06:31:00] INFO root fetch - processPackages [blindschleiche]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blindschleiche-0.1.7.tar.gz tmp/blindschleiche-0.1.9.tar.gz --markdown 20230419/b/blindschleiche/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 06:31:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-attachment-preview]: success
+[2023-04-19 06:31:01] INFO root fetch - main [MainThread]: End processing [yapx]: success
+[2023-04-19 06:31:01] INFO root fetch - main [MainThread]: End processing [raidtoolkit]: success
+[2023-04-19 06:31:01] INFO root fetch - main [MainThread]: End processing [blindschleiche]: success
+[2023-04-19 06:31:03] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-04-19 06:31:04] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-04-19 06:31:07] INFO root fetch - main [MainThread]: End processing [hdcms]: success
+[2023-04-19 06:31:20] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-04-19 06:31:20] INFO root fetch - main [MainThread]: Store serial: [17765906]
