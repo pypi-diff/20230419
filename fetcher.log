@@ -15110,3 +15110,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 14:33:36] INFO root fetch - main [MainThread]: End processing [indy-node]: success
 [2023-04-19 14:33:41] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-04-19 14:33:41] INFO root fetch - main [MainThread]: Store serial: [17770816]
+[2023-04-19 14:38:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17770816]
+[2023-04-19 14:38:50] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ypricemagic
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: goastpy
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bloodyAD
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huble
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hhcm-forest
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hrin-msb
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ascii-cli
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snowplow-tracker
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: positional-defaults
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apysc
+[2023-04-19 14:38:50] INFO root fetch - processPackages [goastpy]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-19 14:38:50] INFO root fetch - processPackages [hhcm-forest]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-19 14:38:50] INFO root fetch - processPackages [bloodyAD]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ascii-cli]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 14:38:50] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 14:38:50] INFO root fetch - processPackages [positional-defaults]: New version: [2023.4.19] Old Version: [2023.4.18]
+[2023-04-19 14:38:50] INFO root fetch - processPackages [huble]: New version: [0.2.295] Old Version: [0.2.294]
+[2023-04-19 14:38:50] INFO root fetch - processPackages [snowplow-tracker]: New version: [0.9.1rc1] Old Version: [0.9.1]
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ypricemagic]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-04-19 14:38:50] INFO root fetch - processPackages [apysc]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-04-19 14:38:50] INFO root fetch - processPackages [hhcm-forest]: Downloading https://files.pythonhosted.org/packages/ab/c4/44cd30a292f62bb16117d13b5ab46a020d7056fd4e12f7d40a6c65f42730/hhcm_forest-1.1.5.tar.gz
+[2023-04-19 14:38:50] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ascii-cli]: Downloading https://files.pythonhosted.org/packages/88/19/d66b13ba86dad7a12c27668c88996522faa24370b44b3a4d1b41a2adeff0/ascii-cli-0.0.3.tar.gz
+[2023-04-19 14:38:50] INFO root fetch - processPackages [snowplow-tracker]: Downloading https://files.pythonhosted.org/packages/11/c4/1de60a1165c08fb6e20c04ef68c55d902dda0e055a4b150c5b4668831941/snowplow-tracker-0.9.1.tar.gz
+[2023-04-19 14:38:50] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/98/73/13c5a338aebc8324e6a952e60262a6c3b90bcf6df4e21107e9d63cf5064b/apysc-2.7.8.tar.gz
+[2023-04-19 14:38:50] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/28/90/4cf10bd9f5d5bb8d48b12ce0d801dda137a924ac6a46586ba9126c4eff13/huble-0.2.295.tar.gz
+[2023-04-19 14:38:50] INFO root fetch - processPackages [goastpy]: Downloading https://files.pythonhosted.org/packages/9f/43/1876b49eb13e506904c96046a16c1a821f6364197661ee4aadea8a6c5a94/goastpy-0.1.8.tar.gz
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.1.7.tar.gz tmp/ypricemagic-2.1.8.tar.gz --markdown 20230419/y/ypricemagic/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-04-19 14:38:50] INFO root fetch - processPackages [bloodyAD]: Downloading https://files.pythonhosted.org/packages/7c/cc/3c2bf1fce22f7621a37665dd6d9d11afb520bc38fa786ed2f5f468520ec8/bloodyAD-1.0.1.tar.gz
+[2023-04-19 14:38:50] INFO root fetch - processPackages [positional-defaults]: Downloading https://files.pythonhosted.org/packages/30/2c/143fc46800aa4e1f82d3db844009b6728c44245cc6e9017854a7c979959c/positional_defaults-2023.4.19.tar.gz
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ascii-cli]: executing diffoscope
+[2023-04-19 14:38:50] INFO root fetch - processPackages [ascii-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascii-cli-0.0.2.tar.gz tmp/ascii-cli-0.0.3.tar.gz --markdown 20230419/a/ascii-cli/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 14:38:50] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-19 14:38:50] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.294.tar.gz tmp/huble-0.2.295.tar.gz --markdown 20230419/h/huble/0.2.294-0.2.295/diff.md --exclude *.pyd
+[2023-04-19 14:38:50] INFO root fetch - processPackages [hhcm-forest]: Downloading https://files.pythonhosted.org/packages/3e/a3/23ba63c02a2aa8410d3353e676b9b86cebfbb1fa2bb63f94498aa0c50693/hhcm_forest-1.1.6.tar.gz
+[2023-04-19 14:38:50] INFO root fetch - processPackages [bloodyAD]: executing diffoscope
+[2023-04-19 14:38:50] INFO root fetch - processPackages [bloodyAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bloodyAD-1.0.0.tar.gz tmp/bloodyAD-1.0.1.tar.gz --markdown 20230419/b/bloodyAD/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 14:38:50] INFO root fetch - processPackages [positional-defaults]: executing diffoscope
+[2023-04-19 14:38:50] INFO root fetch - processPackages [positional-defaults]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/positional_defaults-2023.4.18.tar.gz tmp/positional_defaults-2023.4.19.tar.gz --markdown 20230419/p/positional-defaults/2023.4.18-2023.4.19/diff.md --exclude *.pyd
+[2023-04-19 14:38:50] INFO root fetch - processPackages [hhcm-forest]: executing diffoscope
+[2023-04-19 14:38:50] INFO root fetch - processPackages [hhcm-forest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhcm_forest-1.1.5.tar.gz tmp/hhcm_forest-1.1.6.tar.gz --markdown 20230419/h/hhcm-forest/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-19 14:38:51] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/77/d9/3f2127f5fd973d6dbb6228f51bc8e6d822f14b1bd9d517c3e50c9f7736ed/apysc-2.7.9.tar.gz
+[2023-04-19 14:38:51] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-04-19 14:38:51] INFO root fetch - processPackages [snowplow-tracker]: Downloading https://files.pythonhosted.org/packages/44/1a/f097779a5a741fdf23e88f7e1049473ddb1d6ba44b68bbcc65ce497818a1/snowplow-tracker-0.9.1rc1.tar.gz
+[2023-04-19 14:38:51] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-04-19 14:38:51] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230419/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 14:38:51] INFO root fetch - processPackages [snowplow-tracker]: executing diffoscope
+[2023-04-19 14:38:51] INFO root fetch - processPackages [snowplow-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowplow-tracker-0.9.1.tar.gz tmp/snowplow-tracker-0.9.1rc1.tar.gz --markdown 20230419/s/snowplow-tracker/0.9.1-0.9.1rc1/diff.md --exclude *.pyd
+[2023-04-19 14:38:51] INFO root fetch - processPackages [goastpy]: executing diffoscope
+[2023-04-19 14:38:51] INFO root fetch - processPackages [goastpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goastpy-0.1.7.tar.gz tmp/goastpy-0.1.8.tar.gz --markdown 20230419/g/goastpy/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-19 14:38:51] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-04-19 14:38:51] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-2.7.8.tar.gz tmp/apysc-2.7.9.tar.gz --markdown 20230419/a/apysc/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-04-19 14:38:51] INFO root fetch - processPackages [ascii-cli]: Start processing: textgen
+[2023-04-19 14:38:51] INFO root fetch - main [MainThread]: End processing [ascii-cli]: success
+[2023-04-19 14:38:52] INFO root fetch - processPackages [textgen]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-19 14:38:52] INFO root fetch - processPackages [positional-defaults]: Start processing: wozoxutils
+[2023-04-19 14:38:52] INFO root fetch - main [MainThread]: End processing [positional-defaults]: success
+[2023-04-19 14:38:52] INFO root fetch - processPackages [wozoxutils]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-19 14:38:52] INFO root fetch - processPackages [textgen]: Downloading https://files.pythonhosted.org/packages/e8/7d/028ee477e82dae6131727c2be306afa30abb9b8ae70c1af978335634dbe5/textgen-0.2.3.tar.gz
+[2023-04-19 14:38:52] INFO root fetch - processPackages [hhcm-forest]: Start processing: Pequena
+[2023-04-19 14:38:52] INFO root fetch - main [MainThread]: End processing [hhcm-forest]: success
+[2023-04-19 14:38:52] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 14:38:52] INFO root fetch - processPackages [wozoxutils]: Downloading https://files.pythonhosted.org/packages/e8/86/196954b19df1fdaf5d4b584f6953947ff3f532efdc01df3274aed2c5b472/wozoxutils-0.2.3.tar.gz
+[2023-04-19 14:38:52] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-04-19 14:38:52] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230419/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 14:38:52] INFO root fetch - processPackages [bloodyAD]: Start processing: magic-duckdb
+[2023-04-19 14:38:52] INFO root fetch - main [MainThread]: End processing [bloodyAD]: success
+[2023-04-19 14:38:52] INFO root fetch - processPackages [magic-duckdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 14:38:52] INFO root fetch - processPackages [textgen]: executing diffoscope
+[2023-04-19 14:38:52] INFO root fetch - processPackages [textgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textgen-0.2.2.tar.gz tmp/textgen-0.2.3.tar.gz --markdown 20230419/t/textgen/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-19 14:38:52] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-19 14:38:52] INFO root fetch - processPackages [magic-duckdb]: executing diffoscope
+[2023-04-19 14:38:52] INFO root fetch - processPackages [magic-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_duckdb-0.1.8-py3-none-any.whl.zip tmp/magic_duckdb-0.1.9-py3-none-any.whl.zip --markdown 20230419/m/magic-duckdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 14:38:52] INFO root fetch - processPackages [wozoxutils]: Downloading https://files.pythonhosted.org/packages/e4/d1/31958f6db956f404b4a0cd8204c8b33066b916a44b15111bb73a3fe12cd5/wozoxutils-0.2.4.tar.gz
+[2023-04-19 14:38:52] INFO root fetch - main [MainThread]: End processing [snowplow-tracker]: success
+[2023-04-19 14:38:52] INFO root fetch - processPackages [wozoxutils]: executing diffoscope
+[2023-04-19 14:38:52] INFO root fetch - processPackages [wozoxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wozoxutils-0.2.3.tar.gz tmp/wozoxutils-0.2.4.tar.gz --markdown 20230419/w/wozoxutils/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-19 14:38:53] INFO root fetch - main [MainThread]: End processing [goastpy]: success
+[2023-04-19 14:38:53] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-04-19 14:38:53] INFO root fetch - main [MainThread]: End processing [magic-duckdb]: success
+[2023-04-19 14:38:53] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-04-19 14:38:53] INFO root fetch - main [MainThread]: End processing [textgen]: success
+[2023-04-19 14:38:54] INFO root fetch - main [MainThread]: End processing [wozoxutils]: success
+[2023-04-19 14:38:54] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-04-19 14:39:03] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-04-19 14:39:03] INFO root fetch - main [MainThread]: Store serial: [17770884]
