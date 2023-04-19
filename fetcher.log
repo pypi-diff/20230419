@@ -12737,3 +12737,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 11:59:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-notify]: success
 [2023-04-19 11:59:59] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
 [2023-04-19 11:59:59] INFO root fetch - main [MainThread]: Store serial: [17769430]
+[2023-04-19 12:05:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17769430]
+[2023-04-19 12:05:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-19 12:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libmata
+[2023-04-19 12:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jwskate
+[2023-04-19 12:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hokusai
+[2023-04-19 12:05:09] INFO root fetch - processPackages [jwskate]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-19 12:05:09] INFO root fetch - processPackages [hokusai]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-04-19 12:05:09] INFO root fetch - processPackages [libmata]: New version: [0.52.0] Old Version: [0.51.0]
+[2023-04-19 12:05:09] INFO root fetch - processPackages [hokusai]: Downloading https://files.pythonhosted.org/packages/44/9b/41c1b50fa13d687903d74598d5db3556f80fc5b02d73d84c97f1d69c739d/hokusai-1.0.5.tar.gz
+[2023-04-19 12:05:09] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/4f/79/e509210a557a5ebc2fbc1927285a15085cdba908038a624f4782ee35ec96/libmata-0.51.0.tar.gz
+[2023-04-19 12:05:09] INFO root fetch - processPackages [jwskate]: Downloading https://files.pythonhosted.org/packages/21/80/d9ce9630913f6b679df4db8bf032d01e3378599ab6ddc24f27d098475b73/jwskate-0.6.0.tar.gz
+[2023-04-19 12:05:10] INFO root fetch - processPackages [jwskate]: Downloading https://files.pythonhosted.org/packages/4b/a4/046f4b207115397f9d0505b5fbbf022a6aca09e32d18257c0dbe73dfdbff/jwskate-0.7.0.tar.gz
+[2023-04-19 12:05:10] INFO root fetch - processPackages [hokusai]: Downloading https://files.pythonhosted.org/packages/de/3e/2e51b247a527e2459a30e97af3c49f5e56f6cbf2377f2dd131eda0a8d6f1/hokusai-1.1.0.tar.gz
+[2023-04-19 12:05:10] INFO root fetch - processPackages [jwskate]: executing diffoscope
+[2023-04-19 12:05:10] INFO root fetch - processPackages [jwskate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwskate-0.6.0.tar.gz tmp/jwskate-0.7.0.tar.gz --markdown 20230419/j/jwskate/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-19 12:05:10] INFO root fetch - processPackages [hokusai]: executing diffoscope
+[2023-04-19 12:05:10] INFO root fetch - processPackages [hokusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hokusai-1.0.5.tar.gz tmp/hokusai-1.1.0.tar.gz --markdown 20230419/h/hokusai/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-04-19 12:05:10] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/e7/f6/fd05538092a8729f00a0630bdebfa73f5331846638308aabee5c46b73291/libmata-0.52.0.tar.gz
+[2023-04-19 12:05:10] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-04-19 12:05:10] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.51.0.tar.gz tmp/libmata-0.52.0.tar.gz --markdown 20230419/l/libmata/0.51.0-0.52.0/diff.md --exclude *.pyd
+[2023-04-19 12:05:12] INFO root fetch - main [MainThread]: End processing [hokusai]: success
+[2023-04-19 12:05:13] INFO root fetch - main [MainThread]: End processing [jwskate]: success
+[2023-04-19 12:05:16] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-04-19 12:05:16] INFO root fetch - main [MainThread]: Store serial: [17769440]
