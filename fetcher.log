@@ -5153,3 +5153,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 04:33:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
 [2023-04-19 04:33:07] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-04-19 04:33:07] INFO root fetch - main [MainThread]: Store serial: [17765078]
+[2023-04-19 04:38:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765078]
+[2023-04-19 04:38:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-19 04:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-wordpress
+[2023-04-19 04:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardec-cite
+[2023-04-19 04:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taichu-serve
+[2023-04-19 04:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-account-budget-oca
+[2023-04-19 04:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: video2sub
+[2023-04-19 04:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyjava
+[2023-04-19 04:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-account-invoice-start-end-dates
+[2023-04-19 04:38:16] WARNING root fetch - processPackages [cardec-cite]: Skipping, unable to determine old version
+[2023-04-19 04:38:16] INFO root fetch - main [MainThread]: End processing [cardec-cite] error
+[2023-04-19 04:38:16] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-04-19 04:38:16] WARNING root fetch - processPackages [video2sub]: Skipping, unable to determine old version
+[2023-04-19 04:38:16] INFO root fetch - main [MainThread]: End processing [video2sub] error
+[2023-04-19 04:38:16] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [1.0.11]
+[2023-04-19 04:38:16] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 04:38:16] INFO root fetch - processPackages [odoo12-addon-account-invoice-start-end-dates]: New version: [12.0.1.0.0.99.dev6] Old Version: [12.0.1.0.0.99.dev5]
+[2023-04-19 04:38:16] INFO root fetch - processPackages [pyjava]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 04:38:16] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/14/6c/c50656565bda57d92cbbf5d05b37d1a26fc847e0b1bf77156299dfe86ff2/taichu-serve-1.0.11.tar.gz
+[2023-04-19 04:38:16] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: Downloading https://files.pythonhosted.org/packages/c9/1b/728f7ade883112666694e43df8763867f0584ba6a539839cd7a9c2bbe087/odoo14_addon_account_budget_oca-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-04-19 04:38:16] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-04-19 04:38:16] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/c6/ed/04850668ec545de405003111bdad97759c9773d7fd8e5cc2209d6444505c/pyjava-0.3.8.tar.gz
+[2023-04-19 04:38:16] INFO root fetch - processPackages [odoo12-addon-account-invoice-start-end-dates]: Downloading https://files.pythonhosted.org/packages/76/28/90b95ac09db876b94a42ca9b4b217048f485b1246f6651c0d993870e5914/odoo12_addon_account_invoice_start_end_dates-12.0.1.0.0.99.dev5-py3-none-any.whl
+[2023-04-19 04:38:16] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/87/5b/11b39ee031331a7156c71f80c42076cdf8bfd7790559669b2153af680f16/taichu-serve-2.0.9.tar.gz
+[2023-04-19 04:38:16] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/8f/68/8bac50829c208ebcb1889afeac74874c0c02e8690e8e4878c43444029ac3/pyjava-0.3.9.tar.gz
+[2023-04-19 04:38:16] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: Downloading https://files.pythonhosted.org/packages/55/df/6951045403a0585dddb754343097c56b1336f3dfe421abdc8361317e2718/odoo14_addon_account_budget_oca-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-04-19 04:38:17] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-04-19 04:38:17] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-04-19 04:38:17] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-1.0.11.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230419/t/taichu-serve/1.0.11-2.0.9/diff.md --exclude *.pyd
+[2023-04-19 04:38:17] INFO root fetch - processPackages [odoo12-addon-account-invoice-start-end-dates]: Downloading https://files.pythonhosted.org/packages/97/c9/49088c275cd7cdab92f6f3ff6d86e256f85175cea5a659f6bc401d95c085/odoo12_addon_account_invoice_start_end_dates-12.0.1.0.0.99.dev6-py3-none-any.whl
+[2023-04-19 04:38:17] INFO root fetch - processPackages [pyjava]: executing diffoscope
+[2023-04-19 04:38:17] INFO root fetch - processPackages [pyjava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjava-0.3.8.tar.gz tmp/pyjava-0.3.9.tar.gz --markdown 20230419/p/pyjava/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 04:38:17] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-04-19 04:38:17] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230419/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 04:38:17] INFO root fetch - processPackages [odoo12-addon-account-invoice-start-end-dates]: executing diffoscope
+[2023-04-19 04:38:17] INFO root fetch - processPackages [odoo12-addon-account-invoice-start-end-dates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_invoice_start_end_dates-12.0.1.0.0.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_account_invoice_start_end_dates-12.0.1.0.0.99.dev6-py3-none-any.whl.zip --markdown 20230419/o/odoo12-addon-account-invoice-start-end-dates/12.0.1.0.0.99.dev5-12.0.1.0.0.99.dev6/diff.md --exclude *.pyd
+[2023-04-19 04:38:17] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: executing diffoscope
+[2023-04-19 04:38:17] INFO root fetch - processPackages [odoo14-addon-account-budget-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_budget_oca-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_budget_oca-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-account-budget-oca/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-19 04:38:18] INFO root fetch - main [MainThread]: End processing [pyjava]: success
+[2023-04-19 04:38:18] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-invoice-start-end-dates]: success
+[2023-04-19 04:38:18] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-04-19 04:38:18] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-04-19 04:38:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-budget-oca]: success
+[2023-04-19 04:38:18] INFO root fetch - main [MainThread]: Store serial: [17765108]
