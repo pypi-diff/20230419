@@ -19269,3 +19269,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 17:51:51] INFO root fetch - main [MainThread]: End processing [nvidia-cuda-runtime-cu12]: success
 [2023-04-19 17:51:58] INFO root fetch - main [MainThread]: End processing [nvidia-cuda-cccl-cu12]: success
 [2023-04-19 17:51:58] INFO root fetch - main [MainThread]: Store serial: [17773229]
+[2023-04-19 17:57:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17773229]
+[2023-04-19 17:57:11] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-19 17:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvidia-cusparse-cu12
+[2023-04-19 17:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-npp-cu12
+[2023-04-19 17:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: code-compass
+[2023-04-19 17:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvidia-nvjitlink-cu12
+[2023-04-19 17:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-nvjpeg-cu12
+[2023-04-19 17:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfsd
+[2023-04-19 17:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 17:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: proteus-runtime
+[2023-04-19 17:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyforings
+[2023-04-19 17:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 17:57:11] WARNING root fetch - processPackages [kfsd]: Skipping, unable to determine old version
+[2023-04-19 17:57:11] INFO root fetch - processPackages [kfsd]: Start processing: kestrel-lang
+[2023-04-19 17:57:11] INFO root fetch - main [MainThread]: End processing [kfsd] error
+[2023-04-19 17:57:11] WARNING root fetch - processPackages [code-compass]: Skipping, unable to determine old version
+[2023-04-19 17:57:11] INFO root fetch - processPackages [code-compass]: Start processing: catboost-dev
+[2023-04-19 17:57:11] INFO root fetch - main [MainThread]: End processing [code-compass] error
+[2023-04-19 17:57:11] INFO root fetch - processPackages [nvidia-npp-cu12]: New version: [12.1.0.40] Old Version: [12.0.2.50]
+[2023-04-19 17:57:11] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-19 17:57:11] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-19 17:57:11] INFO root fetch - processPackages [nvidia-cusparse-cu12]: New version: [12.1.0.106] Old Version: [12.0.2.55]
+[2023-04-19 17:57:11] WARNING root fetch - processPackages [pyforings]: Skipping, unable to determine old version
+[2023-04-19 17:57:11] INFO root fetch - processPackages [nvidia-nvjitlink-cu12]: New version: [12.1.55] Old Version: [12.1.105]
+[2023-04-19 17:57:11] INFO root fetch - processPackages [pyforings]: Start processing: structureboost
+[2023-04-19 17:57:11] INFO root fetch - processPackages [nvidia-nvjpeg-cu12]: New version: [12.2.0.2] Old Version: [12.1.0.39]
+[2023-04-19 17:57:11] INFO root fetch - main [MainThread]: End processing [pyforings] error
+[2023-04-19 17:57:11] INFO root fetch - processPackages [proteus-runtime]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 17:57:11] INFO root fetch - processPackages [kestrel-lang]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-04-19 17:57:11] INFO root fetch - processPackages [catboost-dev]: New version: [1.2rc0] Old Version: [0.26.1]
+[2023-04-19 17:57:11] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/0c/89/e39d5fbad4989c513ef3f4e3839db3c1d6fc05f581028150e80812c425d2/fastapi_ecommerce_ext-0.2.4.tar.gz
+[2023-04-19 17:57:11] INFO root fetch - processPackages [structureboost]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-19 17:57:11] INFO root fetch - processPackages [nvidia-nvjitlink-cu12]: Downloading https://files.pythonhosted.org/packages/e2/d2/19760b2ee3bfe3b32feec7f69484ed4942d053198481c4abc7afd10f3ab0/nvidia_nvjitlink_cu12-12.1.105-py3-none-manylinux1_x86_64.whl
+[2023-04-19 17:57:11] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/0c/89/e39d5fbad4989c513ef3f4e3839db3c1d6fc05f581028150e80812c425d2/fastapi_ecommerce_ext-0.2.4.tar.gz
+[2023-04-19 17:57:11] INFO root fetch - processPackages [nvidia-npp-cu12]: Downloading https://files.pythonhosted.org/packages/25/10/d819a60ef7feb4a43559f5393b40044d256d539393c8ebc6bc8474c3e148/nvidia_npp_cu12-12.0.2.50-py3-none-win_amd64.whl
+[2023-04-19 17:57:11] WARNING root fetch - processPackages [nvidia-nvjitlink-cu12]: Skipping package: exceeds size limit 19760890>=10485760
+[2023-04-19 17:57:11] INFO root fetch - processPackages [nvidia-nvjitlink-cu12]: Start processing: ultibi
+[2023-04-19 17:57:11] INFO root fetch - main [MainThread]: End processing [nvidia-nvjitlink-cu12] error
+[2023-04-19 17:57:11] INFO root fetch - processPackages [nvidia-cusparse-cu12]: Downloading https://files.pythonhosted.org/packages/73/12/6d102ad5e89635d1e56b192b744989ceb66e9dd5d0f61dede2da34e856dd/nvidia_cusparse_cu12-12.0.2.55-py3-none-win_amd64.whl
+[2023-04-19 17:57:11] INFO root fetch - processPackages [nvidia-nvjpeg-cu12]: Downloading https://files.pythonhosted.org/packages/f3/df/5bc368aa02ba39d967aca2092211cc9820675f295d12d437484e7f5b31a0/nvidia_nvjpeg_cu12-12.1.0.39-py3-none-win_amd64.whl
+[2023-04-19 17:57:11] INFO root fetch - processPackages [kestrel-lang]: Downloading https://files.pythonhosted.org/packages/dc/35/aa41276de318e3c6c18bec712b9384262c0647c165bba063043c9342a384/kestrel-lang-1.5.8.tar.gz
+[2023-04-19 17:57:11] INFO root fetch - processPackages [proteus-runtime]: Downloading https://files.pythonhosted.org/packages/93/28/d72c4aaa19ca486949e4b0f1d446ebd45eed9dd84cc961a9be9069a56491/proteus_runtime-0.2.8.tar.gz
+[2023-04-19 17:57:11] WARNING root fetch - processPackages [nvidia-npp-cu12]: Skipping package: exceeds size limit 154282032>=10485760
+[2023-04-19 17:57:11] INFO root fetch - processPackages [nvidia-npp-cu12]: Start processing: mesh-sandbox
+[2023-04-19 17:57:11] INFO root fetch - main [MainThread]: End processing [nvidia-npp-cu12] error
+[2023-04-19 17:57:11] INFO root fetch - processPackages [ultibi]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-19 17:57:11] INFO root fetch - processPackages [catboost-dev]: Downloading https://files.pythonhosted.org/packages/4d/da/904557bc8df7352697ae3f0ad554462fa397cf8d3327f27cef4179fc5507/catboost_dev-0.26.1-cp39-none-win_amd64.whl
+[2023-04-19 17:57:11] INFO root fetch - processPackages [structureboost]: Downloading https://files.pythonhosted.org/packages/85/69/3ce255e9e2d6ef75fa7f57066db6010805bf18a4186d9f1218a2b8cd377a/structureboost-0.4.0.tar.gz
+[2023-04-19 17:57:11] WARNING root fetch - processPackages [catboost-dev]: Skipping package: exceeds size limit 67940910>=10485760
+[2023-04-19 17:57:11] INFO root fetch - processPackages [catboost-dev]: Start processing: fastapi-ecommerce-ext
+[2023-04-19 17:57:11] INFO root fetch - main [MainThread]: End processing [catboost-dev] error
+[2023-04-19 17:57:11] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-19 17:57:11] INFO root fetch - processPackages [mesh-sandbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 17:57:11] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/77/55/03b97ca29582270c536510aacdced1476536c0b615e89eb109303718939a/fastapi_ecommerce_ext-0.2.5.tar.gz
+[2023-04-19 17:57:11] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/77/55/03b97ca29582270c536510aacdced1476536c0b615e89eb109303718939a/fastapi_ecommerce_ext-0.2.5.tar.gz
+[2023-04-19 17:57:11] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/77/55/03b97ca29582270c536510aacdced1476536c0b615e89eb109303718939a/fastapi_ecommerce_ext-0.2.5.tar.gz
+[2023-04-19 17:57:11] WARNING root fetch - processPackages [nvidia-cusparse-cu12]: Skipping package: exceeds size limit 188184379>=10485760
+[2023-04-19 17:57:11] INFO root fetch - processPackages [nvidia-cusparse-cu12]: Start processing: ezQpy
+[2023-04-19 17:57:11] INFO root fetch - main [MainThread]: End processing [nvidia-cusparse-cu12] error
+[2023-04-19 17:57:11] INFO root fetch - processPackages [ultibi]: Downloading https://files.pythonhosted.org/packages/73/4b/5c76ecaf18573761182a557d957683d847b8dafc3f7437aecd755b7acaa1/ultibi-0.2.0.tar.gz
+[2023-04-19 17:57:11] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 17:57:11] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.2.4.tar.gz tmp/fastapi_ecommerce_ext-0.2.5.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-19 17:57:11] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 17:57:11] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.2.4.tar.gz tmp/fastapi_ecommerce_ext-0.2.5.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-19 17:57:11] INFO root fetch - processPackages [proteus-runtime]: Downloading https://files.pythonhosted.org/packages/0e/b1/dd567093ce7a35e89ab7d89887be300efe9572cd0de898bd5389347b84fa/proteus_runtime-0.2.9.tar.gz
+[2023-04-19 17:57:11] INFO root fetch - processPackages [ezQpy]: New version: [0.2.0.3] Old Version: [0.2.0.2]
+[2023-04-19 17:57:11] INFO root fetch - processPackages [mesh-sandbox]: Downloading https://files.pythonhosted.org/packages/5e/9b/6d41dda0d432ad7486b8f539a29db9afc319494986724d63b91a6812f22c/mesh_sandbox-0.1.8-py3-none-any.whl
+[2023-04-19 17:57:12] INFO root fetch - processPackages [kestrel-lang]: Downloading https://files.pythonhosted.org/packages/f1/3b/44c9278884fb19dbf8af86d286466368339171707dd179215570613894ef/kestrel-lang-1.5.9.tar.gz
+[2023-04-19 17:57:12] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/d4/5f/f109727a91fceabcff47ce451c47e7b934bd5a0fc8e53cee4d95000292ac/fastapi_ecommerce_ext-0.2.6.tar.gz
+[2023-04-19 17:57:12] INFO root fetch - processPackages [nvidia-nvjpeg-cu12]: Downloading https://files.pythonhosted.org/packages/74/c9/d9fe840824191569b4c7fd336d38b2d4eef6ca2cd901fe568eef34d43f12/nvidia_nvjpeg_cu12-12.2.0.2-py3-none-manylinux1_x86_64.whl
+[2023-04-19 17:57:12] INFO root fetch - processPackages [structureboost]: Downloading https://files.pythonhosted.org/packages/85/fa/202985c000a1e7f68432951a49ffa1f9e8c8cf08c59347b6847c16b12289/structureboost-0.4.1.tar.gz
+[2023-04-19 17:57:12] INFO root fetch - processPackages [ultibi]: Downloading https://files.pythonhosted.org/packages/bb/cb/1b37f8f4813f5458290867945a6e935c814bb6055733a336d54d1d35f11c/ultibi-0.3.0.tar.gz
+[2023-04-19 17:57:12] INFO root fetch - processPackages [nvidia-nvjpeg-cu12]: executing diffoscope
+[2023-04-19 17:57:12] INFO root fetch - processPackages [nvidia-nvjpeg-cu12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_nvjpeg_cu12-12.1.0.39-py3-none-win_amd64.whl.zip tmp/nvidia_nvjpeg_cu12-12.2.0.2-py3-none-manylinux1_x86_64.whl.zip --markdown 20230419/n/nvidia-nvjpeg-cu12/12.1.0.39-12.2.0.2/diff.md --exclude *.pyd
+[2023-04-19 17:57:12] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-19 17:57:12] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.2.5.tar.gz tmp/fastapi_ecommerce_ext-0.2.6.tar.gz --markdown 20230419/f/fastapi-ecommerce-ext/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-19 17:57:12] INFO root fetch - processPackages [kestrel-lang]: executing diffoscope
+[2023-04-19 17:57:12] INFO root fetch - processPackages [kestrel-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kestrel-lang-1.5.8.tar.gz tmp/kestrel-lang-1.5.9.tar.gz --markdown 20230419/k/kestrel-lang/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-04-19 17:57:12] INFO root fetch - processPackages [ezQpy]: Downloading https://files.pythonhosted.org/packages/7f/c5/cf64b5f24872f1a31cccb57a34576168e26e761466331cb08d5021849741/ezQpy-0.2.0.2-py3-none-any.whl
+[2023-04-19 17:57:12] INFO root fetch - processPackages [proteus-runtime]: executing diffoscope
+[2023-04-19 17:57:12] INFO root fetch - processPackages [proteus-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_runtime-0.2.8.tar.gz tmp/proteus_runtime-0.2.9.tar.gz --markdown 20230419/p/proteus-runtime/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 17:57:12] INFO root fetch - processPackages [mesh-sandbox]: Downloading https://files.pythonhosted.org/packages/a6/6c/18d5a4013126f7c5bd5b8dc9ebb98c24015b08712c7f1e34eae7e3bb9ef5/mesh_sandbox-0.1.9-py3-none-any.whl
+[2023-04-19 17:57:12] INFO root fetch - processPackages [structureboost]: executing diffoscope
+[2023-04-19 17:57:12] INFO root fetch - processPackages [structureboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structureboost-0.4.0.tar.gz tmp/structureboost-0.4.1.tar.gz --markdown 20230419/s/structureboost/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-19 17:57:12] INFO root fetch - processPackages [ezQpy]: Downloading https://files.pythonhosted.org/packages/2a/e4/4a419451a9d0e83747c608c73186ba0ad82d2d94a1cc13d34df1fc3ad29b/ezQpy-0.2.0.3-py3-none-any.whl
+[2023-04-19 17:57:12] INFO root fetch - processPackages [ultibi]: executing diffoscope
+[2023-04-19 17:57:12] INFO root fetch - processPackages [ultibi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultibi-0.2.0.tar.gz tmp/ultibi-0.3.0.tar.gz --markdown 20230419/u/ultibi/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-19 17:57:12] INFO root fetch - processPackages [mesh-sandbox]: executing diffoscope
+[2023-04-19 17:57:12] INFO root fetch - processPackages [mesh-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_sandbox-0.1.8-py3-none-any.whl.zip tmp/mesh_sandbox-0.1.9-py3-none-any.whl.zip --markdown 20230419/m/mesh-sandbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 17:57:12] INFO root fetch - processPackages [ezQpy]: executing diffoscope
+[2023-04-19 17:57:12] INFO root fetch - processPackages [ezQpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezQpy-0.2.0.2-py3-none-any.whl.zip tmp/ezQpy-0.2.0.3-py3-none-any.whl.zip --markdown 20230419/e/ezQpy/0.2.0.2-0.2.0.3/diff.md --exclude *.pyd
+[2023-04-19 17:57:13] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Start processing: cfn-lint
+[2023-04-19 17:57:13] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 17:57:13] INFO root fetch - processPackages [cfn-lint]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-04-19 17:57:13] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Start processing: ExceptNotifier
+[2023-04-19 17:57:13] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 17:57:13] INFO root fetch - processPackages [ExceptNotifier]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-19 17:57:13] INFO root fetch - processPackages [ExceptNotifier]: executing diffoscope
+[2023-04-19 17:57:13] INFO root fetch - processPackages [ExceptNotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExceptNotifier-0.1.4.tar.gz tmp/ExceptNotifier-0.1.5.tar.gz --markdown 20230419/E/ExceptNotifier/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-19 17:57:13] INFO root fetch - processPackages [cfn-lint]: executing diffoscope
+[2023-04-19 17:57:13] INFO root fetch - processPackages [cfn-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn-lint-1.0.0a1.tar.gz tmp/cfn-lint-1.0.0a2.tar.gz --markdown 20230419/c/cfn-lint/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-04-19 17:57:13] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-19 17:57:13] INFO root fetch - main [MainThread]: End processing [proteus-runtime]: success
+[2023-04-19 17:57:14] INFO root fetch - main [MainThread]: End processing [ezQpy]: success
+[2023-04-19 17:57:14] INFO root fetch - main [MainThread]: End processing [mesh-sandbox]: success
+[2023-04-19 17:57:14] INFO root fetch - main [MainThread]: End processing [ExceptNotifier]: success
+[2023-04-19 17:57:15] INFO root fetch - main [MainThread]: End processing [kestrel-lang]: success
+[2023-04-19 17:57:15] INFO root fetch - main [MainThread]: End processing [nvidia-nvjpeg-cu12]: success
+[2023-04-19 17:57:17] INFO root fetch - main [MainThread]: End processing [ultibi]: success
+[2023-04-19 17:57:18] INFO root fetch - main [MainThread]: End processing [structureboost]: success
+[2023-04-19 17:57:28] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
+[2023-04-19 17:57:28] INFO root fetch - main [MainThread]: Store serial: [17773310]
