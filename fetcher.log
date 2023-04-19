@@ -8417,3 +8417,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 08:49:08] INFO root fetch - main [MainThread]: End processing [powerbot-client]: success
 [2023-04-19 08:49:08] INFO root fetch - main [MainThread]: End processing [powerbot-asyncio-client]: success
 [2023-04-19 08:49:08] INFO root fetch - main [MainThread]: Store serial: [17766758]
+[2023-04-19 08:54:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766758]
+[2023-04-19 08:54:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-19 08:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stathub
+[2023-04-19 08:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xh-cpu-usage-simulator
+[2023-04-19 08:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: connect-cli
+[2023-04-19 08:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-module-prototyper
+[2023-04-19 08:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdal2numpy
+[2023-04-19 08:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rubbrband
+[2023-04-19 08:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-server-tools
+[2023-04-19 08:54:18] INFO root fetch - processPackages [odoo14-addon-module-prototyper]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-04-19 08:54:18] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 08:54:18] WARNING root fetch - processPackages [stathub]: Skipping, unable to determine old version
+[2023-04-19 08:54:18] INFO root fetch - main [MainThread]: End processing [stathub] error
+[2023-04-19 08:54:18] INFO root fetch - processPackages [rubbrband]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 08:54:18] INFO root fetch - processPackages [xh-cpu-usage-simulator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 08:54:18] INFO root fetch - processPackages [connect-cli]: New version: [27.0] Old Version: [26.9]
+[2023-04-19 08:54:18] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: New version: [16.0.20230418.0] Old Version: [16.0.20230413.0]
+[2023-04-19 08:54:19] INFO root fetch - processPackages [odoo14-addon-module-prototyper]: Downloading https://files.pythonhosted.org/packages/b3/28/0a4fb193a48dc10b04ab81b6fb3de6e45c689f61d32aa2a8699902ff305b/odoo14_addon_module_prototyper-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-04-19 08:54:19] INFO root fetch - processPackages [rubbrband]: Downloading https://files.pythonhosted.org/packages/44/95/c150f04ac700d16321c14a1bb6f078bf8ba6ca9c29cac496c072ea1d2bb8/rubbrband-0.1.8.tar.gz
+[2023-04-19 08:54:19] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-04-19 08:54:19] INFO root fetch - processPackages [connect-cli]: Downloading https://files.pythonhosted.org/packages/3f/17/41a8e67dfb691e2c45906ef52dbb90a60c0f2f8cace50a9770a0c0fba57c/connect_cli-26.9.tar.gz
+[2023-04-19 08:54:19] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/00/e1/72f5a0d5bcad400f1988bb2a8232857398830fe85045506c0c6c3d1978a1/odoo_addons_oca_server_tools-16.0.20230413.0-py3-none-any.whl
+[2023-04-19 08:54:19] INFO root fetch - processPackages [xh-cpu-usage-simulator]: Downloading https://files.pythonhosted.org/packages/3c/60/6420864eb572bd98001a06ab01d1220c76bc0468b31f999eb6b84b51d6dd/xh-cpu-usage-simulator-0.0.4.tar.gz
+[2023-04-19 08:54:19] INFO root fetch - processPackages [xh-cpu-usage-simulator]: executing diffoscope
+[2023-04-19 08:54:19] INFO root fetch - processPackages [xh-cpu-usage-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-cpu-usage-simulator-0.0.3.tar.gz tmp/xh-cpu-usage-simulator-0.0.4.tar.gz --markdown 20230419/x/xh-cpu-usage-simulator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 08:54:19] INFO root fetch - processPackages [rubbrband]: Downloading https://files.pythonhosted.org/packages/d8/4e/3ddaeff75ff84dee970d90b90b2b0914383fd1bb4638d9d351a1df97ca72/rubbrband-0.1.9.tar.gz
+[2023-04-19 08:54:19] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/70/81/35901e501e7493f126a45b6f63929aa7c89c3bd00fdcc8111a44793ee6a0/odoo_addons_oca_server_tools-16.0.20230418.0-py3-none-any.whl
+[2023-04-19 08:54:20] INFO root fetch - processPackages [odoo14-addon-module-prototyper]: Downloading https://files.pythonhosted.org/packages/e2/fa/a413556da56c863d74591bf1b408457f7f1a4ef0a1688f0dabda21e57aed/odoo14_addon_module_prototyper-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-04-19 08:54:20] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-04-19 08:54:20] INFO root fetch - processPackages [rubbrband]: executing diffoscope
+[2023-04-19 08:54:20] INFO root fetch - processPackages [rubbrband]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubbrband-0.1.8.tar.gz tmp/rubbrband-0.1.9.tar.gz --markdown 20230419/r/rubbrband/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 08:54:20] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: executing diffoscope
+[2023-04-19 08:54:20] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_tools-16.0.20230413.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_tools-16.0.20230418.0-py3-none-any.whl.zip --markdown 20230419/o/odoo-addons-oca-server-tools/16.0.20230413.0-16.0.20230418.0/diff.md --exclude *.pyd
+[2023-04-19 08:54:20] INFO root fetch - processPackages [connect-cli]: Downloading https://files.pythonhosted.org/packages/c0/ca/5c414b3172a7da49dfb003b586e8039bd3a3f3424bb165e22c2fda0582ac/connect_cli-27.0.tar.gz
+[2023-04-19 08:54:20] INFO root fetch - processPackages [odoo14-addon-module-prototyper]: executing diffoscope
+[2023-04-19 08:54:20] INFO root fetch - processPackages [odoo14-addon-module-prototyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_module_prototyper-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_module_prototyper-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-module-prototyper/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-19 08:54:20] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-04-19 08:54:20] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230419/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 08:54:20] INFO root fetch - processPackages [connect-cli]: executing diffoscope
+[2023-04-19 08:54:20] INFO root fetch - processPackages [connect-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_cli-26.9.tar.gz tmp/connect_cli-27.0.tar.gz --markdown 20230419/c/connect-cli/26.9-27.0/diff.md --exclude *.pyd
+[2023-04-19 08:54:20] INFO root fetch - main [MainThread]: End processing [xh-cpu-usage-simulator]: success
+[2023-04-19 08:54:21] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-tools]: success
+[2023-04-19 08:54:21] INFO root fetch - main [MainThread]: End processing [rubbrband]: success
+[2023-04-19 08:54:21] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-04-19 08:54:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-module-prototyper]: success
+[2023-04-19 08:54:24] INFO root fetch - main [MainThread]: End processing [connect-cli]: success
+[2023-04-19 08:54:24] INFO root fetch - main [MainThread]: Store serial: [17766776]
