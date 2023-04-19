@@ -5852,3 +5852,25 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 05:42:23] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-credit-control]: success
 [2023-04-19 05:42:25] INFO root fetch - main [MainThread]: End processing [aaz-dev]: success
 [2023-04-19 05:42:25] INFO root fetch - main [MainThread]: Store serial: [17765469]
+[2023-04-19 05:47:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765469]
+[2023-04-19 05:47:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-19 05:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipster
+[2023-04-19 05:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scBC
+[2023-04-19 05:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: segment-geospatial
+[2023-04-19 05:47:33] INFO root fetch - processPackages [pipster]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-19 05:47:33] INFO root fetch - processPackages [scBC]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-19 05:47:33] INFO root fetch - processPackages [segment-geospatial]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 05:47:33] INFO root fetch - processPackages [pipster]: executing diffoscope
+[2023-04-19 05:47:33] INFO root fetch - processPackages [pipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipster-0.0.7.tar.gz tmp/pipster-0.0.9.tar.gz --markdown 20230419/p/pipster/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 05:47:34] INFO root fetch - processPackages [scBC]: Downloading https://files.pythonhosted.org/packages/34/8a/2bb2ff492b056a5456eb006f15655b6246c41a16a7abe6920cbe82ae9d09/scBC-0.1.0.tar.gz
+[2023-04-19 05:47:34] INFO root fetch - processPackages [segment-geospatial]: Downloading https://files.pythonhosted.org/packages/1a/88/8709664cfb6e50083b720a2274e352d2825293187bce614c201b7c491535/segment-geospatial-0.0.2.tar.gz
+[2023-04-19 05:47:34] INFO root fetch - processPackages [segment-geospatial]: Downloading https://files.pythonhosted.org/packages/51/5a/e608fa4f247c1beca08310d1a0560ceca58895922b2479e1093e35a4eb80/segment-geospatial-0.0.3.tar.gz
+[2023-04-19 05:47:34] INFO root fetch - processPackages [scBC]: Downloading https://files.pythonhosted.org/packages/99/92/594f931752eedfc000116229f51e96ca2e83e18247785260e9422f90d0ae/scBC-0.2.0.tar.gz
+[2023-04-19 05:47:34] INFO root fetch - processPackages [segment-geospatial]: executing diffoscope
+[2023-04-19 05:47:34] INFO root fetch - processPackages [segment-geospatial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-geospatial-0.0.2.tar.gz tmp/segment-geospatial-0.0.3.tar.gz --markdown 20230419/s/segment-geospatial/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 05:47:34] INFO root fetch - processPackages [scBC]: executing diffoscope
+[2023-04-19 05:47:34] INFO root fetch - processPackages [scBC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scBC-0.1.0.tar.gz tmp/scBC-0.2.0.tar.gz --markdown 20230419/s/scBC/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 05:47:35] INFO root fetch - main [MainThread]: End processing [pipster]: success
+[2023-04-19 05:47:35] INFO root fetch - main [MainThread]: End processing [scBC]: success
+[2023-04-19 05:47:35] INFO root fetch - main [MainThread]: End processing [segment-geospatial]: success
+[2023-04-19 05:47:35] INFO root fetch - main [MainThread]: Store serial: [17765479]
