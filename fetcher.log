@@ -8158,3 +8158,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 08:22:48] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-04-19 08:22:54] INFO root fetch - main [MainThread]: End processing [pysequoia]: success
 [2023-04-19 08:22:54] INFO root fetch - main [MainThread]: Store serial: [17766620]
+[2023-04-19 08:27:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766620]
+[2023-04-19 08:28:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 08:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p-template-res
+[2023-04-19 08:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: friebox
+[2023-04-19 08:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dashio
+[2023-04-19 08:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cli-aws-mfa
+[2023-04-19 08:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xh-dict-utils
+[2023-04-19 08:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fake-bpy-module-latest
+[2023-04-19 08:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rapyuta-io
+[2023-04-19 08:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twb-project
+[2023-04-19 08:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pollev-history-compiler
+[2023-04-19 08:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twb-project
+[2023-04-19 08:28:02] INFO root fetch - processPackages [friebox]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-19 08:28:02] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 08:28:02] WARNING root fetch - processPackages [cli-aws-mfa]: Skipping, unable to determine old version
+[2023-04-19 08:28:02] INFO root fetch - main [MainThread]: End processing [cli-aws-mfa] error
+[2023-04-19 08:28:02] INFO root fetch - processPackages [twb-project]: New version: [0.7.3a5] Old Version: [0.7.3a4]
+[2023-04-19 08:28:02] INFO root fetch - processPackages [rapyuta-io]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-19 08:28:02] INFO root fetch - processPackages [twb-project]: New version: [0.7.3a5] Old Version: [0.7.3a4]
+[2023-04-19 08:28:02] INFO root fetch - processPackages [pollev-history-compiler]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-19 08:28:02] INFO root fetch - processPackages [p-template-res]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 08:28:02] INFO root fetch - processPackages [dashio]: New version: [3.3.5] Old Version: [3.3.4]
+[2023-04-19 08:28:02] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230419] Old Version: [20230418]
+[2023-04-19 08:28:02] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-19 08:28:02] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230419/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 08:28:03] INFO root fetch - processPackages [friebox]: Downloading https://files.pythonhosted.org/packages/0f/8d/4f16d2e36a79582c68442af661492417d94a57fa0a7537000f2a2bd0946a/friebox-1.0.2.tar.gz
+[2023-04-19 08:28:03] INFO root fetch - processPackages [pollev-history-compiler]: Downloading https://files.pythonhosted.org/packages/53/ed/cb57bdb022456f70b67ae6ca2da7121a154081d43922da1b6a267b4307a7/pollev-history-compiler-1.0.3.tar.gz
+[2023-04-19 08:28:03] INFO root fetch - processPackages [twb-project]: Downloading https://files.pythonhosted.org/packages/2b/0f/04da21fed5ca22f3c24953f8f572213a50fae7369080bbefe7d0a7d401a0/twb_project-0.7.3a5.tar.gz
+[2023-04-19 08:28:03] INFO root fetch - processPackages [twb-project]: Downloading https://files.pythonhosted.org/packages/2b/0f/04da21fed5ca22f3c24953f8f572213a50fae7369080bbefe7d0a7d401a0/twb_project-0.7.3a5.tar.gz
+[2023-04-19 08:28:03] INFO root fetch - processPackages [rapyuta-io]: Downloading https://files.pythonhosted.org/packages/67/02/59f86c280c54042af4ecb002fcfc39ceff9b53739dcf21a426d74d7a9c4d/rapyuta_io-1.8.0.tar.gz
+[2023-04-19 08:28:03] INFO root fetch - processPackages [p-template-res]: Downloading https://files.pythonhosted.org/packages/2c/69/04debfb1e23f6ab0c46ad8db7669d2d6bd57b336e9279220727438823dc1/p-template-res-0.1.8.tar.gz
+[2023-04-19 08:28:03] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/50/57/f442a06564bdf88e54311b1e660f5f3f9294268343eea6271187d1191ee4/fake-bpy-module-latest-20230419.tar.gz
+[2023-04-19 08:28:03] INFO root fetch - processPackages [pollev-history-compiler]: executing diffoscope
+[2023-04-19 08:28:03] INFO root fetch - processPackages [pollev-history-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollev-history-compiler-1.0.2.tar.gz tmp/pollev-history-compiler-1.0.3.tar.gz --markdown 20230419/p/pollev-history-compiler/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-19 08:28:03] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-04-19 08:28:03] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230418.tar.gz tmp/fake-bpy-module-latest-20230419.tar.gz --markdown 20230419/f/fake-bpy-module-latest/20230418-20230419/diff.md --exclude *.pyd
+[2023-04-19 08:28:03] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-04-19 08:28:03] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.7.3a4.tar.gz tmp/twb_project-0.7.3a5.tar.gz --markdown 20230419/t/twb-project/0.7.3a4-0.7.3a5/diff.md --exclude *.pyd
+[2023-04-19 08:28:03] INFO root fetch - processPackages [friebox]: executing diffoscope
+[2023-04-19 08:28:03] INFO root fetch - processPackages [friebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/friebox-1.0.1.tar.gz tmp/friebox-1.0.2.tar.gz --markdown 20230419/f/friebox/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-19 08:28:03] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-04-19 08:28:03] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.7.3a4.tar.gz tmp/twb_project-0.7.3a5.tar.gz --markdown 20230419/t/twb-project/0.7.3a4-0.7.3a5/diff.md --exclude *.pyd
+[2023-04-19 08:28:03] INFO root fetch - processPackages [dashio]: Downloading https://files.pythonhosted.org/packages/33/e8/6569fbc264a2a2270b98b77fcf7b11a96aeefbb2d0cd436626e549a66458/dashio-3.3.5.tar.gz
+[2023-04-19 08:28:03] INFO root fetch - processPackages [dashio]: executing diffoscope
+[2023-04-19 08:28:03] INFO root fetch - processPackages [dashio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashio-3.3.4.tar.gz tmp/dashio-3.3.5.tar.gz --markdown 20230419/d/dashio/3.3.4-3.3.5/diff.md --exclude *.pyd
+[2023-04-19 08:28:03] INFO root fetch - processPackages [rapyuta-io]: Downloading https://files.pythonhosted.org/packages/d6/1a/bf8c9a45e74553defd42531896dcf8ac512fc4aa421683452a683aae00a4/rapyuta_io-1.9.0.tar.gz
+[2023-04-19 08:28:03] INFO root fetch - processPackages [p-template-res]: Downloading https://files.pythonhosted.org/packages/eb/91/62cec24b6fa0da39453dacd6ac238920eb81b2908a73dd1b79f1ef994c5b/p-template-res-0.1.9.tar.gz
+[2023-04-19 08:28:03] INFO root fetch - processPackages [rapyuta-io]: executing diffoscope
+[2023-04-19 08:28:03] INFO root fetch - processPackages [rapyuta-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapyuta_io-1.8.0.tar.gz tmp/rapyuta_io-1.9.0.tar.gz --markdown 20230419/r/rapyuta-io/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-19 08:28:03] INFO root fetch - processPackages [p-template-res]: executing diffoscope
+[2023-04-19 08:28:03] INFO root fetch - processPackages [p-template-res]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-res-0.1.8.tar.gz tmp/p-template-res-0.1.9.tar.gz --markdown 20230419/p/p-template-res/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 08:28:04] INFO root fetch - main [MainThread]: End processing [pollev-history-compiler]: success
+[2023-04-19 08:28:04] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-19 08:28:04] INFO root fetch - main [MainThread]: End processing [p-template-res]: success
+[2023-04-19 08:28:04] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-04-19 08:28:05] INFO root fetch - main [MainThread]: End processing [rapyuta-io]: success
+[2023-04-19 08:28:06] INFO root fetch - main [MainThread]: End processing [dashio]: success
+[2023-04-19 08:28:08] INFO root fetch - main [MainThread]: End processing [friebox]: success
+[2023-04-19 08:28:12] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-04-19 08:28:14] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-04-19 08:28:14] INFO root fetch - main [MainThread]: Store serial: [17766652]
