@@ -5210,3 +5210,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 04:43:28] INFO root fetch - processPackages [ldbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldbpy-0.0.1-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/ldbpy-0.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230419/l/ldbpy/0.0.1-0.0.2/diff.md --exclude *.pyd
 [2023-04-19 04:43:31] INFO root fetch - main [MainThread]: End processing [ldbpy]: success
 [2023-04-19 04:43:31] INFO root fetch - main [MainThread]: Store serial: [17765118]
+[2023-04-19 04:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765118]
+[2023-04-19 04:48:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-19 04:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: integration-testing-environment
+[2023-04-19 04:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: integration-testing-environment-dev
+[2023-04-19 04:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pawnlib
+[2023-04-19 04:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cobo-custody
+[2023-04-19 04:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dailywheels
+[2023-04-19 04:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: al2var
+[2023-04-19 04:48:41] INFO root fetch - processPackages [integration-testing-environment]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 04:48:41] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 04:48:41] INFO root fetch - processPackages [integration-testing-environment-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 04:48:41] WARNING root fetch - processPackages [dailywheels]: Skipping, unable to determine old version
+[2023-04-19 04:48:41] INFO root fetch - main [MainThread]: End processing [dailywheels] error
+[2023-04-19 04:48:41] INFO root fetch - processPackages [al2var]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 04:48:41] INFO root fetch - processPackages [cobo-custody]: New version: [0.23] Old Version: [0.19]
+[2023-04-19 04:48:41] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-19 04:48:41] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230419/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 04:48:41] INFO root fetch - processPackages [integration-testing-environment-dev]: Downloading https://files.pythonhosted.org/packages/6b/e1/0dd56e278debf7ecf441bf78cc0ef133a13c888470ffe19f9b0d59cac2a7/integration_testing_environment_dev-0.0.8.tar.gz
+[2023-04-19 04:48:41] INFO root fetch - processPackages [integration-testing-environment]: Downloading https://files.pythonhosted.org/packages/25/94/03e89c1b5a3a0b98c40cb8d403e5e174d32bc3310df1d379068d0d8658eb/integration_testing_environment-0.0.8.tar.gz
+[2023-04-19 04:48:41] INFO root fetch - processPackages [al2var]: Downloading https://files.pythonhosted.org/packages/6f/8a/6c6bcda8e711ca0f41c4dfda20bbba83f3cad3e89316ca61803f145d6f5e/al2var-0.0.2.tar.gz
+[2023-04-19 04:48:41] INFO root fetch - processPackages [cobo-custody]: Downloading https://files.pythonhosted.org/packages/50/c0/7733206a7ccd8ab171cf465a136e920648bde0d765cd4a201253ad05043e/cobo_custody-0.19.tar.gz
+[2023-04-19 04:48:41] INFO root fetch - processPackages [integration-testing-environment]: Downloading https://files.pythonhosted.org/packages/2f/bf/3334417ade93665a25fe148fd6f4a8d35eb304f9e189fd98c3c4649f2a48/integration_testing_environment-0.0.9.tar.gz
+[2023-04-19 04:48:41] INFO root fetch - processPackages [al2var]: Downloading https://files.pythonhosted.org/packages/2b/7c/127a936d85fff44a73591372745d1505b514148acbbc3123a2a16a5e1085/al2var-0.0.3.tar.gz
+[2023-04-19 04:48:41] INFO root fetch - processPackages [cobo-custody]: Downloading https://files.pythonhosted.org/packages/4a/ed/27ab123cb9ed3463e6668192c6ffb95c1063b9df0b8551567493d7f34a1b/cobo_custody-0.23.tar.gz
+[2023-04-19 04:48:41] INFO root fetch - processPackages [integration-testing-environment]: executing diffoscope
+[2023-04-19 04:48:41] INFO root fetch - processPackages [integration-testing-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integration_testing_environment-0.0.8.tar.gz tmp/integration_testing_environment-0.0.9.tar.gz --markdown 20230419/i/integration-testing-environment/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 04:48:41] INFO root fetch - processPackages [integration-testing-environment-dev]: Downloading https://files.pythonhosted.org/packages/7a/8e/c6abb0743bf7838a63bca33dce073e9a32c9076bf5ebf02f2775d79f831a/integration_testing_environment_dev-0.0.9.tar.gz
+[2023-04-19 04:48:41] INFO root fetch - processPackages [al2var]: executing diffoscope
+[2023-04-19 04:48:41] INFO root fetch - processPackages [al2var]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/al2var-0.0.2.tar.gz tmp/al2var-0.0.3.tar.gz --markdown 20230419/a/al2var/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 04:48:41] INFO root fetch - processPackages [cobo-custody]: executing diffoscope
+[2023-04-19 04:48:41] INFO root fetch - processPackages [cobo-custody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cobo_custody-0.19.tar.gz tmp/cobo_custody-0.23.tar.gz --markdown 20230419/c/cobo-custody/0.19-0.23/diff.md --exclude *.pyd
+[2023-04-19 04:48:41] INFO root fetch - processPackages [integration-testing-environment-dev]: executing diffoscope
+[2023-04-19 04:48:41] INFO root fetch - processPackages [integration-testing-environment-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integration_testing_environment_dev-0.0.8.tar.gz tmp/integration_testing_environment_dev-0.0.9.tar.gz --markdown 20230419/i/integration-testing-environment-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 04:48:42] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-19 04:48:42] INFO root fetch - main [MainThread]: End processing [integration-testing-environment]: success
+[2023-04-19 04:48:42] INFO root fetch - main [MainThread]: End processing [al2var]: success
+[2023-04-19 04:48:44] INFO root fetch - main [MainThread]: End processing [cobo-custody]: success
+[2023-04-19 04:48:54] INFO root fetch - main [MainThread]: End processing [integration-testing-environment-dev]: success
+[2023-04-19 04:48:54] INFO root fetch - main [MainThread]: Store serial: [17765136]
