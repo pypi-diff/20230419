@@ -21788,3 +21788,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 20:12:26] INFO root fetch - main [MainThread]: End processing [linode-cli]: success
 [2023-04-19 20:12:26] INFO root fetch - main [MainThread]: End processing [astronomer-providers]: success
 [2023-04-19 20:12:26] INFO root fetch - main [MainThread]: Store serial: [17774977]
+[2023-04-19 20:17:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17774977]
+[2023-04-19 20:17:36] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-19 20:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylogix-plc
+[2023-04-19 20:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylogix-plc
+[2023-04-19 20:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylogix-plc
+[2023-04-19 20:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tendril-auth
+[2023-04-19 20:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-account-statement-import-camt
+[2023-04-19 20:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysistentclass
+[2023-04-19 20:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstra-cli
+[2023-04-19 20:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mongo-to-som
+[2023-04-19 20:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pdm-conda
+[2023-04-19 20:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: living-figures
+[2023-04-19 20:17:36] INFO root fetch - processPackages [tendril-auth]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-19 20:17:36] INFO root fetch - processPackages [pylogix-plc]: New version: [3.9.18] Old Version: [3.9.17]
+[2023-04-19 20:17:36] INFO root fetch - processPackages [pylogix-plc]: New version: [3.9.18] Old Version: [3.9.17]
+[2023-04-19 20:17:36] INFO root fetch - processPackages [pysistentclass]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 20:17:36] INFO root fetch - processPackages [pylogix-plc]: New version: [3.9.18] Old Version: [3.9.17]
+[2023-04-19 20:17:36] INFO root fetch - processPackages [living-figures]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 20:17:36] INFO root fetch - processPackages [odoo14-addon-account-statement-import-camt]: New version: [14.0.1.2.1.dev1] Old Version: [14.0.1.2.1]
+[2023-04-19 20:17:36] INFO root fetch - processPackages [mongo-to-som]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-19 20:17:36] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.0b1] Old Version: [0.9.0b0]
+[2023-04-19 20:17:36] INFO root fetch - processPackages [abstra-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 20:17:36] INFO root fetch - processPackages [pylogix-plc]: Downloading https://files.pythonhosted.org/packages/38/76/0971f21d5080f97d15b42195a06cd57cce8867477c0bab7a298b59ed80ac/pylogix-plc-3.9.17.tar.gz
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pylogix-plc]: Downloading https://files.pythonhosted.org/packages/38/76/0971f21d5080f97d15b42195a06cd57cce8867477c0bab7a298b59ed80ac/pylogix-plc-3.9.17.tar.gz
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pylogix-plc]: Downloading https://files.pythonhosted.org/packages/38/76/0971f21d5080f97d15b42195a06cd57cce8867477c0bab7a298b59ed80ac/pylogix-plc-3.9.17.tar.gz
+[2023-04-19 20:17:37] INFO root fetch - processPackages [odoo14-addon-account-statement-import-camt]: Downloading https://files.pythonhosted.org/packages/a9/05/c27574d37a1497867338616c20c2460785b98c2df36dd715301c7b7e85f0/odoo14_addon_account_statement_import_camt-14.0.1.2.1-py3-none-any.whl
+[2023-04-19 20:17:37] INFO root fetch - processPackages [mongo-to-som]: Downloading https://files.pythonhosted.org/packages/cd/f4/14bd5b2aa35ebbd945f141c6e3d807883a8969144809f4ae38556f5949cb/mongo_to_som-1.0.6.tar.gz
+[2023-04-19 20:17:37] INFO root fetch - processPackages [tendril-auth]: Downloading https://files.pythonhosted.org/packages/05/e1/32800d05788d216b55e2df2c25062ed76580063b25f8d9a9a80d75d2b5ca/tendril-auth-0.3.4.tar.gz
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/9e/f1/1858ab74fd15a92717ce7c221342a1680887f56088f3159cfbfe0783d385/pdm_conda-0.9.0b1.tar.gz
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pysistentclass]: Downloading https://files.pythonhosted.org/packages/51/fa/d38fcbe2a87a7845fa281a9a0adf0853be9eebbb2fc4c88a6f2825a241bb/pysistentclass-0.0.3.tar.gz
+[2023-04-19 20:17:37] INFO root fetch - processPackages [living-figures]: Downloading https://files.pythonhosted.org/packages/3e/75/55f5a8fb33f1140028bcbc4c014be92efd353faae21efe1cebbc416fd171/living-figures-0.1.2.tar.gz
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.0b0.tar.gz tmp/pdm_conda-0.9.0b1.tar.gz --markdown 20230419/p/pdm-conda/0.9.0b0-0.9.0b1/diff.md --exclude *.pyd
+[2023-04-19 20:17:37] INFO root fetch - processPackages [abstra-cli]: executing diffoscope
+[2023-04-19 20:17:37] INFO root fetch - processPackages [abstra-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-cli-0.8.0.tar.gz tmp/abstra-cli-0.9.0.tar.gz --markdown 20230419/a/abstra-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pylogix-plc]: Downloading https://files.pythonhosted.org/packages/e6/2a/6c9ed6f90666546f5a370b81e0c511c87f9abd89761c74980d99dcfbf03d/pylogix-plc-3.9.18.tar.gz
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pylogix-plc]: Downloading https://files.pythonhosted.org/packages/e6/2a/6c9ed6f90666546f5a370b81e0c511c87f9abd89761c74980d99dcfbf03d/pylogix-plc-3.9.18.tar.gz
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pylogix-plc]: Downloading https://files.pythonhosted.org/packages/e6/2a/6c9ed6f90666546f5a370b81e0c511c87f9abd89761c74980d99dcfbf03d/pylogix-plc-3.9.18.tar.gz
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pysistentclass]: executing diffoscope
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pysistentclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysistentclass-0.0.2.tar.gz tmp/pysistentclass-0.0.3.tar.gz --markdown 20230419/p/pysistentclass/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 20:17:37] INFO root fetch - processPackages [living-figures]: executing diffoscope
+[2023-04-19 20:17:37] INFO root fetch - processPackages [living-figures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/living-figures-0.1.1.tar.gz tmp/living-figures-0.1.2.tar.gz --markdown 20230419/l/living-figures/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 20:17:37] INFO root fetch - processPackages [mongo-to-som]: Downloading https://files.pythonhosted.org/packages/de/2e/05e5495622fc5b6cfaa3efb6077523d6adae4abff0135d660514cbe63bcc/mongo_to_som-1.0.7.tar.gz
+[2023-04-19 20:17:37] INFO root fetch - processPackages [odoo14-addon-account-statement-import-camt]: Downloading https://files.pythonhosted.org/packages/c3/4f/aaaa42776962ee3d7937fbd763b2f1cbc6ec5db7d0e4f02889736302cbfb/odoo14_addon_account_statement_import_camt-14.0.1.2.1.dev1-py3-none-any.whl
+[2023-04-19 20:17:37] INFO root fetch - processPackages [tendril-auth]: Downloading https://files.pythonhosted.org/packages/5b/dd/365eb6f6d1189b2ff2131986c7b8fcd5b11400cdca6303d34346d2c48c9d/tendril-auth-0.3.5.tar.gz
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pylogix-plc]: executing diffoscope
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pylogix-plc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogix-plc-3.9.17.tar.gz tmp/pylogix-plc-3.9.18.tar.gz --markdown 20230419/p/pylogix-plc/3.9.17-3.9.18/diff.md --exclude *.pyd
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pylogix-plc]: executing diffoscope
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pylogix-plc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogix-plc-3.9.17.tar.gz tmp/pylogix-plc-3.9.18.tar.gz --markdown 20230419/p/pylogix-plc/3.9.17-3.9.18/diff.md --exclude *.pyd
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pylogix-plc]: executing diffoscope
+[2023-04-19 20:17:37] INFO root fetch - processPackages [pylogix-plc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogix-plc-3.9.17.tar.gz tmp/pylogix-plc-3.9.18.tar.gz --markdown 20230419/p/pylogix-plc/3.9.17-3.9.18/diff.md --exclude *.pyd
+[2023-04-19 20:17:37] INFO root fetch - processPackages [mongo-to-som]: executing diffoscope
+[2023-04-19 20:17:37] INFO root fetch - processPackages [mongo-to-som]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_to_som-1.0.6.tar.gz tmp/mongo_to_som-1.0.7.tar.gz --markdown 20230419/m/mongo-to-som/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-19 20:17:37] INFO root fetch - processPackages [odoo14-addon-account-statement-import-camt]: executing diffoscope
+[2023-04-19 20:17:37] INFO root fetch - processPackages [odoo14-addon-account-statement-import-camt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_statement_import_camt-14.0.1.2.1-py3-none-any.whl.zip tmp/odoo14_addon_account_statement_import_camt-14.0.1.2.1.dev1-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-account-statement-import-camt/14.0.1.2.1-14.0.1.2.1.dev1/diff.md --exclude *.pyd
+[2023-04-19 20:17:37] INFO root fetch - processPackages [tendril-auth]: executing diffoscope
+[2023-04-19 20:17:37] INFO root fetch - processPackages [tendril-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-auth-0.3.4.tar.gz tmp/tendril-auth-0.3.5.tar.gz --markdown 20230419/t/tendril-auth/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-19 20:17:38] INFO root fetch - processPackages [pdm-conda]: Start processing: redco
+[2023-04-19 20:17:38] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2023-04-19 20:17:38] WARNING root fetch - processPackages [redco]: Skipping, unable to determine old version
+[2023-04-19 20:17:38] INFO root fetch - processPackages [redco]: Start processing: mongo-to-som
+[2023-04-19 20:17:38] INFO root fetch - main [MainThread]: End processing [redco] error
+[2023-04-19 20:17:38] INFO root fetch - processPackages [pysistentclass]: Start processing: olallieberry
+[2023-04-19 20:17:38] INFO root fetch - main [MainThread]: End processing [pysistentclass]: success
+[2023-04-19 20:17:38] INFO root fetch - processPackages [mongo-to-som]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-19 20:17:38] INFO root fetch - processPackages [olallieberry]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-04-19 20:17:38] INFO root fetch - processPackages [mongo-to-som]: executing diffoscope
+[2023-04-19 20:17:38] INFO root fetch - processPackages [mongo-to-som]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_to_som-1.0.6.tar.gz tmp/mongo_to_som-1.0.7.tar.gz --markdown 20230419/m/mongo-to-som/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-19 20:17:39] INFO root fetch - processPackages [olallieberry]: Downloading https://files.pythonhosted.org/packages/9c/48/acb46abafb486d0b35409309ddbb7f3e14f2f1b828da9bd68d0aaa82cb08/olallieberry-0.1.0.tar.gz
+[2023-04-19 20:17:39] INFO root fetch - processPackages [pylogix-plc]: Start processing: currensees
+[2023-04-19 20:17:39] INFO root fetch - main [MainThread]: End processing [pylogix-plc]: success
+[2023-04-19 20:17:39] INFO root fetch - processPackages [currensees]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-19 20:17:39] INFO root fetch - main [MainThread]: End processing [mongo-to-som]: success
+[2023-04-19 20:17:39] INFO root fetch - main [MainThread]: End processing [pylogix-plc]: success
+[2023-04-19 20:17:39] INFO root fetch - main [MainThread]: End processing [abstra-cli]: success
+[2023-04-19 20:17:39] INFO root fetch - processPackages [olallieberry]: Downloading https://files.pythonhosted.org/packages/74/c8/1648618545b853632a2285a6e6cfdbabdd2674b43e6cbb35a531356bbb86/olallieberry-1.0.0.tar.gz
+[2023-04-19 20:17:39] INFO root fetch - main [MainThread]: End processing [living-figures]: success
+[2023-04-19 20:17:39] INFO root fetch - main [MainThread]: End processing [tendril-auth]: success
+[2023-04-19 20:17:39] INFO root fetch - processPackages [currensees]: Downloading https://files.pythonhosted.org/packages/a8/32/07c3fa7ac44d54353b81298bdf792cc23b5d0d4c1e719a165c17abce6426/currensees-1.0.6.tar.gz
+[2023-04-19 20:17:39] INFO root fetch - processPackages [olallieberry]: executing diffoscope
+[2023-04-19 20:17:39] INFO root fetch - processPackages [olallieberry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olallieberry-0.1.0.tar.gz tmp/olallieberry-1.0.0.tar.gz --markdown 20230419/o/olallieberry/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-19 20:17:39] INFO root fetch - main [MainThread]: End processing [pylogix-plc]: success
+[2023-04-19 20:17:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-statement-import-camt]: success
+[2023-04-19 20:17:39] INFO root fetch - processPackages [currensees]: executing diffoscope
+[2023-04-19 20:17:39] INFO root fetch - processPackages [currensees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currensees-1.0.5.tar.gz tmp/currensees-1.0.6.tar.gz --markdown 20230419/c/currensees/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-19 20:17:40] INFO root fetch - main [MainThread]: End processing [mongo-to-som]: success
+[2023-04-19 20:17:40] INFO root fetch - main [MainThread]: End processing [olallieberry]: success
+[2023-04-19 20:17:40] INFO root fetch - main [MainThread]: End processing [currensees]: success
+[2023-04-19 20:17:40] INFO root fetch - main [MainThread]: Store serial: [17775022]
