@@ -21956,3 +21956,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 20:22:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
 [2023-04-19 20:22:59] INFO root fetch - main [MainThread]: End processing [stcal]: success
 [2023-04-19 20:22:59] INFO root fetch - main [MainThread]: Store serial: [17775083]
+[2023-04-19 20:28:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17775083]
+[2023-04-19 20:28:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-19 20:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jadecobra
+[2023-04-19 20:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tictacbot
+[2023-04-19 20:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exceptnotifier
+[2023-04-19 20:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muax
+[2023-04-19 20:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biomedicus
+[2023-04-19 20:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: goodai-ltm
+[2023-04-19 20:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biomedicus-client
+[2023-04-19 20:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DonutLib
+[2023-04-19 20:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: privateai-client
+[2023-04-19 20:28:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edge-orm
+[2023-04-19 20:28:11] INFO root fetch - processPackages [jadecobra]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-19 20:28:11] INFO root fetch - processPackages [goodai-ltm]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 20:28:11] INFO root fetch - processPackages [biomedicus]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-04-19 20:28:11] WARNING root fetch - processPackages [tictacbot]: Skipping, unable to determine old version
+[2023-04-19 20:28:11] INFO root fetch - processPackages [tictacbot]: Start processing: dcurves
+[2023-04-19 20:28:11] INFO root fetch - main [MainThread]: End processing [tictacbot] error
+[2023-04-19 20:28:11] INFO root fetch - processPackages [biomedicus-client]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-04-19 20:28:11] INFO root fetch - processPackages [muax]: New version: [0.0.2a0] Old Version: [0.0.2.8.2]
+[2023-04-19 20:28:11] INFO root fetch - processPackages [privateai-client]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-19 20:28:11] WARNING root fetch - processPackages [DonutLib]: Skipping, unable to determine old version
+[2023-04-19 20:28:11] INFO root fetch - processPackages [exceptnotifier]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-19 20:28:11] INFO root fetch - processPackages [DonutLib]: Start processing: quantplay
+[2023-04-19 20:28:11] INFO root fetch - main [MainThread]: End processing [DonutLib] error
+[2023-04-19 20:28:11] INFO root fetch - processPackages [edge-orm]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-04-19 20:28:11] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-19 20:28:11] INFO root fetch - processPackages [goodai-ltm]: Downloading https://files.pythonhosted.org/packages/f4/5e/ee9cd6321fc53824f413fde73de3c32d7dc76b1e1b2d969f3e2415955e6a/goodai-ltm-0.0.2.tar.gz
+[2023-04-19 20:28:11] INFO root fetch - processPackages [dcurves]: New version: [1.0.6.1] Old Version: [1.0.6]
+[2023-04-19 20:28:11] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-04-19 20:28:11] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230419/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-19 20:28:11] INFO root fetch - processPackages [jadecobra]: Downloading https://files.pythonhosted.org/packages/60/29/7a571f8f8d6112fb36f8b1333a0d92247dc9343731246faf92dfa1978d67/jadecobra-0.3.6.tar.gz
+[2023-04-19 20:28:11] INFO root fetch - processPackages [privateai-client]: Downloading https://files.pythonhosted.org/packages/ff/11/b9af1616922349e191ca36609e8566fc06f4d41074fdd450e0739a48cab8/privateai_client-1.0.3.tar.gz
+[2023-04-19 20:28:11] INFO root fetch - processPackages [muax]: Downloading https://files.pythonhosted.org/packages/8e/24/6a5ce82daf5a7ea59255cd1b54b1f679790f61a6a36f78534f94208c77c6/muax-0.0.2.8.2.tar.gz
+[2023-04-19 20:28:11] INFO root fetch - processPackages [edge-orm]: Downloading https://files.pythonhosted.org/packages/8e/6c/1f2dd89560365a79090b5d852baa898b88632e6eb965a41dca0c212ae044/edge_orm-0.6.4.tar.gz
+[2023-04-19 20:28:11] INFO root fetch - processPackages [biomedicus]: Downloading https://files.pythonhosted.org/packages/6a/8e/04c139d12071a3408e93da5fd834984d6d27aa77c405ee2eae0e10d93f2a/biomedicus-3.2.0.tar.gz
+[2023-04-19 20:28:11] INFO root fetch - processPackages [exceptnotifier]: Downloading https://files.pythonhosted.org/packages/27/f7/a6d401fb1b527cba756999ff0fe726489c97a26f7d85a091c415e5c0b745/exceptnotifier-0.1.8.tar.gz
+[2023-04-19 20:28:11] INFO root fetch - processPackages [biomedicus-client]: Downloading https://files.pythonhosted.org/packages/03/d2/18af92c7c8e1b434c6fbc6598de9a14015ad1bcd34049fd8cb026434bb90/biomedicus_client-3.2.1.tar.gz
+[2023-04-19 20:28:11] INFO root fetch - processPackages [dcurves]: Downloading https://files.pythonhosted.org/packages/76/e7/696b0b3d9f549dae15177443d6191dc3513e82fe78579b5b195a1f21fbbc/dcurves-1.0.6.1.tar.gz
+[2023-04-19 20:28:11] INFO root fetch - processPackages [goodai-ltm]: Downloading https://files.pythonhosted.org/packages/62/40/dd7b3b916195511db0d6db1eb132a56ae8b6d64899a0bc07fa8b1b1b622c/goodai-ltm-0.0.3.tar.gz
+[2023-04-19 20:28:11] INFO root fetch - processPackages [edge-orm]: executing diffoscope
+[2023-04-19 20:28:11] INFO root fetch - processPackages [edge-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_orm-0.6.3.tar.gz tmp/edge_orm-0.6.4.tar.gz --markdown 20230419/e/edge-orm/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-04-19 20:28:12] INFO root fetch - processPackages [privateai-client]: Downloading https://files.pythonhosted.org/packages/d8/13/6b5e704b4c216a0ae54674411c80e92e4e043271eefdb606f44c4ba44031/privateai_client-1.0.4.tar.gz
+[2023-04-19 20:28:12] INFO root fetch - processPackages [biomedicus-client]: executing diffoscope
+[2023-04-19 20:28:12] INFO root fetch - processPackages [biomedicus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biomedicus_client-3.2.0.tar.gz tmp/biomedicus_client-3.2.1.tar.gz --markdown 20230419/b/biomedicus-client/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-04-19 20:28:12] INFO root fetch - processPackages [dcurves]: executing diffoscope
+[2023-04-19 20:28:12] INFO root fetch - processPackages [dcurves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcurves-1.0.6.tar.gz tmp/dcurves-1.0.6.1.tar.gz --markdown 20230419/d/dcurves/1.0.6-1.0.6.1/diff.md --exclude *.pyd
+[2023-04-19 20:28:12] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-04-19 20:28:12] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExceptNotifier-0.1.7.tar.gz tmp/exceptnotifier-0.1.8.tar.gz --markdown 20230419/e/exceptnotifier/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-19 20:28:12] INFO root fetch - processPackages [muax]: Downloading https://files.pythonhosted.org/packages/73/14/f670a02744b4b7e8ba4bb58911a0d29e4cb81ac5ab919e56692a858dd80a/muax-0.0.2a0.tar.gz
+[2023-04-19 20:28:12] WARNING root fetch - processPackages [biomedicus]: Skipping package: exceeds size limit 86756849>=10485760
+[2023-04-19 20:28:12] INFO root fetch - main [MainThread]: End processing [biomedicus] error
+[2023-04-19 20:28:12] INFO root fetch - processPackages [jadecobra]: Downloading https://files.pythonhosted.org/packages/db/43/7ac67232d67590d397ff6b3e32f979f382e27426eecc6fcbc42ebec76c7c/jadecobra-0.3.7.tar.gz
+[2023-04-19 20:28:12] INFO root fetch - processPackages [goodai-ltm]: executing diffoscope
+[2023-04-19 20:28:12] INFO root fetch - processPackages [goodai-ltm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodai-ltm-0.0.2.tar.gz tmp/goodai-ltm-0.0.3.tar.gz --markdown 20230419/g/goodai-ltm/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 20:28:12] INFO root fetch - processPackages [privateai-client]: executing diffoscope
+[2023-04-19 20:28:12] INFO root fetch - processPackages [privateai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/privateai_client-1.0.3.tar.gz tmp/privateai_client-1.0.4.tar.gz --markdown 20230419/p/privateai-client/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-19 20:28:12] INFO root fetch - processPackages [muax]: executing diffoscope
+[2023-04-19 20:28:12] INFO root fetch - processPackages [muax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muax-0.0.2.8.2.tar.gz tmp/muax-0.0.2a0.tar.gz --markdown 20230419/m/muax/0.0.2.8.2-0.0.2a0/diff.md --exclude *.pyd
+[2023-04-19 20:28:12] INFO root fetch - processPackages [jadecobra]: executing diffoscope
+[2023-04-19 20:28:12] INFO root fetch - processPackages [jadecobra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jadecobra-0.3.6.tar.gz tmp/jadecobra-0.3.7.tar.gz --markdown 20230419/j/jadecobra/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-19 20:28:13] INFO root fetch - main [MainThread]: End processing [edge-orm]: success
+[2023-04-19 20:28:13] INFO root fetch - main [MainThread]: End processing [dcurves]: success
+[2023-04-19 20:28:13] INFO root fetch - main [MainThread]: End processing [jadecobra]: success
+[2023-04-19 20:28:13] INFO root fetch - main [MainThread]: End processing [biomedicus-client]: success
+[2023-04-19 20:28:13] INFO root fetch - main [MainThread]: End processing [muax]: success
+[2023-04-19 20:28:14] INFO root fetch - main [MainThread]: End processing [privateai-client]: success
+[2023-04-19 20:28:14] INFO root fetch - main [MainThread]: End processing [goodai-ltm]: success
+[2023-04-19 20:28:14] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-04-19 20:28:14] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-04-19 20:28:14] INFO root fetch - main [MainThread]: Store serial: [17775124]
