@@ -13695,3 +13695,118 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 13:14:13] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-19 13:14:26] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-19 13:14:26] INFO root fetch - main [MainThread]: Store serial: [17770021]
+[2023-04-19 13:19:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17770021]
+[2023-04-19 13:19:36] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-19 13:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapyuta-io-cli
+[2023-04-19 13:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentry-sdk
+[2023-04-19 13:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpforecaster
+[2023-04-19 13:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdkit
+[2023-04-19 13:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: web-2-album
+[2023-04-19 13:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unitn-course-scraper
+[2023-04-19 13:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: time-tracker
+[2023-04-19 13:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seo-keyword-research-tool
+[2023-04-19 13:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoogap-mtd
+[2023-04-19 13:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: orb-billing
+[2023-04-19 13:19:36] INFO root fetch - processPackages [sdkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 13:19:36] INFO root fetch - processPackages [unitn-course-scraper]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-19 13:19:36] INFO root fetch - processPackages [rapyuta-io-cli]: New version: [2.0.1] Old Version: [1.0.0]
+[2023-04-19 13:19:36] INFO root fetch - processPackages [odoogap-mtd]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 13:19:36] INFO root fetch - processPackages [seo-keyword-research-tool]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 13:19:36] INFO root fetch - processPackages [web-2-album]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 13:19:36] INFO root fetch - processPackages [time-tracker]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-19 13:19:36] INFO root fetch - processPackages [orb-billing]: New version: [1.2.0] Old Version: [0.2.2]
+[2023-04-19 13:19:36] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 13:19:36] INFO root fetch - processPackages [sentry-sdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-19 13:19:36] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-04-19 13:19:36] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.8.tar.gz tmp/sdkit-1.0.9.tar.gz --markdown 20230419/s/sdkit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 13:19:36] INFO root fetch - processPackages [orb-billing]: Downloading https://files.pythonhosted.org/packages/e4/68/ef735dec7158750f352a54b9ab0ff781054533e02a9527589d83e1fcfb23/orb-billing-0.2.2.tar.gz
+[2023-04-19 13:19:36] INFO root fetch - processPackages [rapyuta-io-cli]: Downloading https://files.pythonhosted.org/packages/cc/cd/f80db664104e382918692ef5b8f3da9c3e5dbe3fd1408a964e3a82d4c259/rapyuta-io-cli-1.0.0.tar.gz
+[2023-04-19 13:19:36] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/61/00/dd7e41da95c59f4ccf86be60fcbb5889dc7b215ca5e71c8108cb7892c0b8/sentry-sdk-1.9.8.tar.gz
+[2023-04-19 13:19:36] INFO root fetch - processPackages [web-2-album]: Downloading https://files.pythonhosted.org/packages/e2/56/6ad41e27a2b4cb22151449f4c371edca14b0ded11c1a30023e8768e5bb51/web_2_album-0.0.8.tar.gz
+[2023-04-19 13:19:36] INFO root fetch - processPackages [seo-keyword-research-tool]: Downloading https://files.pythonhosted.org/packages/c0/0d/5d77b33ee2c5f8d550f0cd628a74b1e28e3ff5d0b1e8ecbcead4f10263ed/seo-keyword-research-tool-0.1.9.tar.gz
+[2023-04-19 13:19:36] INFO root fetch - processPackages [odoogap-mtd]: Downloading https://files.pythonhosted.org/packages/4e/d8/9c40853c8a22a485fcf84250d4ad194ed10b56edec35886279a8dc6802b3/odoogap-mtd-0.1.1.tar.gz
+[2023-04-19 13:19:36] INFO root fetch - processPackages [unitn-course-scraper]: Downloading https://files.pythonhosted.org/packages/de/38/af7d105126ead2f3bcdcd17f90e7ae0a4419f8dfdc1200ca31819aacdf7e/unitn_course_scraper-0.1.6.tar.gz
+[2023-04-19 13:19:36] INFO root fetch - processPackages [time-tracker]: Downloading https://files.pythonhosted.org/packages/71/65/eb569ddb0b923f50367960238bcc43d33a2d321b2c2fed04adbe5a7aa706/time_tracker-0.4.0.tar.gz
+[2023-04-19 13:19:36] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-04-19 13:19:36] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.8.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230419/g/gpforecaster/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 13:19:36] INFO root fetch - processPackages [seo-keyword-research-tool]: executing diffoscope
+[2023-04-19 13:19:36] INFO root fetch - processPackages [seo-keyword-research-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seo-keyword-research-tool-0.1.8.tar.gz tmp/seo-keyword-research-tool-0.1.9.tar.gz --markdown 20230419/s/seo-keyword-research-tool/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 13:19:36] INFO root fetch - processPackages [unitn-course-scraper]: executing diffoscope
+[2023-04-19 13:19:36] INFO root fetch - processPackages [unitn-course-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitn_course_scraper-0.1.5.tar.gz tmp/unitn_course_scraper-0.1.6.tar.gz --markdown 20230419/u/unitn-course-scraper/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-19 13:19:36] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/b5/bf/680dccdef2576e85b3773de1acde3d263d2c3f105187562a6653cc550a8b/sentry-sdk-1.9.9.tar.gz
+[2023-04-19 13:19:36] INFO root fetch - processPackages [time-tracker]: executing diffoscope
+[2023-04-19 13:19:36] INFO root fetch - processPackages [time-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/time_tracker-0.3.0.tar.gz tmp/time_tracker-0.4.0.tar.gz --markdown 20230419/t/time-tracker/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-19 13:19:36] INFO root fetch - processPackages [orb-billing]: Downloading https://files.pythonhosted.org/packages/1a/16/86db32fce195d8e4dc9278bde16ddb94c1661295c690ac74cb06bffcefbd/orb-billing-1.2.0.tar.gz
+[2023-04-19 13:19:36] INFO root fetch - processPackages [odoogap-mtd]: Downloading https://files.pythonhosted.org/packages/d3/3e/bd599fac3b3541034bf8a0ffe95007a2a24df62ff5f71a9846e40ec6f786/odoogap-mtd-0.1.2.tar.gz
+[2023-04-19 13:19:36] INFO root fetch - processPackages [web-2-album]: Downloading https://files.pythonhosted.org/packages/3c/b4/db33274effe3dedf1f115b7cc172b70792edc416c89b0a0bc5c1ee85078f/web_2_album-0.0.9.tar.gz
+[2023-04-19 13:19:36] INFO root fetch - processPackages [rapyuta-io-cli]: Downloading https://files.pythonhosted.org/packages/8a/4a/37d858f2749d981f8af11453572d37f80369e66244899d3baf5194748a0f/rapyuta-io-cli-2.0.1.tar.gz
+[2023-04-19 13:19:37] INFO root fetch - processPackages [odoogap-mtd]: executing diffoscope
+[2023-04-19 13:19:37] INFO root fetch - processPackages [odoogap-mtd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoogap-mtd-0.1.1.tar.gz tmp/odoogap-mtd-0.1.2.tar.gz --markdown 20230419/o/odoogap-mtd/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 13:19:37] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2023-04-19 13:19:37] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-1.9.8.tar.gz tmp/sentry-sdk-1.9.9.tar.gz --markdown 20230419/s/sentry-sdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-19 13:19:37] INFO root fetch - processPackages [orb-billing]: executing diffoscope
+[2023-04-19 13:19:37] INFO root fetch - processPackages [orb-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orb-billing-0.2.2.tar.gz tmp/orb-billing-1.2.0.tar.gz --markdown 20230419/o/orb-billing/0.2.2-1.2.0/diff.md --exclude *.pyd
+[2023-04-19 13:19:37] INFO root fetch - processPackages [web-2-album]: executing diffoscope
+[2023-04-19 13:19:37] INFO root fetch - processPackages [web-2-album]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_2_album-0.0.8.tar.gz tmp/web_2_album-0.0.9.tar.gz --markdown 20230419/w/web-2-album/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 13:19:37] INFO root fetch - processPackages [rapyuta-io-cli]: executing diffoscope
+[2023-04-19 13:19:37] INFO root fetch - processPackages [rapyuta-io-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapyuta-io-cli-1.0.0.tar.gz tmp/rapyuta-io-cli-2.0.1.tar.gz --markdown 20230419/r/rapyuta-io-cli/1.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-19 13:19:37] INFO root fetch - processPackages [sdkit]: Start processing: gov-uk-dashboards
+[2023-04-19 13:19:37] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-04-19 13:19:37] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.3.0] Old Version: [9.2.0]
+[2023-04-19 13:19:38] INFO root fetch - processPackages [gpforecaster]: Start processing: libmata
+[2023-04-19 13:19:38] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-04-19 13:19:38] INFO root fetch - processPackages [libmata]: New version: [0.53.0] Old Version: [0.52.0]
+[2023-04-19 13:19:38] INFO root fetch - processPackages [time-tracker]: Start processing: orso
+[2023-04-19 13:19:38] INFO root fetch - main [MainThread]: End processing [time-tracker]: success
+[2023-04-19 13:19:38] INFO root fetch - processPackages [orso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 13:19:38] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/b6/dd/598026aa5aa09eff8753024eaf3fd1eef86564751af8cf78a7caf90c8421/gov_uk_dashboards-9.3.0.tar.gz
+[2023-04-19 13:19:38] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/b4/1e/b5b626018e1cc1c62557f1badc40cdad2d8855ca8b7acc82e1d281cae7b6/libmata-0.53.0.tar.gz
+[2023-04-19 13:19:38] INFO root fetch - processPackages [odoogap-mtd]: Start processing: pythreader
+[2023-04-19 13:19:38] INFO root fetch - main [MainThread]: End processing [odoogap-mtd]: success
+[2023-04-19 13:19:38] INFO root fetch - processPackages [seo-keyword-research-tool]: Start processing: ascii-cli
+[2023-04-19 13:19:38] INFO root fetch - main [MainThread]: End processing [seo-keyword-research-tool]: success
+[2023-04-19 13:19:38] INFO root fetch - processPackages [pythreader]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-04-19 13:19:38] WARNING root fetch - processPackages [ascii-cli]: Skipping, unable to determine old version
+[2023-04-19 13:19:38] INFO root fetch - processPackages [ascii-cli]: Start processing: uxu
+[2023-04-19 13:19:38] INFO root fetch - main [MainThread]: End processing [ascii-cli] error
+[2023-04-19 13:19:38] INFO root fetch - processPackages [unitn-course-scraper]: Start processing: requestlib
+[2023-04-19 13:19:38] INFO root fetch - main [MainThread]: End processing [unitn-course-scraper]: success
+[2023-04-19 13:19:38] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-04-19 13:19:38] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.2.0.tar.gz tmp/gov_uk_dashboards-9.3.0.tar.gz --markdown 20230419/g/gov-uk-dashboards/9.2.0-9.3.0/diff.md --exclude *.pyd
+[2023-04-19 13:19:38] INFO root fetch - processPackages [uxu]: New version: [0.1.1] Old Version: [0.0.2]
+[2023-04-19 13:19:38] ERROR root fetch - processPackages [requestlib]: Unable to get metadata: No such project 'requestlib'
+[2023-04-19 13:19:38] INFO root fetch - processPackages [requestlib]: Start processing: codigofacilito-jorgef
+[2023-04-19 13:19:38] INFO root fetch - main [MainThread]: End processing [requestlib] error
+[2023-04-19 13:19:38] INFO root fetch - processPackages [web-2-album]: Start processing: tb-nightly
+[2023-04-19 13:19:38] INFO root fetch - main [MainThread]: End processing [web-2-album]: success
+[2023-04-19 13:19:38] WARNING root fetch - processPackages [codigofacilito-jorgef]: Skipping, unable to determine old version
+[2023-04-19 13:19:38] INFO root fetch - processPackages [codigofacilito-jorgef]: Start processing: dns-crawler
+[2023-04-19 13:19:38] INFO root fetch - main [MainThread]: End processing [codigofacilito-jorgef] error
+[2023-04-19 13:19:38] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-04-19 13:19:38] INFO root fetch - processPackages [dns-crawler]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-04-19 13:19:38] INFO root fetch - processPackages [orso]: executing diffoscope
+[2023-04-19 13:19:38] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.8.tar.gz tmp/orso-0.0.9.tar.gz --markdown 20230419/o/orso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 13:19:38] INFO root fetch - processPackages [pythreader]: Downloading https://files.pythonhosted.org/packages/cc/bb/b043da2c757c30edaa7c94aef2da47516bcd810c668cc1959819951a87cd/pythreader-2.9.3.tar.gz
+[2023-04-19 13:19:38] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-04-19 13:19:38] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230419/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-04-19 13:19:38] INFO root fetch - processPackages [dns-crawler]: executing diffoscope
+[2023-04-19 13:19:38] INFO root fetch - processPackages [dns-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dns-crawler-1.6.0.tar.gz tmp/dns-crawler-1.6.1.tar.gz --markdown 20230419/d/dns-crawler/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-04-19 13:19:38] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-04-19 13:19:38] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.52.0.tar.gz tmp/libmata-0.53.0.tar.gz --markdown 20230419/l/libmata/0.52.0-0.53.0/diff.md --exclude *.pyd
+[2023-04-19 13:19:38] INFO root fetch - processPackages [uxu]: Downloading https://files.pythonhosted.org/packages/c8/3b/0bd907227fc5ad5d19dee95a207f406f48394cbe7a7b5ce4bb21f60866b5/uxu-0.1.1.tar.gz
+[2023-04-19 13:19:39] INFO root fetch - processPackages [uxu]: executing diffoscope
+[2023-04-19 13:19:39] INFO root fetch - processPackages [uxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uxu-0.0.2.tar.gz tmp/uxu-0.1.1.tar.gz --markdown 20230419/u/uxu/0.0.2-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 13:19:39] INFO root fetch - processPackages [pythreader]: Downloading https://files.pythonhosted.org/packages/66/41/ab1c32726ebf68061f48797fc83fe6b711fed6c9a7f8418c8c84d65d316e/pythreader-2.9.4.tar.gz
+[2023-04-19 13:19:39] INFO root fetch - processPackages [pythreader]: executing diffoscope
+[2023-04-19 13:19:39] INFO root fetch - processPackages [pythreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythreader-2.9.3.tar.gz tmp/pythreader-2.9.4.tar.gz --markdown 20230419/p/pythreader/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-04-19 13:19:39] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2023-04-19 13:19:39] INFO root fetch - main [MainThread]: End processing [rapyuta-io-cli]: success
+[2023-04-19 13:19:40] INFO root fetch - main [MainThread]: End processing [dns-crawler]: success
+[2023-04-19 13:19:40] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2023-04-19 13:19:40] INFO root fetch - main [MainThread]: End processing [pythreader]: success
+[2023-04-19 13:19:40] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-04-19 13:19:41] INFO root fetch - main [MainThread]: End processing [orb-billing]: success
+[2023-04-19 13:19:41] INFO root fetch - main [MainThread]: End processing [uxu]: success
+[2023-04-19 13:19:42] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-04-19 13:19:43] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-04-19 13:19:43] INFO root fetch - main [MainThread]: Store serial: [17770099]
