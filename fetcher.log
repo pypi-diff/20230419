@@ -14744,3 +14744,176 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 14:17:31] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
 [2023-04-19 14:17:33] INFO root fetch - main [MainThread]: End processing [artistools]: success
 [2023-04-19 14:17:33] INFO root fetch - main [MainThread]: Store serial: [17770622]
+[2023-04-19 14:22:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17770622]
+[2023-04-19 14:22:43] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-19 14:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioshelly
+[2023-04-19 14:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangocms-xliff
+[2023-04-19 14:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlalchemy-auth-hooks
+[2023-04-19 14:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finometerdl
+[2023-04-19 14:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roblox-asset-publish
+[2023-04-19 14:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iqm-cortex-cli
+[2023-04-19 14:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alertlogic-sdk-definitions
+[2023-04-19 14:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lossers
+[2023-04-19 14:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tvault
+[2023-04-19 14:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cryptosyspki
+[2023-04-19 14:22:43] INFO root fetch - processPackages [aioshelly]: New version: [5.3.2] Old Version: [5.3.1]
+[2023-04-19 14:22:43] INFO root fetch - processPackages [finometerdl]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 14:22:43] INFO root fetch - processPackages [roblox-asset-publish]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-19 14:22:43] WARNING root fetch - processPackages [lossers]: Skipping, unable to determine old version
+[2023-04-19 14:22:43] INFO root fetch - processPackages [lossers]: Start processing: pyphysio
+[2023-04-19 14:22:43] INFO root fetch - main [MainThread]: End processing [lossers] error
+[2023-04-19 14:22:43] INFO root fetch - processPackages [djangocms-xliff]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-19 14:22:43] INFO root fetch - processPackages [tvault]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 14:22:43] INFO root fetch - processPackages [cryptosyspki]: New version: [21.0.1] Old Version: [21.0.0]
+[2023-04-19 14:22:43] INFO root fetch - processPackages [iqm-cortex-cli]: New version: [3.6] Old Version: [3.5]
+[2023-04-19 14:22:43] INFO root fetch - processPackages [alertlogic-sdk-definitions]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-19 14:22:43] INFO root fetch - processPackages [pyphysio]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-04-19 14:22:43] INFO root fetch - processPackages [aioshelly]: executing diffoscope
+[2023-04-19 14:22:43] INFO root fetch - processPackages [aioshelly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioshelly-5.3.1.tar.gz tmp/aioshelly-5.3.2.tar.gz --markdown 20230419/a/aioshelly/5.3.1-5.3.2/diff.md --exclude *.pyd
+[2023-04-19 14:22:43] WARNING root fetch - processPackages [sqlalchemy-auth-hooks]: Skipping, unable to determine old version
+[2023-04-19 14:22:43] INFO root fetch - processPackages [sqlalchemy-auth-hooks]: Start processing: sboxU
+[2023-04-19 14:22:43] INFO root fetch - main [MainThread]: End processing [sqlalchemy-auth-hooks] error
+[2023-04-19 14:22:43] WARNING root fetch - processPackages [sboxU]: Skipping, unable to determine old version
+[2023-04-19 14:22:43] INFO root fetch - processPackages [sboxU]: Start processing: lovematch
+[2023-04-19 14:22:43] INFO root fetch - main [MainThread]: End processing [sboxU] error
+[2023-04-19 14:22:43] INFO root fetch - processPackages [lovematch]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-04-19 14:22:43] INFO root fetch - processPackages [roblox-asset-publish]: Downloading https://files.pythonhosted.org/packages/02/7d/ec1b98e41352a6a18e3471d953556f83a7afff0c72cb152141406dd0cd83/roblox-asset-publish-0.2.3.tar.gz
+[2023-04-19 14:22:43] INFO root fetch - processPackages [finometerdl]: Downloading https://files.pythonhosted.org/packages/43/2b/a2cd87d37048d7be5cb8053ead84c02b68e7f63a9be470353c4a99d751c0/finometerdl-0.1.2.tar.gz
+[2023-04-19 14:22:43] INFO root fetch - processPackages [pyphysio]: Downloading https://files.pythonhosted.org/packages/f4/ef/0a52e9b994242be66648f9ebf578d7c840769d9f2aa1bf06771ef1e3054c/pyphysio-3.1.2.tar.gz
+[2023-04-19 14:22:43] INFO root fetch - processPackages [djangocms-xliff]: Downloading https://files.pythonhosted.org/packages/f6/a3/f1eb89cd6a2084ccaaa3e328c5aea9d6721ab962c82cca585381023e2918/djangocms_xliff-1.1.0.tar.gz
+[2023-04-19 14:22:43] INFO root fetch - processPackages [cryptosyspki]: Downloading https://files.pythonhosted.org/packages/66/87/d2f411f8042cf19fb495dad26eff4a14c1d827c30c55e443e4cfc8128deb/cryptosyspki-21.0.0.zip
+[2023-04-19 14:22:43] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/70/84/33cf09d6260112fd5b8514d6e44b506d9120c570efb066680c875e4e821a/iqm-cortex-cli-3.5.tar.gz
+[2023-04-19 14:22:43] INFO root fetch - processPackages [finometerdl]: executing diffoscope
+[2023-04-19 14:22:43] INFO root fetch - processPackages [finometerdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finometerdl-0.1.1.tar.gz tmp/finometerdl-0.1.2.tar.gz --markdown 20230419/f/finometerdl/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 14:22:43] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Downloading https://files.pythonhosted.org/packages/37/2d/d04022db2c2c7242403a185b45a95837c0bbf7ef694d779bce552a2e6a39/alertlogic-sdk-definitions-0.1.98.tar.gz
+[2023-04-19 14:22:43] INFO root fetch - processPackages [lovematch]: Downloading https://files.pythonhosted.org/packages/6b/49/210705cab7a77051a372328d8226620aeb9c9b734c1481659519ffaad4a9/lovematch-1.6.0.tar.gz
+[2023-04-19 14:22:43] INFO root fetch - processPackages [lovematch]: executing diffoscope
+[2023-04-19 14:22:43] INFO root fetch - processPackages [lovematch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovematch-1.5.0.tar.gz tmp/lovematch-1.6.0.tar.gz --markdown 20230419/l/lovematch/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-04-19 14:22:44] INFO root fetch - processPackages [roblox-asset-publish]: Downloading https://files.pythonhosted.org/packages/fc/b4/026922eadcb59d14c1266885b1c12ec82ffa93f84b75afde6b9d65b1f3f6/roblox-asset-publish-0.2.4.tar.gz
+[2023-04-19 14:22:44] INFO root fetch - processPackages [roblox-asset-publish]: executing diffoscope
+[2023-04-19 14:22:44] INFO root fetch - processPackages [roblox-asset-publish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-asset-publish-0.2.3.tar.gz tmp/roblox-asset-publish-0.2.4.tar.gz --markdown 20230419/r/roblox-asset-publish/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-19 14:22:44] INFO root fetch - processPackages [tvault]: executing diffoscope
+[2023-04-19 14:22:44] INFO root fetch - processPackages [tvault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvault-0.3.8-py3-none-any.whl.zip tmp/tvault-0.3.9-py3-none-any.whl.zip --markdown 20230419/t/tvault/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 14:22:44] INFO root fetch - processPackages [cryptosyspki]: Downloading https://files.pythonhosted.org/packages/20/7d/300a789efd8df670263761646ddf7631f42548290072c79cd3b4f555769f/cryptosyspki-21.0.1.zip
+[2023-04-19 14:22:44] INFO root fetch - processPackages [djangocms-xliff]: Downloading https://files.pythonhosted.org/packages/1b/62/5eed3797b7eab8f9ed1a9a38b2a9d8ef2c5ccd6b2277c4b98d1d1db591d4/djangocms_xliff-1.2.0.tar.gz
+[2023-04-19 14:22:44] INFO root fetch - processPackages [cryptosyspki]: executing diffoscope
+[2023-04-19 14:22:44] INFO root fetch - processPackages [cryptosyspki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptosyspki-21.0.0.zip tmp/cryptosyspki-21.0.1.zip --markdown 20230419/c/cryptosyspki/21.0.0-21.0.1/diff.md --exclude *.pyd
+[2023-04-19 14:22:44] INFO root fetch - processPackages [djangocms-xliff]: executing diffoscope
+[2023-04-19 14:22:44] INFO root fetch - processPackages [djangocms-xliff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_xliff-1.1.0.tar.gz tmp/djangocms_xliff-1.2.0.tar.gz --markdown 20230419/d/djangocms-xliff/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-19 14:22:44] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Downloading https://files.pythonhosted.org/packages/ca/40/d491b53e878475fc259c3994f3d4c75b8f55fa82e36e0cef73f6e58c5418/alertlogic-sdk-definitions-0.1.99.tar.gz
+[2023-04-19 14:22:44] INFO root fetch - processPackages [pyphysio]: Downloading https://files.pythonhosted.org/packages/46/03/360369c0be240dfeb3453f2cd2db84791aed01ce4ebe57c46fbc7bf35f1c/pyphysio-3.1.3.tar.gz
+[2023-04-19 14:22:44] INFO root fetch - processPackages [pyphysio]: executing diffoscope
+[2023-04-19 14:22:44] INFO root fetch - processPackages [pyphysio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphysio-3.1.2.tar.gz tmp/pyphysio-3.1.3.tar.gz --markdown 20230419/p/pyphysio/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-04-19 14:22:44] INFO root fetch - processPackages [alertlogic-sdk-definitions]: executing diffoscope
+[2023-04-19 14:22:44] INFO root fetch - processPackages [alertlogic-sdk-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alertlogic-sdk-definitions-0.1.98.tar.gz tmp/alertlogic-sdk-definitions-0.1.99.tar.gz --markdown 20230419/a/alertlogic-sdk-definitions/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-19 14:22:44] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/1b/05/52052aab50b4adc5fe4d4ef2178cf208daf7d38084f2a1c438c071edd493/iqm-cortex-cli-3.6.tar.gz
+[2023-04-19 14:22:44] INFO root fetch - processPackages [iqm-cortex-cli]: executing diffoscope
+[2023-04-19 14:22:44] INFO root fetch - processPackages [iqm-cortex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqm-cortex-cli-3.5.tar.gz tmp/iqm-cortex-cli-3.6.tar.gz --markdown 20230419/i/iqm-cortex-cli/3.5-3.6/diff.md --exclude *.pyd
+[2023-04-19 14:22:45] INFO root fetch - processPackages [finometerdl]: Start processing: djdantic
+[2023-04-19 14:22:45] INFO root fetch - main [MainThread]: End processing [finometerdl]: success
+[2023-04-19 14:22:45] INFO root fetch - processPackages [djdantic]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-19 14:22:45] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/6b/01/7b99b438be3180f4c11b404a39696e894c48441b43764956dfe1c658a47e/djdantic-0.0.8.tar.gz
+[2023-04-19 14:22:45] INFO root fetch - processPackages [lovematch]: Start processing: ert
+[2023-04-19 14:22:45] INFO root fetch - main [MainThread]: End processing [lovematch]: success
+[2023-04-19 14:22:45] INFO root fetch - processPackages [djdantic]: executing diffoscope
+[2023-04-19 14:22:45] INFO root fetch - processPackages [djdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djdantic-0.0.7.tar.gz tmp/djdantic-0.0.8.tar.gz --markdown 20230419/d/djdantic/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-19 14:22:45] INFO root fetch - main [MainThread]: End processing [aioshelly]: success
+[2023-04-19 14:22:45] INFO root fetch - processPackages [ert]: New version: [5.0.0b6] Old Version: [5.0.0b5]
+[2023-04-19 14:22:45] ERROR root fetch - processPackages [cryptosyspki]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid start byte
+
+[2023-04-19 14:22:45] INFO root fetch - main [MainThread]: End processing [cryptosyspki] error
+[2023-04-19 14:22:45] INFO root fetch - main [MainThread]: End processing [tvault]: success
+[2023-04-19 14:22:45] INFO root fetch - main [MainThread]: End processing [roblox-asset-publish]: success
+[2023-04-19 14:22:45] INFO root fetch - main [MainThread]: End processing [djangocms-xliff]: success
+[2023-04-19 14:22:45] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-04-19 14:22:45] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.0.0b5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.0.0b6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230419/e/ert/5.0.0b5-5.0.0b6/diff.md --exclude *.pyd
+[2023-04-19 14:22:46] INFO root fetch - main [MainThread]: End processing [pyphysio]: success
+[2023-04-19 14:22:46] INFO root fetch - main [MainThread]: End processing [iqm-cortex-cli]: success
+[2023-04-19 14:22:46] INFO root fetch - main [MainThread]: End processing [djdantic]: success
+[2023-04-19 14:22:48] INFO root fetch - main [MainThread]: End processing [alertlogic-sdk-definitions]: success
+[2023-04-19 14:22:58] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-04-19 14:22:58] INFO root fetch - main [MainThread]: Store serial: [17770675]
