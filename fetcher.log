@@ -16621,3 +16621,132 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 15:50:59] INFO root fetch - main [MainThread]: End processing [pyrea]: success
 [2023-04-19 15:51:00] INFO root fetch - main [MainThread]: End processing [pypowsybl]: success
 [2023-04-19 15:51:00] INFO root fetch - main [MainThread]: Store serial: [17771696]
+[2023-04-19 15:56:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17771696]
+[2023-04-19 15:56:09] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-19 15:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wizata-dsapi
+[2023-04-19 15:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jdEolConverter
+[2023-04-19 15:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: issue-db-api
+[2023-04-19 15:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hydrotrack
+[2023-04-19 15:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gs-quant
+[2023-04-19 15:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ospark
+[2023-04-19 15:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qontract-reconcile
+[2023-04-19 15:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chatgpt-proxy
+[2023-04-19 15:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: garpix-user
+[2023-04-19 15:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boutpp-nightly
+[2023-04-19 15:56:09] INFO root fetch - processPackages [jdEolConverter]: New version: [1.2] Old Version: [1.1]
+[2023-04-19 15:56:09] WARNING root fetch - processPackages [issue-db-api]: Skipping, unable to determine old version
+[2023-04-19 15:56:09] INFO root fetch - processPackages [issue-db-api]: Start processing: widget-picture-generator
+[2023-04-19 15:56:09] INFO root fetch - main [MainThread]: End processing [issue-db-api] error
+[2023-04-19 15:56:09] WARNING root fetch - processPackages [hydrotrack]: Skipping, unable to determine old version
+[2023-04-19 15:56:09] INFO root fetch - processPackages [hydrotrack]: Start processing: garpixcms
+[2023-04-19 15:56:09] INFO root fetch - main [MainThread]: End processing [hydrotrack] error
+[2023-04-19 15:56:09] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 15:56:09] INFO root fetch - processPackages [garpix-user]: New version: [3.5.0rc8] Old Version: [3.5.0rc7]
+[2023-04-19 15:56:09] INFO root fetch - processPackages [ospark]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-19 15:56:09] INFO root fetch - processPackages [boutpp-nightly]: New version: [5.1.0.dev85] Old Version: [5.1.0.dev78]
+[2023-04-19 15:56:09] INFO root fetch - processPackages [chatgpt-proxy]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 15:56:09] INFO root fetch - processPackages [widget-picture-generator]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-19 15:56:09] INFO root fetch - processPackages [garpixcms]: New version: [4.0.0rc9] Old Version: [4.0.0rc8]
+[2023-04-19 15:56:10] INFO root fetch - processPackages [gs-quant]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-04-19 15:56:10] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-19 15:56:10] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-04-19 15:56:10] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230419/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 15:56:10] INFO root fetch - processPackages [jdEolConverter]: Downloading https://files.pythonhosted.org/packages/1b/50/ec9608d401a21f8546189ff2695cc9736b777d54bdd23fda8dbc9b2c0fe1/jdEolConverter-1.1.tar.gz
+[2023-04-19 15:56:10] INFO root fetch - processPackages [garpixcms]: executing diffoscope
+[2023-04-19 15:56:10] INFO root fetch - processPackages [garpixcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpixcms-4.0.0rc8.tar.gz tmp/garpixcms-4.0.0rc9.tar.gz --markdown 20230419/g/garpixcms/4.0.0rc8-4.0.0rc9/diff.md --exclude *.pyd
+[2023-04-19 15:56:10] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-19 15:56:10] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230419/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-19 15:56:10] INFO root fetch - processPackages [boutpp-nightly]: Downloading https://files.pythonhosted.org/packages/f7/24/da3bf6b52afe0b0d220889327b8406b9fa5c3226589eddd26fc9590b1844/boutpp-nightly-5.1.0.dev78.tar.gz
+[2023-04-19 15:56:10] INFO root fetch - processPackages [ospark]: Downloading https://files.pythonhosted.org/packages/66/62/22efee270e03ccc682532f792ed48d7655074007ec2b35fd2807d5dbc3e5/ospark-0.1.3.tar.gz
+[2023-04-19 15:56:10] INFO root fetch - processPackages [garpix-user]: Downloading https://files.pythonhosted.org/packages/62/e7/28539f6228a3412afef0b506da77c30ccac11a04d55f24912545e3e6bf7f/garpix_user-3.5.0rc8.tar.gz
+[2023-04-19 15:56:10] INFO root fetch - processPackages [widget-picture-generator]: Downloading https://files.pythonhosted.org/packages/a9/82/2e35e040be86fde46be0284248874d467149bb96ed3e4f3cd25aa140b3d0/widget-picture-generator-0.0.6.tar.gz
+[2023-04-19 15:56:10] INFO root fetch - processPackages [gs-quant]: Downloading https://files.pythonhosted.org/packages/77/9e/f079e7681d4c32e69072b14b0d21098d1b5fe57ebaff629f558dbc0081e8/gs_quant-0.9.98.tar.gz
+[2023-04-19 15:56:10] INFO root fetch - processPackages [chatgpt-proxy]: Downloading https://files.pythonhosted.org/packages/ef/fa/bd53033a62cbd2732cce1a3f268cd1403c66d091219cf9a6dd63e9e1a015/chatgpt-proxy-0.2.2.tar.gz
+[2023-04-19 15:56:10] INFO root fetch - processPackages [widget-picture-generator]: executing diffoscope
+[2023-04-19 15:56:10] INFO root fetch - processPackages [widget-picture-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widget-picture-generator-0.0.5.tar.gz tmp/widget-picture-generator-0.0.6.tar.gz --markdown 20230419/w/widget-picture-generator/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-19 15:56:10] INFO root fetch - processPackages [chatgpt-proxy]: executing diffoscope
+[2023-04-19 15:56:10] INFO root fetch - processPackages [chatgpt-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-proxy-0.2.1.tar.gz tmp/chatgpt-proxy-0.2.2.tar.gz --markdown 20230419/c/chatgpt-proxy/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 15:56:10] WARNING root fetch - processPackages [boutpp-nightly]: Skipping package: exceeds size limit 18054878>=10485760
+[2023-04-19 15:56:10] INFO root fetch - processPackages [boutpp-nightly]: Start processing: web3client
+[2023-04-19 15:56:10] INFO root fetch - main [MainThread]: End processing [boutpp-nightly] error
+[2023-04-19 15:56:10] INFO root fetch - processPackages [web3client]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-19 15:56:10] INFO root fetch - processPackages [garpix-user]: executing diffoscope
+[2023-04-19 15:56:10] INFO root fetch - processPackages [garpix-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_user-3.5.0rc7.tar.gz tmp/garpix_user-3.5.0rc8.tar.gz --markdown 20230419/g/garpix-user/3.5.0rc7-3.5.0rc8/diff.md --exclude *.pyd
+[2023-04-19 15:56:10] INFO root fetch - processPackages [jdEolConverter]: Downloading https://files.pythonhosted.org/packages/b4/98/9f22b89af19580610bd3979ba7595a55bba28549ecbabd15dfe998942b64/jdEolConverter-1.2.tar.gz
+[2023-04-19 15:56:10] INFO root fetch - processPackages [jdEolConverter]: executing diffoscope
+[2023-04-19 15:56:10] INFO root fetch - processPackages [jdEolConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdEolConverter-1.1.tar.gz tmp/jdEolConverter-1.2.tar.gz --markdown 20230419/j/jdEolConverter/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-19 15:56:10] INFO root fetch - processPackages [ospark]: Downloading https://files.pythonhosted.org/packages/af/09/e75e699f53ae4b5f048950d880ac36e248884082d3dec0341b1e4c193634/ospark-0.1.4.tar.gz
+[2023-04-19 15:56:10] INFO root fetch - processPackages [ospark]: executing diffoscope
+[2023-04-19 15:56:10] INFO root fetch - processPackages [ospark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ospark-0.1.3.tar.gz tmp/ospark-0.1.4.tar.gz --markdown 20230419/o/ospark/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-19 15:56:10] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/dd/19/168188e8b67ed7ad4a69a9042bc68bf4bddaad170f9d145077749082ed85/web3client-1.1.8.tar.gz
+[2023-04-19 15:56:10] INFO root fetch - processPackages [web3client]: executing diffoscope
+[2023-04-19 15:56:10] INFO root fetch - processPackages [web3client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3client-1.1.7.tar.gz tmp/web3client-1.1.8.tar.gz --markdown 20230419/w/web3client/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-19 15:56:10] INFO root fetch - processPackages [gs-quant]: Downloading https://files.pythonhosted.org/packages/a0/6c/8583175eb2e346953d610a7a9e74caf702618a30139507f1ba65c69c8bad/gs_quant-0.9.99.tar.gz
+[2023-04-19 15:56:10] INFO root fetch - processPackages [gs-quant]: executing diffoscope
+[2023-04-19 15:56:10] INFO root fetch - processPackages [gs-quant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_quant-0.9.98.tar.gz tmp/gs_quant-0.9.99.tar.gz --markdown 20230419/g/gs-quant/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-04-19 15:56:11] INFO root fetch - processPackages [wizata-dsapi]: Start processing: ga4gh.vrsatile.pydantic
+[2023-04-19 15:56:11] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-04-19 15:56:11] INFO root fetch - processPackages [ga4gh.vrsatile.pydantic]: New version: [0.2.0rc0] Old Version: [0.1.dev6]
+[2023-04-19 15:56:11] INFO root fetch - processPackages [widget-picture-generator]: Start processing: codechecker
+[2023-04-19 15:56:11] INFO root fetch - main [MainThread]: End processing [widget-picture-generator]: success
+[2023-04-19 15:56:11] INFO root fetch - processPackages [ga4gh.vrsatile.pydantic]: Downloading https://files.pythonhosted.org/packages/74/0d/4c3bbfdd4f5e6a3f08eec25d124270c38665a78da02ce2814d104f628cb0/ga4gh.vrsatile.pydantic-0.1.dev6.tar.gz
+[2023-04-19 15:56:11] INFO root fetch - processPackages [codechecker]: New version: [6.22.1] Old Version: [6.22.0rc1]
+[2023-04-19 15:56:11] INFO root fetch - processPackages [jdEolConverter]: Start processing: web-poet
+[2023-04-19 15:56:11] INFO root fetch - main [MainThread]: End processing [jdEolConverter]: success
+[2023-04-19 15:56:12] INFO root fetch - processPackages [web-poet]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-19 15:56:12] INFO root fetch - processPackages [chatgpt-proxy]: Start processing: plserver
+[2023-04-19 15:56:12] INFO root fetch - main [MainThread]: End processing [chatgpt-proxy]: success
+[2023-04-19 15:56:12] WARNING root fetch - processPackages [plserver]: Skipping, unable to determine old version
+[2023-04-19 15:56:12] INFO root fetch - processPackages [plserver]: Start processing: superannotate
+[2023-04-19 15:56:12] INFO root fetch - main [MainThread]: End processing [plserver] error
+[2023-04-19 15:56:12] INFO root fetch - processPackages [superannotate]: New version: [4.4.9b1] Old Version: [4.4.9.dev5]
+[2023-04-19 15:56:12] INFO root fetch - processPackages [web3client]: Start processing: avro-preprocessor
+[2023-04-19 15:56:12] INFO root fetch - main [MainThread]: End processing [web3client]: success
+[2023-04-19 15:56:12] INFO root fetch - processPackages [avro-preprocessor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 15:56:12] INFO root fetch - processPackages [superannotate]: executing diffoscope
+[2023-04-19 15:56:12] INFO root fetch - processPackages [superannotate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superannotate-4.4.9.dev5.tar.gz tmp/superannotate-4.4.9b1.tar.gz --markdown 20230419/s/superannotate/4.4.9.dev5-4.4.9b1/diff.md --exclude *.pyd
+[2023-04-19 15:56:12] INFO root fetch - processPackages [ospark]: Start processing: strplus
+[2023-04-19 15:56:12] INFO root fetch - main [MainThread]: End processing [ospark]: success
+[2023-04-19 15:56:12] INFO root fetch - processPackages [web-poet]: Downloading https://files.pythonhosted.org/packages/2d/32/0675884fa5cdf787f67e2a19ab228abc728f16139ab9f087f04d18a828be/web-poet-0.8.1.tar.gz
+[2023-04-19 15:56:12] INFO root fetch - processPackages [strplus]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-19 15:56:12] INFO root fetch - processPackages [avro-preprocessor]: executing diffoscope
+[2023-04-19 15:56:12] INFO root fetch - processPackages [avro-preprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avro-preprocessor-0.1.8.tar.gz tmp/avro-preprocessor-0.1.9.tar.gz --markdown 20230419/a/avro-preprocessor/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 15:56:12] INFO root fetch - processPackages [ga4gh.vrsatile.pydantic]: Downloading https://files.pythonhosted.org/packages/4c/2d/001355f2c1c5cdd301f220459c785849c0b8e600ccf39f9a93273fefe742/ga4gh.vrsatile.pydantic-0.2.0rc0.tar.gz
+[2023-04-19 15:56:12] INFO root fetch - processPackages [codechecker]: Downloading https://files.pythonhosted.org/packages/67/66/8dc920135ba213a7c00c998c38390f31c8d2f52c4d7a0ade2c64320860e6/codechecker-6.22.1.tar.gz
+[2023-04-19 15:56:12] INFO root fetch - processPackages [garpixcms]: Start processing: ga4gh.vrsatile.pydantic
+[2023-04-19 15:56:12] INFO root fetch - main [MainThread]: End processing [garpixcms]: success
+[2023-04-19 15:56:12] INFO root fetch - processPackages [ga4gh.vrsatile.pydantic]: executing diffoscope
+[2023-04-19 15:56:12] INFO root fetch - processPackages [ga4gh.vrsatile.pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ga4gh.vrsatile.pydantic-0.1.dev6.tar.gz tmp/ga4gh.vrsatile.pydantic-0.2.0rc0.tar.gz --markdown 20230419/g/ga4gh.vrsatile.pydantic/0.1.dev6-0.2.0rc0/diff.md --exclude *.pyd
+[2023-04-19 15:56:12] INFO root fetch - processPackages [codechecker]: executing diffoscope
+[2023-04-19 15:56:12] INFO root fetch - processPackages [codechecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codechecker-6.22.0rc1.tar.gz tmp/codechecker-6.22.1.tar.gz --markdown 20230419/c/codechecker/6.22.0rc1-6.22.1/diff.md --exclude *.pyd
+[2023-04-19 15:56:12] INFO root fetch - processPackages [strplus]: Downloading https://files.pythonhosted.org/packages/87/03/197e26f29e9c32f474c1206ed4a96b33c850c635d80a71fa55ffb00491d5/strplus-1.0.2.tar.gz
+[2023-04-19 15:56:12] INFO root fetch - processPackages [ga4gh.vrsatile.pydantic]: New version: [0.2.0rc0] Old Version: [0.1.dev6]
+[2023-04-19 15:56:12] INFO root fetch - processPackages [strplus]: executing diffoscope
+[2023-04-19 15:56:12] INFO root fetch - processPackages [strplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strplus-1.0.1.tar.gz tmp/strplus-1.0.2.tar.gz --markdown 20230419/s/strplus/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-19 15:56:12] INFO root fetch - processPackages [ga4gh.vrsatile.pydantic]: executing diffoscope
+[2023-04-19 15:56:12] INFO root fetch - processPackages [ga4gh.vrsatile.pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ga4gh.vrsatile.pydantic-0.1.dev6.tar.gz tmp/ga4gh.vrsatile.pydantic-0.2.0rc0.tar.gz --markdown 20230419/g/ga4gh.vrsatile.pydantic/0.1.dev6-0.2.0rc0/diff.md --exclude *.pyd
+[2023-04-19 15:56:12] INFO root fetch - processPackages [web-poet]: Downloading https://files.pythonhosted.org/packages/38/5f/56ac62f4665c5f437ba35ae603d73c10d70863562af8e6fc44acd21395f0/web-poet-0.9.0.tar.gz
+[2023-04-19 15:56:12] INFO root fetch - processPackages [web-poet]: executing diffoscope
+[2023-04-19 15:56:12] INFO root fetch - processPackages [web-poet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-poet-0.8.1.tar.gz tmp/web-poet-0.9.0.tar.gz --markdown 20230419/w/web-poet/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 15:56:13] INFO root fetch - processPackages [garpix-user]: Start processing: openai-chat-parser
+[2023-04-19 15:56:13] INFO root fetch - main [MainThread]: End processing [garpix-user]: success
+[2023-04-19 15:56:13] WARNING root fetch - processPackages [openai-chat-parser]: Skipping, unable to determine old version
+[2023-04-19 15:56:13] INFO root fetch - processPackages [openai-chat-parser]: Start processing: acryl-datahub
+[2023-04-19 15:56:13] INFO root fetch - main [MainThread]: End processing [openai-chat-parser] error
+[2023-04-19 15:56:13] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-04-19 15:56:13] INFO root fetch - processPackages [ga4gh.vrsatile.pydantic]: Start processing: win-cmd-cleaner
+[2023-04-19 15:56:13] INFO root fetch - main [MainThread]: End processing [ga4gh.vrsatile.pydantic]: success
+[2023-04-19 15:56:13] INFO root fetch - main [MainThread]: End processing [ga4gh.vrsatile.pydantic]: success
+[2023-04-19 15:56:14] WARNING root fetch - processPackages [win-cmd-cleaner]: Skipping, unable to determine old version
+[2023-04-19 15:56:14] INFO root fetch - main [MainThread]: End processing [win-cmd-cleaner] error
+[2023-04-19 15:56:14] INFO root fetch - main [MainThread]: End processing [strplus]: success
+[2023-04-19 15:56:14] INFO root fetch - main [MainThread]: End processing [avro-preprocessor]: success
+[2023-04-19 15:56:14] INFO root fetch - main [MainThread]: End processing [superannotate]: success
+[2023-04-19 15:56:15] INFO root fetch - main [MainThread]: End processing [web-poet]: success
+[2023-04-19 15:56:15] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-04-19 15:56:15] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230419/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-04-19 15:56:15] INFO root fetch - main [MainThread]: End processing [gs-quant]: success
+[2023-04-19 15:56:16] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-19 15:56:21] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-04-19 15:56:44] INFO root fetch - main [MainThread]: End processing [codechecker]: success
+[2023-04-19 15:56:44] INFO root fetch - main [MainThread]: Store serial: [17771784]
