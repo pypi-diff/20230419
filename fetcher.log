@@ -21150,3 +21150,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 19:29:15] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
 [2023-04-19 19:29:29] INFO root fetch - main [MainThread]: End processing [actipy]: success
 [2023-04-19 19:29:29] INFO root fetch - main [MainThread]: Store serial: [17774523]
+[2023-04-19 19:34:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17774523]
+[2023-04-19 19:34:38] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-19 19:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: garpix-profitbase
+[2023-04-19 19:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qplay-cli
+[2023-04-19 19:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cfscanner
+[2023-04-19 19:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Background
+[2023-04-19 19:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pe-configurator
+[2023-04-19 19:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: waveorder
+[2023-04-19 19:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-silly-auth
+[2023-04-19 19:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynessie
+[2023-04-19 19:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: delphi-epidata
+[2023-04-19 19:34:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SysrepoLibrary
+[2023-04-19 19:34:38] INFO root fetch - processPackages [Geode-Background]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-04-19 19:34:38] INFO root fetch - processPackages [qplay-cli]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-19 19:34:38] INFO root fetch - processPackages [pe-configurator]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 19:34:38] INFO root fetch - processPackages [garpix-profitbase]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-19 19:34:38] WARNING root fetch - processPackages [cfscanner]: Skipping, unable to determine old version
+[2023-04-19 19:34:38] INFO root fetch - processPackages [django-silly-auth]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-19 19:34:38] INFO root fetch - processPackages [cfscanner]: Start processing: bbot
+[2023-04-19 19:34:38] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-04-19 19:34:38] INFO root fetch - processPackages [waveorder]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-04-19 19:34:38] WARNING root fetch - processPackages [SysrepoLibrary]: Skipping, unable to determine old version
+[2023-04-19 19:34:38] INFO root fetch - processPackages [SysrepoLibrary]: Start processing: galaxywitness
+[2023-04-19 19:34:38] INFO root fetch - main [MainThread]: End processing [SysrepoLibrary] error
+[2023-04-19 19:34:38] INFO root fetch - processPackages [delphi-epidata]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-19 19:34:38] INFO root fetch - processPackages [pynessie]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-04-19 19:34:38] INFO root fetch - processPackages [django-silly-auth]: executing diffoscope
+[2023-04-19 19:34:38] INFO root fetch - processPackages [django-silly-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-silly-auth-1.0.5.tar.gz tmp/django-silly-auth-1.0.6.tar.gz --markdown 20230419/d/django-silly-auth/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-19 19:34:38] INFO root fetch - processPackages [bbot]: New version: [1.0.5.1625rc0] Old Version: [1.0.5.1614]
+[2023-04-19 19:34:38] INFO root fetch - processPackages [pe-configurator]: Downloading https://files.pythonhosted.org/packages/63/af/50d155ffbda1ca60a48e6d1a1114de4161619ae369c5c77f0d7939ee663c/pe-configurator-0.1.0.tar.gz
+[2023-04-19 19:34:38] INFO root fetch - processPackages [waveorder]: Downloading https://files.pythonhosted.org/packages/f3/26/91df25e5b7b617f87db2074c811d438cbde09024bef2ffc1c9e445547eff/waveorder-1.0.0rc1.tar.gz
+[2023-04-19 19:34:39] INFO root fetch - processPackages [galaxywitness]: New version: [0.2.4] Old Version: [0.2.3.1]
+[2023-04-19 19:34:39] INFO root fetch - processPackages [qplay-cli]: Downloading https://files.pythonhosted.org/packages/19/2a/8f7798159e900d2694332e3fb7ad147a035932d0b1d8f1e36d471052c34d/qplay_cli-1.1.1-py3-none-any.whl
+[2023-04-19 19:34:39] INFO root fetch - processPackages [delphi-epidata]: Downloading https://files.pythonhosted.org/packages/7b/10/b039c7bfd083f66be93ea74d7747ce7519c3a5e7deb97748162650c2cda1/delphi_epidata-0.4.8.tar.gz
+[2023-04-19 19:34:39] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/61/2d/d345ade967eaf490ad803c66de97d3bfa523cffc5ae4ca30fe05074800fe/Geode_Background-7.0.2-cp39-cp39-win_amd64.whl
+[2023-04-19 19:34:39] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/3b/4e/aeb89aef043a6d2719172b6ec5adc96202688b3d22415d7288bcccb8da65/bbot-1.0.5.1614.tar.gz
+[2023-04-19 19:34:39] INFO root fetch - processPackages [qplay-cli]: executing diffoscope
+[2023-04-19 19:34:39] INFO root fetch - processPackages [qplay-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qplay_cli-1.1.0-py3-none-any.whl.zip tmp/qplay_cli-1.1.1-py3-none-any.whl.zip --markdown 20230419/q/qplay-cli/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-19 19:34:39] WARNING root fetch - processPackages [waveorder]: Skipping package: exceeds size limit 74132526>=10485760
+[2023-04-19 19:34:39] INFO root fetch - processPackages [waveorder]: Start processing: sdv
+[2023-04-19 19:34:39] INFO root fetch - main [MainThread]: End processing [waveorder] error
+[2023-04-19 19:34:39] INFO root fetch - processPackages [garpix-profitbase]: executing diffoscope
+[2023-04-19 19:34:39] INFO root fetch - processPackages [garpix-profitbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_profitbase-1.9.1.tar.gz tmp/garpix_profitbase-1.9.2.tar.gz --markdown 20230419/g/garpix-profitbase/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-19 19:34:39] INFO root fetch - processPackages [galaxywitness]: Downloading https://files.pythonhosted.org/packages/6e/4a/e2efd5fefb7d1940130efea56486b826f151bf04a8e9c3e5e99b92704019/galaxywitness-0.2.3.1.tar.gz
+[2023-04-19 19:34:39] INFO root fetch - processPackages [sdv]: New version: [1.0.1.dev0] Old Version: [1.0.0rc0]
+[2023-04-19 19:34:39] INFO root fetch - processPackages [pynessie]: executing diffoscope
+[2023-04-19 19:34:39] INFO root fetch - processPackages [pynessie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynessie-0.9.0.tar.gz tmp/pynessie-0.9.2.tar.gz --markdown 20230419/p/pynessie/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-04-19 19:34:39] INFO root fetch - processPackages [pe-configurator]: Downloading https://files.pythonhosted.org/packages/61/74/83d344a84ea2b36315d043169bff15a9d02e2ef4a0dcce437b686c9e1e00/pe-configurator-0.1.1.tar.gz
+[2023-04-19 19:34:39] INFO root fetch - processPackages [pe-configurator]: executing diffoscope
+[2023-04-19 19:34:39] INFO root fetch - processPackages [pe-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pe-configurator-0.1.0.tar.gz tmp/pe-configurator-0.1.1.tar.gz --markdown 20230419/p/pe-configurator/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 19:34:39] INFO root fetch - processPackages [delphi-epidata]: Downloading https://files.pythonhosted.org/packages/76/ce/da411a319edc33beba39dc2ca21d70a0ce0cc870995b2f4457a3ec379b51/delphi_epidata-0.4.9.tar.gz
+[2023-04-19 19:34:39] INFO root fetch - processPackages [sdv]: Downloading https://files.pythonhosted.org/packages/85/70/49e57878bc38e091fc1f289c343958d589b6c6f86a5e9bf62b1b2bff2998/sdv-1.0.0rc0.tar.gz
+[2023-04-19 19:34:39] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2023-04-19 19:34:39] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.0.1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230419/G/Geode-Background/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-04-19 19:34:39] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/ff/e5/bc3884133cb6f109f954f14124a4ef8bf7613f1d1e692e540164c1618301/bbot-1.0.5.1625rc0.tar.gz
+[2023-04-19 19:34:39] INFO root fetch - processPackages [galaxywitness]: Downloading https://files.pythonhosted.org/packages/2f/57/673d45088a87aca2894106fde84b18569cf270d3f066c183f4d906725854/galaxywitness-0.2.4.tar.gz
+[2023-04-19 19:34:39] INFO root fetch - processPackages [delphi-epidata]: executing diffoscope
+[2023-04-19 19:34:39] INFO root fetch - processPackages [delphi-epidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphi_epidata-0.4.8.tar.gz tmp/delphi_epidata-0.4.9.tar.gz --markdown 20230419/d/delphi-epidata/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-19 19:34:39] INFO root fetch - processPackages [galaxywitness]: executing diffoscope
+[2023-04-19 19:34:39] INFO root fetch - processPackages [galaxywitness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxywitness-0.2.3.1.tar.gz tmp/galaxywitness-0.2.4.tar.gz --markdown 20230419/g/galaxywitness/0.2.3.1-0.2.4/diff.md --exclude *.pyd
+[2023-04-19 19:34:39] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2023-04-19 19:34:39] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.0.5.1614.tar.gz tmp/bbot-1.0.5.1625rc0.tar.gz --markdown 20230419/b/bbot/1.0.5.1614-1.0.5.1625rc0/diff.md --exclude *.pyd
+[2023-04-19 19:34:40] INFO root fetch - processPackages [sdv]: Downloading https://files.pythonhosted.org/packages/97/07/d207b373eac5bd1ac9e7b1513d9483a01f0edcfbc86dc57a079a6b1cb8b8/sdv-1.0.1.dev0-py2.py3-none-any.whl
+[2023-04-19 19:34:40] INFO root fetch - processPackages [sdv]: executing diffoscope
+[2023-04-19 19:34:40] INFO root fetch - processPackages [sdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdv-1.0.0rc0.tar.gz tmp/sdv-1.0.1.dev0-py2.py3-none-any.whl.zip --markdown 20230419/s/sdv/1.0.0rc0-1.0.1.dev0/diff.md --exclude *.pyd
+[2023-04-19 19:34:40] INFO root fetch - main [MainThread]: End processing [qplay-cli]: success
+[2023-04-19 19:34:40] INFO root fetch - main [MainThread]: End processing [delphi-epidata]: success
+[2023-04-19 19:34:40] INFO root fetch - main [MainThread]: End processing [galaxywitness]: success
+[2023-04-19 19:34:41] INFO root fetch - main [MainThread]: End processing [garpix-profitbase]: success
+[2023-04-19 19:34:41] INFO root fetch - main [MainThread]: End processing [pe-configurator]: success
+[2023-04-19 19:34:41] INFO root fetch - main [MainThread]: End processing [django-silly-auth]: success
+[2023-04-19 19:34:41] INFO root fetch - main [MainThread]: End processing [pynessie]: success
+[2023-04-19 19:34:42] INFO root fetch - main [MainThread]: End processing [sdv]: success
+[2023-04-19 19:34:44] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2023-04-19 19:34:57] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2023-04-19 19:34:57] INFO root fetch - main [MainThread]: Store serial: [17774603]
