@@ -12918,3 +12918,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 12:15:49] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2023-04-19 12:15:52] INFO root fetch - main [MainThread]: End processing [dovado-rtl]: success
 [2023-04-19 12:15:52] INFO root fetch - main [MainThread]: Store serial: [17769520]
+[2023-04-19 12:20:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17769520]
+[2023-04-19 12:21:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wisdem
+[2023-04-19 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hak
+[2023-04-19 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-hawk
+[2023-04-19 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-local
+[2023-04-19 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: realesrgan-ncnn-py
+[2023-04-19 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinybird-cli
+[2023-04-19 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neo-grammar-graph
+[2023-04-19 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gyp-next
+[2023-04-19 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hak
+[2023-04-19 12:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: authz-analyzer
+[2023-04-19 12:21:01] INFO root fetch - processPackages [django-hawk]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-19 12:21:01] INFO root fetch - processPackages [gyp-next]: New version: [0.4.0] Old Version: [0.15.0]
+[2023-04-19 12:21:01] WARNING root fetch - processPackages [realesrgan-ncnn-py]: Skipping, unable to determine old version
+[2023-04-19 12:21:01] INFO root fetch - main [MainThread]: End processing [realesrgan-ncnn-py] error
+[2023-04-19 12:21:01] INFO root fetch - processPackages [neo-grammar-graph]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 12:21:01] INFO root fetch - processPackages [pulumi-local]: New version: [0.6] Old Version: [0.5]
+[2023-04-19 12:21:01] INFO root fetch - processPackages [hak]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-19 12:21:01] INFO root fetch - processPackages [hak]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-19 12:21:01] WARNING root fetch - processPackages [wisdem]: Skipping, unable to determine old version
+[2023-04-19 12:21:01] INFO root fetch - main [MainThread]: End processing [wisdem] error
+[2023-04-19 12:21:01] INFO root fetch - processPackages [authz-analyzer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 12:21:01] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-04-19 12:21:01] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-04-19 12:21:01] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230419/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-04-19 12:21:01] INFO root fetch - processPackages [gyp-next]: Downloading https://files.pythonhosted.org/packages/3e/3b/e69a7433a8c0b9a7385119b4e07831b17d7a032bfc8a6dbf1f3e17409897/gyp-next-0.15.0.tar.gz
+[2023-04-19 12:21:01] INFO root fetch - processPackages [django-hawk]: Downloading https://files.pythonhosted.org/packages/c8/a4/09e04bf671bed5abdbd0448f5a60a2fd0f738e1a6598d367de954544b762/django_hawk-1.1.1.tar.gz
+[2023-04-19 12:21:01] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/02/de/e801b120356060cf21dc876414baae91bae7f5d884e08d029227fe451cad/hak-0.0.7.tar.gz
+[2023-04-19 12:21:01] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/02/de/e801b120356060cf21dc876414baae91bae7f5d884e08d029227fe451cad/hak-0.0.7.tar.gz
+[2023-04-19 12:21:02] INFO root fetch - processPackages [pulumi-local]: Downloading https://files.pythonhosted.org/packages/d7/90/0940d0aa46764d000444ab4a9f4950c459883dfbc84231623e5f6f19cc8e/pulumi-local-0.5.tar.gz
+[2023-04-19 12:21:02] INFO root fetch - processPackages [neo-grammar-graph]: Downloading https://files.pythonhosted.org/packages/34/3a/6197dfeca7b31b046e7eb38dd4a527435863776a07ee9a300b77ed38238c/neo_grammar_graph-0.0.3.tar.gz
+[2023-04-19 12:21:02] INFO root fetch - processPackages [authz-analyzer]: Downloading https://files.pythonhosted.org/packages/ed/f3/3c1e0c8a9e003e9939e1aedd24a58731c6c1574c42d51b6d6e10f7c5f3c1/authz_analyzer-0.1.8.tar.gz
+[2023-04-19 12:21:02] INFO root fetch - processPackages [django-hawk]: Downloading https://files.pythonhosted.org/packages/04/04/6456b174d43a9fe9588de2c26eaea9b43e96f32468bdec12c0351565de23/django_hawk-1.2.0.tar.gz
+[2023-04-19 12:21:02] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-04-19 12:21:02] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-04-19 12:21:02] INFO root fetch - processPackages [pulumi-local]: Downloading https://files.pythonhosted.org/packages/35/b2/af02017426f1065d983119075700078af6103685dfc26ee86152186016bd/pulumi-local-0.6.tar.gz
+[2023-04-19 12:21:02] INFO root fetch - processPackages [gyp-next]: Downloading https://files.pythonhosted.org/packages/52/fa/bb78fef6061834ab71d417c04a7dc35d053f13a16642fcd6451fa61abca6/gyp-next-0.4.0.tar.gz
+[2023-04-19 12:21:02] INFO root fetch - processPackages [neo-grammar-graph]: Downloading https://files.pythonhosted.org/packages/4a/53/df0699e3d4e1693dda28470f1c23cb1504240854f8dcd5783e0a82227e95/neo_grammar_graph-0.0.4.tar.gz
+[2023-04-19 12:21:02] INFO root fetch - processPackages [django-hawk]: executing diffoscope
+[2023-04-19 12:21:02] INFO root fetch - processPackages [django-hawk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_hawk-1.1.1.tar.gz tmp/django_hawk-1.2.0.tar.gz --markdown 20230419/d/django-hawk/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-19 12:21:02] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-04-19 12:21:02] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.7.tar.gz tmp/hak-0.0.8.tar.gz --markdown 20230419/h/hak/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-19 12:21:02] INFO root fetch - processPackages [authz-analyzer]: Downloading https://files.pythonhosted.org/packages/e3/65/bf97b70d89e7e7867c35c51118be96762df206cac822c09b7069296424c7/authz_analyzer-0.1.9.tar.gz
+[2023-04-19 12:21:02] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-04-19 12:21:02] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.7.tar.gz tmp/hak-0.0.8.tar.gz --markdown 20230419/h/hak/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-19 12:21:02] INFO root fetch - processPackages [pulumi-local]: executing diffoscope
+[2023-04-19 12:21:02] INFO root fetch - processPackages [pulumi-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-local-0.5.tar.gz tmp/pulumi-local-0.6.tar.gz --markdown 20230419/p/pulumi-local/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-19 12:21:02] INFO root fetch - processPackages [neo-grammar-graph]: executing diffoscope
+[2023-04-19 12:21:02] INFO root fetch - processPackages [neo-grammar-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo_grammar_graph-0.0.3.tar.gz tmp/neo_grammar_graph-0.0.4.tar.gz --markdown 20230419/n/neo-grammar-graph/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 12:21:02] INFO root fetch - processPackages [gyp-next]: executing diffoscope
+[2023-04-19 12:21:02] INFO root fetch - processPackages [gyp-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gyp-next-0.15.0.tar.gz tmp/gyp-next-0.4.0.tar.gz --markdown 20230419/g/gyp-next/0.15.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-19 12:21:02] INFO root fetch - processPackages [authz-analyzer]: executing diffoscope
+[2023-04-19 12:21:02] INFO root fetch - processPackages [authz-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authz_analyzer-0.1.8.tar.gz tmp/authz_analyzer-0.1.9.tar.gz --markdown 20230419/a/authz-analyzer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 12:21:03] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-04-19 12:21:03] INFO root fetch - main [MainThread]: End processing [django-hawk]: success
+[2023-04-19 12:21:03] INFO root fetch - main [MainThread]: End processing [pulumi-local]: success
+[2023-04-19 12:21:04] INFO root fetch - main [MainThread]: End processing [neo-grammar-graph]: success
+[2023-04-19 12:21:04] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-04-19 12:21:04] INFO root fetch - main [MainThread]: End processing [authz-analyzer]: success
+[2023-04-19 12:21:06] INFO root fetch - main [MainThread]: End processing [gyp-next]: success
+[2023-04-19 12:21:07] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-04-19 12:21:07] INFO root fetch - main [MainThread]: Store serial: [17769576]
