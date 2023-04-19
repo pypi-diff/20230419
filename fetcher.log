@@ -1649,3 +1649,98 @@
 [2023-04-19 01:55:10] INFO root fetch - processPackages [django-ocs-observation-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ocs_observation_portal-4.6.0.tar.gz tmp/django_ocs_observation_portal-4.7.0.tar.gz --markdown 20230419/d/django-ocs-observation-portal/4.6.0-4.7.0/diff.md --exclude *.pyd
 [2023-04-19 01:55:13] INFO root fetch - main [MainThread]: End processing [django-ocs-observation-portal]: success
 [2023-04-19 01:55:13] INFO root fetch - main [MainThread]: Store serial: [17763157]
+[2023-04-19 02:00:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17763157]
+[2023-04-19 02:00:21] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-19 02:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-pytorch
+[2023-04-19 02:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mosaicml-cli
+[2023-04-19 02:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipfsclient
+[2023-04-19 02:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchpippy
+[2023-04-19 02:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naruno
+[2023-04-19 02:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naruno-api
+[2023-04-19 02:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: naruno-gui
+[2023-04-19 02:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: naruno-remote-app
+[2023-04-19 02:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: naruno-tests
+[2023-04-19 02:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: convex
+[2023-04-19 02:00:21] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304182354] Old Version: [1.0.202304182347]
+[2023-04-19 02:00:21] WARNING root fetch - processPackages [torchpippy]: Skipping, unable to determine old version
+[2023-04-19 02:00:21] INFO root fetch - processPackages [torchpippy]: Start processing: pygeoweaver
+[2023-04-19 02:00:21] INFO root fetch - main [MainThread]: End processing [torchpippy] error
+[2023-04-19 02:00:21] INFO root fetch - processPackages [ipfsclient]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 02:00:21] INFO root fetch - processPackages [naruno-gui]: New version: [0.56.6] Old Version: [0.56.5]
+[2023-04-19 02:00:21] INFO root fetch - processPackages [naruno-api]: New version: [0.56.6] Old Version: [0.56.5]
+[2023-04-19 02:00:21] INFO root fetch - processPackages [naruno]: New version: [0.56.6] Old Version: [0.56.5]
+[2023-04-19 02:00:21] INFO root fetch - processPackages [convex]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-19 02:00:21] INFO root fetch - processPackages [naruno-tests]: New version: [0.56.6] Old Version: [0.56.5]
+[2023-04-19 02:00:21] INFO root fetch - processPackages [pygeoweaver]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-04-19 02:00:21] INFO root fetch - processPackages [naruno-remote-app]: New version: [0.56.6] Old Version: [0.56.5]
+[2023-04-19 02:00:21] INFO root fetch - processPackages [mosaicml-cli]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-19 02:00:22] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/1b/12/f8b5efee6e43e883b358035d1bd390be9b2630c7ba94089c0b414ffc6729/mb_pytorch-1.0.202304182347-py3-none-any.whl
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno-remote-app]: Downloading https://files.pythonhosted.org/packages/b8/36/56127064147f7a6e48665bc3c977f68a1494d82003db5f31907d665b3028/naruno_remote_app-0.56.6.tar.gz
+[2023-04-19 02:00:22] INFO root fetch - processPackages [ipfsclient]: Downloading https://files.pythonhosted.org/packages/fd/0f/e608555dd663166ac88ebaf5320e274dbfc0f4373a7543f4b6326a883f63/ipfsclient-0.0.3.tar.gz
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno-gui]: Downloading https://files.pythonhosted.org/packages/7f/de/074018a11c0510df1ab62278f9cdce1a150abb1f2a2c5445dcf334e49d8a/naruno_gui-0.56.6.tar.gz
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno]: Downloading https://files.pythonhosted.org/packages/f3/85/532ff9b19e34e3b1047381d01ab8a70a028e5be9a418cb3060f35680620b/naruno-0.56.6.tar.gz
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/3c/1e/a2bd2f9a8bd519da325e511d900136e7b14cb9558ea28074dc1c3788e35d/naruno_tests-0.56.6.tar.gz
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno-api]: Downloading https://files.pythonhosted.org/packages/b0/11/61dfba207045b0c7c546c40d9face2c327c7d83e54b6974ac44c4b49b269/naruno_api-0.56.6.tar.gz
+[2023-04-19 02:00:22] INFO root fetch - processPackages [convex]: Downloading https://files.pythonhosted.org/packages/a2/95/9e7173fa7a0419ad8baabff20db8b3f899acc79018f79e5d11799ff2726b/convex-0.2.0.tar.gz
+[2023-04-19 02:00:22] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/8f/a6/20000a7791cee75ba74d49aba98d9c4143a53f84acff6a611a7a2d1c5b8b/mosaicml_cli-0.3.7-py3-none-any.whl
+[2023-04-19 02:00:22] INFO root fetch - processPackages [pygeoweaver]: Downloading https://files.pythonhosted.org/packages/5d/6c/562f22e2c7c108f24a122b8d41bd414b6000e20f2832700dafbd78a1b9eb/pygeoweaver-0.6.5.tar.gz
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno-remote-app]: executing diffoscope
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno-remote-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_remote_app-0.56.5.tar.gz tmp/naruno_remote_app-0.56.6.tar.gz --markdown 20230419/n/naruno-remote-app/0.56.5-0.56.6/diff.md --exclude *.pyd
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno-gui]: executing diffoscope
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_gui-0.56.5.tar.gz tmp/naruno_gui-0.56.6.tar.gz --markdown 20230419/n/naruno-gui/0.56.5-0.56.6/diff.md --exclude *.pyd
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno-tests]: executing diffoscope
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno-api]: executing diffoscope
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_tests-0.56.5.tar.gz tmp/naruno_tests-0.56.6.tar.gz --markdown 20230419/n/naruno-tests/0.56.5-0.56.6/diff.md --exclude *.pyd
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_api-0.56.5.tar.gz tmp/naruno_api-0.56.6.tar.gz --markdown 20230419/n/naruno-api/0.56.5-0.56.6/diff.md --exclude *.pyd
+[2023-04-19 02:00:22] INFO root fetch - processPackages [convex]: Downloading https://files.pythonhosted.org/packages/16/c5/734c92195277ee4bb861c41fb8ea2ea5e831674b17e7a90d14ac3b70907c/convex-0.3.0.tar.gz
+[2023-04-19 02:00:22] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/77/e7/44f1588fcb66e1e425bfbe756d74067621142dccbae06586028572ae998a/mb_pytorch-1.0.202304182354-py3-none-any.whl
+[2023-04-19 02:00:22] INFO root fetch - processPackages [ipfsclient]: Downloading https://files.pythonhosted.org/packages/83/04/6de754344541fcec2c2fe3ba9862ed43a88c7b26208d766a2f88dbaae127/ipfsclient-0.0.4.tar.gz
+[2023-04-19 02:00:22] INFO root fetch - processPackages [pygeoweaver]: executing diffoscope
+[2023-04-19 02:00:22] INFO root fetch - processPackages [pygeoweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoweaver-0.6.4.tar.gz tmp/pygeoweaver-0.6.5.tar.gz --markdown 20230419/p/pygeoweaver/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno]: executing diffoscope
+[2023-04-19 02:00:22] INFO root fetch - processPackages [naruno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno-0.56.5.tar.gz tmp/naruno-0.56.6.tar.gz --markdown 20230419/n/naruno/0.56.5-0.56.6/diff.md --exclude *.pyd
+[2023-04-19 02:00:22] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/c7/8b/ce1222024d5db05678101332b8ebfa511bc3095c45d8b1549440e37c8adb/mosaicml-cli-0.3.8.tar.gz
+[2023-04-19 02:00:22] INFO root fetch - processPackages [convex]: executing diffoscope
+[2023-04-19 02:00:22] INFO root fetch - processPackages [convex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convex-0.2.0.tar.gz tmp/convex-0.3.0.tar.gz --markdown 20230419/c/convex/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-19 02:00:22] INFO root fetch - processPackages [ipfsclient]: executing diffoscope
+[2023-04-19 02:00:22] INFO root fetch - processPackages [ipfsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfsclient-0.0.3.tar.gz tmp/ipfsclient-0.0.4.tar.gz --markdown 20230419/i/ipfsclient/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 02:00:22] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 02:00:22] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182347-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304182354-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182347-1.0.202304182354/diff.md --exclude *.pyd
+[2023-04-19 02:00:22] INFO root fetch - processPackages [mosaicml-cli]: executing diffoscope
+[2023-04-19 02:00:22] INFO root fetch - processPackages [mosaicml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml_cli-0.3.7-py3-none-any.whl.zip tmp/mosaicml-cli-0.3.8.tar.gz --markdown 20230419/m/mosaicml-cli/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-19 02:00:23] INFO root fetch - processPackages [naruno-remote-app]: Start processing: faucet
+[2023-04-19 02:00:23] INFO root fetch - main [MainThread]: End processing [naruno-remote-app]: success
+[2023-04-19 02:00:23] INFO root fetch - processPackages [naruno-tests]: Start processing: sjkabc
+[2023-04-19 02:00:23] INFO root fetch - main [MainThread]: End processing [naruno-tests]: success
+[2023-04-19 02:00:23] INFO root fetch - processPackages [faucet]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-19 02:00:23] INFO root fetch - processPackages [sjkabc]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-04-19 02:00:23] INFO root fetch - processPackages [naruno-api]: Start processing: seg2map
+[2023-04-19 02:00:23] INFO root fetch - main [MainThread]: End processing [naruno-api]: success
+[2023-04-19 02:00:23] INFO root fetch - processPackages [faucet]: Downloading https://files.pythonhosted.org/packages/36/cf/a78ca34ccbe63e675a5f16e3b0ad465900a15f1bef78b695da77ca555e24/faucet-1.9.8.tar.gz
+[2023-04-19 02:00:23] INFO root fetch - processPackages [seg2map]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-19 02:00:24] INFO root fetch - processPackages [naruno-gui]: Start processing: statgis
+[2023-04-19 02:00:24] INFO root fetch - main [MainThread]: End processing [naruno-gui]: success
+[2023-04-19 02:00:24] INFO root fetch - processPackages [statgis]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-19 02:00:24] INFO root fetch - processPackages [sjkabc]: Downloading https://files.pythonhosted.org/packages/85/e7/3cd84dbc5f7c66a73b494959c82f60987a1075f2e71a182c5ad81152332a/sjkabc-1.4.2.tar.gz
+[2023-04-19 02:00:24] INFO root fetch - processPackages [seg2map]: executing diffoscope
+[2023-04-19 02:00:24] INFO root fetch - processPackages [seg2map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seg2map-0.0.7.tar.gz tmp/seg2map-0.0.8.tar.gz --markdown 20230419/s/seg2map/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-19 02:00:24] INFO root fetch - main [MainThread]: End processing [convex]: success
+[2023-04-19 02:00:24] INFO root fetch - main [MainThread]: End processing [ipfsclient]: success
+[2023-04-19 02:00:24] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 02:00:24] INFO root fetch - processPackages [statgis]: Downloading https://files.pythonhosted.org/packages/d2/1f/6137b53de74cabbef92a1382fb4a6a9d248184fa39e206ffc124d21bd2e3/statgis-1.1.2.tar.gz
+[2023-04-19 02:00:24] INFO root fetch - processPackages [sjkabc]: Downloading https://files.pythonhosted.org/packages/bf/4e/67487ae577e57894782f4e84df556d37724fb212ac54ebfd967ef95aa4e2/sjkabc-1.4.3.tar.gz
+[2023-04-19 02:00:24] INFO root fetch - main [MainThread]: End processing [pygeoweaver]: success
+[2023-04-19 02:00:24] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
+[2023-04-19 02:00:24] INFO root fetch - processPackages [statgis]: executing diffoscope
+[2023-04-19 02:00:24] INFO root fetch - processPackages [statgis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statgis-1.1.1.tar.gz tmp/statgis-1.1.2.tar.gz --markdown 20230419/s/statgis/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-19 02:00:24] INFO root fetch - processPackages [sjkabc]: executing diffoscope
+[2023-04-19 02:00:24] INFO root fetch - processPackages [sjkabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sjkabc-1.4.2.tar.gz tmp/sjkabc-1.4.3.tar.gz --markdown 20230419/s/sjkabc/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-04-19 02:00:25] INFO root fetch - main [MainThread]: End processing [statgis]: success
+[2023-04-19 02:00:25] INFO root fetch - main [MainThread]: End processing [seg2map]: success
+[2023-04-19 02:00:25] INFO root fetch - main [MainThread]: End processing [sjkabc]: success
+[2023-04-19 02:00:25] INFO root fetch - processPackages [faucet]: Downloading https://files.pythonhosted.org/packages/4e/cd/5282a28ad8b81fdf1fddb64227f4cd5b2d39bfb9814985df1002567e309b/faucet-1.9.9.tar.gz
+[2023-04-19 02:00:26] INFO root fetch - processPackages [faucet]: executing diffoscope
+[2023-04-19 02:00:26] INFO root fetch - processPackages [faucet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faucet-1.9.8.tar.gz tmp/faucet-1.9.9.tar.gz --markdown 20230419/f/faucet/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-19 02:00:27] INFO root fetch - main [MainThread]: End processing [naruno]: success
+[2023-04-19 02:00:30] INFO root fetch - main [MainThread]: End processing [faucet]: success
+[2023-04-19 02:00:30] INFO root fetch - main [MainThread]: Store serial: [17763196]
