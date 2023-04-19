@@ -5734,3 +5734,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 05:31:46] INFO root fetch - main [MainThread]: End processing [adsb-tools]: success
 [2023-04-19 05:31:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-connector-ecommerce]: success
 [2023-04-19 05:31:47] INFO root fetch - main [MainThread]: Store serial: [17765421]
+[2023-04-19 05:36:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765421]
+[2023-04-19 05:36:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-19 05:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psgnuitka
+[2023-04-19 05:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwaslab
+[2023-04-19 05:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-ess20220222
+[2023-04-19 05:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eventsourcing
+[2023-04-19 05:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wtt02
+[2023-04-19 05:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: toolforgeio
+[2023-04-19 05:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-product-contract
+[2023-04-19 05:36:56] INFO root fetch - processPackages [psgnuitka]: New version: [0.2.6] Old Version: [0.2.0]
+[2023-04-19 05:36:56] INFO root fetch - processPackages [eventsourcing]: New version: [9.2.9] Old Version: [9.2.8]
+[2023-04-19 05:36:56] INFO root fetch - processPackages [wtt02]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-19 05:36:56] INFO root fetch - processPackages [alibabacloud-ess20220222]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-19 05:36:56] INFO root fetch - processPackages [gwaslab]: New version: [3.4.7] Old Version: [3.4.6]
+[2023-04-19 05:36:56] INFO root fetch - processPackages [odoo14-addon-product-contract]: New version: [14.0.1.0.2.dev3] Old Version: [14.0.1.0.2.dev1]
+[2023-04-19 05:36:56] INFO root fetch - processPackages [toolforgeio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 05:36:56] INFO root fetch - processPackages [gwaslab]: Downloading https://files.pythonhosted.org/packages/f2/ec/8277e78dd7ad6d0e81faf924bed53e936550065f1e4255c41a22feedc0fc/gwaslab-3.4.6.tar.gz
+[2023-04-19 05:36:56] INFO root fetch - processPackages [wtt02]: Downloading https://files.pythonhosted.org/packages/b5/0a/d18e0e45ca6a7c3707e3eb816001506a0b166a26ae9921990ba5d50cd1bc/wtt02-0.2.6.tar.gz
+[2023-04-19 05:36:56] INFO root fetch - processPackages [eventsourcing]: Downloading https://files.pythonhosted.org/packages/7e/e8/8812368881ffeace7d9254f479fe73c00ba20f2ebaf68080cc5e10ffdcb8/eventsourcing-9.2.8.tar.gz
+[2023-04-19 05:36:56] WARNING root fetch - processPackages [gwaslab]: Skipping package: exceeds size limit 20618866>=10485760
+[2023-04-19 05:36:56] INFO root fetch - main [MainThread]: End processing [gwaslab] error
+[2023-04-19 05:36:56] INFO root fetch - processPackages [alibabacloud-ess20220222]: Downloading https://files.pythonhosted.org/packages/b4/b4/a702b1842d5adc2f7b4fb9491a07e0107e6632de08b4b2d231ab6f547be6/alibabacloud_ess20220222-1.0.5.tar.gz
+[2023-04-19 05:36:56] INFO root fetch - processPackages [wtt02]: executing diffoscope
+[2023-04-19 05:36:56] INFO root fetch - processPackages [wtt02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtt02-0.2.5.tar.gz tmp/wtt02-0.2.6.tar.gz --markdown 20230419/w/wtt02/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-19 05:36:56] INFO root fetch - processPackages [toolforgeio]: Downloading https://files.pythonhosted.org/packages/f1/ef/93e2eece6f23e3be80ab12871c46708e26a36e507fab1ad0775e396dc864/toolforgeio-0.0.8.tar.gz
+[2023-04-19 05:36:56] INFO root fetch - processPackages [odoo14-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/0d/6f/d49a7363a1abf9f7961bd4e0dd049ed03c74433debc9e22a731983724ffa/odoo14_addon_product_contract-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-04-19 05:36:56] INFO root fetch - processPackages [psgnuitka]: Downloading https://files.pythonhosted.org/packages/56/53/bd85e28460e1d3b3da9288844e62a96777a1097063a9016e164531ffdbc2/psgnuitka-0.2.6.tar.gz
+[2023-04-19 05:36:56] INFO root fetch - processPackages [psgnuitka]: executing diffoscope
+[2023-04-19 05:36:56] INFO root fetch - processPackages [psgnuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psgnuitka-0.2.0.tar.gz tmp/psgnuitka-0.2.6.tar.gz --markdown 20230419/p/psgnuitka/0.2.0-0.2.6/diff.md --exclude *.pyd
+[2023-04-19 05:36:56] INFO root fetch - processPackages [alibabacloud-ess20220222]: Downloading https://files.pythonhosted.org/packages/49/dc/6121331a3a7eb96e40a0ef82e1e697d38d432369bbd382f7fbceb4226dd0/alibabacloud_ess20220222-1.0.6.tar.gz
+[2023-04-19 05:36:56] INFO root fetch - processPackages [odoo14-addon-product-contract]: Downloading https://files.pythonhosted.org/packages/5f/fe/83b7f11fe915b07676ae42e47ee721c9dc55c3ea11e9743c88e36ef0276e/odoo14_addon_product_contract-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-04-19 05:36:56] INFO root fetch - processPackages [toolforgeio]: Downloading https://files.pythonhosted.org/packages/88/6e/49b9e076ce4b4d6010796358424839481021e82015e72ce4dbc41d57a341/toolforgeio-0.0.9.tar.gz
+[2023-04-19 05:36:56] INFO root fetch - processPackages [alibabacloud-ess20220222]: executing diffoscope
+[2023-04-19 05:36:56] INFO root fetch - processPackages [alibabacloud-ess20220222]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ess20220222-1.0.5.tar.gz tmp/alibabacloud_ess20220222-1.0.6.tar.gz --markdown 20230419/a/alibabacloud-ess20220222/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-19 05:36:56] INFO root fetch - processPackages [eventsourcing]: Downloading https://files.pythonhosted.org/packages/16/a6/c221239573e3cf1d6bf94e9ed014c86dcbb64f67330fd8c6ef88bec2d6a8/eventsourcing-9.2.9.tar.gz
+[2023-04-19 05:36:56] INFO root fetch - processPackages [odoo14-addon-product-contract]: executing diffoscope
+[2023-04-19 05:36:56] INFO root fetch - processPackages [odoo14-addon-product-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_contract-14.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_product_contract-14.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-product-contract/14.0.1.0.2.dev1-14.0.1.0.2.dev3/diff.md --exclude *.pyd
+[2023-04-19 05:36:56] INFO root fetch - processPackages [toolforgeio]: executing diffoscope
+[2023-04-19 05:36:56] INFO root fetch - processPackages [toolforgeio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolforgeio-0.0.8.tar.gz tmp/toolforgeio-0.0.9.tar.gz --markdown 20230419/t/toolforgeio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 05:36:57] INFO root fetch - processPackages [eventsourcing]: executing diffoscope
+[2023-04-19 05:36:57] INFO root fetch - processPackages [eventsourcing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventsourcing-9.2.8.tar.gz tmp/eventsourcing-9.2.9.tar.gz --markdown 20230419/e/eventsourcing/9.2.8-9.2.9/diff.md --exclude *.pyd
+[2023-04-19 05:36:57] INFO root fetch - main [MainThread]: End processing [wtt02]: success
+[2023-04-19 05:36:57] INFO root fetch - main [MainThread]: End processing [psgnuitka]: success
+[2023-04-19 05:36:58] INFO root fetch - main [MainThread]: End processing [toolforgeio]: success
+[2023-04-19 05:36:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-contract]: success
+[2023-04-19 05:36:59] INFO root fetch - main [MainThread]: End processing [alibabacloud-ess20220222]: success
+[2023-04-19 05:37:10] INFO root fetch - main [MainThread]: End processing [eventsourcing]: success
+[2023-04-19 05:37:10] INFO root fetch - main [MainThread]: Store serial: [17765436]
