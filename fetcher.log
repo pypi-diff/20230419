@@ -22094,3 +22094,109 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 20:33:26] INFO root fetch - main [MainThread]: End processing [ebib]: success
 [2023-04-19 20:33:28] INFO root fetch - main [MainThread]: End processing [odoo12-addon-somconnexio]: success
 [2023-04-19 20:33:28] INFO root fetch - main [MainThread]: Store serial: [17775157]
+[2023-04-19 20:38:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17775157]
+[2023-04-19 20:38:38] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: living-figures
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iceprod
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wyoming-faster-whisper
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markdown2anki
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ladybug-rhino
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quilt-py
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphinx-embeddings
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ygt
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flow360
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: di-registry
+[2023-04-19 20:38:38] INFO root fetch - processPackages [markdown2anki]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-04-19 20:38:38] INFO root fetch - processPackages [flow360]: New version: [0.2.0b4] Old Version: [0.2.0b3]
+[2023-04-19 20:38:38] INFO root fetch - processPackages [iceprod]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-04-19 20:38:38] WARNING root fetch - processPackages [wyoming-faster-whisper]: Skipping, unable to determine old version
+[2023-04-19 20:38:38] INFO root fetch - processPackages [wyoming-faster-whisper]: Start processing: tof
+[2023-04-19 20:38:38] INFO root fetch - main [MainThread]: End processing [wyoming-faster-whisper] error
+[2023-04-19 20:38:38] INFO root fetch - processPackages [living-figures]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ygt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-19 20:38:38] INFO root fetch - processPackages [di-registry]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-04-19 20:38:38] INFO root fetch - processPackages [quilt-py]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-04-19 20:38:38] WARNING root fetch - processPackages [sphinx-embeddings]: Skipping, unable to determine old version
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ladybug-rhino]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-04-19 20:38:38] INFO root fetch - processPackages [sphinx-embeddings]: Start processing: tap-powerbi-metadata
+[2023-04-19 20:38:38] INFO root fetch - main [MainThread]: End processing [sphinx-embeddings] error
+[2023-04-19 20:38:38] INFO root fetch - processPackages [tof]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 20:38:38] INFO root fetch - processPackages [tap-powerbi-metadata]: New version: [0.0.4.dev21] Old Version: [0.0.4.dev20]
+[2023-04-19 20:38:38] INFO root fetch - processPackages [iceprod]: executing diffoscope
+[2023-04-19 20:38:38] INFO root fetch - processPackages [iceprod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iceprod-2.6.8.tar.gz tmp/iceprod-2.6.9.tar.gz --markdown 20230419/i/iceprod/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-04-19 20:38:38] INFO root fetch - processPackages [markdown2anki]: Downloading https://files.pythonhosted.org/packages/63/3b/6c858e38de92106ec0843194b8491811fbe253a6d641967866cccf6b60b1/markdown2anki-0.1.2.tar.gz
+[2023-04-19 20:38:38] INFO root fetch - processPackages [di-registry]: Downloading https://files.pythonhosted.org/packages/7f/50/c60ba1e8262aaa87f0e519351c224f71375d94f54172773b94df26fd60bb/di_registry-0.4.6.tar.gz
+[2023-04-19 20:38:38] INFO root fetch - processPackages [living-figures]: Downloading https://files.pythonhosted.org/packages/c0/d0/708a6a6580e148948f84a5a26e5d5c281adcabec7b872d64d653ddb522b6/living-figures-0.1.3.tar.gz
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ladybug-rhino]: Downloading https://files.pythonhosted.org/packages/3e/ea/279627047f65a2f54a45f8477bb6a56f8dd994d92483ad83290eaf24ac31/ladybug-rhino-1.8.2.tar.gz
+[2023-04-19 20:38:38] INFO root fetch - processPackages [tof]: Downloading https://files.pythonhosted.org/packages/36/09/aa81465310bfa5b48626da4d491ad7ee5f1a3be21cad78805f69ef23a671/tof-0.1.2.tar.gz
+[2023-04-19 20:38:38] INFO root fetch - processPackages [quilt-py]: Downloading https://files.pythonhosted.org/packages/09/14/c41783f4aa8dc330ac7b534aa06ae5e61b385d9ff841b20d67f055c5f2ab/quilt_py-0.5.4.tar.gz
+[2023-04-19 20:38:38] INFO root fetch - processPackages [tap-powerbi-metadata]: Downloading https://files.pythonhosted.org/packages/9d/bb/67cc54f071d15612fe8bee18c2257b2165020ef69454ba4aa87d1258490c/tap_powerbi_metadata-0.0.4.dev20.tar.gz
+[2023-04-19 20:38:38] INFO root fetch - processPackages [tof]: executing diffoscope
+[2023-04-19 20:38:38] INFO root fetch - processPackages [tof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tof-0.1.1.tar.gz tmp/tof-0.1.2.tar.gz --markdown 20230419/t/tof/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 20:38:38] INFO root fetch - processPackages [living-figures]: executing diffoscope
+[2023-04-19 20:38:38] INFO root fetch - processPackages [living-figures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/living-figures-0.1.2.tar.gz tmp/living-figures-0.1.3.tar.gz --markdown 20230419/l/living-figures/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ygt]: Downloading https://files.pythonhosted.org/packages/c5/e6/6e8114f5f9dcb7110172a0448397b55d42108192d53edbe096b52270eafe/ygt-0.1.4.tar.gz
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ygt]: executing diffoscope
+[2023-04-19 20:38:38] INFO root fetch - processPackages [ygt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ygt-0.1.3.tar.gz tmp/ygt-0.1.4.tar.gz --markdown 20230419/y/ygt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-19 20:38:38] INFO root fetch - processPackages [flow360]: Downloading https://files.pythonhosted.org/packages/af/1c/12838b61cec957ca44784861e19aba8d34aa2b71b958a96f56e0fb7e5fa9/flow360-0.2.0b4.tar.gz
+[2023-04-19 20:38:39] INFO root fetch - processPackages [quilt-py]: Downloading https://files.pythonhosted.org/packages/f6/8f/0d5bc4aee102c70c22e97f4f727ad7bc10f4eb20e62de55fbf08914a0439/quilt_py-0.5.5.tar.gz
+[2023-04-19 20:38:39] INFO root fetch - processPackages [quilt-py]: executing diffoscope
+[2023-04-19 20:38:39] INFO root fetch - processPackages [quilt-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quilt_py-0.5.4.tar.gz tmp/quilt_py-0.5.5.tar.gz --markdown 20230419/q/quilt-py/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-04-19 20:38:39] INFO root fetch - processPackages [di-registry]: Downloading https://files.pythonhosted.org/packages/90/ed/f5ceb5931e27b38ba8ccb0add15fc1ec6839c9c998460d8822360358c5ef/di_registry-0.4.7.tar.gz
+[2023-04-19 20:38:39] INFO root fetch - processPackages [flow360]: executing diffoscope
+[2023-04-19 20:38:39] INFO root fetch - processPackages [flow360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow360-0.2.0b3.tar.gz tmp/flow360-0.2.0b4.tar.gz --markdown 20230419/f/flow360/0.2.0b3-0.2.0b4/diff.md --exclude *.pyd
+[2023-04-19 20:38:39] INFO root fetch - processPackages [di-registry]: executing diffoscope
+[2023-04-19 20:38:39] INFO root fetch - processPackages [di-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/di_registry-0.4.6.tar.gz tmp/di_registry-0.4.7.tar.gz --markdown 20230419/d/di-registry/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-04-19 20:38:39] INFO root fetch - processPackages [ladybug-rhino]: Downloading https://files.pythonhosted.org/packages/ae/2c/4b673aff780c15e5f2dbf5d94772c420baf196f6fdccfad08abb98e5e21d/ladybug-rhino-1.9.0.tar.gz
+[2023-04-19 20:38:39] INFO root fetch - processPackages [tap-powerbi-metadata]: Downloading https://files.pythonhosted.org/packages/a0/2c/0144af54625aa3ecfc0f401ff19f1673f2256e2dfc9971c5921bb0584f28/tap_powerbi_metadata-0.0.4.dev21.tar.gz
+[2023-04-19 20:38:39] INFO root fetch - processPackages [ladybug-rhino]: executing diffoscope
+[2023-04-19 20:38:39] INFO root fetch - processPackages [ladybug-rhino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-rhino-1.8.2.tar.gz tmp/ladybug-rhino-1.9.0.tar.gz --markdown 20230419/l/ladybug-rhino/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-04-19 20:38:39] INFO root fetch - processPackages [tap-powerbi-metadata]: executing diffoscope
+[2023-04-19 20:38:39] INFO root fetch - processPackages [tap-powerbi-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_powerbi_metadata-0.0.4.dev20.tar.gz tmp/tap_powerbi_metadata-0.0.4.dev21.tar.gz --markdown 20230419/t/tap-powerbi-metadata/0.0.4.dev20-0.0.4.dev21/diff.md --exclude *.pyd
+[2023-04-19 20:38:39] INFO root fetch - processPackages [markdown2anki]: Downloading https://files.pythonhosted.org/packages/c6/d4/f4b15bb88ac62229391e574ad4a83a96f6c01c78641e247aaef07bc3ef33/markdown2anki-0.2.0.tar.gz
+[2023-04-19 20:38:39] INFO root fetch - processPackages [markdown2anki]: executing diffoscope
+[2023-04-19 20:38:39] INFO root fetch - processPackages [markdown2anki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown2anki-0.1.2.tar.gz tmp/markdown2anki-0.2.0.tar.gz --markdown 20230419/m/markdown2anki/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 20:38:40] INFO root fetch - processPackages [tof]: Start processing: universal-portfolios
+[2023-04-19 20:38:40] INFO root fetch - main [MainThread]: End processing [tof]: success
+[2023-04-19 20:38:40] INFO root fetch - processPackages [universal-portfolios]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-19 20:38:40] INFO root fetch - processPackages [di-registry]: Start processing: quantconnect-stubs
+[2023-04-19 20:38:40] INFO root fetch - main [MainThread]: End processing [di-registry]: success
+[2023-04-19 20:38:40] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-04-19 20:38:40] INFO root fetch - processPackages [universal-portfolios]: Downloading https://files.pythonhosted.org/packages/a3/26/6ce0b6d236957464d6313ac3095dcad5a5e49f90fe2a7d98b6bfb6ccaaa5/universal-portfolios-0.4.8.tar.gz
+[2023-04-19 20:38:40] INFO root fetch - processPackages [tap-powerbi-metadata]: Start processing: pyoxigraph
+[2023-04-19 20:38:40] INFO root fetch - main [MainThread]: End processing [tap-powerbi-metadata]: success
+[2023-04-19 20:38:40] INFO root fetch - processPackages [pyoxigraph]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 20:38:40] INFO root fetch - processPackages [ladybug-rhino]: Start processing: brainframe-apps
+[2023-04-19 20:38:40] INFO root fetch - main [MainThread]: End processing [ladybug-rhino]: success
+[2023-04-19 20:38:40] INFO root fetch - processPackages [brainframe-apps]: New version: [0.3.20] Old Version: [0.3.19]
+[2023-04-19 20:38:40] INFO root fetch - processPackages [living-figures]: Start processing: unstructured
+[2023-04-19 20:38:40] INFO root fetch - main [MainThread]: End processing [living-figures]: success
+[2023-04-19 20:38:40] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-04-19 20:38:40] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230419/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-04-19 20:38:40] INFO root fetch - processPackages [unstructured]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-19 20:38:40] INFO root fetch - processPackages [pyoxigraph]: Downloading https://files.pythonhosted.org/packages/f2/0a/0360a3dd26d3b41f087523180e898f000545d5b274f0be56f18e19a4b655/pyoxigraph-0.3.8.tar.gz
+[2023-04-19 20:38:41] INFO root fetch - processPackages [brainframe-apps]: Downloading https://files.pythonhosted.org/packages/b5/90/eb4aec3bb0200c7dc8b58367d5b805bfb0c4f15826d535ffd8b3a6adc2d6/brainframe_apps-0.3.19.tar.gz
+[2023-04-19 20:38:41] INFO root fetch - main [MainThread]: End processing [quilt-py]: success
+[2023-04-19 20:38:41] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/80/1e/c1dc7e7eb16c3abdc2cdf3d92e131f605f078f8897553eb4f4c7f3bda1e8/unstructured-0.5.8.tar.gz
+[2023-04-19 20:38:41] INFO root fetch - processPackages [brainframe-apps]: Downloading https://files.pythonhosted.org/packages/b5/78/beecd1fd815d50c31d2714bf2af7e837d52cfc5f047e21a994fe2b7ac093/brainframe_apps-0.3.20.tar.gz
+[2023-04-19 20:38:41] INFO root fetch - processPackages [brainframe-apps]: executing diffoscope
+[2023-04-19 20:38:41] INFO root fetch - processPackages [brainframe-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainframe_apps-0.3.19.tar.gz tmp/brainframe_apps-0.3.20.tar.gz --markdown 20230419/b/brainframe-apps/0.3.19-0.3.20/diff.md --exclude *.pyd
+[2023-04-19 20:38:41] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/2e/a2/a1b2b015b26878bf078c04a52ab000df4bfd5bd7efaefcc8ae2f00143aeb/unstructured-0.5.9.tar.gz
+[2023-04-19 20:38:41] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2023-04-19 20:38:41] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.5.8.tar.gz tmp/unstructured-0.5.9.tar.gz --markdown 20230419/u/unstructured/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-19 20:38:42] INFO root fetch - main [MainThread]: End processing [ygt]: success
+[2023-04-19 20:38:42] INFO root fetch - processPackages [universal-portfolios]: Downloading https://files.pythonhosted.org/packages/72/bd/33ae20c0f8f9993de0acc666101e6d0251e8e3f7e5e917f1c45e572bd553/universal-portfolios-0.4.9.tar.gz
+[2023-04-19 20:38:42] INFO root fetch - main [MainThread]: End processing [markdown2anki]: success
+[2023-04-19 20:38:42] INFO root fetch - main [MainThread]: End processing [brainframe-apps]: success
+[2023-04-19 20:38:42] INFO root fetch - processPackages [pyoxigraph]: Downloading https://files.pythonhosted.org/packages/b0/47/b4e91d5e4c9dcb0ea03414c92752445cc268c440bcc5ff64a159ce91a064/pyoxigraph-0.3.9.tar.gz
+[2023-04-19 20:38:43] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2023-04-19 20:38:43] INFO root fetch - main [MainThread]: End processing [iceprod]: success
+[2023-04-19 20:38:43] INFO root fetch - processPackages [universal-portfolios]: executing diffoscope
+[2023-04-19 20:38:43] INFO root fetch - processPackages [universal-portfolios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universal-portfolios-0.4.8.tar.gz tmp/universal-portfolios-0.4.9.tar.gz --markdown 20230419/u/universal-portfolios/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-19 20:38:44] INFO root fetch - processPackages [pyoxigraph]: executing diffoscope
+[2023-04-19 20:38:44] INFO root fetch - processPackages [pyoxigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxigraph-0.3.8.tar.gz tmp/pyoxigraph-0.3.9.tar.gz --markdown 20230419/p/pyoxigraph/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 20:38:45] INFO root fetch - main [MainThread]: End processing [flow360]: success
+[2023-04-19 20:38:45] INFO root fetch - main [MainThread]: End processing [universal-portfolios]: success
+[2023-04-19 20:38:50] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-04-19 20:39:31] INFO root fetch - main [MainThread]: End processing [pyoxigraph]: success
+[2023-04-19 20:39:31] INFO root fetch - main [MainThread]: Store serial: [17775214]
