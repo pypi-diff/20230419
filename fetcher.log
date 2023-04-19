@@ -6018,3 +6018,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 06:03:09] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.4.4.1.tar.gz tmp/yyxx_game_pkg-2023.4.7.1.tar.gz --markdown 20230419/y/yyxx-game-pkg/2023.4.4.1-2023.4.7.1/diff.md --exclude *.pyd
 [2023-04-19 06:03:12] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
 [2023-04-19 06:03:12] INFO root fetch - main [MainThread]: Store serial: [17765543]
+[2023-04-19 06:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765543]
+[2023-04-19 06:08:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-19 06:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: okx-integrator
+[2023-04-19 06:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-xdu-support
+[2023-04-19 06:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loopgpt
+[2023-04-19 06:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neetbox
+[2023-04-19 06:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-event
+[2023-04-19 06:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raidtoolkit
+[2023-04-19 06:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bsl-appcli
+[2023-04-19 06:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sse-starlette
+[2023-04-19 06:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-fieldservice-recurring
+[2023-04-19 06:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytorch-triton-rocm
+[2023-04-19 06:08:22] WARNING root fetch - processPackages [okx-integrator]: Skipping, unable to determine old version
+[2023-04-19 06:08:22] INFO root fetch - processPackages [okx-integrator]: Start processing: odoo12-addon-fieldservice-change-management
+[2023-04-19 06:08:22] INFO root fetch - processPackages [loopgpt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-19 06:08:22] INFO root fetch - main [MainThread]: End processing [okx-integrator] error
+[2023-04-19 06:08:22] INFO root fetch - processPackages [raidtoolkit]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-19 06:08:22] INFO root fetch - processPackages [sse-starlette]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-04-19 06:08:22] INFO root fetch - processPackages [nonebot-plugin-xdu-support]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-19 06:08:22] INFO root fetch - processPackages [bsl-appcli]: New version: [1.4.0] Old Version: [1.3.6]
+[2023-04-19 06:08:22] INFO root fetch - processPackages [pytorch-triton-rocm]: New version: [2.1.0.dev20230402] Old Version: [2.1.0]
+[2023-04-19 06:08:22] INFO root fetch - processPackages [odoo12-addon-fieldservice-recurring]: New version: [12.0.1.3.1.99.dev9] Old Version: [12.0.1.3.1.99.dev8]
+[2023-04-19 06:08:22] INFO root fetch - processPackages [odoo-addons-oca-event]: New version: [15.0.20230418.0] Old Version: [15.0.20230405.0]
+[2023-04-19 06:08:22] INFO root fetch - processPackages [neetbox]: New version: [0.1.514] Old Version: [0.1.513]
+[2023-04-19 06:08:22] INFO root fetch - processPackages [odoo12-addon-fieldservice-change-management]: New version: [12.0.1.1.0.99.dev9] Old Version: [12.0.1.1.0.99.dev8]
+[2023-04-19 06:08:22] INFO root fetch - processPackages [nonebot-plugin-xdu-support]: Downloading https://files.pythonhosted.org/packages/ff/8b/0baf5f636889991fcf61dc8ff6f4bcca33b24494895917e78475f95da9d0/nonebot_plugin_xdu_support-0.5.8-py3-none-any.whl
+[2023-04-19 06:08:22] INFO root fetch - processPackages [sse-starlette]: Downloading https://files.pythonhosted.org/packages/34/2e/65b3e20f5746d399dff20ea698f52088cfc287a340dd0b05055846263a1f/sse-starlette-1.3.3.tar.gz
+[2023-04-19 06:08:22] INFO root fetch - processPackages [odoo12-addon-fieldservice-recurring]: Downloading https://files.pythonhosted.org/packages/ed/bd/3e77a45e75c6ccc5af0589b4e5cdfb7b95dfc16faab48104c959e9c6dc2e/odoo12_addon_fieldservice_recurring-12.0.1.3.1.99.dev8-py3-none-any.whl
+[2023-04-19 06:08:22] INFO root fetch - processPackages [raidtoolkit]: Downloading https://files.pythonhosted.org/packages/24/b9/305ec84479e7dafc14231cb57567cc0d3e9f42dd3740880800796713d7f5/raidtoolkit-0.1.0.tar.gz
+[2023-04-19 06:08:22] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/aa/14/2cebd34d0d7ec82cc5eac3d1a8fe2764caa85daa4e73c9b57ed9a981f69b/odoo_addons_oca_event-15.0.20230405.0-py3-none-any.whl
+[2023-04-19 06:08:22] INFO root fetch - processPackages [loopgpt]: Downloading https://files.pythonhosted.org/packages/e9/e2/9c2f0a1e465fa66ae8bf8fbce016e7350f73dd71c40845bab83ac1d0b520/loopgpt-0.0.6.tar.gz
+[2023-04-19 06:08:22] INFO root fetch - processPackages [pytorch-triton-rocm]: Downloading https://files.pythonhosted.org/packages/52/d7/4f6f308174a2165c08bd35c1b8ba6c4d250f1dac46baeebabd3dc0acb08b/pytorch_triton_rocm-2.1.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-19 06:08:22] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/26/3a/f44a46c85ec37564dfc24193fb152a9384ffed33cfd0a94bf2c26b11252a/bsl-appcli-1.3.6.tar.gz
+[2023-04-19 06:08:22] INFO root fetch - processPackages [odoo12-addon-fieldservice-change-management]: Downloading https://files.pythonhosted.org/packages/18/7a/0bd9f31f6b039b213e284126e33695e15f07e1d8e7bbc944e7070d27906f/odoo12_addon_fieldservice_change_management-12.0.1.1.0.99.dev8-py3-none-any.whl
+[2023-04-19 06:08:22] INFO root fetch - processPackages [neetbox]: Downloading https://files.pythonhosted.org/packages/75/a1/e58f377c1d8947cfac68a092bd37d255a5cca38d152c7a3d92f6d7af48a9/neetbox-0.1.514.tar.gz
+[2023-04-19 06:08:22] WARNING root fetch - processPackages [nonebot-plugin-xdu-support]: Skipping package: exceeds size limit 13723815>=10485760
+[2023-04-19 06:08:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-xdu-support] error
+[2023-04-19 06:08:22] INFO root fetch - processPackages [loopgpt]: executing diffoscope
+[2023-04-19 06:08:22] INFO root fetch - processPackages [loopgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loopgpt-0.0.5.tar.gz tmp/loopgpt-0.0.6.tar.gz --markdown 20230419/l/loopgpt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-19 06:08:22] INFO root fetch - processPackages [raidtoolkit]: Downloading https://files.pythonhosted.org/packages/4e/ee/a11f0b0624b2d2142fdf9ce28366e42666e3e0831d2aacd2b27459aa1370/raidtoolkit-0.2.0.tar.gz
+[2023-04-19 06:08:22] WARNING root fetch - processPackages [pytorch-triton-rocm]: Skipping package: exceeds size limit 169444351>=10485760
+[2023-04-19 06:08:22] INFO root fetch - main [MainThread]: End processing [pytorch-triton-rocm] error
+[2023-04-19 06:08:22] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/f9/57/9dd57d3a6ae99c5ed3feb0b21ab4ce4d2af1118cfbb79429b377627dda84/odoo_addons_oca_event-15.0.20230418.0-py3-none-any.whl
+[2023-04-19 06:08:22] INFO root fetch - processPackages [sse-starlette]: Downloading https://files.pythonhosted.org/packages/a8/d0/619958c1f487fe82c907066d3700e094165a558d484f4a1198d78e02cfcd/sse-starlette-1.3.4.tar.gz
+[2023-04-19 06:08:22] INFO root fetch - processPackages [neetbox]: executing diffoscope
+[2023-04-19 06:08:22] INFO root fetch - processPackages [neetbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neetbox-0.1.513.tar.gz tmp/neetbox-0.1.514.tar.gz --markdown 20230419/n/neetbox/0.1.513-0.1.514/diff.md --exclude *.pyd
+[2023-04-19 06:08:22] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/38/f0/0e117e3139c341fe0374c864af3ff3295b82633e7bf03ac406693c6644bc/bsl-appcli-1.4.0.tar.gz
+[2023-04-19 06:08:22] INFO root fetch - processPackages [odoo12-addon-fieldservice-recurring]: Downloading https://files.pythonhosted.org/packages/85/13/c7bb952d566c3a77ab06d5f0ea6b85f81c24245cc1386bbd759953ba1700/odoo12_addon_fieldservice_recurring-12.0.1.3.1.99.dev9-py3-none-any.whl
+[2023-04-19 06:08:23] INFO root fetch - processPackages [raidtoolkit]: executing diffoscope
+[2023-04-19 06:08:23] INFO root fetch - processPackages [raidtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raidtoolkit-0.1.0.tar.gz tmp/raidtoolkit-0.2.0.tar.gz --markdown 20230419/r/raidtoolkit/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 06:08:23] INFO root fetch - processPackages [odoo-addons-oca-event]: executing diffoscope
+[2023-04-19 06:08:23] INFO root fetch - processPackages [odoo-addons-oca-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_event-15.0.20230405.0-py3-none-any.whl.zip tmp/odoo_addons_oca_event-15.0.20230418.0-py3-none-any.whl.zip --markdown 20230419/o/odoo-addons-oca-event/15.0.20230405.0-15.0.20230418.0/diff.md --exclude *.pyd
+[2023-04-19 06:08:23] INFO root fetch - processPackages [odoo12-addon-fieldservice-recurring]: executing diffoscope
+[2023-04-19 06:08:23] INFO root fetch - processPackages [odoo12-addon-fieldservice-recurring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice_recurring-12.0.1.3.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice_recurring-12.0.1.3.1.99.dev9-py3-none-any.whl.zip --markdown 20230419/o/odoo12-addon-fieldservice-recurring/12.0.1.3.1.99.dev8-12.0.1.3.1.99.dev9/diff.md --exclude *.pyd
+[2023-04-19 06:08:23] INFO root fetch - processPackages [sse-starlette]: executing diffoscope
+[2023-04-19 06:08:23] INFO root fetch - processPackages [sse-starlette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sse-starlette-1.3.3.tar.gz tmp/sse-starlette-1.3.4.tar.gz --markdown 20230419/s/sse-starlette/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-04-19 06:08:23] INFO root fetch - processPackages [odoo12-addon-fieldservice-change-management]: Downloading https://files.pythonhosted.org/packages/e5/eb/86e86a4bbde1204442988842f3d585d4e3a1aeece815cc8d89aec949ea97/odoo12_addon_fieldservice_change_management-12.0.1.1.0.99.dev9-py3-none-any.whl
+[2023-04-19 06:08:23] INFO root fetch - processPackages [bsl-appcli]: executing diffoscope
+[2023-04-19 06:08:23] INFO root fetch - processPackages [bsl-appcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsl-appcli-1.3.6.tar.gz tmp/bsl-appcli-1.4.0.tar.gz --markdown 20230419/b/bsl-appcli/1.3.6-1.4.0/diff.md --exclude *.pyd
+[2023-04-19 06:08:23] INFO root fetch - processPackages [odoo12-addon-fieldservice-change-management]: executing diffoscope
+[2023-04-19 06:08:23] INFO root fetch - processPackages [odoo12-addon-fieldservice-change-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice_change_management-12.0.1.1.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice_change_management-12.0.1.1.0.99.dev9-py3-none-any.whl.zip --markdown 20230419/o/odoo12-addon-fieldservice-change-management/12.0.1.1.0.99.dev8-12.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-04-19 06:08:24] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-event]: success
+[2023-04-19 06:08:24] INFO root fetch - main [MainThread]: End processing [sse-starlette]: success
+[2023-04-19 06:08:24] INFO root fetch - main [MainThread]: End processing [raidtoolkit]: success
+[2023-04-19 06:08:24] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-recurring]: success
+[2023-04-19 06:08:24] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-change-management]: success
+[2023-04-19 06:08:24] INFO root fetch - main [MainThread]: End processing [loopgpt]: success
+[2023-04-19 06:08:24] INFO root fetch - main [MainThread]: End processing [neetbox]: success
+[2023-04-19 06:08:26] INFO root fetch - main [MainThread]: End processing [bsl-appcli]: success
+[2023-04-19 06:08:26] INFO root fetch - main [MainThread]: Store serial: [17765578]
