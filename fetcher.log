@@ -18372,3 +18372,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 17:13:39] INFO root fetch - main [MainThread]: End processing [strkit]: success
 [2023-04-19 17:13:46] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-04-19 17:13:46] INFO root fetch - main [MainThread]: Store serial: [17772748]
+[2023-04-19 17:18:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17772748]
+[2023-04-19 17:18:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 17:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: primeqa
+[2023-04-19 17:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spconv
+[2023-04-19 17:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edx-proctoring
+[2023-04-19 17:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: groclient
+[2023-04-19 17:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drb-driver-era5
+[2023-04-19 17:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aac-metrics
+[2023-04-19 17:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rcsb.utils.chemref
+[2023-04-19 17:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minichain
+[2023-04-19 17:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pvmodule
+[2023-04-19 17:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hashcercle
+[2023-04-19 17:18:55] INFO root fetch - processPackages [primeqa]: New version: [0.9.7] Old Version: [0.8.1]
+[2023-04-19 17:18:55] INFO root fetch - processPackages [groclient]: New version: [1.98.0] Old Version: [1.83.0.dev13]
+[2023-04-19 17:18:55] INFO root fetch - processPackages [drb-driver-era5]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-19 17:18:55] INFO root fetch - processPackages [minichain]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-19 17:18:55] INFO root fetch - processPackages [spconv]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-04-19 17:18:55] INFO root fetch - processPackages [rcsb.utils.chemref]: New version: [0.87] Old Version: [0.86]
+[2023-04-19 17:18:55] INFO root fetch - processPackages [edx-proctoring]: New version: [4.9.0] Old Version: [4.8.4]
+[2023-04-19 17:18:55] INFO root fetch - processPackages [aac-metrics]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-19 17:18:55] INFO root fetch - processPackages [minichain]: executing diffoscope
+[2023-04-19 17:18:55] INFO root fetch - processPackages [minichain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minichain-0.3.1.linux-x86_64.tar.gz tmp/minichain-0.3.2.linux-x86_64.tar.gz --markdown 20230419/m/minichain/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-19 17:18:55] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 17:18:55] WARNING root fetch - processPackages [hashcercle]: Skipping, unable to determine old version
+[2023-04-19 17:18:55] INFO root fetch - main [MainThread]: End processing [hashcercle] error
+[2023-04-19 17:18:55] INFO root fetch - processPackages [spconv]: Downloading https://files.pythonhosted.org/packages/96/4d/15ea95dec28f67e5307e1abf32766a26a7b0262de11f1a5654ca067ab3d5/spconv-2.3.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-19 17:18:55] INFO root fetch - processPackages [rcsb.utils.chemref]: Downloading https://files.pythonhosted.org/packages/8a/79/5290207b0df0c3fbc352984358286294e679f7592a2e2359fbe3722c642c/rcsb.utils.chemref-0.86.tar.gz
+[2023-04-19 17:18:55] INFO root fetch - processPackages [drb-driver-era5]: Downloading https://files.pythonhosted.org/packages/b3/8e/f97439bb37144be3acb4e9e3134d95a5183e8aa1da979aa54c5b29b68b83/drb-driver-era5-1.1.0.tar.gz
+[2023-04-19 17:18:55] INFO root fetch - processPackages [primeqa]: Downloading https://files.pythonhosted.org/packages/48/35/dc32867c4fa30dde52464b44d06573c77a36859c37322404409df26638e7/primeqa-0.8.1-py3-none-any.whl
+[2023-04-19 17:18:55] INFO root fetch - processPackages [aac-metrics]: Downloading https://files.pythonhosted.org/packages/07/c8/30e1e1b091c639c091833f0f21be9f13ff0a6fd5f722a537f2083b78db18/aac-metrics-0.4.1.tar.gz
+[2023-04-19 17:18:55] INFO root fetch - processPackages [edx-proctoring]: Downloading https://files.pythonhosted.org/packages/62/bf/8aef4140c48e8ea2d680427d38b21e7335ab06e5cebd6c3c829a6769cf31/edx-proctoring-4.8.4.tar.gz
+[2023-04-19 17:18:55] INFO root fetch - processPackages [groclient]: Downloading https://files.pythonhosted.org/packages/e1/13/4fd23ad8c6f9c32cc22710cf30844d0049717fc7a6f74f0d589403dca302/groclient-1.83.0.dev13.tar.gz
+[2023-04-19 17:18:55] INFO root fetch - processPackages [pvmodule]: Downloading https://files.pythonhosted.org/packages/5e/67/e72159278ed018c12d7447dbdf0a6f9d382cb087ce3bc10ae5c15ea103ba/pvmodule-0.0.98.tar.gz
+[2023-04-19 17:18:55] INFO root fetch - processPackages [drb-driver-era5]: Downloading https://files.pythonhosted.org/packages/85/68/8d870ad206a1a861f228ecb268a17001108c3740657824fe7cd657d29e8f/drb-driver-era5-1.2.0.tar.gz
+[2023-04-19 17:18:55] INFO root fetch - processPackages [aac-metrics]: Downloading https://files.pythonhosted.org/packages/3f/2d/a4aef3e64d4f3eace8d38c051e107193cc44de83372deb3b234b46b6167b/aac-metrics-0.4.2.tar.gz
+[2023-04-19 17:18:55] INFO root fetch - processPackages [rcsb.utils.chemref]: Downloading https://files.pythonhosted.org/packages/71/45/e8b81ce702e876b5488d2928c55f2df61fcd34518ae5766f36d4bee5e589/rcsb.utils.chemref-0.87.tar.gz
+[2023-04-19 17:18:56] INFO root fetch - processPackages [spconv]: Downloading https://files.pythonhosted.org/packages/6f/4e/c7736f3ab6b151b5e4dd7e2d2779f6231914e2a9d92ed07377c954e3e0ba/spconv-2.3.6-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-19 17:18:56] INFO root fetch - processPackages [drb-driver-era5]: executing diffoscope
+[2023-04-19 17:18:56] INFO root fetch - processPackages [drb-driver-era5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-era5-1.1.0.tar.gz tmp/drb-driver-era5-1.2.0.tar.gz --markdown 20230419/d/drb-driver-era5/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-19 17:18:56] INFO root fetch - processPackages [rcsb.utils.chemref]: executing diffoscope
+[2023-04-19 17:18:56] INFO root fetch - processPackages [rcsb.utils.chemref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcsb.utils.chemref-0.86.tar.gz tmp/rcsb.utils.chemref-0.87.tar.gz --markdown 20230419/r/rcsb.utils.chemref/0.86-0.87/diff.md --exclude *.pyd
+[2023-04-19 17:18:56] INFO root fetch - processPackages [aac-metrics]: executing diffoscope
+[2023-04-19 17:18:56] INFO root fetch - processPackages [aac-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aac-metrics-0.4.1.tar.gz tmp/aac-metrics-0.4.2.tar.gz --markdown 20230419/a/aac-metrics/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-19 17:18:56] INFO root fetch - processPackages [primeqa]: Downloading https://files.pythonhosted.org/packages/d2/03/ac25dabfb699169884f19f4d747df649a5461e9c36b9af53d14c96d43c7d/primeqa-0.9.7-py2.py3-none-any.whl
+[2023-04-19 17:18:56] WARNING root fetch - processPackages [groclient]: Skipping package: exceeds size limit 14129293>=10485760
+[2023-04-19 17:18:56] INFO root fetch - main [MainThread]: End processing [groclient] error
+[2023-04-19 17:18:56] INFO root fetch - processPackages [edx-proctoring]: Downloading https://files.pythonhosted.org/packages/6b/5e/9b97bab3fd4420d9c07e2ac12e65dad1e546f08ccbdd6a19d37f3a5b1d95/edx-proctoring-4.9.0.tar.gz
+[2023-04-19 17:18:56] INFO root fetch - processPackages [pvmodule]: Downloading https://files.pythonhosted.org/packages/dd/d6/72eb38ce69005f0ec1f5ebfc31982571b28fefe8c57ae21b3706923a27d3/pvmodule-0.0.99.tar.gz
+[2023-04-19 17:18:56] INFO root fetch - processPackages [spconv]: executing diffoscope
+[2023-04-19 17:18:56] INFO root fetch - processPackages [spconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spconv-2.3.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/spconv-2.3.6-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230419/s/spconv/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-04-19 17:18:56] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-04-19 17:18:56] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230419/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 17:18:56] INFO root fetch - processPackages [primeqa]: executing diffoscope
+[2023-04-19 17:18:56] INFO root fetch - processPackages [primeqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primeqa-0.8.1-py3-none-any.whl.zip tmp/primeqa-0.9.7-py2.py3-none-any.whl.zip --markdown 20230419/p/primeqa/0.8.1-0.9.7/diff.md --exclude *.pyd
+[2023-04-19 17:18:56] INFO root fetch - processPackages [edx-proctoring]: executing diffoscope
+[2023-04-19 17:18:56] INFO root fetch - processPackages [edx-proctoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-proctoring-4.8.4.tar.gz tmp/edx-proctoring-4.9.0.tar.gz --markdown 20230419/e/edx-proctoring/4.8.4-4.9.0/diff.md --exclude *.pyd
+[2023-04-19 17:18:57] INFO root fetch - main [MainThread]: End processing [minichain]: success
+[2023-04-19 17:18:57] INFO root fetch - main [MainThread]: End processing [drb-driver-era5]: success
+[2023-04-19 17:18:57] INFO root fetch - main [MainThread]: End processing [rcsb.utils.chemref]: success
+[2023-04-19 17:18:58] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-04-19 17:18:59] INFO root fetch - main [MainThread]: End processing [aac-metrics]: success
+[2023-04-19 17:19:00] INFO root fetch - main [MainThread]: End processing [primeqa]: success
+[2023-04-19 17:19:01] INFO root fetch - main [MainThread]: End processing [edx-proctoring]: success
+[2023-04-19 17:19:22] INFO root fetch - main [MainThread]: End processing [spconv]: success
+[2023-04-19 17:19:22] INFO root fetch - main [MainThread]: Store serial: [17772782]
