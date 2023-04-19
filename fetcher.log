@@ -9373,3 +9373,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 09:53:59] INFO root fetch - main [MainThread]: End processing [pyraisdk-test]: success
 [2023-04-19 09:54:00] INFO root fetch - main [MainThread]: End processing [act-scio]: success
 [2023-04-19 09:54:00] INFO root fetch - main [MainThread]: Store serial: [17767365]
+[2023-04-19 09:59:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17767365]
+[2023-04-19 09:59:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-19 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bitkub-v2
+[2023-04-19 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hak
+[2023-04-19 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sunyata
+[2023-04-19 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: predict-eth
+[2023-04-19 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prophecy-libs
+[2023-04-19 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-sale-timesheet-order-line-no-update
+[2023-04-19 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unitn-course-scraper
+[2023-04-19 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lavacli
+[2023-04-19 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: design.plone.contenttypes
+[2023-04-19 09:59:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multiPrime
+[2023-04-19 09:59:09] INFO root fetch - processPackages [hak]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 09:59:09] WARNING root fetch - processPackages [unitn-course-scraper]: Skipping, unable to determine old version
+[2023-04-19 09:59:09] INFO root fetch - processPackages [unitn-course-scraper]: Start processing: seven-cloudapp-frame
+[2023-04-19 09:59:09] INFO root fetch - main [MainThread]: End processing [unitn-course-scraper] error
+[2023-04-19 09:59:09] INFO root fetch - processPackages [prophecy-libs]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-19 09:59:09] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-04-19 09:59:09] INFO root fetch - processPackages [bitkub-v2]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-04-19 09:59:09] INFO root fetch - processPackages [sunyata]: New version: [0.0.36] Old Version: [0.0.29]
+[2023-04-19 09:59:09] WARNING root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: Skipping, unable to determine old version
+[2023-04-19 09:59:09] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: Start processing: kayobe
+[2023-04-19 09:59:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-timesheet-order-line-no-update] error
+[2023-04-19 09:59:09] INFO root fetch - processPackages [lavacli]: New version: [1.9] Old Version: [1.8]
+[2023-04-19 09:59:09] INFO root fetch - processPackages [predict-eth]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 09:59:09] INFO root fetch - processPackages [multiPrime]: New version: [2.4.1] Old Version: [2.3.9]
+[2023-04-19 09:59:09] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-04-19 09:59:09] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-04-19 09:59:09] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.1.tar.gz tmp/hak-0.0.2.tar.gz --markdown 20230419/h/hak/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 09:59:09] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2023-04-19 09:59:09] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-04-19 09:59:09] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.4.8.tar.gz tmp/prophecy-libs-1.4.9.tar.gz --markdown 20230419/p/prophecy-libs/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-19 09:59:09] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230419/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-04-19 09:59:09] INFO root fetch - processPackages [bitkub-v2]: Downloading https://files.pythonhosted.org/packages/fa/89/d9584cb7c5e704ed7a770b90e90775e21e29b9091ec796b82d6cbb254179/bitkub-v2-2.1.0.tar.gz
+[2023-04-19 09:59:10] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/a9/4b/0727a34675bcfb9e0c2833161d32b812f2236e8265c295d2ea1c474749da/sunyata-0.0.29.tar.gz
+[2023-04-19 09:59:10] INFO root fetch - processPackages [kayobe]: New version: [9.4.0] Old Version: [9.3.0]
+[2023-04-19 09:59:10] INFO root fetch - processPackages [lavacli]: Downloading https://files.pythonhosted.org/packages/5c/a7/329cdf9732d526e5042b7dd6c920163bdebd5bb7a4aa97f2aaddd891ca7d/lavacli-1.8.tar.gz
+[2023-04-19 09:59:10] INFO root fetch - processPackages [predict-eth]: Downloading https://files.pythonhosted.org/packages/9f/9e/837bdefd0d21b7ff23c01d1fd6995669c794cda397411ff82f833c3741ca/predict_eth-0.1.1.tar.gz
+[2023-04-19 09:59:10] INFO root fetch - processPackages [multiPrime]: Downloading https://files.pythonhosted.org/packages/46/d3/8c51682810102606710e8c90d1a35486c29ae1cc71ebbb00af5d358b8d45/multiPrime-2.3.9.tar.gz
+[2023-04-19 09:59:10] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/52/57/d00bbdce828652f46ad3f570aa4e59c85461b055d5799353631b1f765dab/design.plone.contenttypes-6.0.4.tar.gz
+[2023-04-19 09:59:10] INFO root fetch - processPackages [kayobe]: Downloading https://files.pythonhosted.org/packages/d3/0a/aa53e6fd648bb7be5c679956e5856c178a8b1bb3ed2805d5364d8422db2c/kayobe-9.3.0.tar.gz
+[2023-04-19 09:59:10] INFO root fetch - processPackages [multiPrime]: Downloading https://files.pythonhosted.org/packages/b0/6b/512b44c7c93a6d93743ca5a189c96f423ecdbe80ce65b6440ce8d3745409/multiPrime-2.4.1.tar.gz
+[2023-04-19 09:59:10] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/7a/87/e292b7d044f7f931d3170e0c7f7b81fc8184c6f49343cacbb628de9113e5/sunyata-0.0.36.tar.gz
+[2023-04-19 09:59:10] INFO root fetch - processPackages [bitkub-v2]: Downloading https://files.pythonhosted.org/packages/e6/81/c3120e1cd3438351296769bba346174761927413d89ef0b5ff1643171484/bitkub-v2-2.1.1.tar.gz
+[2023-04-19 09:59:10] INFO root fetch - processPackages [lavacli]: Downloading https://files.pythonhosted.org/packages/5e/23/84dbd3aac122c42f6b3fb100eda64109105afcf8acd7cdf3551be8e24ef5/lavacli-1.9.tar.gz
+[2023-04-19 09:59:10] INFO root fetch - processPackages [predict-eth]: Downloading https://files.pythonhosted.org/packages/ef/56/2c2e5760ffaffc2ede09a3edc39dd24eed42282deeaa06d950458fae90a8/predict_eth-0.1.2.tar.gz
+[2023-04-19 09:59:10] INFO root fetch - processPackages [multiPrime]: executing diffoscope
+[2023-04-19 09:59:10] INFO root fetch - processPackages [multiPrime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiPrime-2.3.9.tar.gz tmp/multiPrime-2.4.1.tar.gz --markdown 20230419/m/multiPrime/2.3.9-2.4.1/diff.md --exclude *.pyd
+[2023-04-19 09:59:10] INFO root fetch - processPackages [sunyata]: executing diffoscope
+[2023-04-19 09:59:10] INFO root fetch - processPackages [sunyata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunyata-0.0.29.tar.gz tmp/sunyata-0.0.36.tar.gz --markdown 20230419/s/sunyata/0.0.29-0.0.36/diff.md --exclude *.pyd
+[2023-04-19 09:59:10] INFO root fetch - processPackages [bitkub-v2]: executing diffoscope
+[2023-04-19 09:59:10] INFO root fetch - processPackages [bitkub-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitkub-v2-2.1.0.tar.gz tmp/bitkub-v2-2.1.1.tar.gz --markdown 20230419/b/bitkub-v2/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-19 09:59:10] INFO root fetch - processPackages [lavacli]: executing diffoscope
+[2023-04-19 09:59:10] INFO root fetch - processPackages [lavacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavacli-1.8.tar.gz tmp/lavacli-1.9.tar.gz --markdown 20230419/l/lavacli/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-19 09:59:10] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2023-04-19 09:59:10] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.0.3.tar.gz tmp/design.plone.contenttypes-6.0.4.tar.gz --markdown 20230419/d/design.plone.contenttypes/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-04-19 09:59:10] INFO root fetch - processPackages [predict-eth]: executing diffoscope
+[2023-04-19 09:59:10] INFO root fetch - processPackages [predict-eth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predict_eth-0.1.1.tar.gz tmp/predict_eth-0.1.2.tar.gz --markdown 20230419/p/predict-eth/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 09:59:10] INFO root fetch - processPackages [kayobe]: Downloading https://files.pythonhosted.org/packages/d4/33/798f0f1cea817a0c719e6cf6fb32e47ce55516f411eefc430e87b7f7bdda/kayobe-9.4.0.tar.gz
+[2023-04-19 09:59:10] INFO root fetch - processPackages [kayobe]: executing diffoscope
+[2023-04-19 09:59:10] INFO root fetch - processPackages [kayobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayobe-9.3.0.tar.gz tmp/kayobe-9.4.0.tar.gz --markdown 20230419/k/kayobe/9.3.0-9.4.0/diff.md --exclude *.pyd
+[2023-04-19 09:59:11] INFO root fetch - processPackages [prophecy-libs]: Start processing: odoo12-addon-purchase-no-rfq
+[2023-04-19 09:59:11] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2023-04-19 09:59:11] WARNING root fetch - processPackages [odoo12-addon-purchase-no-rfq]: Skipping, unable to determine old version
+[2023-04-19 09:59:11] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-no-rfq] error
+[2023-04-19 09:59:11] INFO root fetch - main [MainThread]: End processing [multiPrime]: success
+[2023-04-19 09:59:11] INFO root fetch - main [MainThread]: End processing [bitkub-v2]: success
+[2023-04-19 09:59:12] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-04-19 09:59:12] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-04-19 09:59:12] INFO root fetch - main [MainThread]: End processing [predict-eth]: success
+[2023-04-19 09:59:12] INFO root fetch - main [MainThread]: End processing [sunyata]: success
+[2023-04-19 09:59:13] INFO root fetch - main [MainThread]: End processing [lavacli]: success
+[2023-04-19 09:59:15] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2023-04-19 09:59:22] INFO root fetch - main [MainThread]: End processing [kayobe]: success
+[2023-04-19 09:59:22] INFO root fetch - main [MainThread]: Store serial: [17767408]
