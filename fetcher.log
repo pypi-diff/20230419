@@ -15841,3 +15841,159 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 15:13:27] INFO root fetch - main [MainThread]: End processing [umjunsik]: success
 [2023-04-19 15:13:44] INFO root fetch - main [MainThread]: End processing [obp-python-apiv5.1]: success
 [2023-04-19 15:13:44] INFO root fetch - main [MainThread]: Store serial: [17771240]
+[2023-04-19 15:18:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17771240]
+[2023-04-19 15:18:56] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-19 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: r2diaphora
+[2023-04-19 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-scipy
+[2023-04-19 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goastpy
+[2023-04-19 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-ng
+[2023-04-19 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HDRezka
+[2023-04-19 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hpcflow-new2
+[2023-04-19 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vtmmpy
+[2023-04-19 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zood
+[2023-04-19 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Musicreater
+[2023-04-19 15:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-sphinx
+[2023-04-19 15:18:56] INFO root fetch - processPackages [r2diaphora]: New version: [0.2.1] Old Version: [0.1.9.3]
+[2023-04-19 15:18:56] INFO root fetch - processPackages [policyengine-ng]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-19 15:18:56] INFO root fetch - processPackages [Musicreater]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-04-19 15:18:56] INFO root fetch - processPackages [HDRezka]: New version: [2.0.0] Old Version: [1.1.3]
+[2023-04-19 15:18:56] INFO root fetch - processPackages [vtmmpy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-19 15:18:56] INFO root fetch - processPackages [goastpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 15:18:56] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-04-19 15:18:56] INFO root fetch - processPackages [zood]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-04-19 15:18:56] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 15:18:56] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 15:18:56] INFO root fetch - processPackages [r2diaphora]: executing diffoscope
+[2023-04-19 15:18:56] INFO root fetch - processPackages [r2diaphora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2diaphora-0.1.9.3.tar.gz tmp/r2diaphora-0.2.1.tar.gz --markdown 20230419/r/r2diaphora/0.1.9.3-0.2.1/diff.md --exclude *.pyd
+[2023-04-19 15:18:56] INFO root fetch - processPackages [HDRezka]: Downloading https://files.pythonhosted.org/packages/f9/ec/7508cbc8b0d6aeae8a8cb3c95a8a1f24f17ba31b3b343c42f8b7e79277bd/HDRezka-1.1.3.tar.gz
+[2023-04-19 15:18:56] INFO root fetch - processPackages [vtmmpy]: Downloading https://files.pythonhosted.org/packages/03/2c/16b06a2580a7a02f7428efb11168abf78f073874c460e8b1a93bf5fe27fa/vtmmpy-1.0.1.tar.gz
+[2023-04-19 15:18:56] INFO root fetch - processPackages [Musicreater]: Downloading https://files.pythonhosted.org/packages/64/63/f37ba0112db08e4d4ea7897f56d4f9af6cc2a1b21255cf19fd2101a8871e/Musicreater-0.3.2.tar.gz
+[2023-04-19 15:18:56] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/1f/7d/0b9e8733364ffffc094d04f5e64cf43addd7bd2cec07e90f2502ec669cd3/zood-0.6.6.tar.gz
+[2023-04-19 15:18:56] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/cc/ca/1fd224eb5a09826e85c92dd157f8295299e773354fdb824dadc0590fb96a/hpcflow_new2-0.2.0a8.tar.gz
+[2023-04-19 15:18:56] INFO root fetch - processPackages [goastpy]: Downloading https://files.pythonhosted.org/packages/b5/6b/4c60dbf91b8ca3a7f95974740d041284ec18c468db6cb97da4e6e52326f1/goastpy-0.1.9.tar.gz
+[2023-04-19 15:18:56] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-19 15:18:56] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230419/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 15:18:56] INFO root fetch - processPackages [policyengine-ng]: Downloading https://files.pythonhosted.org/packages/2d/6a/2e60ecef7b3bb51073b6323c019211716ee0621638337d435bea1d919653/policyengine-ng-0.5.1.tar.gz
+[2023-04-19 15:18:56] INFO root fetch - processPackages [HDRezka]: Downloading https://files.pythonhosted.org/packages/7c/24/8f30d22e64d4c3bb42346b2874a247748297f0064ece7bfc2f4c0fc74fab/HDRezka-2.0.0.tar.gz
+[2023-04-19 15:18:56] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-19 15:18:56] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230419/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 15:18:56] INFO root fetch - processPackages [Musicreater]: Downloading https://files.pythonhosted.org/packages/4a/b7/3c4dd83577ddc2cb1e20e5dc58faa67c74e60bbd8654c85c40e33ac205f6/Musicreater-0.4.0.tar.gz
+[2023-04-19 15:18:57] INFO root fetch - processPackages [policyengine-ng]: executing diffoscope
+[2023-04-19 15:18:57] INFO root fetch - processPackages [policyengine-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-ng-0.5.0.tar.gz tmp/policyengine-ng-0.5.1.tar.gz --markdown 20230419/p/policyengine-ng/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-19 15:18:57] INFO root fetch - processPackages [vtmmpy]: Downloading https://files.pythonhosted.org/packages/fb/71/59cee5971306f5d9e65f79658786091c948e2c8b043d280f8d1764b11888/vtmmpy-1.0.2.tar.gz
+[2023-04-19 15:18:57] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/f2/76/a55d3e0e54427f76f5be3ccfc38a4f8ee5fb6d3ae194961f7c3bb6d3be12/zood-0.6.7.tar.gz
+[2023-04-19 15:18:57] INFO root fetch - processPackages [HDRezka]: executing diffoscope
+[2023-04-19 15:18:57] INFO root fetch - processPackages [HDRezka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HDRezka-1.1.3.tar.gz tmp/HDRezka-2.0.0.tar.gz --markdown 20230419/H/HDRezka/1.1.3-2.0.0/diff.md --exclude *.pyd
+[2023-04-19 15:18:57] INFO root fetch - processPackages [Musicreater]: executing diffoscope
+[2023-04-19 15:18:57] INFO root fetch - processPackages [Musicreater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Musicreater-0.3.2.tar.gz tmp/Musicreater-0.4.0.tar.gz --markdown 20230419/M/Musicreater/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-04-19 15:18:57] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/8f/94/5cf6c22b7755a1754a5e0798543a3a471342e39b288d923874c390867d9f/hpcflow_new2-0.2.0a9.tar.gz
+[2023-04-19 15:18:57] INFO root fetch - processPackages [vtmmpy]: executing diffoscope
+[2023-04-19 15:18:57] INFO root fetch - processPackages [vtmmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtmmpy-1.0.1.tar.gz tmp/vtmmpy-1.0.2.tar.gz --markdown 20230419/v/vtmmpy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-19 15:18:57] INFO root fetch - processPackages [zood]: executing diffoscope
+[2023-04-19 15:18:57] INFO root fetch - processPackages [zood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zood-0.6.6.tar.gz tmp/zood-0.6.7.tar.gz --markdown 20230419/z/zood/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-04-19 15:18:57] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-04-19 15:18:57] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230419/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-04-19 15:18:57] INFO root fetch - processPackages [goastpy]: executing diffoscope
+[2023-04-19 15:18:57] INFO root fetch - processPackages [goastpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goastpy-0.1.8.tar.gz tmp/goastpy-0.1.9.tar.gz --markdown 20230419/g/goastpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 15:18:58] INFO root fetch - processPackages [HDRezka]: Start processing: magic-duckdb
+[2023-04-19 15:18:58] INFO root fetch - main [MainThread]: End processing [HDRezka]: success
+[2023-04-19 15:18:58] INFO root fetch - processPackages [magic-duckdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 15:18:58] INFO root fetch - processPackages [Musicreater]: Start processing: deprempy
+[2023-04-19 15:18:58] INFO root fetch - main [MainThread]: End processing [Musicreater]: success
+[2023-04-19 15:18:58] INFO root fetch - processPackages [deprempy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 15:18:58] INFO root fetch - processPackages [policyengine-ng]: Start processing: aitool
+[2023-04-19 15:18:58] INFO root fetch - main [MainThread]: End processing [policyengine-ng]: success
+[2023-04-19 15:18:58] INFO root fetch - processPackages [aitool]: New version: [0.0.9] Old Version: [0.0.89]
+[2023-04-19 15:18:58] INFO root fetch - processPackages [magic-duckdb]: executing diffoscope
+[2023-04-19 15:18:58] INFO root fetch - processPackages [magic-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_duckdb-0.1.8-py3-none-any.whl.zip tmp/magic_duckdb-0.1.9-py3-none-any.whl.zip --markdown 20230419/m/magic-duckdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 15:18:58] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: phone-gen
+[2023-04-19 15:18:58] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-19 15:18:58] INFO root fetch - processPackages [aitool]: executing diffoscope
+[2023-04-19 15:18:58] INFO root fetch - processPackages [aitool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitool-0.0.89.tar.gz tmp/aitool-0.0.9.tar.gz --markdown 20230419/a/aitool/0.0.89-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 15:18:58] INFO root fetch - processPackages [phone-gen]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-19 15:18:58] INFO root fetch - processPackages [deprempy]: Downloading https://files.pythonhosted.org/packages/ec/e6/3ce954cb19f907b06e399e0c49089533426b624c1e639bec5e5f55b606eb/deprempy-0.0.4.tar.gz
+[2023-04-19 15:18:58] INFO root fetch - processPackages [vtmmpy]: Start processing: sapiens
+[2023-04-19 15:18:58] INFO root fetch - main [MainThread]: End processing [vtmmpy]: success
+[2023-04-19 15:18:58] INFO root fetch - processPackages [sapiens]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-19 15:18:58] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/95/6f/f4c6dea1373b32b3c7fa2ad8c3ee68a7a1df7396714e4e40547f2c28c46d/phone_gen-2.2.8-py3-none-any.whl
+[2023-04-19 15:18:58] INFO root fetch - processPackages [deprempy]: executing diffoscope
+[2023-04-19 15:18:58] INFO root fetch - processPackages [deprempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deprempy-0.0.3.tar.gz tmp/deprempy-0.0.4.tar.gz --markdown 20230419/d/deprempy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 15:18:58] INFO root fetch - processPackages [sapiens]: Downloading https://files.pythonhosted.org/packages/84/0a/ebebc887f6be6fa462ee90927f82d927f86c345e9db8b4d87ff1568913de/sapiens-1.0.3.tar.gz
+[2023-04-19 15:18:58] INFO root fetch - processPackages [hpcflow-new2]: Start processing: ibis-substrait
+[2023-04-19 15:18:58] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-04-19 15:18:58] INFO root fetch - processPackages [ibis-substrait]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-04-19 15:18:59] INFO root fetch - processPackages [ibis-substrait]: executing diffoscope
+[2023-04-19 15:18:59] INFO root fetch - processPackages [ibis-substrait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibis-substrait-2.9.7.tar.gz tmp/ibis-substrait-2.9.8.tar.gz --markdown 20230419/i/ibis-substrait/2.9.7-2.9.8/diff.md --exclude *.pyd
+[2023-04-19 15:18:59] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/e8/77/1a24070833e5da90d251e411bf4fa032ed93c7e3a445f1414cd5258416d2/phone_gen-2.2.9-py3-none-any.whl
+[2023-04-19 15:18:59] INFO root fetch - processPackages [phone-gen]: executing diffoscope
+[2023-04-19 15:18:59] INFO root fetch - processPackages [phone-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phone_gen-2.2.8-py3-none-any.whl.zip tmp/phone_gen-2.2.9-py3-none-any.whl.zip --markdown 20230419/p/phone-gen/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-04-19 15:18:59] INFO root fetch - processPackages [goastpy]: Start processing: nbdev-django
+[2023-04-19 15:18:59] INFO root fetch - main [MainThread]: End processing [goastpy]: success
+[2023-04-19 15:18:59] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 15:18:59] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-19 15:18:59] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230419/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 15:18:59] INFO root fetch - processPackages [nbdev-scipy]: Start processing: opentera
+[2023-04-19 15:18:59] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-19 15:18:59] INFO root fetch - processPackages [opentera]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-19 15:18:59] INFO root fetch - processPackages [zood]: Start processing: domolibrary
+[2023-04-19 15:18:59] INFO root fetch - main [MainThread]: End processing [zood]: success
+[2023-04-19 15:18:59] INFO root fetch - processPackages [domolibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 15:18:59] INFO root fetch - processPackages [magic-duckdb]: Start processing: chatgpt4-cli
+[2023-04-19 15:18:59] INFO root fetch - main [MainThread]: End processing [magic-duckdb]: success
+[2023-04-19 15:18:59] INFO root fetch - processPackages [sapiens]: Downloading https://files.pythonhosted.org/packages/37/b1/38ee24c99f7700fffdb1d2e6aef25ca6cb0c9510095265511f4985208e5d/sapiens-1.0.4.tar.gz
+[2023-04-19 15:18:59] INFO root fetch - processPackages [chatgpt4-cli]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-04-19 15:18:59] INFO root fetch - processPackages [opentera]: Downloading https://files.pythonhosted.org/packages/c1/92/e96aaddb218ac26cea55a168a9cc766e3ad5d708139e85e4fcde120f13c6/opentera-1.2.0.tar.gz
+[2023-04-19 15:18:59] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/f2/d1/1446d2e5f60184c89e6d8cdb0372f365a24f1cb4e6ef95ba250b9bdd19c6/domolibrary-0.0.8.tar.gz
+[2023-04-19 15:19:00] INFO root fetch - processPackages [chatgpt4-cli]: Downloading https://files.pythonhosted.org/packages/fc/01/b228e7168b3cb6a04c331c19812431d9303dad49fd6b524ed0b13d862e99/chatgpt4-cli-1.5.1.tar.gz
+[2023-04-19 15:19:00] INFO root fetch - processPackages [opentera]: Downloading https://files.pythonhosted.org/packages/3b/48/f2d03ef2a8649987aabe07b669499e90b4e5e5fc2cdb80b036b19dc48982/opentera-1.2.1.tar.gz
+[2023-04-19 15:19:00] INFO root fetch - processPackages [aitool]: Start processing: umjunsik
+[2023-04-19 15:19:00] INFO root fetch - main [MainThread]: End processing [aitool]: success
+[2023-04-19 15:19:00] INFO root fetch - processPackages [umjunsik]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-19 15:19:00] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/57/da/9c19240f31a1a4a8a6303a3d95cc9bae4caa82372a5530aae505d52318ca/domolibrary-0.0.9.tar.gz
+[2023-04-19 15:19:00] INFO root fetch - processPackages [chatgpt4-cli]: executing diffoscope
+[2023-04-19 15:19:00] INFO root fetch - processPackages [chatgpt4-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt4-cli-1.5.0.tar.gz tmp/chatgpt4-cli-1.5.1.tar.gz --markdown 20230419/c/chatgpt4-cli/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-04-19 15:19:00] INFO root fetch - processPackages [deprempy]: Start processing: oarepo-model-builder-drafts
+[2023-04-19 15:19:00] INFO root fetch - main [MainThread]: End processing [deprempy]: success
+[2023-04-19 15:19:00] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-19 15:19:00] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.0.8.tar.gz tmp/domolibrary-0.0.9.tar.gz --markdown 20230419/d/domolibrary/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 15:19:00] INFO root fetch - processPackages [oarepo-model-builder-drafts]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-19 15:19:00] INFO root fetch - processPackages [opentera]: executing diffoscope
+[2023-04-19 15:19:00] INFO root fetch - processPackages [opentera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentera-1.2.0.tar.gz tmp/opentera-1.2.1.tar.gz --markdown 20230419/o/opentera/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-19 15:19:00] INFO root fetch - processPackages [umjunsik]: Downloading https://files.pythonhosted.org/packages/eb/d7/45507ef933477e5c01cb316e18a84838c5b9eac9f9a14d049ccac6459c97/umjunsik-1.2.3.tar.gz
+[2023-04-19 15:19:00] INFO root fetch - processPackages [ibis-substrait]: Start processing: typed-blocks
+[2023-04-19 15:19:00] INFO root fetch - main [MainThread]: End processing [ibis-substrait]: success
+[2023-04-19 15:19:00] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Downloading https://files.pythonhosted.org/packages/29/e8/aebb30eabe30e9980db4e7a037e43ca76a9c190200d68f4dc979ccc5702c/oarepo-model-builder-drafts-1.0.1.tar.gz
+[2023-04-19 15:19:00] INFO root fetch - processPackages [typed-blocks]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-19 15:19:00] INFO root fetch - processPackages [phone-gen]: Start processing: nbdev-apl
+[2023-04-19 15:19:00] INFO root fetch - main [MainThread]: End processing [phone-gen]: success
+[2023-04-19 15:19:00] INFO root fetch - processPackages [umjunsik]: executing diffoscope
+[2023-04-19 15:19:00] INFO root fetch - processPackages [umjunsik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umjunsik-1.2.2.tar.gz tmp/umjunsik-1.2.3.tar.gz --markdown 20230419/u/umjunsik/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-19 15:19:00] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.723] Old Version: [0.0.722]
+[2023-04-19 15:19:00] INFO root fetch - processPackages [r2diaphora]: Start processing: qwak-core
+[2023-04-19 15:19:00] INFO root fetch - main [MainThread]: End processing [r2diaphora]: success
+[2023-04-19 15:19:00] INFO root fetch - processPackages [typed-blocks]: Downloading https://files.pythonhosted.org/packages/ae/54/f0f92843fa14270ed94a77e503fedd257e248ec484464c5f96702eb2e2d9/typed-blocks-0.9.8.tar.gz
+[2023-04-19 15:19:00] INFO root fetch - processPackages [qwak-core]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-04-19 15:19:00] INFO root fetch - processPackages [oarepo-model-builder-drafts]: Downloading https://files.pythonhosted.org/packages/33/fa/c2c3d9b0923c41aa5a494da634ee7fbce9e2a6b7544d7ba5cb8ac8688b81/oarepo-model-builder-drafts-1.0.2.tar.gz
+[2023-04-19 15:19:00] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-04-19 15:19:00] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.24.tar.gz tmp/qwak_core-0.0.25.tar.gz --markdown 20230419/q/qwak-core/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-04-19 15:19:00] INFO root fetch - processPackages [sapiens]: executing diffoscope
+[2023-04-19 15:19:00] INFO root fetch - processPackages [sapiens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapiens-1.0.3.tar.gz tmp/sapiens-1.0.4.tar.gz --markdown 20230419/s/sapiens/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-19 15:19:00] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/7d/9e/202bb687eff9a111ad8599a9264aece4e71b78bdf3edd6d887eb6c6a0f11/nbdev-apl-0.0.723.tar.gz
+[2023-04-19 15:19:01] INFO root fetch - processPackages [oarepo-model-builder-drafts]: executing diffoscope
+[2023-04-19 15:19:01] INFO root fetch - processPackages [oarepo-model-builder-drafts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-drafts-1.0.1.tar.gz tmp/oarepo-model-builder-drafts-1.0.2.tar.gz --markdown 20230419/o/oarepo-model-builder-drafts/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-19 15:19:01] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-04-19 15:19:01] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.722.tar.gz tmp/nbdev-apl-0.0.723.tar.gz --markdown 20230419/n/nbdev-apl/0.0.722-0.0.723/diff.md --exclude *.pyd
+[2023-04-19 15:19:01] INFO root fetch - processPackages [typed-blocks]: Downloading https://files.pythonhosted.org/packages/22/ee/31b515dced27bee07e91d33e78a5d0eacc7cc71f545ea156740473ea5f57/typed-blocks-0.9.9.tar.gz
+[2023-04-19 15:19:01] INFO root fetch - processPackages [typed-blocks]: executing diffoscope
+[2023-04-19 15:19:01] INFO root fetch - processPackages [typed-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed-blocks-0.9.8.tar.gz tmp/typed-blocks-0.9.9.tar.gz --markdown 20230419/t/typed-blocks/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-19 15:19:01] INFO root fetch - main [MainThread]: End processing [chatgpt4-cli]: success
+[2023-04-19 15:19:01] INFO root fetch - main [MainThread]: End processing [umjunsik]: success
+[2023-04-19 15:19:02] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-04-19 15:19:02] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-drafts]: success
+[2023-04-19 15:19:02] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-19 15:19:02] INFO root fetch - main [MainThread]: End processing [typed-blocks]: success
+[2023-04-19 15:19:03] INFO root fetch - main [MainThread]: End processing [opentera]: success
+[2023-04-19 15:19:03] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-19 15:19:05] INFO root fetch - main [MainThread]: End processing [sapiens]: success
+[2023-04-19 15:19:05] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-04-19 15:19:05] INFO root fetch - main [MainThread]: Store serial: [17771306]
