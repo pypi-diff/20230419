@@ -18123,3 +18123,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 17:02:52] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2023-04-19 17:02:54] INFO root fetch - main [MainThread]: End processing [osmosispy]: success
 [2023-04-19 17:02:54] INFO root fetch - main [MainThread]: Store serial: [17772622]
+[2023-04-19 17:07:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17772622]
+[2023-04-19 17:08:03] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-19 17:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: popupsort
+[2023-04-19 17:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bns-utils
+[2023-04-19 17:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gocart
+[2023-04-19 17:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiida-project
+[2023-04-19 17:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: concurrent-plugin
+[2023-04-19 17:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matflow-new
+[2023-04-19 17:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pscrape
+[2023-04-19 17:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ypricemagic
+[2023-04-19 17:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hiddifypanel
+[2023-04-19 17:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: supertokens-python
+[2023-04-19 17:08:04] INFO root fetch - processPackages [bns-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 17:08:04] INFO root fetch - processPackages [concurrent-plugin]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-19 17:08:04] INFO root fetch - processPackages [gocart]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 17:08:04] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a8] Old Version: [0.3.0a7]
+[2023-04-19 17:08:04] INFO root fetch - processPackages [popupsort]: New version: [1.6] Old Version: [1.5.3]
+[2023-04-19 17:08:04] WARNING root fetch - processPackages [aiida-project]: Skipping, unable to determine old version
+[2023-04-19 17:08:04] INFO root fetch - processPackages [aiida-project]: Start processing: mysql-type-plugin
+[2023-04-19 17:08:04] INFO root fetch - main [MainThread]: End processing [aiida-project] error
+[2023-04-19 17:08:04] INFO root fetch - processPackages [supertokens-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-19 17:08:04] INFO root fetch - processPackages [pscrape]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 17:08:04] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.0.dev63] Old Version: [4.0.0.dev62]
+[2023-04-19 17:08:04] INFO root fetch - processPackages [ypricemagic]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-04-19 17:08:04] INFO root fetch - processPackages [mysql-type-plugin]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 17:08:04] INFO root fetch - processPackages [supertokens-python]: executing diffoscope
+[2023-04-19 17:08:04] INFO root fetch - processPackages [supertokens-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supertokens_python-0.9.0.tar.gz tmp/supertokens_python-0.9.1.tar.gz --markdown 20230419/s/supertokens-python/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-19 17:08:04] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-04-19 17:08:04] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.1.8.tar.gz tmp/ypricemagic-2.1.9.tar.gz --markdown 20230419/y/ypricemagic/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-04-19 17:08:04] INFO root fetch - processPackages [bns-utils]: Downloading https://files.pythonhosted.org/packages/c4/7a/41219dc6b4e6199371301c1a0cd6dfd68e34e02cbfbc5e5b00e6cb5ce7f0/bns_utils-0.0.1.tar.gz
+[2023-04-19 17:08:04] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/bd/43/f9fd1609e7000de2c86624bf80fef43b9abb617a88c0ae6ed61d9d69a028/matflow_new-0.3.0a7.tar.gz
+[2023-04-19 17:08:04] INFO root fetch - processPackages [popupsort]: Downloading https://files.pythonhosted.org/packages/4a/d4/5d58090df05834bf88aefd29c1dad787c6ef931b44ebf98de1db533727b9/popupsort-1.5.3.tar.gz
+[2023-04-19 17:08:04] INFO root fetch - processPackages [gocart]: Downloading https://files.pythonhosted.org/packages/8e/27/9e54413754e00f0e4ea9c9d90a6f6fd84c59ac64207160e334093d5512ee/gocart-0.1.8.tar.gz
+[2023-04-19 17:08:04] INFO root fetch - processPackages [pscrape]: Downloading https://files.pythonhosted.org/packages/c6/8d/980c01edcd6cf34ca374806990feb5412f88ee60166636b3b3721edcf8e2/pscrape-0.0.2.tar.gz
+[2023-04-19 17:08:04] INFO root fetch - processPackages [mysql-type-plugin]: Downloading https://files.pythonhosted.org/packages/5a/29/72eb39a4eb77c0917f25d0b4294027387d91d941663025d169a9714f26be/mysql_type_plugin-0.1.8.tar.gz
+[2023-04-19 17:08:04] INFO root fetch - processPackages [concurrent-plugin]: Downloading https://files.pythonhosted.org/packages/ef/bc/2bf511f3e6b83e04243632217ebf1c15494bc55eace9221e885a463e9a2d/concurrent_plugin-0.4.4-py3-none-any.whl
+[2023-04-19 17:08:04] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/b7/2e/8f21caeab1d43453cb17921e83cb8773d43cdfa4934ea37393d0d3f91f37/hiddifypanel-4.0.0.dev63-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-19 17:08:04] INFO root fetch - processPackages [bns-utils]: Downloading https://files.pythonhosted.org/packages/a4/cc/17a2cc6b040e05574f83eca30245cfbad324ddafbc9f886dc9eb650a6efa/bns_utils-0.0.2.tar.gz
+[2023-04-19 17:08:04] INFO root fetch - processPackages [popupsort]: Downloading https://files.pythonhosted.org/packages/3e/e9/99d7e79a95c18bf5b1f70de595c984b27d9092a79e0a5d2ff101244b222b/popupsort-1.6.tar.gz
+[2023-04-19 17:08:04] INFO root fetch - processPackages [pscrape]: Downloading https://files.pythonhosted.org/packages/d5/dc/0618e574f3e16b4b3257815744074f833085dab29e7bcc0722636b66f9c2/pscrape-0.0.3.tar.gz
+[2023-04-19 17:08:04] INFO root fetch - processPackages [gocart]: Downloading https://files.pythonhosted.org/packages/33/28/c3b60baaac7913c0cab226e96ac7ada952f2b2c5acbc02191c0b7a0c78cf/gocart-0.1.9.tar.gz
+[2023-04-19 17:08:04] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/33/06/64bf36c9f9b85be9b3b28a1d21d5a2698384823379079834bc89f2af1e7e/matflow_new-0.3.0a8.tar.gz
+[2023-04-19 17:08:04] INFO root fetch - processPackages [concurrent-plugin]: executing diffoscope
+[2023-04-19 17:08:04] INFO root fetch - processPackages [concurrent-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concurrent_plugin-0.4.3-py3-none-any.whl.zip tmp/concurrent_plugin-0.4.4-py3-none-any.whl.zip --markdown 20230419/c/concurrent-plugin/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-19 17:08:04] INFO root fetch - processPackages [bns-utils]: executing diffoscope
+[2023-04-19 17:08:04] INFO root fetch - processPackages [bns-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bns_utils-0.0.1.tar.gz tmp/bns_utils-0.0.2.tar.gz --markdown 20230419/b/bns-utils/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 17:08:04] INFO root fetch - processPackages [pscrape]: executing diffoscope
+[2023-04-19 17:08:04] INFO root fetch - processPackages [popupsort]: executing diffoscope
+[2023-04-19 17:08:04] INFO root fetch - processPackages [popupsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popupsort-1.5.3.tar.gz tmp/popupsort-1.6.tar.gz --markdown 20230419/p/popupsort/1.5.3-1.6/diff.md --exclude *.pyd
+[2023-04-19 17:08:04] INFO root fetch - processPackages [pscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pscrape-0.0.2.tar.gz tmp/pscrape-0.0.3.tar.gz --markdown 20230419/p/pscrape/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 17:08:04] INFO root fetch - processPackages [gocart]: executing diffoscope
+[2023-04-19 17:08:04] INFO root fetch - processPackages [gocart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gocart-0.1.8.tar.gz tmp/gocart-0.1.9.tar.gz --markdown 20230419/g/gocart/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 17:08:04] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-04-19 17:08:04] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a7.tar.gz tmp/matflow_new-0.3.0a8.tar.gz --markdown 20230419/m/matflow-new/0.3.0a7-0.3.0a8/diff.md --exclude *.pyd
+[2023-04-19 17:08:04] INFO root fetch - processPackages [mysql-type-plugin]: Downloading https://files.pythonhosted.org/packages/9b/07/1e2b2973642aee972715f3b174d96254cec99601964a5b5ee7339b640b07/mysql_type_plugin-0.1.9.tar.gz
+[2023-04-19 17:08:05] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-19 17:08:05] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.0.dev62-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.0.dev63-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230419/h/hiddifypanel/4.0.0.dev62-4.0.0.dev63/diff.md --exclude *.pyd
+[2023-04-19 17:08:05] INFO root fetch - processPackages [mysql-type-plugin]: executing diffoscope
+[2023-04-19 17:08:05] INFO root fetch - processPackages [mysql-type-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_type_plugin-0.1.8.tar.gz tmp/mysql_type_plugin-0.1.9.tar.gz --markdown 20230419/m/mysql-type-plugin/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 17:08:06] INFO root fetch - processPackages [concurrent-plugin]: Start processing: st-phot
+[2023-04-19 17:08:06] INFO root fetch - main [MainThread]: End processing [concurrent-plugin]: success
+[2023-04-19 17:08:06] INFO root fetch - processPackages [st-phot]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-19 17:08:06] INFO root fetch - processPackages [ypricemagic]: Start processing: cgul
+[2023-04-19 17:08:06] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-04-19 17:08:06] INFO root fetch - processPackages [popupsort]: Start processing: PyNiteFEA
+[2023-04-19 17:08:06] INFO root fetch - main [MainThread]: End processing [popupsort]: success
+[2023-04-19 17:08:06] INFO root fetch - processPackages [cgul]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-19 17:08:06] INFO root fetch - processPackages [st-phot]: Downloading https://files.pythonhosted.org/packages/ad/ee/72398e8e7ba7edfeac18ecc05574ee1a14c76fb251266220e14ecda5b1e9/st_phot-0.0.9-py3-none-any.whl
+[2023-04-19 17:08:06] INFO root fetch - processPackages [PyNiteFEA]: New version: [0.0.73] Old Version: [0.0.72]
+[2023-04-19 17:08:06] INFO root fetch - processPackages [cgul]: Downloading https://files.pythonhosted.org/packages/e7/8c/229bb3af95e1686f1964be0b0a48925976c0c9fe0ee1079775dc634418fa/cgul-0.0.2.tar.gz
+[2023-04-19 17:08:06] INFO root fetch - processPackages [matflow-new]: Start processing: ovos-skill-fallback-unknown
+[2023-04-19 17:08:06] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-04-19 17:08:06] INFO root fetch - processPackages [pscrape]: Start processing: EdiHeadyTrack
+[2023-04-19 17:08:06] INFO root fetch - main [MainThread]: End processing [pscrape]: success
+[2023-04-19 17:08:06] INFO root fetch - processPackages [bns-utils]: Start processing: d-popcorn
+[2023-04-19 17:08:06] INFO root fetch - main [MainThread]: End processing [bns-utils]: success
+[2023-04-19 17:08:06] INFO root fetch - processPackages [PyNiteFEA]: Downloading https://files.pythonhosted.org/packages/8a/91/c4eefb96c3e0fa549568d3d9fa5eb3e7d132aa1f251dbf8e9dd2e968d64e/PyNiteFEA-0.0.72.tar.gz
+[2023-04-19 17:08:06] INFO root fetch - processPackages [d-popcorn]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 17:08:06] INFO root fetch - main [MainThread]: End processing [gocart]: success
+[2023-04-19 17:08:06] INFO root fetch - processPackages [ovos-skill-fallback-unknown]: New version: [0.0.3a3] Old Version: [0.0.3a2]
+[2023-04-19 17:08:06] WARNING root fetch - processPackages [EdiHeadyTrack]: Skipping, unable to determine old version
+[2023-04-19 17:08:06] INFO root fetch - main [MainThread]: End processing [EdiHeadyTrack] error
+[2023-04-19 17:08:06] INFO root fetch - processPackages [d-popcorn]: executing diffoscope
+[2023-04-19 17:08:06] INFO root fetch - processPackages [d-popcorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d-popcorn-1.0.0.tar.gz tmp/d-popcorn-1.0.1.tar.gz --markdown 20230419/d/d-popcorn/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 17:08:06] INFO root fetch - processPackages [cgul]: Downloading https://files.pythonhosted.org/packages/d4/7c/df15e9ddfbcc551dd4005ba67910cdc4243bd746981c35eab12477f11868/cgul-0.0.3.tar.gz
+[2023-04-19 17:08:06] INFO root fetch - processPackages [PyNiteFEA]: Downloading https://files.pythonhosted.org/packages/ba/8f/77b8f812c3ed6f9938e47b87e9932a3dc4163429a340a721b06ae63ac55e/PyNiteFEA-0.0.73.tar.gz
+[2023-04-19 17:08:06] INFO root fetch - processPackages [ovos-skill-fallback-unknown]: Downloading https://files.pythonhosted.org/packages/bd/7f/ee8f617eb1c07556ab01c1f25d67a64aab1b824104eec7fc4976b85ffe7a/ovos_skill_fallback_unknown-0.0.3a2-py3-none-any.whl
+[2023-04-19 17:08:06] WARNING root fetch - processPackages [st-phot]: Skipping package: exceeds size limit 18682752>=10485760
+[2023-04-19 17:08:06] INFO root fetch - main [MainThread]: End processing [st-phot] error
+[2023-04-19 17:08:06] INFO root fetch - processPackages [cgul]: executing diffoscope
+[2023-04-19 17:08:06] INFO root fetch - processPackages [cgul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgul-0.0.2.tar.gz tmp/cgul-0.0.3.tar.gz --markdown 20230419/c/cgul/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-19 17:08:06] INFO root fetch - main [MainThread]: End processing [mysql-type-plugin]: success
+[2023-04-19 17:08:06] INFO root fetch - processPackages [PyNiteFEA]: executing diffoscope
+[2023-04-19 17:08:06] INFO root fetch - processPackages [PyNiteFEA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNiteFEA-0.0.72.tar.gz tmp/PyNiteFEA-0.0.73.tar.gz --markdown 20230419/P/PyNiteFEA/0.0.72-0.0.73/diff.md --exclude *.pyd
+[2023-04-19 17:08:07] INFO root fetch - processPackages [ovos-skill-fallback-unknown]: Downloading https://files.pythonhosted.org/packages/56/62/4a71a4428929746b3d8431392849ae6d192dbb135f050467d9d9822714e6/ovos_skill_fallback_unknown-0.0.3a3-py3-none-any.whl
+[2023-04-19 17:08:07] INFO root fetch - processPackages [ovos-skill-fallback-unknown]: executing diffoscope
+[2023-04-19 17:08:07] INFO root fetch - processPackages [ovos-skill-fallback-unknown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_fallback_unknown-0.0.3a2-py3-none-any.whl.zip tmp/ovos_skill_fallback_unknown-0.0.3a3-py3-none-any.whl.zip --markdown 20230419/o/ovos-skill-fallback-unknown/0.0.3a2-0.0.3a3/diff.md --exclude *.pyd
+[2023-04-19 17:08:07] INFO root fetch - main [MainThread]: End processing [d-popcorn]: success
+[2023-04-19 17:08:07] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
+[2023-04-19 17:08:08] INFO root fetch - main [MainThread]: End processing [cgul]: success
+[2023-04-19 17:08:08] INFO root fetch - main [MainThread]: End processing [PyNiteFEA]: success
+[2023-04-19 17:08:08] INFO root fetch - main [MainThread]: End processing [ovos-skill-fallback-unknown]: success
+[2023-04-19 17:08:20] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-19 17:08:20] INFO root fetch - main [MainThread]: Store serial: [17772680]
