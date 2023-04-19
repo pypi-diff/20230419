@@ -22364,3 +22364,150 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 20:50:13] INFO root fetch - main [MainThread]: End processing [kachery-cloud]: success
 [2023-04-19 20:50:18] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-19 20:50:18] INFO root fetch - main [MainThread]: Store serial: [17775370]
+[2023-04-19 20:55:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17775370]
+[2023-04-19 20:55:27] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-19 20:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crosslab-api-client
+[2023-04-19 20:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crosslab-soa-client
+[2023-04-19 20:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crosslab-soa-service-electrical
+[2023-04-19 20:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crosslab-soa-service-file
+[2023-04-19 20:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crosslab-soa-service-message
+[2023-04-19 20:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sydney-py
+[2023-04-19 20:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crosslab-soa-service-webcam
+[2023-04-19 20:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-snowflake
+[2023-04-19 20:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyBCV
+[2023-04-19 20:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: toxicTrig
+[2023-04-19 20:55:27] INFO root fetch - processPackages [crosslab-soa-client]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 20:55:27] INFO root fetch - processPackages [crosslab-soa-service-message]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 20:55:27] INFO root fetch - processPackages [crosslab-api-client]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 20:55:27] INFO root fetch - processPackages [crosslab-soa-service-electrical]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 20:55:27] INFO root fetch - processPackages [pyBCV]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-19 20:55:27] INFO root fetch - processPackages [crosslab-soa-service-webcam]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 20:55:27] INFO root fetch - processPackages [crosslab-soa-service-file]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 20:55:27] INFO root fetch - processPackages [toxicTrig]: New version: [0.3.0] Old Version: [0.1]
+[2023-04-19 20:55:27] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-04-19 20:55:27] INFO root fetch - processPackages [sydney-py]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 20:55:27] INFO root fetch - processPackages [sydney-py]: executing diffoscope
+[2023-04-19 20:55:27] INFO root fetch - processPackages [sydney-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydney_py-0.8.0.tar.gz tmp/sydney_py-0.9.0.tar.gz --markdown 20230419/s/sydney-py/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 20:55:27] INFO root fetch - processPackages [crosslab-api-client]: Downloading https://files.pythonhosted.org/packages/cf/6a/3a462c1376f3cbe323329fd7c6ed20c40d415ee4575a9c3254b174d53d81/crosslab_api_client-0.2.1.tar.gz
+[2023-04-19 20:55:27] INFO root fetch - processPackages [crosslab-soa-client]: Downloading https://files.pythonhosted.org/packages/3b/33/c5ab9b987f4f0c6d85f83e069be007a7dc73003f72a9292252abc34014a3/crosslab_soa_client-0.2.1.tar.gz
+[2023-04-19 20:55:27] INFO root fetch - processPackages [crosslab-soa-service-message]: Downloading https://files.pythonhosted.org/packages/d8/69/dc2ed1469d251eece1d6854f44dcfa0ca0ab8edc8c5e8f6b9c7aea837ef8/crosslab_soa_service_message-0.2.1.tar.gz
+[2023-04-19 20:55:27] INFO root fetch - processPackages [pyBCV]: Downloading https://files.pythonhosted.org/packages/fd/c2/20c3cfa860c799da61c822f11c964b431a346baab00895d6cb2e30cef22f/pyBCV-1.0.2-py3-none-any.whl
+[2023-04-19 20:55:27] INFO root fetch - processPackages [crosslab-soa-service-webcam]: Downloading https://files.pythonhosted.org/packages/1a/dc/eb1bcf2269503d48b5d85bd4180a0935a63dd0a92008fcdb33b213cfc9ed/crosslab_soa_service_webcam-0.2.1.tar.gz
+[2023-04-19 20:55:27] INFO root fetch - processPackages [crosslab-soa-service-file]: Downloading https://files.pythonhosted.org/packages/87/84/2f4ca6443ff1d0b30cfb39ea9fb7c7ec67a5a0a796aae7936a342ae3dde8/crosslab_soa_service_file-0.2.1.tar.gz
+[2023-04-19 20:55:27] INFO root fetch - processPackages [crosslab-soa-service-electrical]: Downloading https://files.pythonhosted.org/packages/c2/b3/52d4facad48a98cf9d93464abfda8fbad34856a7bfe6dcf28d2122c8a989/crosslab_soa_service_electrical-0.2.1.tar.gz
+[2023-04-19 20:55:27] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2023-04-19 20:55:28] INFO root fetch - processPackages [toxicTrig]: Downloading https://files.pythonhosted.org/packages/b1/5f/7a703c2746e2644ed4fb26787aa0c46e39493a5a634579290bc39b3c5db4/toxicTrig-0.3.0.tar.gz
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-api-client]: Downloading https://files.pythonhosted.org/packages/2d/05/3fb78733db5162fc4e9b3f3ce556e53d1a19d4ce301e7755a7b58dda690c/crosslab_api_client-0.2.2.tar.gz
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-client]: Downloading https://files.pythonhosted.org/packages/b7/28/a6b5bbede943135c1730f2194288febc9128ff27496a22cedd43fee676e3/crosslab_soa_client-0.2.2.tar.gz
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-service-message]: Downloading https://files.pythonhosted.org/packages/fb/1e/f7be0e84d9306aa8ebc209c75bffbc48807e2cd0182224e105bc901cbcbb/crosslab_soa_service_message-0.2.2.tar.gz
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-service-webcam]: Downloading https://files.pythonhosted.org/packages/68/8c/6feb87272e98678d31d1d9a0faf03b53d61b664feac76b36ed03e037169b/crosslab_soa_service_webcam-0.2.2.tar.gz
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-service-file]: Downloading https://files.pythonhosted.org/packages/83/46/99863ceb057401317ab9e2c426884bd367b6e3f8371367435ecfc5285df8/crosslab_soa_service_file-0.2.2.tar.gz
+[2023-04-19 20:55:28] INFO root fetch - processPackages [toxicTrig]: executing diffoscope
+[2023-04-19 20:55:28] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2023-04-19 20:55:28] INFO root fetch - processPackages [toxicTrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toxicTrig-0.1.tar.gz tmp/toxicTrig-0.3.0.tar.gz --markdown 20230419/t/toxicTrig/0.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-19 20:55:28] INFO root fetch - processPackages [pyBCV]: Downloading https://files.pythonhosted.org/packages/2c/4e/67dad4da53dabf59cf987b3a27b6ad5e7bc0055f53617774610fa40cfcbd/pyBCV-1.0.3-py3-none-any.whl
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-service-electrical]: Downloading https://files.pythonhosted.org/packages/89/cc/0db35fde4a4d3f3dc092ae1995e544b0fddd07a511292f8bee69c67c57c9/crosslab_soa_service_electrical-0.2.2.tar.gz
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-api-client]: executing diffoscope
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_api_client-0.2.1.tar.gz tmp/crosslab_api_client-0.2.2.tar.gz --markdown 20230419/c/crosslab-api-client/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-client]: executing diffoscope
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_client-0.2.1.tar.gz tmp/crosslab_soa_client-0.2.2.tar.gz --markdown 20230419/c/crosslab-soa-client/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-service-message]: executing diffoscope
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-service-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_service_message-0.2.1.tar.gz tmp/crosslab_soa_service_message-0.2.2.tar.gz --markdown 20230419/c/crosslab-soa-service-message/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-service-webcam]: executing diffoscope
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-service-webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_service_webcam-0.2.1.tar.gz tmp/crosslab_soa_service_webcam-0.2.2.tar.gz --markdown 20230419/c/crosslab-soa-service-webcam/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-service-file]: executing diffoscope
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-service-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_service_file-0.2.1.tar.gz tmp/crosslab_soa_service_file-0.2.2.tar.gz --markdown 20230419/c/crosslab-soa-service-file/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 20:55:28] INFO root fetch - processPackages [pyBCV]: executing diffoscope
+[2023-04-19 20:55:28] INFO root fetch - processPackages [pyBCV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBCV-1.0.2-py3-none-any.whl.zip tmp/pyBCV-1.0.3-py3-none-any.whl.zip --markdown 20230419/p/pyBCV/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-service-electrical]: executing diffoscope
+[2023-04-19 20:55:28] INFO root fetch - processPackages [crosslab-soa-service-electrical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosslab_soa_service_electrical-0.2.1.tar.gz tmp/crosslab_soa_service_electrical-0.2.2.tar.gz --markdown 20230419/c/crosslab-soa-service-electrical/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 20:55:28] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-04-19 20:55:28] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230419/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-04-19 20:55:29] INFO root fetch - processPackages [sydney-py]: Start processing: supergood
+[2023-04-19 20:55:29] INFO root fetch - main [MainThread]: End processing [sydney-py]: success
+[2023-04-19 20:55:29] INFO root fetch - processPackages [supergood]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 20:55:29] INFO root fetch - processPackages [supergood]: executing diffoscope
+[2023-04-19 20:55:29] INFO root fetch - processPackages [supergood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supergood-1.0.8.tar.gz tmp/supergood-1.0.9.tar.gz --markdown 20230419/s/supergood/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 20:55:29] INFO root fetch - processPackages [toxicTrig]: Start processing: goodai-ltm
+[2023-04-19 20:55:29] INFO root fetch - main [MainThread]: End processing [toxicTrig]: success
+[2023-04-19 20:55:29] INFO root fetch - processPackages [goodai-ltm]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 20:55:30] INFO root fetch - processPackages [crosslab-soa-service-webcam]: Start processing: nipreps
+[2023-04-19 20:55:30] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-webcam]: success
+[2023-04-19 20:55:30] WARNING root fetch - processPackages [nipreps]: Skipping, unable to determine old version
+[2023-04-19 20:55:30] INFO root fetch - processPackages [nipreps]: Start processing: aionotion
+[2023-04-19 20:55:30] INFO root fetch - main [MainThread]: End processing [nipreps] error
+[2023-04-19 20:55:30] INFO root fetch - processPackages [goodai-ltm]: Downloading https://files.pythonhosted.org/packages/18/63/9e57a19079245a5337fa4a557ae3b9ed1e34dbeb2275b83b5e89351b17eb/goodai-ltm-0.0.4.tar.gz
+[2023-04-19 20:55:30] INFO root fetch - processPackages [aionotion]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-04-19 20:55:30] INFO root fetch - processPackages [crosslab-soa-service-message]: Start processing: ytmusicapi
+[2023-04-19 20:55:30] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-message]: success
+[2023-04-19 20:55:30] INFO root fetch - processPackages [crosslab-soa-client]: Start processing: shub-workflow
+[2023-04-19 20:55:30] INFO root fetch - main [MainThread]: End processing [crosslab-soa-client]: success
+[2023-04-19 20:55:30] INFO root fetch - processPackages [ytmusicapi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 20:55:30] INFO root fetch - processPackages [pyBCV]: Start processing: pisensors
+[2023-04-19 20:55:30] INFO root fetch - main [MainThread]: End processing [pyBCV]: success
+[2023-04-19 20:55:30] INFO root fetch - processPackages [crosslab-soa-service-file]: Start processing: sdgrate
+[2023-04-19 20:55:30] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-file]: success
+[2023-04-19 20:55:30] INFO root fetch - processPackages [shub-workflow]: New version: [1.9.7.4] Old Version: [1.9.7.3]
+[2023-04-19 20:55:30] INFO root fetch - processPackages [pisensors]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-04-19 20:55:30] INFO root fetch - processPackages [sdgrate]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-19 20:55:30] INFO root fetch - processPackages [goodai-ltm]: executing diffoscope
+[2023-04-19 20:55:30] INFO root fetch - processPackages [goodai-ltm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodai-ltm-0.0.3.tar.gz tmp/goodai-ltm-0.0.4.tar.gz --markdown 20230419/g/goodai-ltm/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 20:55:30] INFO root fetch - processPackages [ytmusicapi]: Downloading https://files.pythonhosted.org/packages/8c/34/796777ebcd224d4b7deefa73be529c45e2f0f24bc9fba0b63f6555e353f0/ytmusicapi-1.0.0.tar.gz
+[2023-04-19 20:55:30] INFO root fetch - processPackages [aionotion]: Downloading https://files.pythonhosted.org/packages/d2/42/38af64fda93eab141ff7953210d2bfa71461fa041ff321c2469fae19dfeb/aionotion-3.0.1.tar.gz
+[2023-04-19 20:55:30] INFO root fetch - processPackages [crosslab-soa-service-electrical]: Start processing: sphinx-genai-summaries
+[2023-04-19 20:55:30] INFO root fetch - main [MainThread]: End processing [crosslab-soa-service-electrical]: success
+[2023-04-19 20:55:30] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/b8/b5/f37b87a1a4c72917366bc3b9794f1729c62b0130131750ba52c35c41e5e4/shub-workflow-1.9.7.3.tar.gz
+[2023-04-19 20:55:30] WARNING root fetch - processPackages [sphinx-genai-summaries]: Skipping, unable to determine old version
+[2023-04-19 20:55:30] INFO root fetch - processPackages [sphinx-genai-summaries]: Start processing: pyChatGPT-heroku
+[2023-04-19 20:55:30] INFO root fetch - main [MainThread]: End processing [sphinx-genai-summaries] error
+[2023-04-19 20:55:30] INFO root fetch - processPackages [pisensors]: Downloading https://files.pythonhosted.org/packages/4d/eb/9d3cb2fea49634a74686e1bf83fc957349e3bfed23d85ac04dbb2043dff9/pisensors-0.3.2.tar.gz
+[2023-04-19 20:55:30] WARNING root fetch - processPackages [pyChatGPT-heroku]: Skipping, unable to determine old version
+[2023-04-19 20:55:30] INFO root fetch - processPackages [pyChatGPT-heroku]: Start processing: geather
+[2023-04-19 20:55:30] INFO root fetch - main [MainThread]: End processing [pyChatGPT-heroku] error
+[2023-04-19 20:55:30] WARNING root fetch - processPackages [geather]: Skipping, unable to determine old version
+[2023-04-19 20:55:30] INFO root fetch - processPackages [geather]: Start processing: django-js-choices
+[2023-04-19 20:55:30] INFO root fetch - main [MainThread]: End processing [geather] error
+[2023-04-19 20:55:30] INFO root fetch - processPackages [django-js-choices]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-19 20:55:30] INFO root fetch - processPackages [sdgrate]: Downloading https://files.pythonhosted.org/packages/50/9e/f1375693c38cfd8f2ea9e9ccec6ff6d7d0bf83b5d2653e121d44f9229b3d/sdgrate-0.2.3.tar.gz
+[2023-04-19 20:55:30] INFO root fetch - processPackages [ytmusicapi]: Downloading https://files.pythonhosted.org/packages/23/83/134c6ff361e15b3697a2ccd114a142342f82d22635e0b7551c6351f60960/ytmusicapi-1.0.1.tar.gz
+[2023-04-19 20:55:30] INFO root fetch - processPackages [aionotion]: Downloading https://files.pythonhosted.org/packages/22/6d/d6ae4c277ccd4e1336a048e2de5585363472505d853a6ab2505e23c3a322/aionotion-3.0.2.tar.gz
+[2023-04-19 20:55:30] INFO root fetch - processPackages [pisensors]: Downloading https://files.pythonhosted.org/packages/f7/eb/a43e8408685febcb170e4ce1779b7863efe1d9bafec97d7fa21068c96c87/pisensors-0.4.0.tar.gz
+[2023-04-19 20:55:30] INFO root fetch - processPackages [django-js-choices]: Downloading https://files.pythonhosted.org/packages/61/4b/3e2afec5204ab67aa09745fd4a83ef0127c9fe4efda10181b869098637c5/django-js-choices-0.4.0.tar.gz
+[2023-04-19 20:55:30] INFO root fetch - processPackages [sdgrate]: executing diffoscope
+[2023-04-19 20:55:30] INFO root fetch - processPackages [sdgrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdgrate-0.2.2.tar.gz tmp/sdgrate-0.2.3.tar.gz --markdown 20230419/s/sdgrate/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-19 20:55:30] INFO root fetch - processPackages [ytmusicapi]: executing diffoscope
+[2023-04-19 20:55:30] INFO root fetch - processPackages [ytmusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytmusicapi-1.0.0.tar.gz tmp/ytmusicapi-1.0.1.tar.gz --markdown 20230419/y/ytmusicapi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 20:55:30] INFO root fetch - processPackages [supergood]: Start processing: asyncbg
+[2023-04-19 20:55:30] INFO root fetch - main [MainThread]: End processing [supergood]: success
+[2023-04-19 20:55:30] INFO root fetch - processPackages [asyncbg]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 20:55:30] INFO root fetch - processPackages [pisensors]: executing diffoscope
+[2023-04-19 20:55:30] INFO root fetch - processPackages [pisensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisensors-0.3.2.tar.gz tmp/pisensors-0.4.0.tar.gz --markdown 20230419/p/pisensors/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-04-19 20:55:30] INFO root fetch - processPackages [aionotion]: executing diffoscope
+[2023-04-19 20:55:30] INFO root fetch - processPackages [aionotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aionotion-3.0.1.tar.gz tmp/aionotion-3.0.2.tar.gz --markdown 20230419/a/aionotion/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-04-19 20:55:30] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/06/49/c3ec898ce5372e567e1a288374d950650ae37bcffa6f46c6d7233228eee6/shub-workflow-1.9.7.4.tar.gz
+[2023-04-19 20:55:30] INFO root fetch - processPackages [asyncbg]: executing diffoscope
+[2023-04-19 20:55:30] INFO root fetch - processPackages [asyncbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncbg-0.8.0.tar.gz tmp/asyncbg-0.9.0-py2.py3-none-any.whl.zip --markdown 20230419/a/asyncbg/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 20:55:31] INFO root fetch - processPackages [shub-workflow]: executing diffoscope
+[2023-04-19 20:55:31] INFO root fetch - processPackages [shub-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shub-workflow-1.9.7.3.tar.gz tmp/shub-workflow-1.9.7.4.tar.gz --markdown 20230419/s/shub-workflow/1.9.7.3-1.9.7.4/diff.md --exclude *.pyd
+[2023-04-19 20:55:31] INFO root fetch - processPackages [django-js-choices]: Downloading https://files.pythonhosted.org/packages/88/a2/feab63971cd9caff68c500ac5b34ba817ccafe07065c551f0f68617e244f/django_js_choices-0.5.0.tar.gz
+[2023-04-19 20:55:31] INFO root fetch - processPackages [django-js-choices]: executing diffoscope
+[2023-04-19 20:55:31] INFO root fetch - processPackages [django-js-choices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-js-choices-0.4.0.tar.gz tmp/django_js_choices-0.5.0.tar.gz --markdown 20230419/d/django-js-choices/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-19 20:55:31] INFO root fetch - processPackages [goodai-ltm]: Start processing: pybeef
+[2023-04-19 20:55:31] INFO root fetch - main [MainThread]: End processing [goodai-ltm]: success
+[2023-04-19 20:55:31] INFO root fetch - processPackages [pybeef]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 20:55:31] INFO root fetch - processPackages [pybeef]: executing diffoscope
+[2023-04-19 20:55:31] INFO root fetch - processPackages [pybeef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybeef-0.0.8-py3-none-any.whl.zip tmp/pybeef-0.0.9-py3-none-any.whl.zip --markdown 20230419/p/pybeef/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 20:55:32] INFO root fetch - processPackages [asyncbg]: Start processing: azure-ai-translation-text
+[2023-04-19 20:55:32] INFO root fetch - main [MainThread]: End processing [asyncbg]: success
+[2023-04-19 20:55:32] INFO root fetch - main [MainThread]: End processing [pisensors]: success
+[2023-04-19 20:55:32] WARNING root fetch - processPackages [azure-ai-translation-text]: Skipping, unable to determine old version
+[2023-04-19 20:55:32] INFO root fetch - main [MainThread]: End processing [azure-ai-translation-text] error
+[2023-04-19 20:55:32] INFO root fetch - main [MainThread]: End processing [aionotion]: success
+[2023-04-19 20:55:32] INFO root fetch - main [MainThread]: End processing [django-js-choices]: success
+[2023-04-19 20:55:32] INFO root fetch - main [MainThread]: End processing [pybeef]: success
+[2023-04-19 20:55:32] INFO root fetch - main [MainThread]: End processing [crosslab-api-client]: success
+[2023-04-19 20:55:33] INFO root fetch - main [MainThread]: End processing [shub-workflow]: success
+[2023-04-19 20:55:33] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-04-19 20:55:33] INFO root fetch - main [MainThread]: End processing [ytmusicapi]: success
+[2023-04-19 20:55:33] INFO root fetch - main [MainThread]: End processing [sdgrate]: success
+[2023-04-19 20:55:33] INFO root fetch - main [MainThread]: Store serial: [17775448]
