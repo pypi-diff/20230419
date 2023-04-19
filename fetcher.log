@@ -8799,3 +8799,126 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 09:16:24] INFO root fetch - main [MainThread]: End processing [plone.contentrules]: success
 [2023-04-19 09:16:32] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-19 09:16:32] INFO root fetch - main [MainThread]: Store serial: [17766958]
+[2023-04-19 09:21:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766958]
+[2023-04-19 09:21:42] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-19 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-seller-active
+[2023-04-19 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkov
+[2023-04-19 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plone.event
+[2023-04-19 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: causalab
+[2023-04-19 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mindsdb-evaluator
+[2023-04-19 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-hologram20220601
+[2023-04-19 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: genomenotebook
+[2023-04-19 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-purchase-stock-picking-invoice-link
+[2023-04-19 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plone.folder
+[2023-04-19 09:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sarus-data-spec-public
+[2023-04-19 09:21:42] INFO root fetch - processPackages [python-seller-active]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 09:21:42] INFO root fetch - processPackages [mindsdb-evaluator]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-19 09:21:42] INFO root fetch - processPackages [plone.event]: New version: [2.0.0] Old Version: [1.4.2]
+[2023-04-19 09:21:42] INFO root fetch - processPackages [alibabacloud-hologram20220601]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 09:21:42] INFO root fetch - processPackages [genomenotebook]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-04-19 09:21:42] WARNING root fetch - processPackages [causalab]: Skipping, unable to determine old version
+[2023-04-19 09:21:42] INFO root fetch - processPackages [causalab]: Start processing: pylity
+[2023-04-19 09:21:42] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-invoice-link]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-04-19 09:21:42] INFO root fetch - main [MainThread]: End processing [causalab] error
+[2023-04-19 09:21:42] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.0.1.dev2] Old Version: [3.0.1.dev0]
+[2023-04-19 09:21:42] INFO root fetch - processPackages [plone.folder]: New version: [4.0.0] Old Version: [3.1.0]
+[2023-04-19 09:21:42] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-19 09:21:42] INFO root fetch - processPackages [pylity]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 09:21:42] INFO root fetch - processPackages [python-seller-active]: Downloading https://files.pythonhosted.org/packages/c4/9d/026263d10ac874cfa14184ea5df49bc8c4478d754bee3e6d95362e415386/python_seller_active-0.0.3.tar.gz
+[2023-04-19 09:21:42] INFO root fetch - processPackages [alibabacloud-hologram20220601]: Downloading https://files.pythonhosted.org/packages/a4/f7/06486fc4513ba953a0a196acf74815c8f53a4b7360509d0cee9622ef3406/alibabacloud_hologram20220601-1.0.0.tar.gz
+[2023-04-19 09:21:42] INFO root fetch - processPackages [pylity]: executing diffoscope
+[2023-04-19 09:21:42] INFO root fetch - processPackages [pylity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylity-0.0.8.tar.gz tmp/pylity-0.0.9.tar.gz --markdown 20230419/p/pylity/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 09:21:42] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/d6/b1/147b1f6693642b6319147404e4980ccfef98ddaf2e93e90069dfabfcf1d5/genomenotebook-0.3.6.tar.gz
+[2023-04-19 09:21:42] INFO root fetch - processPackages [plone.event]: Downloading https://files.pythonhosted.org/packages/7b/f5/0fd466baf977437f5be65d1d0a1a9dcb503a275ee6e0051792a005d4d439/plone.event-1.4.2.tar.gz
+[2023-04-19 09:21:42] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-invoice-link]: Downloading https://files.pythonhosted.org/packages/0a/54/609bf00b17c3710ad770b80767eaa1a658056d56ca0f06df4cc6d40e0f3d/odoo_addon_purchase_stock_picking_invoice_link-16.0.1.0.0.5-py3-none-any.whl
+[2023-04-19 09:21:42] INFO root fetch - processPackages [plone.folder]: Downloading https://files.pythonhosted.org/packages/a8/18/8fd9a5f7d846a4fcc2666fcb653eb7e936d6757bde8ad589e4440fb52756/plone.folder-3.1.0.tar.gz
+[2023-04-19 09:21:42] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/49/a5/5fbf5c89a006765429fa5890277f9b7108abe2c080fad9ebc79838bff4c6/sarus_data_spec_public-3.0.1.dev2.tar.gz
+[2023-04-19 09:21:42] INFO root fetch - processPackages [mindsdb-evaluator]: Downloading https://files.pythonhosted.org/packages/3a/ca/8a47e34947b6d315198388fc79c8d03dd722db4116b05e6a508a62725301/mindsdb_evaluator-0.0.8.tar.gz
+[2023-04-19 09:21:42] WARNING root fetch - processPackages [genomenotebook]: Skipping package: exceeds size limit 17930851>=10485760
+[2023-04-19 09:21:42] INFO root fetch - processPackages [genomenotebook]: Start processing: daskcheck
+[2023-04-19 09:21:42] INFO root fetch - main [MainThread]: End processing [genomenotebook] error
+[2023-04-19 09:21:42] INFO root fetch - processPackages [daskcheck]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-19 09:21:43] INFO root fetch - processPackages [mindsdb-evaluator]: executing diffoscope
+[2023-04-19 09:21:43] INFO root fetch - processPackages [mindsdb-evaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindsdb_evaluator-0.0.7.tar.gz tmp/mindsdb_evaluator-0.0.8.tar.gz --markdown 20230419/m/mindsdb-evaluator/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-19 09:21:43] INFO root fetch - processPackages [python-seller-active]: Downloading https://files.pythonhosted.org/packages/3a/da/c9a0d2f6c88100d6f2053461257c6c150a5bfe2a76d46419e727300e8c24/python_seller_active-0.0.4.tar.gz
+[2023-04-19 09:21:43] INFO root fetch - processPackages [alibabacloud-hologram20220601]: Downloading https://files.pythonhosted.org/packages/13/d0/4aeb24788fdc455e218b6e874e56834c0c4e4e2ccf1e1f79c7a50de41dce/alibabacloud_hologram20220601-1.0.1.tar.gz
+[2023-04-19 09:21:43] INFO root fetch - processPackages [python-seller-active]: executing diffoscope
+[2023-04-19 09:21:43] INFO root fetch - processPackages [python-seller-active]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_seller_active-0.0.3.tar.gz tmp/python_seller_active-0.0.4.tar.gz --markdown 20230419/p/python-seller-active/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 09:21:43] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-04-19 09:21:43] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.0.1.dev0.tar.gz tmp/sarus_data_spec_public-3.0.1.dev2.tar.gz --markdown 20230419/s/sarus-data-spec-public/3.0.1.dev0-3.0.1.dev2/diff.md --exclude *.pyd
+[2023-04-19 09:21:43] INFO root fetch - processPackages [plone.event]: Downloading https://files.pythonhosted.org/packages/cd/47/0ba92afffd2d58f0b644584daf3058bdd6e83cf84c33ae1038402cd138c2/plone.event-2.0.0.tar.gz
+[2023-04-19 09:21:43] INFO root fetch - processPackages [alibabacloud-hologram20220601]: executing diffoscope
+[2023-04-19 09:21:43] INFO root fetch - processPackages [alibabacloud-hologram20220601]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_hologram20220601-1.0.0.tar.gz tmp/alibabacloud_hologram20220601-1.0.1.tar.gz --markdown 20230419/a/alibabacloud-hologram20220601/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 09:21:43] INFO root fetch - processPackages [plone.folder]: Downloading https://files.pythonhosted.org/packages/78/80/0564d421aa0fa93aa4639416e42e9c38823b00999dc3bd48b6cfe6ed4733/plone.folder-4.0.0.tar.gz
+[2023-04-19 09:21:43] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-invoice-link]: Downloading https://files.pythonhosted.org/packages/c6/80/4b0f6e63f1a78dd1fa21a51c2c1c0737b5127820f867c16d1db85e8c5faa/odoo_addon_purchase_stock_picking_invoice_link-16.0.1.0.0.6-py3-none-any.whl
+[2023-04-19 09:21:43] INFO root fetch - processPackages [plone.event]: executing diffoscope
+[2023-04-19 09:21:43] INFO root fetch - processPackages [plone.event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.event-1.4.2.tar.gz tmp/plone.event-2.0.0.tar.gz --markdown 20230419/p/plone.event/1.4.2-2.0.0/diff.md --exclude *.pyd
+[2023-04-19 09:21:43] INFO root fetch - processPackages [plone.folder]: executing diffoscope
+[2023-04-19 09:21:43] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-invoice-link]: executing diffoscope
+[2023-04-19 09:21:43] INFO root fetch - processPackages [plone.folder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.folder-3.1.0.tar.gz tmp/plone.folder-4.0.0.tar.gz --markdown 20230419/p/plone.folder/3.1.0-4.0.0/diff.md --exclude *.pyd
+[2023-04-19 09:21:43] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-invoice-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_stock_picking_invoice_link-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_purchase_stock_picking_invoice_link-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-purchase-stock-picking-invoice-link/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-04-19 09:21:43] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-19 09:21:43] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230419/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-19 09:21:43] INFO root fetch - processPackages [daskcheck]: Downloading https://files.pythonhosted.org/packages/ec/e3/acc51c4760ce2887bc5c1a6f27c69ee203bcfe3ac5b4431506cb0552f8dc/daskcheck-0.0.5.tar.gz
+[2023-04-19 09:21:43] INFO root fetch - processPackages [daskcheck]: executing diffoscope
+[2023-04-19 09:21:43] INFO root fetch - processPackages [daskcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daskcheck-0.0.4.tar.gz tmp/daskcheck-0.0.5.tar.gz --markdown 20230419/d/daskcheck/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-19 09:21:44] INFO root fetch - processPackages [pylity]: Start processing: plt-cli
+[2023-04-19 09:21:44] INFO root fetch - main [MainThread]: End processing [pylity]: success
+[2023-04-19 09:21:44] INFO root fetch - processPackages [plt-cli]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-19 09:21:44] INFO root fetch - processPackages [python-seller-active]: Start processing: qontract-reconcile
+[2023-04-19 09:21:44] INFO root fetch - main [MainThread]: End processing [python-seller-active]: success
+[2023-04-19 09:21:44] INFO root fetch - processPackages [mindsdb-evaluator]: Start processing: macrometa-source-postgres
+[2023-04-19 09:21:44] INFO root fetch - main [MainThread]: End processing [mindsdb-evaluator]: success
+[2023-04-19 09:21:44] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-19 09:21:44] INFO root fetch - processPackages [macrometa-source-postgres]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-04-19 09:21:44] INFO root fetch - processPackages [alibabacloud-hologram20220601]: Start processing: macrometa-target-postgres
+[2023-04-19 09:21:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-hologram20220601]: success
+[2023-04-19 09:21:44] INFO root fetch - processPackages [macrometa-target-postgres]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 09:21:44] INFO root fetch - processPackages [plt-cli]: Downloading https://files.pythonhosted.org/packages/65/fd/3980481d266f4c6b6fcd5dca9d7169f522d0c548a87162b77f01fa4ebc42/plt-cli-0.1.5.tar.gz
+[2023-04-19 09:21:44] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-19 09:21:44] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230419/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-19 09:21:44] INFO root fetch - processPackages [daskcheck]: Start processing: Products.MimetypesRegistry
+[2023-04-19 09:21:44] INFO root fetch - main [MainThread]: End processing [daskcheck]: success
+[2023-04-19 09:21:44] INFO root fetch - processPackages [plone.event]: Start processing: superb-ai-curate
+[2023-04-19 09:21:44] INFO root fetch - main [MainThread]: End processing [plone.event]: success
+[2023-04-19 09:21:44] INFO root fetch - processPackages [Products.MimetypesRegistry]: New version: [3.0.0] Old Version: [2.1.9]
+[2023-04-19 09:21:44] WARNING root fetch - processPackages [superb-ai-curate]: Skipping, unable to determine old version
+[2023-04-19 09:21:44] INFO root fetch - processPackages [superb-ai-curate]: Start processing: pmarker
+[2023-04-19 09:21:44] INFO root fetch - main [MainThread]: End processing [superb-ai-curate] error
+[2023-04-19 09:21:44] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-invoice-link]: Start processing: jcmutils
+[2023-04-19 09:21:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-stock-picking-invoice-link]: success
+[2023-04-19 09:21:44] WARNING root fetch - processPackages [pmarker]: Skipping, unable to determine old version
+[2023-04-19 09:21:44] INFO root fetch - processPackages [pmarker]: Start processing: plone.base
+[2023-04-19 09:21:44] INFO root fetch - main [MainThread]: End processing [pmarker] error
+[2023-04-19 09:21:45] INFO root fetch - processPackages [jcmutils]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-04-19 09:21:45] INFO root fetch - processPackages [macrometa-source-postgres]: Downloading https://files.pythonhosted.org/packages/e3/48/17d71b642a652ec2ab920156d6dc47b5a0aa03eb217203f706fcc631f34d/macrometa-source-postgres-0.0.43.tar.gz
+[2023-04-19 09:21:45] INFO root fetch - main [MainThread]: End processing [plone.folder]: success
+[2023-04-19 09:21:45] INFO root fetch - processPackages [plt-cli]: Downloading https://files.pythonhosted.org/packages/0c/f2/55b666cd39ec411786b4dcf8e4c883af419e092814b401d14d7d73e0718f/plt-cli-0.1.6.tar.gz
+[2023-04-19 09:21:45] INFO root fetch - processPackages [macrometa-source-postgres]: executing diffoscope
+[2023-04-19 09:21:45] INFO root fetch - processPackages [macrometa-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-postgres-0.0.42.tar.gz tmp/macrometa-source-postgres-0.0.43.tar.gz --markdown 20230419/m/macrometa-source-postgres/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-04-19 09:21:45] INFO root fetch - processPackages [plone.base]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-19 09:21:45] INFO root fetch - processPackages [plt-cli]: executing diffoscope
+[2023-04-19 09:21:45] INFO root fetch - processPackages [plt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plt-cli-0.1.5.tar.gz tmp/plt-cli-0.1.6.tar.gz --markdown 20230419/p/plt-cli/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-19 09:21:45] INFO root fetch - processPackages [Products.MimetypesRegistry]: Downloading https://files.pythonhosted.org/packages/2d/5c/2d855b4fe993e50ee5a61545c21e33e6e8b322d0f03c740500e60c4f4031/Products.MimetypesRegistry-2.1.9.tar.gz
+[2023-04-19 09:21:45] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/72/f7/a38af15788ab425ecf63c0509676030090afb73382b34fa8e26d5694ae76/jcmutils-1.3.6.tar.gz
+[2023-04-19 09:21:45] INFO root fetch - processPackages [macrometa-target-postgres]: executing diffoscope
+[2023-04-19 09:21:45] INFO root fetch - processPackages [macrometa-target-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-postgres-0.0.8.tar.gz tmp/macrometa-target-postgres-0.0.9.tar.gz --markdown 20230419/m/macrometa-target-postgres/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 09:21:45] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/3c/62/a7159a169e1a8470110f0091c9c9d8136a3caaf277f023d5902762e8c374/jcmutils-1.3.7.tar.gz
+[2023-04-19 09:21:45] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-04-19 09:21:45] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.3.6.tar.gz tmp/jcmutils-1.3.7.tar.gz --markdown 20230419/j/jcmutils/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-04-19 09:21:45] INFO root fetch - processPackages [Products.MimetypesRegistry]: Downloading https://files.pythonhosted.org/packages/03/b9/6190862b4031ba396ea2bd94f13cdfc5183d24d61808cade09f2d5cd5a35/Products.MimetypesRegistry-3.0.0.tar.gz
+[2023-04-19 09:21:45] INFO root fetch - processPackages [plone.base]: Downloading https://files.pythonhosted.org/packages/6c/f3/0fda9ef5d209776ccf403e9dedba9b6ca2492fc5ec2941bcb8a1df12967e/plone.base-1.1.2.tar.gz
+[2023-04-19 09:21:45] INFO root fetch - processPackages [Products.MimetypesRegistry]: executing diffoscope
+[2023-04-19 09:21:45] INFO root fetch - processPackages [Products.MimetypesRegistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MimetypesRegistry-2.1.9.tar.gz tmp/Products.MimetypesRegistry-3.0.0.tar.gz --markdown 20230419/P/Products.MimetypesRegistry/2.1.9-3.0.0/diff.md --exclude *.pyd
+[2023-04-19 09:21:45] INFO root fetch - processPackages [plone.base]: executing diffoscope
+[2023-04-19 09:21:45] INFO root fetch - processPackages [plone.base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.base-1.1.1.tar.gz tmp/plone.base-1.1.2.tar.gz --markdown 20230419/p/plone.base/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-19 09:21:46] INFO root fetch - main [MainThread]: End processing [plt-cli]: success
+[2023-04-19 09:21:46] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-04-19 09:21:46] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-04-19 09:21:46] INFO root fetch - main [MainThread]: End processing [macrometa-target-postgres]: success
+[2023-04-19 09:21:47] INFO root fetch - main [MainThread]: End processing [macrometa-source-postgres]: success
+[2023-04-19 09:21:47] INFO root fetch - main [MainThread]: End processing [plone.base]: success
+[2023-04-19 09:21:49] INFO root fetch - main [MainThread]: End processing [Products.MimetypesRegistry]: success
+[2023-04-19 09:21:51] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-19 09:22:23] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-19 09:22:23] INFO root fetch - main [MainThread]: Store serial: [17767029]
