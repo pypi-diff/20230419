@@ -7501,3 +7501,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 07:39:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2023-04-19 07:39:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-04-19 07:39:33] INFO root fetch - main [MainThread]: Store serial: [17766279]
+[2023-04-19 07:44:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766279]
+[2023-04-19 07:44:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-19 07:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DGet
+[2023-04-19 07:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhpo
+[2023-04-19 07:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automation_rest_server
+[2023-04-19 07:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bp-data-grid
+[2023-04-19 07:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: usody-sanitize
+[2023-04-19 07:44:42] INFO root fetch - processPackages [DGet]: New version: [0.4] Old Version: [0.3]
+[2023-04-19 07:44:42] INFO root fetch - processPackages [usody-sanitize]: New version: [0.1.0b3] Old Version: [0.1.0b1]
+[2023-04-19 07:44:42] INFO root fetch - processPackages [pyhpo]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-04-19 07:44:42] INFO root fetch - processPackages [bp-data-grid]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-19 07:44:42] INFO root fetch - processPackages [automation_rest_server]: New version: [3.6.7] Old Version: [3.6.6]
+[2023-04-19 07:44:42] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/57/5a/86e6ea910b0fe6198ef862c7c18bbe57b76679a9e1455ad6ec456e1a9b68/DGet-0.3.tar.gz
+[2023-04-19 07:44:42] INFO root fetch - processPackages [usody-sanitize]: Downloading https://files.pythonhosted.org/packages/9d/4f/31c81de814f12e50991d1146ff16423a4e0a52adc0b43519f71d0ea19718/usody_sanitize-0.1.0b3.tar.gz
+[2023-04-19 07:44:42] INFO root fetch - processPackages [pyhpo]: Downloading https://files.pythonhosted.org/packages/0d/09/ad569563b7adc440a2e1ef22401ef3f2ec4281e4ae6b456ca8c1ddfe2c65/pyhpo-3.1.4.tar.gz
+[2023-04-19 07:44:42] INFO root fetch - processPackages [bp-data-grid]: Downloading https://files.pythonhosted.org/packages/66/92/28a2ec2ab48c5b6cf22bbc6147d1ca6682bce5d8ac9c6a453f55e3a8f22f/bp_data_grid-0.0.7.tar.gz
+[2023-04-19 07:44:42] WARNING root fetch - processPackages [pyhpo]: Skipping package: exceeds size limit 15215281>=10485760
+[2023-04-19 07:44:42] INFO root fetch - main [MainThread]: End processing [pyhpo] error
+[2023-04-19 07:44:42] INFO root fetch - processPackages [usody-sanitize]: executing diffoscope
+[2023-04-19 07:44:42] INFO root fetch - processPackages [usody-sanitize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usody_sanitize-0.1.0b1.tar.gz tmp/usody_sanitize-0.1.0b3.tar.gz --markdown 20230419/u/usody-sanitize/0.1.0b1-0.1.0b3/diff.md --exclude *.pyd
+[2023-04-19 07:44:42] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/76/57/0580b4df8bc4142173faaf3551117d55c680c12f548630ba8e15fa84b680/automation_rest_server-3.6.7.tar.gz
+[2023-04-19 07:44:43] INFO root fetch - processPackages [DGet]: Downloading https://files.pythonhosted.org/packages/09/de/033785917ab944a41a7e013d78b763bf2c14740aea5c6bb0a834e6ea1636/DGet-0.4.tar.gz
+[2023-04-19 07:44:43] INFO root fetch - processPackages [DGet]: executing diffoscope
+[2023-04-19 07:44:43] INFO root fetch - processPackages [DGet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DGet-0.3.tar.gz tmp/DGet-0.4.tar.gz --markdown 20230419/D/DGet/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-19 07:44:43] INFO root fetch - processPackages [bp-data-grid]: executing diffoscope
+[2023-04-19 07:44:43] INFO root fetch - processPackages [bp-data-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_grid-0.0.6.tar.gz tmp/bp_data_grid-0.0.7.tar.gz --markdown 20230419/b/bp-data-grid/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-19 07:44:43] INFO root fetch - processPackages [automation_rest_server]: executing diffoscope
+[2023-04-19 07:44:43] INFO root fetch - processPackages [automation_rest_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_rest_server-3.6.6.tar.gz tmp/automation_rest_server-3.6.7.tar.gz --markdown 20230419/a/automation_rest_server/3.6.6-3.6.7/diff.md --exclude *.pyd
+[2023-04-19 07:44:44] INFO root fetch - main [MainThread]: End processing [usody-sanitize]: success
+[2023-04-19 07:44:44] INFO root fetch - main [MainThread]: End processing [DGet]: success
+[2023-04-19 07:44:45] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
+[2023-04-19 07:44:59] INFO root fetch - main [MainThread]: End processing [bp-data-grid]: success
+[2023-04-19 07:44:59] INFO root fetch - main [MainThread]: Store serial: [17766296]
