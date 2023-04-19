@@ -18437,3 +18437,106 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 17:19:01] INFO root fetch - main [MainThread]: End processing [edx-proctoring]: success
 [2023-04-19 17:19:22] INFO root fetch - main [MainThread]: End processing [spconv]: success
 [2023-04-19 17:19:22] INFO root fetch - main [MainThread]: Store serial: [17772782]
+[2023-04-19 17:24:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17772782]
+[2023-04-19 17:24:37] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-19 17:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TheSilent
+[2023-04-19 17:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rexify
+[2023-04-19 17:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lhf
+[2023-04-19 17:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fractal-specifications
+[2023-04-19 17:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medviz
+[2023-04-19 17:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2023-04-19 17:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adhoconda
+[2023-04-19 17:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdisc-rules-engine
+[2023-04-19 17:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-repo-client
+[2023-04-19 17:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llama-index
+[2023-04-19 17:24:37] INFO root fetch - processPackages [medviz]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 17:24:37] INFO root fetch - processPackages [lhf]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-19 17:24:37] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230419.15.19.341705] Old Version: [20230419.14.32.563745]
+[2023-04-19 17:24:37] INFO root fetch - processPackages [llama-index]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-19 17:24:37] INFO root fetch - processPackages [cdisc-rules-engine]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-04-19 17:24:37] WARNING root fetch - processPackages [adhoconda]: Skipping, unable to determine old version
+[2023-04-19 17:24:37] INFO root fetch - processPackages [adhoconda]: Start processing: paaaaath
+[2023-04-19 17:24:37] INFO root fetch - main [MainThread]: End processing [adhoconda] error
+[2023-04-19 17:24:37] INFO root fetch - processPackages [rexify]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 17:24:37] INFO root fetch - processPackages [fractal-specifications]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-04-19 17:24:37] INFO root fetch - processPackages [data-repo-client]: New version: [1.64.0] Old Version: [1.473.0]
+[2023-04-19 17:24:37] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 17:24:37] INFO root fetch - processPackages [paaaaath]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-19 17:24:37] INFO root fetch - processPackages [medviz]: Downloading https://files.pythonhosted.org/packages/8e/a3/dc7e257af4eaafed3e2e9f9d0763cc02ab230c66879b54304fa04d0e57d2/medviz-0.0.1.tar.gz
+[2023-04-19 17:24:37] INFO root fetch - processPackages [cdisc-rules-engine]: Downloading https://files.pythonhosted.org/packages/7e/f5/41c6156c080262ee0b25212d40e430eb7101b8e24f577df9f22aa01017db/cdisc-rules-engine-0.5.6.tar.gz
+[2023-04-19 17:24:37] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/d5/f4/e4d81993cd3d233170d09e43f601286bd66be79aa0f25acf967261cd29fa/data-repo-client-1.473.0.tar.gz
+[2023-04-19 17:24:37] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/a7/17/72666175256ba5b0f744ef969439f1ed3908a35d01cbc154a3b6542f7253/certora-cli-alpha-master-20230419.14.32.563745.tar.gz
+[2023-04-19 17:24:37] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-04-19 17:24:37] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.5.8.tar.gz tmp/llama_index-0.5.9.tar.gz --markdown 20230419/l/llama-index/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-19 17:24:37] INFO root fetch - processPackages [fractal-specifications]: Downloading https://files.pythonhosted.org/packages/91/a4/9bab561195a265deb902ead59f09a3a1832e9c81f42743f1d9473e0fdfca/fractal-specifications-3.1.2.tar.gz
+[2023-04-19 17:24:37] INFO root fetch - processPackages [paaaaath]: Downloading https://files.pythonhosted.org/packages/ca/b6/34df569e768e05773f725bb79a234b8d7c32998b75975f0d3e670d79f529/paaaaath-0.2.6.tar.gz
+[2023-04-19 17:24:37] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38070852>=10485760
+[2023-04-19 17:24:37] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: domolibrary
+[2023-04-19 17:24:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-19 17:24:37] INFO root fetch - processPackages [domolibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 17:24:37] INFO root fetch - processPackages [lhf]: executing diffoscope
+[2023-04-19 17:24:37] INFO root fetch - processPackages [lhf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lhf-1.3.1-py3-none-manylinux_2_28_x86_64.whl.zip tmp/lhf-1.3.2-py3-none-manylinux_2_28_x86_64.whl.zip --markdown 20230419/l/lhf/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-19 17:24:37] INFO root fetch - processPackages [rexify]: executing diffoscope
+[2023-04-19 17:24:37] INFO root fetch - processPackages [rexify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rexify-0.1.8.tar.gz tmp/rexify-0.1.9.tar.gz --markdown 20230419/r/rexify/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 17:24:37] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-04-19 17:24:37] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230419/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 17:24:37] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2023-04-19 17:24:37] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-1.473.0.tar.gz tmp/data-repo-client-1.64.0.tar.gz --markdown 20230419/d/data-repo-client/1.473.0-1.64.0/diff.md --exclude *.pyd
+[2023-04-19 17:24:37] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-19 17:24:37] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.0.8.tar.gz tmp/domolibrary-0.0.9.tar.gz --markdown 20230419/d/domolibrary/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 17:24:37] INFO root fetch - processPackages [medviz]: Downloading https://files.pythonhosted.org/packages/6f/87/7009f283a3c6235579e0b6cae0972327a09026ac66ee308392c732f98442/medviz-0.0.2.tar.gz
+[2023-04-19 17:24:37] INFO root fetch - processPackages [paaaaath]: Downloading https://files.pythonhosted.org/packages/3b/9c/7a6154219b67e8231370caa4da3fe1e80a2caa8c645f2c9ae3b3cea4cdc7/paaaaath-0.2.7.tar.gz
+[2023-04-19 17:24:37] INFO root fetch - processPackages [cdisc-rules-engine]: Downloading https://files.pythonhosted.org/packages/c4/48/979ee111c7fd5fda350f5d612152037b498c0d90813cca5fa699e57a73fd/cdisc-rules-engine-0.6.0.tar.gz
+[2023-04-19 17:24:37] INFO root fetch - processPackages [fractal-specifications]: Downloading https://files.pythonhosted.org/packages/61/d4/5db21f6a4329b7d7d061b62df81075103e235a853cfdd31f87425339eb26/fractal-specifications-3.1.3.tar.gz
+[2023-04-19 17:24:38] INFO root fetch - processPackages [medviz]: executing diffoscope
+[2023-04-19 17:24:38] INFO root fetch - processPackages [medviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medviz-0.0.1.tar.gz tmp/medviz-0.0.2.tar.gz --markdown 20230419/m/medviz/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 17:24:38] INFO root fetch - processPackages [paaaaath]: executing diffoscope
+[2023-04-19 17:24:38] INFO root fetch - processPackages [paaaaath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paaaaath-0.2.6.tar.gz tmp/paaaaath-0.2.7.tar.gz --markdown 20230419/p/paaaaath/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-19 17:24:38] INFO root fetch - processPackages [cdisc-rules-engine]: executing diffoscope
+[2023-04-19 17:24:38] INFO root fetch - processPackages [cdisc-rules-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdisc-rules-engine-0.5.6.tar.gz tmp/cdisc-rules-engine-0.6.0.tar.gz --markdown 20230419/c/cdisc-rules-engine/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-04-19 17:24:38] INFO root fetch - processPackages [fractal-specifications]: executing diffoscope
+[2023-04-19 17:24:38] INFO root fetch - processPackages [fractal-specifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal-specifications-3.1.2.tar.gz tmp/fractal-specifications-3.1.3.tar.gz --markdown 20230419/f/fractal-specifications/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-04-19 17:24:39] INFO root fetch - processPackages [medviz]: Start processing: deepchem
+[2023-04-19 17:24:39] INFO root fetch - main [MainThread]: End processing [medviz]: success
+[2023-04-19 17:24:39] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230419152231] Old Version: [2.7.2.dev20230418170211]
+[2023-04-19 17:24:39] INFO root fetch - processPackages [paaaaath]: Start processing: splight-lib
+[2023-04-19 17:24:39] INFO root fetch - main [MainThread]: End processing [paaaaath]: success
+[2023-04-19 17:24:39] INFO root fetch - processPackages [splight-lib]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-19 17:24:39] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/97/f2/6aff962a26ad159f6e623b163baa594b271cac50cd7568b3763245cb27b2/deepchem-2.7.2.dev20230419152231.tar.gz
+[2023-04-19 17:24:39] INFO root fetch - processPackages [fractal-specifications]: Start processing: openneurofirstlevel
+[2023-04-19 17:24:39] INFO root fetch - main [MainThread]: End processing [fractal-specifications]: success
+[2023-04-19 17:24:39] WARNING root fetch - processPackages [openneurofirstlevel]: Skipping, unable to determine old version
+[2023-04-19 17:24:39] INFO root fetch - processPackages [openneurofirstlevel]: Start processing: cgul
+[2023-04-19 17:24:39] INFO root fetch - main [MainThread]: End processing [openneurofirstlevel] error
+[2023-04-19 17:24:39] INFO root fetch - processPackages [cgul]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 17:24:39] INFO root fetch - processPackages [rexify]: Start processing: python-engineio
+[2023-04-19 17:24:39] INFO root fetch - main [MainThread]: End processing [rexify]: success
+[2023-04-19 17:24:39] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-04-19 17:24:39] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.2.8.tar.gz tmp/splight-lib-2.2.9.tar.gz --markdown 20230419/s/splight-lib/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-04-19 17:24:39] INFO root fetch - processPackages [python-engineio]: New version: [4.4.1] Old Version: [4.4.0]
+[2023-04-19 17:24:39] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-04-19 17:24:39] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230418170211.tar.gz tmp/deepchem-2.7.2.dev20230419152231.tar.gz --markdown 20230419/d/deepchem/2.7.2.dev20230418170211-2.7.2.dev20230419152231/diff.md --exclude *.pyd
+[2023-04-19 17:24:39] INFO root fetch - processPackages [cgul]: Downloading https://files.pythonhosted.org/packages/b4/68/3c73c5ecc82341f6bf1141f7e860a45daf04b2dbc26b912c935026acdd85/cgul-0.0.4.tar.gz
+[2023-04-19 17:24:39] INFO root fetch - processPackages [python-engineio]: Downloading https://files.pythonhosted.org/packages/7c/04/db91eca6b181d2042b09216f6d446d246c2fa6008e63160ef8b2afc08ae1/python-engineio-4.4.0.tar.gz
+[2023-04-19 17:24:39] INFO root fetch - processPackages [TheSilent]: Start processing: oarepo-oai-pmh-harvester
+[2023-04-19 17:24:39] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-04-19 17:24:40] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: New version: [4.0.6] Old Version: [4.0.5]
+[2023-04-19 17:24:40] INFO root fetch - processPackages [cgul]: executing diffoscope
+[2023-04-19 17:24:40] INFO root fetch - processPackages [cgul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgul-0.0.3.tar.gz tmp/cgul-0.0.4.tar.gz --markdown 20230419/c/cgul/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 17:24:40] INFO root fetch - processPackages [python-engineio]: Downloading https://files.pythonhosted.org/packages/51/75/8cf328625b42ce537503fa6a22036e05d3513245c96059360750a4349f32/python-engineio-4.4.1.tar.gz
+[2023-04-19 17:24:40] INFO root fetch - processPackages [python-engineio]: executing diffoscope
+[2023-04-19 17:24:40] INFO root fetch - processPackages [python-engineio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-engineio-4.4.0.tar.gz tmp/python-engineio-4.4.1.tar.gz --markdown 20230419/p/python-engineio/4.4.0-4.4.1/diff.md --exclude *.pyd
+[2023-04-19 17:24:40] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: Downloading https://files.pythonhosted.org/packages/4a/28/24f0bba5436fc3bd9d53cf6f93b1e4751f7bec4d44fd29ad8de935681a2d/oarepo-oai-pmh-harvester-4.0.6.tar.gz
+[2023-04-19 17:24:40] INFO root fetch - main [MainThread]: End processing [cdisc-rules-engine]: success
+[2023-04-19 17:24:40] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: executing diffoscope
+[2023-04-19 17:24:40] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-oai-pmh-harvester-4.0.5.tar.gz tmp/oarepo-oai-pmh-harvester-4.0.6.tar.gz --markdown 20230419/o/oarepo-oai-pmh-harvester/4.0.5-4.0.6/diff.md --exclude *.pyd
+[2023-04-19 17:24:41] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2023-04-19 17:24:41] INFO root fetch - main [MainThread]: End processing [cgul]: success
+[2023-04-19 17:24:41] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-04-19 17:24:41] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-19 17:24:41] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-04-19 17:24:42] INFO root fetch - main [MainThread]: End processing [oarepo-oai-pmh-harvester]: success
+[2023-04-19 17:24:42] INFO root fetch - main [MainThread]: End processing [python-engineio]: success
+[2023-04-19 17:24:44] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-04-19 17:24:57] INFO root fetch - main [MainThread]: End processing [lhf]: success
+[2023-04-19 17:24:57] INFO root fetch - main [MainThread]: Store serial: [17772837]
