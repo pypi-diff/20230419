@@ -22276,3 +22276,91 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 20:44:43] INFO root fetch - main [MainThread]: End processing [wds-client]: success
 [2023-04-19 20:44:48] INFO root fetch - main [MainThread]: End processing [pyopenjtalk-prebuilt]: success
 [2023-04-19 20:44:48] INFO root fetch - main [MainThread]: Store serial: [17775290]
+[2023-04-19 20:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17775290]
+[2023-04-19 20:50:09] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-19 20:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphsignal
+[2023-04-19 20:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edge-orm
+[2023-04-19 20:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssss
+[2023-04-19 20:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-component-dropfilltextarea
+[2023-04-19 20:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rubicon-ml
+[2023-04-19 20:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sphinx-embeddings-builder
+[2023-04-19 20:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localstack-core
+[2023-04-19 20:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phaseportrait
+[2023-04-19 20:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: always-updates
+[2023-04-19 20:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: toolshelf
+[2023-04-19 20:50:09] WARNING root fetch - processPackages [sphinx-embeddings-builder]: Skipping, unable to determine old version
+[2023-04-19 20:50:09] INFO root fetch - processPackages [sphinx-embeddings-builder]: Start processing: toolshelf
+[2023-04-19 20:50:09] INFO root fetch - main [MainThread]: End processing [sphinx-embeddings-builder] error
+[2023-04-19 20:50:09] INFO root fetch - processPackages [edge-orm]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-04-19 20:50:09] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-19 20:50:09] INFO root fetch - processPackages [ssss]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-04-19 20:50:09] INFO root fetch - processPackages [phaseportrait]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-19 20:50:09] INFO root fetch - processPackages [rubicon-ml]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-19 20:50:09] INFO root fetch - processPackages [streamlit-component-dropfilltextarea]: New version: [0.2.2] Old Version: [0.1.2]
+[2023-04-19 20:50:09] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230419184648] Old Version: [2.0.3.dev20230419135633]
+[2023-04-19 20:50:09] INFO root fetch - processPackages [toolshelf]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-19 20:50:09] INFO root fetch - processPackages [toolshelf]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-19 20:50:09] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-19 20:50:09] INFO root fetch - processPackages [ssss]: Downloading https://files.pythonhosted.org/packages/82/f2/dfe982c5cb78aa379627da986c6dffb1dd59e5e6d81fa7edc35b739575ea/ssss-0.0.1.tar.gz
+[2023-04-19 20:50:09] INFO root fetch - processPackages [toolshelf]: Downloading https://files.pythonhosted.org/packages/94/27/de950e3e4fbe1d6c652a06677f63e8060d87f3c815d69b36f44d125fb284/toolshelf-0.1.1.tar.gz
+[2023-04-19 20:50:09] INFO root fetch - processPackages [toolshelf]: Downloading https://files.pythonhosted.org/packages/94/27/de950e3e4fbe1d6c652a06677f63e8060d87f3c815d69b36f44d125fb284/toolshelf-0.1.1.tar.gz
+[2023-04-19 20:50:09] INFO root fetch - processPackages [edge-orm]: Downloading https://files.pythonhosted.org/packages/04/36/c536d1b740da5171e297b3722add0a6ed7f9f0239356e0c421a0a75d9d3c/edge_orm-0.6.6.tar.gz
+[2023-04-19 20:50:09] INFO root fetch - processPackages [phaseportrait]: Downloading https://files.pythonhosted.org/packages/30/64/ee3ace40220c3ef8a4df840410e915f3087bcdded61559303c3eef0fe234/phaseportrait-1.2.0.tar.gz
+[2023-04-19 20:50:09] INFO root fetch - processPackages [streamlit-component-dropfilltextarea]: Downloading https://files.pythonhosted.org/packages/f7/18/4f22ae784849fda9f4bad6c4dd44c93397fd66282cdbf389a03782966b63/streamlit-component-dropfilltextarea-0.1.2.tar.gz
+[2023-04-19 20:50:09] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e5/68/ae2ed148e18391f082c3cc8d51e937c7f9ae64b4d11b1d9f89ba09a1ee9d/localstack-core-2.0.3.dev20230419184648.tar.gz
+[2023-04-19 20:50:09] INFO root fetch - processPackages [rubicon-ml]: Downloading https://files.pythonhosted.org/packages/01/31/02a0d5ac45236102429d56c27724ba2b00d7775f77983d2d049972c40a76/rubicon-ml-0.4.3.tar.gz
+[2023-04-19 20:50:09] INFO root fetch - processPackages [edge-orm]: executing diffoscope
+[2023-04-19 20:50:09] INFO root fetch - processPackages [edge-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_orm-0.6.5.tar.gz tmp/edge_orm-0.6.6.tar.gz --markdown 20230419/e/edge-orm/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-04-19 20:50:10] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-04-19 20:50:10] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230419/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-19 20:50:10] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-19 20:50:10] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230419/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-19 20:50:10] INFO root fetch - processPackages [phaseportrait]: Downloading https://files.pythonhosted.org/packages/84/ce/076a0373664501748ae1581ac94d9b94cea4eb315c08eb3c961d5a68c4fb/phaseportrait-1.2.1.tar.gz
+[2023-04-19 20:50:10] INFO root fetch - processPackages [ssss]: Downloading https://files.pythonhosted.org/packages/14/6a/28525dee7e441126ac05ba14faa216527ef5b0bbf923155d7b60191434c1/ssss-1.0.0.tar.gz
+[2023-04-19 20:50:10] INFO root fetch - processPackages [rubicon-ml]: Downloading https://files.pythonhosted.org/packages/14/3f/cb5178e4f7d5031c82f80d2e49cb26123d948c9b59174bf24a404b2472c1/rubicon-ml-0.4.4.tar.gz
+[2023-04-19 20:50:10] INFO root fetch - processPackages [streamlit-component-dropfilltextarea]: Downloading https://files.pythonhosted.org/packages/29/71/59b4cc459775af5ab533fe44669b35e3f5455dbfb5038345d82945777d17/streamlit-component-dropfilltextarea-0.2.2.tar.gz
+[2023-04-19 20:50:10] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-19 20:50:10] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230419135633.tar.gz tmp/localstack-core-2.0.3.dev20230419184648.tar.gz --markdown 20230419/l/localstack-core/2.0.3.dev20230419135633-2.0.3.dev20230419184648/diff.md --exclude *.pyd
+[2023-04-19 20:50:10] INFO root fetch - processPackages [ssss]: executing diffoscope
+[2023-04-19 20:50:10] INFO root fetch - processPackages [ssss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssss-0.0.1.tar.gz tmp/ssss-1.0.0.tar.gz --markdown 20230419/s/ssss/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-19 20:50:10] INFO root fetch - processPackages [phaseportrait]: executing diffoscope
+[2023-04-19 20:50:10] INFO root fetch - processPackages [phaseportrait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phaseportrait-1.2.0.tar.gz tmp/phaseportrait-1.2.1.tar.gz --markdown 20230419/p/phaseportrait/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-19 20:50:10] INFO root fetch - processPackages [rubicon-ml]: executing diffoscope
+[2023-04-19 20:50:10] INFO root fetch - processPackages [rubicon-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubicon-ml-0.4.3.tar.gz tmp/rubicon-ml-0.4.4.tar.gz --markdown 20230419/r/rubicon-ml/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-19 20:50:10] INFO root fetch - processPackages [streamlit-component-dropfilltextarea]: executing diffoscope
+[2023-04-19 20:50:10] INFO root fetch - processPackages [streamlit-component-dropfilltextarea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-component-dropfilltextarea-0.1.2.tar.gz tmp/streamlit-component-dropfilltextarea-0.2.2.tar.gz --markdown 20230419/s/streamlit-component-dropfilltextarea/0.1.2-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 20:50:10] INFO root fetch - processPackages [toolshelf]: Downloading https://files.pythonhosted.org/packages/38/0a/c1fb8eed7f3be6111ce81263e16433035fa4c3d0b2408ca4ef1d33ce7b87/toolshelf-0.2.0.tar.gz
+[2023-04-19 20:50:10] INFO root fetch - processPackages [toolshelf]: Downloading https://files.pythonhosted.org/packages/38/0a/c1fb8eed7f3be6111ce81263e16433035fa4c3d0b2408ca4ef1d33ce7b87/toolshelf-0.2.0.tar.gz
+[2023-04-19 20:50:10] INFO root fetch - processPackages [toolshelf]: executing diffoscope
+[2023-04-19 20:50:10] INFO root fetch - processPackages [toolshelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolshelf-0.1.1.tar.gz tmp/toolshelf-0.2.0.tar.gz --markdown 20230419/t/toolshelf/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 20:50:10] INFO root fetch - processPackages [toolshelf]: executing diffoscope
+[2023-04-19 20:50:10] INFO root fetch - processPackages [toolshelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolshelf-0.1.1.tar.gz tmp/toolshelf-0.2.0.tar.gz --markdown 20230419/t/toolshelf/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 20:50:11] INFO root fetch - processPackages [always-updates]: Start processing: mdiicons
+[2023-04-19 20:50:11] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-19 20:50:11] WARNING root fetch - processPackages [mdiicons]: Skipping, unable to determine old version
+[2023-04-19 20:50:11] INFO root fetch - processPackages [mdiicons]: Start processing: sphinx-genai-search
+[2023-04-19 20:50:11] INFO root fetch - main [MainThread]: End processing [mdiicons] error
+[2023-04-19 20:50:11] WARNING root fetch - processPackages [sphinx-genai-search]: Skipping, unable to determine old version
+[2023-04-19 20:50:11] INFO root fetch - processPackages [sphinx-genai-search]: Start processing: vellumdev
+[2023-04-19 20:50:11] INFO root fetch - main [MainThread]: End processing [sphinx-genai-search] error
+[2023-04-19 20:50:11] INFO root fetch - processPackages [vellumdev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 20:50:11] INFO root fetch - processPackages [vellumdev]: executing diffoscope
+[2023-04-19 20:50:11] INFO root fetch - processPackages [vellumdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellumdev-0.0.8.tar.gz tmp/vellumdev-0.0.9-py3-none-any.whl.zip --markdown 20230419/v/vellumdev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 20:50:11] INFO root fetch - processPackages [ssss]: Start processing: kachery-cloud
+[2023-04-19 20:50:11] INFO root fetch - main [MainThread]: End processing [ssss]: success
+[2023-04-19 20:50:11] INFO root fetch - main [MainThread]: End processing [phaseportrait]: success
+[2023-04-19 20:50:11] INFO root fetch - processPackages [kachery-cloud]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-19 20:50:12] INFO root fetch - main [MainThread]: End processing [toolshelf]: success
+[2023-04-19 20:50:12] INFO root fetch - processPackages [kachery-cloud]: Downloading https://files.pythonhosted.org/packages/1e/34/98280f7e00aa0e9d673d8c0bb00a98e9443effb2d0cdc65cfb74956ec044/kachery_cloud-0.4.1.tar.gz
+[2023-04-19 20:50:12] INFO root fetch - main [MainThread]: End processing [toolshelf]: success
+[2023-04-19 20:50:12] INFO root fetch - main [MainThread]: End processing [edge-orm]: success
+[2023-04-19 20:50:12] INFO root fetch - main [MainThread]: End processing [rubicon-ml]: success
+[2023-04-19 20:50:12] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-04-19 20:50:12] INFO root fetch - processPackages [kachery-cloud]: Downloading https://files.pythonhosted.org/packages/3b/9f/39e2778bbe1419f7f289abb7a25ce011ae0eb127dc157816a23d14335c87/kachery_cloud-0.4.2.tar.gz
+[2023-04-19 20:50:12] INFO root fetch - main [MainThread]: End processing [streamlit-component-dropfilltextarea]: success
+[2023-04-19 20:50:12] INFO root fetch - processPackages [kachery-cloud]: executing diffoscope
+[2023-04-19 20:50:12] INFO root fetch - processPackages [kachery-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kachery_cloud-0.4.1.tar.gz tmp/kachery_cloud-0.4.2.tar.gz --markdown 20230419/k/kachery-cloud/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-19 20:50:12] INFO root fetch - main [MainThread]: End processing [vellumdev]: success
+[2023-04-19 20:50:13] INFO root fetch - main [MainThread]: End processing [kachery-cloud]: success
+[2023-04-19 20:50:18] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-19 20:50:18] INFO root fetch - main [MainThread]: Store serial: [17775370]
