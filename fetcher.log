@@ -20379,3 +20379,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 18:51:58] INFO root fetch - main [MainThread]: End processing [nctoolkit]: success
 [2023-04-19 18:52:08] INFO root fetch - main [MainThread]: End processing [pharmpy-core]: success
 [2023-04-19 18:52:08] INFO root fetch - main [MainThread]: Store serial: [17774066]
+[2023-04-19 18:57:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17774066]
+[2023-04-19 18:57:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-19 18:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nctoolkit
+[2023-04-19 18:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: severino
+[2023-04-19 18:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-clob-client
+[2023-04-19 18:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-Ayra
+[2023-04-19 18:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spconv-cu113
+[2023-04-19 18:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mdxpy
+[2023-04-19 18:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: archytas
+[2023-04-19 18:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qbf-index
+[2023-04-19 18:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: navigator-api
+[2023-04-19 18:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: windows-filedialogs
+[2023-04-19 18:57:17] INFO root fetch - processPackages [archytas]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-19 18:57:17] INFO root fetch - processPackages [mdxpy]: New version: [1.3.1] Old Version: [1.3]
+[2023-04-19 18:57:17] WARNING root fetch - processPackages [qbf-index]: Skipping, unable to determine old version
+[2023-04-19 18:57:17] INFO root fetch - processPackages [qbf-index]: Start processing: SIOTCommon
+[2023-04-19 18:57:17] INFO root fetch - main [MainThread]: End processing [qbf-index] error
+[2023-04-19 18:57:17] INFO root fetch - processPackages [nctoolkit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-19 18:57:17] INFO root fetch - processPackages [spconv-cu113]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-04-19 18:57:17] INFO root fetch - processPackages [archytas]: executing diffoscope
+[2023-04-19 18:57:17] INFO root fetch - processPackages [archytas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archytas-0.2.1.tar.gz tmp/archytas-0.2.2.tar.gz --markdown 20230419/a/archytas/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-19 18:57:17] WARNING root fetch - processPackages [py-Ayra]: Skipping, unable to determine old version
+[2023-04-19 18:57:17] INFO root fetch - processPackages [severino]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-19 18:57:17] INFO root fetch - processPackages [py-Ayra]: Start processing: safir
+[2023-04-19 18:57:17] INFO root fetch - main [MainThread]: End processing [py-Ayra] error
+[2023-04-19 18:57:17] INFO root fetch - processPackages [py-clob-client]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-19 18:57:17] INFO root fetch - processPackages [windows-filedialogs]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-19 18:57:17] INFO root fetch - processPackages [navigator-api]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-04-19 18:57:17] INFO root fetch - processPackages [SIOTCommon]: New version: [0.0.9.1] Old Version: [0.0.9]
+[2023-04-19 18:57:17] INFO root fetch - processPackages [spconv-cu113]: Downloading https://files.pythonhosted.org/packages/dc/3f/b057e50361e7ab796fa941e4e7f7b892845a024d0fe6875944fa5feaa35e/spconv_cu113-2.3.5-cp39-cp39-win_amd64.whl
+[2023-04-19 18:57:17] INFO root fetch - processPackages [py-clob-client]: Downloading https://files.pythonhosted.org/packages/38/a8/a45d7b31887306b7025386cad8e1068c4f6d3b1c82410741016c8a0f2020/py_clob_client-0.5.0.tar.gz
+[2023-04-19 18:57:17] INFO root fetch - processPackages [safir]: New version: [4.0.0] Old Version: [3.8.0]
+[2023-04-19 18:57:17] INFO root fetch - processPackages [windows-filedialogs]: Downloading https://files.pythonhosted.org/packages/3e/76/182222a692dc3eca2b73ba4ae8ea82e0a4cbddc649d0085d12244cb547da/windows_filedialogs-0.0.5.tar.gz
+[2023-04-19 18:57:17] INFO root fetch - processPackages [mdxpy]: Downloading https://files.pythonhosted.org/packages/60/ad/5803adf30573335ab170edc58fb026d86909c890eef46cf8ed5c62450b91/mdxpy-1.3.1.tar.gz
+[2023-04-19 18:57:17] INFO root fetch - processPackages [SIOTCommon]: Downloading https://files.pythonhosted.org/packages/f8/1a/52772866a83f654a6346d7bfc32d91dc147b9bc4ae3659ab393c215fceaf/SIOTCommon-0.0.9.tar.gz
+[2023-04-19 18:57:17] WARNING root fetch - processPackages [spconv-cu113]: Skipping package: exceeds size limit 69170428>=10485760
+[2023-04-19 18:57:17] INFO root fetch - main [MainThread]: End processing [spconv-cu113] error
+[2023-04-19 18:57:17] INFO root fetch - processPackages [nctoolkit]: executing diffoscope
+[2023-04-19 18:57:17] INFO root fetch - processPackages [nctoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nctoolkit-0.9.0.tar.gz tmp/nctoolkit-0.9.1.tar.gz --markdown 20230419/n/nctoolkit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-19 18:57:18] INFO root fetch - processPackages [severino]: executing diffoscope
+[2023-04-19 18:57:18] INFO root fetch - processPackages [severino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/severino-0.9.1.tar.gz tmp/severino-0.9.2.tar.gz --markdown 20230419/s/severino/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-19 18:57:18] INFO root fetch - processPackages [safir]: Downloading https://files.pythonhosted.org/packages/0e/9c/99f9a9449000539c8d83bbcdbcc14666ac9ed8f9a6fc7f44544f9db93cac/safir-3.8.0.tar.gz
+[2023-04-19 18:57:18] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2023-04-19 18:57:18] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230419/n/navigator-api/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-04-19 18:57:18] INFO root fetch - processPackages [windows-filedialogs]: Downloading https://files.pythonhosted.org/packages/18/60/cc559c8107788b82d2082f5660e178690da7c899372d999a8ceef81890e2/windows_filedialogs-0.0.6.tar.gz
+[2023-04-19 18:57:18] INFO root fetch - processPackages [mdxpy]: executing diffoscope
+[2023-04-19 18:57:18] INFO root fetch - processPackages [mdxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdxpy-1.3.tar.gz tmp/mdxpy-1.3.1.tar.gz --markdown 20230419/m/mdxpy/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-04-19 18:57:18] INFO root fetch - processPackages [SIOTCommon]: Downloading https://files.pythonhosted.org/packages/46/07/491d6a709ba5cac707d1887120098eddb3bd5639f635ff4f406f43c56e1a/SIOTCommon-0.0.9.1.tar.gz
+[2023-04-19 18:57:18] INFO root fetch - processPackages [py-clob-client]: Downloading https://files.pythonhosted.org/packages/28/86/be86eb6fd4610aa6a68d9dad068489cdea03713da0320b33893fb051e4da/py_clob_client-0.6.0.tar.gz
+[2023-04-19 18:57:18] INFO root fetch - processPackages [windows-filedialogs]: executing diffoscope
+[2023-04-19 18:57:18] INFO root fetch - processPackages [windows-filedialogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windows_filedialogs-0.0.5.tar.gz tmp/windows_filedialogs-0.0.6.tar.gz --markdown 20230419/w/windows-filedialogs/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-19 18:57:18] INFO root fetch - processPackages [SIOTCommon]: executing diffoscope
+[2023-04-19 18:57:18] INFO root fetch - processPackages [SIOTCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SIOTCommon-0.0.9.tar.gz tmp/SIOTCommon-0.0.9.1.tar.gz --markdown 20230419/S/SIOTCommon/0.0.9-0.0.9.1/diff.md --exclude *.pyd
+[2023-04-19 18:57:18] INFO root fetch - processPackages [py-clob-client]: executing diffoscope
+[2023-04-19 18:57:18] INFO root fetch - processPackages [py-clob-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_clob_client-0.5.0.tar.gz tmp/py_clob_client-0.6.0.tar.gz --markdown 20230419/p/py-clob-client/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-19 18:57:18] INFO root fetch - processPackages [safir]: Downloading https://files.pythonhosted.org/packages/2c/dc/27d82cf722822eca831084f171b0bb973913b171e0c9f1f1e1c142c303e6/safir-4.0.0.tar.gz
+[2023-04-19 18:57:18] INFO root fetch - processPackages [safir]: executing diffoscope
+[2023-04-19 18:57:18] INFO root fetch - processPackages [safir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safir-3.8.0.tar.gz tmp/safir-4.0.0.tar.gz --markdown 20230419/s/safir/3.8.0-4.0.0/diff.md --exclude *.pyd
+[2023-04-19 18:57:19] INFO root fetch - main [MainThread]: End processing [archytas]: success
+[2023-04-19 18:57:19] INFO root fetch - main [MainThread]: End processing [mdxpy]: success
+[2023-04-19 18:57:19] INFO root fetch - main [MainThread]: End processing [severino]: success
+[2023-04-19 18:57:19] INFO root fetch - main [MainThread]: End processing [SIOTCommon]: success
+[2023-04-19 18:57:19] INFO root fetch - main [MainThread]: End processing [windows-filedialogs]: success
+[2023-04-19 18:57:19] INFO root fetch - main [MainThread]: End processing [nctoolkit]: success
+[2023-04-19 18:57:20] INFO root fetch - main [MainThread]: End processing [py-clob-client]: success
+[2023-04-19 18:57:21] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2023-04-19 18:57:22] INFO root fetch - main [MainThread]: End processing [safir]: success
+[2023-04-19 18:57:22] INFO root fetch - main [MainThread]: Store serial: [17774112]
