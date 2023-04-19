@@ -16332,3 +16332,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 15:35:07] INFO root fetch - main [MainThread]: End processing [grapa]: success
 [2023-04-19 15:35:12] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-19 15:35:12] INFO root fetch - main [MainThread]: Store serial: [17771491]
+[2023-04-19 15:40:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17771491]
+[2023-04-19 15:40:21] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-19 15:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strplus
+[2023-04-19 15:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ws-one
+[2023-04-19 15:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dabbas
+[2023-04-19 15:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyEngine2D-ddd
+[2023-04-19 15:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strplus
+[2023-04-19 15:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mistapi
+[2023-04-19 15:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-yaml-schema-plugin
+[2023-04-19 15:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rudi-node-read
+[2023-04-19 15:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: umjunsik
+[2023-04-19 15:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bridgeql
+[2023-04-19 15:40:21] WARNING root fetch - processPackages [dabbas]: Skipping, unable to determine old version
+[2023-04-19 15:40:21] INFO root fetch - processPackages [dabbas]: Start processing: radarplt
+[2023-04-19 15:40:21] INFO root fetch - main [MainThread]: End processing [dabbas] error
+[2023-04-19 15:40:21] INFO root fetch - processPackages [strplus]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 15:40:21] INFO root fetch - processPackages [strplus]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 15:40:21] INFO root fetch - processPackages [mistapi]: New version: [0.37.4] Old Version: [0.37.3]
+[2023-04-19 15:40:21] INFO root fetch - processPackages [ws-one]: New version: [1.12.2] Old Version: [1.12.1]
+[2023-04-19 15:40:21] WARNING root fetch - processPackages [mkdocs-yaml-schema-plugin]: Skipping, unable to determine old version
+[2023-04-19 15:40:21] INFO root fetch - processPackages [mkdocs-yaml-schema-plugin]: Start processing: widgets-lib
+[2023-04-19 15:40:21] INFO root fetch - main [MainThread]: End processing [mkdocs-yaml-schema-plugin] error
+[2023-04-19 15:40:21] INFO root fetch - processPackages [umjunsik]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-19 15:40:21] INFO root fetch - processPackages [radarplt]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-19 15:40:21] WARNING root fetch - processPackages [rudi-node-read]: Skipping, unable to determine old version
+[2023-04-19 15:40:21] INFO root fetch - processPackages [rudi-node-read]: Start processing: girder-slicer-cli-web
+[2023-04-19 15:40:21] INFO root fetch - main [MainThread]: End processing [rudi-node-read] error
+[2023-04-19 15:40:21] INFO root fetch - processPackages [bridgeql]: New version: [0.1.8b0] Old Version: [0.1.7b0]
+[2023-04-19 15:40:21] INFO root fetch - processPackages [widgets-lib]: New version: [2.7.0] Old Version: [2.6.5]
+[2023-04-19 15:40:21] INFO root fetch - processPackages [girder-slicer-cli-web]: New version: [1.3.3.dev2] Old Version: [1.3.2.dev6]
+[2023-04-19 15:40:21] WARNING root fetch - processPackages [pyEngine2D-ddd]: Skipping, unable to determine old version
+[2023-04-19 15:40:21] INFO root fetch - processPackages [pyEngine2D-ddd]: Start processing: claws
+[2023-04-19 15:40:21] INFO root fetch - main [MainThread]: End processing [pyEngine2D-ddd] error
+[2023-04-19 15:40:21] INFO root fetch - processPackages [claws]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 15:40:21] INFO root fetch - processPackages [strplus]: Downloading https://files.pythonhosted.org/packages/e4/13/c7be0dc84aedec6cc4a9929ea559810ec56282feec9612039d7a4f5af67b/strplus-1.0.0.tar.gz
+[2023-04-19 15:40:21] INFO root fetch - processPackages [strplus]: Downloading https://files.pythonhosted.org/packages/e4/13/c7be0dc84aedec6cc4a9929ea559810ec56282feec9612039d7a4f5af67b/strplus-1.0.0.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/14/5e/8f50b8d6ac89159e8b04b0b44dfa9fc7cad5e03917a3237cf22b6928bd47/mistapi-0.37.3.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [ws-one]: Downloading https://files.pythonhosted.org/packages/8c/43/dfc8f015b9b271f12a19ae67f4ee3a6704024f5a6947d594210ac02b4863/ws_one-1.12.2-py3-none-any.whl
+[2023-04-19 15:40:22] INFO root fetch - processPackages [radarplt]: Downloading https://files.pythonhosted.org/packages/ba/c4/1eedf4c031e759c23ad0599d815897f1c86e1fbca1acca8aa3e6435fda7b/radarplt-2.0.1.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [bridgeql]: Downloading https://files.pythonhosted.org/packages/b4/65/0b972f741b634b40932537bb0fa4502bf83bbf2d2d1b663b5cd1f33c4cf0/bridgeql-0.1.7b0.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [umjunsik]: Downloading https://files.pythonhosted.org/packages/33/aa/92be6d9bc08f9c2b9af11e298e0784e8bbc56f007772005858a9197dd09d/umjunsik-1.2.4.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [girder-slicer-cli-web]: Downloading https://files.pythonhosted.org/packages/a2/ca/a4a8aefc800b95b44835ee8f2aa93c727f5feed12e8095cf9402387ad2eb/girder-slicer-cli-web-1.3.2.dev6.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [widgets-lib]: Downloading https://files.pythonhosted.org/packages/66/4c/241beae6dc35285f30e00bb1f8797e684ca5d1ea75b71dcb9b5aa902b856/widgets-lib-2.6.5.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [claws]: Downloading https://files.pythonhosted.org/packages/22/59/5ce57d6163c39b86c2685a2932c13a8b253356312857353552782ad01e14/claws-0.0.9.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [ws-one]: executing diffoscope
+[2023-04-19 15:40:22] INFO root fetch - processPackages [ws-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ws_one-1.12.1-py3-none-any.whl.zip tmp/ws_one-1.12.2-py3-none-any.whl.zip --markdown 20230419/w/ws-one/1.12.1-1.12.2/diff.md --exclude *.pyd
+[2023-04-19 15:40:22] INFO root fetch - processPackages [radarplt]: executing diffoscope
+[2023-04-19 15:40:22] INFO root fetch - processPackages [radarplt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radarplt-2.0.0.tar.gz tmp/radarplt-2.0.1.tar.gz --markdown 20230419/r/radarplt/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-19 15:40:22] INFO root fetch - processPackages [umjunsik]: executing diffoscope
+[2023-04-19 15:40:22] INFO root fetch - processPackages [umjunsik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umjunsik-1.2.3.tar.gz tmp/umjunsik-1.2.4.tar.gz --markdown 20230419/u/umjunsik/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-19 15:40:22] INFO root fetch - processPackages [claws]: executing diffoscope
+[2023-04-19 15:40:22] INFO root fetch - processPackages [claws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claws-0.0.8.tar.gz tmp/claws-0.0.9.tar.gz --markdown 20230419/c/claws/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 15:40:22] INFO root fetch - processPackages [strplus]: Downloading https://files.pythonhosted.org/packages/24/98/d085d4b82ddb5b27851071bf3f54d5e0f68f8b32026bc611d8c18690dac2/strplus-1.0.1.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [strplus]: Downloading https://files.pythonhosted.org/packages/24/98/d085d4b82ddb5b27851071bf3f54d5e0f68f8b32026bc611d8c18690dac2/strplus-1.0.1.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [widgets-lib]: Downloading https://files.pythonhosted.org/packages/5c/a5/9eb018b3506b726d46ca02eeb54b4e43e91cb62b3e512be6702b60e14bef/widgets-lib-2.7.0.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/8e/7c/cd816c8f178ceb2590c17d3e0a2e9f5182bae8425bbac2fb996ddd3eb481/mistapi-0.37.4.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [girder-slicer-cli-web]: Downloading https://files.pythonhosted.org/packages/63/c0/8b08bd10767b54fe181f948ae7835ab6fe7c55db295cf2b23d9fca168e8b/girder-slicer-cli-web-1.3.3.dev2.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [bridgeql]: Downloading https://files.pythonhosted.org/packages/ed/c2/6dfa3a79dea77f9ceee75b84fbf8ef1df4cd34392ef59e64cd6ae6b7b7fb/bridgeql-0.1.8b0.tar.gz
+[2023-04-19 15:40:22] INFO root fetch - processPackages [strplus]: executing diffoscope
+[2023-04-19 15:40:22] INFO root fetch - processPackages [strplus]: executing diffoscope
+[2023-04-19 15:40:22] INFO root fetch - processPackages [strplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strplus-1.0.0.tar.gz tmp/strplus-1.0.1.tar.gz --markdown 20230419/s/strplus/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 15:40:22] INFO root fetch - processPackages [strplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strplus-1.0.0.tar.gz tmp/strplus-1.0.1.tar.gz --markdown 20230419/s/strplus/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 15:40:22] INFO root fetch - processPackages [widgets-lib]: executing diffoscope
+[2023-04-19 15:40:22] INFO root fetch - processPackages [widgets-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widgets-lib-2.6.5.tar.gz tmp/widgets-lib-2.7.0.tar.gz --markdown 20230419/w/widgets-lib/2.6.5-2.7.0/diff.md --exclude *.pyd
+[2023-04-19 15:40:22] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2023-04-19 15:40:22] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.37.3.tar.gz tmp/mistapi-0.37.4.tar.gz --markdown 20230419/m/mistapi/0.37.3-0.37.4/diff.md --exclude *.pyd
+[2023-04-19 15:40:22] INFO root fetch - processPackages [girder-slicer-cli-web]: executing diffoscope
+[2023-04-19 15:40:22] INFO root fetch - processPackages [girder-slicer-cli-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-slicer-cli-web-1.3.2.dev6.tar.gz tmp/girder-slicer-cli-web-1.3.3.dev2.tar.gz --markdown 20230419/g/girder-slicer-cli-web/1.3.2.dev6-1.3.3.dev2/diff.md --exclude *.pyd
+[2023-04-19 15:40:22] INFO root fetch - processPackages [bridgeql]: executing diffoscope
+[2023-04-19 15:40:22] INFO root fetch - processPackages [bridgeql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgeql-0.1.7b0.tar.gz tmp/bridgeql-0.1.8b0.tar.gz --markdown 20230419/b/bridgeql/0.1.7b0-0.1.8b0/diff.md --exclude *.pyd
+[2023-04-19 15:40:23] INFO root fetch - processPackages [umjunsik]: Start processing: d-popcorn
+[2023-04-19 15:40:23] INFO root fetch - main [MainThread]: End processing [umjunsik]: success
+[2023-04-19 15:40:23] INFO root fetch - processPackages [ws-one]: Start processing: hive-maia
+[2023-04-19 15:40:23] INFO root fetch - main [MainThread]: End processing [ws-one]: success
+[2023-04-19 15:40:23] WARNING root fetch - processPackages [d-popcorn]: Skipping, unable to determine old version
+[2023-04-19 15:40:23] INFO root fetch - processPackages [d-popcorn]: Start processing: lophat
+[2023-04-19 15:40:23] INFO root fetch - main [MainThread]: End processing [d-popcorn] error
+[2023-04-19 15:40:23] INFO root fetch - main [MainThread]: End processing [radarplt]: success
+[2023-04-19 15:40:23] INFO root fetch - processPackages [hive-maia]: New version: [1.1] Old Version: [1.0]
+[2023-04-19 15:40:23] INFO root fetch - main [MainThread]: End processing [claws]: success
+[2023-04-19 15:40:24] INFO root fetch - processPackages [lophat]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-19 15:40:24] INFO root fetch - main [MainThread]: End processing [strplus]: success
+[2023-04-19 15:40:24] INFO root fetch - main [MainThread]: End processing [strplus]: success
+[2023-04-19 15:40:24] INFO root fetch - processPackages [hive-maia]: Downloading https://files.pythonhosted.org/packages/1f/f6/28bffffa7d14d0359a448201acc0274b01a8ef8a7180b6356324a99664e0/hive-maia-1.0.tar.gz
+[2023-04-19 15:40:24] INFO root fetch - main [MainThread]: End processing [widgets-lib]: success
+[2023-04-19 15:40:24] INFO root fetch - processPackages [lophat]: Downloading https://files.pythonhosted.org/packages/a0/69/282f6f4e9a01076058912f0dd1873c48a91b8b856521e350bd2c65d3fed4/lophat-0.9.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-19 15:40:24] INFO root fetch - processPackages [hive-maia]: Downloading https://files.pythonhosted.org/packages/d4/42/61e8008a4d8106c468352d8d821ca248482c960a355c360468df5fe54746/hive-maia-1.1.tar.gz
+[2023-04-19 15:40:24] INFO root fetch - main [MainThread]: End processing [bridgeql]: success
+[2023-04-19 15:40:24] INFO root fetch - processPackages [hive-maia]: executing diffoscope
+[2023-04-19 15:40:24] INFO root fetch - processPackages [hive-maia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hive-maia-1.0.tar.gz tmp/hive-maia-1.1.tar.gz --markdown 20230419/h/hive-maia/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-19 15:40:24] INFO root fetch - processPackages [lophat]: executing diffoscope
+[2023-04-19 15:40:24] INFO root fetch - processPackages [lophat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lophat-0.8.3.tar.gz tmp/lophat-0.9.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230419/l/lophat/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 15:40:25] INFO root fetch - main [MainThread]: End processing [lophat]: success
+[2023-04-19 15:40:26] INFO root fetch - main [MainThread]: End processing [hive-maia]: success
+[2023-04-19 15:40:26] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2023-04-19 15:40:26] INFO root fetch - main [MainThread]: End processing [girder-slicer-cli-web]: success
+[2023-04-19 15:40:26] INFO root fetch - main [MainThread]: Store serial: [17771550]
