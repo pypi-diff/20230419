@@ -9010,3 +9010,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 09:27:38] INFO root fetch - main [MainThread]: End processing [NNGT]: success
 [2023-04-19 09:27:39] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
 [2023-04-19 09:27:39] INFO root fetch - main [MainThread]: Store serial: [17767090]
+[2023-04-19 09:32:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17767090]
+[2023-04-19 09:32:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-19 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-04-19 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuantLib
+[2023-04-19 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fw-storage
+[2023-04-19 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: endesive
+[2023-04-19 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdal2numpy
+[2023-04-19 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: owenisas
+[2023-04-19 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdal2numpy
+[2023-04-19 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qwak-core
+[2023-04-19 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oneai
+[2023-04-19 09:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-web-dashboard-tile
+[2023-04-19 09:32:50] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 09:32:50] INFO root fetch - processPackages [fw-storage]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-04-19 09:32:50] INFO root fetch - processPackages [QuantLib]: New version: [1.30] Old Version: [1.29]
+[2023-04-19 09:32:50] INFO root fetch - processPackages [endesive]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-19 09:32:50] INFO root fetch - processPackages [odoo12-addon-web-dashboard-tile]: New version: [12.0.2.0.0.99.dev1] Old Version: [12.0.1.0.2]
+[2023-04-19 09:32:50] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 09:32:50] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-19 09:32:50] INFO root fetch - processPackages [oneai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-19 09:32:50] WARNING root fetch - processPackages [owenisas]: Skipping, unable to determine old version
+[2023-04-19 09:32:50] INFO root fetch - processPackages [owenisas]: Start processing: nextcloudtalkbot
+[2023-04-19 09:32:50] INFO root fetch - main [MainThread]: End processing [owenisas] error
+[2023-04-19 09:32:50] INFO root fetch - processPackages [qwak-core]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-04-19 09:32:50] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-04-19 09:32:50] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230419/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 09:32:50] INFO root fetch - processPackages [odoo12-addon-web-dashboard-tile]: executing diffoscope
+[2023-04-19 09:32:50] INFO root fetch - processPackages [odoo12-addon-web-dashboard-tile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_web_dashboard_tile-12.0.1.0.2-py3-none-any.whl.zip tmp/odoo12_addon_web_dashboard_tile-12.0.2.0.0.99.dev1-py3-none-any.whl.zip --markdown 20230419/o/odoo12-addon-web-dashboard-tile/12.0.1.0.2-12.0.2.0.0.99.dev1/diff.md --exclude *.pyd
+[2023-04-19 09:32:50] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-19 09:32:50] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230419/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-19 09:32:50] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-04-19 09:32:50] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230419/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 09:32:50] INFO root fetch - processPackages [endesive]: Downloading https://files.pythonhosted.org/packages/1c/3a/97415a23300fc7059864d20d64f7a3ac340e42d25447921578fbd111fdc2/endesive-2.0.8-py3-none-any.whl
+[2023-04-19 09:32:50] INFO root fetch - processPackages [nextcloudtalkbot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 09:32:50] INFO root fetch - processPackages [fw-storage]: Downloading https://files.pythonhosted.org/packages/3f/7b/8713eb367ec32bda148220c7a14f1c013651634d60bdb5eabdefa43e26ec/fw_storage-2.1.5-py3-none-any.whl
+[2023-04-19 09:32:50] INFO root fetch - processPackages [QuantLib]: Downloading https://files.pythonhosted.org/packages/96/f3/fa06d935958a3387dff32828563b923fed109e53e5e1cb86b3fef4b322c0/QuantLib-1.29-pp39-pypy39_pp73-win_amd64.whl
+[2023-04-19 09:32:50] INFO root fetch - processPackages [fw-storage]: executing diffoscope
+[2023-04-19 09:32:50] INFO root fetch - processPackages [fw-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fw_storage-2.1.4-py3-none-any.whl.zip tmp/fw_storage-2.1.5-py3-none-any.whl.zip --markdown 20230419/f/fw-storage/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-04-19 09:32:50] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/b7/1f/8713ecc0debc8b044dad426bad7b2b8feafbac7c17e3b00208bfae450fe2/qwak_core-0.0.25.tar.gz
+[2023-04-19 09:32:51] INFO root fetch - processPackages [oneai]: executing diffoscope
+[2023-04-19 09:32:51] INFO root fetch - processPackages [oneai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneai-0.9.8.tar.gz tmp/oneai-0.9.9.tar.gz --markdown 20230419/o/oneai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-19 09:32:51] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-04-19 09:32:51] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.24.tar.gz tmp/qwak_core-0.0.25.tar.gz --markdown 20230419/q/qwak-core/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-04-19 09:32:51] INFO root fetch - processPackages [nextcloudtalkbot]: executing diffoscope
+[2023-04-19 09:32:51] INFO root fetch - processPackages [nextcloudtalkbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextcloudtalkbot-0.0.8.tar.gz tmp/nextcloudtalkbot-0.0.9.tar.gz --markdown 20230419/n/nextcloudtalkbot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 09:32:51] INFO root fetch - processPackages [endesive]: Downloading https://files.pythonhosted.org/packages/53/dc/609f763d045fcbd4b900f414d44785ea7e816c444d7f34aa744cc092aa14/endesive-2.0.9-py3-none-any.whl
+[2023-04-19 09:32:51] WARNING root fetch - processPackages [QuantLib]: Skipping package: exceeds size limit 11807265>=10485760
+[2023-04-19 09:32:51] INFO root fetch - processPackages [QuantLib]: Start processing: cashocs
+[2023-04-19 09:32:51] INFO root fetch - main [MainThread]: End processing [QuantLib] error
+[2023-04-19 09:32:51] INFO root fetch - processPackages [endesive]: executing diffoscope
+[2023-04-19 09:32:51] INFO root fetch - processPackages [endesive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/endesive-2.0.8-py3-none-any.whl.zip tmp/endesive-2.0.9-py3-none-any.whl.zip --markdown 20230419/e/endesive/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-19 09:32:51] INFO root fetch - processPackages [cashocs]: New version: [2.0.0b0] Old Version: [2.0.0a3]
+[2023-04-19 09:32:51] INFO root fetch - processPackages [cashocs]: Downloading https://files.pythonhosted.org/packages/d2/99/fe632c4a79eb6183065a9d6739f698ee5323fc4a3c8380ae4867c85addd9/cashocs-2.0.0a3.tar.gz
+[2023-04-19 09:32:52] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-04-19 09:32:52] INFO root fetch - main [MainThread]: End processing [fw-storage]: success
+[2023-04-19 09:32:52] INFO root fetch - processPackages [cashocs]: Downloading https://files.pythonhosted.org/packages/f3/2a/ebd17db69ae0e80eabd7a655bc4f03bfd337cd4f64bb821d9bb78b445ddb/cashocs-2.0.0b0.tar.gz
+[2023-04-19 09:32:52] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-04-19 09:32:52] INFO root fetch - main [MainThread]: End processing [oneai]: success
+[2023-04-19 09:32:52] INFO root fetch - processPackages [cashocs]: executing diffoscope
+[2023-04-19 09:32:52] INFO root fetch - processPackages [cashocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashocs-2.0.0a3.tar.gz tmp/cashocs-2.0.0b0.tar.gz --markdown 20230419/c/cashocs/2.0.0a3-2.0.0b0/diff.md --exclude *.pyd
+[2023-04-19 09:32:52] INFO root fetch - main [MainThread]: End processing [odoo12-addon-web-dashboard-tile]: success
+[2023-04-19 09:32:52] INFO root fetch - main [MainThread]: End processing [endesive]: success
+[2023-04-19 09:32:54] INFO root fetch - main [MainThread]: End processing [cashocs]: success
+[2023-04-19 09:32:54] INFO root fetch - main [MainThread]: End processing [nextcloudtalkbot]: success
+[2023-04-19 09:32:56] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-19 09:32:57] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-04-19 09:32:57] INFO root fetch - main [MainThread]: Store serial: [17767178]
