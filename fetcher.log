@@ -17445,3 +17445,132 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 16:29:02] INFO root fetch - main [MainThread]: End processing [hspylib]: success
 [2023-04-19 16:29:11] INFO root fetch - main [MainThread]: End processing [drup]: success
 [2023-04-19 16:29:11] INFO root fetch - main [MainThread]: Store serial: [17772193]
+[2023-04-19 16:34:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17772193]
+[2023-04-19 16:34:24] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-19 16:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx-simplifier
+[2023-04-19 16:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fold-models
+[2023-04-19 16:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goastpy
+[2023-04-19 16:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydflow
+[2023-04-19 16:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mtmtool
+[2023-04-19 16:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chemotools
+[2023-04-19 16:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onnxsim
+[2023-04-19 16:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flaskwebgui
+[2023-04-19 16:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tinybird-cli
+[2023-04-19 16:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mongo-db-operation
+[2023-04-19 16:34:24] INFO root fetch - processPackages [fold-models]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-04-19 16:34:24] INFO root fetch - processPackages [chemotools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 16:34:24] INFO root fetch - processPackages [mtmtool]: New version: [1.2.3] Old Version: [1.1.2]
+[2023-04-19 16:34:24] INFO root fetch - processPackages [mongo-db-operation]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-19 16:34:24] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-04-19 16:34:24] INFO root fetch - processPackages [goastpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 16:34:24] INFO root fetch - processPackages [flaskwebgui]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-19 16:34:24] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-04-19 16:34:24] INFO root fetch - processPackages [onnxsim]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-19 16:34:24] INFO root fetch - processPackages [onnx-simplifier]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-19 16:34:24] INFO root fetch - processPackages [onnxsim]: Downloading https://files.pythonhosted.org/packages/e7/b9/202cc2584a4ec999caa935e7e0fdb09bedec99bf28f3a8b35455ff6864eb/onnxsim-0.4.8.tar.gz
+[2023-04-19 16:34:24] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-04-19 16:34:24] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230419/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-04-19 16:34:24] INFO root fetch - processPackages [goastpy]: executing diffoscope
+[2023-04-19 16:34:24] INFO root fetch - processPackages [goastpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goastpy-0.1.8.tar.gz tmp/goastpy-0.1.9.tar.gz --markdown 20230419/g/goastpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 16:34:24] INFO root fetch - processPackages [fold-models]: Downloading https://files.pythonhosted.org/packages/26/ea/7505bc37d6829dc5603b1f8f12c1a3403c7c554b7077ae13b4e67082cc89/fold_models-0.0.2.tar.gz
+[2023-04-19 16:34:24] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/f2/d3/2b33e312c645ae3be64bcdd18d2cbae51f4af00e9c3685f19133c0f22580/mtmtool-1.1.2.tar.gz
+[2023-04-19 16:34:24] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-04-19 16:34:24] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230419/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-04-19 16:34:24] INFO root fetch - processPackages [mongo-db-operation]: Downloading https://files.pythonhosted.org/packages/77/73/d0f750f467e3a5d24ee6498bcdbfc1c4bf84afcef1a3dc69deddec8734f3/mongo-db-operation-1.0.2.tar.gz
+[2023-04-19 16:34:24] INFO root fetch - processPackages [onnx-simplifier]: Downloading https://files.pythonhosted.org/packages/d6/bb/4883248b3354d146d32371ede26d0194526a8c138b74c45fbaca5af54651/onnx-simplifier-0.4.8.tar.gz
+[2023-04-19 16:34:24] WARNING root fetch - processPackages [onnxsim]: Skipping package: exceeds size limit 18121422>=10485760
+[2023-04-19 16:34:24] INFO root fetch - processPackages [onnxsim]: Start processing: docarray
+[2023-04-19 16:34:24] INFO root fetch - main [MainThread]: End processing [onnxsim] error
+[2023-04-19 16:34:24] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-19 16:34:24] INFO root fetch - processPackages [flaskwebgui]: Downloading https://files.pythonhosted.org/packages/d1/7c/946c4c2949146897ec6fb33575aa9581c7934281abdd4070625d2af72358/flaskwebgui-1.0.6.tar.gz
+[2023-04-19 16:34:24] INFO root fetch - processPackages [chemotools]: executing diffoscope
+[2023-04-19 16:34:24] INFO root fetch - processPackages [chemotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemotools-0.0.8.tar.gz tmp/chemotools-0.0.9.tar.gz --markdown 20230419/c/chemotools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:34:24] WARNING root fetch - processPackages [onnx-simplifier]: Skipping package: exceeds size limit 18116655>=10485760
+[2023-04-19 16:34:24] INFO root fetch - processPackages [onnx-simplifier]: Start processing: fold-wrappers
+[2023-04-19 16:34:24] INFO root fetch - main [MainThread]: End processing [onnx-simplifier] error
+[2023-04-19 16:34:24] INFO root fetch - processPackages [fold-models]: Downloading https://files.pythonhosted.org/packages/8b/a5/f3e0f35f747bfca0b742c657774dd2751ef199718e900ee84a62ced0387b/fold_models-0.1.0.tar.gz
+[2023-04-19 16:34:24] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-19 16:34:24] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230419/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-19 16:34:24] INFO root fetch - processPackages [fold-wrappers]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-04-19 16:34:24] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/77/2b/9054cd64a75fa89916164fb39edc8a09715603ca82c229c2ae8fe274c8fa/mtmtool-1.2.3.tar.gz
+[2023-04-19 16:34:24] INFO root fetch - processPackages [mongo-db-operation]: executing diffoscope
+[2023-04-19 16:34:24] INFO root fetch - processPackages [mongo-db-operation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo-db-operation-1.0.1.tar.gz tmp/mongo-db-operation-1.0.2.tar.gz --markdown 20230419/m/mongo-db-operation/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-19 16:34:24] INFO root fetch - processPackages [flaskwebgui]: executing diffoscope
+[2023-04-19 16:34:24] INFO root fetch - processPackages [flaskwebgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaskwebgui-1.0.5.tar.gz tmp/flaskwebgui-1.0.6.tar.gz --markdown 20230419/f/flaskwebgui/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-19 16:34:24] INFO root fetch - processPackages [fold-models]: executing diffoscope
+[2023-04-19 16:34:24] INFO root fetch - processPackages [fold-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fold_models-0.0.2.tar.gz tmp/fold_models-0.1.0.tar.gz --markdown 20230419/f/fold-models/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-04-19 16:34:24] INFO root fetch - processPackages [mtmtool]: executing diffoscope
+[2023-04-19 16:34:24] INFO root fetch - processPackages [mtmtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmtool-1.1.2.tar.gz tmp/mtmtool-1.2.3.tar.gz --markdown 20230419/m/mtmtool/1.1.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-19 16:34:25] INFO root fetch - processPackages [fold-wrappers]: Downloading https://files.pythonhosted.org/packages/9e/7b/f7d2e562a73655836a484c41196acec4e583e58feaf755d28e5379db1881/fold_wrappers-0.0.2.tar.gz
+[2023-04-19 16:34:25] INFO root fetch - processPackages [fold-wrappers]: Downloading https://files.pythonhosted.org/packages/41/85/e9a6874d6c8cb031566238d4205034d3f9f8a778374801fe8249defb92b4/fold_wrappers-0.1.0.tar.gz
+[2023-04-19 16:34:25] INFO root fetch - processPackages [fold-wrappers]: executing diffoscope
+[2023-04-19 16:34:25] INFO root fetch - processPackages [fold-wrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fold_wrappers-0.0.2.tar.gz tmp/fold_wrappers-0.1.0.tar.gz --markdown 20230419/f/fold-wrappers/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-04-19 16:34:25] INFO root fetch - processPackages [tinybird-cli]: Start processing: qdrant-client
+[2023-04-19 16:34:25] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-04-19 16:34:26] INFO root fetch - processPackages [qdrant-client]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-19 16:34:26] INFO root fetch - processPackages [qdrant-client]: Downloading https://files.pythonhosted.org/packages/89/2b/66176cb5e4ae8efe2c57925686ca553d08e56485bfafb6f80d43e5099043/qdrant_client-1.1.4.tar.gz
+[2023-04-19 16:34:26] INFO root fetch - processPackages [mongo-db-operation]: Start processing: wayfarer
+[2023-04-19 16:34:26] INFO root fetch - main [MainThread]: End processing [mongo-db-operation]: success
+[2023-04-19 16:34:26] INFO root fetch - processPackages [wayfarer]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-19 16:34:26] INFO root fetch - processPackages [goastpy]: Start processing: InCli
+[2023-04-19 16:34:26] INFO root fetch - main [MainThread]: End processing [goastpy]: success
+[2023-04-19 16:34:26] INFO root fetch - processPackages [InCli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 16:34:26] INFO root fetch - processPackages [fold-models]: Start processing: certora-cli-alpha-master
+[2023-04-19 16:34:26] INFO root fetch - main [MainThread]: End processing [fold-models]: success
+[2023-04-19 16:34:26] INFO root fetch - processPackages [InCli]: executing diffoscope
+[2023-04-19 16:34:26] INFO root fetch - processPackages [InCli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InCli-0.0.8.tar.gz tmp/InCli-0.0.9.tar.gz --markdown 20230419/I/InCli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:34:26] INFO root fetch - processPackages [wayfarer]: Downloading https://files.pythonhosted.org/packages/00/8b/7f603fb275a7b4389ffa82033734d1287cc2580c660da544d1e11194953f/wayfarer-0.9.1.tar.gz
+[2023-04-19 16:34:26] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230419.14.32.563745] Old Version: [20230419.11.23.236250]
+[2023-04-19 16:34:26] INFO root fetch - processPackages [flaskwebgui]: Start processing: msaBase
+[2023-04-19 16:34:26] INFO root fetch - main [MainThread]: End processing [flaskwebgui]: success
+[2023-04-19 16:34:26] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 16:34:26] INFO root fetch - processPackages [mtmtool]: Start processing: acryl-datahub-airflow-plugin
+[2023-04-19 16:34:26] INFO root fetch - main [MainThread]: End processing [mtmtool]: success
+[2023-04-19 16:34:26] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-04-19 16:34:26] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/a8/1e/5d5667cea087fed9865846e095821100ed421f8944787ee57f6ca395392b/certora-cli-alpha-master-20230419.11.23.236250.tar.gz
+[2023-04-19 16:34:26] INFO root fetch - processPackages [qdrant-client]: Downloading https://files.pythonhosted.org/packages/c7/11/c2584620d715f0d61d59e46c4378febc2035f4a08cc7ac55c42515855182/qdrant_client-1.1.5.tar.gz
+[2023-04-19 16:34:26] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38070740>=10485760
+[2023-04-19 16:34:26] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: acryl-datahub
+[2023-04-19 16:34:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-19 16:34:26] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-04-19 16:34:26] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-04-19 16:34:26] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230419/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-04-19 16:34:26] INFO root fetch - processPackages [qdrant-client]: executing diffoscope
+[2023-04-19 16:34:26] INFO root fetch - processPackages [qdrant-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdrant_client-1.1.4.tar.gz tmp/qdrant_client-1.1.5.tar.gz --markdown 20230419/q/qdrant-client/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-19 16:34:26] INFO root fetch - processPackages [wayfarer]: Downloading https://files.pythonhosted.org/packages/38/a4/02d4495938e872cf621d74b77be10aa7b9eb4d19679062e58ce8323c4345/wayfarer-0.9.2.tar.gz
+[2023-04-19 16:34:26] INFO root fetch - processPackages [fold-wrappers]: Start processing: raclients
+[2023-04-19 16:34:26] INFO root fetch - main [MainThread]: End processing [fold-wrappers]: success
+[2023-04-19 16:34:26] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-04-19 16:34:26] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230419/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-04-19 16:34:26] INFO root fetch - processPackages [chemotools]: Start processing: xdot-rs
+[2023-04-19 16:34:26] INFO root fetch - main [MainThread]: End processing [chemotools]: success
+[2023-04-19 16:34:26] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-04-19 16:34:26] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230419/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:34:26] WARNING root fetch - processPackages [xdot-rs]: Skipping, unable to determine old version
+[2023-04-19 16:34:26] INFO root fetch - processPackages [xdot-rs]: Start processing: vidis-algorithms-api
+[2023-04-19 16:34:26] INFO root fetch - main [MainThread]: End processing [xdot-rs] error
+[2023-04-19 16:34:26] INFO root fetch - processPackages [wayfarer]: executing diffoscope
+[2023-04-19 16:34:26] INFO root fetch - processPackages [wayfarer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wayfarer-0.9.1.tar.gz tmp/wayfarer-0.9.2.tar.gz --markdown 20230419/w/wayfarer/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-19 16:34:26] INFO root fetch - processPackages [vidis-algorithms-api]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-19 16:34:27] INFO root fetch - processPackages [raclients]: New version: [3.1.4] Old Version: [3.1.3]
+[2023-04-19 16:34:27] INFO root fetch - processPackages [vidis-algorithms-api]: executing diffoscope
+[2023-04-19 16:34:27] INFO root fetch - processPackages [vidis-algorithms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vidis_algorithms_api-0.3.2.tar.gz tmp/vidis_algorithms_api-0.3.3.tar.gz --markdown 20230419/v/vidis-algorithms-api/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-19 16:34:27] INFO root fetch - processPackages [docarray]: Start processing: tupa123
+[2023-04-19 16:34:27] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-19 16:34:27] INFO root fetch - processPackages [tupa123]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-19 16:34:27] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-04-19 16:34:27] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.3.8.tar.gz tmp/tupa123-1.3.9.tar.gz --markdown 20230419/t/tupa123/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-19 16:34:27] INFO root fetch - processPackages [raclients]: Downloading https://files.pythonhosted.org/packages/20/0d/59c559438de603664813134e5d92f5c1074ad78e7f97ca0f0beeccd12c91/raclients-3.1.4.tar.gz
+[2023-04-19 16:34:27] INFO root fetch - processPackages [raclients]: executing diffoscope
+[2023-04-19 16:34:27] INFO root fetch - processPackages [raclients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raclients-3.1.3.tar.gz tmp/raclients-3.1.4.tar.gz --markdown 20230419/r/raclients/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2023-04-19 16:34:28] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-04-19 16:34:28] INFO root fetch - main [MainThread]: End processing [InCli]: success
+[2023-04-19 16:34:28] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-04-19 16:34:28] INFO root fetch - main [MainThread]: End processing [vidis-algorithms-api]: success
+[2023-04-19 16:34:28] INFO root fetch - main [MainThread]: End processing [wayfarer]: success
+[2023-04-19 16:34:28] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-04-19 16:34:28] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-04-19 16:34:28] INFO root fetch - main [MainThread]: End processing [qdrant-client]: success
+[2023-04-19 16:34:28] INFO root fetch - main [MainThread]: End processing [raclients]: success
+[2023-04-19 16:34:33] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-04-19 16:34:33] INFO root fetch - main [MainThread]: Store serial: [17772288]
