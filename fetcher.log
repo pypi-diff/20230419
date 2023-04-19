@@ -5067,3 +5067,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 04:27:53] INFO root fetch - main [MainThread]: End processing [yookassa-async]: success
 [2023-04-19 04:27:53] INFO root fetch - main [MainThread]: End processing [yookassa-async]: success
 [2023-04-19 04:27:53] INFO root fetch - main [MainThread]: Store serial: [17765029]
+[2023-04-19 04:32:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765029]
+[2023-04-19 04:33:02] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-19 04:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yookassa-async
+[2023-04-19 04:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lezargus
+[2023-04-19 04:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-24
+[2023-04-19 04:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iam-actions
+[2023-04-19 04:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-26
+[2023-04-19 04:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recOrder-napari
+[2023-04-19 04:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yookassa-async
+[2023-04-19 04:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: medviz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-plus-25
+[2023-04-19 04:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spacectl
+[2023-04-19 04:33:02] INFO root fetch - processPackages [lezargus]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2023-04-19 04:33:02] INFO root fetch - processPackages [yookassa-async]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-19 04:33:02] INFO root fetch - processPackages [recOrder-napari]: New version: [0.3.0rc3] Old Version: [0.3.0rc0]
+[2023-04-19 04:33:02] INFO root fetch - processPackages [yookassa-async]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-19 04:33:02] WARNING root fetch - processPackages [medviz]: Skipping, unable to determine old version
+[2023-04-19 04:33:02] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-04-19 04:33:02] INFO root fetch - processPackages [medviz]: Start processing: al2var
+[2023-04-19 04:33:02] INFO root fetch - main [MainThread]: End processing [medviz] error
+[2023-04-19 04:33:02] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-04-19 04:33:02] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230419] Old Version: [1.2.20230418]
+[2023-04-19 04:33:02] INFO root fetch - processPackages [spacectl]: New version: [1.9.7rc3] Old Version: [1.9.7rc2]
+[2023-04-19 04:33:02] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-04-19 04:33:02] WARNING root fetch - processPackages [al2var]: Skipping, unable to determine old version
+[2023-04-19 04:33:02] INFO root fetch - processPackages [al2var]: Start processing: xminds
+[2023-04-19 04:33:02] INFO root fetch - main [MainThread]: End processing [al2var] error
+[2023-04-19 04:33:02] INFO root fetch - processPackages [xminds]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-19 04:33:02] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/59/e4/131655966d89f76db2bcf6b1353b19f734276202e0772c1b8dd9bd92121c/cdk8s-plus-24-2.7.2.tar.gz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [yookassa-async]: Downloading https://files.pythonhosted.org/packages/ff/e2/94d620e4029469cf5e0807cada77699b6d532f643d921899380f22402cae/yookassa_async-0.1.4.tar.gz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [yookassa-async]: Downloading https://files.pythonhosted.org/packages/ff/e2/94d620e4029469cf5e0807cada77699b6d532f643d921899380f22402cae/yookassa_async-0.1.4.tar.gz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/82/d7/8d39cbb0902aa65ca0b39618680f63155f144dcc41a82cf584ed25a0ed4d/cdk8s-plus-25-2.7.2.tar.gz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [recOrder-napari]: Downloading https://files.pythonhosted.org/packages/d1/93/e84299af82ef0ed8ef72f09bb930ae97279e4335230cefb5fd37d33fcffd/recOrder-napari-0.3.0rc0.tar.gz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/04/32/c0b7f1c17c59a52a01373549640b7cf09d33fcb38a8857681c3d9b7d7e3d/iam_actions-1.2.20230419.tar.gz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [spacectl]: Downloading https://files.pythonhosted.org/packages/b3/27/e799059f3e001604527846931a848e862d1ad030a1cc7edd924252da68df/spacectl-1.9.7rc2-py3-none-any.whl
+[2023-04-19 04:33:02] INFO root fetch - processPackages [xminds]: Downloading https://files.pythonhosted.org/packages/8e/36/9f58b58e1ff34a5017e066cbff0897e896faaa548ff7c68afe2fc110fd2b/xminds-0.5.0.tar.gz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [lezargus]: Downloading https://files.pythonhosted.org/packages/8b/91/88da25295dc37af0773ac8a02811b5da2b0e0eaabf664696a2d19fb77516/lezargus-0.0.1.dev2.tar.gz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/c4/ae/8f0fd2905c6f17f1e8ab5848823cde3b8300ef1f3a70292946ab7ff40f5d/cdk8s-plus-26-2.3.3.tar.gz
+[2023-04-19 04:33:02] WARNING root fetch - processPackages [recOrder-napari]: Skipping package: exceeds size limit 10537699>=10485760
+[2023-04-19 04:33:02] INFO root fetch - processPackages [recOrder-napari]: Start processing: pawnlib
+[2023-04-19 04:33:02] INFO root fetch - main [MainThread]: End processing [recOrder-napari] error
+[2023-04-19 04:33:02] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 04:33:02] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-04-19 04:33:02] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230418.tar.gz tmp/iam_actions-1.2.20230419.tar.gz --markdown 20230419/i/iam-actions/1.2.20230418-1.2.20230419/diff.md --exclude *.pyd
+[2023-04-19 04:33:02] INFO root fetch - processPackages [yookassa-async]: Downloading https://files.pythonhosted.org/packages/d4/8b/707012635138211e0c2711f3ff45746e5c371b4ae9fd639918b7159685a4/yookassa_async-0.1.5.tar.gz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [yookassa-async]: Downloading https://files.pythonhosted.org/packages/d4/8b/707012635138211e0c2711f3ff45746e5c371b4ae9fd639918b7159685a4/yookassa_async-0.1.5.tar.gz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [lezargus]: executing diffoscope
+[2023-04-19 04:33:02] INFO root fetch - processPackages [lezargus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lezargus-0.0.1.dev1.tar.gz tmp/lezargus-0.0.1.dev2.tar.gz --markdown 20230419/l/lezargus/0.0.1.dev1-0.0.1.dev2/diff.md --exclude *.pyd
+[2023-04-19 04:33:02] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-19 04:33:02] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230419/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 04:33:02] INFO root fetch - processPackages [spacectl]: Downloading https://files.pythonhosted.org/packages/da/a2/f9541d99ec71dc462fab5ef7223ea12aa1e6dfa973832fa463ba2aa1cdb6/spacectl-1.9.7rc3-py3-none-any.whl
+[2023-04-19 04:33:02] INFO root fetch - processPackages [yookassa-async]: executing diffoscope
+[2023-04-19 04:33:02] INFO root fetch - processPackages [yookassa-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yookassa_async-0.1.4.tar.gz tmp/yookassa_async-0.1.5.tar.gz --markdown 20230419/y/yookassa-async/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-19 04:33:02] INFO root fetch - processPackages [yookassa-async]: executing diffoscope
+[2023-04-19 04:33:02] INFO root fetch - processPackages [yookassa-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yookassa_async-0.1.4.tar.gz tmp/yookassa_async-0.1.5.tar.gz --markdown 20230419/y/yookassa-async/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-19 04:33:02] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/43/d8/0f6d1a92ebb353efe629b7a94c2290bf79c0c24814299b44faaaffd52f03/cdk8s-plus-24-2.7.3.tar.gz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-04-19 04:33:02] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.2.tar.gz tmp/cdk8s-plus-26-2.3.3.tar.gz --markdown 20230419/c/cdk8s-plus-26/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-04-19 04:33:02] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/80/a4/9b3f4e498526498d063645c52b539c402c4724c692ba82142a4137e57dd1/cdk8s-plus-25-2.7.3.tar.gz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [spacectl]: executing diffoscope
+[2023-04-19 04:33:02] INFO root fetch - processPackages [spacectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacectl-1.9.7rc2-py3-none-any.whl.zip tmp/spacectl-1.9.7rc3-py3-none-any.whl.zip --markdown 20230419/s/spacectl/1.9.7rc2-1.9.7rc3/diff.md --exclude *.pyd
+[2023-04-19 04:33:02] INFO root fetch - processPackages [xminds]: Downloading https://files.pythonhosted.org/packages/6f/19/1e884543cfa1cacba9bce9606d92c2c8feea28deb290b900a121f12cf5a6/xminds-0.6.0.tar.gz
+[2023-04-19 04:33:02] INFO root fetch - processPackages [xminds]: executing diffoscope
+[2023-04-19 04:33:02] INFO root fetch - processPackages [xminds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xminds-0.5.0.tar.gz tmp/xminds-0.6.0.tar.gz --markdown 20230419/x/xminds/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-19 04:33:03] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-04-19 04:33:03] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.2.tar.gz tmp/cdk8s-plus-24-2.7.3.tar.gz --markdown 20230419/c/cdk8s-plus-24/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-04-19 04:33:03] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-04-19 04:33:03] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.2.tar.gz tmp/cdk8s-plus-25-2.7.3.tar.gz --markdown 20230419/c/cdk8s-plus-25/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-04-19 04:33:04] INFO root fetch - processPackages [lezargus]: Start processing: IP2Location
+[2023-04-19 04:33:04] INFO root fetch - main [MainThread]: End processing [lezargus]: success
+[2023-04-19 04:33:04] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-19 04:33:04] INFO root fetch - processPackages [IP2Location]: New version: [8.9.0] Old Version: [8.8.1]
+[2023-04-19 04:33:04] INFO root fetch - main [MainThread]: End processing [spacectl]: success
+[2023-04-19 04:33:04] INFO root fetch - main [MainThread]: End processing [xminds]: success
+[2023-04-19 04:33:04] INFO root fetch - processPackages [IP2Location]: Downloading https://files.pythonhosted.org/packages/d9/29/49a69428d91f7a754228e31ff4b7a6b1d51c480199767151c76a868bee0b/IP2Location-8.8.1.tar.gz
+[2023-04-19 04:33:04] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-04-19 04:33:04] INFO root fetch - main [MainThread]: End processing [yookassa-async]: success
+[2023-04-19 04:33:05] INFO root fetch - main [MainThread]: End processing [yookassa-async]: success
+[2023-04-19 04:33:05] INFO root fetch - processPackages [IP2Location]: Downloading https://files.pythonhosted.org/packages/11/9c/4d3856df231385ab5bafe1df68d8a794afb49f6444e33035a514e3b34d4e/IP2Location-8.9.0.tar.gz
+[2023-04-19 04:33:05] INFO root fetch - processPackages [IP2Location]: executing diffoscope
+[2023-04-19 04:33:05] INFO root fetch - processPackages [IP2Location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IP2Location-8.8.1.tar.gz tmp/IP2Location-8.9.0.tar.gz --markdown 20230419/I/IP2Location/8.8.1-8.9.0/diff.md --exclude *.pyd
+[2023-04-19 04:33:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-04-19 04:33:06] INFO root fetch - main [MainThread]: End processing [IP2Location]: success
+[2023-04-19 04:33:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-04-19 04:33:07] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-04-19 04:33:07] INFO root fetch - main [MainThread]: Store serial: [17765078]
