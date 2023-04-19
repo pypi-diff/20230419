@@ -5445,3 +5445,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 05:04:34] INFO root fetch - main [MainThread]: End processing [charmr]: success
 [2023-04-19 05:04:34] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-mass-reconcile]: success
 [2023-04-19 05:04:34] INFO root fetch - main [MainThread]: Store serial: [17765248]
+[2023-04-19 05:09:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765248]
+[2023-04-19 05:09:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-19 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-account-mass-reconcile
+[2023-04-19 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-move-base-import
+[2023-04-19 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-mass-reconcile
+[2023-04-19 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc
+[2023-04-19 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TimeHandle
+[2023-04-19 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: appdefender
+[2023-04-19 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: policyengine-canada
+[2023-04-19 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pawnlib
+[2023-04-19 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-payment-order
+[2023-04-19 05:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: execsql
+[2023-04-19 05:09:43] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: New version: [16.0.1.0.1.8] Old Version: [16.0.1.0.1.7]
+[2023-04-19 05:09:43] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1]
+[2023-04-19 05:09:43] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-04-19 05:09:43] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile]: New version: [14.0.1.1.2.dev4] Old Version: [14.0.1.1.2.dev3]
+[2023-04-19 05:09:43] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 05:09:43] INFO root fetch - processPackages [appdefender]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-19 05:09:43] INFO root fetch - processPackages [TimeHandle]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 05:09:43] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 05:09:43] INFO root fetch - processPackages [edc]: New version: [0.4.9] Old Version: [0.4.80]
+[2023-04-19 05:09:43] INFO root fetch - processPackages [execsql]: New version: [1.98.0] Old Version: [1.97.0]
+[2023-04-19 05:09:43] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-19 05:09:43] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230419/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 05:09:43] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2023-04-19 05:09:43] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-account-payment-order/16.0.1.0.1-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-04-19 05:09:43] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/ce/28/d7df317e0811179e520d378afe83c4b1509f9a19bc130147961ecdc8baf2/edc-0.4.80.tar.gz
+[2023-04-19 05:09:43] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/3c/14/738cbf3ed38a1ed3dd37733e896d971c2aabf85834443f7f51470f184ea9/odoo_addon_account_mass_reconcile-16.0.1.0.0.6-py3-none-any.whl
+[2023-04-19 05:09:43] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/48/6f/f5f745c07b1b935c7c6c27c5038e67a69f0ff5db02ab91d483516e4ebd50/odoo_addon_account_move_base_import-16.0.1.0.1.7-py3-none-any.whl
+[2023-04-19 05:09:43] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/86/30/3967147ac622342cf890e79a66a7c07baa8e5f0f9ae1f23cf319de3ac856/odoo14_addon_account_mass_reconcile-14.0.1.1.2.dev3-py3-none-any.whl
+[2023-04-19 05:09:43] INFO root fetch - processPackages [TimeHandle]: Downloading https://files.pythonhosted.org/packages/c2/93/5e6e694c1421da7daa24d74066d98c06c474df0ddf6c3cdba8527aa19ec3/TimeHandle-0.0.1.tar.gz
+[2023-04-19 05:09:43] INFO root fetch - processPackages [appdefender]: Downloading https://files.pythonhosted.org/packages/f7/4b/8df7615664d5dde13fec4934639cb0a0bdebed64aa91bd69fe7f4102c977/appdefender-0.4.1.tar.gz
+[2023-04-19 05:09:43] INFO root fetch - processPackages [execsql]: Downloading https://files.pythonhosted.org/packages/91/8e/51da00d0618e95a78d658b8ba5ca02e29543fb296784ecffc9c3e13a9aff/execsql-1.97.0.tar.gz
+[2023-04-19 05:09:44] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: executing diffoscope
+[2023-04-19 05:09:44] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_mass_reconcile-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_mass_reconcile-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-account-mass-reconcile/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-04-19 05:09:44] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-04-19 05:09:44] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230419/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 05:09:44] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-04-19 05:09:44] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.4.80.tar.gz tmp/edc-0.4.9.tar.gz --markdown 20230419/e/edc/0.4.80-0.4.9/diff.md --exclude *.pyd
+[2023-04-19 05:09:44] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/e9/0c/718c37d0c94ecbe2a810b92e8abc73eddb459f1faff2958fbcaf12449d61/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl
+[2023-04-19 05:09:44] INFO root fetch - processPackages [TimeHandle]: Downloading https://files.pythonhosted.org/packages/0d/5f/70293df0df850f21da108eec77ad4c67fe716a35c1ac6c0a22fd93d23d71/TimeHandle-0.0.2.linux-x86_64.tar.gz
+[2023-04-19 05:09:44] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/f2/83/6bf4193e579fa51077610054921a5602d1a0be708bbfc3b019a689da001d/odoo14_addon_account_mass_reconcile-14.0.1.1.2.dev4-py3-none-any.whl
+[2023-04-19 05:09:44] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: executing diffoscope
+[2023-04-19 05:09:44] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_base_import-16.0.1.0.1.7-py3-none-any.whl.zip tmp/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-account-move-base-import/16.0.1.0.1.7-16.0.1.0.1.8/diff.md --exclude *.pyd
+[2023-04-19 05:09:44] INFO root fetch - processPackages [TimeHandle]: executing diffoscope
+[2023-04-19 05:09:44] INFO root fetch - processPackages [TimeHandle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TimeHandle-0.0.1.tar.gz tmp/TimeHandle-0.0.2.linux-x86_64.tar.gz --markdown 20230419/T/TimeHandle/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 05:09:44] INFO root fetch - processPackages [appdefender]: Downloading https://files.pythonhosted.org/packages/29/2f/1e99c8e937f47d82a939d8fdb8a3fcdc130dec4602ee493c7dc6df59528c/appdefender-0.4.2.tar.gz
+[2023-04-19 05:09:44] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile]: executing diffoscope
+[2023-04-19 05:09:44] INFO root fetch - processPackages [odoo14-addon-account-mass-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_mass_reconcile-14.0.1.1.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_account_mass_reconcile-14.0.1.1.2.dev4-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-account-mass-reconcile/14.0.1.1.2.dev3-14.0.1.1.2.dev4/diff.md --exclude *.pyd
+[2023-04-19 05:09:44] INFO root fetch - processPackages [appdefender]: executing diffoscope
+[2023-04-19 05:09:44] INFO root fetch - processPackages [appdefender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appdefender-0.4.1.tar.gz tmp/appdefender-0.4.2.tar.gz --markdown 20230419/a/appdefender/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-19 05:09:44] INFO root fetch - processPackages [execsql]: Downloading https://files.pythonhosted.org/packages/af/c4/14198e9e025b1207415fad1d39bc1e6ebcc8fb846e1ba1b4e22742316993/execsql-1.98.0.tar.gz
+[2023-04-19 05:09:45] INFO root fetch - processPackages [pawnlib]: Start processing: odoo14-addon-account-payment-order
+[2023-04-19 05:09:45] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-19 05:09:45] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: New version: [14.0.2.0.3.dev2] Old Version: [14.0.2.0.2.dev9]
+[2023-04-19 05:09:45] INFO root fetch - processPackages [execsql]: executing diffoscope
+[2023-04-19 05:09:45] INFO root fetch - processPackages [execsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/execsql-1.97.0.tar.gz tmp/execsql-1.98.0.tar.gz --markdown 20230419/e/execsql/1.97.0-1.98.0/diff.md --exclude *.pyd
+[2023-04-19 05:09:45] INFO root fetch - processPackages [policyengine-canada]: Start processing: odoo-addon-account-payment-order
+[2023-04-19 05:09:45] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-04-19 05:09:45] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [16.0.1.0.2.1] Old Version: [16.0.1.0.2]
+[2023-04-19 05:09:45] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/75/20/00322dd8c1a55dadcaf2f9e190221e19f2590eaaebf1b2cef6d5509046f2/odoo14_addon_account_payment_order-14.0.2.0.3.dev2-py3-none-any.whl
+[2023-04-19 05:09:45] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/e9/5a/8a667a72d86cbb10403973cc346d0f38e1082db85e78b84a2fcd2ad8a7f9/odoo_addon_account_payment_order-16.0.1.0.2.1-py3-none-any.whl
+[2023-04-19 05:09:45] INFO root fetch - main [MainThread]: End processing [TimeHandle]: success
+[2023-04-19 05:09:45] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: executing diffoscope
+[2023-04-19 05:09:45] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_payment_order-14.0.2.0.2.dev9-py3-none-any.whl.zip tmp/odoo14_addon_account_payment_order-14.0.2.0.3.dev2-py3-none-any.whl.zip --markdown 20230419/o/odoo14-addon-account-payment-order/14.0.2.0.2.dev9-14.0.2.0.3.dev2/diff.md --exclude *.pyd
+[2023-04-19 05:09:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2023-04-19 05:09:45] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2023-04-19 05:09:45] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-16.0.1.0.2.1-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-account-payment-order/16.0.1.0.2-16.0.1.0.2.1/diff.md --exclude *.pyd
+[2023-04-19 05:09:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-mass-reconcile]: success
+[2023-04-19 05:09:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-base-import]: success
+[2023-04-19 05:09:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-mass-reconcile]: success
+[2023-04-19 05:09:46] INFO root fetch - main [MainThread]: End processing [execsql]: success
+[2023-04-19 05:09:47] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-04-19 05:09:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2023-04-19 05:09:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-order]: success
+[2023-04-19 05:10:04] INFO root fetch - main [MainThread]: End processing [appdefender]: success
+[2023-04-19 05:10:04] INFO root fetch - main [MainThread]: Store serial: [17765289]
