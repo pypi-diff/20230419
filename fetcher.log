@@ -17574,3 +17574,127 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 16:34:28] INFO root fetch - main [MainThread]: End processing [raclients]: success
 [2023-04-19 16:34:33] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-04-19 16:34:33] INFO root fetch - main [MainThread]: Store serial: [17772288]
+[2023-04-19 16:39:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17772288]
+[2023-04-19 16:39:42] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-19 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-engine-terraform
+[2023-04-19 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bobocep
+[2023-04-19 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elliptic-sdk
+[2023-04-19 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jmetalpy
+[2023-04-19 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataquality
+[2023-04-19 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dvis
+[2023-04-19 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: enular
+[2023-04-19 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plone.restapi
+[2023-04-19 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FYP-clustering
+[2023-04-19 16:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libmata
+[2023-04-19 16:39:42] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-19 16:39:42] WARNING root fetch - processPackages [FYP-clustering]: Skipping, unable to determine old version
+[2023-04-19 16:39:42] WARNING root fetch - processPackages [elliptic-sdk]: Skipping, unable to determine old version
+[2023-04-19 16:39:42] INFO root fetch - processPackages [FYP-clustering]: Start processing: tsinfer
+[2023-04-19 16:39:42] INFO root fetch - main [MainThread]: End processing [FYP-clustering] error
+[2023-04-19 16:39:42] INFO root fetch - processPackages [elliptic-sdk]: Start processing: abstra-cli
+[2023-04-19 16:39:42] INFO root fetch - main [MainThread]: End processing [elliptic-sdk] error
+[2023-04-19 16:39:42] INFO root fetch - processPackages [bobocep]: New version: [1.0.1] Old Version: [0.35.0]
+[2023-04-19 16:39:42] INFO root fetch - processPackages [dvis]: New version: [0.8.7.3] Old Version: [0.8.7.2]
+[2023-04-19 16:39:42] INFO root fetch - processPackages [libmata]: New version: [0.54.0] Old Version: [0.53.0]
+[2023-04-19 16:39:42] INFO root fetch - processPackages [plone.restapi]: New version: [8.9.1] Old Version: [8.9.0]
+[2023-04-19 16:39:42] INFO root fetch - processPackages [jmetalpy]: New version: [1.6.0] Old Version: [1.5.5]
+[2023-04-19 16:39:42] INFO root fetch - processPackages [enular]: New version: [1.0.0] Old Version: [0.2.3]
+[2023-04-19 16:39:42] INFO root fetch - processPackages [dataquality]: New version: [0.8.9] Old Version: [0.8.8a0]
+[2023-04-19 16:39:42] INFO root fetch - processPackages [abstra-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 16:39:42] INFO root fetch - processPackages [tsinfer]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-19 16:39:42] INFO root fetch - processPackages [plone.restapi]: executing diffoscope
+[2023-04-19 16:39:42] INFO root fetch - processPackages [plone.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.restapi-8.9.0.tar.gz tmp/plone.restapi-8.9.1.tar.gz --markdown 20230419/p/plone.restapi/8.9.0-8.9.1/diff.md --exclude *.pyd
+[2023-04-19 16:39:42] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/e7/9d/f465ab8572973406439414b445baf8eec7432451bd949d635f69661a0c57/xia_engine_terraform-0.0.7-cp39-none-win_amd64.whl
+[2023-04-19 16:39:42] INFO root fetch - processPackages [bobocep]: Downloading https://files.pythonhosted.org/packages/7d/40/07e749a3486056f0dbf914a2b5c5dd6f97ec114c4b8592a8626a256a0a51/bobocep-0.35.0.tar.gz
+[2023-04-19 16:39:42] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/1e/bc/d9083da0834613ec319f4b5d19387c0660f6cd09c3d61294b8da10fafa8a/libmata-0.54.0.tar.gz
+[2023-04-19 16:39:42] INFO root fetch - processPackages [dvis]: Downloading https://files.pythonhosted.org/packages/ad/69/003bf1cebfac4bda1723810a00088f818aa07069420d07ae55d413bb1969/dvis-0.8.7.2-py3-none-any.whl
+[2023-04-19 16:39:42] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/ec/c0/a67c048905f2c652971d55ff82c30b8a749cfdd800d5119bb8accf3770bc/dataquality-0.8.8a0.tar.gz
+[2023-04-19 16:39:42] INFO root fetch - processPackages [abstra-cli]: Downloading https://files.pythonhosted.org/packages/fc/86/250f79ad7833d81a6a5fc663b8d76260f706443958c9be4657b3b5380832/abstra-cli-0.8.0.tar.gz
+[2023-04-19 16:39:42] INFO root fetch - processPackages [tsinfer]: Downloading https://files.pythonhosted.org/packages/3d/f9/0fe721f04732400bb2a1d85bfe37175e3774bc7af1b61eceb073f2f133d5/tsinfer-0.3.0.tar.gz
+[2023-04-19 16:39:42] INFO root fetch - processPackages [jmetalpy]: Downloading https://files.pythonhosted.org/packages/5e/92/731b647afa389619c0e6ae340f196e14d75f7307b3e867e7db7f91c85d18/jmetalpy-1.5.5.tar.gz
+[2023-04-19 16:39:42] INFO root fetch - processPackages [enular]: Downloading https://files.pythonhosted.org/packages/9d/56/50d1e93cf6fd03b57a8b92252b94b323e1f397ac7052db4fddcfe9a43c93/enular-0.2.3.tar.gz
+[2023-04-19 16:39:42] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-04-19 16:39:42] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.53.0.tar.gz tmp/libmata-0.54.0.tar.gz --markdown 20230419/l/libmata/0.53.0-0.54.0/diff.md --exclude *.pyd
+[2023-04-19 16:39:42] INFO root fetch - processPackages [jmetalpy]: Downloading https://files.pythonhosted.org/packages/b7/29/ab3d41a6c5318ba8a438ad301e463ca1faa381c39f5c53871c86d3dfc504/jmetalpy-1.6.0.tar.gz
+[2023-04-19 16:39:42] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/b6/45/04da12f803d60af5e1b2041243db2654d0af084344365ca2fd8a7c66638b/xia_engine_terraform-0.0.9-cp39-none-win_amd64.whl
+[2023-04-19 16:39:42] INFO root fetch - processPackages [tsinfer]: Downloading https://files.pythonhosted.org/packages/51/f2/9b7890a43ab196a0930a6a68f63ca0c866582b8fda7bf491ad2b045b3c52/tsinfer-0.3.1.tar.gz
+[2023-04-19 16:39:42] INFO root fetch - processPackages [bobocep]: Downloading https://files.pythonhosted.org/packages/c4/94/bbcd610940cb587de093ee053d2892b0402485c536d57ef140544ca3f2b5/bobocep-1.0.1.tar.gz
+[2023-04-19 16:39:42] INFO root fetch - processPackages [jmetalpy]: executing diffoscope
+[2023-04-19 16:39:42] INFO root fetch - processPackages [jmetalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmetalpy-1.5.5.tar.gz tmp/jmetalpy-1.6.0.tar.gz --markdown 20230419/j/jmetalpy/1.5.5-1.6.0/diff.md --exclude *.pyd
+[2023-04-19 16:39:42] INFO root fetch - processPackages [dvis]: Downloading https://files.pythonhosted.org/packages/3b/45/ee32284cbab021f6fb8b96938d9cc693fb160012bf7bc107afa2e0614c3b/dvis-0.8.7.3-py3-none-any.whl
+[2023-04-19 16:39:42] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-04-19 16:39:42] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.0.7-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230419/x/xia-engine-terraform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:39:42] INFO root fetch - processPackages [enular]: Downloading https://files.pythonhosted.org/packages/37/aa/2601d5210ae5151b4ccca693b8750a6b8c24acfb9f2be8f56998c90c14b4/enular-1.0.0.tar.gz
+[2023-04-19 16:39:42] INFO root fetch - processPackages [tsinfer]: executing diffoscope
+[2023-04-19 16:39:42] INFO root fetch - processPackages [tsinfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsinfer-0.3.0.tar.gz tmp/tsinfer-0.3.1.tar.gz --markdown 20230419/t/tsinfer/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-19 16:39:42] INFO root fetch - processPackages [bobocep]: executing diffoscope
+[2023-04-19 16:39:42] INFO root fetch - processPackages [bobocep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bobocep-0.35.0.tar.gz tmp/bobocep-1.0.1.tar.gz --markdown 20230419/b/bobocep/0.35.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 16:39:42] INFO root fetch - processPackages [dvis]: executing diffoscope
+[2023-04-19 16:39:42] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/91/1e/b93106f778087ce05e7c356ffd9a6a6062c6e62a84bf3f9d4eb655b16850/dataquality-0.8.9.tar.gz
+[2023-04-19 16:39:42] INFO root fetch - processPackages [dvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvis-0.8.7.2-py3-none-any.whl.zip tmp/dvis-0.8.7.3-py3-none-any.whl.zip --markdown 20230419/d/dvis/0.8.7.2-0.8.7.3/diff.md --exclude *.pyd
+[2023-04-19 16:39:43] INFO root fetch - processPackages [enular]: executing diffoscope
+[2023-04-19 16:39:43] INFO root fetch - processPackages [enular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enular-0.2.3.tar.gz tmp/enular-1.0.0.tar.gz --markdown 20230419/e/enular/0.2.3-1.0.0/diff.md --exclude *.pyd
+[2023-04-19 16:39:43] INFO root fetch - processPackages [abstra-cli]: Downloading https://files.pythonhosted.org/packages/42/9e/21b9aa7aa0c331fd248405fce86d65e0986979d35211c6190c0862aec745/abstra-cli-0.9.0.tar.gz
+[2023-04-19 16:39:43] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-04-19 16:39:43] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.8.8a0.tar.gz tmp/dataquality-0.8.9.tar.gz --markdown 20230419/d/dataquality/0.8.8a0-0.8.9/diff.md --exclude *.pyd
+[2023-04-19 16:39:43] INFO root fetch - processPackages [abstra-cli]: executing diffoscope
+[2023-04-19 16:39:43] INFO root fetch - processPackages [abstra-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-cli-0.8.0.tar.gz tmp/abstra-cli-0.9.0.tar.gz --markdown 20230419/a/abstra-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 16:39:44] INFO root fetch - processPackages [xia-engine-terraform]: Start processing: xrootdpyfs
+[2023-04-19 16:39:44] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-04-19 16:39:44] INFO root fetch - processPackages [xrootdpyfs]: New version: [1.0.0a1] Old Version: [0.2.2]
+[2023-04-19 16:39:44] INFO root fetch - processPackages [dvis]: Start processing: docbuild
+[2023-04-19 16:39:44] INFO root fetch - main [MainThread]: End processing [dvis]: success
+[2023-04-19 16:39:44] INFO root fetch - processPackages [docbuild]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 16:39:44] INFO root fetch - processPackages [xrootdpyfs]: Downloading https://files.pythonhosted.org/packages/c0/96/ee850152791e8900a5478972ab415b837d37903ff6e45f0ff5ba8ccdc5d9/xrootdpyfs-0.2.2.tar.gz
+[2023-04-19 16:39:44] INFO root fetch - processPackages [enular]: Start processing: jaaql-middleware-python
+[2023-04-19 16:39:44] INFO root fetch - main [MainThread]: End processing [enular]: success
+[2023-04-19 16:39:44] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.6.4] Old Version: [4.6.3]
+[2023-04-19 16:39:44] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-04-19 16:39:44] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.6.3.tar.gz tmp/jaaql-middleware-python-4.6.4.tar.gz --markdown 20230419/j/jaaql-middleware-python/4.6.3-4.6.4/diff.md --exclude *.pyd
+[2023-04-19 16:39:44] INFO root fetch - processPackages [docbuild]: Downloading https://files.pythonhosted.org/packages/b1/54/43ed2c7e82a50cab0862a4b9849eb657976d7968fcd6fc92c4770cab60ed/docbuild-0.1.0.tar.gz
+[2023-04-19 16:39:44] INFO root fetch - processPackages [bobocep]: Start processing: pypots
+[2023-04-19 16:39:44] INFO root fetch - main [MainThread]: End processing [bobocep]: success
+[2023-04-19 16:39:44] INFO root fetch - processPackages [xrootdpyfs]: Downloading https://files.pythonhosted.org/packages/75/11/0e5a6cdd652b94f728aaea26b1ecb6e5a460b605bb97fa8438c6d7739855/xrootdpyfs-1.0.0a1.tar.gz
+[2023-04-19 16:39:44] INFO root fetch - processPackages [abstra-cli]: Start processing: trading-strategy
+[2023-04-19 16:39:44] INFO root fetch - main [MainThread]: End processing [abstra-cli]: success
+[2023-04-19 16:39:44] INFO root fetch - processPackages [trading-strategy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-19 16:39:44] INFO root fetch - processPackages [pypots]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 16:39:44] INFO root fetch - processPackages [docbuild]: Downloading https://files.pythonhosted.org/packages/d8/b0/0d6be9aa19f39a2216264f5cadc3ba6b74edb4ba6cd7a6e132195a43cfbb/docbuild-0.1.1.tar.gz
+[2023-04-19 16:39:44] INFO root fetch - processPackages [xrootdpyfs]: executing diffoscope
+[2023-04-19 16:39:44] INFO root fetch - processPackages [xrootdpyfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrootdpyfs-0.2.2.tar.gz tmp/xrootdpyfs-1.0.0a1.tar.gz --markdown 20230419/x/xrootdpyfs/0.2.2-1.0.0a1/diff.md --exclude *.pyd
+[2023-04-19 16:39:44] INFO root fetch - processPackages [trading-strategy]: executing diffoscope
+[2023-04-19 16:39:44] INFO root fetch - processPackages [trading-strategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading_strategy-0.9.0.tar.gz tmp/trading_strategy-0.9.1.tar.gz --markdown 20230419/t/trading-strategy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-19 16:39:44] INFO root fetch - processPackages [docbuild]: executing diffoscope
+[2023-04-19 16:39:44] INFO root fetch - processPackages [docbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docbuild-0.1.0.tar.gz tmp/docbuild-0.1.1.tar.gz --markdown 20230419/d/docbuild/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 16:39:44] INFO root fetch - processPackages [pypots]: Downloading https://files.pythonhosted.org/packages/25/12/da661a231b4f76decc782f62905146278662c02823c2b857ebb2f4f3a3bb/pypots-0.0.8.tar.gz
+[2023-04-19 16:39:45] INFO root fetch - processPackages [pypots]: Downloading https://files.pythonhosted.org/packages/1e/11/a1c369a1646b8d61069c07a3160873caa5e452fb08ce32a6f29f53e094fa/pypots-0.0.9.tar.gz
+[2023-04-19 16:39:45] INFO root fetch - processPackages [tsinfer]: Start processing: coretex
+[2023-04-19 16:39:45] INFO root fetch - main [MainThread]: End processing [tsinfer]: success
+[2023-04-19 16:39:45] INFO root fetch - processPackages [pypots]: executing diffoscope
+[2023-04-19 16:39:45] INFO root fetch - processPackages [pypots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypots-0.0.8.tar.gz tmp/pypots-0.0.9.tar.gz --markdown 20230419/p/pypots/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:39:45] INFO root fetch - processPackages [coretex]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 16:39:45] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-04-19 16:39:45] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-0.0.8.tar.gz tmp/coretex-0.0.9.tar.gz --markdown 20230419/c/coretex/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 16:39:46] INFO root fetch - processPackages [jaaql-middleware-python]: Start processing: MotorDeCalidad
+[2023-04-19 16:39:46] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-04-19 16:39:46] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-19 16:39:46] INFO root fetch - processPackages [docbuild]: Start processing: jaaql-middleware-python
+[2023-04-19 16:39:46] INFO root fetch - main [MainThread]: End processing [docbuild]: success
+[2023-04-19 16:39:46] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.6.6] Old Version: [4.6.5]
+[2023-04-19 16:39:46] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-04-19 16:39:46] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230419/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-19 16:39:46] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/4d/04/d8c136d37272f38b9407f6f0a5ec5881a37016ae98bb5fbca1b2f04860f8/jaaql-middleware-python-4.6.5.tar.gz
+[2023-04-19 16:39:46] INFO root fetch - main [MainThread]: End processing [jmetalpy]: success
+[2023-04-19 16:39:46] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/27/d2/0f34467803bbf2370c13ec56b53fd3bb3db3807b9e5fa75f43bc63783677/jaaql-middleware-python-4.6.6.tar.gz
+[2023-04-19 16:39:46] INFO root fetch - main [MainThread]: End processing [xrootdpyfs]: success
+[2023-04-19 16:39:46] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-04-19 16:39:46] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.6.5.tar.gz tmp/jaaql-middleware-python-4.6.6.tar.gz --markdown 20230419/j/jaaql-middleware-python/4.6.5-4.6.6/diff.md --exclude *.pyd
+[2023-04-19 16:39:46] INFO root fetch - main [MainThread]: End processing [pypots]: success
+[2023-04-19 16:39:47] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-04-19 16:39:47] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-04-19 16:39:48] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-04-19 16:39:48] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-04-19 16:39:49] INFO root fetch - main [MainThread]: End processing [trading-strategy]: success
+[2023-04-19 16:39:50] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-04-19 16:39:52] INFO root fetch - main [MainThread]: End processing [plone.restapi]: success
+[2023-04-19 16:39:52] INFO root fetch - main [MainThread]: Store serial: [17772363]
