@@ -15495,3 +15495,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf5 in position 83: invalid
 [2023-04-19 14:52:05] INFO root fetch - main [MainThread]: End processing [huble]: success
 [2023-04-19 14:52:11] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-19 14:52:11] INFO root fetch - main [MainThread]: Store serial: [17771061]
+[2023-04-19 14:57:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17771061]
+[2023-04-19 14:57:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huble
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hagis
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boris-behav-obs
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ascii-cli
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asone
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huble
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tof
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: magic-duckdb
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FATtools
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: huble
+[2023-04-19 14:57:20] INFO root fetch - processPackages [boris-behav-obs]: New version: [8.9.8] Old Version: [8.9.6]
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ascii-cli]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-19 14:57:20] INFO root fetch - processPackages [hagis]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-04-19 14:57:20] WARNING root fetch - processPackages [tof]: Skipping, unable to determine old version
+[2023-04-19 14:57:20] INFO root fetch - processPackages [magic-duckdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 14:57:20] INFO root fetch - main [MainThread]: End processing [tof] error
+[2023-04-19 14:57:20] INFO root fetch - processPackages [asone]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-19 14:57:20] INFO root fetch - processPackages [FATtools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-19 14:57:20] INFO root fetch - processPackages [huble]: New version: [0.2.2992] Old Version: [0.2.2991]
+[2023-04-19 14:57:20] INFO root fetch - processPackages [huble]: New version: [0.2.2992] Old Version: [0.2.2991]
+[2023-04-19 14:57:20] INFO root fetch - processPackages [huble]: New version: [0.2.2992] Old Version: [0.2.2991]
+[2023-04-19 14:57:20] INFO root fetch - processPackages [magic-duckdb]: executing diffoscope
+[2023-04-19 14:57:20] INFO root fetch - processPackages [magic-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_duckdb-0.1.8-py3-none-any.whl.zip tmp/magic_duckdb-0.1.9-py3-none-any.whl.zip --markdown 20230419/m/magic-duckdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ascii-cli]: Downloading https://files.pythonhosted.org/packages/ef/9c/0765814297df3861c8acd17555a10acd2951d8e67b155e4aa81b581e60f1/ascii-cli-0.0.6.tar.gz
+[2023-04-19 14:57:20] INFO root fetch - processPackages [asone]: Downloading https://files.pythonhosted.org/packages/9f/5f/b8457b4ae84313806908d25b970f7217a0347d2951cc7cfa3d57eb4da6e6/asone-0.2.8-py3-none-any.whl
+[2023-04-19 14:57:20] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/8e/42/f5e32a3c1927a7e88f9dc3aa8252a38afcdd2b5efc44841ec6ef78d97d76/huble-0.2.2991.tar.gz
+[2023-04-19 14:57:20] INFO root fetch - processPackages [FATtools]: Downloading https://files.pythonhosted.org/packages/24/24/933a0201b4e55a6e8d2473a7c49c553d69e947253d7b4d4d1626766cef18/FATtools-1.0.8-py3-none-any.whl
+[2023-04-19 14:57:20] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/8e/42/f5e32a3c1927a7e88f9dc3aa8252a38afcdd2b5efc44841ec6ef78d97d76/huble-0.2.2991.tar.gz
+[2023-04-19 14:57:20] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/8e/42/f5e32a3c1927a7e88f9dc3aa8252a38afcdd2b5efc44841ec6ef78d97d76/huble-0.2.2991.tar.gz
+[2023-04-19 14:57:20] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/62/94/df4d55361d41f2c33e4d3c9dbec7bc1d8fda47ba2027ea25a3063dc9f3eb/hagis-0.3.0.tar.gz
+[2023-04-19 14:57:20] INFO root fetch - processPackages [asone]: executing diffoscope
+[2023-04-19 14:57:20] INFO root fetch - processPackages [asone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asone-0.2.7-py3-none-any.whl.zip tmp/asone-0.2.8-py3-none-any.whl.zip --markdown 20230419/a/asone/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-19 14:57:20] INFO root fetch - processPackages [boris-behav-obs]: executing diffoscope
+[2023-04-19 14:57:20] INFO root fetch - processPackages [boris-behav-obs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boris-behav-obs-8.9.6.tar.gz tmp/boris-behav-obs-8.9.8.tar.gz --markdown 20230419/b/boris-behav-obs/8.9.6-8.9.8/diff.md --exclude *.pyd
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ascii-cli]: executing diffoscope
+[2023-04-19 14:57:20] INFO root fetch - processPackages [ascii-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascii-cli-0.0.5.tar.gz tmp/ascii-cli-0.0.6.tar.gz --markdown 20230419/a/ascii-cli/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-19 14:57:20] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-04-19 14:57:20] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.2.9.tar.gz tmp/hagis-0.3.0.tar.gz --markdown 20230419/h/hagis/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-04-19 14:57:21] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/91/1c/344fdfe649df6684de7dc00d55396a0f34853822f16cb3be42b30bb6f3e4/huble-0.2.2992.tar.gz
+[2023-04-19 14:57:21] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/91/1c/344fdfe649df6684de7dc00d55396a0f34853822f16cb3be42b30bb6f3e4/huble-0.2.2992.tar.gz
+[2023-04-19 14:57:21] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/91/1c/344fdfe649df6684de7dc00d55396a0f34853822f16cb3be42b30bb6f3e4/huble-0.2.2992.tar.gz
+[2023-04-19 14:57:21] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-19 14:57:21] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.2991.tar.gz tmp/huble-0.2.2992.tar.gz --markdown 20230419/h/huble/0.2.2991-0.2.2992/diff.md --exclude *.pyd
+[2023-04-19 14:57:21] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-19 14:57:21] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-19 14:57:21] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.2991.tar.gz tmp/huble-0.2.2992.tar.gz --markdown 20230419/h/huble/0.2.2991-0.2.2992/diff.md --exclude *.pyd
+[2023-04-19 14:57:21] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.2991.tar.gz tmp/huble-0.2.2992.tar.gz --markdown 20230419/h/huble/0.2.2991-0.2.2992/diff.md --exclude *.pyd
+[2023-04-19 14:57:21] INFO root fetch - processPackages [FATtools]: Downloading https://files.pythonhosted.org/packages/39/de/27ad141dc2d3176c8aff292eada5a66869a0d4d7a3435725fda7919a2ea9/FATtools-1.0.9.tar.gz
+[2023-04-19 14:57:21] INFO root fetch - processPackages [FATtools]: executing diffoscope
+[2023-04-19 14:57:21] INFO root fetch - processPackages [FATtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FATtools-1.0.8-py3-none-any.whl.zip tmp/FATtools-1.0.9.tar.gz --markdown 20230419/F/FATtools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 14:57:21] INFO root fetch - main [MainThread]: End processing [magic-duckdb]: success
+[2023-04-19 14:57:22] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-04-19 14:57:22] INFO root fetch - main [MainThread]: End processing [ascii-cli]: success
+[2023-04-19 14:57:22] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-19 14:57:23] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-19 14:57:23] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-19 14:57:23] INFO root fetch - main [MainThread]: End processing [asone]: success
+[2023-04-19 14:57:25] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
+[2023-04-19 14:57:33] INFO root fetch - main [MainThread]: End processing [FATtools]: success
+[2023-04-19 14:57:33] INFO root fetch - main [MainThread]: Store serial: [17771092]
