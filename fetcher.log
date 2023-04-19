@@ -4430,3 +4430,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 03:35:01] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
 [2023-04-19 03:35:01] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
 [2023-04-19 03:35:01] INFO root fetch - main [MainThread]: Store serial: [17764673]
+[2023-04-19 03:40:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17764673]
+[2023-04-19 03:40:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 03:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-selenium-ctrl-package
+[2023-04-19 03:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperon
+[2023-04-19 03:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-pandas
+[2023-04-19 03:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rstms-etherscan-python
+[2023-04-19 03:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pytorch
+[2023-04-19 03:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gTixi
+[2023-04-19 03:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: colorsmaximize
+[2023-04-19 03:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: teelebot
+[2023-04-19 03:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-scipy
+[2023-04-19 03:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qiskit-experiments
+[2023-04-19 03:40:09] INFO root fetch - processPackages [rstms-etherscan-python]: New version: [2.1.8] Old Version: [2.1.11]
+[2023-04-19 03:40:09] WARNING root fetch - processPackages [hyperon]: Skipping, unable to determine old version
+[2023-04-19 03:40:09] INFO root fetch - main [MainThread]: End processing [hyperon] error
+[2023-04-19 03:40:09] INFO root fetch - processPackages [python-selenium-ctrl-package]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-04-19 03:40:09] WARNING root fetch - processPackages [colorsmaximize]: Skipping, unable to determine old version
+[2023-04-19 03:40:09] INFO root fetch - main [MainThread]: End processing [colorsmaximize] error
+[2023-04-19 03:40:09] INFO root fetch - processPackages [qiskit-experiments]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-19 03:40:09] INFO root fetch - processPackages [teelebot]: New version: [1.23.1] Old Version: [1.23.0]
+[2023-04-19 03:40:10] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 03:40:10] INFO root fetch - processPackages [gTixi]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-19 03:40:10] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 03:40:10] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 03:40:10] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-04-19 03:40:10] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230419/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 03:40:10] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-04-19 03:40:10] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230419/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 03:40:10] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-19 03:40:10] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230419/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 03:40:10] INFO root fetch - processPackages [rstms-etherscan-python]: Downloading https://files.pythonhosted.org/packages/82/0d/43a012bc6c90cd043f6e85ce92642fd2a2a4d7bb695898871a9b63aff232/rstms-etherscan-python-2.1.11.tar.gz
+[2023-04-19 03:40:10] INFO root fetch - processPackages [qiskit-experiments]: Downloading https://files.pythonhosted.org/packages/c6/71/11c9a4f1e38cf496e92947f234a7bf1e795561730d97a18da0ed1e969ae9/qiskit-experiments-0.5.0.tar.gz
+[2023-04-19 03:40:10] INFO root fetch - processPackages [python-selenium-ctrl-package]: Downloading https://files.pythonhosted.org/packages/21/14/46411018d8c3567502c7fc9f8c290eabcfe7d9adb6b4ffdaf7dc44c2b2c7/python_selenium_ctrl_package-0.0.93.tar.gz
+[2023-04-19 03:40:10] INFO root fetch - processPackages [teelebot]: Downloading https://files.pythonhosted.org/packages/26/1e/e0d1265ae013d77888d082c0d764b498703921aa366b96c567157d80321a/teelebot-1.23.1-py3-none-any.whl
+[2023-04-19 03:40:10] INFO root fetch - processPackages [gTixi]: Downloading https://files.pythonhosted.org/packages/ec/63/08c38c8feb8eb98eb5512fea21b6eeff12d825d659954530dd9b09b64b08/gTixi-1.0.0.tar.gz
+[2023-04-19 03:40:10] INFO root fetch - processPackages [python-selenium-ctrl-package]: executing diffoscope
+[2023-04-19 03:40:10] INFO root fetch - processPackages [python-selenium-ctrl-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_selenium_ctrl_package-0.0.92.tar.gz tmp/python_selenium_ctrl_package-0.0.93.tar.gz --markdown 20230419/p/python-selenium-ctrl-package/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-04-19 03:40:10] INFO root fetch - processPackages [teelebot]: executing diffoscope
+[2023-04-19 03:40:10] INFO root fetch - processPackages [teelebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teelebot-1.23.0-py3-none-any.whl.zip tmp/teelebot-1.23.1-py3-none-any.whl.zip --markdown 20230419/t/teelebot/1.23.0-1.23.1/diff.md --exclude *.pyd
+[2023-04-19 03:40:10] INFO root fetch - processPackages [gTixi]: Downloading https://files.pythonhosted.org/packages/97/a4/234d6fd5f05abb21ac351aa6182a02a830d4fbb953ed77cfd801938899b1/gTixi-1.1.0.tar.gz
+[2023-04-19 03:40:10] INFO root fetch - processPackages [qiskit-experiments]: Downloading https://files.pythonhosted.org/packages/fe/5f/3f1e27004c418963d87d1906aa3f374d1d5d7e63f537dd64b786d3c5a514/qiskit-experiments-0.5.1.tar.gz
+[2023-04-19 03:40:10] INFO root fetch - processPackages [rstms-etherscan-python]: Downloading https://files.pythonhosted.org/packages/d0/e5/adf10427a7d0a833a2743a6e1879a0d393f6f170e927cf5d54a6a19b407d/rstms-etherscan-python-2.1.8.tar.gz
+[2023-04-19 03:40:10] INFO root fetch - processPackages [gTixi]: executing diffoscope
+[2023-04-19 03:40:10] INFO root fetch - processPackages [gTixi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gTixi-1.0.0.tar.gz tmp/gTixi-1.1.0.tar.gz --markdown 20230419/g/gTixi/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-19 03:40:10] INFO root fetch - processPackages [qiskit-experiments]: executing diffoscope
+[2023-04-19 03:40:10] INFO root fetch - processPackages [qiskit-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-experiments-0.5.0.tar.gz tmp/qiskit-experiments-0.5.1.tar.gz --markdown 20230419/q/qiskit-experiments/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-19 03:40:10] INFO root fetch - processPackages [rstms-etherscan-python]: executing diffoscope
+[2023-04-19 03:40:10] INFO root fetch - processPackages [rstms-etherscan-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstms-etherscan-python-2.1.11.tar.gz tmp/rstms-etherscan-python-2.1.8.tar.gz --markdown 20230419/r/rstms-etherscan-python/2.1.11-2.1.8/diff.md --exclude *.pyd
+[2023-04-19 03:40:11] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-04-19 03:40:11] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-19 03:40:11] INFO root fetch - main [MainThread]: End processing [teelebot]: success
+[2023-04-19 03:40:11] INFO root fetch - main [MainThread]: End processing [python-selenium-ctrl-package]: success
+[2023-04-19 03:40:12] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-04-19 03:40:12] INFO root fetch - main [MainThread]: End processing [gTixi]: success
+[2023-04-19 03:40:15] INFO root fetch - main [MainThread]: End processing [qiskit-experiments]: success
+[2023-04-19 03:43:10] ERROR root fetch - processPackages [rstms-etherscan-python]: Timeout during execution of pkgdiff
+[2023-04-19 03:43:10] INFO root fetch - main [MainThread]: End processing [rstms-etherscan-python] error
+[2023-04-19 03:43:10] INFO root fetch - main [MainThread]: Store serial: [17764707]
