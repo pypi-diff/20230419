@@ -6739,3 +6739,28 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 06:31:07] INFO root fetch - main [MainThread]: End processing [hdcms]: success
 [2023-04-19 06:31:20] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2023-04-19 06:31:20] INFO root fetch - main [MainThread]: Store serial: [17765906]
+[2023-04-19 06:36:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765906]
+[2023-04-19 06:36:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-19 06:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhtcc
+[2023-04-19 06:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: umjunsik
+[2023-04-19 06:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt3discord
+[2023-04-19 06:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EXOSIMS
+[2023-04-19 06:36:29] INFO root fetch - processPackages [pyhtcc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 06:36:29] INFO root fetch - processPackages [umjunsik]: New version: [1.2.1] Old Version: [1.2]
+[2023-04-19 06:36:29] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-04-19 06:36:30] INFO root fetch - processPackages [EXOSIMS]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-04-19 06:36:30] INFO root fetch - processPackages [pyhtcc]: executing diffoscope
+[2023-04-19 06:36:30] INFO root fetch - processPackages [pyhtcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtcc-0.1.8.tar.gz tmp/pyhtcc-0.1.9.tar.gz --markdown 20230419/p/pyhtcc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 06:36:30] INFO root fetch - processPackages [umjunsik]: Downloading https://files.pythonhosted.org/packages/59/01/6eacd21d3d8b78f04bd0ecde6e70d360727541a39fe244da0aa1c8502b75/umjunsik-1.2.tar.gz
+[2023-04-19 06:36:30] INFO root fetch - processPackages [EXOSIMS]: Downloading https://files.pythonhosted.org/packages/4a/61/21f82eeda89d953ddc17b7ffc9d7a00e65bfff66dd8d6e0ea089ec14b702/EXOSIMS-3.1.1.tar.gz
+[2023-04-19 06:36:30] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-04-19 06:36:30] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230419/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-04-19 06:36:30] INFO root fetch - processPackages [umjunsik]: Downloading https://files.pythonhosted.org/packages/79/14/20c06510a58ce60c352516a408b9bf1eb8f292c62f80b29949e0b42a0215/umjunsik-1.2.1.tar.gz
+[2023-04-19 06:36:30] WARNING root fetch - processPackages [EXOSIMS]: Skipping package: exceeds size limit 16828290>=10485760
+[2023-04-19 06:36:30] INFO root fetch - main [MainThread]: End processing [EXOSIMS] error
+[2023-04-19 06:36:30] INFO root fetch - processPackages [umjunsik]: executing diffoscope
+[2023-04-19 06:36:30] INFO root fetch - processPackages [umjunsik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umjunsik-1.2.tar.gz tmp/umjunsik-1.2.1.tar.gz --markdown 20230419/u/umjunsik/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-04-19 06:36:31] INFO root fetch - main [MainThread]: End processing [pyhtcc]: success
+[2023-04-19 06:36:31] INFO root fetch - main [MainThread]: End processing [umjunsik]: success
+[2023-04-19 06:36:31] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-04-19 06:36:31] INFO root fetch - main [MainThread]: Store serial: [17765918]
