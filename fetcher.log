@@ -6793,3 +6793,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 06:41:41] INFO root fetch - main [MainThread]: End processing [pdbp]: success
 [2023-04-19 06:41:42] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
 [2023-04-19 06:41:42] INFO root fetch - main [MainThread]: Store serial: [17765935]
+[2023-04-19 06:46:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765935]
+[2023-04-19 06:46:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-19 06:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peaqevcore
+[2023-04-19 06:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-tts-gal
+[2023-04-19 06:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pd-db-wrangler
+[2023-04-19 06:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dgopy
+[2023-04-19 06:46:50] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-04-19 06:46:50] INFO root fetch - processPackages [pd-db-wrangler]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-19 06:46:50] WARNING root fetch - processPackages [dgopy]: Skipping, unable to determine old version
+[2023-04-19 06:46:50] INFO root fetch - processPackages [nonebot-plugin-tts-gal]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 06:46:50] INFO root fetch - main [MainThread]: End processing [dgopy] error
+[2023-04-19 06:46:51] INFO root fetch - processPackages [pd-db-wrangler]: executing diffoscope
+[2023-04-19 06:46:51] INFO root fetch - processPackages [pd-db-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pd_db_wrangler-0.8.0.tar.gz tmp/pd_db_wrangler-0.9.0.tar.gz --markdown 20230419/p/pd-db-wrangler/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 06:46:51] INFO root fetch - processPackages [nonebot-plugin-tts-gal]: executing diffoscope
+[2023-04-19 06:46:51] INFO root fetch - processPackages [nonebot-plugin-tts-gal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tts_gal-0.3.8.tar.gz tmp/nonebot_plugin_tts_gal-0.3.9.tar.gz --markdown 20230419/n/nonebot-plugin-tts-gal/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 06:46:51] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-04-19 06:46:51] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230419/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-04-19 06:46:52] INFO root fetch - main [MainThread]: End processing [pd-db-wrangler]: success
+[2023-04-19 06:46:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tts-gal]: success
+[2023-04-19 06:46:52] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-04-19 06:46:52] INFO root fetch - main [MainThread]: Store serial: [17765949]
