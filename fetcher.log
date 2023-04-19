@@ -22583,3 +22583,194 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 21:00:48] INFO root fetch - main [MainThread]: End processing [SigProfilerAssignment]: success
 [2023-04-19 21:00:49] INFO root fetch - main [MainThread]: End processing [pyhard]: success
 [2023-04-19 21:00:49] INFO root fetch - main [MainThread]: Store serial: [17775483]
+[2023-04-19 21:05:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17775483]
+[2023-04-19 21:06:01] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-04-19 21:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdiicons
+[2023-04-19 21:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsonbourne
+[2023-04-19 21:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dagster
+[2023-04-19 21:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aliendev-api
+[2023-04-19 21:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-civo
+[2023-04-19 21:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: InvPyplot
+[2023-04-19 21:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-artifactory
+[2023-04-19 21:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: travel-salesman
+[2023-04-19 21:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-auth0
+[2023-04-19 21:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: waveorder
+[2023-04-19 21:06:01] INFO root fetch - processPackages [mdiicons]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 21:06:01] WARNING root fetch - processPackages [InvPyplot]: Skipping, unable to determine old version
+[2023-04-19 21:06:01] INFO root fetch - processPackages [InvPyplot]: Start processing: pulumi-akamai
+[2023-04-19 21:06:01] INFO root fetch - main [MainThread]: End processing [InvPyplot] error
+[2023-04-19 21:06:01] WARNING root fetch - processPackages [aliendev-api]: Skipping, unable to determine old version
+[2023-04-19 21:06:01] INFO root fetch - processPackages [aliendev-api]: Start processing: lsh-index
+[2023-04-19 21:06:01] INFO root fetch - main [MainThread]: End processing [aliendev-api] error
+[2023-04-19 21:06:01] WARNING root fetch - processPackages [travel-salesman]: Skipping, unable to determine old version
+[2023-04-19 21:06:01] INFO root fetch - processPackages [travel-salesman]: Start processing: domolibrary
+[2023-04-19 21:06:01] INFO root fetch - main [MainThread]: End processing [travel-salesman] error
+[2023-04-19 21:06:01] INFO root fetch - processPackages [waveorder]: New version: [1.0.0rc3] Old Version: [1.0.0rc2]
+[2023-04-19 21:06:01] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1681926811] Old Version: [2.4.0a1680907933]
+[2023-04-19 21:06:01] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-04-19 21:06:01] INFO root fetch - processPackages [jsonbourne]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-19 21:06:01] INFO root fetch - processPackages [pulumi-artifactory]: New version: [3.3.0a1681926803] Old Version: [3.3.0a1681508153]
+[2023-04-19 21:06:01] WARNING root fetch - processPackages [lsh-index]: Skipping, unable to determine old version
+[2023-04-19 21:06:01] INFO root fetch - processPackages [lsh-index]: Start processing: aws-sso-cli
+[2023-04-19 21:06:01] INFO root fetch - main [MainThread]: End processing [lsh-index] error
+[2023-04-19 21:06:01] INFO root fetch - processPackages [domolibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 21:06:01] INFO root fetch - processPackages [pulumi-akamai]: New version: [4.5.0a1681926751] Old Version: [4.4.0a1681843117]
+[2023-04-19 21:06:01] INFO root fetch - processPackages [dagster]: New version: [1.3.0] Old Version: [1.2.7]
+[2023-04-19 21:06:01] INFO root fetch - processPackages [aws-sso-cli]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-19 21:06:01] INFO root fetch - processPackages [mdiicons]: Downloading https://files.pythonhosted.org/packages/58/a2/a038e1b7fe57ed5848da48f88b20c63ecbfd1493fb9e8ce13dfd7ff28fd4/mdiicons-0.0.1.tar.gz
+[2023-04-19 21:06:01] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-19 21:06:01] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.0.8.tar.gz tmp/domolibrary-0.0.9.tar.gz --markdown 20230419/d/domolibrary/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 21:06:01] INFO root fetch - processPackages [dagster]: Downloading https://files.pythonhosted.org/packages/e3/60/ccce3f74632abf32f0c26dcaec47ab172815081665aab73bda6d14f8028a/dagster-1.2.7.tar.gz
+[2023-04-19 21:06:01] INFO root fetch - processPackages [waveorder]: Downloading https://files.pythonhosted.org/packages/70/e8/2481445ba94d982b5fb36bf8edd403703a79f6dc3114c7a5f0a5525591a2/waveorder-1.0.0rc2.tar.gz
+[2023-04-19 21:06:01] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/04/bd/4d8d4683446acc77ea338ce3cf7b97d8d468212d26776536faa6afcd2cfb/pulumi_akamai-4.5.0a1681926751.tar.gz
+[2023-04-19 21:06:01] INFO root fetch - processPackages [aws-sso-cli]: Downloading https://files.pythonhosted.org/packages/f1/01/06a08b98ccb615ea1094096acf71f76635bfa8b42b32eb920696d735ac8a/aws-sso-cli-0.4.1.tar.gz
+[2023-04-19 21:06:01] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/b5/2f/85c58f771824c908c743f483a00b0aadc04cbf681a3fa1ec32e0782fc5bd/pulumi_civo-2.4.0a1680907933.tar.gz
+[2023-04-19 21:06:01] INFO root fetch - processPackages [jsonbourne]: Downloading https://files.pythonhosted.org/packages/40/6e/5931cb17512f866b388117b053285577db5a3307829d96a30289f3845b83/jsonbourne-0.8.1.tar.gz
+[2023-04-19 21:06:01] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/3e/35/7d6e4499bceba97755c0134f6a13d88ed94dadff204afd15746602f4d885/pulumi_auth0-2.9.0a1651588791.tar.gz
+[2023-04-19 21:06:01] WARNING root fetch - processPackages [waveorder]: Skipping package: exceeds size limit 66346388>=10485760
+[2023-04-19 21:06:01] INFO root fetch - processPackages [waveorder]: Start processing: hspylib-cfman
+[2023-04-19 21:06:01] INFO root fetch - main [MainThread]: End processing [waveorder] error
+[2023-04-19 21:06:01] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-04-19 21:06:01] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-4.4.0a1681843117.tar.gz tmp/pulumi_akamai-4.5.0a1681926751.tar.gz --markdown 20230419/p/pulumi-akamai/4.4.0a1681843117-4.5.0a1681926751/diff.md --exclude *.pyd
+[2023-04-19 21:06:01] INFO root fetch - processPackages [mdiicons]: Downloading https://files.pythonhosted.org/packages/57/d8/12fead2801f32b07f74bcf6e66cd52033e4b5352797d668714d5329f76dd/mdiicons-0.0.2.tar.gz
+[2023-04-19 21:06:01] INFO root fetch - processPackages [hspylib-cfman]: New version: [0.9.9] Old Version: [0.9.88]
+[2023-04-19 21:06:01] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/b9/ac/26fad691cb60b3454a1545b41bd1cf73a04c1eb8be5d360d91d3275879c7/pulumi_artifactory-3.3.0a1681926803.tar.gz
+[2023-04-19 21:06:01] INFO root fetch - processPackages [dagster]: Downloading https://files.pythonhosted.org/packages/11/97/0522dffd2e57f656818d9420f85e6b038f0a3a4da73877ac8eda763d5950/dagster-1.3.0.tar.gz
+[2023-04-19 21:06:01] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/42/b9/2165d14c9f6eebd5a0dc71bd4954dd926595d65527539beb7ad6653a6a1a/pulumi_civo-2.4.0a1681926811.tar.gz
+[2023-04-19 21:06:02] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/19/fc/57f01dd941ba0ec2ad79d6e6f06dc951a65e89280d974bb8be71b3a6bc6a/pulumi_auth0-2.9.0a1653604814.tar.gz
+[2023-04-19 21:06:02] INFO root fetch - processPackages [aws-sso-cli]: Downloading https://files.pythonhosted.org/packages/24/4b/995685a08be05bbeca7fcbe6277e6392439b9d28147205593070ea64562c/aws-sso-cli-0.4.2.tar.gz
+[2023-04-19 21:06:02] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/f6/ce/64c058ee5ac6730e50ebe50e65105682d2fb65c0fbdbf64ec9b6476551b3/hspylib-cfman-0.9.88.tar.gz
+[2023-04-19 21:06:02] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2023-04-19 21:06:02] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-3.3.0a1681508153.tar.gz tmp/pulumi_artifactory-3.3.0a1681926803.tar.gz --markdown 20230419/p/pulumi-artifactory/3.3.0a1681508153-3.3.0a1681926803/diff.md --exclude *.pyd
+[2023-04-19 21:06:02] INFO root fetch - processPackages [mdiicons]: executing diffoscope
+[2023-04-19 21:06:02] INFO root fetch - processPackages [mdiicons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdiicons-0.0.1.tar.gz tmp/mdiicons-0.0.2.tar.gz --markdown 20230419/m/mdiicons/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 21:06:02] INFO root fetch - processPackages [dagster]: executing diffoscope
+[2023-04-19 21:06:02] INFO root fetch - processPackages [dagster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-1.2.7.tar.gz tmp/dagster-1.3.0.tar.gz --markdown 20230419/d/dagster/1.2.7-1.3.0/diff.md --exclude *.pyd
+[2023-04-19 21:06:02] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-04-19 21:06:02] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1680907933.tar.gz tmp/pulumi_civo-2.4.0a1681926811.tar.gz --markdown 20230419/p/pulumi-civo/2.4.0a1680907933-2.4.0a1681926811/diff.md --exclude *.pyd
+[2023-04-19 21:06:02] INFO root fetch - processPackages [jsonbourne]: Downloading https://files.pythonhosted.org/packages/83/c0/855e21b3e206d5f135d8abf94335937ac7ae27f875f985340c1e876c79ab/jsonbourne-0.9.0.tar.gz
+[2023-04-19 21:06:02] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-04-19 21:06:02] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230419/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-04-19 21:06:02] INFO root fetch - processPackages [aws-sso-cli]: executing diffoscope
+[2023-04-19 21:06:02] INFO root fetch - processPackages [aws-sso-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-sso-cli-0.4.1.tar.gz tmp/aws-sso-cli-0.4.2.tar.gz --markdown 20230419/a/aws-sso-cli/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-19 21:06:02] INFO root fetch - processPackages [jsonbourne]: executing diffoscope
+[2023-04-19 21:06:02] INFO root fetch - processPackages [jsonbourne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonbourne-0.8.1.tar.gz tmp/jsonbourne-0.9.0.tar.gz --markdown 20230419/j/jsonbourne/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-19 21:06:02] INFO root fetch - processPackages [hspylib-cfman]: Downloading https://files.pythonhosted.org/packages/a7/3f/d5d1fc95f0a47a6ac56bbb21f4b065c4a9e857e43a7af0f92e42ab9d95de/hspylib-cfman-0.9.9.tar.gz
+[2023-04-19 21:06:02] INFO root fetch - processPackages [hspylib-cfman]: executing diffoscope
+[2023-04-19 21:06:02] INFO root fetch - processPackages [hspylib-cfman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-cfman-0.9.88.tar.gz tmp/hspylib-cfman-0.9.9.tar.gz --markdown 20230419/h/hspylib-cfman/0.9.88-0.9.9/diff.md --exclude *.pyd
+[2023-04-19 21:06:03] INFO root fetch - processPackages [aws-sso-cli]: Start processing: pyanzo
+[2023-04-19 21:06:03] INFO root fetch - main [MainThread]: End processing [aws-sso-cli]: success
+[2023-04-19 21:06:03] INFO root fetch - processPackages [pyanzo]: New version: [3.3.8] Old Version: [3.3.7]
+[2023-04-19 21:06:03] INFO root fetch - processPackages [mdiicons]: Start processing: stepcount
+[2023-04-19 21:06:03] INFO root fetch - main [MainThread]: End processing [mdiicons]: success
+[2023-04-19 21:06:03] INFO root fetch - processPackages [stepcount]: New version: [2.1.2.post0] Old Version: [2.1.2]
+[2023-04-19 21:06:03] INFO root fetch - processPackages [pulumi-civo]: Start processing: splight-lib
+[2023-04-19 21:06:03] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-04-19 21:06:03] INFO root fetch - processPackages [splight-lib]: New version: [2.3.0] Old Version: [2.2.9]
+[2023-04-19 21:06:03] INFO root fetch - processPackages [pyanzo]: Downloading https://files.pythonhosted.org/packages/fc/a2/a81e24464c751710b97b978fbd323293a878d3163c209f0fe41966c53ef8/pyanzo-3.3.7.tar.gz
+[2023-04-19 21:06:03] INFO root fetch - processPackages [jsonbourne]: Start processing: hspylib-clitt
+[2023-04-19 21:06:03] INFO root fetch - main [MainThread]: End processing [jsonbourne]: success
+[2023-04-19 21:06:03] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-19 21:06:04] INFO root fetch - processPackages [stepcount]: Downloading https://files.pythonhosted.org/packages/7a/48/33dec017b5551ae2d28f212ae6e12913ec43697f757ef9b688eaa77b33f9/stepcount-2.1.2.tar.gz
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-cfman]: Start processing: hspylib-datasource
+[2023-04-19 21:06:04] INFO root fetch - main [MainThread]: End processing [hspylib-cfman]: success
+[2023-04-19 21:06:04] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/de/ee/88cb9ce90e50dff25caead61b697d0b85b2d6116ffaebe3f7fb5736098af/splight-lib-2.3.0.tar.gz
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-datasource]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-19 21:06:04] INFO root fetch - processPackages [pyanzo]: Downloading https://files.pythonhosted.org/packages/90/ab/5ef18e76abf381a1c526c6218fc785b35cd78523ee96230ded6f88be5d0d/pyanzo-3.3.8.tar.gz
+[2023-04-19 21:06:04] INFO root fetch - processPackages [pulumi-auth0]: Start processing: hspylib-firebase
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/a0/0f/42b890c8f02902edfff9f8ea73ea79d8acfea76c705b6966ff73e809437a/hspylib-clitt-0.9.8.tar.gz
+[2023-04-19 21:06:04] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-firebase]: New version: [0.9.96] Old Version: [0.9.95]
+[2023-04-19 21:06:04] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-04-19 21:06:04] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.2.9.tar.gz tmp/splight-lib-2.3.0.tar.gz --markdown 20230419/s/splight-lib/2.2.9-2.3.0/diff.md --exclude *.pyd
+[2023-04-19 21:06:04] INFO root fetch - processPackages [pyanzo]: executing diffoscope
+[2023-04-19 21:06:04] INFO root fetch - processPackages [pyanzo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanzo-3.3.7.tar.gz tmp/pyanzo-3.3.8.tar.gz --markdown 20230419/p/pyanzo/3.3.7-3.3.8/diff.md --exclude *.pyd
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-datasource]: Downloading https://files.pythonhosted.org/packages/84/47/f38072cbefc618dedda4a9fdd080f7a96aaccfb90121fee4c5813ad16079/hspylib-datasource-0.9.8.tar.gz
+[2023-04-19 21:06:04] INFO root fetch - processPackages [stepcount]: Downloading https://files.pythonhosted.org/packages/03/d1/0eb1156c2d7678c8b60ca03e3eb4768299e5759119e75f56d4030dc9be34/stepcount-2.1.2.post0.tar.gz
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-firebase]: Downloading https://files.pythonhosted.org/packages/4a/a6/0a79ce92698b5e5b68300a1c5a587d236be26a804491aad5dd8b54d73b01/hspylib-firebase-0.9.95.tar.gz
+[2023-04-19 21:06:04] INFO root fetch - processPackages [stepcount]: executing diffoscope
+[2023-04-19 21:06:04] INFO root fetch - processPackages [stepcount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stepcount-2.1.2.tar.gz tmp/stepcount-2.1.2.post0.tar.gz --markdown 20230419/s/stepcount/2.1.2-2.1.2.post0/diff.md --exclude *.pyd
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/47/f9/72c8e44dc280a8f3542b8890670b05e5c03581d2712648f572e4b0717836/hspylib-clitt-0.9.9.tar.gz
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-datasource]: Downloading https://files.pythonhosted.org/packages/38/fb/af7730aeb7d4a3b273ddd9ae5f71e849f0cd535f93271afc647d221fce09/hspylib-datasource-0.9.9.tar.gz
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230419/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-firebase]: Downloading https://files.pythonhosted.org/packages/52/22/6ad76ce07e079dcf789faeca718f56d2732b824464376794e532dd7aa536/hspylib-firebase-0.9.96.tar.gz
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-firebase]: executing diffoscope
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-firebase-0.9.95.tar.gz tmp/hspylib-firebase-0.9.96.tar.gz --markdown 20230419/h/hspylib-firebase/0.9.95-0.9.96/diff.md --exclude *.pyd
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-datasource]: executing diffoscope
+[2023-04-19 21:06:04] INFO root fetch - processPackages [hspylib-datasource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-datasource-0.9.8.tar.gz tmp/hspylib-datasource-0.9.9.tar.gz --markdown 20230419/h/hspylib-datasource/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-19 21:06:05] INFO root fetch - processPackages [domolibrary]: Start processing: pdm-conda
+[2023-04-19 21:06:05] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-19 21:06:05] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.0b2] Old Version: [0.9.0b1]
+[2023-04-19 21:06:05] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2023-04-19 21:06:05] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.0b1.tar.gz tmp/pdm_conda-0.9.0b2.tar.gz --markdown 20230419/p/pdm-conda/0.9.0b1-0.9.0b2/diff.md --exclude *.pyd
+[2023-04-19 21:06:05] INFO root fetch - processPackages [stepcount]: Start processing: hspylib-hqt
+[2023-04-19 21:06:05] INFO root fetch - main [MainThread]: End processing [stepcount]: success
+[2023-04-19 21:06:05] INFO root fetch - processPackages [hspylib-hqt]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-19 21:06:05] INFO root fetch - processPackages [hspylib-firebase]: Start processing: earthengine-api
+[2023-04-19 21:06:05] INFO root fetch - main [MainThread]: End processing [hspylib-firebase]: success
+[2023-04-19 21:06:05] INFO root fetch - processPackages [hspylib-hqt]: Downloading https://files.pythonhosted.org/packages/ff/e7/70d8b3bc9bc41eaa4e3192500f2b62b00e4a805250e347841af3fdf39867/hspylib-hqt-0.9.1.tar.gz
+[2023-04-19 21:06:05] INFO root fetch - processPackages [earthengine-api]: New version: [0.1.99] Old Version: [0.1.97]
+[2023-04-19 21:06:06] INFO root fetch - processPackages [hspylib-datasource]: Start processing: saltext.elasticsearch8
+[2023-04-19 21:06:06] INFO root fetch - main [MainThread]: End processing [hspylib-datasource]: success
+[2023-04-19 21:06:06] INFO root fetch - processPackages [saltext.elasticsearch8]: New version: [1.0.9] Old Version: [1.0.0]
+[2023-04-19 21:06:06] INFO root fetch - processPackages [earthengine-api]: Downloading https://files.pythonhosted.org/packages/34/ab/ffc5a8a504b242a55990eb9ac363c9e5e30cdbb203f0362d6e7ba41bbcad/earthengine-api-0.1.97.tar.gz
+[2023-04-19 21:06:06] INFO root fetch - processPackages [hspylib-hqt]: Downloading https://files.pythonhosted.org/packages/ca/d4/c1045e371a20b465477d8169599ca019b70a390afe3f647108e39839e7b5/hspylib-hqt-0.9.2.tar.gz
+[2023-04-19 21:06:06] INFO root fetch - processPackages [hspylib-hqt]: executing diffoscope
+[2023-04-19 21:06:06] INFO root fetch - processPackages [hspylib-hqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-hqt-0.9.1.tar.gz tmp/hspylib-hqt-0.9.2.tar.gz --markdown 20230419/h/hspylib-hqt/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-19 21:06:06] INFO root fetch - processPackages [saltext.elasticsearch8]: Downloading https://files.pythonhosted.org/packages/97/6b/34fb5d21ec5248f4f208ab1c3dea382fdfa97ebf014d4b6b54011fccef60/saltext.elasticsearch8-1-py2.py3-none-any.whl
+[2023-04-19 21:06:06] INFO root fetch - processPackages [pdm-conda]: Start processing: hspylib
+[2023-04-19 21:06:06] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2023-04-19 21:06:06] INFO root fetch - processPackages [saltext.elasticsearch8]: Downloading https://files.pythonhosted.org/packages/05/1d/4168166112d34e14ac8b3af47ac4efa7efd30535bf7aa3f15573b38a215b/saltext.elasticsearch8-1.0.9.tar.gz
+[2023-04-19 21:06:06] INFO root fetch - processPackages [earthengine-api]: Downloading https://files.pythonhosted.org/packages/57/32/e9962f84ea0857b1d931597eb5b674e5a023c9162b7e369593bcab88756d/earthengine-api-0.1.99.tar.gz
+[2023-04-19 21:06:06] INFO root fetch - processPackages [hspylib]: New version: [0.9.23] Old Version: [0.9.22]
+[2023-04-19 21:06:06] INFO root fetch - processPackages [saltext.elasticsearch8]: executing diffoscope
+[2023-04-19 21:06:06] INFO root fetch - processPackages [saltext.elasticsearch8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saltext.elasticsearch8-1-py2.py3-none-any.whl.zip tmp/saltext.elasticsearch8-1.0.9.tar.gz --markdown 20230419/s/saltext.elasticsearch8/1.0.0-1.0.9/diff.md --exclude *.pyd
+[2023-04-19 21:06:06] INFO root fetch - processPackages [earthengine-api]: executing diffoscope
+[2023-04-19 21:06:06] INFO root fetch - processPackages [earthengine-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthengine-api-0.1.97.tar.gz tmp/earthengine-api-0.1.99.tar.gz --markdown 20230419/e/earthengine-api/0.1.97-0.1.99/diff.md --exclude *.pyd
+[2023-04-19 21:06:06] INFO root fetch - processPackages [hspylib]: executing diffoscope
+[2023-04-19 21:06:06] INFO root fetch - processPackages [hspylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-0.9.22.tar.gz tmp/hspylib-0.9.23.tar.gz --markdown 20230419/h/hspylib/0.9.22-0.9.23/diff.md --exclude *.pyd
+[2023-04-19 21:06:06] INFO root fetch - processPackages [splight-lib]: Start processing: hspylib-kafman
+[2023-04-19 21:06:06] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-04-19 21:06:06] INFO root fetch - processPackages [hspylib-kafman]: New version: [0.9.99] Old Version: [0.9.96]
+[2023-04-19 21:06:07] INFO root fetch - processPackages [hspylib-kafman]: executing diffoscope
+[2023-04-19 21:06:07] INFO root fetch - processPackages [hspylib-kafman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-kafman-0.9.96.tar.gz tmp/hspylib-kafman-0.9.99.tar.gz --markdown 20230419/h/hspylib-kafman/0.9.96-0.9.99/diff.md --exclude *.pyd
+[2023-04-19 21:06:07] INFO root fetch - processPackages [hspylib-clitt]: Start processing: pycarlo
+[2023-04-19 21:06:07] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-04-19 21:06:07] INFO root fetch - processPackages [pycarlo]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-04-19 21:06:07] INFO root fetch - processPackages [pycarlo]: Downloading https://files.pythonhosted.org/packages/4a/3c/27ce251a1a2d02c9fb29a43f16744a3a1210870d057357e4ec44c9459174/pycarlo-0.7.3.tar.gz
+[2023-04-19 21:06:07] INFO root fetch - processPackages [pycarlo]: Downloading https://files.pythonhosted.org/packages/9c/2a/fd2dbb524a9b7367a913de982a24dd76b45a7c015452f479eefd9f52ae17/pycarlo-0.7.4.tar.gz
+[2023-04-19 21:06:07] INFO root fetch - processPackages [pyanzo]: Start processing: pulumi-cloudinit
+[2023-04-19 21:06:07] INFO root fetch - main [MainThread]: End processing [pyanzo]: success
+[2023-04-19 21:06:07] INFO root fetch - processPackages [pycarlo]: executing diffoscope
+[2023-04-19 21:06:07] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.4.0a1681927169] Old Version: [1.4.0a1680908095]
+[2023-04-19 21:06:07] INFO root fetch - processPackages [pycarlo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycarlo-0.7.3.tar.gz tmp/pycarlo-0.7.4.tar.gz --markdown 20230419/p/pycarlo/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-04-19 21:06:08] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/b0/53/b6f8927c5b4b5118b195f6b08412a235ecae626ab4f5b16114b55be5a969/pulumi_cloudinit-1.4.0a1680908095.tar.gz
+[2023-04-19 21:06:08] INFO root fetch - processPackages [saltext.elasticsearch8]: Start processing: hspylib-vault
+[2023-04-19 21:06:08] INFO root fetch - main [MainThread]: End processing [saltext.elasticsearch8]: success
+[2023-04-19 21:06:08] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/82/f5/829d419783c474046d9a4e3b77bdf47d678e368c22758d3e58448b1e4705/pulumi_cloudinit-1.4.0a1681927169.tar.gz
+[2023-04-19 21:06:08] INFO root fetch - processPackages [hspylib-vault]: New version: [0.9.9] Old Version: [0.9.81]
+[2023-04-19 21:06:08] INFO root fetch - processPackages [hspylib-hqt]: Start processing: pulumi-aiven
+[2023-04-19 21:06:08] INFO root fetch - main [MainThread]: End processing [hspylib-hqt]: success
+[2023-04-19 21:06:08] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2023-04-19 21:06:08] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.4.0a1680908095.tar.gz tmp/pulumi_cloudinit-1.4.0a1681927169.tar.gz --markdown 20230419/p/pulumi-cloudinit/1.4.0a1680908095-1.4.0a1681927169/diff.md --exclude *.pyd
+[2023-04-19 21:06:08] INFO root fetch - processPackages [hspylib-vault]: Downloading https://files.pythonhosted.org/packages/d1/37/74a3191f07532e675c72e43a786bf211b5044b2ad6d0fd0516b76c8931b0/hspylib-vault-0.9.81.tar.gz
+[2023-04-19 21:06:08] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.2.0a1681926758] Old Version: [6.2.0a1680908281]
+[2023-04-19 21:06:08] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-04-19 21:06:08] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/ac/b4/27f914276f926faef1c9e418a9903db4c41bc998248f66933ccd02efb6f3/pulumi_aiven-6.2.0a1680908281.tar.gz
+[2023-04-19 21:06:08] INFO root fetch - processPackages [hspylib-vault]: Downloading https://files.pythonhosted.org/packages/31/99/9f7d53773a561c5eaa7232ac972256dc49d0093b72522b58b18c8a20d238/hspylib-vault-0.9.9.tar.gz
+[2023-04-19 21:06:08] INFO root fetch - processPackages [hspylib-vault]: executing diffoscope
+[2023-04-19 21:06:08] INFO root fetch - processPackages [hspylib-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-vault-0.9.81.tar.gz tmp/hspylib-vault-0.9.9.tar.gz --markdown 20230419/h/hspylib-vault/0.9.81-0.9.9/diff.md --exclude *.pyd
+[2023-04-19 21:06:09] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/82/f3/b0835d1252e6467695964ec8285266a5f81c1cad4820ca34746ad53643d3/pulumi_aiven-6.2.0a1681926758.tar.gz
+[2023-04-19 21:06:09] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2023-04-19 21:06:09] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.2.0a1680908281.tar.gz tmp/pulumi_aiven-6.2.0a1681926758.tar.gz --markdown 20230419/p/pulumi-aiven/6.2.0a1680908281-6.2.0a1681926758/diff.md --exclude *.pyd
+[2023-04-19 21:06:09] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2023-04-19 21:06:09] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2023-04-19 21:06:09] INFO root fetch - main [MainThread]: End processing [earthengine-api]: success
+[2023-04-19 21:06:09] INFO root fetch - main [MainThread]: End processing [pycarlo]: success
+[2023-04-19 21:06:10] INFO root fetch - main [MainThread]: End processing [hspylib-vault]: success
+[2023-04-19 21:06:10] INFO root fetch - main [MainThread]: End processing [dagster]: success
+[2023-04-19 21:06:10] INFO root fetch - main [MainThread]: End processing [hspylib]: success
+[2023-04-19 21:06:11] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2023-04-19 21:06:11] INFO root fetch - main [MainThread]: End processing [hspylib-kafman]: success
+[2023-04-19 21:06:11] INFO root fetch - main [MainThread]: Store serial: [17775583]
