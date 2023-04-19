@@ -5696,3 +5696,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 05:25:46] INFO root fetch - main [MainThread]: End processing [ifs-etc]: success
 [2023-04-19 05:26:30] INFO root fetch - main [MainThread]: End processing [axion]: success
 [2023-04-19 05:26:30] INFO root fetch - main [MainThread]: Store serial: [17765385]
+[2023-04-19 05:31:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765385]
+[2023-04-19 05:31:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-19 05:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-connector-ecommerce
+[2023-04-19 05:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-connector-ecommerce
+[2023-04-19 05:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adsb-tools
+[2023-04-19 05:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: segment-geospatial
+[2023-04-19 05:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pokerrl-env
+[2023-04-19 05:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langtool
+[2023-04-19 05:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kkpyutil
+[2023-04-19 05:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: example-package-neonwatty
+[2023-04-19 05:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: segment-geospatial
+[2023-04-19 05:31:45] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-04-19 05:31:45] INFO root fetch - processPackages [adsb-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 05:31:45] WARNING root fetch - processPackages [odoo-addons-oca-connector-ecommerce]: Skipping, unable to determine old version
+[2023-04-19 05:31:45] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-connector-ecommerce] error
+[2023-04-19 05:31:45] WARNING root fetch - processPackages [pokerrl-env]: Skipping, unable to determine old version
+[2023-04-19 05:31:45] WARNING root fetch - processPackages [segment-geospatial]: Skipping, unable to determine old version
+[2023-04-19 05:31:45] INFO root fetch - main [MainThread]: End processing [pokerrl-env] error
+[2023-04-19 05:31:45] WARNING root fetch - processPackages [langtool]: Skipping, unable to determine old version
+[2023-04-19 05:31:45] WARNING root fetch - processPackages [example-package-neonwatty]: Skipping, unable to determine old version
+[2023-04-19 05:31:45] WARNING root fetch - processPackages [segment-geospatial]: Skipping, unable to determine old version
+[2023-04-19 05:31:45] INFO root fetch - main [MainThread]: End processing [segment-geospatial] error
+[2023-04-19 05:31:45] INFO root fetch - main [MainThread]: End processing [langtool] error
+[2023-04-19 05:31:45] INFO root fetch - main [MainThread]: End processing [example-package-neonwatty] error
+[2023-04-19 05:31:45] INFO root fetch - main [MainThread]: End processing [segment-geospatial] error
+[2023-04-19 05:31:45] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-04-19 05:31:45] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-04-19 05:31:45] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230419/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-04-19 05:31:45] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: Downloading https://files.pythonhosted.org/packages/27/3f/ea2e5516aef2524ddc09e641b8327ed038e4b7e4482eb7148168c3b6d112/odoo_addon_connector_ecommerce-16.0.1.0.0.4-py3-none-any.whl
+[2023-04-19 05:31:45] INFO root fetch - processPackages [adsb-tools]: executing diffoscope
+[2023-04-19 05:31:45] INFO root fetch - processPackages [adsb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsb_tools-0.1.8.tar.gz tmp/adsb_tools-0.1.9.tar.gz --markdown 20230419/a/adsb-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 05:31:45] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: Downloading https://files.pythonhosted.org/packages/4b/e2/2db8a8c0f01d47d0c9d4fc992266d2ee2aab9d7fc572c4110d2d6b8c7fdf/odoo_addon_connector_ecommerce-16.0.1.0.0.5-py3-none-any.whl
+[2023-04-19 05:31:45] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: executing diffoscope
+[2023-04-19 05:31:45] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_connector_ecommerce-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_connector_ecommerce-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-connector-ecommerce/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-04-19 05:31:46] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-04-19 05:31:46] INFO root fetch - main [MainThread]: End processing [adsb-tools]: success
+[2023-04-19 05:31:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-connector-ecommerce]: success
+[2023-04-19 05:31:47] INFO root fetch - main [MainThread]: Store serial: [17765421]
