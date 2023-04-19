@@ -14250,3 +14250,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 13:47:24] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
 [2023-04-19 13:47:52] INFO root fetch - main [MainThread]: End processing [stam]: success
 [2023-04-19 13:47:52] INFO root fetch - main [MainThread]: Store serial: [17770347]
+[2023-04-19 13:53:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17770347]
+[2023-04-19 13:53:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 13:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mobspy
+[2023-04-19 13:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ExceptNotifier
+[2023-04-19 13:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auraboros
+[2023-04-19 13:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resolwe
+[2023-04-19 13:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dkredis
+[2023-04-19 13:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sirqle
+[2023-04-19 13:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shared-dependencies
+[2023-04-19 13:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pineappl
+[2023-04-19 13:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hcf-backend
+[2023-04-19 13:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: staffology
+[2023-04-19 13:53:07] INFO root fetch - processPackages [mobspy]: New version: [2.0.1] Old Version: [1.1.3]
+[2023-04-19 13:53:07] INFO root fetch - processPackages [ExceptNotifier]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-19 13:53:07] INFO root fetch - processPackages [staffology]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-19 13:53:07] INFO root fetch - processPackages [hcf-backend]: New version: [0.5.2.2] Old Version: [0.5.2.1]
+[2023-04-19 13:53:07] INFO root fetch - processPackages [shared-dependencies]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-19 13:53:08] INFO root fetch - processPackages [dkredis]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-04-19 13:53:08] INFO root fetch - processPackages [pineappl]: New version: [0.6.0a8] Old Version: [0.6.0a7]
+[2023-04-19 13:53:08] INFO root fetch - processPackages [sirqle]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-19 13:53:08] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-19 13:53:08] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-04-19 13:53:08] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-04-19 13:53:08] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230419/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-04-19 13:53:08] INFO root fetch - processPackages [staffology]: Downloading https://files.pythonhosted.org/packages/26/85/54f74f0b296146114052018c4cecac9c73fe464fe98c9a0e2359846c1071/staffology-0.1.4.tar.gz
+[2023-04-19 13:53:08] INFO root fetch - processPackages [shared-dependencies]: Downloading https://files.pythonhosted.org/packages/e3/82/ee99bdbe73bda340eb87730cee9b9395e1bcf92488a0a1728e92a814b466/shared_dependencies-1.0.1.tar.gz
+[2023-04-19 13:53:08] INFO root fetch - processPackages [mobspy]: Downloading https://files.pythonhosted.org/packages/81/43/2e0789240f94acd1b5aedd491f69dd7559f5206f0906f53c799540ee6ead/mobspy-1.1.3.tar.gz
+[2023-04-19 13:53:08] INFO root fetch - processPackages [sirqle]: Downloading https://files.pythonhosted.org/packages/f8/07/0c34704be29b9b5233c19b5a573589a2385204320d4b0e7bc97f52589a55/sirqle-0.1.5.tar.gz
+[2023-04-19 13:53:08] INFO root fetch - processPackages [pineappl]: Downloading https://files.pythonhosted.org/packages/ad/77/76244c770fa3c162e17ac95e7f297f4b8b53d83ec548338c8000b38b269d/pineappl-0.6.0a8.tar.gz
+[2023-04-19 13:53:08] INFO root fetch - processPackages [dkredis]: Downloading https://files.pythonhosted.org/packages/b1/b1/ee200a1e04f5ae1aecba280432b6014e72e8db4778e164c0d302f232d10e/dkredis-0.1.5.tar.gz
+[2023-04-19 13:53:08] INFO root fetch - processPackages [ExceptNotifier]: Downloading https://files.pythonhosted.org/packages/ae/0d/8e80f7ccf2e020e5b4fdb6d7b393f406b14970a18c1331b11a4421645d63/ExceptNotifier-0.1.5.tar.gz
+[2023-04-19 13:53:08] INFO root fetch - processPackages [sirqle]: executing diffoscope
+[2023-04-19 13:53:08] INFO root fetch - processPackages [sirqle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirqle-0.1.4.tar.gz tmp/sirqle-0.1.5.tar.gz --markdown 20230419/s/sirqle/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-19 13:53:08] INFO root fetch - processPackages [ExceptNotifier]: executing diffoscope
+[2023-04-19 13:53:08] INFO root fetch - processPackages [ExceptNotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExceptNotifier-0.1.4.tar.gz tmp/ExceptNotifier-0.1.5.tar.gz --markdown 20230419/E/ExceptNotifier/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-19 13:53:08] INFO root fetch - processPackages [hcf-backend]: Downloading https://files.pythonhosted.org/packages/4c/7d/6766621ec8cf6157ff095dcc59aeb1b53e19a62e31330af141a523282222/hcf-backend-0.5.2.2.tar.gz
+[2023-04-19 13:53:08] INFO root fetch - processPackages [hcf-backend]: executing diffoscope
+[2023-04-19 13:53:08] INFO root fetch - processPackages [hcf-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcf-backend-0.5.2.1.tar.gz tmp/hcf-backend-0.5.2.2.tar.gz --markdown 20230419/h/hcf-backend/0.5.2.1-0.5.2.2/diff.md --exclude *.pyd
+[2023-04-19 13:53:08] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-19 13:53:08] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230419/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-19 13:53:08] INFO root fetch - processPackages [pineappl]: executing diffoscope
+[2023-04-19 13:53:08] INFO root fetch - processPackages [pineappl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineappl-0.6.0a7.tar.gz tmp/pineappl-0.6.0a8.tar.gz --markdown 20230419/p/pineappl/0.6.0a7-0.6.0a8/diff.md --exclude *.pyd
+[2023-04-19 13:53:08] INFO root fetch - processPackages [mobspy]: Downloading https://files.pythonhosted.org/packages/d1/a8/f6159cb514e4430b16fab1bbe0270ec127cfb3b3603f6c84e1bc5823d75c/mobspy-2.0.1.tar.gz
+[2023-04-19 13:53:08] INFO root fetch - processPackages [shared-dependencies]: Downloading https://files.pythonhosted.org/packages/e6/ef/909c7b1d4cdf8ca088d8be90acecc3136a5548ffbb580d94213934e272c0/shared_dependencies-1.1.0.tar.gz
+[2023-04-19 13:53:08] INFO root fetch - processPackages [staffology]: Downloading https://files.pythonhosted.org/packages/05/c2/dc630911f09dac8c7d32c467a61d3579be864ebe147e2ac8700cf747d749/staffology-0.1.5.tar.gz
+[2023-04-19 13:53:08] INFO root fetch - processPackages [dkredis]: Downloading https://files.pythonhosted.org/packages/95/d7/3de3c71053b9fb4b681299a2d8c777420df68a957cfdd6317aab5b51f231/dkredis-0.1.7.tar.gz
+[2023-04-19 13:53:08] INFO root fetch - processPackages [shared-dependencies]: executing diffoscope
+[2023-04-19 13:53:08] INFO root fetch - processPackages [shared-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_dependencies-1.0.1.tar.gz tmp/shared_dependencies-1.1.0.tar.gz --markdown 20230419/s/shared-dependencies/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-19 13:53:08] INFO root fetch - processPackages [mobspy]: executing diffoscope
+[2023-04-19 13:53:08] INFO root fetch - processPackages [mobspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobspy-1.1.3.tar.gz tmp/mobspy-2.0.1.tar.gz --markdown 20230419/m/mobspy/1.1.3-2.0.1/diff.md --exclude *.pyd
+[2023-04-19 13:53:08] INFO root fetch - processPackages [dkredis]: executing diffoscope
+[2023-04-19 13:53:08] INFO root fetch - processPackages [dkredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkredis-0.1.5.tar.gz tmp/dkredis-0.1.7.tar.gz --markdown 20230419/d/dkredis/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-04-19 13:53:08] INFO root fetch - processPackages [staffology]: executing diffoscope
+[2023-04-19 13:53:08] INFO root fetch - processPackages [staffology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staffology-0.1.4.tar.gz tmp/staffology-0.1.5.tar.gz --markdown 20230419/s/staffology/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-19 13:53:09] INFO root fetch - main [MainThread]: End processing [shared-dependencies]: success
+[2023-04-19 13:53:10] INFO root fetch - main [MainThread]: End processing [sirqle]: success
+[2023-04-19 13:53:10] INFO root fetch - main [MainThread]: End processing [dkredis]: success
+[2023-04-19 13:53:10] INFO root fetch - main [MainThread]: End processing [hcf-backend]: success
+[2023-04-19 13:53:10] INFO root fetch - main [MainThread]: End processing [pineappl]: success
+[2023-04-19 13:53:10] INFO root fetch - main [MainThread]: End processing [ExceptNotifier]: success
+[2023-04-19 13:53:10] INFO root fetch - main [MainThread]: End processing [mobspy]: success
+[2023-04-19 13:53:10] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-19 13:53:12] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-04-19 13:53:17] INFO root fetch - main [MainThread]: End processing [staffology]: success
+[2023-04-19 13:53:17] INFO root fetch - main [MainThread]: Store serial: [17770397]
