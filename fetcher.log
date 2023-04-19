@@ -20259,3 +20259,123 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 18:46:28] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-04-19 18:46:42] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-19 18:46:42] INFO root fetch - main [MainThread]: Store serial: [17774007]
+[2023-04-19 18:51:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17774007]
+[2023-04-19 18:51:53] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-19 18:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: get-certificate-chain
+[2023-04-19 18:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spconv-cu114
+[2023-04-19 18:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: efficiency
+[2023-04-19 18:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tessif-pypsa-0-19-3
+[2023-04-19 18:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: general-tools-winni
+[2023-04-19 18:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metadata-utils
+[2023-04-19 18:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yiddish
+[2023-04-19 18:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: venv-modulefile
+[2023-04-19 18:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: optimum-neuron
+[2023-04-19 18:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbdemos
+[2023-04-19 18:51:53] INFO root fetch - processPackages [get-certificate-chain]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-19 18:51:53] INFO root fetch - processPackages [spconv-cu114]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-04-19 18:51:53] WARNING root fetch - processPackages [general-tools-winni]: Skipping, unable to determine old version
+[2023-04-19 18:51:53] INFO root fetch - processPackages [tessif-pypsa-0-19-3]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 18:51:53] INFO root fetch - processPackages [general-tools-winni]: Start processing: noaa-coops
+[2023-04-19 18:51:53] WARNING root fetch - processPackages [venv-modulefile]: Skipping, unable to determine old version
+[2023-04-19 18:51:53] INFO root fetch - processPackages [optimum-neuron]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 18:51:53] INFO root fetch - main [MainThread]: End processing [general-tools-winni] error
+[2023-04-19 18:51:53] INFO root fetch - processPackages [efficiency]: New version: [1.2] Old Version: [1.1]
+[2023-04-19 18:51:53] INFO root fetch - processPackages [venv-modulefile]: Start processing: oking-oz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [dbdemos]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-19 18:51:53] INFO root fetch - processPackages [yiddish]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-19 18:51:53] INFO root fetch - main [MainThread]: End processing [venv-modulefile] error
+[2023-04-19 18:51:53] INFO root fetch - processPackages [metadata-utils]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-04-19 18:51:53] INFO root fetch - processPackages [noaa-coops]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-04-19 18:51:53] INFO root fetch - processPackages [oking-oz]: New version: [3.2.30] Old Version: [3.2.28]
+[2023-04-19 18:51:53] INFO root fetch - processPackages [get-certificate-chain]: Downloading https://files.pythonhosted.org/packages/e6/b7/cac8e0f7936933227471c3ccade8a297d9874bdaf4cb57ba7fa6a8841139/get_certificate_chain-0.1.6.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [tessif-pypsa-0-19-3]: Downloading https://files.pythonhosted.org/packages/2b/01/c41b7cc9f5bd4531a57c05a465875ef02df006162573fda10a00940655c4/tessif_pypsa_0_19_3-0.1.0.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [spconv-cu114]: Downloading https://files.pythonhosted.org/packages/bb/41/60f1c0731fd7d368d8e81a2a6ef4cd24a7e34fd7ea85c340496fb0bc5356/spconv_cu114-2.3.5-cp39-cp39-win_amd64.whl
+[2023-04-19 18:51:53] INFO root fetch - processPackages [efficiency]: Downloading https://files.pythonhosted.org/packages/80/b4/7f9a69c72722443c6884ac829a8850e653d5695f41b7175495b40877951b/efficiency-1.1.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [optimum-neuron]: Downloading https://files.pythonhosted.org/packages/88/bb/df362cb2444a9be66b27272ae6c7d5c3aed6b7be94db67d206d1d86f6e7d/optimum-neuron-0.0.1.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [yiddish]: Downloading https://files.pythonhosted.org/packages/fd/1a/8353c77a17f410cdf9188ec33206e796f7761a61403502f9727021d2759d/yiddish-0.0.7.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [oking-oz]: Downloading https://files.pythonhosted.org/packages/c0/23/efb4065f5b1f329b333996920f7192202225fb7588600f4840d55d30bf6a/oking_oz-3.2.28.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [dbdemos]: Downloading https://files.pythonhosted.org/packages/8f/7f/da99da25b0a22c8ccfa37ba5c03a452f056568763606da850d4cc1186233/dbdemos-0.3.0-py3-none-any.whl
+[2023-04-19 18:51:53] INFO root fetch - processPackages [metadata-utils]: Downloading https://files.pythonhosted.org/packages/72/16/4dfbae478ae2e294bb8768b254c25f62dbb63c7cfae31fd4bf8f36dc0dfd/metadata_utils-0.1.3.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [noaa-coops]: Downloading https://files.pythonhosted.org/packages/9e/22/cf73e6001b20742760be1228de369949e4f74bdd96c143753cefea9bac10/noaa_coops-0.3.0.tar.gz
+[2023-04-19 18:51:53] WARNING root fetch - processPackages [dbdemos]: Skipping package: exceeds size limit 22384989>=10485760
+[2023-04-19 18:51:53] INFO root fetch - processPackages [dbdemos]: Start processing: browseapi-sandbox
+[2023-04-19 18:51:53] INFO root fetch - main [MainThread]: End processing [dbdemos] error
+[2023-04-19 18:51:53] INFO root fetch - processPackages [browseapi-sandbox]: New version: [0.5] Old Version: [0.4]
+[2023-04-19 18:51:53] INFO root fetch - processPackages [tessif-pypsa-0-19-3]: Downloading https://files.pythonhosted.org/packages/c3/54/859aadf38403c2d6eee608661e3fc1045756b3a75c065e726ad9c2257890/tessif_pypsa_0_19_3-0.1.1.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [efficiency]: Downloading https://files.pythonhosted.org/packages/cf/9d/ceec3bcb7eefd428779d772ca388317adbca0c23e83346c90de85422e0a5/efficiency-1.2.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [oking-oz]: Downloading https://files.pythonhosted.org/packages/ae/ac/36f30f5f419c8863738791d563c866f7b12fdb5acb3932db8a8ec35cd660/oking_oz-3.2.30.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [metadata-utils]: Downloading https://files.pythonhosted.org/packages/48/14/c024f0544001870c02711ecaeaabcf543e4fbc74077d8d47231b9e3ae3d2/metadata_utils-0.2.0.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [get-certificate-chain]: Downloading https://files.pythonhosted.org/packages/7c/d6/b2b1e3ee07c4e91990d68f8c55194f6907b7f5a063d991f1cd99cbd9130b/get_certificate_chain-0.1.7.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [noaa-coops]: executing diffoscope
+[2023-04-19 18:51:53] INFO root fetch - processPackages [noaa-coops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noaa_coops-0.2.2.tar.gz tmp/noaa_coops-0.3.0.tar.gz --markdown 20230419/n/noaa-coops/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-04-19 18:51:53] INFO root fetch - processPackages [optimum-neuron]: Downloading https://files.pythonhosted.org/packages/0a/bf/6f8bf07487f3419875d4f0d8b894305496be8d6483b69d8672511bb1ac11/optimum-neuron-0.0.2.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [yiddish]: Downloading https://files.pythonhosted.org/packages/e1/92/e5e79d279e6096a731b9e577c79fcec12f8cff32ca03405e78dc8341caf6/yiddish-0.0.8.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [browseapi-sandbox]: Downloading https://files.pythonhosted.org/packages/aa/7a/7b4852e48f4e3df2fa6bba058b5036a2df2c864fbb1a6638a80235c37c1c/browseapi_sandbox-0.5.tar.gz
+[2023-04-19 18:51:53] INFO root fetch - processPackages [tessif-pypsa-0-19-3]: executing diffoscope
+[2023-04-19 18:51:53] INFO root fetch - processPackages [tessif-pypsa-0-19-3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tessif_pypsa_0_19_3-0.1.0.tar.gz tmp/tessif_pypsa_0_19_3-0.1.1.tar.gz --markdown 20230419/t/tessif-pypsa-0-19-3/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 18:51:53] INFO root fetch - processPackages [efficiency]: executing diffoscope
+[2023-04-19 18:51:53] INFO root fetch - processPackages [efficiency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efficiency-1.1.tar.gz tmp/efficiency-1.2.tar.gz --markdown 20230419/e/efficiency/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-19 18:51:53] INFO root fetch - processPackages [oking-oz]: executing diffoscope
+[2023-04-19 18:51:53] INFO root fetch - processPackages [oking-oz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oking_oz-3.2.28.tar.gz tmp/oking_oz-3.2.30.tar.gz --markdown 20230419/o/oking-oz/3.2.28-3.2.30/diff.md --exclude *.pyd
+[2023-04-19 18:51:53] WARNING root fetch - processPackages [spconv-cu114]: Skipping package: exceeds size limit 68898966>=10485760
+[2023-04-19 18:51:53] INFO root fetch - processPackages [spconv-cu114]: Start processing: aisquared
+[2023-04-19 18:51:53] INFO root fetch - main [MainThread]: End processing [spconv-cu114] error
+[2023-04-19 18:51:53] INFO root fetch - processPackages [metadata-utils]: executing diffoscope
+[2023-04-19 18:51:53] INFO root fetch - processPackages [metadata-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metadata_utils-0.1.3.tar.gz tmp/metadata_utils-0.2.0.tar.gz --markdown 20230419/m/metadata-utils/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-04-19 18:51:53] INFO root fetch - processPackages [get-certificate-chain]: executing diffoscope
+[2023-04-19 18:51:53] INFO root fetch - processPackages [get-certificate-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_certificate_chain-0.1.6.tar.gz tmp/get_certificate_chain-0.1.7.tar.gz --markdown 20230419/g/get-certificate-chain/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-19 18:51:53] INFO root fetch - processPackages [aisquared]: New version: [0.3.6.dev0] Old Version: [0.3.5]
+[2023-04-19 18:51:53] INFO root fetch - processPackages [yiddish]: executing diffoscope
+[2023-04-19 18:51:53] INFO root fetch - processPackages [yiddish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yiddish-0.0.7.tar.gz tmp/yiddish-0.0.8.tar.gz --markdown 20230419/y/yiddish/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-19 18:51:53] INFO root fetch - processPackages [optimum-neuron]: executing diffoscope
+[2023-04-19 18:51:53] INFO root fetch - processPackages [optimum-neuron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-neuron-0.0.1.tar.gz tmp/optimum-neuron-0.0.2.tar.gz --markdown 20230419/o/optimum-neuron/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 18:51:53] INFO root fetch - processPackages [browseapi-sandbox]: executing diffoscope
+[2023-04-19 18:51:53] INFO root fetch - processPackages [browseapi-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browseapi_sandbox-0.4.tar.gz tmp/browseapi_sandbox-0.5.tar.gz --markdown 20230419/b/browseapi-sandbox/0.4-0.5/diff.md --exclude *.pyd
+[2023-04-19 18:51:54] INFO root fetch - processPackages [aisquared]: Downloading https://files.pythonhosted.org/packages/03/de/fafd2178d3b103eb35a2d363d9229cb1416a8c6f1abece124333dfed122b/aisquared-0.3.5.tar.gz
+[2023-04-19 18:51:54] INFO root fetch - processPackages [aisquared]: Downloading https://files.pythonhosted.org/packages/98/26/b5d04a47b933f416404f47caad676eb2b2a7b3c5af2e3f10bdf5d8cf73c7/aisquared-0.3.6.dev0.tar.gz
+[2023-04-19 18:51:54] INFO root fetch - processPackages [aisquared]: executing diffoscope
+[2023-04-19 18:51:54] INFO root fetch - processPackages [aisquared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aisquared-0.3.5.tar.gz tmp/aisquared-0.3.6.dev0.tar.gz --markdown 20230419/a/aisquared/0.3.5-0.3.6.dev0/diff.md --exclude *.pyd
+[2023-04-19 18:51:55] INFO root fetch - processPackages [noaa-coops]: Start processing: pharmpy-core
+[2023-04-19 18:51:55] INFO root fetch - main [MainThread]: End processing [noaa-coops]: success
+[2023-04-19 18:51:55] INFO root fetch - processPackages [pharmpy-core]: New version: [0.93.1] Old Version: [0.93.0]
+[2023-04-19 18:51:55] INFO root fetch - processPackages [efficiency]: Start processing: pyjunkerpro
+[2023-04-19 18:51:55] INFO root fetch - main [MainThread]: End processing [efficiency]: success
+[2023-04-19 18:51:55] INFO root fetch - processPackages [pharmpy-core]: Downloading https://files.pythonhosted.org/packages/48/53/497cb4da81044d2addb6fa65469fc05badeb6a5895d51c9415056855143e/pharmpy-core-0.93.1.tar.gz
+[2023-04-19 18:51:55] INFO root fetch - processPackages [pyjunkerpro]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-19 18:51:55] INFO root fetch - processPackages [get-certificate-chain]: Start processing: ebib
+[2023-04-19 18:51:55] INFO root fetch - main [MainThread]: End processing [get-certificate-chain]: success
+[2023-04-19 18:51:55] INFO root fetch - processPackages [ebib]: New version: [1.1.0] Old Version: [0.1.0]
+[2023-04-19 18:51:55] INFO root fetch - processPackages [metadata-utils]: Start processing: nctoolkit
+[2023-04-19 18:51:55] INFO root fetch - main [MainThread]: End processing [metadata-utils]: success
+[2023-04-19 18:51:55] INFO root fetch - processPackages [pyjunkerpro]: Downloading https://files.pythonhosted.org/packages/51/36/4903634a8009c744186a872c22903d830004dce610059aa4d3263b4173a9/pyjunkerpro-1.0.2.tar.gz
+[2023-04-19 18:51:55] INFO root fetch - processPackages [nctoolkit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-19 18:51:55] INFO root fetch - processPackages [ebib]: Downloading https://files.pythonhosted.org/packages/05/18/de5336a93b35a5d7acb99ecd1baec6b226ae2469e99c65b5ca62d372f150/ebib-0.1.0.tar.gz
+[2023-04-19 18:51:55] INFO root fetch - processPackages [browseapi-sandbox]: Start processing: severino
+[2023-04-19 18:51:55] INFO root fetch - main [MainThread]: End processing [browseapi-sandbox]: success
+[2023-04-19 18:51:55] INFO root fetch - main [MainThread]: End processing [oking-oz]: success
+[2023-04-19 18:51:55] INFO root fetch - main [MainThread]: End processing [yiddish]: success
+[2023-04-19 18:51:55] INFO root fetch - processPackages [pyjunkerpro]: executing diffoscope
+[2023-04-19 18:51:55] INFO root fetch - processPackages [pyjunkerpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjunkerpro-1.0.1.tar.gz tmp/pyjunkerpro-1.0.2.tar.gz --markdown 20230419/p/pyjunkerpro/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-19 18:51:55] INFO root fetch - main [MainThread]: End processing [tessif-pypsa-0-19-3]: success
+[2023-04-19 18:51:55] INFO root fetch - processPackages [nctoolkit]: Downloading https://files.pythonhosted.org/packages/a0/92/82c72a45caee03b81ded4f626835afc885909df86a43dac1d0b890f2064e/nctoolkit-0.9.0.tar.gz
+[2023-04-19 18:51:55] INFO root fetch - processPackages [severino]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-19 18:51:55] INFO root fetch - processPackages [ebib]: Downloading https://files.pythonhosted.org/packages/88/91/9a5e36fc838598474cf09015396480ae6a4f1ea23a0b39e11e929f9e1781/ebib-1.1.0.tar.gz
+[2023-04-19 18:51:55] INFO root fetch - processPackages [severino]: Downloading https://files.pythonhosted.org/packages/6c/aa/6a70719f712ff4ca4e30b97eafeede54802dfbbc40e56643eb109ed7c79c/severino-0.9.1.tar.gz
+[2023-04-19 18:51:56] INFO root fetch - processPackages [ebib]: executing diffoscope
+[2023-04-19 18:51:56] INFO root fetch - processPackages [ebib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebib-0.1.0.tar.gz tmp/ebib-1.1.0.tar.gz --markdown 20230419/e/ebib/0.1.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-19 18:51:56] INFO root fetch - processPackages [pharmpy-core]: executing diffoscope
+[2023-04-19 18:51:56] INFO root fetch - processPackages [pharmpy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharmpy-core-0.93.0.tar.gz tmp/pharmpy-core-0.93.1.tar.gz --markdown 20230419/p/pharmpy-core/0.93.0-0.93.1/diff.md --exclude *.pyd
+[2023-04-19 18:51:56] INFO root fetch - processPackages [nctoolkit]: Downloading https://files.pythonhosted.org/packages/5f/af/1bf098b6ac543ec6042979da5d62a346f8c471b79098322076439b78f8e0/nctoolkit-0.9.1.tar.gz
+[2023-04-19 18:51:56] INFO root fetch - processPackages [nctoolkit]: executing diffoscope
+[2023-04-19 18:51:56] INFO root fetch - processPackages [nctoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nctoolkit-0.9.0.tar.gz tmp/nctoolkit-0.9.1.tar.gz --markdown 20230419/n/nctoolkit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-19 18:51:56] INFO root fetch - main [MainThread]: End processing [optimum-neuron]: success
+[2023-04-19 18:51:56] INFO root fetch - main [MainThread]: End processing [pyjunkerpro]: success
+[2023-04-19 18:51:56] INFO root fetch - processPackages [severino]: Downloading https://files.pythonhosted.org/packages/ca/20/f42da22cc1d8f35a5db322ad7a1ded42277a44697bbd01681e8470054468/severino-0.9.2.tar.gz
+[2023-04-19 18:51:57] INFO root fetch - main [MainThread]: End processing [ebib]: success
+[2023-04-19 18:51:57] INFO root fetch - processPackages [severino]: executing diffoscope
+[2023-04-19 18:51:57] INFO root fetch - processPackages [severino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/severino-0.9.1.tar.gz tmp/severino-0.9.2.tar.gz --markdown 20230419/s/severino/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-19 18:51:57] INFO root fetch - main [MainThread]: End processing [aisquared]: success
+[2023-04-19 18:51:58] INFO root fetch - main [MainThread]: End processing [severino]: success
+[2023-04-19 18:51:58] INFO root fetch - main [MainThread]: End processing [nctoolkit]: success
+[2023-04-19 18:52:08] INFO root fetch - main [MainThread]: End processing [pharmpy-core]: success
+[2023-04-19 18:52:08] INFO root fetch - main [MainThread]: Store serial: [17774066]
