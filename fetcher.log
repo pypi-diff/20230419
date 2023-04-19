@@ -9150,3 +9150,52 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 09:38:10] INFO root fetch - main [MainThread]: End processing [sberpm]: success
 [2023-04-19 09:38:17] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-19 09:38:17] INFO root fetch - main [MainThread]: Store serial: [17767232]
+[2023-04-19 09:43:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17767232]
+[2023-04-19 09:43:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-19 09:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: write-the
+[2023-04-19 09:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superannotate
+[2023-04-19 09:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-common-task-system
+[2023-04-19 09:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyxllib
+[2023-04-19 09:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hmt-basemodels
+[2023-04-19 09:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xiaoaiai
+[2023-04-19 09:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bp-data-visualization
+[2023-04-19 09:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xArm-Python-SDK
+[2023-04-19 09:43:26] INFO root fetch - processPackages [django-common-task-system]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-19 09:43:26] INFO root fetch - processPackages [superannotate]: New version: [4.4.9b1] Old Version: [4.4.9.dev5]
+[2023-04-19 09:43:26] INFO root fetch - processPackages [write-the]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-04-19 09:43:26] INFO root fetch - processPackages [bp-data-visualization]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-04-19 09:43:26] INFO root fetch - processPackages [xiaoaiai]: New version: [0.2] Old Version: [0.1.0]
+[2023-04-19 09:43:26] INFO root fetch - processPackages [pyxllib]: New version: [0.3.9] Old Version: [0.3.8.1]
+[2023-04-19 09:43:26] INFO root fetch - processPackages [hmt-basemodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 09:43:26] WARNING root fetch - processPackages [xArm-Python-SDK]: Skipping, unable to determine old version
+[2023-04-19 09:43:26] INFO root fetch - main [MainThread]: End processing [xArm-Python-SDK] error
+[2023-04-19 09:43:26] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2023-04-19 09:43:26] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.8.1.tar.gz tmp/pyxllib-0.3.9.tar.gz --markdown 20230419/p/pyxllib/0.3.8.1-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 09:43:26] INFO root fetch - processPackages [bp-data-visualization]: Downloading https://files.pythonhosted.org/packages/77/58/d495825fe6a2a3acca9d102fb9e136430633c3c6980460b9a0ce9ab27ca0/bp_data_visualization-0.0.5.tar.gz
+[2023-04-19 09:43:26] INFO root fetch - processPackages [xiaoaiai]: Downloading https://files.pythonhosted.org/packages/cd/c6/5e4b24f2e80037524d0819060338fe62a7cdf5c53ac97e13a1bd25e9850f/xiaoaiai-0.1.0.tar.gz
+[2023-04-19 09:43:26] INFO root fetch - processPackages [write-the]: Downloading https://files.pythonhosted.org/packages/3a/10/7de6fb45cf47b7126cc73ef6cf2c366e9bb6e4fb18ee91e2186165779b46/write_the-0.7.0.tar.gz
+[2023-04-19 09:43:26] INFO root fetch - processPackages [hmt-basemodels]: Downloading https://files.pythonhosted.org/packages/10/31/f8b501f8282f68f747942751c25a77878cef0fb175d4a3013e6696259392/hmt-basemodels-0.1.8.tar.gz
+[2023-04-19 09:43:26] INFO root fetch - processPackages [write-the]: executing diffoscope
+[2023-04-19 09:43:26] INFO root fetch - processPackages [write-the]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_the-0.6.2.tar.gz tmp/write_the-0.7.0.tar.gz --markdown 20230419/w/write-the/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-04-19 09:43:26] INFO root fetch - processPackages [django-common-task-system]: Downloading https://files.pythonhosted.org/packages/1a/6b/e3fb7a8ee31bd4c0a7dee839c044d968e8bbebaecaa4dead4e2554d8a2e0/django-common-task-system-1.1.9.tar.gz
+[2023-04-19 09:43:26] INFO root fetch - processPackages [django-common-task-system]: executing diffoscope
+[2023-04-19 09:43:26] INFO root fetch - processPackages [django-common-task-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-common-task-system-1.1.8.tar.gz tmp/django-common-task-system-1.1.9.tar.gz --markdown 20230419/d/django-common-task-system/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-19 09:43:26] INFO root fetch - processPackages [superannotate]: executing diffoscope
+[2023-04-19 09:43:26] INFO root fetch - processPackages [superannotate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superannotate-4.4.9.dev5.tar.gz tmp/superannotate-4.4.9b1.tar.gz --markdown 20230419/s/superannotate/4.4.9.dev5-4.4.9b1/diff.md --exclude *.pyd
+[2023-04-19 09:43:26] INFO root fetch - processPackages [xiaoaiai]: Downloading https://files.pythonhosted.org/packages/e6/bf/7a511655b73839b33cf90891adff5109c48630b7d1a0addb5c899e41dc61/xiaoaiai-0.2.tar.gz
+[2023-04-19 09:43:26] INFO root fetch - processPackages [bp-data-visualization]: Downloading https://files.pythonhosted.org/packages/59/45/dc6fe9896249f32846186ec25af0bc01c52cb3d54f721c9091ab7ed090d1/bp_data_visualization-0.0.7.tar.gz
+[2023-04-19 09:43:26] INFO root fetch - processPackages [xiaoaiai]: executing diffoscope
+[2023-04-19 09:43:26] INFO root fetch - processPackages [xiaoaiai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoaiai-0.1.0.tar.gz tmp/xiaoaiai-0.2.tar.gz --markdown 20230419/x/xiaoaiai/0.1.0-0.2/diff.md --exclude *.pyd
+[2023-04-19 09:43:26] INFO root fetch - processPackages [bp-data-visualization]: executing diffoscope
+[2023-04-19 09:43:26] INFO root fetch - processPackages [bp-data-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_visualization-0.0.5.tar.gz tmp/bp_data_visualization-0.0.7.tar.gz --markdown 20230419/b/bp-data-visualization/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-04-19 09:43:27] INFO root fetch - processPackages [hmt-basemodels]: Downloading https://files.pythonhosted.org/packages/52/46/c07ff8cdb540692ad450317ef569c21b7a59538f124732ee66f47344fb68/hmt-basemodels-0.1.9.tar.gz
+[2023-04-19 09:43:27] INFO root fetch - processPackages [hmt-basemodels]: executing diffoscope
+[2023-04-19 09:43:27] INFO root fetch - processPackages [hmt-basemodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmt-basemodels-0.1.8.tar.gz tmp/hmt-basemodels-0.1.9.tar.gz --markdown 20230419/h/hmt-basemodels/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 09:43:27] INFO root fetch - main [MainThread]: End processing [write-the]: success
+[2023-04-19 09:43:28] INFO root fetch - main [MainThread]: End processing [django-common-task-system]: success
+[2023-04-19 09:43:28] INFO root fetch - main [MainThread]: End processing [xiaoaiai]: success
+[2023-04-19 09:43:28] INFO root fetch - main [MainThread]: End processing [superannotate]: success
+[2023-04-19 09:43:28] INFO root fetch - main [MainThread]: End processing [hmt-basemodels]: success
+[2023-04-19 09:43:29] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2023-04-19 09:43:29] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
+[2023-04-19 09:43:29] INFO root fetch - main [MainThread]: Store serial: [17767255]
