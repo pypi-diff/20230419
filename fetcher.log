@@ -21442,3 +21442,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 19:50:48] INFO root fetch - main [MainThread]: End processing [actipy]: success
 [2023-04-19 19:50:49] INFO root fetch - main [MainThread]: End processing [cidc-schemas]: success
 [2023-04-19 19:50:49] INFO root fetch - main [MainThread]: Store serial: [17774737]
+[2023-04-19 19:55:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17774737]
+[2023-04-19 19:55:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-19 19:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: krptn
+[2023-04-19 19:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: molecule
+[2023-04-19 19:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-cloud-confidentialcomputing
+[2023-04-19 19:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafruit-circuitpython-wiznet5k
+[2023-04-19 19:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: totohateinenkleinencock
+[2023-04-19 19:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SIOTCommon
+[2023-04-19 19:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sfkit
+[2023-04-19 19:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: allocine-seances
+[2023-04-19 19:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: totohateinenkleinencock
+[2023-04-19 19:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cwsearch-utils
+[2023-04-19 19:55:58] WARNING root fetch - processPackages [google-cloud-confidentialcomputing]: Skipping, unable to determine old version
+[2023-04-19 19:55:58] INFO root fetch - processPackages [google-cloud-confidentialcomputing]: Start processing: service-now-api-sdk
+[2023-04-19 19:55:58] INFO root fetch - main [MainThread]: End processing [google-cloud-confidentialcomputing] error
+[2023-04-19 19:55:58] INFO root fetch - processPackages [totohateinenkleinencock]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-04-19 19:55:58] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-19 19:55:58] INFO root fetch - processPackages [SIOTCommon]: New version: [0.0.9.3] Old Version: [0.0.9.2]
+[2023-04-19 19:55:58] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-04-19 19:55:58] INFO root fetch - processPackages [sfkit]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-19 19:55:58] INFO root fetch - processPackages [allocine-seances]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-19 19:55:58] INFO root fetch - processPackages [krptn]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-04-19 19:55:58] INFO root fetch - processPackages [totohateinenkleinencock]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-04-19 19:55:58] INFO root fetch - processPackages [molecule]: New version: [5.0.0a1] Old Version: [5.0.0a0]
+[2023-04-19 19:55:58] INFO root fetch - processPackages [service-now-api-sdk]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-04-19 19:55:58] INFO root fetch - processPackages [totohateinenkleinencock]: Downloading https://files.pythonhosted.org/packages/ab/46/35d48c522fadf3d317001aef14e0106ced35b002f2e19aeed21bdb383905/totohateinenkleinencock-2.0.0.tar.gz
+[2023-04-19 19:55:58] INFO root fetch - processPackages [totohateinenkleinencock]: Downloading https://files.pythonhosted.org/packages/ab/46/35d48c522fadf3d317001aef14e0106ced35b002f2e19aeed21bdb383905/totohateinenkleinencock-2.0.0.tar.gz
+[2023-04-19 19:55:58] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/b2/1e/48a11019b04a75be7b97ce4ca75aa5a43f256123d43539d6049f2c11bc96/adafruit-circuitpython-wiznet5k-2.4.0.tar.gz
+[2023-04-19 19:55:58] INFO root fetch - processPackages [molecule]: Downloading https://files.pythonhosted.org/packages/32/04/394b19d0ac1d6b22f7ef810dcfa2fcffa44c07e35b01a263b3ea00e76899/molecule-5.0.0a0.tar.gz
+[2023-04-19 19:55:58] INFO root fetch - processPackages [krptn]: Downloading https://files.pythonhosted.org/packages/df/cd/2b76be424297a835e4fc2e1d0b78cdbcae9ea3a73816debcf3a83ba7fad4/krptn-0.5.5-pp39-pypy39_pp73-win_amd64.whl
+[2023-04-19 19:55:58] INFO root fetch - processPackages [cwsearch-utils]: Downloading https://files.pythonhosted.org/packages/c7/1b/07ba6d72a7eaf0706c5ecf1d05bea10c4020e6309cf2b98f120ca843af4b/cwsearch_utils-0.1.7-py3-none-any.whl
+[2023-04-19 19:55:58] INFO root fetch - processPackages [service-now-api-sdk]: Downloading https://files.pythonhosted.org/packages/aa/20/616670007d0e754560fdc8bebacb2da57c856d59b853f9101818a1217111/service_now_api_sdk-0.0.18.tar.gz
+[2023-04-19 19:55:58] INFO root fetch - processPackages [allocine-seances]: Downloading https://files.pythonhosted.org/packages/70/6a/740951bcaab470e8a1040326d16789fa69ed5a5765c5a9a0f783e5802ca3/allocine-seances-0.0.5.tar.gz
+[2023-04-19 19:55:58] INFO root fetch - processPackages [SIOTCommon]: Downloading https://files.pythonhosted.org/packages/d2/88/67a00d29be69c3d247f9b6958ed921b9e43ed24b66a6f46a08285e3661da/SIOTCommon-0.0.9.3.tar.gz
+[2023-04-19 19:55:58] INFO root fetch - processPackages [sfkit]: executing diffoscope
+[2023-04-19 19:55:58] INFO root fetch - processPackages [sfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfkit-0.0.98-py3-none-any.whl.zip tmp/sfkit-0.0.99-py3-none-any.whl.zip --markdown 20230419/s/sfkit/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-19 19:55:58] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-04-19 19:55:58] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.6-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.7-py3-none-any.whl.zip --markdown 20230419/c/cwsearch-utils/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-19 19:55:58] INFO root fetch - processPackages [totohateinenkleinencock]: Downloading https://files.pythonhosted.org/packages/16/87/9637517dfd66d90275bea3170dd6f21dfb8eed0cac9c2a4fed0e174af06d/totohateinenkleinencock-3.0.0.tar.gz
+[2023-04-19 19:55:58] INFO root fetch - processPackages [totohateinenkleinencock]: Downloading https://files.pythonhosted.org/packages/16/87/9637517dfd66d90275bea3170dd6f21dfb8eed0cac9c2a4fed0e174af06d/totohateinenkleinencock-3.0.0.tar.gz
+[2023-04-19 19:55:58] INFO root fetch - processPackages [allocine-seances]: executing diffoscope
+[2023-04-19 19:55:58] INFO root fetch - processPackages [allocine-seances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allocine-seances-0.0.4.tar.gz tmp/allocine-seances-0.0.5.tar.gz --markdown 20230419/a/allocine-seances/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-19 19:55:58] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: Downloading https://files.pythonhosted.org/packages/97/1a/103ba1f8004854763cfa17ad88844d2b67fdc083e39a3a2f042f49883e61/adafruit-circuitpython-wiznet5k-2.4.1.tar.gz
+[2023-04-19 19:55:58] INFO root fetch - processPackages [molecule]: Downloading https://files.pythonhosted.org/packages/4f/b5/f8efbe2fbac29f23a57b16ca38f476e9c59404fdc8ff4286fad91e94549d/molecule-5.0.0a1.tar.gz
+[2023-04-19 19:55:58] INFO root fetch - processPackages [SIOTCommon]: executing diffoscope
+[2023-04-19 19:55:58] INFO root fetch - processPackages [SIOTCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SIOTCommon-0.0.9.2.tar.gz tmp/SIOTCommon-0.0.9.3.tar.gz --markdown 20230419/S/SIOTCommon/0.0.9.2-0.0.9.3/diff.md --exclude *.pyd
+[2023-04-19 19:55:59] INFO root fetch - processPackages [service-now-api-sdk]: Downloading https://files.pythonhosted.org/packages/cf/f7/1bbfcd508556de9c791d38e4573bef5ed039695a84e372fc7cb50dd1aa12/service_now_api_sdk-0.0.19.tar.gz
+[2023-04-19 19:55:59] INFO root fetch - processPackages [totohateinenkleinencock]: executing diffoscope
+[2023-04-19 19:55:59] INFO root fetch - processPackages [totohateinenkleinencock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/totohateinenkleinencock-2.0.0.tar.gz tmp/totohateinenkleinencock-3.0.0.tar.gz --markdown 20230419/t/totohateinenkleinencock/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-04-19 19:55:59] INFO root fetch - processPackages [totohateinenkleinencock]: executing diffoscope
+[2023-04-19 19:55:59] INFO root fetch - processPackages [totohateinenkleinencock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/totohateinenkleinencock-2.0.0.tar.gz tmp/totohateinenkleinencock-3.0.0.tar.gz --markdown 20230419/t/totohateinenkleinencock/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-04-19 19:55:59] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: executing diffoscope
+[2023-04-19 19:55:59] INFO root fetch - processPackages [adafruit-circuitpython-wiznet5k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-wiznet5k-2.4.0.tar.gz tmp/adafruit-circuitpython-wiznet5k-2.4.1.tar.gz --markdown 20230419/a/adafruit-circuitpython-wiznet5k/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-04-19 19:55:59] INFO root fetch - processPackages [molecule]: executing diffoscope
+[2023-04-19 19:55:59] INFO root fetch - processPackages [molecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-5.0.0a0.tar.gz tmp/molecule-5.0.0a1.tar.gz --markdown 20230419/m/molecule/5.0.0a0-5.0.0a1/diff.md --exclude *.pyd
+[2023-04-19 19:55:59] INFO root fetch - processPackages [service-now-api-sdk]: executing diffoscope
+[2023-04-19 19:55:59] INFO root fetch - processPackages [service-now-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_now_api_sdk-0.0.18.tar.gz tmp/service_now_api_sdk-0.0.19.tar.gz --markdown 20230419/s/service-now-api-sdk/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-04-19 19:56:00] INFO root fetch - processPackages [krptn]: Downloading https://files.pythonhosted.org/packages/02/2b/171c3b59299b891e309571fc6f0424979927c8f70b89a464428f2388849c/krptn-0.5.6-pp39-pypy39_pp73-win_amd64.whl
+[2023-04-19 19:56:00] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-04-19 19:56:00] INFO root fetch - main [MainThread]: End processing [SIOTCommon]: success
+[2023-04-19 19:56:00] INFO root fetch - main [MainThread]: End processing [allocine-seances]: success
+[2023-04-19 19:56:00] INFO root fetch - main [MainThread]: End processing [sfkit]: success
+[2023-04-19 19:56:00] INFO root fetch - main [MainThread]: End processing [totohateinenkleinencock]: success
+[2023-04-19 19:56:00] INFO root fetch - processPackages [krptn]: executing diffoscope
+[2023-04-19 19:56:00] INFO root fetch - processPackages [krptn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krptn-0.5.5-pp39-pypy39_pp73-win_amd64.whl.zip tmp/krptn-0.5.6-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230419/k/krptn/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-04-19 19:56:00] INFO root fetch - main [MainThread]: End processing [service-now-api-sdk]: success
+[2023-04-19 19:56:02] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-wiznet5k]: success
+[2023-04-19 19:56:03] INFO root fetch - main [MainThread]: End processing [molecule]: success
+[2023-04-19 19:56:10] INFO root fetch - main [MainThread]: End processing [totohateinenkleinencock]: success
+[2023-04-19 19:56:45] INFO root fetch - main [MainThread]: End processing [krptn]: success
+[2023-04-19 19:56:45] INFO root fetch - main [MainThread]: Store serial: [17774796]
