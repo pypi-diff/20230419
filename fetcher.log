@@ -5197,3 +5197,16 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 04:38:18] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
 [2023-04-19 04:38:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-budget-oca]: success
 [2023-04-19 04:38:18] INFO root fetch - main [MainThread]: Store serial: [17765108]
+[2023-04-19 04:43:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765108]
+[2023-04-19 04:43:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-04-19 04:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ldbpy
+[2023-04-19 04:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: al2var
+[2023-04-19 04:43:27] INFO root fetch - processPackages [ldbpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-19 04:43:27] WARNING root fetch - processPackages [al2var]: Skipping, unable to determine old version
+[2023-04-19 04:43:27] INFO root fetch - main [MainThread]: End processing [al2var] error
+[2023-04-19 04:43:27] INFO root fetch - processPackages [ldbpy]: Downloading https://files.pythonhosted.org/packages/42/53/87757eaae45483223c6eda4edd0e6e9830b7ee0f6716aff167bf1d0739e7/ldbpy-0.0.1-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-04-19 04:43:28] INFO root fetch - processPackages [ldbpy]: Downloading https://files.pythonhosted.org/packages/62/67/6c9555073c5b4da1470d72d18e1432a8d5751e41726e55a2038e6a358c6a/ldbpy-0.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-19 04:43:28] INFO root fetch - processPackages [ldbpy]: executing diffoscope
+[2023-04-19 04:43:28] INFO root fetch - processPackages [ldbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldbpy-0.0.1-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/ldbpy-0.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230419/l/ldbpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-19 04:43:31] INFO root fetch - main [MainThread]: End processing [ldbpy]: success
+[2023-04-19 04:43:31] INFO root fetch - main [MainThread]: Store serial: [17765118]
