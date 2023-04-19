@@ -19996,3 +19996,117 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 18:30:31] INFO root fetch - main [MainThread]: End processing [registtro]: success
 [2023-04-19 18:30:33] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
 [2023-04-19 18:30:33] INFO root fetch - main [MainThread]: Store serial: [17773706]
+[2023-04-19 18:35:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17773706]
+[2023-04-19 18:35:42] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-19 18:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cgl-py
+[2023-04-19 18:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-crm-rest-api
+[2023-04-19 18:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: griptape-core
+[2023-04-19 18:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paperscraper
+[2023-04-19 18:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-crm-sale-order-line
+[2023-04-19 18:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-crm-sale-order-line-contract
+[2023-04-19 18:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: impyrial-tmushrush
+[2023-04-19 18:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyblp
+[2023-04-19 18:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-crm-sale-order-line-contract-rest-api
+[2023-04-19 18:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tessif-calliope-0-6-6post1
+[2023-04-19 18:35:42] WARNING root fetch - processPackages [impyrial-tmushrush]: Skipping, unable to determine old version
+[2023-04-19 18:35:42] INFO root fetch - processPackages [impyrial-tmushrush]: Start processing: odoo-addon-payroll
+[2023-04-19 18:35:42] INFO root fetch - main [MainThread]: End processing [impyrial-tmushrush] error
+[2023-04-19 18:35:42] INFO root fetch - processPackages [cgl-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 18:35:42] INFO root fetch - processPackages [tessif-calliope-0-6-6post1]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-19 18:35:42] INFO root fetch - processPackages [pyblp]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-04-19 18:35:42] WARNING root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract]: Skipping, unable to determine old version
+[2023-04-19 18:35:42] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract]: Start processing: Jvav
+[2023-04-19 18:35:42] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-sale-order-line-contract] error
+[2023-04-19 18:35:42] INFO root fetch - processPackages [paperscraper]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-19 18:35:42] INFO root fetch - processPackages [griptape-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-19 18:35:42] WARNING root fetch - processPackages [odoo12-addon-crm-sale-order-line]: Skipping, unable to determine old version
+[2023-04-19 18:35:42] WARNING root fetch - processPackages [odoo12-addon-crm-rest-api]: Skipping, unable to determine old version
+[2023-04-19 18:35:42] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line]: Start processing: femr-cuda
+[2023-04-19 18:35:42] INFO root fetch - processPackages [odoo12-addon-crm-rest-api]: Start processing: odoo12-addon-crm-sale-order-line-rest-api
+[2023-04-19 18:35:42] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-sale-order-line] error
+[2023-04-19 18:35:42] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-rest-api] error
+[2023-04-19 18:35:42] WARNING root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: Skipping, unable to determine old version
+[2023-04-19 18:35:42] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-contract-rest-api]: Start processing: valmi-connector-lib
+[2023-04-19 18:35:42] INFO root fetch - processPackages [odoo-addon-payroll]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2023-04-19 18:35:42] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-sale-order-line-contract-rest-api] error
+[2023-04-19 18:35:42] WARNING root fetch - processPackages [femr-cuda]: Skipping, unable to determine old version
+[2023-04-19 18:35:42] INFO root fetch - processPackages [femr-cuda]: Start processing: chatgpt-proxy
+[2023-04-19 18:35:42] INFO root fetch - main [MainThread]: End processing [femr-cuda] error
+[2023-04-19 18:35:42] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-19 18:35:42] INFO root fetch - processPackages [Jvav]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-19 18:35:42] WARNING root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: Skipping, unable to determine old version
+[2023-04-19 18:35:42] INFO root fetch - processPackages [odoo12-addon-crm-sale-order-line-rest-api]: Start processing: great-expectations-experimental
+[2023-04-19 18:35:42] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-sale-order-line-rest-api] error
+[2023-04-19 18:35:42] INFO root fetch - processPackages [chatgpt-proxy]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-19 18:35:42] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230419036] Old Version: [0.1.20230414008]
+[2023-04-19 18:35:42] INFO root fetch - processPackages [paperscraper]: Downloading https://files.pythonhosted.org/packages/d5/88/4e6f5763df3e3f56e5f12814ec82287f0c36ec6e9d990e3156b7b6246263/paperscraper-0.2.4.tar.gz
+[2023-04-19 18:35:42] INFO root fetch - processPackages [Jvav]: executing diffoscope
+[2023-04-19 18:35:42] INFO root fetch - processPackages [Jvav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jvav-1.2.8.tar.gz tmp/Jvav-1.2.9.tar.gz --markdown 20230419/J/Jvav/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-19 18:35:42] INFO root fetch - processPackages [tessif-calliope-0-6-6post1]: Downloading https://files.pythonhosted.org/packages/ef/81/5f856e7a1bb56c22b226384569064da53df863ab64a04b14ec9f16bd64d4/tessif_calliope_0_6_6post1-0.1.1.tar.gz
+[2023-04-19 18:35:42] INFO root fetch - processPackages [odoo-addon-payroll]: Downloading https://files.pythonhosted.org/packages/a8/ec/97a009661bdd69829c81b162851e8698c78d5f52d7d9405daf77b0a3dee9/odoo_addon_payroll-16.0.1.0.0.5-py3-none-any.whl
+[2023-04-19 18:35:42] INFO root fetch - processPackages [pyblp]: Downloading https://files.pythonhosted.org/packages/0c/86/769b36768e1347c055af60966db2cb73079fceb246772faeea83ff0e1378/pyblp-0.9.0.tar.gz
+[2023-04-19 18:35:42] INFO root fetch - processPackages [griptape-core]: Downloading https://files.pythonhosted.org/packages/bf/9b/ea7e2de02fbca80513ff1c09b7a9083a7a28bf07585ffd47bf83b656d059/griptape_core-0.9.3.tar.gz
+[2023-04-19 18:35:42] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/b1/63/7a4876fd069d61892f636bbccc23d39db99c34a3f974989c2d29b8741106/valmi_connector_lib-0.1.7.tar.gz
+[2023-04-19 18:35:42] INFO root fetch - processPackages [chatgpt-proxy]: Downloading https://files.pythonhosted.org/packages/9a/0b/ecf210557a65d09e56f6bcb7b4a76fc4aae8a1d9962fe557e4a582c03451/chatgpt-proxy-0.2.3.tar.gz
+[2023-04-19 18:35:42] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/c8/b5/3355cff8de72887f7c148ba209b2994296bd90f67faa73f5df099b35dc2e/great_expectations_experimental-0.1.20230414008.tar.gz
+[2023-04-19 18:35:42] INFO root fetch - processPackages [cgl-py]: Downloading https://files.pythonhosted.org/packages/f4/50/37caa75317dd0d2c1753989a7cfa52086445410713f06daeca52edfe09f7/cgl-py-0.0.9.tar.gz
+[2023-04-19 18:35:42] INFO root fetch - processPackages [tessif-calliope-0-6-6post1]: Downloading https://files.pythonhosted.org/packages/0c/7c/774dc9f0c8fccaa8b9f38127ff0b42889a6192dcdb6dd4b0f1704feeae5d/tessif_calliope_0_6_6post1-0.1.2.tar.gz
+[2023-04-19 18:35:42] INFO root fetch - processPackages [chatgpt-proxy]: executing diffoscope
+[2023-04-19 18:35:42] INFO root fetch - processPackages [chatgpt-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-proxy-0.2.2.tar.gz tmp/chatgpt-proxy-0.2.3.tar.gz --markdown 20230419/c/chatgpt-proxy/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-19 18:35:42] INFO root fetch - processPackages [griptape-core]: executing diffoscope
+[2023-04-19 18:35:42] INFO root fetch - processPackages [griptape-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_core-0.9.2.tar.gz tmp/griptape_core-0.9.3.tar.gz --markdown 20230419/g/griptape-core/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-19 18:35:42] INFO root fetch - processPackages [paperscraper]: Downloading https://files.pythonhosted.org/packages/56/9b/d363e2f73f9e519fa9459d15322a69f5ec9736dca353215c677643a7738f/paperscraper-0.2.5.tar.gz
+[2023-04-19 18:35:42] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/c5/82/d355326b099301eed0c9ec0f87e8c57059d39a286d1b3f0b3ef5bf931e93/great_expectations_experimental-0.1.20230419036.tar.gz
+[2023-04-19 18:35:42] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/6c/3e/d4275c80e696994002c76ed3675cf9d05ead8792d67ae4d2c1fc5482382e/valmi_connector_lib-0.1.8.tar.gz
+[2023-04-19 18:35:42] INFO root fetch - processPackages [tessif-calliope-0-6-6post1]: executing diffoscope
+[2023-04-19 18:35:42] INFO root fetch - processPackages [tessif-calliope-0-6-6post1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tessif_calliope_0_6_6post1-0.1.1.tar.gz tmp/tessif_calliope_0_6_6post1-0.1.2.tar.gz --markdown 20230419/t/tessif-calliope-0-6-6post1/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-19 18:35:42] INFO root fetch - processPackages [odoo-addon-payroll]: Downloading https://files.pythonhosted.org/packages/36/35/995ff1be5d6efefd2660c03ff623e1d231042b7e90734ba86d7802cddea2/odoo_addon_payroll-16.0.1.0.0.7-py3-none-any.whl
+[2023-04-19 18:35:42] INFO root fetch - processPackages [paperscraper]: executing diffoscope
+[2023-04-19 18:35:42] INFO root fetch - processPackages [paperscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paperscraper-0.2.4.tar.gz tmp/paperscraper-0.2.5.tar.gz --markdown 20230419/p/paperscraper/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-19 18:35:42] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-04-19 18:35:42] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230414008.tar.gz tmp/great_expectations_experimental-0.1.20230419036.tar.gz --markdown 20230419/g/great-expectations-experimental/0.1.20230414008-0.1.20230419036/diff.md --exclude *.pyd
+[2023-04-19 18:35:42] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-04-19 18:35:42] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.7.tar.gz tmp/valmi_connector_lib-0.1.8.tar.gz --markdown 20230419/v/valmi-connector-lib/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-19 18:35:43] INFO root fetch - processPackages [odoo-addon-payroll]: executing diffoscope
+[2023-04-19 18:35:43] INFO root fetch - processPackages [odoo-addon-payroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_payroll-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_payroll-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230419/o/odoo-addon-payroll/16.0.1.0.0.5-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-04-19 18:35:43] INFO root fetch - processPackages [pyblp]: Downloading https://files.pythonhosted.org/packages/4e/1c/799e7d82bfd597eb673577e0a254d249b837b988ad8fcddd6fc4babb7244/pyblp-1.0.0.tar.gz
+[2023-04-19 18:35:43] INFO root fetch - processPackages [Jvav]: Start processing: twinlab
+[2023-04-19 18:35:43] INFO root fetch - main [MainThread]: End processing [Jvav]: success
+[2023-04-19 18:35:43] INFO root fetch - processPackages [twinlab]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-04-19 18:35:43] INFO root fetch - processPackages [twinlab]: Downloading https://files.pythonhosted.org/packages/5c/b1/0331ca0340df724c5916666b8513bd4e2d1551e221f199562a89f0e4c27e/twinlab-0.0.1.tar.gz
+[2023-04-19 18:35:43] INFO root fetch - processPackages [cgl-py]: executing diffoscope
+[2023-04-19 18:35:43] INFO root fetch - processPackages [cgl-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgl-py-0.0.8.tar.gz tmp/cgl-py-0.0.9.tar.gz --markdown 20230419/c/cgl-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 18:35:44] INFO root fetch - processPackages [griptape-core]: Start processing: xh-cpu-usage-simulator
+[2023-04-19 18:35:44] INFO root fetch - main [MainThread]: End processing [griptape-core]: success
+[2023-04-19 18:35:44] INFO root fetch - processPackages [xh-cpu-usage-simulator]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-19 18:35:44] INFO root fetch - processPackages [pyblp]: executing diffoscope
+[2023-04-19 18:35:44] INFO root fetch - processPackages [pyblp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblp-0.9.0.tar.gz tmp/pyblp-1.0.0.tar.gz --markdown 20230419/p/pyblp/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-19 18:35:44] INFO root fetch - processPackages [chatgpt-proxy]: Start processing: plico-interferometer
+[2023-04-19 18:35:44] INFO root fetch - main [MainThread]: End processing [chatgpt-proxy]: success
+[2023-04-19 18:35:44] INFO root fetch - processPackages [plico-interferometer]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-04-19 18:35:44] INFO root fetch - processPackages [tessif-calliope-0-6-6post1]: Start processing: mfrc522-python
+[2023-04-19 18:35:44] INFO root fetch - main [MainThread]: End processing [tessif-calliope-0-6-6post1]: success
+[2023-04-19 18:35:44] INFO root fetch - processPackages [twinlab]: Downloading https://files.pythonhosted.org/packages/08/30/b6508261db0d38d3d9158ce11e101ee2cb97a368f38b28ee085a1105baaa/twinlab-1.0.0.tar.gz
+[2023-04-19 18:35:44] INFO root fetch - processPackages [mfrc522-python]: New version: [0.0.5.dev0] Old Version: [0.0.4]
+[2023-04-19 18:35:44] INFO root fetch - processPackages [xh-cpu-usage-simulator]: Downloading https://files.pythonhosted.org/packages/77/a8/a403c6be1493bf5cd2bccac75e2a06edfdd6c10996b60ce3cbd047173b34/xh-cpu-usage-simulator-0.1.1.tar.gz
+[2023-04-19 18:35:44] INFO root fetch - processPackages [mfrc522-python]: executing diffoscope
+[2023-04-19 18:35:44] INFO root fetch - processPackages [mfrc522-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfrc522-python-0.0.4.tar.gz tmp/mfrc522-python-0.0.5.dev0.tar.gz --markdown 20230419/m/mfrc522-python/0.0.4-0.0.5.dev0/diff.md --exclude *.pyd
+[2023-04-19 18:35:44] INFO root fetch - processPackages [plico-interferometer]: Downloading https://files.pythonhosted.org/packages/9f/73/177db7715521ca6b22d03700e8354ad1ff03df6ad02399319a3e1477909f/plico_interferometer-0.0.4.tar.gz
+[2023-04-19 18:35:44] INFO root fetch - processPackages [twinlab]: executing diffoscope
+[2023-04-19 18:35:44] INFO root fetch - processPackages [twinlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinlab-0.0.1.tar.gz tmp/twinlab-1.0.0.tar.gz --markdown 20230419/t/twinlab/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-19 18:35:44] INFO root fetch - processPackages [xh-cpu-usage-simulator]: executing diffoscope
+[2023-04-19 18:35:44] INFO root fetch - processPackages [xh-cpu-usage-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-cpu-usage-simulator-0.1.0.tar.gz tmp/xh-cpu-usage-simulator-0.1.1.tar.gz --markdown 20230419/x/xh-cpu-usage-simulator/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-19 18:35:44] INFO root fetch - main [MainThread]: End processing [paperscraper]: success
+[2023-04-19 18:35:44] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-04-19 18:35:44] INFO root fetch - processPackages [plico-interferometer]: Downloading https://files.pythonhosted.org/packages/e9/27/dd780b648705248bbbcbd40baebb24c72de93db11862bcd3400ddec7dccd/plico_interferometer-0.1.0.tar.gz
+[2023-04-19 18:35:44] INFO root fetch - processPackages [plico-interferometer]: executing diffoscope
+[2023-04-19 18:35:44] INFO root fetch - processPackages [plico-interferometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plico_interferometer-0.0.4.tar.gz tmp/plico_interferometer-0.1.0.tar.gz --markdown 20230419/p/plico-interferometer/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-04-19 18:35:44] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-04-19 18:35:45] INFO root fetch - main [MainThread]: End processing [mfrc522-python]: success
+[2023-04-19 18:35:45] INFO root fetch - main [MainThread]: End processing [twinlab]: success
+[2023-04-19 18:35:45] INFO root fetch - main [MainThread]: End processing [xh-cpu-usage-simulator]: success
+[2023-04-19 18:35:45] INFO root fetch - main [MainThread]: End processing [plico-interferometer]: success
+[2023-04-19 18:35:48] INFO root fetch - main [MainThread]: End processing [cgl-py]: success
+[2023-04-19 18:35:50] INFO root fetch - main [MainThread]: End processing [pyblp]: success
+[2023-04-19 18:35:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-payroll]: success
+[2023-04-19 18:35:52] INFO root fetch - main [MainThread]: Store serial: [17773776]
