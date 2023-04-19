@@ -7428,3 +7428,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 07:29:01] INFO root fetch - main [MainThread]: End processing [chatblade]: success
 [2023-04-19 07:29:03] INFO root fetch - main [MainThread]: End processing [secsgem]: success
 [2023-04-19 07:29:03] INFO root fetch - main [MainThread]: Store serial: [17766246]
+[2023-04-19 07:34:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766246]
+[2023-04-19 07:34:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-19 07:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sportsdataverse
+[2023-04-19 07:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpggen
+[2023-04-19 07:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usody-sanitize
+[2023-04-19 07:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: friebox
+[2023-04-19 07:34:11] INFO root fetch - processPackages [cpggen]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-19 07:34:11] INFO root fetch - processPackages [sportsdataverse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-19 07:34:11] INFO root fetch - processPackages [usody-sanitize]: New version: [0.1.0b2] Old Version: [0.1.0b1]
+[2023-04-19 07:34:11] WARNING root fetch - processPackages [friebox]: Skipping, unable to determine old version
+[2023-04-19 07:34:11] INFO root fetch - main [MainThread]: End processing [friebox] error
+[2023-04-19 07:34:12] INFO root fetch - processPackages [sportsdataverse]: Downloading https://files.pythonhosted.org/packages/b7/a6/4fb2d1b69ec20bce975badef81c3ae412184ae6d6ec460482099435b3d65/sportsdataverse-0.0.8.tar.gz
+[2023-04-19 07:34:12] INFO root fetch - processPackages [usody-sanitize]: Downloading https://files.pythonhosted.org/packages/5f/ff/ec2ffb94cb272408fce9277e3403fee5ed0219a4c39b90c2d96ae9acfaa1/usody_sanitize-0.1.0b1.tar.gz
+[2023-04-19 07:34:12] INFO root fetch - processPackages [cpggen]: Downloading https://files.pythonhosted.org/packages/33/8e/953feebf3eb5e35f9c764a0a526e3c8eb1565cba285e01ac9d3f84e90c64/cpggen-0.9.5.tar.gz
+[2023-04-19 07:34:12] INFO root fetch - processPackages [usody-sanitize]: Downloading https://files.pythonhosted.org/packages/d6/6a/571bbb78e9e26173fda772e0affad4c0b16ac08bc4435fd500576cdc129d/usody_sanitize-0.1.0b2.tar.gz
+[2023-04-19 07:34:12] INFO root fetch - processPackages [cpggen]: executing diffoscope
+[2023-04-19 07:34:12] INFO root fetch - processPackages [cpggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpggen-0.9.4.tar.gz tmp/cpggen-0.9.5.tar.gz --markdown 20230419/c/cpggen/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-19 07:34:12] INFO root fetch - processPackages [usody-sanitize]: executing diffoscope
+[2023-04-19 07:34:12] INFO root fetch - processPackages [usody-sanitize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usody_sanitize-0.1.0b1.tar.gz tmp/usody_sanitize-0.1.0b2.tar.gz --markdown 20230419/u/usody-sanitize/0.1.0b1-0.1.0b2/diff.md --exclude *.pyd
+[2023-04-19 07:34:12] INFO root fetch - processPackages [sportsdataverse]: Downloading https://files.pythonhosted.org/packages/de/f2/c6810712b6fcc76f60c32c29f5d67f940b1850ecc5fb55736a89499149af/sportsdataverse-0.0.9.tar.gz
+[2023-04-19 07:34:13] INFO root fetch - processPackages [sportsdataverse]: executing diffoscope
+[2023-04-19 07:34:13] INFO root fetch - processPackages [sportsdataverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sportsdataverse-0.0.8.tar.gz tmp/sportsdataverse-0.0.9.tar.gz --markdown 20230419/s/sportsdataverse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-19 07:34:13] INFO root fetch - main [MainThread]: End processing [cpggen]: success
+[2023-04-19 07:34:13] INFO root fetch - main [MainThread]: End processing [usody-sanitize]: success
+[2023-04-19 07:34:14] INFO root fetch - main [MainThread]: End processing [sportsdataverse]: success
+[2023-04-19 07:34:14] INFO root fetch - main [MainThread]: Store serial: [17766260]
