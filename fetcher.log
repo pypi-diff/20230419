@@ -5289,3 +5289,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 04:54:06] INFO root fetch - main [MainThread]: End processing [cads-sdk]: success
 [2023-04-19 04:54:07] INFO root fetch - main [MainThread]: End processing [pankmer]: success
 [2023-04-19 04:54:07] INFO root fetch - main [MainThread]: Store serial: [17765150]
+[2023-04-19 04:59:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17765150]
+[2023-04-19 04:59:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 04:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-constants
+[2023-04-19 04:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myfm
+[2023-04-19 04:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kkpyutil
+[2023-04-19 04:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: primehub-python-sdk
+[2023-04-19 04:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: merlin-sdk
+[2023-04-19 04:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: toldwords
+[2023-04-19 04:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taichu-serve
+[2023-04-19 04:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edc-dx-review
+[2023-04-19 04:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Lezargus
+[2023-04-19 04:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dramkit
+[2023-04-19 04:59:16] INFO root fetch - processPackages [primehub-python-sdk]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-19 04:59:16] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [2.0.10]
+[2023-04-19 04:59:16] INFO root fetch - processPackages [Lezargus]: New version: [0.0.1.dev3] Old Version: [0.0.1.dev2]
+[2023-04-19 04:59:16] INFO root fetch - processPackages [toldwords]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-19 04:59:16] INFO root fetch - processPackages [myfm]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-19 04:59:16] INFO root fetch - processPackages [edc-dx-review]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-19 04:59:16] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-04-19 04:59:16] INFO root fetch - processPackages [edc-constants]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 04:59:16] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-04-19 04:59:16] INFO root fetch - processPackages [dramkit]: New version: [0.5.29] Old Version: [0.5.28]
+[2023-04-19 04:59:16] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-04-19 04:59:16] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230419/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-04-19 04:59:16] INFO root fetch - processPackages [edc-dx-review]: executing diffoscope
+[2023-04-19 04:59:16] INFO root fetch - processPackages [edc-dx-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_dx_review-0.1.8-py3-none-any.whl.zip tmp/edc-dx-review-0.1.9.tar.gz --markdown 20230419/e/edc-dx-review/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-19 04:59:16] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/40/57/9019abc95cc8cc8046e82cd69d366849b4c4ace9dce39c2068669dd146bc/taichu-serve-2.0.10.tar.gz
+[2023-04-19 04:59:16] INFO root fetch - processPackages [toldwords]: Downloading https://files.pythonhosted.org/packages/84/ff/eeda201fa646fc17d8aaebfe15a578d80838977703f03174e77b8756936f/toldwords-0.5.0.tar.gz
+[2023-04-19 04:59:16] INFO root fetch - processPackages [primehub-python-sdk]: Downloading https://files.pythonhosted.org/packages/4a/99/21513ba7dd8c96b85b5b5de0af1142d7d3715317a1601f73c20a66f182b8/primehub-python-sdk-0.4.2.tar.gz
+[2023-04-19 04:59:16] INFO root fetch - processPackages [myfm]: Downloading https://files.pythonhosted.org/packages/8c/54/daf1b4b77d03d5958b137f3465076718da839e6319c1b24a456ff780ea57/myfm-0.3.5-cp39-cp39-win_amd64.whl
+[2023-04-19 04:59:16] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/fd/24/affb7fe4496d087c3b175a07aae0ea898dcf008ef4be91f51a39e9000c24/kkpyutil-0.99.0.tar.gz
+[2023-04-19 04:59:16] INFO root fetch - processPackages [Lezargus]: Downloading https://files.pythonhosted.org/packages/12/77/a9968bb0dd94f7533087e6e0de4e1b3d0a0fe3ea6fccc1a2ba0f61d1e4ac/lezargus-0.0.1.dev3.tar.gz
+[2023-04-19 04:59:16] INFO root fetch - processPackages [dramkit]: Downloading https://files.pythonhosted.org/packages/83/76/d344b8c38d16776f10b5111e191d93cab528fb40d2118c6ffdb1d23e26c5/dramkit-0.5.28.tar.gz
+[2023-04-19 04:59:16] INFO root fetch - processPackages [toldwords]: executing diffoscope
+[2023-04-19 04:59:16] INFO root fetch - processPackages [toldwords]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toldwords-0.4.0.tar.gz tmp/toldwords-0.5.0.tar.gz --markdown 20230419/t/toldwords/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-19 04:59:16] INFO root fetch - processPackages [primehub-python-sdk]: executing diffoscope
+[2023-04-19 04:59:16] INFO root fetch - processPackages [primehub-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primehub-python-sdk-0.4.1.tar.gz tmp/primehub-python-sdk-0.4.2.tar.gz --markdown 20230419/p/primehub-python-sdk/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-19 04:59:16] INFO root fetch - processPackages [edc-constants]: executing diffoscope
+[2023-04-19 04:59:16] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-04-19 04:59:16] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.10.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230419/t/taichu-serve/2.0.10-2.0.9/diff.md --exclude *.pyd
+[2023-04-19 04:59:16] INFO root fetch - processPackages [edc-constants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_constants-0.3.8-py3-none-any.whl.zip tmp/edc_constants-0.3.9-py3-none-any.whl.zip --markdown 20230419/e/edc-constants/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 04:59:16] INFO root fetch - processPackages [myfm]: Downloading https://files.pythonhosted.org/packages/25/cc/aaa15ab948750f6d55cd0195f11747c11b8edb838cddb8f516806d6af263/myfm-0.3.6-cp39-cp39-win_amd64.whl
+[2023-04-19 04:59:16] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/55/42/485d53cc78b791f1dd32900d05d05c1a2070176870f678253c86b332956b/kkpyutil-0.99.1.tar.gz
+[2023-04-19 04:59:16] INFO root fetch - processPackages [dramkit]: Downloading https://files.pythonhosted.org/packages/1c/94/014c3f3d9c2e80d94572122bcce2d590490edce41f43313f913c51bd993c/dramkit-0.5.29.tar.gz
+[2023-04-19 04:59:16] INFO root fetch - processPackages [myfm]: executing diffoscope
+[2023-04-19 04:59:16] INFO root fetch - processPackages [myfm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfm-0.3.5-cp39-cp39-win_amd64.whl.zip tmp/myfm-0.3.6-cp39-cp39-win_amd64.whl.zip --markdown 20230419/m/myfm/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-19 04:59:16] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-04-19 04:59:16] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230419/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-04-19 04:59:16] INFO root fetch - processPackages [Lezargus]: executing diffoscope
+[2023-04-19 04:59:16] INFO root fetch - processPackages [Lezargus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lezargus-0.0.1.dev2.tar.gz tmp/lezargus-0.0.1.dev3.tar.gz --markdown 20230419/L/Lezargus/0.0.1.dev2-0.0.1.dev3/diff.md --exclude *.pyd
+[2023-04-19 04:59:17] INFO root fetch - processPackages [dramkit]: executing diffoscope
+[2023-04-19 04:59:17] INFO root fetch - processPackages [dramkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dramkit-0.5.28.tar.gz tmp/dramkit-0.5.29.tar.gz --markdown 20230419/d/dramkit/0.5.28-0.5.29/diff.md --exclude *.pyd
+[2023-04-19 04:59:17] INFO root fetch - main [MainThread]: End processing [edc-dx-review]: success
+[2023-04-19 04:59:17] INFO root fetch - main [MainThread]: End processing [edc-constants]: success
+[2023-04-19 04:59:17] INFO root fetch - main [MainThread]: End processing [toldwords]: success
+[2023-04-19 04:59:18] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-04-19 04:59:18] INFO root fetch - main [MainThread]: End processing [primehub-python-sdk]: success
+[2023-04-19 04:59:18] INFO root fetch - main [MainThread]: End processing [myfm]: success
+[2023-04-19 04:59:18] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-04-19 04:59:18] INFO root fetch - main [MainThread]: End processing [Lezargus]: success
+[2023-04-19 04:59:19] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-04-19 04:59:21] INFO root fetch - main [MainThread]: End processing [dramkit]: success
+[2023-04-19 04:59:21] INFO root fetch - main [MainThread]: Store serial: [17765203]
