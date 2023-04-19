@@ -1744,3 +1744,77 @@
 [2023-04-19 02:00:27] INFO root fetch - main [MainThread]: End processing [naruno]: success
 [2023-04-19 02:00:30] INFO root fetch - main [MainThread]: End processing [faucet]: success
 [2023-04-19 02:00:30] INFO root fetch - main [MainThread]: Store serial: [17763196]
+[2023-04-19 02:05:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17763196]
+[2023-04-19 02:05:40] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: truveta
+[2023-04-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: energinet-ml-sdk
+[2023-04-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trame-code
+[2023-04-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e2eAIOK
+[2023-04-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchdatasets-nightly
+[2023-04-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mb-pytorch
+[2023-04-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: griptape
+[2023-04-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: e2eAIOK-sda
+[2023-04-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mct-nightly
+[2023-04-19 02:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: not1mm
+[2023-04-19 02:05:40] INFO root fetch - processPackages [e2eAIOK]: New version: [1.0.1b2023041800] Old Version: [1.0.1b2023041400]
+[2023-04-19 02:05:40] WARNING root fetch - processPackages [truveta]: Skipping, unable to determine old version
+[2023-04-19 02:05:40] INFO root fetch - processPackages [truveta]: Start processing: uintel
+[2023-04-19 02:05:40] INFO root fetch - main [MainThread]: End processing [truveta] error
+[2023-04-19 02:05:40] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304190003] Old Version: [1.0.202304182354]
+[2023-04-19 02:05:40] INFO root fetch - processPackages [e2eAIOK-sda]: New version: [1.0.1b2023041900] Old Version: [1.0.1b2023041800]
+[2023-04-19 02:05:40] INFO root fetch - processPackages [not1mm]: New version: [23.4.6] Old Version: [23.4.5]
+[2023-04-19 02:05:40] INFO root fetch - processPackages [energinet-ml-sdk]: New version: [0.9.2.dev87] Old Version: [0.9.2.dev86]
+[2023-04-19 02:05:40] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1681776194] Old Version: [1681689805]
+[2023-04-19 02:05:40] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9042023.post411] Old Version: [1.8.0.9032023.post431]
+[2023-04-19 02:05:40] WARNING root fetch - processPackages [trame-code]: Skipping, unable to determine old version
+[2023-04-19 02:05:40] INFO root fetch - processPackages [trame-code]: Start processing: suncalc
+[2023-04-19 02:05:40] INFO root fetch - main [MainThread]: End processing [trame-code] error
+[2023-04-19 02:05:40] WARNING root fetch - processPackages [griptape]: Skipping, unable to determine old version
+[2023-04-19 02:05:40] INFO root fetch - processPackages [griptape]: Start processing: mediaify
+[2023-04-19 02:05:40] INFO root fetch - main [MainThread]: End processing [griptape] error
+[2023-04-19 02:05:40] INFO root fetch - processPackages [mediaify]: New version: [2.0.0] Old Version: [1.4.1]
+[2023-04-19 02:05:40] INFO root fetch - processPackages [uintel]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-19 02:05:40] INFO root fetch - processPackages [suncalc]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-19 02:05:40] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-04-19 02:05:40] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.4.5.tar.gz tmp/not1mm-23.4.6.tar.gz --markdown 20230419/n/not1mm/23.4.5-23.4.6/diff.md --exclude *.pyd
+[2023-04-19 02:05:40] INFO root fetch - processPackages [mediaify]: Downloading https://files.pythonhosted.org/packages/9d/c0/3b0c145f828f1fb54f239b380527a80400377eea83b8bf231f6d3989f6b9/mediaify-1.4.1.tar.gz
+[2023-04-19 02:05:40] INFO root fetch - processPackages [e2eAIOK-sda]: Downloading https://files.pythonhosted.org/packages/a6/26/21b1f3f70bdae20eb2057bc47fef051f9bfdaea07c6644356b80f6415b2d/e2eAIOK_sda-1.0.1b2023041900-py3-none-any.whl
+[2023-04-19 02:05:40] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/f7/38/4de0d6f0870939b09a63e96f19ba809ae22323d8235836f4be0bf7c67203/mb_pytorch-1.0.202304190003-py3-none-any.whl
+[2023-04-19 02:05:40] WARNING root fetch - processPackages [mediaify]: Skipping package: exceeds size limit 13484106>=10485760
+[2023-04-19 02:05:40] INFO root fetch - processPackages [mediaify]: Start processing: jaxkern-nightly
+[2023-04-19 02:05:40] INFO root fetch - main [MainThread]: End processing [mediaify] error
+[2023-04-19 02:05:40] INFO root fetch - processPackages [e2eAIOK]: executing diffoscope
+[2023-04-19 02:05:40] INFO root fetch - processPackages [e2eAIOK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eAIOK-1.0.1b2023041400.tar.gz tmp/e2eAIOK-1.0.1b2023041800.tar.gz --markdown 20230419/e/e2eAIOK/1.0.1b2023041400-1.0.1b2023041800/diff.md --exclude *.pyd
+[2023-04-19 02:05:40] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/7e/02/9c50bf9d59e350b7d0c326cdc934d75a79af9b8a80e698d5cee7a0f52b43/torchdatasets-nightly-1681776194.tar.gz
+[2023-04-19 02:05:40] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-04-19 02:05:40] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/3d/10/e2c31a969551f8739f04d1caea1776e30a5d34d3cbb5f28a2f63f228a734/uintel-0.3.8.tar.gz
+[2023-04-19 02:05:40] INFO root fetch - processPackages [suncalc]: Downloading https://files.pythonhosted.org/packages/90/fa/c7b89e9ab6035733cd849e26f369c8804936b099026e68f2d0772eae7265/suncalc-0.1.2.tar.gz
+[2023-04-19 02:05:40] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-04-19 02:05:40] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230419/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-04-19 02:05:40] INFO root fetch - processPackages [e2eAIOK-sda]: executing diffoscope
+[2023-04-19 02:05:40] INFO root fetch - processPackages [e2eAIOK-sda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eAIOK_sda-1.0.1b2023041800-py3-none-any.whl.zip tmp/e2eAIOK_sda-1.0.1b2023041900-py3-none-any.whl.zip --markdown 20230419/e/e2eAIOK-sda/1.0.1b2023041800-1.0.1b2023041900/diff.md --exclude *.pyd
+[2023-04-19 02:05:40] INFO root fetch - processPackages [energinet-ml-sdk]: executing diffoscope
+[2023-04-19 02:05:40] INFO root fetch - processPackages [energinet-ml-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energinet-ml-sdk-0.9.2.dev86.tar.gz tmp/energinet-ml-sdk-0.9.2.dev87.tar.gz --markdown 20230419/e/energinet-ml-sdk/0.9.2.dev86-0.9.2.dev87/diff.md --exclude *.pyd
+[2023-04-19 02:05:40] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-19 02:05:40] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304182354-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304190003-py3-none-any.whl.zip --markdown 20230419/m/mb-pytorch/1.0.202304182354-1.0.202304190003/diff.md --exclude *.pyd
+[2023-04-19 02:05:40] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-04-19 02:05:40] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9032023.post431.tar.gz tmp/mct-nightly-1.8.0.9042023.post411.tar.gz --markdown 20230419/m/mct-nightly/1.8.0.9032023.post431-1.8.0.9042023.post411/diff.md --exclude *.pyd
+[2023-04-19 02:05:40] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-04-19 02:05:40] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1681689805.tar.gz tmp/torchdatasets-nightly-1681776194.tar.gz --markdown 20230419/t/torchdatasets-nightly/1681689805-1681776194/diff.md --exclude *.pyd
+[2023-04-19 02:05:40] INFO root fetch - processPackages [suncalc]: Downloading https://files.pythonhosted.org/packages/c2/ff/f66239517089f07ee32aa737069127790c0d7df1f4a12bd0875208dc89d2/suncalc-0.1.3.tar.gz
+[2023-04-19 02:05:40] INFO root fetch - processPackages [suncalc]: executing diffoscope
+[2023-04-19 02:05:40] INFO root fetch - processPackages [suncalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suncalc-0.1.2.tar.gz tmp/suncalc-0.1.3.tar.gz --markdown 20230419/s/suncalc/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-19 02:05:41] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/a0/5c/0d54c13b14cbe4945d5e15a0e23afc8e445ed191c43759a6c09f89f3154c/uintel-0.3.9.tar.gz
+[2023-04-19 02:05:41] INFO root fetch - processPackages [uintel]: executing diffoscope
+[2023-04-19 02:05:41] INFO root fetch - processPackages [uintel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uintel-0.3.8.tar.gz tmp/uintel-0.3.9.tar.gz --markdown 20230419/u/uintel/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-19 02:05:41] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-04-19 02:05:42] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-04-19 02:05:42] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-19 02:05:42] INFO root fetch - main [MainThread]: End processing [e2eAIOK-sda]: success
+[2023-04-19 02:05:42] INFO root fetch - main [MainThread]: End processing [energinet-ml-sdk]: success
+[2023-04-19 02:05:42] INFO root fetch - main [MainThread]: End processing [suncalc]: success
+[2023-04-19 02:05:43] INFO root fetch - main [MainThread]: End processing [uintel]: success
+[2023-04-19 02:05:44] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-04-19 02:05:44] INFO root fetch - main [MainThread]: End processing [e2eAIOK]: success
+[2023-04-19 02:05:48] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-04-19 02:05:48] INFO root fetch - main [MainThread]: Store serial: [17763238]
