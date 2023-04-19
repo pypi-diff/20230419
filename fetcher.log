@@ -20910,3 +20910,152 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 19:18:39] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-04-19 19:18:40] INFO root fetch - main [MainThread]: End processing [dbt-core]: success
 [2023-04-19 19:18:40] INFO root fetch - main [MainThread]: Store serial: [17774377]
+[2023-04-19 19:23:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17774377]
+[2023-04-19 19:23:49] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-19 19:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cleancourt
+[2023-04-19 19:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genshin-data
+[2023-04-19 19:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edge-orm
+[2023-04-19 19:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyftdc
+[2023-04-19 19:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genshin-data
+[2023-04-19 19:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypercard
+[2023-04-19 19:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exotic
+[2023-04-19 19:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toolshelf
+[2023-04-19 19:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: meltano-edk
+[2023-04-19 19:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: beaupy
+[2023-04-19 19:23:49] INFO root fetch - processPackages [edge-orm]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-19 19:23:49] INFO root fetch - processPackages [cleancourt]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-19 19:23:49] INFO root fetch - processPackages [pypercard]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2023-04-19 19:23:49] INFO root fetch - processPackages [genshin-data]: New version: [0.1.0a0] Old Version: [0.1.0]
+[2023-04-19 19:23:49] WARNING root fetch - processPackages [toolshelf]: Skipping, unable to determine old version
+[2023-04-19 19:23:49] INFO root fetch - processPackages [toolshelf]: Start processing: SIOTCommon
+[2023-04-19 19:23:49] INFO root fetch - main [MainThread]: End processing [toolshelf] error
+[2023-04-19 19:23:49] INFO root fetch - processPackages [meltano-edk]: New version: [0.3.1a1] Old Version: [0.3.0]
+[2023-04-19 19:23:49] INFO root fetch - processPackages [genshin-data]: New version: [0.1.0a0] Old Version: [0.1.0]
+[2023-04-19 19:23:49] INFO root fetch - processPackages [pyftdc]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-19 19:23:49] INFO root fetch - processPackages [beaupy]: New version: [3.5.3b0] Old Version: [3.5.3]
+[2023-04-19 19:23:49] INFO root fetch - processPackages [exotic]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-19 19:23:49] INFO root fetch - processPackages [SIOTCommon]: New version: [0.0.9.2] Old Version: [0.0.9.1]
+[2023-04-19 19:23:50] INFO root fetch - processPackages [genshin-data]: Downloading https://files.pythonhosted.org/packages/fb/4b/0019047aecf3e93ed67bf2842fcc70ecafba50f3b59e7fb62313ff3deb98/genshin-data-0.1.0.tar.gz
+[2023-04-19 19:23:50] INFO root fetch - processPackages [genshin-data]: Downloading https://files.pythonhosted.org/packages/fb/4b/0019047aecf3e93ed67bf2842fcc70ecafba50f3b59e7fb62313ff3deb98/genshin-data-0.1.0.tar.gz
+[2023-04-19 19:23:50] INFO root fetch - processPackages [meltano-edk]: Downloading https://files.pythonhosted.org/packages/14/a5/c42a3ee9f5a2770ac501340c2120394141955014a0ca1e7f24755e5819ec/meltano_edk-0.3.0.tar.gz
+[2023-04-19 19:23:50] INFO root fetch - processPackages [beaupy]: Downloading https://files.pythonhosted.org/packages/21/9f/9ef755143faaa590a7e7b54479e9afbdb483f624be5a53a9493267df2503/beaupy-3.5.3.tar.gz
+[2023-04-19 19:23:50] INFO root fetch - processPackages [edge-orm]: Downloading https://files.pythonhosted.org/packages/0e/5d/30fd0bbc0a4a80220150ace7e71a980260f61afb97f23686f9df9f276ad2/edge_orm-0.6.1.tar.gz
+[2023-04-19 19:23:50] INFO root fetch - processPackages [exotic]: Downloading https://files.pythonhosted.org/packages/37/d5/651b30e93cd9333b9a85b96dbfc3c12b4e0724ceb47d74514fac349129f1/exotic-2.8.0.zip
+[2023-04-19 19:23:50] INFO root fetch - processPackages [pypercard]: Downloading https://files.pythonhosted.org/packages/ac/12/5e45855e69f3f44fb8aa96ec486fd98978947cc7ff7d0a73b05d06637c96/pypercard-0.0.1a7.tar.gz
+[2023-04-19 19:23:50] INFO root fetch - processPackages [SIOTCommon]: Downloading https://files.pythonhosted.org/packages/45/1b/e62cb8bd42a0028c99669c0ccf717ed4c6cac211e496358be5c8c177e67b/SIOTCommon-0.0.9.2.tar.gz
+[2023-04-19 19:23:50] WARNING root fetch - processPackages [genshin-data]: Skipping package: exceeds size limit 11896550>=10485760
+[2023-04-19 19:23:50] INFO root fetch - processPackages [genshin-data]: Start processing: spanishconjugator
+[2023-04-19 19:23:50] INFO root fetch - main [MainThread]: End processing [genshin-data] error
+[2023-04-19 19:23:50] WARNING root fetch - processPackages [genshin-data]: Skipping package: exceeds size limit 11896550>=10485760
+[2023-04-19 19:23:50] INFO root fetch - processPackages [genshin-data]: Start processing: motion-python
+[2023-04-19 19:23:50] INFO root fetch - main [MainThread]: End processing [genshin-data] error
+[2023-04-19 19:23:50] INFO root fetch - processPackages [motion-python]: New version: [0.1.35] Old Version: [0.1.34]
+[2023-04-19 19:23:50] INFO root fetch - processPackages [pyftdc]: Downloading https://files.pythonhosted.org/packages/e6/76/337b0b07f1dee769d15ff482824004d721a262255454cfc26145007edf73/pyftdc-0.3.3.tar.gz
+[2023-04-19 19:23:50] WARNING root fetch - processPackages [exotic]: Skipping package: exceeds size limit 14690824>=10485760
+[2023-04-19 19:23:50] INFO root fetch - processPackages [exotic]: Start processing: docker-composer-v2
+[2023-04-19 19:23:50] INFO root fetch - main [MainThread]: End processing [exotic] error
+[2023-04-19 19:23:50] WARNING root fetch - processPackages [pypercard]: Skipping package: exceeds size limit 43228648>=10485760
+[2023-04-19 19:23:50] INFO root fetch - processPackages [pypercard]: Start processing: sarufi
+[2023-04-19 19:23:50] INFO root fetch - main [MainThread]: End processing [pypercard] error
+[2023-04-19 19:23:50] WARNING root fetch - processPackages [docker-composer-v2]: Skipping, unable to determine old version
+[2023-04-19 19:23:50] INFO root fetch - processPackages [docker-composer-v2]: Start processing: awscdk-resources-mongodbatlas
+[2023-04-19 19:23:50] INFO root fetch - main [MainThread]: End processing [docker-composer-v2] error
+[2023-04-19 19:23:50] INFO root fetch - processPackages [sarufi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-19 19:23:50] INFO root fetch - processPackages [cleancourt]: Downloading https://files.pythonhosted.org/packages/d6/e1/b59e06dbfaf7be0e825bd5e68e3b75ec3d03b273516a3bf4bb08640d2f08/cleancourt-0.7.9.tar.gz
+[2023-04-19 19:23:50] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 19:23:50] INFO root fetch - processPackages [meltano-edk]: Downloading https://files.pythonhosted.org/packages/c8/df/d56f9f78df846c516b619018547365716efb1248d202ec34b29de5cb6734/meltano_edk-0.3.1a1.tar.gz
+[2023-04-19 19:23:50] INFO root fetch - processPackages [SIOTCommon]: executing diffoscope
+[2023-04-19 19:23:50] INFO root fetch - processPackages [SIOTCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SIOTCommon-0.0.9.1.tar.gz tmp/SIOTCommon-0.0.9.2.tar.gz --markdown 20230419/S/SIOTCommon/0.0.9.1-0.0.9.2/diff.md --exclude *.pyd
+[2023-04-19 19:23:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-19 19:23:50] INFO root fetch - processPackages [edge-orm]: Downloading https://files.pythonhosted.org/packages/8d/de/a2cd9c52cfd59ac0fabdb98c2a0419bd2883b819bdd080d930ae9af5539c/edge_orm-0.6.2.tar.gz
+[2023-04-19 19:23:50] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/0d/82/a92f0476094810c1f9c0dd7179b23533b2df994766b0ee938f217878795f/motion_python-0.1.34.tar.gz
+[2023-04-19 19:23:50] INFO root fetch - processPackages [beaupy]: executing diffoscope
+[2023-04-19 19:23:50] INFO root fetch - processPackages [beaupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beaupy-3.5.3.tar.gz tmp/beaupy-3.5.3b0.tar.gz --markdown 20230419/b/beaupy/3.5.3-3.5.3b0/diff.md --exclude *.pyd
+[2023-04-19 19:23:50] INFO root fetch - processPackages [pyftdc]: executing diffoscope
+[2023-04-19 19:23:50] INFO root fetch - processPackages [pyftdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyftdc-0.3.2.tar.gz tmp/pyftdc-0.3.3.tar.gz --markdown 20230419/p/pyftdc/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-19 19:23:50] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-19 19:23:50] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230419/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-19 19:23:50] INFO root fetch - processPackages [sarufi]: Downloading https://files.pythonhosted.org/packages/d2/00/c84bdc5780a2babc1cc63b968400cc1da38365f527542b0392580700caee/sarufi-0.1.2-py3-none-any.whl
+[2023-04-19 19:23:50] INFO root fetch - processPackages [cleancourt]: executing diffoscope
+[2023-04-19 19:23:50] INFO root fetch - processPackages [cleancourt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleancourt-0.7.8.tar.gz tmp/cleancourt-0.7.9.tar.gz --markdown 20230419/c/cleancourt/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-19 19:23:50] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/30/49/9fb50ecbcd5fe68e3b2eafa9ff9d7f8fdeb875e5689a3f73446c135e7a5f/awscdk_resources_mongodbatlas-1.0.0.tar.gz
+[2023-04-19 19:23:50] INFO root fetch - processPackages [meltano-edk]: executing diffoscope
+[2023-04-19 19:23:50] INFO root fetch - processPackages [meltano-edk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meltano_edk-0.3.0.tar.gz tmp/meltano_edk-0.3.1a1.tar.gz --markdown 20230419/m/meltano-edk/0.3.0-0.3.1a1/diff.md --exclude *.pyd
+[2023-04-19 19:23:50] INFO root fetch - processPackages [edge-orm]: executing diffoscope
+[2023-04-19 19:23:50] INFO root fetch - processPackages [edge-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_orm-0.6.1.tar.gz tmp/edge_orm-0.6.2.tar.gz --markdown 20230419/e/edge-orm/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-19 19:23:50] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/76/56/38c0137de2e7419d95c683275ee39b27513f3e6982fee71052d3fa269c98/motion_python-0.1.35.tar.gz
+[2023-04-19 19:23:50] INFO root fetch - processPackages [sarufi]: Downloading https://files.pythonhosted.org/packages/24/67/da1d25b47d95e7a31de0d2551e8b660e3cd60bc0f29bbf6ea81f4046e0fc/sarufi-0.1.3-py3-none-any.whl
+[2023-04-19 19:23:50] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/69/d4/6e4af2d3dbb858f2f08946c1c23756688a96b0e8592e1de966f1f4e43ccd/awscdk_resources_mongodbatlas-1.0.1.tar.gz
+[2023-04-19 19:23:51] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-04-19 19:23:51] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.34.tar.gz tmp/motion_python-0.1.35.tar.gz --markdown 20230419/m/motion-python/0.1.34-0.1.35/diff.md --exclude *.pyd
+[2023-04-19 19:23:51] INFO root fetch - processPackages [sarufi]: executing diffoscope
+[2023-04-19 19:23:51] INFO root fetch - processPackages [sarufi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarufi-0.1.2-py3-none-any.whl.zip tmp/sarufi-0.1.3-py3-none-any.whl.zip --markdown 20230419/s/sarufi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-19 19:23:51] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: executing diffoscope
+[2023-04-19 19:23:51] INFO root fetch - processPackages [awscdk-resources-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscdk_resources_mongodbatlas-1.0.0.tar.gz tmp/awscdk_resources_mongodbatlas-1.0.1.tar.gz --markdown 20230419/a/awscdk-resources-mongodbatlas/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 19:23:51] INFO root fetch - processPackages [SIOTCommon]: Start processing: spanishconjugator
+[2023-04-19 19:23:51] INFO root fetch - main [MainThread]: End processing [SIOTCommon]: success
+[2023-04-19 19:23:51] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-19 19:23:51] INFO root fetch - processPackages [beaupy]: Start processing: hatch-aws-publisher
+[2023-04-19 19:23:51] INFO root fetch - main [MainThread]: End processing [beaupy]: success
+[2023-04-19 19:23:51] INFO root fetch - processPackages [hatch-aws-publisher]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-04-19 19:23:52] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-19 19:23:52] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230419/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-19 19:23:52] INFO root fetch - processPackages [hatch-aws-publisher]: Downloading https://files.pythonhosted.org/packages/d9/6a/dcecd09f91ff1abbba51cda19d7be0f3710145b4aa202d1def9cae509922/hatch_aws_publisher-0.2.3.tar.gz
+[2023-04-19 19:23:52] INFO root fetch - processPackages [meltano-edk]: Start processing: jina
+[2023-04-19 19:23:52] INFO root fetch - main [MainThread]: End processing [meltano-edk]: success
+[2023-04-19 19:23:52] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-19 19:23:52] INFO root fetch - processPackages [cleancourt]: Start processing: jac-nlp
+[2023-04-19 19:23:52] INFO root fetch - main [MainThread]: End processing [cleancourt]: success
+[2023-04-19 19:23:52] INFO root fetch - processPackages [hatch-aws-publisher]: Downloading https://files.pythonhosted.org/packages/1e/df/64eee8df0265638d067a664859a900fb9117ddaebed1ea9118e08663f47a/hatch_aws_publisher-0.3.0.tar.gz
+[2023-04-19 19:23:52] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-19 19:23:52] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230419/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-19 19:23:52] INFO root fetch - processPackages [jac-nlp]: New version: [1.4.0.9] Old Version: [1.4.0.8]
+[2023-04-19 19:23:52] INFO root fetch - processPackages [sarufi]: Start processing: jaseci
+[2023-04-19 19:23:52] INFO root fetch - main [MainThread]: End processing [sarufi]: success
+[2023-04-19 19:23:52] INFO root fetch - processPackages [hatch-aws-publisher]: executing diffoscope
+[2023-04-19 19:23:52] INFO root fetch - processPackages [hatch-aws-publisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_aws_publisher-0.2.3.tar.gz tmp/hatch_aws_publisher-0.3.0.tar.gz --markdown 20230419/h/hatch-aws-publisher/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-04-19 19:23:52] INFO root fetch - processPackages [jac-nlp]: Downloading https://files.pythonhosted.org/packages/71/74/2eaf69faaa9e09ce411aa5c2bfdc9b73cdc93130fcbc403ed2d250d3c2f1/jac_nlp-1.4.0.8.tar.gz
+[2023-04-19 19:23:52] INFO root fetch - processPackages [jaseci]: New version: [1.4.0.9] Old Version: [1.4.0.8]
+[2023-04-19 19:23:52] INFO root fetch - processPackages [jaseci]: Downloading https://files.pythonhosted.org/packages/c5/2e/51b94b822565a584d71eb0afeaea29bb70409df6426927e3e3f8ef998977/jaseci-1.4.0.8.tar.gz
+[2023-04-19 19:23:52] INFO root fetch - processPackages [spanishconjugator]: Start processing: jac-vision
+[2023-04-19 19:23:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-19 19:23:52] INFO root fetch - processPackages [jac-vision]: New version: [1.4.0.9] Old Version: [1.4.0.8]
+[2023-04-19 19:23:52] INFO root fetch - processPackages [jac-nlp]: Downloading https://files.pythonhosted.org/packages/f4/17/3dca80a03cabd5fff75bcfb56af2bb78b20b757814881cc451cbeac8bfcb/jac_nlp-1.4.0.9.tar.gz
+[2023-04-19 19:23:53] INFO root fetch - processPackages [edge-orm]: Start processing: jac-misc
+[2023-04-19 19:23:53] INFO root fetch - main [MainThread]: End processing [edge-orm]: success
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jac-vision]: Downloading https://files.pythonhosted.org/packages/37/29/1f486ac2a581711b4bcd46525454c7982acf909ac69cdbafa80e325b6fdd/jac_vision-1.4.0.8.tar.gz
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jac-nlp]: executing diffoscope
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jac-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_nlp-1.4.0.8.tar.gz tmp/jac_nlp-1.4.0.9.tar.gz --markdown 20230419/j/jac-nlp/1.4.0.8-1.4.0.9/diff.md --exclude *.pyd
+[2023-04-19 19:23:53] INFO root fetch - processPackages [motion-python]: Start processing: ebib
+[2023-04-19 19:23:53] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jac-misc]: New version: [1.4.0.9] Old Version: [1.4.0.8]
+[2023-04-19 19:23:53] INFO root fetch - processPackages [ebib]: New version: [1.1.0] Old Version: [0.1.0]
+[2023-04-19 19:23:53] INFO root fetch - processPackages [spanishconjugator]: Start processing: archytas
+[2023-04-19 19:23:53] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-19 19:23:53] INFO root fetch - processPackages [archytas]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jac-misc]: Downloading https://files.pythonhosted.org/packages/99/82/5d26254b49d8db1cd1c492554c30970c88f60cbfc5dbf9ed6d2ae4648ba3/jac_misc-1.4.0.8.tar.gz
+[2023-04-19 19:23:53] INFO root fetch - processPackages [ebib]: executing diffoscope
+[2023-04-19 19:23:53] INFO root fetch - processPackages [ebib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebib-0.1.0.tar.gz tmp/ebib-1.1.0.tar.gz --markdown 20230419/e/ebib/0.1.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-19 19:23:53] INFO root fetch - main [MainThread]: End processing [awscdk-resources-mongodbatlas]: success
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jac-vision]: Downloading https://files.pythonhosted.org/packages/ec/96/cc4f2576036a4fb015a266a0fa017c1b17b13b96837df66add65fae31faa/jac_vision-1.4.0.9.tar.gz
+[2023-04-19 19:23:53] INFO root fetch - processPackages [archytas]: Downloading https://files.pythonhosted.org/packages/a2/0e/b4c832a4e140f6ec6fe78f812b845d2cdeeb68eedfad378dac7f27b4c954/archytas-0.2.3.tar.gz
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jaseci]: Downloading https://files.pythonhosted.org/packages/9f/3c/ab42161452fc8b5f5c5f481dd6e5e729908aa3e05dd3e5001983ffbb09cf/jaseci-1.4.0.9.tar.gz
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jac-vision]: executing diffoscope
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jac-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_vision-1.4.0.8.tar.gz tmp/jac_vision-1.4.0.9.tar.gz --markdown 20230419/j/jac-vision/1.4.0.8-1.4.0.9/diff.md --exclude *.pyd
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jac-misc]: Downloading https://files.pythonhosted.org/packages/06/96/1e695cfb5574e6e8de6c536d19faa5326041c5b6fab9cccff1959303f129/jac_misc-1.4.0.9.tar.gz
+[2023-04-19 19:23:53] INFO root fetch - processPackages [archytas]: executing diffoscope
+[2023-04-19 19:23:53] INFO root fetch - processPackages [archytas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archytas-0.2.2.tar.gz tmp/archytas-0.2.3.tar.gz --markdown 20230419/a/archytas/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-19 19:23:53] INFO root fetch - main [MainThread]: End processing [hatch-aws-publisher]: success
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jaseci]: executing diffoscope
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jaseci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaseci-1.4.0.8.tar.gz tmp/jaseci-1.4.0.9.tar.gz --markdown 20230419/j/jaseci/1.4.0.8-1.4.0.9/diff.md --exclude *.pyd
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jac-misc]: executing diffoscope
+[2023-04-19 19:23:53] INFO root fetch - processPackages [jac-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_misc-1.4.0.8.tar.gz tmp/jac_misc-1.4.0.9.tar.gz --markdown 20230419/j/jac-misc/1.4.0.8-1.4.0.9/diff.md --exclude *.pyd
+[2023-04-19 19:23:54] INFO root fetch - main [MainThread]: End processing [ebib]: success
+[2023-04-19 19:23:54] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-19 19:23:54] INFO root fetch - main [MainThread]: End processing [jac-nlp]: success
+[2023-04-19 19:23:54] INFO root fetch - main [MainThread]: End processing [jac-vision]: success
+[2023-04-19 19:23:55] INFO root fetch - main [MainThread]: End processing [archytas]: success
+[2023-04-19 19:23:55] INFO root fetch - main [MainThread]: End processing [jac-misc]: success
+[2023-04-19 19:23:57] INFO root fetch - main [MainThread]: End processing [pyftdc]: success
+[2023-04-19 19:23:57] INFO root fetch - main [MainThread]: End processing [jaseci]: success
+[2023-04-19 19:23:57] INFO root fetch - main [MainThread]: Store serial: [17774467]
