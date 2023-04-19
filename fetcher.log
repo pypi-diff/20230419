@@ -8358,3 +8358,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-19 08:43:53] INFO root fetch - main [MainThread]: End processing [spetlr]: success
 [2023-04-19 08:43:54] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
 [2023-04-19 08:43:54] INFO root fetch - main [MainThread]: Store serial: [17766725]
+[2023-04-19 08:48:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17766725]
+[2023-04-19 08:49:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-19 08:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipymock
+[2023-04-19 08:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RiskQuantLib
+[2023-04-19 08:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ljpeg
+[2023-04-19 08:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-mvc-framework
+[2023-04-19 08:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantplay
+[2023-04-19 08:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: falu
+[2023-04-19 08:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dgraph-ops
+[2023-04-19 08:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycvc
+[2023-04-19 08:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: powerbot-client
+[2023-04-19 08:49:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: powerbot-asyncio-client
+[2023-04-19 08:49:03] INFO root fetch - processPackages [pycvc]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-19 08:49:03] WARNING root fetch - processPackages [fastapi-mvc-framework]: Skipping, unable to determine old version
+[2023-04-19 08:49:03] INFO root fetch - main [MainThread]: End processing [fastapi-mvc-framework] error
+[2023-04-19 08:49:03] INFO root fetch - processPackages [ipymock]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-19 08:49:03] INFO root fetch - processPackages [powerbot-client]: New version: [2.9.1] Old Version: [2.8.0]
+[2023-04-19 08:49:03] INFO root fetch - processPackages [ljpeg]: New version: [3.7.0] Old Version: [3.6.11]
+[2023-04-19 08:49:03] INFO root fetch - processPackages [powerbot-asyncio-client]: New version: [2.9.1] Old Version: [2.8.0]
+[2023-04-19 08:49:03] WARNING root fetch - processPackages [dgraph-ops]: Skipping, unable to determine old version
+[2023-04-19 08:49:03] INFO root fetch - processPackages [RiskQuantLib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-19 08:49:03] INFO root fetch - main [MainThread]: End processing [dgraph-ops] error
+[2023-04-19 08:49:03] INFO root fetch - processPackages [falu]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-19 08:49:03] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-19 08:49:04] INFO root fetch - processPackages [ljpeg]: Downloading https://files.pythonhosted.org/packages/59/56/48298c1fea75038d739c4a8a2191b1f60b3cd0db509018832f899ba03053/ljpeg-3.6.11.tar.gz
+[2023-04-19 08:49:04] INFO root fetch - processPackages [powerbot-client]: Downloading https://files.pythonhosted.org/packages/32/0b/e724132d00d7dcaa6865ec126d020d48e84348bb765ffda472b5da5475cf/powerbot_client-2.8.0.tar.gz
+[2023-04-19 08:49:04] INFO root fetch - processPackages [powerbot-asyncio-client]: Downloading https://files.pythonhosted.org/packages/be/ee/d18c92cbe80828136006cfd56931afb15dcecc61e2204baded7f758edc42/powerbot_asyncio_client-2.8.0.tar.gz
+[2023-04-19 08:49:04] INFO root fetch - processPackages [falu]: Downloading https://files.pythonhosted.org/packages/75/42/88d9cc8137233c6cb4784d04b9b3f13d3342c0077245ab2b380af48ff8d4/falu-1.0.0.tar.gz
+[2023-04-19 08:49:04] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-04-19 08:49:04] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230419/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-19 08:49:04] INFO root fetch - processPackages [pycvc]: Downloading https://files.pythonhosted.org/packages/29/4b/8779e374333bdb68dd7ddd5ca736d9be1f8566cf88b63664519184666eeb/pycvc-1.2.4-py3-none-any.whl
+[2023-04-19 08:49:04] INFO root fetch - processPackages [ipymock]: Downloading https://files.pythonhosted.org/packages/fd/1e/047d88929a1efcbcb6054637e91e3306c2344388f64bcaa0339990d03d17/ipymock-0.0.4.tar.gz
+[2023-04-19 08:49:04] INFO root fetch - processPackages [pycvc]: executing diffoscope
+[2023-04-19 08:49:04] INFO root fetch - processPackages [pycvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycvc-1.2.3-py3-none-any.whl.zip tmp/pycvc-1.2.4-py3-none-any.whl.zip --markdown 20230419/p/pycvc/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-19 08:49:04] INFO root fetch - processPackages [RiskQuantLib]: executing diffoscope
+[2023-04-19 08:49:04] INFO root fetch - processPackages [RiskQuantLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RiskQuantLib-0.2.8.tar.gz tmp/RiskQuantLib-0.2.9.tar.gz --markdown 20230419/R/RiskQuantLib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-19 08:49:04] INFO root fetch - processPackages [ipymock]: executing diffoscope
+[2023-04-19 08:49:04] INFO root fetch - processPackages [ipymock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymock-0.0.3.tar.gz tmp/ipymock-0.0.4.tar.gz --markdown 20230419/i/ipymock/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-19 08:49:04] INFO root fetch - processPackages [falu]: Downloading https://files.pythonhosted.org/packages/1b/88/67f1feb1781c1f474f274f31057219091e68baf846982718bc53b279af7c/falu-1.0.1.tar.gz
+[2023-04-19 08:49:04] INFO root fetch - processPackages [powerbot-client]: Downloading https://files.pythonhosted.org/packages/82/75/9b094fdd141fe048cb289df1515428db6840dd73c3d193df177a5935c755/powerbot_client-2.9.1.tar.gz
+[2023-04-19 08:49:04] INFO root fetch - processPackages [powerbot-asyncio-client]: Downloading https://files.pythonhosted.org/packages/ea/a5/4a2a32dee1aa1590d7405f12127a4969448a2e2c66809804c76dd8a48fa0/powerbot_asyncio_client-2.9.1.tar.gz
+[2023-04-19 08:49:05] INFO root fetch - processPackages [ljpeg]: Downloading https://files.pythonhosted.org/packages/04/09/ef0c1303575c165cdb2748fbc85447b41ed6531be284c52378cdcee3f8e1/ljpeg-3.7.0.tar.gz
+[2023-04-19 08:49:05] INFO root fetch - processPackages [falu]: executing diffoscope
+[2023-04-19 08:49:05] INFO root fetch - processPackages [falu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falu-1.0.0.tar.gz tmp/falu-1.0.1.tar.gz --markdown 20230419/f/falu/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-19 08:49:05] INFO root fetch - processPackages [powerbot-client]: executing diffoscope
+[2023-04-19 08:49:05] INFO root fetch - processPackages [powerbot-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerbot_client-2.8.0.tar.gz tmp/powerbot_client-2.9.1.tar.gz --markdown 20230419/p/powerbot-client/2.8.0-2.9.1/diff.md --exclude *.pyd
+[2023-04-19 08:49:05] INFO root fetch - processPackages [powerbot-asyncio-client]: executing diffoscope
+[2023-04-19 08:49:05] INFO root fetch - processPackages [powerbot-asyncio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerbot_asyncio_client-2.8.0.tar.gz tmp/powerbot_asyncio_client-2.9.1.tar.gz --markdown 20230419/p/powerbot-asyncio-client/2.8.0-2.9.1/diff.md --exclude *.pyd
+[2023-04-19 08:49:05] INFO root fetch - processPackages [ljpeg]: executing diffoscope
+[2023-04-19 08:49:05] INFO root fetch - processPackages [ljpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230419:/home/abi/fetcher/20230419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ljpeg-3.6.11.tar.gz tmp/ljpeg-3.7.0.tar.gz --markdown 20230419/l/ljpeg/3.6.11-3.7.0/diff.md --exclude *.pyd
+[2023-04-19 08:49:05] INFO root fetch - main [MainThread]: End processing [pycvc]: success
+[2023-04-19 08:49:05] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-04-19 08:49:05] INFO root fetch - main [MainThread]: End processing [ipymock]: success
+[2023-04-19 08:49:06] INFO root fetch - main [MainThread]: End processing [RiskQuantLib]: success
+[2023-04-19 08:49:06] INFO root fetch - main [MainThread]: End processing [falu]: success
+[2023-04-19 08:49:06] INFO root fetch - main [MainThread]: End processing [ljpeg]: success
+[2023-04-19 08:49:08] INFO root fetch - main [MainThread]: End processing [powerbot-client]: success
+[2023-04-19 08:49:08] INFO root fetch - main [MainThread]: End processing [powerbot-asyncio-client]: success
+[2023-04-19 08:49:08] INFO root fetch - main [MainThread]: Store serial: [17766758]
